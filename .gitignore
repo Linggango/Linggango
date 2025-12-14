@@ -20,10 +20,6 @@
 /config/*
 
 # Folders
-!/config/fancymenu
-!/config/jade
-/config/jade/*
-!/config/jade/jade.json
 !/config/ars_nouveau
 !/config/artifacts
 !/config/bettercombat
@@ -43,7 +39,10 @@
 !/config/fdbosses
 !/config/ftbquests
 !/config/goety
+!/config/hltweaker
 !/config/jade
+/config/jade/*
+!/config/jade/jade.json
 !/config/Mekanism
 !/config/Obscuria
 !/config/openloader
@@ -188,6 +187,8 @@
 !/config/xaerominimap_entities.json
 !/config/xaeroworldmap-common.txt
 !/config/xaeroworldmap.txt
+
+!/resourcepacks/HLTweaker Lines
 
 
 # KubeJS scripts

@@ -1,0 +1,5 @@
+{
+  "composite_material:etherite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_twelve"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "color": "#9400D3",
+  "level": 12,
+  "icons": {
+    "minecraft:mineable/pickaxe": "ancient_elements:aeonite_pickaxe"
+  }
+}
