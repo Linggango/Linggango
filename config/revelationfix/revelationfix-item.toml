@@ -2,13 +2,13 @@
 ["Blessing Scroll"]
 	#Damage increase provided by Scroll of a Blessing for each lucky point, as percentage.
 	#Range: 0.0 ~ 32768.0
-	DamageBoost = 0.5
+	DamageBoost = 0.4
 	#AttackSpeed increase provided by Scroll of a Blessing for each lucky point, as percentage.
 	#Range: 0.0 ~ 32768.0
 	AttackSpeedBoost = 0.01
 	#Dodge increase provided by Scroll of a Blessing for each lucky point, as percentage.
 	#Range: 0.0 ~ 100.0
-	DodgeBoost = 0.1
+	DodgeBoost = 0.0
 	#Max Dodge provided by Scroll of a Blessing, as percentage.
 	#Range: 0.0 ~ 100.0
 	MaxDodge = 20.0

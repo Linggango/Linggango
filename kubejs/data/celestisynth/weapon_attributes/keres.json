@@ -1,0 +1,79 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 4.5,
+    "attacks": [
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_cross_slash",
+        "swing_sound": {
+          "id": "simplyswords:magic_sword_attack_with_blood_01",
+          "pitch": 0.8
+        }
+      },
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_stab",
+        "swing_sound": {
+          "id": "simplyswords:magic_sword_attack_with_blood_02",
+          "pitch": 0.9
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "simplyswords:magic_sword_attack_with_blood_03",
+          "pitch": 1.2
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_vert_lr",
+        "swing_sound": {
+          "id": "simplyswords:magic_sword_attack_with_blood_04",
+          "pitch": 0.7
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "simplyswords:magic_sword_attack_with_blood_02",
+          "pitch": 0.8
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_lr",
+        "swing_sound": {
+          "id": "simplyswords:magic_sword_attack_with_blood_01",
+          "pitch": 0.8
+        }
+      }
+    ]
+  }
+}

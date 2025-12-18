@@ -1,0 +1,59 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:maledictus_pact",
+      "forbidden_arcanus:maledictus_pact",
+      "forbidden_arcanus:maledictus_pact",
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 5000,
+    "blood": 25000,
+    "experience": 2000,
+    "souls": 500
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "born_in_chaos_v1:lifestealer_bone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "terramity:dimlite_sword"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "armageddon_mod:echoing_scrap"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "terramity:dimlite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "traveloptics:withered_excrucis"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "armageddon_mod:warden_lore_scroll"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "brutality:blade_of_the_ruined_king"
+    }
+  }
+}

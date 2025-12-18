@@ -8,19 +8,31 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "infernaddon:item/ring_of_infernum_no_animationplz"
+			Icon: "goety_spillage:item/skull_bomb"
 		}
 	}
 	id: "3751A749EAB4494C"
-	images: [{
-		height: 7.0d
-		image: "celestisynth:textures/entity/visuals/keres_pulse.png"
-		rotation: 0.0d
-		width: 7.0d
-		x: -9.5d
-		y: -1.5d
-	}]
-	order_index: 4
+	images: [
+		{
+			height: 7.0d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.5d
+			y: -1.5d
+		}
+	]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,11 +53,6 @@
 			}
 			icon_scale: 1.4d
 			id: "75143005BED675A7"
-			rewards: [{
-				id: "71B93A5BFDB2AC45"
-				item: "infernaddon:ring_of_infernum"
-				type: "item"
-			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&8[Click to read]"
@@ -127,7 +134,7 @@
 				item: "alex_caves_dimensions:abyssal_chasm_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in ocean dimension (not really)"
+			subtitle: "Finish the pack in abyssal dimension (not really)"
 			tasks: [{
 				id: "70C0A56A86EEF2B3"
 				title: "awokay"
@@ -160,8 +167,8 @@
 				type: "checkmark"
 			}]
 			title: "&4&lOcculty&r &lExperience"
-			x: -7.0d
-			y: -1.5d
+			x: -11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
@@ -186,35 +193,7 @@
 				type: "checkmark"
 			}]
 			title: "&l&dSweet&r &lExperience"
-			x: -12.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["75143005BED675A7"]
-			id: "5EF296FED548984D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F2DAF53DB064F0A"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			subtitle: "Finish the pack with infernum and seven curses"
-			tasks: [
-				{
-					advancement: "infernaddon:ring_of_infernum_advancement"
-					criterion: ""
-					id: "4ECF6FF8CBC5F188"
-					type: "advancement"
-				}
-				{
-					advancement: "enigmaticlegacy:main/cursed_ring"
-					criterion: ""
-					id: "539A85B329219B67"
-					type: "advancement"
-				}
-			]
-			title: "&l&4Suffering"
-			x: -11.0d
+			x: -8.0d
 			y: -3.5d
 		}
 		{
@@ -250,28 +229,7 @@
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["&cCurrently doesn't work (probably)"]
-			icon: "simplehats:dragonskullender"
-			id: "0017ABABFDF3B760"
-			rewards: [{
-				command: "/hardmodetrue"
-				elevate_perms: true
-				id: "3490AF1ECE1C5EB8"
-				title: "Set Hard mode to &aTrue"
-				type: "command"
-			}]
-			subtitle: "Finish the pack with hardmode on from the start."
-			tasks: [{
-				id: "285A6F72CB10AA71"
-				title: "Hard mode from the start"
-				type: "checkmark"
-			}]
-			title: "&l&aGarbage Balance!"
-			x: -8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["75143005BED675A7"]
+			description: ["It's not even possible btw."]
 			icon: {
 				Count: 1
 				id: "brutality:paper_cut"
@@ -291,10 +249,10 @@
 				}
 				type: "item"
 			}]
-			subtitle: "This is probably not possible but hey, you are free to try :)"
+			subtitle: "Finish The Pack With Paper Cut Weapon"
 			tasks: [{
 				id: "65EE6321949FC53E"
-				title: "Finish The Pack With Paper Cut Weapon"
+				title: "what"
 				type: "checkmark"
 			}]
 			title: "&l&cPainful&r &lExperience"

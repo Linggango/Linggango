@@ -22,7 +22,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_stab",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_2"
+          "id" : "enigmaticdice:soul_eater_charged_hit"
         }
       },
       {
@@ -33,7 +33,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_slash_cross",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_1"
+          "id" : "enigmaticdice:soul_eater_charged_hit"
         }
       },
       {
@@ -44,7 +44,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_slash_uncross",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_2"
+          "id" : "enigmaticdice:soul_eater_charged_hit"
         }
       }
     ]

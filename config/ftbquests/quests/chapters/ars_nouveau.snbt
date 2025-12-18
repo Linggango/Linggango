@@ -940,6 +940,42 @@
 			x: -6.0d
 			y: -5.5d
 		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			hide_until_deps_complete: true
+			id: "5F1DD2ADD3D5D266"
+			shape: "gear"
+			subtitle: "Way of Blood magic."
+			tasks: [{
+				id: "113423926A8EE1CF"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F1DD2ADD3D5D266"]
+			id: "5773EE2F91F579CC"
+			tasks: [{
+				id: "19A507154AF0DBB0"
+				item: "tomeofblood:apprentice_tome_of_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5773EE2F91F579CC"]
+			id: "7535F57D31505ED5"
+			tasks: [{
+				id: "2889C7C69B7BF730"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
 	]
 	title: "Ars Nouveau"
 }

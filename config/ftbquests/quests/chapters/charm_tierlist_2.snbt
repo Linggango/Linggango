@@ -4,6 +4,7 @@
 	default_quest_shape: "netheritetier"
 	filename: "charm_tierlist_2"
 	group: "3B5FC78CC89E4CD7"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -33,11 +34,22 @@
 			x: -28.0d
 			y: 6.0d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -44.0d
+			y: 5.5d
+		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6260FF5CA71F6027"
 			shape: "netheritetier"
 			subtitle: "This relic holds a hidden power... perhaps a ritual could unlock its full potential."
@@ -50,6 +62,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1F53F85E82E54582"
 			shape: "netheritetier"
 			subtitle: "Seal of god"
@@ -68,6 +81,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "378CBB5D476CD19D"
 			shape: "netheritetier"
 			subtitle: "Harvest the power of the mighty dimensions!"
@@ -80,6 +94,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3E63DDDDB9F94A87"
 			shape: "netheritetier"
 			subtitle: "Can't pick a spellstone? This one has ALL"
@@ -92,6 +107,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "22BC32CFF4BDCD2A"
 			invisible: true
 			shape: "netheritetier"
@@ -131,6 +147,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "045FF8004797CEAE"
 			shape: "netheritetier"
 			subtitle: "How do you carry all of those charms? Belt."
@@ -156,6 +173,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7BFBDB231C09D9DE"
 			shape: "netheritetier"
 			subtitle: "Who would've thought a cape can protect you so much..."
@@ -188,6 +206,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4547F13A7A42AFC2"
 			shape: "netheritetier"
 			subtitle: "Mythical Bracelets filled with the wrath of the Gods"
@@ -200,6 +219,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5051D1E3D122C5E6"
 			shape: "netheritetier"
 			subtitle: "Crazy damage boost"
@@ -212,6 +232,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "47AFAAB04FB4D5D0"
 			shape: "netheritetier"
 			subtitle: "A radiant ring to make you stronger. If you listen closely, you can hear the echoing screams of the cataclysm..."
@@ -224,6 +245,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7BA25CD236FD1E50"
 			shape: "netheritetier"
 			subtitle: "Perfect accessory to bring to your enemies' funeral. Careful, very spiky!"
@@ -236,6 +258,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2101B81499E32A77"
 			shape: "netheritetier"
 			subtitle: "This ancient pendant is said to bring great fortune."
@@ -248,6 +271,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6547CF4BD0A0B849"
 			subtitle: "This is what the people used in the ancient coal mines. It was said to give them inhuman powers."
 			tasks: [{
@@ -259,6 +283,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "447626E4C309F248"
 			subtitle: "The ring of titans, wear this for extra health!"
 			tasks: [{
@@ -270,6 +295,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "477EFB5534302E43"
 			shape: "netheritetier"
 			subtitle: "This necklace has been imbued by the highest of Priests, you suddenly feel more invincible!"
@@ -282,6 +308,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0215551A31A60B0B"
 			shape: "netheritetier"
 			subtitle: "An old legend states that this belt was worn by Poseidon once..."
@@ -326,6 +353,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0E6427037B04CA94"
 			shape: "netheritetier"
 			subtitle: "Stronger Pets"
@@ -357,6 +385,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "51F9D89870FB085B"
 			shape: "netheritetier"
 			subtitle: "Careful... or they will get feral again."
@@ -369,6 +398,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7C6D98E8CAC78395"
 			shape: "netheritetier"
 			subtitle: "You took some boxing classes, and now your hits are more devastating!"
@@ -381,6 +411,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2F117641CC251A86"
 			shape: "netheritetier"
 			subtitle: "A ring forged by the dark entities who tried to mimic you and failed miserably."
@@ -393,6 +424,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6380C0458E681A28"
 			shape: "netheritetier"
 			subtitle: "Do you dare?"
@@ -405,6 +437,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "634A7E824484710E"
 			shape: "netheritetier"
 			subtitle: "Your prayers have been answered, and the angels have acknowledged you. You can soar through the winds!"
@@ -417,6 +450,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "24FE3CC0C5F192BF"
 			shape: "netheritetier"
 			subtitle: "A precious ring that empowers you."
@@ -429,6 +463,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1B9FC63B3BBD92D6"
 			shape: "netheritetier"
 			subtitle: "The fur of the mighty sniffers, 100% real!"
@@ -441,6 +476,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7B012C4B13DBBD22"
 			shape: "netheritetier"
 			subtitle: "Luck of the draw."
@@ -453,6 +489,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0FE79B02D7A55BBB"
 			shape: "netheritetier"
 			subtitle: "Throw a die to gamble with life or death."
@@ -465,6 +502,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0918953A83316274"
 			shape: "netheritetier"
 			subtitle: "A die powered by dark magic... when luck is on your side, you don't feel anything!"
@@ -477,6 +515,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5F03BE1D00D1B27E"
 			shape: "netheritetier"
 			subtitle: "Feeling lucky? Double damage!"
@@ -489,6 +528,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "209F7447B42C41E2"
 			shape: "netheritetier"
 			subtitle: "After months of hard work, you feel like you've mastered your techniques. You can handle weapons with ease and efficiency!"
@@ -501,6 +541,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4AEC5F5FAEFC22D9"
 			subtitle: "The power of the void shields you."
 			tasks: [{
@@ -512,6 +553,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "477C6A51E8CF6C03"
 			subtitle: "A big diamond shield which gives you passive resistance!"
 			tasks: [{
@@ -523,6 +565,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4F96B2032D358547"
 			subtitle: "The full moon rises!"
 			tasks: [{
@@ -534,6 +577,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0E7A60B3C0A8B51E"
 			subtitle: "This magic cloud empowers your jumps, 1 step closer to the heavens!"
 			tasks: [{
@@ -545,6 +589,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5F48FF8560A6D711"
 			subtitle: "You feel healthier!"
 			tasks: [{
@@ -556,6 +601,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4E90E46F93F0BB89"
 			subtitle: "Sugary drink which makes you get the zoomies!"
 			tasks: [{
@@ -567,6 +613,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6700737175A18B3D"
 			subtitle: "How else would you be able to run for this long?"
 			tasks: [{
@@ -578,6 +625,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7BDB4CF879BF0344"
 			subtitle: "After travelling for so long, you have become stronger... but sometimes sitting down can help you rest."
 			tasks: [{
@@ -589,6 +637,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "42F9C065D99B32A4"
 			subtitle: "The nature calls your name."
 			tasks: [{
@@ -600,6 +649,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2ACFD49C002BB689"
 			subtitle: "Only those who proved their worth to the cursed gods can wield this amulet."
 			tasks: [{
@@ -611,6 +661,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2185ED4A718C4C55"
 			shape: "netheritetier"
 			subtitle: "The void's treasure! Shields you from negative effects and can save you from death... if it's on your side."
@@ -623,6 +674,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3704AC3DA8EFF9FA"
 			subtitle: "You can sew yourself out of any situation. These threads are imbued with magical powers!"
 			tasks: [{
@@ -667,6 +719,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3FD1823B92E854EB"
 			subtitle: "Damage and defense at same time?!!"
 			tasks: [{
@@ -678,6 +731,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2B6342024B2DB2CD"
 			subtitle: "This spellstone enhances your defensive capabilities."
 			tasks: [{
@@ -689,6 +743,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "42FE5F850BED316E"
 			subtitle: "Red, or blue pill?"
 			tasks: [{
@@ -700,6 +755,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7280A07F2F25360B"
 			subtitle: "Fragments of stone infused with devastating flames."
 			tasks: [{
@@ -711,6 +767,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "15DE3B305974E35B"
 			subtitle: "Never make a deal with the devil..."
 			tasks: [{
@@ -722,6 +779,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "626243A78535E7E6"
 			subtitle: "Shiny, powerful!"
 			tasks: [{
@@ -733,6 +791,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7606158A98E92323"
 			subtitle: "Some cream with regenerative abilities! Don't ask where it came from."
 			tasks: [{
@@ -757,6 +816,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "733A3AAA662E2814"
 			subtitle: "Luck can sometimes protect you from harm!"
 			tasks: [{
@@ -768,6 +828,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "70D4425625E03556"
 			subtitle: "The dark powers help you in your fights and protect you from incoming damage."
 			tasks: [{
@@ -779,6 +840,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4869339995C1C973"
 			shape: "irontier"
 			subtitle: "The souls of the skeletons guide you to survive even the most dire situations."
@@ -791,6 +853,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "42009A1B8895F038"
 			subtitle: "Crafted with mighty ingots from the Iron Colossus."
 			tasks: [{
@@ -802,6 +865,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2E65D3D1FF8072FA"
 			shape: "irontier"
 			subtitle: "Not even the elder guardian's presence can stop you from mining."
@@ -814,6 +878,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "380CB7AC269F7135"
 			subtitle: "See during night time with these infinite battery goggles!"
 			tasks: [{
@@ -825,6 +890,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "622078006CE78AE0"
 			subtitle: "Refined by the Queen Bee's workers. This antidote gets rid of all sicknesses in no time!"
 			tasks: [{
@@ -836,6 +902,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: ["This item is very dangerous, if a lightning strikes you, you will lose your items."]
 			id: "51A35B59733624F3"
 			subtitle: "A broken machine engine... careful so you don't accidentally power it up."
@@ -848,6 +915,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "55D87952C880FC8E"
 			subtitle: "A smile a day makes you stronger each time :)"
 			tasks: [{
@@ -859,6 +927,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "21CF1615D39B9AF5"
 			subtitle: "Would you let a die decide your fate?"
 			tasks: [{
@@ -883,6 +952,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3BD8E5FDF6A21B5D"
 			subtitle: "A bag filled with poisonous spores... they seem to help you in your battles."
 			tasks: [{
@@ -931,6 +1001,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "34E8BB0CA281E087"
 			subtitle: "Too cool to be blinded by the cameras."
 			tasks: [{
@@ -942,6 +1013,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3D133E3ACCE4A60D"
 			subtitle: "The house always wins!"
 			tasks: [{
@@ -953,6 +1025,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "316CA5A67D14B33D"
 			subtitle: "Prismatic... Chicken?"
 			tasks: [{
@@ -964,6 +1037,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3779BA04DA606491"
 			subtitle: "Only true heroes may receive this emblem."
 			tasks: [{
@@ -975,6 +1049,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "07DBE3FE87F14C71"
 			subtitle: "A precious gem imbued with the souls of your enemies. You feel your health coming back!"
 			tasks: [{
@@ -986,6 +1061,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0262B3C7C9189C76"
 			subtitle: "It watches over you... and acknowledges. Thee is satisfied with your efforts and awards you with power."
 			tasks: [{
@@ -997,6 +1073,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3FF6A5FF63EB627B"
 			subtitle: "After many battles, your amulet is starting to evolve together with you."
 			tasks: [{
@@ -1008,6 +1085,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "263EE5F9E71B6429"
 			subtitle: "The ocean's heart pulsates with power, allowing you to become one with the water."
 			tasks: [{
@@ -1019,6 +1097,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4A72A0DF5406EAF8"
 			subtitle: "Not once, not twice... but THREE times??!"
 			tasks: [{
@@ -1030,6 +1109,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "023BF6CA1592BC76"
 			shape: "irontier"
 			subtitle: "Forged in the depths of the underworld caves, this golden ring makes you stronger."
@@ -1042,6 +1122,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2FA85A2F504DD22D"
 			shape: "irontier"
 			subtitle: "Wrist support to push your enemies further!"
@@ -1054,6 +1135,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3B54A0B7A1BFC43D"
 			shape: "irontier"
 			subtitle: "After his fall, Arion's heart seemed to radiate with energy."
@@ -1066,6 +1148,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4C10A582922942BF"
 			shape: "irontier"
 			subtitle: "This weird hood protects you from starvation.."
@@ -1078,6 +1161,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "47107CF812F3E62D"
 			shape: "irontier"
 			subtitle: "A leprechauns hat. You feel luckier"
@@ -1090,6 +1174,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5749A3A0E4BBBEBF"
 			shape: "irontier"
 			subtitle: "Wrap yourself in 10 layers of warm luck."
@@ -1102,6 +1187,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3E3A89C06EF92A80"
 			shape: "irontier"
 			subtitle: "This old hook helps you annihilate your enemies with efficiency, rewarding you with more experience."
@@ -1114,6 +1200,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "40489A518C0A91A0"
 			shape: "irontier"
 			subtitle: "Prove your HUNGER for power to the gods."
@@ -1126,6 +1213,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7A8DF0ABD7165401"
 			shape: "irontier"
 			subtitle: "Strip your armor and embrace the true strength of the might golems."
@@ -1138,6 +1226,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1ED0B247D2EBEC85"
 			shape: "irontier"
 			subtitle: "The gods award you with powers the luckier you are."
@@ -1150,6 +1239,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "53237ADA57A8D106"
 			shape: "irontier"
 			subtitle: "You have been through a lot and yet you yearn for more pain to become stronger."
@@ -1175,6 +1265,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "53540F7283A44236"
 			shape: "irontier"
 			subtitle: "This mask oozes with cursed energy... be careful how you use it."
@@ -1187,6 +1278,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1312341D83EDD1B5"
 			subtitle: "In your fight with the Sniffer, you picked up his martial arts and can inflict more damage now!"
 			tasks: [{
@@ -1198,6 +1290,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5D3D98F08B9DA0DB"
 			subtitle: "Crafted with mighty ingots from the Iron Colossus."
 			tasks: [{
@@ -1209,6 +1302,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "249CECCB9A5B9BDC"
 			shape: "irontier"
 			subtitle: "90% of gamblers quit before they hit big."
@@ -1221,6 +1315,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "62B12E0795BA10E4"
 			shape: "irontier"
 			subtitle: "You feel a cold chill as the night howls at you..."
@@ -1233,6 +1328,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: ["Your darkness swallowed up my sun? who decided that."]
 			id: "2953916AB67C36F2"
 			shape: "irontier"
@@ -1246,6 +1342,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2196D8584B11188E"
 			shape: "irontier"
 			subtitle: "You have become adept at slaying those who stand against you."
@@ -1258,6 +1355,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "497D1DFB754D8D53"
 			shape: "irontier"
 			subtitle: "You've learned how to tap in to your lucky senses."
@@ -1270,6 +1368,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "12D2C4AC857E093C"
 			shape: "woodtier"
 			subtitle: "A long claw of the dead that helps you reach!"
@@ -1282,6 +1381,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6BE7A0A84281FE1B"
 			shape: "woodtier"
 			subtitle: "A wither skeleton's spine, can protect you against withering."
@@ -1294,6 +1394,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2178925263C91F3F"
 			shape: "woodtier"
 			subtitle: "A Warden's eye, protects you against the terrors of the dark."
@@ -1306,6 +1407,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "65A3297B107C287C"
 			shape: "woodtier"
 			subtitle: "A double-edged blade."
@@ -1318,6 +1420,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "252DC525EBD41FC8"
 			shape: "woodtier"
 			subtitle: "Piglins are your friends!"
@@ -1330,6 +1433,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2EDF2A61FA2A009D"
 			shape: "woodtier"
 			subtitle: "If you are gambling alot, I suggest this."
@@ -1342,6 +1446,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0EEF3E69F0B22129"
 			shape: "woodtier"
 			subtitle: "Soft like the feathers of a bird."
@@ -1354,6 +1459,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2049A68D6C333804"
 			shape: "woodtier"
 			subtitle: "Huge armor boost, in cost of movement."
@@ -1366,6 +1472,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7C9AD0ECE9232FA7"
 			shape: "woodtier"
 			subtitle: "A device that powers your defenses when you need to."
@@ -1378,6 +1485,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "611E458333F93D1E"
 			shape: "woodtier"
 			subtitle: "Who likes their food bland anyways?"
@@ -1390,6 +1498,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "39128364E7FE2DFC"
 			subtitle: "Become one with the forge and smith like a true master!"
 			tasks: [{
@@ -1401,6 +1510,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0DC911B50600DE70"
 			subtitle: "Eldorath seemed to drop this when he perished."
 			tasks: [{
@@ -1412,6 +1522,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7D036FB0BE29DEAB"
 			shape: "netheritetier"
 			subtitle: "The ring of titans, wear this for extra health!"
@@ -1424,6 +1535,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "555AB3F36CFF4CAE"
 			subtitle: "This small totem represents a new life. A one time save from death."
 			tasks: [{
@@ -1435,6 +1547,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "673B65985B57742E"
 			subtitle: "Indulge in pain and become stronger."
 			tasks: [{
@@ -1446,6 +1559,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2E322DF369EB01FC"
 			subtitle: "A stone used by blacksmits to sharpen blades. Very strong!"
 			tasks: [{
@@ -1457,6 +1571,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "65210ECAFBF368F8"
 			subtitle: "An archer's dream..."
 			tasks: [{
@@ -1468,6 +1583,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "70448D0F065EF75A"
 			shape: "netheritetier"
 			subtitle: "The final crown forged from the breath of the dying gods. The air trembles at your presence, and their whispers play in your head. They are all watching you..."
@@ -1489,6 +1605,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "538987B47B97AD34"
 			shape: "netheritetier"
 			subtitle: "Target... lucky practice?"
@@ -1507,6 +1624,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2A2A134ACD1F06E9"
 			shape: "netheritetier"
 			subtitle: "Super Sniffer's anklet!"
@@ -1525,6 +1643,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4C65F21F7C8469EF"
 			shape: "netheritetier"
 			subtitle: "Heart of the mystical dragons who soared the skies"
@@ -1543,6 +1662,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "32C7D5C1DD8871E0"
 			shape: "netheritetier"
 			subtitle: "What happens when you study too much tech..."
@@ -1561,6 +1681,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "17DC79A2FE303912"
 			shape: "netheritetier"
 			subtitle: "3.14"
@@ -1579,6 +1700,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "66923D99B62403E3"
 			shape: "netheritetier"
 			subtitle: "BYE-BYE ARMOR!!!"
@@ -1597,6 +1719,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5439E462DA019B22"
 			shape: "netheritetier"
 			subtitle: "An extra hand with extra fingers?"
@@ -1615,6 +1738,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "29C3CF3ED10CE449"
 			shape: "netheritetier"
 			subtitle: "This stone was brewed in the raging volcanoes of the depthy mountains."
@@ -1633,6 +1757,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2060B817BE0B7ACE"
 			shape: "netheritetier"
 			subtitle: "Fuel yourself with pain and convert it into anger."
@@ -1651,6 +1776,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "677169E91A300AB8"
 			shape: "netheritetier"
 			subtitle: "Multiply your damage!"
@@ -1669,6 +1795,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "53F0E4A44D37BF8C"
 			subtitle: "Did you say you stole this from Gob?"
 			tasks: [{
@@ -1686,6 +1813,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7D13B04C2DC69E18"
 			subtitle: "The rage grows within you..."
 			tasks: [{
@@ -1703,6 +1831,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "79179E13AEFB1B38"
 			subtitle: "Not the type of milk you'd expect..."
 			tasks: [{
@@ -1720,6 +1849,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3851E1DFB2B069D7"
 			subtitle: "No more looking at the stars, you can fly on one!"
 			tasks: [{
@@ -1738,6 +1868,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "29A7F2D3E404D8AD"
 			subtitle: "An absolute must for an exam."
 			tasks: [{
@@ -1755,6 +1886,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2F64A96E78F4CC26"
 			subtitle: "Take away the things you don't like in life.,"
 			tasks: [{
@@ -1772,6 +1904,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "285BA35F38F3EB11"
 			shape: "goldtier"
 			subtitle: "Heart imbued with regenerative abilities."
@@ -1790,6 +1923,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "64DE76D199C315F3"
 			shape: "goldtier"
 			subtitle: "Remember the Math lessons you hated?"
@@ -1808,6 +1942,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "716D918C032B21B4"
 			shape: "goldtier"
 			subtitle: "Fancy way to execute your enemies"
@@ -1826,6 +1961,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0EDDA18C1088247C"
 			shape: "goldtier"
 			subtitle: "A chocolate piece wont hurt, right?"
@@ -1844,6 +1980,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6B3DEFF67A97FE6F"
 			subtitle: "Needle infused with your blood."
 			tasks: [{
@@ -1861,6 +1998,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "000CD6CEDC6A6313"
 			subtitle: "Alt F4's little brother"
 			tasks: [{
@@ -1878,6 +2016,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5BF9A1EA07CB4ED2"
 			shape: "irontier"
 			tasks: [{
@@ -1895,6 +2034,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5561436F911EB095"
 			shape: "irontier"
 			subtitle: "Perhaps you could still use it."
@@ -1913,6 +2053,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "054C2A129DD9464B"
 			shape: "irontier"
 			subtitle: "Sine... but with extra steps"
@@ -1931,6 +2072,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "27AA08D7E38E7039"
 			shape: "irontier"
 			subtitle: "Infinite healing???"
@@ -1949,6 +2091,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "59CA8ACC9FB786FD"
 			shape: "irontier"
 			subtitle: "Fancy earrings!"
@@ -1967,6 +2110,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1406EE2D8C160E7D"
 			shape: "irontier"
 			subtitle: "Cosine... but with extra steps"
@@ -1985,6 +2129,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "249B4AC60151546E"
 			shape: "woodtier"
 			subtitle: "Embrace the hasty winds!"
@@ -2003,6 +2148,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "692AF72DA7D1B78C"
 			shape: "woodtier"
 			subtitle: "Maybe it has some uses..."
@@ -2021,6 +2167,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "34D228D657B593E5"
 			shape: "woodtier"
 			subtitle: "Siphon your opponent's life."
@@ -2039,6 +2186,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2B56063F7F1DC71E"
 			shape: "woodtier"
 			subtitle: "Glasses but with aura."
@@ -2057,6 +2205,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "04C51D040673A187"
 			shape: "woodtier"
 			subtitle: "Loot goblin!"
@@ -2075,6 +2224,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "50C1419E0152EE01"
 			shape: "woodtier"
 			subtitle: "Gloves but... with passion."
@@ -2093,6 +2243,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3C5634F17369EB1B"
 			subtitle: "An ancient clock that was frozen in tine... it seems to have grown magical properties."
 			tasks: [{
@@ -2110,6 +2261,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3F46BD66E1E8092D"
 			subtitle: "How greedy?"
 			tasks: [{
@@ -2127,6 +2279,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "06EB72C5AF537479"
 			subtitle: "The gloves of the Grand Duelist!"
 			tasks: [{
@@ -2144,6 +2297,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "265FE38FF0C1A07E"
 			subtitle: "A mage's wet dream!"
 			tasks: [{
@@ -2161,6 +2315,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6EE7EAAC2ED00629"
 			subtitle: "Mad Scientist."
 			tasks: [{
@@ -2178,6 +2333,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1FE74EEEE3D758CD"
 			subtitle: "Pick a card... any card"
 			tasks: [{
@@ -2195,6 +2351,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6FA9BC3A7187BEDC"
 			subtitle: "Meep Meep!"
 			tasks: [{
@@ -2212,6 +2369,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "78A776401D591154"
 			shape: "goldtier"
 			tasks: [{
@@ -2229,6 +2387,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "042ADBC9AE1FEE8B"
 			subtitle: "Keep an eye on the market."
 			tasks: [{

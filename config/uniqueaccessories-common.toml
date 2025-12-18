@@ -312,6 +312,9 @@
 		#chance for tool_belt.village_taiga_house
 		#Range: 0.0 ~ 1.0
 		tool_belt_village_taiga_house = 0.03
+		#chance for rusty_guillotine_blade.ruined_portal
+		#Range: 0.0 ~ 1.0
+		rusty_guillotine_blade_ruined_portal = 0.2
 
 [charm]
 	#Range: 0.0 ~ 512.0

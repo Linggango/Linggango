@@ -19,8 +19,8 @@
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
-		x: 1.5d
-		y: -1.0d
+		x: 0.0d
+		y: 0.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -126,7 +126,7 @@
 				type: "checkmark"
 			}]
 			title: "&aI&r &cam&r &da&r &eArtist!&r"
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -152,34 +152,8 @@
 				type: "checkmark"
 			}]
 			title: "&2I&r &eam&r &da&r &3Musician!"
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0F7C91873C1F3B5E"]
-			description: [
-				"Wield the Master Staff to command your army!"
-				""
-				"-cut down trees!"
-				"-dig tunnels!"
-				"-steal from chests!"
-				"-steal livestock!"
-				"-more!"
-			]
-			id: "663A5615318D189F"
-			rewards: [{
-				id: "7D591D43BC46948D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Minions!"
-			tasks: [{
-				id: "76EA9049A253D795"
-				item: "minionsremastered:masters_staff"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.952380952380956d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
@@ -217,8 +191,8 @@
 				type: "checkmark"
 			}]
 			title: "Skull Pikes"
-			x: 0.0d
-			y: -2.952380952380956d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]

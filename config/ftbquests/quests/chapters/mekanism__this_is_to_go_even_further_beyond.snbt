@@ -6,17 +6,27 @@
 	group: "3C6437AAADAFC5CB"
 	icon: "evolvedmekanism:chemixer"
 	id: "607FC85B97E241AE"
-	images: [{
-		click: "https://www.curseforge.com/minecraft/mc-mods/evolved-mekanism "
-		height: 1.0d
-		hover: ["Mekanism Evolved Wiki Page"]
-		image: "customtextures:textures/wikipng.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -6.5d
-		y: 0.5d
-	}]
-	order_index: 13
+	images: [
+		{
+			height: 3.0d
+			image: "customtextures:textures/evolvedmekanism.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -40,7 +50,7 @@
 				type: "checkmark"
 			}]
 			title: "Extreme Mekanism"
-			x: -2.5d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -61,7 +71,7 @@
 				item: "evolvedmekanism:alloy_hypercharged"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -81,7 +91,7 @@
 				item: "evolvedmekanism:alloy_subatomic"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -101,7 +111,7 @@
 				item: "evolvedmekanism:alloy_singular"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
 			y: -7.0d
 		}
 		{
@@ -142,7 +152,7 @@
 				item: "evolvedmekanism:overclocked_control_circuit"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -5.0d
 		}
 		{
@@ -163,7 +173,7 @@
 				item: "evolvedmekanism:quantum_control_circuit"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
@@ -205,7 +215,7 @@
 				item: "evolvedmekanism:dense_control_circuit"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
 			y: -9.0d
 		}
 		{
@@ -225,7 +235,7 @@
 				item: "evolvedmekanism:ingot_refined_redstone"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: 5.0d
 		}
 		{
@@ -291,7 +301,7 @@
 				}
 			]
 			title: "Refined Redstone Set"
-			x: -6.5d
+			x: -4.5d
 			y: 6.5d
 		}
 		{
@@ -368,7 +378,7 @@
 				}
 			]
 			title: "Refined Redstone Toolset"
-			x: -5.5d
+			x: -3.5d
 			y: 6.5d
 		}
 		{
@@ -386,7 +396,7 @@
 				item: "evolvedmekanism:overclocked_tier_installer"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -398,7 +408,7 @@
 				item: "evolvedmekanism:overclocked_bin"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -416,7 +426,7 @@
 				item: "evolvedmekanism:overclocked_induction_cell"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -7.0d
 		}
 		{
@@ -434,7 +444,7 @@
 				item: "evolvedmekanism:overclocked_induction_provider"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
@@ -451,7 +461,7 @@
 				item: "evolvedmekanism:overclocked_fluid_tank"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: -6.5d
 		}
 		{
@@ -462,7 +472,7 @@
 				item: "evolvedmekanism:overclocked_energy_cube"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -473,7 +483,7 @@
 				item: "evolvedmekanism:overclocked_chemical_tank"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -7.0d
 		}
 		{
@@ -484,7 +494,7 @@
 				item: "evolvedmekanism:overclocked_personal_barrel"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -495,7 +505,7 @@
 				item: "evolvedmekanism:overclocked_personal_chest"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
@@ -512,7 +522,7 @@
 				item: "evolvedmekanism:overclocked_solar_generator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -5.0d
 		}
 		{
@@ -523,7 +533,7 @@
 				item: "evolvedmekanism:overclocked_smelting_factory"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: -5.5d
 		}
 		{
@@ -534,7 +544,7 @@
 				item: "evolvedmekanism:overclocked_enriching_factory"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: -6.5d
 		}
 		{
@@ -545,7 +555,7 @@
 				item: "evolvedmekanism:overclocked_crushing_factory"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
@@ -556,7 +566,7 @@
 				item: "evolvedmekanism:overclocked_compressing_factory"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
@@ -567,7 +577,7 @@
 				item: "evolvedmekanism:overclocked_combining_factory"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -7.5d
 		}
 		{
@@ -578,7 +588,7 @@
 				item: "evolvedmekanism:overclocked_purifying_factory"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: -7.5d
 		}
 		{
@@ -589,7 +599,7 @@
 				item: "evolvedmekanism:overclocked_injecting_factory"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -7.0d
 		}
 		{
@@ -600,7 +610,7 @@
 				item: "evolvedmekanism:overclocked_infusing_factory"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -611,7 +621,7 @@
 				item: "evolvedmekanism:overclocked_sawing_factory"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -622,7 +632,7 @@
 				item: "evolvedmekanism:overclocked_alloying_factory"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: -5.5d
 		}
 		{
@@ -639,7 +649,7 @@
 				item: "evolvedmekanism:quantum_tier_installer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
@@ -650,7 +660,7 @@
 				item: "evolvedmekanism:quantum_bin"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -2.5d
 		}
 		{
@@ -667,7 +677,7 @@
 				item: "evolvedmekanism:quantum_induction_cell"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -678,7 +688,7 @@
 				item: "evolvedmekanism:quantum_induction_provider"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -695,7 +705,7 @@
 				item: "evolvedmekanism:quantum_fluid_tank"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -712,7 +722,7 @@
 				item: "evolvedmekanism:quantum_chemical_tank"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -723,7 +733,7 @@
 				item: "evolvedmekanism:quantum_energy_cube"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -740,7 +750,7 @@
 				item: "evolvedmekanism:quantum_solar_generator"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -751,7 +761,7 @@
 				item: "evolvedmekanism:quantum_personal_barrel"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -762,7 +772,7 @@
 				item: "evolvedmekanism:quantum_personal_chest"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -3.5d
 		}
 		{
@@ -773,7 +783,7 @@
 				item: "evolvedmekanism:quantum_smelting_factory"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -784,7 +794,7 @@
 				item: "evolvedmekanism:quantum_enriching_factory"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -795,7 +805,7 @@
 				item: "evolvedmekanism:quantum_crushing_factory"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -806,7 +816,7 @@
 				item: "evolvedmekanism:quantum_compressing_factory"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -3.0d
 		}
 		{
@@ -817,7 +827,7 @@
 				item: "evolvedmekanism:quantum_combining_factory"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -828,7 +838,7 @@
 				item: "evolvedmekanism:quantum_purifying_factory"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -839,7 +849,7 @@
 				item: "evolvedmekanism:quantum_injecting_factory"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: -4.5d
 		}
 		{
@@ -850,7 +860,7 @@
 				item: "evolvedmekanism:quantum_infusing_factory"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -3.5d
 		}
 		{
@@ -861,7 +871,7 @@
 				item: "evolvedmekanism:quantum_sawing_factory"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -872,7 +882,7 @@
 				item: "evolvedmekanism:quantum_alloying_factory"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -889,7 +899,7 @@
 				item: "evolvedmekanism:dense_tier_installer"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -8.0d
 		}
 		{
@@ -900,7 +910,7 @@
 				item: "evolvedmekanism:dense_bin"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -9.0d
 		}
 		{
@@ -917,7 +927,7 @@
 				item: "evolvedmekanism:dense_induction_cell"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -10.0d
 		}
 		{
@@ -934,7 +944,7 @@
 				item: "evolvedmekanism:dense_induction_provider"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -10.5d
 		}
 		{
@@ -951,7 +961,7 @@
 				item: "evolvedmekanism:dense_fluid_tank"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -12.0d
 		}
 		{
@@ -962,7 +972,7 @@
 				item: "evolvedmekanism:dense_chemical_tank"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -11.0d
 		}
 		{
@@ -973,7 +983,7 @@
 				item: "evolvedmekanism:dense_energy_cube"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -10.0d
 		}
 		{
@@ -990,7 +1000,7 @@
 				item: "evolvedmekanism:dense_solar_generator"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -9.0d
 		}
 		{
@@ -1001,7 +1011,7 @@
 				item: "evolvedmekanism:dense_smelting_factory"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -8.5d
 		}
 		{
@@ -1012,7 +1022,7 @@
 				item: "evolvedmekanism:dense_enriching_factory"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -9.5d
 		}
 		{
@@ -1023,7 +1033,7 @@
 				item: "evolvedmekanism:dense_crushing_factory"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -10.5d
 		}
 		{
@@ -1034,7 +1044,7 @@
 				item: "evolvedmekanism:dense_compressing_factory"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -11.0d
 		}
 		{
@@ -1045,7 +1055,7 @@
 				item: "evolvedmekanism:dense_combining_factory"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -11.5d
 		}
 		{
@@ -1056,7 +1066,7 @@
 				item: "evolvedmekanism:dense_purifying_factory"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -10.5d
 		}
 		{
@@ -1067,7 +1077,7 @@
 				item: "evolvedmekanism:dense_injecting_factory"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -11.5d
 		}
 		{
@@ -1078,7 +1088,7 @@
 				item: "evolvedmekanism:dense_infusing_factory"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -10.5d
 		}
 		{
@@ -1089,7 +1099,7 @@
 				item: "evolvedmekanism:dense_sawing_factory"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -9.5d
 		}
 		{
@@ -1100,7 +1110,7 @@
 				item: "evolvedmekanism:dense_alloying_factory"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -8.5d
 		}
 		{
@@ -1111,7 +1121,7 @@
 				item: "evolvedmekanism:dense_personal_barrel"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -9.5d
 		}
 		{
@@ -1122,7 +1132,7 @@
 				item: "evolvedmekanism:dense_personal_chest"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -8.5d
 		}
 		{
@@ -1377,7 +1387,7 @@
 				item: "evolvedmekanism:overclocked_universal_cable"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -7.5d
 		}
 		{
@@ -1394,7 +1404,7 @@
 				item: "evolvedmekanism:overclocked_mechanical_pipe"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
@@ -1411,7 +1421,7 @@
 				item: "evolvedmekanism:overclocked_pressurized_tube"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: -8.0d
 		}
 		{
@@ -1422,7 +1432,7 @@
 				item: "evolvedmekanism:overclocked_logistical_transporter"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -7.5d
 		}
 		{
@@ -1439,7 +1449,7 @@
 				item: "evolvedmekanism:overclocked_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -8.5d
 		}
 		{
@@ -1456,7 +1466,7 @@
 				item: "evolvedmekanism:dense_universal_cable"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -11.5d
 		}
 		{
@@ -1473,7 +1483,7 @@
 				item: "evolvedmekanism:dense_mechanical_pipe"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -8.5d
 		}
 		{
@@ -1490,7 +1500,7 @@
 				item: "evolvedmekanism:dense_logistical_transporter"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -9.5d
 		}
 		{
@@ -1507,7 +1517,7 @@
 				item: "evolvedmekanism:dense_pressurized_tube"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -11.5d
 		}
 		{
@@ -1524,7 +1534,7 @@
 				item: "evolvedmekanism:dense_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -12.0d
 		}
 		{
@@ -1541,7 +1551,7 @@
 				item: "evolvedmekanism:quantum_universal_cable"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -1558,7 +1568,7 @@
 				item: "evolvedmekanism:quantum_mechanical_pipe"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -1575,7 +1585,7 @@
 				item: "evolvedmekanism:quantum_logistical_transporter"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -1592,7 +1602,7 @@
 				item: "evolvedmekanism:quantum_pressurized_tube"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -0.5d
 		}
 		{
@@ -1609,7 +1619,7 @@
 				item: "evolvedmekanism:quantum_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -1735,8 +1745,8 @@
 				item: "evolvedmekanism:advanced_personal_barrel"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["490C4C9FFBBBD972"]
@@ -1748,8 +1758,8 @@
 				item: "evolvedmekanism:elite_personal_barrel"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["57938B49A1A11504"]
@@ -1761,8 +1771,8 @@
 				item: "evolvedmekanism:ultimate_personal_barrel"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CAB5A327810DF8A"]
@@ -1774,8 +1784,8 @@
 				item: "evolvedmekanism:advanced_personal_chest"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.0d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7B6D9DBF573A2130"]
@@ -1787,8 +1797,8 @@
 				item: "evolvedmekanism:elite_personal_chest"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["54F4D40A738B31AA"]
@@ -1800,8 +1810,8 @@
 				item: "evolvedmekanism:ultimate_personal_chest"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4C1072A1EE8BF205"]
@@ -1811,7 +1821,7 @@
 				item: "evolvedmekanism:qio_drive_boosted"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -1822,7 +1832,7 @@
 				item: "evolvedmekanism:qio_drive_hypra_solidified"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -1833,7 +1843,7 @@
 				item: "evolvedmekanism:qio_drive_singularity"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: -0.5d
 		}
 		{
@@ -1857,7 +1867,7 @@
 				item: "evolvedmekanism:alloyer"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -1882,7 +1892,7 @@
 				item: "evolvedmekanism:thermalizer"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -2057,7 +2067,7 @@
 				type: "checkmark"
 			}]
 			title: "Equipment Additions"
-			x: -2.5d
+			x: -0.5d
 			y: 4.0d
 		}
 		{
@@ -2077,7 +2087,7 @@
 				item: "evolvedmekanism:ingot_better_gold"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: 5.5d
 		}
 		{
@@ -2143,7 +2153,7 @@
 				}
 			]
 			title: "Better Gold Set"
-			x: -3.0d
+			x: -1.0d
 			y: 7.0d
 		}
 		{
@@ -2220,7 +2230,7 @@
 				}
 			]
 			title: "Better Gold Toolset"
-			x: -2.0d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -2240,7 +2250,7 @@
 				item: "evolvedmekanism:ingot_plaslitherite"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
@@ -2306,7 +2316,7 @@
 				}
 			]
 			title: "Plaslitherite Set"
-			x: 0.5d
+			x: 2.5d
 			y: 6.5d
 		}
 		{
@@ -2383,7 +2393,7 @@
 				}
 			]
 			title: "Plaslitherite Toolset"
-			x: 1.5d
+			x: 3.5d
 			y: 6.5d
 		}
 		{
@@ -2498,7 +2508,7 @@
 				}
 			]
 			title: "The APT"
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -2512,7 +2522,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Well here's a goal for you"
+			subtitle: "AAAAAAAAAAAAAAAAAAAAAAAAAA"
 			tasks: [{
 				id: "2BEBEE5F2D8951E1"
 				max_input: 1000L
@@ -2528,7 +2538,7 @@
 			id: "4BF221FC660BB468"
 			shape: "pentagon"
 			size: 1.4d
-			subtitle: "Truly \"Evolved\" Mekanism"
+			subtitle: "its over 9000!!!"
 			tasks: [{
 				id: "48A2B2C106C320C7"
 				max_input: 1000L

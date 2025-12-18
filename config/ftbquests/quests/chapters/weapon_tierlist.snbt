@@ -4,6 +4,7 @@
 	default_quest_shape: "rsquare"
 	filename: "weapon_tierlist"
 	group: "3B5FC78CC89E4CD7"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -33,11 +34,22 @@
 			x: -28.0d
 			y: 6.0d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -29.0d
+			y: -4.5d
+		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "365CA15561855CFF"
 			subtitle: "agile, short-range dual weapon."
 			tasks: [{
@@ -55,6 +67,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "34BB9B5B6088708D"
 			subtitle: "fun niche duals, short range."
 			tasks: [{
@@ -72,6 +85,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3EF008E0449A0E60"
 			subtitle: "classic and consistent."
 			tasks: [{
@@ -89,6 +103,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "16BFCA4AB066430D"
 			subtitle: "quick jabs, low range."
 			tasks: [{
@@ -106,6 +121,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "41B282BBF6EEB402"
 			subtitle: "solid AoE and range, strong starter."
 			tasks: [{
@@ -123,6 +139,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1DF32C834D7BD8A7"
 			subtitle: "big reach, slower swings."
 			tasks: [{
@@ -140,6 +157,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "42F9D601BC335E9F"
 			subtitle: "excellent all-round heavy weapon."
 			tasks: [{
@@ -157,6 +175,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "36405AB421E0BEFA"
 			subtitle: "balanced and satisfying weight."
 			tasks: [{
@@ -174,6 +193,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7A36CC8371B8272E"
 			subtitle: "massive stagger and knockback."
 			tasks: [{
@@ -191,6 +211,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "12F7477F42C70F9B"
 			subtitle: "huge damage and cleave."
 			tasks: [{
@@ -208,6 +229,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7ED1A4DC4884A4BB"
 			subtitle: "fast thrusts, precision weapon."
 			tasks: [{
@@ -225,6 +247,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3E401C14E29041EC"
 			subtitle: "flashy dual strikes, nice rhythm."
 			tasks: [{
@@ -242,6 +265,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7C4DCCF32650BC3E"
 			subtitle: "curved reach, good combos."
 			tasks: [{
@@ -259,6 +283,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7FA687B70C75CEB7"
 			subtitle: "balanced and stylish."
 			tasks: [{
@@ -276,6 +301,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "11B1F70D86C060DD"
 			subtitle: "throwable, situational but fun."
 			tasks: [{
@@ -293,6 +319,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "10B9C1B6D2F4D2FE"
 			subtitle: "reach weapon, good for spacing."
 			tasks: [{
@@ -310,6 +337,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "325B04B311BE7BF2"
 			subtitle: "decent versatility."
 			tasks: [{
@@ -327,6 +355,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "581DC062A3CFF0B0"
 			subtitle: "best early-game reach and control."
 			tasks: [{
@@ -344,6 +373,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5D92D0D558B616C7"
 			subtitle: "great for sweeping crowds."
 			tasks: [{
@@ -361,6 +391,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "19FE4ECECE9E3BC7"
 			subtitle: "fast ramp-up DPS, weak range."
 			tasks: [{
@@ -378,6 +409,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "38D16E860E1C675B"
 			subtitle: "can be infused with spells, great if found early."
 			tasks: [{
@@ -406,6 +438,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: [
 				"&eTop 5 Early Game Picks:"
 				""
@@ -440,6 +473,7 @@
 			y: 12.892534240848995d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6911D4F9B734F080"
 			shape: "irontier"
 			subtitle: "stylish but underwhelming."
@@ -458,6 +492,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3110EC365932F603"
 			shape: "irontier"
 			subtitle: "adds bleed debuff, nice synergy."
@@ -476,6 +511,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "31DA26F6F0B487A8"
 			shape: "irontier"
 			subtitle: "adds bleed debuff, nice synergy."
@@ -494,6 +530,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "226F837300098C5D"
 			shape: "irontier"
 			subtitle: "Dual wield for major mob-melting potential."
@@ -512,6 +549,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0A16E7B46C3973A2"
 			shape: "irontier"
 			subtitle: "poison-based, good for venom builds."
@@ -530,6 +568,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "095ED95E8F525A5A"
 			shape: "irontier"
 			subtitle: "multi-element fun."
@@ -592,6 +631,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "54E57CACC14E7036"
 			shape: "irontier"
 			subtitle: "applies wither, great utility."
@@ -610,6 +650,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "408E14A12A316612"
 			shape: "irontier"
 			subtitle: "deals true damage, armor shredder."
@@ -628,6 +669,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "20C6D18B146693D1"
 			shape: "irontier"
 			subtitle: "AoE splash chance."
@@ -646,6 +688,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0EBA43F691699F01"
 			shape: "irontier"
 			subtitle: "adds Fire Aspect + Strength."
@@ -664,6 +707,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "53CC3E5C2E633391"
 			shape: "irontier"
 			subtitle: "high requirement but devastating."
@@ -682,6 +726,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "077B432773B69C8D"
 			shape: "irontier"
 			subtitle: "(4,200 w/ Fateful Coin); gambler’s dream combo."
@@ -700,6 +745,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "12EAEBDED64C2383"
 			subtitle: "situational water weapon."
 			tasks: [{
@@ -717,6 +763,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5B73644E36DCE770"
 			subtitle: "same, water-only efficiency."
 			tasks: [{
@@ -734,6 +781,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: [
 				"&eTop 5 Mid-Progression Picks:"
 				""
@@ -769,6 +817,7 @@
 			y: 9.6d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4B3C1C5EC634E9DF"
 			shape: "goldtier"
 			subtitle: "long reach and double DoT stacking."
@@ -787,6 +836,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2B4115B80D1547A8"
 			shape: "goldtier"
 			subtitle: "poison-only, underwhelming."
@@ -805,6 +855,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2DE5DF08D8C228EC"
 			shape: "goldtier"
 			subtitle: "low damage, skip it."
@@ -823,6 +874,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2373880F3BB3B6BC"
 			shape: "goldtier"
 			subtitle: "long reach, shadowflame DoT."
@@ -841,6 +893,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "24E8DBBD74ABB9FB"
 			shape: "goldtier"
 			subtitle: "AoE burn, pierces mobs, strong choice."
@@ -859,6 +912,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "503611E84BC75FAD"
 			shape: "goldtier"
 			subtitle: "can act as bow, versatile tool."
@@ -877,6 +931,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "428BDA2AE30C518D"
 			shape: "goldtier"
 			subtitle: "hard to craft, doesn’t deliver."
@@ -895,6 +950,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7A92B7FFB2BF917D"
 			shape: "goldtier"
 			subtitle: "grants huge absorption, tank weapon."
@@ -913,6 +969,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7BCF3332689B4524"
 			shape: "goldtier"
 			subtitle: "monstrous if Megalomaniac effect triggers."
@@ -931,6 +988,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "145A68E4454F2B9E"
 			shape: "goldtier"
 			subtitle: "heal on kill, great sustain."
@@ -949,6 +1007,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7CE2CF0C061F3EC2"
 			shape: "goldtier"
 			subtitle: "lifesteal per hit, steady healing."
@@ -967,6 +1026,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7E06466ED802B0F7"
 			shape: "goldtier"
 			subtitle: "decent, lacks uniqueness."
@@ -985,6 +1045,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6B69FCB98BD88803"
 			shape: "goldtier"
 			subtitle: "meh, skip. (BONG sound effect is peak)"
@@ -1003,6 +1064,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7B425CBE5057E055"
 			shape: "goldtier"
 			subtitle: "solid lifesteal."
@@ -1021,6 +1083,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5A84BDCB4C7DCE59"
 			shape: "goldtier"
 			subtitle: "strong visuals, middling performance."
@@ -1039,6 +1102,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4484F68F3941B5BD"
 			shape: "goldtier"
 			subtitle: "strong visuals, middling performance."
@@ -1057,6 +1121,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5C66BF81BF3D12DA"
 			shape: "goldtier"
 			subtitle: "weaker Scarlet Guillotine variant."
@@ -1075,6 +1140,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "74A8350625ED802B"
 			shape: "goldtier"
 			subtitle: "fun dash ability, reliable DPS."
@@ -1093,6 +1159,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "78982E146E059088"
 			shape: "goldtier"
 			subtitle: "30% AoE proc, inconsistent."
@@ -1111,6 +1178,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7BB12182E94339CE"
 			shape: "goldtier"
 			subtitle: "infinite ender pearls, utility weapon."
@@ -1129,6 +1197,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "585F0A9D2AB02980"
 			shape: "goldtier"
 			subtitle: "applies Voidflame on hit."
@@ -1147,6 +1216,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5AA85545E5859F0E"
 			shape: "goldtier"
 			subtitle: "massive reach, very consistent."
@@ -1165,6 +1235,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "230D9809ADF5421D"
 			shape: "goldtier"
 			subtitle: "weak overall."
@@ -1183,6 +1254,7 @@
 			y: 7.01292517006803d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7615EA46C5E863D6"
 			shape: "goldtier"
 			subtitle: "cool concept, low DPS."
@@ -1201,6 +1273,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6A870355462F53D3"
 			shape: "goldtier"
 			subtitle: "powerful AoE and stable high DPS."
@@ -1219,6 +1292,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "42CC2A56D3432C86"
 			shape: "goldtier"
 			subtitle: "AoE crowd control, clutch saver."
@@ -1237,6 +1311,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "06AFF9812FA26406"
 			shape: "goldtier"
 			subtitle: "long-range cheese weapon."
@@ -1255,6 +1330,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3DBAE8C414ED487E"
 			shape: "goldtier"
 			subtitle: "strong, balanced, fun."
@@ -1273,6 +1349,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "23597CEA2C57FE8D"
 			shape: "goldtier"
 			subtitle: "infinite flame debuff, great for bosses."
@@ -1291,6 +1368,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6883E6321BC6B8FD"
 			shape: "goldtier"
 			subtitle: "infinite flame debuff, excellent single-target."
@@ -1309,6 +1387,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "54EE139609FB1F4C"
 			shape: "goldtier"
 			subtitle: "idol synergy for bonus damage."
@@ -1327,6 +1406,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5CAC82D5EF807043"
 			shape: "goldtier"
 			subtitle: "ideal for farming spirits."
@@ -1345,6 +1425,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "031D0CE25462C441"
 			shape: "goldtier"
 			subtitle: "can push you back, odd utility."
@@ -1363,6 +1444,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1589187EA3B38B37"
 			shape: "goldtier"
 			subtitle: "fire + voidflame combo + movement skill."
@@ -1381,6 +1463,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1C23DC5E837A5E9B"
 			shape: "goldtier"
 			subtitle: "situational hunger setups."
@@ -1399,6 +1482,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "73A881EC38455B63"
 			shape: "goldtier"
 			subtitle: "situational hunger setups."
@@ -1417,6 +1501,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "464799554971CB2B"
 			shape: "goldtier"
 			subtitle: "Ultimate Sword of the Elements"
@@ -1493,6 +1578,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "206EFA8167522413"
 			shape: "goldtier"
 			subtitle: "weaker elemental variant."
@@ -1511,6 +1597,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "147A413EC4D9A2E8"
 			shape: "goldtier"
 			subtitle: "excels vs bosses due to high base damage."
@@ -1529,6 +1616,7 @@
 			y: 3.500000000000007d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: [
 				"&6Top 10 Mid-Game Weapons:"
 				""
@@ -1574,6 +1662,7 @@
 			y: 2.8d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6F8A35B65136E495"
 			shape: "netheritetier"
 			subtitle: "range + two brutal debuffs."
@@ -1592,6 +1681,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "14353CD9FDB62538"
 			shape: "netheritetier"
 			subtitle: "big AoE, weak single target."
@@ -1610,6 +1700,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "053705DAC6AF7773"
 			shape: "netheritetier"
 			subtitle: "seeking skulls + debuff stacker."
@@ -1628,6 +1719,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "10493A9CCAB68668"
 			shape: "netheritetier"
 			subtitle: "damage scales infinitely with gambling accessories."
@@ -1646,6 +1738,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "57FDACFA704CF89D"
 			shape: "netheritetier"
 			subtitle: "strong lifesteal + debuff stacking."
@@ -1664,6 +1757,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2F04F50608C826C6"
 			shape: "netheritetier"
 			subtitle: "aura damage, strong wave clear."
@@ -1682,6 +1776,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "66A3DEE8B2404641"
 			shape: "netheritetier"
 			subtitle: "you win. Enough said."
@@ -1700,6 +1795,7 @@
 			y: -0.9999999999999929d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "474987B4849AD8A9"
 			shape: "netheritetier"
 			subtitle: "insane backstab, risky range."
@@ -1718,6 +1814,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4560BDF2ED58C44D"
 			shape: "netheritetier"
 			subtitle: "magic-based damage, great with lifesteal."
@@ -1736,6 +1833,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "582FE1F3F47B3DBF"
 			shape: "netheritetier"
 			subtitle: "magic-based damage, great with lifesteal."
@@ -1754,6 +1852,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "001B0D1995F4A98C"
 			shape: "netheritetier"
 			subtitle: "feels like vanilla sword but pure power."
@@ -1772,6 +1871,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: [
 				"&4Top 5 Endgame Weapons:"
 				""
@@ -1807,6 +1907,7 @@
 			y: -0.7d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "506D7751A638B342"
 			shape: "irontier"
 			tasks: [{
@@ -1824,6 +1925,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "7BCB35517B965320"
 			shape: "irontier"
 			tasks: [{
@@ -1841,6 +1943,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3994208FA8E8BAA4"
 			shape: "irontier"
 			tasks: [{
@@ -1858,6 +1961,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2FA5413F686B2623"
 			shape: "irontier"
 			subtitle: "excellent mobility and AoE. // Can be used in mid-game."
@@ -1877,6 +1981,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5D1E44AEBC80905C"
 			shape: "goldtier"
 			subtitle: "short-range with charge attack."
@@ -1895,6 +2000,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "72A764943A01D0D1"
 			shape: "netheritetier"
 			subtitle: "charge to unleash massive burst."
@@ -1913,6 +2019,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1B5F603D330EC532"
 			shape: "irontier"
 			subtitle: "short-range summon attack."
@@ -1932,6 +2039,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "733E2196DB08B1B1"
 			shape: "irontier"
 			subtitle: "AoE, movement skills, fire resistance."
@@ -1951,6 +2059,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "79EB250BAEA602AE"
 			shape: "goldtier"
 			subtitle: "travel weapon, doubles any damage taken."
@@ -1969,6 +2078,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "718A5FB1151942AD"
 			shape: "irontier"
 			subtitle: "good AoE and Resistance buff."
@@ -1987,6 +2097,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "08F9C95DE7F455F1"
 			tasks: [{
 				id: "0D63A3933DB12C14"
@@ -1997,6 +2108,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "01DFA105C68094D5"
 			shape: "netheritetier"
 			tasks: [{
@@ -2008,6 +2120,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "088BB2782C5B25B3"
 			shape: "irontier"
 			tasks: [{
@@ -2025,6 +2138,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "652A61445083F553"
 			shape: "irontier"
 			tasks: [{
@@ -2042,6 +2156,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "72C8EEC4BC734419"
 			shape: "goldtier"
 			tasks: [{
@@ -2059,6 +2174,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2FE3D8B262E4CF81"
 			tasks: [{
 				id: "04083E882DCF0DD0"
@@ -2075,6 +2191,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "01FD5D04912D6333"
 			shape: "goldtier"
 			tasks: [{
@@ -2092,6 +2209,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3DC186E766AE31A1"
 			tasks: [{
 				id: "57FDFCA78FD23BD4"
@@ -2108,6 +2226,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "220A39BF78A960FC"
 			shape: "netheritetier"
 			tasks: [{
@@ -2125,6 +2244,7 @@
 			y: -0.9999999999999929d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5D4A17B5CDB252BF"
 			shape: "netheritetier"
 			tasks: [{
@@ -2136,6 +2256,7 @@
 			y: -0.9999999999999858d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2E8BAE0F7E469DEF"
 			shape: "netheritetier"
 			tasks: [{
@@ -2153,6 +2274,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2DD152BE888ABB07"
 			shape: "goldtier"
 			tasks: [{
@@ -2170,6 +2292,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2EE7D419C2C905F1"
 			shape: "goldtier"
 			tasks: [{
@@ -2187,6 +2310,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3436CDDD766F95BA"
 			tasks: [{
 				id: "1FCC13C01694A76A"
@@ -2197,6 +2321,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "46A3D1FF47FAA3C0"
 			tasks: [{
 				id: "32537AEC71FFC0E1"
@@ -2207,6 +2332,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5CA776419C3A89F9"
 			shape: "irontier"
 			tasks: [{
@@ -2218,6 +2344,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "08CE056B30C531BE"
 			tasks: [{
 				id: "4A97CB6FB147BF43"
@@ -2228,6 +2355,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			description: [
 				"&eTop 5 Mid-Progression Picks:"
 				""

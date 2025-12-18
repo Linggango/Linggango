@@ -33,8 +33,8 @@
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: -4.5d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
@@ -42,6 +42,22 @@
 			rotation: 0.0d
 			width: 8.0d
 			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.5d
+			image: "animus:textures/misc/animus_logo_200.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
 			y: -6.0d
 		}
 	]
@@ -93,6 +109,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			subtitle: "Will be using it on ourself."
 			tasks: [{
 				id: "02B70A0BBA16E418"
@@ -120,6 +137,8 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
+			size: 1.2d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3FFC2845704053E0"
@@ -137,20 +156,22 @@
 				""
 				"Blood orbs store live essence"
 			]
+			icon_scale: 1.3d
 			id: "316E5F040CB7F4C8"
 			rewards: [{
 				id: "360C6D5A99E99AC3"
 				type: "xp"
 				xp: 5
 			}]
+			shape: "rsquare"
 			subtitle: "Holds 1K LP"
 			tasks: [{
 				id: "776EB52F2F5971D0"
 				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
-			x: 0.12036590552870052d
-			y: -0.012123094936761447d
+			x: 0.7654693361164178d
+			y: -0.06053144314299175d
 		}
 		{
 			dependencies: ["316E5F040CB7F4C8"]
@@ -170,7 +191,7 @@
 			}]
 			title: "Making Slates"
 			x: 2.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C071644EC35919E"]
@@ -187,7 +208,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.0d
+			size: 1.2d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 8L
@@ -196,8 +217,8 @@
 				type: "item"
 			}]
 			title: "Tier 2 Blood Altar"
-			x: -2.80820552304273d
-			y: -0.08355166636533085d
+			x: -2.394414549580638d
+			y: -0.5440838834100177d
 		}
 		{
 			dependencies: ["45C16A2944338E77"]
@@ -212,6 +233,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -219,8 +241,8 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: 2.5132230483858393d
-			y: -1.6906945235081992d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5361F72BAB72D318"]
@@ -231,14 +253,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "pentagon"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "569914B4D001023E"
 				item: "bloodmagic:sacrificerune"
 				type: "item"
 			}]
-			x: 3.9775087626715546d
-			y: -2.976408809222484d
+			x: 3.5961708964422954d
+			y: -2.7156856198827626d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
@@ -249,23 +272,26 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.0d
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "4CEA3279AF0BEE01"
 				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
-			x: 5.298937334100145d
-			y: 1.9521626193489396d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["2C3CA7B9D1A7DC47"]
+			dependencies: ["4B51189C36B8D291"]
+			icon_scale: 1.3d
 			id: "08143AD0D63FFD1F"
 			rewards: [{
 				id: "5A7669A5AF75B170"
 				type: "xp"
 				xp: 5
 			}]
+			shape: "rsquare"
 			size: 1.0d
 			subtitle: "Holds 25K LP"
 			tasks: [{
@@ -273,8 +299,8 @@
 				item: "bloodmagic:apprenticebloodorb"
 				type: "item"
 			}]
-			x: 4.370365905528722d
-			y: 0.8807340479203631d
+			x: -0.8944145495806382d
+			y: -0.5440838834100177d
 		}
 		{
 			dependencies: ["7C071644EC35919E"]
@@ -284,6 +310,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "increases the speed of crafting"
 			tasks: [{
@@ -291,8 +318,8 @@
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			x: -2.8439198087570148d
-			y: -3.4049802377939073d
+			x: -2.4412306152044536d
+			y: -2.0836349004779535d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
@@ -311,8 +338,8 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: 1.6857142857142975d
-			y: 2.7833333333333243d
+			x: 2.2573964076894697d
+			y: 4.188558424592941d
 		}
 		{
 			dependencies: ["7CC2D826CA6BBDDB"]
@@ -340,8 +367,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.6857142857142904d
-			y: 3.961904761904748d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -352,6 +379,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -359,8 +387,8 @@
 				item: "bloodmagic:lavasigil"
 				type: "item"
 			}]
-			x: 0.6499999999999915d
-			y: 5.104761904761894d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -371,6 +399,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -378,8 +407,8 @@
 				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
-			x: 2.1142857142857068d
-			y: 5.67619047619047d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -390,6 +419,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -397,8 +427,8 @@
 				item: "bloodmagic:watersigil"
 				type: "item"
 			}]
-			x: 3.364285714285714d
-			y: 5.104761904761894d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["45C16A2944338E77"]
@@ -422,7 +452,7 @@
 				item: "bloodmagic:selfsacrificerune"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -439,6 +469,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "octagon"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -479,6 +510,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			size: 1.0d
 			subtitle: "Stores about 64 demon wills"
 			tasks: [{
@@ -510,6 +542,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			size: 1.0d
 			subtitle: "Stores about 4096 demon wills"
 			tasks: [{
@@ -523,8 +556,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.169303239628846d
-			y: -0.22640880922247675d
+			x: 8.858221571898042d
+			y: -1.5198655542716821d
 		}
 		{
 			dependencies: ["487275B970530E3F"]
@@ -534,6 +567,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			size: 1.0d
 			subtitle: "Stores about 1024 demon wills"
 			tasks: [{
@@ -547,8 +581,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.776446096771693d
-			y: -1.7621230949367614d
+			x: 7.543708193213625d
+			y: -2.2887318701059627d
 		}
 		{
 			dependencies: ["11D37E7391B49A88"]
@@ -558,6 +592,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			size: 1.0d
 			subtitle: "Stores about 256 demon wills"
 			tasks: [{
@@ -565,8 +600,8 @@
 				item: "bloodmagic:soulgemlesser"
 				type: "item"
 			}]
-			x: 6.026446096771693d
-			y: -2.6192659520796155d
+			x: 5.857162726222306d
+			y: -2.4375447054287207d
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
@@ -577,6 +612,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -591,8 +627,8 @@
 				type: "item"
 			}]
 			title: "The Sentient Sword"
-			x: 6.4550175253431235d
-			y: -1.0478373806510461d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4B51189C36B8D291"]
@@ -616,7 +652,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.0d
+			shape: "pentagon"
+			size: 1.2d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 28L
@@ -625,8 +662,8 @@
 				type: "item"
 			}]
 			title: "Tier 3 Blood Altar"
-			x: -2.0939198087570148d
-			y: 2.1307340479203773d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5886C648D14180E1"]
@@ -636,6 +673,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			size: 1.0d
 			subtitle: "Allows us to make more enhanced craftable materials, etc."
 			tasks: [{
@@ -643,8 +681,8 @@
 				item: "bloodmagic:infusedslate"
 				type: "item"
 			}]
-			x: -3.55820552304273d
-			y: 2.916448333634669d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
@@ -654,6 +692,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "Increases the flow rate of LP in and out of the altar."
 			tasks: [{
@@ -661,11 +700,12 @@
 				item: "bloodmagic:dislocationrune"
 				type: "item"
 			}]
-			x: -4.486776951614154d
-			y: 1.7378769050632386d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5886C648D14180E1"]
+			icon_scale: 1.3d
 			id: "0E51D6BB2BC756B6"
 			rewards: [{
 				id: "437678257583052B"
@@ -679,8 +719,8 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: -0.4510626658998689d
-			y: 2.4878769050632386d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
@@ -690,6 +730,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "Increases capacity of the altar"
 			tasks: [{
@@ -697,8 +738,8 @@
 				item: "bloodmagic:altarcapacityrune"
 				type: "item"
 			}]
-			x: -4.343919808757008d
-			y: 4.452162619348954d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -709,14 +750,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "17E6AD3271D02A4A"
 				item: "bloodmagic:sigilofmagnetism"
 				type: "item"
 			}]
-			x: 1.578571428571422d
-			y: 7.3904761904761855d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -727,6 +769,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "06FE02BA9214BBB9"
@@ -739,8 +782,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.8999999999999986d
-			y: 6.390476190476178d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -751,14 +794,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6F40287B8D15D540"
 				item: "bloodmagic:bloodlightsigil"
 				type: "item"
 			}]
-			x: 0.3642857142857068d
-			y: 6.42619047619047d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["308581359FEF32E9"]
@@ -794,8 +838,8 @@
 					type: "item"
 				}
 			]
-			x: -2.451062665899869d
-			y: 5.880734047920377d
+			x: -0.7877145203158236d
+			y: 5.027638540236254d
 		}
 		{
 			dependencies: ["5886C648D14180E1"]
@@ -813,8 +857,8 @@
 				item: "bloodmagic:alchemicalreactionchamber"
 				type: "item"
 			}]
-			x: -1.0939198087570148d
-			y: 4.345019762206093d
+			x: -0.7187627276420585d
+			y: 3.575058697220463d
 		}
 		{
 			dependencies: ["0E8418B42A744030"]
@@ -839,8 +883,8 @@
 				type: "checkmark"
 			}]
 			title: "Enter Hidden Realm"
-			x: -1.0224912373284454d
-			y: 7.416448333634662d
+			x: -1.6494476376845952d
+			y: 6.258685850763065d
 		}
 		{
 			dependencies: ["3CA030481BBC12EC"]
@@ -866,8 +910,8 @@
 				item: "bloodmagic:weak_tau"
 				type: "item"
 			}]
-			x: -2.7367769516141536d
-			y: 8.630734047920377d
+			x: -3.208774231018566d
+			y: 6.710069864622895d
 		}
 		{
 			dependencies: ["50A28E1946047A6E"]
@@ -896,8 +940,8 @@
 				item: "bloodmagic:strong_tau"
 				type: "item"
 			}]
-			x: -4.522491237328445d
-			y: 8.523591190777516d
+			x: -5.014310286457899d
+			y: 6.8742095060264745d
 		}
 		{
 			dependencies: ["5E2D15E4A410B5DA"]
@@ -928,8 +972,8 @@
 					type: "item"
 				}
 			]
-			x: -5.7452380952380935d
-			y: 6.714285714285715d
+			x: -6.450532148739185d
+			y: 6.504895312868435d
 		}
 		{
 			dependencies: ["25343A0C4C22AA60"]
@@ -948,6 +992,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -986,6 +1031,7 @@
 		{
 			dependencies: ["431C44439CA54077"]
 			description: ["As u may guess, if you had the ring now you would've have infinite mana :D"]
+			icon_scale: 1.3d
 			id: "048BD38532A1DDCF"
 			rewards: [{
 				id: "112DD8F23042BDDF"
@@ -999,8 +1045,8 @@
 				item: "bloodmagic:masterbloodorb"
 				type: "item"
 			}]
-			x: -6.030952380952385d
-			y: 3.190476190476197d
+			x: -5.624560059861508d
+			y: 4.257701173925604d
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
@@ -1010,6 +1056,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "Stores and instantly applies LP"
 			tasks: [{
@@ -1018,7 +1065,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
@@ -1028,6 +1075,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Increases the capacity of the Altar"
 			tasks: [{
@@ -1035,8 +1083,8 @@
 				item: "bloodmagic:bettercapacityrune"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.5d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
@@ -1046,6 +1094,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "Pushes liquids around you"
 			tasks: [{
@@ -1069,6 +1118,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "Makes other runes operate faster"
 			tasks: [{
@@ -1076,8 +1126,8 @@
 				item: "bloodmagic:accelerationrune"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.5d
+			x: -10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
@@ -1088,6 +1138,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "Teleports user into a linked teleposer."
 			tasks: [
 				{
@@ -1101,8 +1152,8 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: 5.0d
+			x: -10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["431C44439CA54077"]
@@ -1112,6 +1163,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			subtitle: "Upgrade material"
 			tasks: [{
 				id: "4A1A8287168F702B"
@@ -1124,8 +1176,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.428571428571431d
-			y: 2.3214285714285623d
+			x: -7.017757609615757d
+			y: 2.970838436488151d
 		}
 		{
 			dependencies: ["5269E48923F65C9E"]
@@ -1141,7 +1193,7 @@
 				item: "bloodmagic:ritualdivinerdusk"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 1.0d
 		}
 		{
@@ -1172,8 +1224,8 @@
 				type: "checkmark"
 			}]
 			title: "&cThe Demon Realm"
-			x: -6.5d
-			y: -1.0d
+			x: -7.4955889598757395d
+			y: -0.753279473354759d
 		}
 		{
 			dependencies: ["42CDD69527871332"]
@@ -1185,21 +1237,35 @@
 			icon: "bloodmagic:altar"
 			id: "2214B7DCE4075A02"
 			progression_mode: "linear"
-			rewards: [{
-				id: "4EA5D969233B5528"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "4EA5D969233B5528"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "057AD23C1B03FC8A"
+					item: {
+						Count: 1
+						id: "animus:hand_of_death"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				count: 64L
+				count: 108L
 				id: "3830486EDCC81431"
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
 			title: "Tier 5 Blood Altar"
-			x: -5.364285714285707d
-			y: -2.8095238095238173d
+			x: -6.335959185648463d
+			y: -2.9115078708090465d
 		}
 		{
 			dependencies: ["2214B7DCE4075A02"]
@@ -1210,57 +1276,45 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.3d
+			shape: "gear"
+			size: 1.2d
 			subtitle: "Ultimate Slate!"
 			tasks: [{
 				id: "600A5AEE6C546B4C"
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			x: -5.126190476190473d
-			y: -4.761904761904766d
+			x: -3.602923332138431d
+			y: -3.5460926133964037d
 		}
 		{
 			dependencies: ["396AA75774059D0B"]
 			description: ["Runes we've did before can be upgraded to their final form!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
 			id: "2CA28551F2A5B761"
 			rewards: [{
 				id: "06E8FD54DCE952E6"
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.3d
+			shape: "square"
+			size: 1.2d
 			subtitle: "&8[Click to read]"
-			tasks: [
-				{
-					id: "4BD6380E3CB0AFA1"
-					item: "bloodmagic:sacrificerune2"
-					type: "item"
-				}
-				{
-					id: "4A26B1A6BDC9BEF2"
-					item: "bloodmagic:selfsacrificerune2"
-					type: "item"
-				}
-				{
-					id: "374B021596B02DB5"
-					item: "bloodmagic:altarcapacityrune2"
-					type: "item"
-				}
-				{
-					id: "642940CFA557BEF9"
-					item: "bloodmagic:bettercapacityrune2"
-					type: "item"
-				}
-				{
-					id: "5F5E0CDAB56FBAA8"
-					item: "bloodmagic:orbcapacityrune2"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "19128860A456424D"
+				title: "Woa"
+				type: "checkmark"
+			}]
 			title: "Reinforced Runes"
-			x: -2.7452380952380935d
-			y: -5.714285714285715d
+			x: -3.585d
+			y: -4.909999999999999d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
@@ -1271,14 +1325,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "06D00F9A2FFB6E4F"
 				item: "bloodmagic:airsigil"
 				type: "item"
 			}]
-			x: 5.727508762671562d
-			y: 0.5950197622060927d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
@@ -1289,14 +1344,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "027A51E73CB9FA90"
 				item: "bloodmagic:seersigil"
 				type: "item"
 			}]
-			x: 6.798937334100131d
-			y: 0.9164483336346692d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
@@ -1307,14 +1363,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "536F4B221790205F"
 				item: "bloodmagic:voidsigil"
 				type: "item"
 			}]
-			x: 6.0132230483858535d
-			y: 3.666448333634648d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
@@ -1325,14 +1382,15 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4E915C03BA782F4A"
 				item: "bloodmagic:miningsigil"
 				type: "item"
 			}]
-			x: 7.477508762671576d
-			y: 1.8807340479203631d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
@@ -1343,14 +1401,477 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "diamond"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4DBD7B37BA800495"
 				item: "bloodmagic:growthsigil"
 				type: "item"
 			}]
-			x: 7.156080191242992d
-			y: 2.9521626193489396d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"Play With Friends - Share Your LP!"
+				"Key of Binding lets you share your Life Essence with teammates!"
+				""
+				"Bind a Key of Binding to your Soul Network"
+				"Give the bound key to a friend"
+				"They hold it in their offhand or curio slot"
+				"Now their sigils and bound items draw from YOUR LP!"
+				"Perfect for servers where one player focuses on LP generation while others focus on combat. Power your entire team's sigils, bound weapons, and rituals from a single massive Soul Network!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "15CEEA18886598DE"
+			rewards: [{
+				id: "58B880955E4E93D3"
+				item: "animus:key_binding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36EB3FF248E4845B"
+				title: "Sharing LP"
+				type: "checkmark"
+			}]
+			x: -3.894414549580638d
+			y: -0.5440838834100177d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "5947007A85C5D70D"
+			shape: "diamond"
+			subtitle: "Store and place blocks, or bind to a Teleposer to teleport entities across dimensions"
+			tasks: [{
+				id: "5606DFF1CFA48D06"
+				item: "animus:sigil_transposition"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "71951138E60152D0"
+			shape: "diamond"
+			subtitle: "Summon lightning bolts at will"
+			tasks: [{
+				id: "078A8A71564FE60D"
+				item: "animus:sigil_storm"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "526BE9CEC897E39D"
+			shape: "diamond"
+			subtitle: "Convert everything you touch into corrupting AntiLife"
+			tasks: [{
+				id: "076FC4E7BDE0E4D7"
+				item: "animus:sigil_consumption"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "4725C38BE6833AEE"
+			shape: "diamond"
+			subtitle: "Levitate enemies then drop them for devastating fall damage"
+			tasks: [{
+				id: "78E43C8E53A20035"
+				item: "animus:sigil_heavenly_wrath"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "1849CA989FA54A53"
+			shape: "diamond"
+			subtitle: "Accelerate block entities up to 32x speed (furnaces, spawners, anything!)"
+			tasks: [{
+				id: "4DCF298D55E9D741"
+				item: "animus:sigil_temporal_dominance"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "166635E979F4B459"
+			shape: "diamond"
+			subtitle: "Mass-replace blocks in a configurable radius - terraforming made easy"
+			tasks: [{
+				id: "7D1F727E8591B52A"
+				item: "animus:sigil_equivalency"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "7B075C2F9556EB42"
+			shape: "diamond"
+			subtitle: "Enter ghost mode for scouting, PLUS works as a Totem of Undying!"
+			tasks: [{
+				id: "5A770BAC44CD05BE"
+				item: "animus:sigil_free_soul"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "33181761D8132E00"
+			shape: "diamond"
+			subtitle: "Automatically cleanse negative potion effects"
+			tasks: [{
+				id: "43338E00B3C806BC"
+				item: "animus:sigil_remedium"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "6063ECF33AC4A9C6"
+			shape: "diamond"
+			subtitle: "Passively repair damaged items in your inventory"
+			tasks: [{
+				id: "6357C1D0480CC1D7"
+				item: "animus:sigil_reparare"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "42B8B7C0C7BEEC4D"
+			shape: "diamond"
+			subtitle: "Consume nearby plants to restore hunger"
+			tasks: [{
+				id: "502666B61EEDE476"
+				item: "animus:sigil_leach"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0C2B3CEF9CCEED82"
+			shape: "diamond"
+			subtitle: "Capture entities into Mob Souls and release them elsewhere"
+			tasks: [{
+				id: "2713D6BC9B49829E"
+				item: "animus:sigil_chains"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "46B2B287493387F2"
+			shape: "diamond"
+			subtitle: "Accelerated block placement speed"
+			tasks: [{
+				id: "44ADA572D7C37384"
+				item: "animus:sigil_builder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E0093211509C03D"]
+			id: "705C9AF13AEEAD36"
+			shape: "diamond"
+			subtitle: "Blood Magic Add-On"
+			tasks: [{
+				id: "6927FDCEA89E44BE"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "animus:codex_animus"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C071644EC35919E"]
+			id: "67B6395111660B2A"
+			shape: "diamond"
+			subtitle: "Grow living wood from blood-infused saplings. The apples restore hunger and LP!"
+			tasks: [{
+				id: "4990C8B7B43142F1"
+				item: "animus:blood_sapling"
+				type: "item"
+			}]
+			x: -2.4412306152044536d
+			y: -3.0836349004779535d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["The Sentient Spear allows you to collect Demon Will by simply killing a hostile mob with the sword!"]
+			id: "319D731F8E6227DE"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "20F088F72FC50471"
+				item: {
+					Count: 1
+					id: "animus:spear_sentient"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["The Sentient Shield allows you to boost Demon Will gain by simply having it equipped!"]
+			id: "363EE7A43676B31B"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "6220A946F27376BE"
+				item: {
+					Count: 1
+					id: "animus:sentient_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "6C1B42B3CDCCF234"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "663D0516A1AF42EE"
+				item: "bloodmagic:speedrune2"
+				type: "item"
+			}]
+			x: -2.585d
+			y: -7.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "2E60724CBC193764"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "12F9875AC99EF74C"
+				item: "bloodmagic:sacrificerune2"
+				type: "item"
+			}]
+			x: -3.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "1C4A23A8E7F8B9E5"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "72735B3436475706"
+				item: "bloodmagic:selfsacrificerune2"
+				type: "item"
+			}]
+			x: -2.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "65170D88B76DA832"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "7023639F44BA2F40"
+				item: "bloodmagic:dislocationrune2"
+				type: "item"
+			}]
+			x: -2.585d
+			y: -6.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "1068043B1E833593"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "6B413C7389DB5768"
+				item: "bloodmagic:altarcapacityrune2"
+				type: "item"
+			}]
+			x: -4.585d
+			y: -7.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "2DE5CD088555EAA7"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "43C5DA38CB6655F5"
+				item: "bloodmagic:bettercapacityrune2"
+				type: "item"
+			}]
+			x: -3.585d
+			y: -7.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "1A7132D2A32EC67C"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "418FDD794B6E1329"
+				item: "bloodmagic:orbcapacityrune2"
+				type: "item"
+			}]
+			x: -4.585d
+			y: -6.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "358829661C273E2D"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "5355B8446F491790"
+				item: "bloodmagic:accelerationrune2"
+				type: "item"
+			}]
+			x: -5.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "26B8E1D848DF1B83"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "14EE09A1A3AF2030"
+				item: "bloodmagic:chargingrune2"
+				type: "item"
+			}]
+			x: -3.585d
+			y: -6.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "4F35E6DC75A65181"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "2E08DBBEEF6720AF"
+				item: "bloodmagic:ethereal_mimic"
+				type: "item"
+			}]
+			x: -4.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			id: "751D7B1EDE27DD31"
+			tasks: [{
+				id: "246897FCF76E5E50"
+				item: "bloodmagic:reagentbinding"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["751D7B1EDE27DD31"]
+			id: "2D3F708693EE8B07"
+			shape: "diamond"
+			subtitle: "An armor that learns overtime."
+			tasks: [
+				{
+					id: "52F0AE2F5009594F"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FB172BE3971EE66"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								evolved: 0b
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49BD078CDF620E31"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678731023C229C28"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
 		}
 	]
 	title: "Blood Magic"

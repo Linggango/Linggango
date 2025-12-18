@@ -136,7 +136,7 @@
 [misc]
 	#Define the chance of converting Dungeon Steel Ingot.
 	#Range: 0 ~ 100
-	dungeonSteelChance = 5
+	dungeonSteelChance = 10
 	#Define the cool-down of Totem Of Unbreaking (in tick).
 	#Range: > 0
 	totemCooldown = 1200

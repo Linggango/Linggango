@@ -37,7 +37,7 @@ globalExecutorParallelism = "default"
 	midTickChunkTasksInterval = "default"
 	# (Default: true) Whether to let async chunk request no longer block server thread
 	# (may cause incompatibility with other mods)
-	optimizeAsyncChunkRequest = false
+	optimizeAsyncChunkRequest = "default"
 
 	[generalOptimizations.autoSave]
 		# (Default: ENHANCED) Defines how auto save should be handled  
@@ -74,7 +74,7 @@ globalExecutorParallelism = "default"
 
 [threadedWorldGen]
 	# (Default: true) Whether to enable this feature
-	enabled = false
+	enabled = "default"
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
 	allowThreadedFeatures = "default"
@@ -89,7 +89,7 @@ globalExecutorParallelism = "default"
 
 [ioSystem]
 	# (Default: true) Whether to use the optimized implementation of IO system
-	replaceImpl = false
+	replaceImpl = "default"
 	# (Default: true) Whether to use async chunk loading & unloading
 	async = "default"
 	# (Default: false) EXPERIMENTAL FEATURE
@@ -102,7 +102,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with architectury@9.2.14 (*) (defined in c2me) 
-	gcFreeChunkSerializer = false
+	gcFreeChunkSerializer = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
 	chunkDataCacheSoftLimit = "default"
 	# (Default: 32678) Hard limit for io worker nbt cache
@@ -137,7 +137,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 79) Max render distance allowed in game options
+		# (Default: 70) Max render distance allowed in game options
 		maxViewDistance = "default"
 
 [vanillaWorldGenOptimizations]

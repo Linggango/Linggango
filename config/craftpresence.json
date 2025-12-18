@@ -127,7 +127,9 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {},
+    "dynamicIcons": {
+      "25.21.205.28": "https://api.mcsrvstat.us/icon/25.21.205.28"
+    },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",

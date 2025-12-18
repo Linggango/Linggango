@@ -69,7 +69,7 @@
 	quests: [
 		{
 			description: [
-				"Linggango is a terraria-inspired, content filled modpack. Quests are here to guide you through mods."
+				"Linggango is a terraria-inspired, content filled modpack. Your journal is here to guide you through all these stuff!"
 				""
 				"This pack includes a unique progression system, thus i suggest checking--"
 				" "
@@ -220,7 +220,7 @@
 				id: "66881B564D381E06"
 				type: "advancement"
 			}]
-			title: "Ring OF The Seven Curses"
+			title: "Ring Of The Seven Curses"
 			x: -1.0d
 			y: -7.0d
 		}
@@ -280,7 +280,7 @@
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"Parties are great in multiplayer, it allows you to do quests with your friends! You can find parties tab on right top of your screen while in inventory."
+				"&dParties&r are useful in multiplayer, it allows you to do quests with your friends! You can find parties tab on right top of your screen while in inventory."
 				""
 				"&e-1.&r Go in inventory, then teams."
 				"{image:customtextures:textures/team1.png width:300 height:150 align:center}"
@@ -313,7 +313,7 @@
 				title: "I got no friends.. :c"
 				type: "checkmark"
 			}]
-			title: "Multiplayer Support"
+			title: "Multiplayer: &aParties"
 			x: 1.0d
 			y: -5.5d
 		}
@@ -347,9 +347,9 @@
 				title: "I be rollin yay"
 				type: "checkmark"
 			}]
-			title: "Rolling \\& Dodging Attacks"
-			x: -1.0d
-			y: -5.0d
+			title: "Combat: &aDodging Attacks"
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -558,8 +558,8 @@
 				type: "item"
 			}]
 			title: "Explorer's Compass"
-			x: 0.0d
-			y: -5.5d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -746,7 +746,7 @@
 			}]
 			title: "&dEnchanting Infuser"
 			x: -7.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7ACC9BE21118707E"]
@@ -773,8 +773,8 @@
 				type: "item"
 			}]
 			title: "&dAdvanced Enchanting Infuser"
-			x: -6.0d
-			y: -1.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -877,7 +877,7 @@
 			}]
 			title: "Stripping or scraping blocks by dispenser"
 			x: -5.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -890,8 +890,8 @@
 				type: "checkmark"
 			}]
 			title: "Placeable Books"
-			x: -6.5d
-			y: -2.5d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -1055,7 +1055,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1074,7 +1074,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1100,7 +1100,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1164,7 +1164,7 @@
 			}]
 			title: "Brigg"
 			x: 1.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1228,7 +1228,7 @@
 			}]
 			title: "Galley"
 			x: 0.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1292,7 +1292,7 @@
 			}]
 			title: "Cog"
 			x: -0.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1363,7 +1363,7 @@
 			}]
 			title: "Drakkar"
 			x: 2.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1380,7 +1380,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["70E3889C56F1D9AC"]
@@ -1398,7 +1398,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1417,7 +1417,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1436,7 +1436,7 @@
 				type: "item"
 			}]
 			x: 2.498133205578597d
-			y: 1.4533247888539975d
+			y: 1.9533247888539975d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1455,7 +1455,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1474,7 +1474,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1494,7 +1494,7 @@
 			}]
 			title: "Biplane"
 			x: -1.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1512,7 +1512,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1530,7 +1530,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1561,7 +1561,7 @@
 			}]
 			title: "Elytra"
 			x: -1.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1580,7 +1580,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			description: ["Travel methods for land and sea."]
@@ -1608,7 +1608,7 @@
 			}]
 			title: "Traveling"
 			x: 0.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1632,7 +1632,181 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19237C5BA8DDB6AF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/curio/charm/spite_shard/spite_shard_inventory"
+				}
+			}
+			id: "5E18FABA8CEF0C72"
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "Tick to unlock \"challenges\" questline"
+			tasks: [{
+				id: "31B40E87616E4CC8"
+				title: "Yes, i do"
+				type: "checkmark"
+			}]
+			title: "&dWanna spice up your experience?"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A545E5DF48EDB9B"]
+			description: [
+				"Terramity's &cBlood Contracts&r disables friendly fire between you and your friend so you don't hit eachother."
+				""
+				"I'll only give one cuz why not."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "terramity:item/blood_contract"
+				}
+			}
+			id: "3010F2D785FB8887"
+			rewards: [{
+				id: "0905095E97ADA5F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "terramity:blood_contract"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "74D1BD4A3C2D5C59"
+				title: "useful"
+				type: "checkmark"
+			}]
+			title: "Multiplayer: &cBlood Contracts"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["380F36A98AAC4C2C"]
+			description: [
+				"Reforging your items can make you even stronger and it's not even complex! "
+				"&8It can provide you nearly every single buff.&r"
+				""
+				"Here's a small tutorial:"
+				"&n1- Craft an Anvil."
+				"{image:customtextures:textures/anvilcrafting.png width:100 height:50 align:center}"
+				"&8did u really needed this recipe picture"
+				"&n2- Right-click it and Click on the \"Reforge Gear\" tab."
+				"{image:customtextures:textures/reforgingtab.png width:150 height:150 align:center}"
+				"&n3- Requires 3 item inputs: "
+				""
+				"&6- Item you want to reforge (swords, bows and armors)"
+				""
+				"&6- Item repair material. (if none works, use iron)"
+				""
+				"&6- Any of the materials listed below, associated with each tier."
+				""
+				"&nMaterial list:"
+				"&aTier 1 / Common - Limestone"
+				"&eTier 2 / Uncommon - Pyrite"
+				"&bTier 3 / Rare - Galena"
+				"&6Tier 4 / Epic - Eclipsium Alloy"
+				"&dTier 5 / Legendary - Hemalith Catalyst"
+				"&cTier 6 / Mythic - Cosmos Shard"
+				""
+				"&n4- &b\"Perfect\"&r&nitem possibility"
+				""
+				"Perfect reforging removes every downside and adds a badass item border."
+				""
+				"Has %1.0 chance of happening."
+				""
+				"&n5- Cleansing stone"
+				""
+				"This item allows you to cleanse the effects of the reforging."
+				""
+				""
+				"&8Thanks to &e@d0ugdimad0me&r &8in our discord server for making this custom system :)"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/reforge_tab_icon.png"
+				}
+			}
+			id: "223AC6439F2B6007"
+			min_width: 250
+			rewards: [{
+				id: "1A4EE918D5B703F7"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "231D6EE5154A937D"
+				title: "So cool"
+				type: "checkmark"
+			}]
+			title: "Combat: &dTier System"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19237C5BA8DDB6AF"]
+			description: ["They're &coutdated&r as of now."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_monsters:textures/particle/warning2.png"
+				}
+			}
+			id: "02AE79E1837C7B79"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Check to access tierlists."
+			tasks: [{
+				id: "2E0B9419F8D6AB20"
+				title: "Official Tierlist"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			id: "534A420393A4DAA5"
+			subtitle: "Stores enchantments"
+			tasks: [{
+				id: "3599915B2831FA18"
+				item: "enchlibathome:library"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			id: "50187D3AC2858393"
+			subtitle: "Stores enchantments but better"
+			tasks: [{
+				id: "2C0D9633ACC47A61"
+				item: "enchlibathome:ender_library"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -1683,8 +1857,8 @@
 				}
 			]
 			title: "Beautiful Wind Chimes"
-			x: 9.5d
-			y: -3.5d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -1724,8 +1898,8 @@
 				}
 			]
 			title: "Pigsteel Blocks"
-			x: 9.5d
-			y: -5.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1787,7 +1961,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -1861,8 +2035,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -4.5d
+			x: 9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -1888,7 +2062,7 @@
 					type: "item"
 				}
 			]
-			shape: "goldtier"
+			shape: "heart"
 			size: 1.3d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -1898,12 +2072,12 @@
 			}]
 			title: "The Greatest Furniture Mod!"
 			x: 8.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
 			id: "09064FBADD382415"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "40DE490551457796"
 				item: {
@@ -1916,8 +2090,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["09064FBADD382415"]
@@ -1936,7 +2110,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["17B86EC69507C90C"]
@@ -1954,8 +2128,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.5d
+			x: 8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6F2EEED9173AE2BF"]
@@ -1972,30 +2146,60 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.5d
+			x: 10.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["19237C5BA8DDB6AF"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "brutality:item/curio/charm/spite_shard/spite_shard_inventory"
-				}
-			}
-			id: "5E18FABA8CEF0C72"
-			shape: "goldtier"
-			size: 1.0d
-			subtitle: "Tick to unlock \"challenges\" questline"
+			dependencies: ["2B2818B92F01C51F"]
+			id: "6F0F41043EF524B9"
+			subtitle: "Disables all monster spawns in a 64 block area."
 			tasks: [{
-				id: "31B40E87616E4CC8"
-				title: "Yes, i do"
-				type: "checkmark"
+				id: "4EB6B52B8B6CEB28"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
 			}]
-			title: "&dWanna spice up your experience?"
-			x: 2.0d
-			y: -5.0d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "2B2818B92F01C51F"
+			subtitle: "Disables all non-hostile mob spawns in a 64 block area."
+			tasks: [{
+				id: "687C439FFF1A23C2"
+				item: "magnumtorch:amethyst_magnum_torch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F0F41043EF524B9"]
+			id: "2BB0B2C04615B432"
+			subtitle: "Disables all creature spawns in a 128 block area."
+			tasks: [{
+				id: "7B8E7F5575A9373F"
+				item: "magnumtorch:emerald_magnum_torch"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31EECB880BFA9F88"]
+			id: "4C373F050CB18168"
+			subtitle: "Now we locating biomes!"
+			tasks: [{
+				id: "150A313D2D0FB590"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
 		}
 	]
 	title: "Getting Started"

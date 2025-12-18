@@ -186,4 +186,10 @@ ServerEvents.recipes(e => {
       E: "kubejs:linggangoonium_ingot",
     }
   );
+
+  e.recipes.create
+    .compacting("ad_astra:steel_plate", [
+      "#forge:ingots/steel"
+    ])
+    .heated();
 });

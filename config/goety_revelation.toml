@@ -3,9 +3,9 @@ player_invincible = true
 #Enable player ambient sound, Default: true
 player_ambient_sound = true
 #Sets the damage percentage Hellfire deals each time，Default: 0.0444
-hellfire_damage_amount = 0.0444
+hellfire_damage_amount = 0.0448
 #Sets the damage percentage Hellcloud deals each time，Default: 0.001
-hellcloud_damage_amount = 0.001
+hellcloud_damage_amount = 0.004
 #Sets the apollyon's health，Default: 666
 apollyon_health = 666.0
 #Limit the amount of damage Apollyon takes each time. Default: 20.0

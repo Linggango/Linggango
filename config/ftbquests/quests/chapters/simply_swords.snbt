@@ -14,14 +14,6 @@
 	id: "75316E8D631F174C"
 	images: [
 		{
-			height: 1.5d
-			image: "simplyswords:item/twisted_blade"
-			rotation: 0.0d
-			width: 1.5d
-			x: -10.0d
-			y: -13.0d
-		}
-		{
 			click: "a"
 			height: 2.0d
 			hover: ["Top 10 Unique Swords"]

@@ -42,7 +42,7 @@
 			hereticArmor = 0.0
 			#How much damage Heretics deals, Default: 2.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			hereticDamage = 2.0
+			hereticDamage = 12.0
 
 		[Attributes.Cultists.Inferno]
 			#How much Max Health Inferno have, Default: 20.0
@@ -53,7 +53,7 @@
 			infernoArmor = 5.0
 			#How much melee damage Inferno deals, Default: 6.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			infernoMeleeDamage = 6.0
+			infernoMeleeDamage = 12.0
 			#How much range damage Inferno deals, Default: 5.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			infernoRangeDamage = 5.0
@@ -215,7 +215,7 @@
 			wraithArmor = 0.0
 			#How much damage Wraith deals, Default: 4.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			wraithDamage = 4.0
+			wraithDamage = 7.0
 
 		[Attributes.General.Necromancer]
 			#How much Max Health Necromancers have, Default: 50.0
@@ -1001,7 +1001,7 @@
 		[Attributes.Bosses.Vizier]
 			#How much Max Health Viziers have, Default: 300.0
 			#Range: 100.0 ~ 1.7976931348623157E308
-			vizierHealth = 300.0
+			vizierHealth = 900.0
 			#The maximum amount of damage a Vizier can attain per hit, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			vizierDamageCap = 20.0
@@ -1009,20 +1009,20 @@
 		[Attributes.Bosses.Apostle]
 			#How much Max Health Apostles have, Default: 320.0
 			#Range: 100.0 ~ 1.7976931348623157E308
-			apostleHealth = 320.0
+			apostleHealth = 444.0
 			#How much natural Armor Points Apostles have, Default: 12.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			apostleArmor = 12.0
+			apostleArmor = 24.0
 			#How much natural Toughness Points Apostles have, Default: 6.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			apostleToughness = 6.0
+			apostleToughness = 8.0
 			#The maximum amount of damage an Apostle can attain per hit, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			apostleDamageCap = 20.0
 			#Multiplies Apostle's Bow damage, Default: 2
 			#Range: > 1
-			apostleBowDamage = 2
+			apostleBowDamage = 6
 			#Set Apostle's spell damage (ie, Fire Tornadoes, Fire Blasts, Roars), Default: 6.0
 			#Range: 6.0 ~ 1.7976931348623157E308
-			apostleMagicDamage = 6.0
+			apostleMagicDamage = 12.0
 

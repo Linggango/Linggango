@@ -9,8 +9,9 @@
 	"isShowingOtherHandFirstPerson": true,
 	"isSweepingParticleEnabled": true,
 	"isTooltipAttackRangeEnabled": true,
-	"weaponSwingSoundVolume": 100,
+	"weaponSwingSoundVolume": 81,
 	"isDebugOBBEnabled": true,
 	"swingThruGrassBlacklist": "farmersdelight",
-	"mineWithWeaponBlacklist": ""
+	"mineWithWeaponBlacklist": "",
+	"firstPersonAnimations": "AUTO"
 }

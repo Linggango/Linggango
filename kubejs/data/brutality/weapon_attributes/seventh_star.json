@@ -5,15 +5,15 @@
     "attack_range": 5,
    "attacks": [
       {
-        "swing_sound" : { "id" : "brutality:supernova_1"},
+        "swing_sound" : { "id" : "simplyswords:elemental_sword_holy_attack_02"},
         "pitch": 2.0
       },
       {
-        "swing_sound" : { "id" : "brutality:supernova_2"},
+        "swing_sound" : { "id" : "simplyswords:elemental_sword_holy_attack_03"},
         "pitch": 2.0
       },
       {
-        "swing_sound" : { "id" : "brutality:supernova_3"},
+        "swing_sound" : { "id" : "simplyswords:elemental_sword_holy_attack_01"},
         "pitch": 2.0
       }
     ]

@@ -292,13 +292,7 @@
 		{
 			dependencies: ["1C232674CD04024D"]
 			description: ["One of the cold biomes of the undergarden. Filled with lots of icesicles!"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "verdant:block/frosty_grass"
-				}
-			}
+			icon: "undergarden:frozen_deepturf_block"
 			id: "1E13D7CE5A9EFF74"
 			rewards: [{
 				id: "196AF64340C2D7B6"
@@ -321,7 +315,7 @@
 		{
 			dependencies: ["1C232674CD04024D"]
 			description: ["A neighbor to the frostfields, has trees!"]
-			icon: "undergarden:frozen_deepturf_block"
+			icon: "undergarden:blood_mushroom_stem"
 			id: "0C98503A2F20484D"
 			rewards: [{
 				id: "0957C1372A07536B"

@@ -7,7 +7,17 @@
 	group: "3C6437AAADAFC5CB"
 	icon: "ad_astra:nasa_workbench"
 	id: "23C745DE2EC55937"
-	order_index: 7
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -10.5d
+		y: 1.0d
+	}]
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,24 +34,31 @@
 				}
 			}
 			id: "4E025FD00E0DA74E"
-			rewards: [{
-				id: "4CEAAB6427098B38"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CEAAB6427098B38"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "5F3CE7C0131055E1"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.4d
 			subtitle: "In-game Wiki"
 			tasks: [{
-				id: "28A54810B344A087"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "ad_astra:astrodux"
-					}
-				}
-				type: "item"
+				id: "603223292C61164D"
+				title: "hi welcome"
+				type: "checkmark"
 			}]
 			title: "&dWelcome to Ad Astra!"
 			x: -10.5d
@@ -167,18 +184,11 @@
 			]
 			shape: "square"
 			subtitle: "&8[Click to read]"
-			tasks: [
-				{
-					id: "076F1C3EDB747CD8"
-					item: "ad_astra:etrionic_blast_furnace"
-					type: "item"
-				}
-				{
-					id: "40E3307A755E15CD"
-					item: "ad_astra:steel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "076F1C3EDB747CD8"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 1.5d
 		}
@@ -393,8 +403,7 @@
 			shape: "square"
 			subtitle: "Do i need to explain this one?"
 			tasks: [{
-				count: 16L
-				id: "79F0B2DBE428964A"
+				id: "7512FBC3B432D610"
 				item: "ad_astra:steel_cable"
 				type: "item"
 			}]

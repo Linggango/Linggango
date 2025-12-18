@@ -1012,19 +1012,12 @@
 			icon: "minecraft:wither_skeleton_skull"
 			id: "218A1EC80DE60194"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "3CDDD034773E4042"
-					table_id: 8699295573854160387L
-					title: "&4&lGlorious"
-					type: "random"
-				}
-				{
-					id: "58819B88DC76A701"
-					item: "jjbamusic:disc_giorno_theme"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3CDDD034773E4042"
+				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
+				type: "random"
+			}]
 			size: 1.2d
 			subtitle: "Summonable"
 			tasks: [
@@ -1240,19 +1233,12 @@
 			icon: "cataclysm:storm_eye"
 			id: "3B65B70FC89BFC93"
 			min_required_tasks: 1
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6A3309D2DEEB2BD1"
-					table_id: 8699295573854160387L
-					type: "random"
-				}
-				{
-					id: "6C11B6D379A65E62"
-					item: "jjbamusic:disc_great_days"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A3309D2DEEB2BD1"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
 			shape: "diamondtier"
 			size: 1.2d
 			subtitle: "Overworld / Ocean"
@@ -1357,18 +1343,11 @@
 			id: "1C576310634FFB8C"
 			min_required_tasks: 1
 			optional: true
-			rewards: [
-				{
-					id: "490FDFB2B30C87D7"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "53650A6B16C6ED06"
-					item: "jjbamusic:disc_stone_ocean"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "490FDFB2B30C87D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamondtier"
 			size: 1.2d
 			subtitle: "Overworld / Forlorn Hollows"
@@ -1397,18 +1376,11 @@
 			icon: "block_factorys_bosses:dragon_skull"
 			id: "53FCD20FDB42074E"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "3997AFBDBE69F6A9"
-					item: "jjbamusic:disc_stand_proud"
-					type: "item"
-				}
-				{
-					id: "2A286FDCFEE528EB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "2A286FDCFEE528EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamondtier"
 			size: 1.2d
 			subtitle: "Overworld / Mountains"
@@ -1600,18 +1572,11 @@
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "44A6B81B8860744E"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "5E5DEF973E688C59"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "3E710D7C94A9248A"
-					item: "jjbamusic:disc_heavens_falling_down"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5E5DEF973E688C59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamondtier"
 			size: 1.2d
 			subtitle: "Overworld / Cold Biomes / Night"
@@ -1688,26 +1653,6 @@
 					id: "72BA1FD22A50FBED"
 					table_id: 8699295573854160387L
 					type: "random"
-				}
-				{
-					id: "33C06C52451E7EEE"
-					item: "jjbamusic:disc_fighting_gold"
-					type: "item"
-				}
-				{
-					id: "613261DEC4AC6D60"
-					item: "jjbamusic:disc_end_of_the_world"
-					type: "item"
-				}
-				{
-					id: "2EF3AF75BA1A4276"
-					item: "jjbamusic:disc_kira_theme"
-					type: "item"
-				}
-				{
-					id: "79EC37B32D1A6634"
-					item: "jjbamusic:disc_crazy_noisy_bizarre_town"
-					type: "item"
 				}
 				{
 					id: "754BA3A44FC8A127"
@@ -1889,11 +1834,6 @@
 					type: "random"
 				}
 				{
-					id: "1C309C7092ABA2A6"
-					item: "jjbamusic:disc_torture_dance"
-					type: "item"
-				}
-				{
 					id: "25F231A0A5FECC79"
 					item: "cataclysm:mech_eye"
 					type: "item"
@@ -1926,24 +1866,12 @@
 			icon: "cataclysm:mech_eye"
 			id: "2A35F4DAC7B6CF2A"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "5D7E1A1D214DCC12"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "71DC53FD931CE996"
-					item: "jjbamusic:disc_chase"
-					type: "item"
-				}
-				{
-					id: "4A7D95C617B8E255"
-					item: "jjbamusic:disc_jonathan_theme"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5D7E1A1D214DCC12"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "Overworld"
@@ -1970,24 +1898,12 @@
 			icon: "cataclysm:void_eye"
 			id: "7958902B691540C4"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "7BF720ABCDB6478C"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "246FFB1EA65C387F"
-					item: "jjbamusic:disc_josuke_theme"
-					type: "item"
-				}
-				{
-					id: "3DBA9777C2AF94B0"
-					item: "jjbamusic:disc_traitors_requiem"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7BF720ABCDB6478C"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "End"
@@ -2018,24 +1934,12 @@
 			icon: "cataclysm:desert_eye"
 			id: "418B954780DD19CB"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "42715177751A71E1"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "41DECAC57D8D7B25"
-					item: "jjbamusic:disc_un_altra_persona"
-					type: "item"
-				}
-				{
-					id: "4C55AB2ECDA2E68E"
-					item: "jjbamusic:disc_walk_like_an_egyptian"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "42715177751A71E1"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "Overworld / Desert"
@@ -2065,24 +1969,12 @@
 			icon: "cataclysm:abyss_eye"
 			id: "7044D2F80D2E9ED5"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "728D60FF30494347"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "2E8E469675A7DD39"
-					item: "jjbamusic:disc_propaganda"
-					type: "item"
-				}
-				{
-					id: "54240E49426A6FF9"
-					item: "jjbamusic:disc_crucified"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "728D60FF30494347"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "Overworld / Below Ocean"
@@ -2110,34 +2002,12 @@
 			icon: "cataclysm:flame_eye"
 			id: "27BF2E3F794A8645"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "38D05DDC9809DE74"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "6C8D99C7EB8E6BA5"
-					item: "jjbamusic:disc_freekn_you"
-					type: "item"
-				}
-				{
-					id: "45863C25C8561625"
-					item: "jjbamusic:disc_modern_crusaders"
-					type: "item"
-				}
-				{
-					id: "427ED18D0BE7472F"
-					item: "jjbamusic:disc_oingo_boingo"
-					type: "item"
-				}
-				{
-					id: "1DFB72A62F2A5226"
-					item: "jjbamusic:disc_sono_chi_no_sadame"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "38D05DDC9809DE74"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Nether / Burning Arena"
@@ -2174,29 +2044,12 @@
 			icon: "cataclysm:cursed_eye"
 			id: "6A721B304A70A1B8"
 			min_required_tasks: 1
-			rewards: [
-				{
-					id: "3F9C87C927DD4557"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "198279ADBD68F546"
-					item: "jjbamusic:disc_awaken"
-					type: "item"
-				}
-				{
-					id: "4266E4FA86DE37A6"
-					item: "jjbamusic:disc_hallelujah_chorus"
-					type: "item"
-				}
-				{
-					id: "2BB3F6E0AF7D5C18"
-					item: "jjbamusic:disc_dark_rebirth"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3F9C87C927DD4557"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Overworld / Cold Biomes"
@@ -2231,29 +2084,12 @@
 			]
 			icon: "traveloptics:eye_of_nothingness"
 			id: "7587CE5F525620F9"
-			rewards: [
-				{
-					id: "314609BC62CFA3A1"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "2EF1F76891DBFDA4"
-					item: "jjbamusic:disc_wonder_of_you"
-					type: "item"
-				}
-				{
-					id: "23515F2C2C99F26B"
-					item: "jjbamusic:disc_jotaro_theme"
-					type: "item"
-				}
-				{
-					id: "550ECC194C8D376C"
-					item: "jjbamusic:disc_jolyne_theme"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "314609BC62CFA3A1"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "End / Void Cathedral"
@@ -2288,192 +2124,6 @@
 			tasks: [
 				{
 					consume_items: true
-					id: "6D2F7F72EF32655C"
-					item: "jjbamusic:disc_crucified"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7AFCEDB979A83E3A"
-					item: "jjbamusic:disc_hallelujah_chorus"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "3B82CE8F760A2E5B"
-					item: "jjbamusic:disc_wonder_of_you"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "70AAE95430B885B0"
-					item: "jjbamusic:disc_awaken"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "1BCC00250DD13C81"
-					item: "jjbamusic:disc_propaganda"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0C5406CE65D8B797"
-					item: "jjbamusic:disc_dark_rebirth"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7F2EDC21E911E86F"
-					item: "jjbamusic:disc_kira_theme"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "1DBF336E48C98AA3"
-					item: "jjbamusic:disc_giorno_theme"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7043C03E0C0B0044"
-					item: "jjbamusic:disc_jonathan_theme"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "33186E6C4630ED52"
-					item: "jjbamusic:disc_jolyne_theme"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "1850658EFCAFB6BA"
-					item: "jjbamusic:disc_jotaro_theme"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "2F623AD20F136B74"
-					item: "jjbamusic:disc_josuke_theme"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7790FFEB8C05A95A"
-					item: "jjbamusic:disc_torture_dance"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0298A81B4BAB5F75"
-					item: "jjbamusic:disc_un_altra_persona"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "4174DEEA16C2A29C"
-					item: "jjbamusic:disc_stand_proud"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "319FE70EE0EAA4C1"
-					item: "jjbamusic:disc_sono_chi_no_sadame"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "5945686142C3AFCF"
-					item: "jjbamusic:disc_bloody_stream"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "05149B63C9655E57"
-					item: "jjbamusic:disc_end_of_the_world"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "46D2EA578493364D"
-					item: "jjbamusic:disc_crazy_noisy_bizarre_town"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "3736EC8EC60A9882"
-					item: "jjbamusic:disc_chase"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0BBC0A3A7B95941C"
-					item: "jjbamusic:disc_great_days"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "197D874CAFCD3745"
-					item: "jjbamusic:disc_fighting_gold"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0080EBD0E8AA7645"
-					item: "jjbamusic:disc_traitors_requiem"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "484C9411515F8546"
-					item: "jjbamusic:disc_stone_ocean"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7DF9E3A6CCD30094"
-					item: "jjbamusic:disc_heavens_falling_down"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7D4C0121812BCD28"
-					item: "jjbamusic:disc_to_be_continued"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "1C3DC1DC27DA96C3"
-					item: "jjbamusic:disc_walk_like_an_egyptian"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7CBB9E60E6DE6F50"
-					item: "jjbamusic:disc_oingo_boingo"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "6209C21FBF059BD4"
-					item: "jjbamusic:disc_i_want_you"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "38DBA6E905175E99"
-					item: "jjbamusic:disc_freekn_you"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "2179F96B4CB87558"
-					item: "jjbamusic:disc_modern_crusaders"
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "6F43CC6158DA9570"
 					item: {
 						Count: 1
@@ -2506,6 +2156,13 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "23B55D7532F2E025"
+					item: "kubejs:linggangoonium_ingot"
 					type: "item"
 				}
 			]
@@ -2698,7 +2355,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "moresnifferflowers:block/block_pattern/eye"
+					Icon: "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
 				}
 			}
 			icon_scale: 1.4d
@@ -2711,7 +2368,7 @@
 					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
-						Icon: "moresnifferflowers:block/block_pattern/eye"
+						Icon: "customtextures:textures/anklets.png"
 					}
 				}
 				id: "4087F1B1DF05BEF5"
@@ -2724,7 +2381,7 @@
 			subtitle: "&4&l&kblablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablabl"
 			tasks: [{
 				id: "226D999D056149A7"
-				title: "The world is watching you."
+				title: "the hell u sayin twin??"
 				type: "checkmark"
 			}]
 			title: "?"

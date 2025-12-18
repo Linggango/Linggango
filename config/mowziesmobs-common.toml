@@ -525,7 +525,7 @@
 		[mobs.umvuthana.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 2
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -534,7 +534,7 @@
 			max_group_size = 1
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 1.0
+			extra_rarity = 0.2
 			#Names of dimensions this mob can spawn in
 			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
@@ -562,7 +562,7 @@
 			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 2.0
 
 	[mobs.naga]
 

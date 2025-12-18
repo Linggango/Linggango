@@ -18,7 +18,7 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		melee = 2.0
+		melee = 3.0
 		#Explosion strength for Swampjaw's mines
 		#eg ghast fireballs are 1, creepers are 3, tnt 4, charged creeper 6
 		#Default: 2.5
@@ -38,7 +38,7 @@
 		#eg 2 means x2 damage
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		damage = 1.0
+		damage = 3.0
 
 	#Dame Fortuna
 	[stats.fortuna]
@@ -53,7 +53,7 @@
 		#eg 2 means x2 damage
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		damage = 1.0
+		damage = 3.0
 
 	#Rosalyne
 	[stats.rosalyne]
@@ -70,12 +70,12 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		melee = 1.0
+		melee = 3.0
 		#Damage multiplier for Rosalyne's spirits' projectiles
 		#eg 2 means x2 damage
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		projectile = 1.0
+		projectile = 3.0
 
 #Boss items
 [items]

@@ -83,8 +83,16 @@
 			x: 0.0d
 			y: -4.0d
 		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.0d
+		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

@@ -16,7 +16,7 @@
 		x: -10.0d
 		y: -1.5d
 	}]
-	order_index: 3
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -4290,88 +4290,6 @@
 			title: "Sound Of Steam Addition!"
 			x: -6.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["4206216A5F414642"]
-			description: ["An advanced fluid distribution machine that works if you make it point to specific points that the arm can reach, if it can't reach, the arm won't work, also requires SUs to move it."]
-			id: "1E9441796E51A973"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "097209C28467B910"
-					table_id: 6020190763011454986L
-					type: "random"
-				}
-				{
-					id: "1DA51A3242F6C5CC"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "goldtier"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "0C967EC44D78FDEE"
-				item: "fluid:pipette"
-				type: "item"
-			}]
-			x: -18.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4206216A5F414642"]
-			id: "0A5B24A0F22F157D"
-			subtitle: "Manage Your Mechanical Arm / Pipette easily with this tool."
-			tasks: [{
-				id: "708476888FD38979"
-				item: "fluid:baton"
-				type: "item"
-			}]
-			x: -17.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4267B97B18413E1D"]
-			description: ["Centrifugal Pump is a better version of a mechanical pump."]
-			id: "48D11DFD598CBE45"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "43923F32A8DAA6E5"
-				item: "fluid:centrifugal_pump"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["666E9828756ADB0C"]
-			description: ["Allows mechanical pipette to extract liquids from fluid tanks."]
-			id: "00CB735BAEF9A8A5"
-			rewards: [{
-				id: "534D462C3777CDB0"
-				type: "xp"
-				xp: 5
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "04E4E2AC577DF5EC"
-				item: "fluid:fluid_interface"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["00CB735BAEF9A8A5"]
-			id: "79F907740B51729F"
-			subtitle: "Has filtering options."
-			tasks: [{
-				id: "6CAB6B5BC6F1CA61"
-				item: "fluid:smart_fluid_interface"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.5d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]

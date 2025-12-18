@@ -9,10 +9,10 @@
         "damage_multiplier": 1,
         "angle": 150,
         "upswing": 0.5,
-        "animation": "bettercombat:one_handed_slash_horizontal_right",
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
         "swing_sound": {
-          "id": "bettercombat:scythe_slash",
-          "pitch": 0.75
+          "id": "enigmaticlegacy:misc.sword_hit_reject",
+          "pitch": 0.5
         }
       },
       {
@@ -20,10 +20,10 @@
         "damage_multiplier": 1,
         "angle": 150,
         "upswing": 0.5,
-        "animation": "bettercombat:one_handed_slash_horizontal_left",
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
         "swing_sound": {
-          "id": "bettercombat:scythe_slash",
-          "pitch": 0.75
+          "id": "enigmaticlegacy:misc.sword_hit_reject",
+          "pitch": 0.5
         }
       },
       {
@@ -31,10 +31,10 @@
         "damage_multiplier": 1.5,
         "angle": 90,
         "upswing": 0.5,
-        "animation": "bettercombat:one_handed_slam",
+        "animation": "bettercombat:two_handed_slam",
         "swing_sound": {
-          "id": "bettercombat:anchor_slam",
-          "pitch": 0.85
+          "id": "enigmaticlegacy:misc.sword_hit_reject",
+          "pitch": 0.5
         }
       }
     ]

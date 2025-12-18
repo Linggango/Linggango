@@ -49,6 +49,14 @@
 			x: -0.5d
 			y: 3.0d
 		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1121,190 +1129,6 @@
 			}]
 			x: -4.0d
 			y: 14.0d
-		}
-		{
-			dependencies: ["7C1409F2EE726A20"]
-			description: ["That which is donned may never be unequipped. Embrace fully the path of one element, and wield its potency to the absolute."]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:textures/gui/info_icon.png"
-				}
-			}
-			icon_scale: 1.45d
-			id: "677EB1EA32079619"
-			rewards: [{
-				id: "4441423CF08611E9"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "square"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "0DCFD519501C8971"
-				title: "Wow"
-				type: "checkmark"
-			}]
-			title: "Elemental Blasphemy"
-			x: 5.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "70285FED7F72E787"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "1A39B91AB562637F"
-				item: "covenant_of_the_seven:ice_blasphemy"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "775CCED955B701B8"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "26B9FE6D33C50EC7"
-				item: "covenant_of_the_seven:holy_blasphemy"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "7EA7122FCFDB31DB"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "4FD80FEEEB374614"
-				item: "covenant_of_the_seven:geo_blasphemy"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "31D79ED77AE388DA"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "148E64998C59E793"
-				item: "covenant_of_the_seven:fire_blasphemy"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "065F062A241AE2A4"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "73BF9F1609B97EDD"
-				item: "covenant_of_the_seven:evocation_blasphemy"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "1174B5F91D865841"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "0B85866BE6BAAED2"
-				item: "covenant_of_the_seven:ender_blasphemy"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "1101A907C74BD66F"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "5D1BC437F05D6FA5"
-				item: "covenant_of_the_seven:eldritch_blasphemy"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "2B316BCFBAAEC8DF"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "0A95E39CD4444EA1"
-				item: "covenant_of_the_seven:blood_blasphemy"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "069708B3720F0E65"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "52960A61CB806A2B"
-				item: "covenant_of_the_seven:aqua_blasphemy"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "036855650BBF0A1D"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "573B58EABBF88393"
-				item: "covenant_of_the_seven:wind_blasphemy"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "66222C451516902F"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "03E68F75EA00AC0E"
-				item: "covenant_of_the_seven:nature_blasphemy"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["677EB1EA32079619"]
-			id: "20F5BDA4BF646D19"
-			shape: "diamond"
-			subtitle: "Read The Item Description"
-			tasks: [{
-				id: "609CFB84A7C219F1"
-				item: "covenant_of_the_seven:lightning_blasphemy"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 7.5d
 		}
 	]
 	title: "Enigmatic Legacy"

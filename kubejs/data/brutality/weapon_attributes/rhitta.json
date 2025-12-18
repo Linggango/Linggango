@@ -2,7 +2,8 @@
   "parent": "bettercombat:axe",
   "attributes": {
     "attack_range": 5.25,
-    "two_handed": false,
+        "pose": "lethality:greatsword_pose",
+    "two_handed": true,
     "attacks": [
 {
         "hitbox": "HORIZONTAL_PLANE",
@@ -11,7 +12,8 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_slash_horizontal_right",
         "swing_sound": {
-          "id": "bettercombat:scythe_slash"
+          "id": "legendary_monsters:heavy_swing",
+          "pitch": 0.8
         }
       },
       {
@@ -21,7 +23,8 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_slash_horizontal_left",
         "swing_sound": {
-          "id": "bettercombat:scythe_slash"
+          "id": "legendary_monsters:heavy_swing",
+          "pitch": 0.8
         }
       }
     ]

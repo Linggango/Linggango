@@ -65,8 +65,8 @@
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.0d
-			y: -3.5d
+			x: -1.0d
+			y: -16.0d
 		}
 	]
 	order_index: 6

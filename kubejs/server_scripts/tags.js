@@ -35,6 +35,10 @@ ServerEvents.tags("item", e => {
       "armageddon_mod:the_hungery_pickaxe",
       "deeperdarker:warden_pickaxe",
       "enigmaticlegacy:etherium_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "composite_material:primitive_pickaxe",
+      "evolvedmekanism:better_gold_pickaxe",
+      "evolvedmekanism:plaslitherite_pickaxe"
     ])
   );
 });
@@ -43,4 +47,16 @@ ServerEvents.tags("block", e => {
   e.remove("minecraft:needs_iron_tool", ["create:zinc_ore", "create:deepslate_zinc_ore"]);
 
   e.add("minecraft:needs_stone_tool", ["create:zinc_ore", "create:deepslate_zinc_ore"]);
+});
+
+ServerEvents.tags("item", e => {
+  [
+    "forge:ingots/steel",
+    "ad_astra:steel_ingot"
+  ].forEach(tag =>
+    e.add(tag, [
+      "ancient_elements:steel_ingot",
+      "lethality:improbability_steel"
+    ])
+  );
 });

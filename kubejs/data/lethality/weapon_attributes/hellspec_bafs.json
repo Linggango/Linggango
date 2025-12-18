@@ -1,0 +1,46 @@
+
+
+{
+  "parent": "bettercombat:double_axe",
+  "attributes": {
+    "attack_range": 4.0,
+    "category": "sword",
+    "pose": "weapon:pose_great_sword_animated",
+    "two_handed": true,
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greatsword_rl",
+        "swing_sound": {
+          "id": "legendary_monsters:heavy_swing",
+          "pitch": 0.5
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.3,
+        "angle": 120,
+        "upswing": 0.7,
+        "animation": "malfu_combat_animation:greatsword_lr",
+        "swing_sound": {
+          "id": "legendary_monsters:heavy_swing",
+          "pitch": 0.6
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.5,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slam",
+        "swing_sound": {
+          "id": "irons_spellbooks:entity.dead_king.attack_slam",
+          "pitch": 0.6
+        }
+      }
+    ]
+  }
+}

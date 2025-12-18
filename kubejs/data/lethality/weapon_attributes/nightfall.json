@@ -1,16 +1,16 @@
 {
   "attributes": {
-    "attack_range": 5.0,
-    "category": "sword",
-    "pose": "weapon:pose_great_sword_animated",
+    "attack_range": 4.5,
     "two_handed": true,
+    "category": "greathammer",
+    "pose": "weapon:pose_great_sword_animated",
     "attacks": [
       {
         "hitbox": "HORIZONTAL_PLANE",
-        "damage_multiplier": 1,
-        "angle": 150,
+        "damage_multiplier": 1.0,
+        "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "animation": "malfu_combat_animation:greathammer_slamslash_rl",
         "swing_sound": {
           "id": "bettercombat:mace_slash",
           "pitch": 0.5
@@ -18,23 +18,35 @@
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
-        "damage_multiplier": 1,
-        "angle": 150,
+        "damage_multiplier": 1.0,
+        "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "animation": "malfu_combat_animation:greathammer_slamslash_lr",
         "swing_sound": {
           "id": "bettercombat:mace_slash",
-          "pitch": 0.5
+          "pitch": 0.8
         }
       },
       {
-        "hitbox": "FORWARD_BOX",
-        "damage_multiplier": 2,
-        "angle": 90,
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:two_handed_slam",
+        "animation": "malfu_combat_animation:greathammer_slam_lr",
         "swing_sound": {
-          "id": "lethality:nightfall_slam"
+          "id": "lethality:nightfall_slam",
+          "pitch": 1.1
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greathammer_slam_rl",
+        "swing_sound": {
+          "id": "lethality:nightfall_slam",
+          "pitch": 0.6
         }
       }
     ]

@@ -20,5 +20,5 @@
 		{ count: 2, item: "minecraft:pumpkin_pie" }
 		{ count: 8, item: "minecraft:cookie" }
 	]
-	title: "wda_food"
+	title: "Food"
 }

@@ -1,18 +1,18 @@
 {
-  "parent": "bettercombat:double_axe",
   "attributes": {
-    "attack_range": 5,
-    "two_handed": true,
+    "attack_range": 4.0,
     "pose": "weapon:pose_great_sword_animated",
+    "two_handed": true,
+    "category": "greathammer",
     "attacks": [
       {
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 1.0,
-        "angle": 150,
+        "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "animation": "malfu_combat_animation:greathammer_slamslash_rl",
         "swing_sound": {
-          "id": "bettercombat:claymore_swing",
+          "id": "brutality:terratomere_swing",
           "volume": 1.5,
           "pitch": -20
         }
@@ -20,25 +20,37 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 1.0,
-        "angle": 150,
+        "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "animation": "malfu_combat_animation:greathammer_slamslash_lr",
         "swing_sound": {
-          "id": "bettercombat:claymore_swing",
+          "id": "brutality:terratomere_swing",
           "volume": 1.5,
           "pitch": -20
         }
       },
       {
-        "hitbox": "FORWARD_BOX",
-        "damage_multiplier": 1.2,
-        "angle": 90,
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:two_handed_slam_heavy",
+        "animation": "malfu_combat_animation:greathammer_slam_lr",
         "swing_sound": {
-          "id": "bettercombat:anchor_slam",
+          "id": "brutality:terratomere_swing",
           "volume": 1.5,
           "pitch": 0.5
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greathammer_slam_rl",
+        "swing_sound": {
+          "id": "brutality:terratomere_swing",
+          "volume": 1.5,
+          "pitch": 0.8
         }
       }
     ]

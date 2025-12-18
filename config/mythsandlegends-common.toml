@@ -33,11 +33,11 @@
 	#Range: 4.0 ~ 1.7976931348623157E308
 	damage = 6.0
 	#Attack Knockback for Gargoyle
-	#Range: 30.0 ~ 1.7976931348623157E308
-	attack_knockback = 60.0
+	#Range: 0.5 ~ 2.0
+	attack_knockback = 2.0
 	#Knockback Resistance for Gargoyle
-	#Range: 30.0 ~ 1.7976931348623157E308
-	knockback_resistance = 60.0
+	#Range: 0.3 ~ 1.0
+	knockback_resistance = 1.0
 
 [black_charro]
 	#Health for Black Charro
@@ -166,13 +166,13 @@
 	knockback_resistance = 0.3
 
 [lampad]
-	#Health for Lampad
-	#Range: 35.0 ~ 1.7976931348623157E308
-	health = 35.0
-	#Armor for Lampad
-	#Range: 0.0 ~ 1.7976931348623157E308
+	#Health for Amarok
+	#Range: 50.0 ~ 1.7976931348623157E308
+	health = 50.0
+	#Armor for Amarok
+	#Range: 2.0 ~ 6.0
 	armor = 2.0
-	#Damage for Lampad
-	#Range: 5.0 ~ 1.7976931348623157E308
+	#Damage for Amarok
+	#Range: 6.0 ~ 1.7976931348623157E308
 	damage = 6.0
 

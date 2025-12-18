@@ -5,18 +5,15 @@
      "attacks": [
       {
         "swing_sound" : { 
-          "pitch": -1.0,
-          "id" : "minecraft:entity.player.hurt_freeze"}
+          "id" : "simplyswords:elemental_sword_ice_attack_01"}
       },
     {
         "swing_sound" : { 
-          "pitch": -1.0,
-          "id" : "minecraft:entity.player.hurt_freeze"}
+          "id" : "simplyswords:elemental_sword_ice_attack_03"}
       },
       {
         "swing_sound" : { 
-          "pitch": -1.0,
-          "id" : "minecraft:entity.player.hurt_freeze"}
+          "id" : "simplyswords:elemental_sword_ice_attack_02"}
       }
     ]
   }

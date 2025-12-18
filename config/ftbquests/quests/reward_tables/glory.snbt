@@ -133,7 +133,6 @@
 			title: "SECRET"
 		}
 		{ count: 5, item: "born_in_chaos_v1:dark_metal_ingot", title: "SECRET" }
-		{ item: "simplehats:triangleshades", title: "SECRET", weight: 3.0f }
 		{ item: "goety_cataclysm:abyss_essence", title: "SECRET" }
 		{
 			item: {
@@ -347,13 +346,6 @@
 		}
 		{ item: "cataclysm:burning_ashes", title: "SECRET" }
 		{ item: "cataclysm:dying_ember", title: "SECRET" }
-		{ item: "simplehats:gnome", title: "SECRET" }
-		{ item: "simplehats:hatbag_summer", title: "SECRET" }
-		{ item: "simplehats:hatbag_festive", title: "SECRET" }
-		{ item: "simplehats:hatbag_halloween", title: "SECRET" }
-		{ item: "simplehats:hatbag_easter", title: "SECRET" }
-		{ item: "simplehats:hatbag_rare", title: "SECRET" }
-		{ item: "simplehats:cartoonegg", title: "SECRET" }
 		{ count: 15, item: "create_new_age:overcharged_diamond", title: "SECRET" }
 		{ item: "create:creative_motor", title: "SECRET", weight: 0.1f }
 		{ item: "terramity:proximity_badge", title: "SECRET" }
@@ -379,7 +371,6 @@
 		}
 		{ count: 5, item: "simplyswords:runic_tablet", title: "SECRET" }
 		{ item: "plushie_buddies:plushie_panda", title: "SECRET" }
-		{ item: "simplehats:mindflayer", title: "SECRET" }
 		{ item: "lethality:pixie_alloy", title: "SECRET", weight: 0.5f }
 		{ item: "skyarena:crimson_key", title: "SECRET" }
 		{ item: "skyarena:desert_key", title: "SECRET" }
@@ -389,7 +380,6 @@
 		{ item: "skyarena:forest_key", title: "SECRET" }
 		{ count: 16, item: "minecraft:lapis_block", title: "SECRET" }
 		{ item: "minecraft:chest", title: "SECRET" }
-		{ item: "koopascritters:buff_milk", title: "SECRET" }
 		{ item: "skyarena:netherite_trophy", title: "SECRET", weight: 0.5f }
 		{
 			item: {
@@ -544,6 +534,17 @@
 		{ item: "goety:redstone_monstrosity_head", title: "SECRET" }
 		{ item: "evolvedmekanism:overclocked_thermodynamic_conductor", title: "SECRET" }
 		{ item: "born_in_chaos_v1:nightmare_stalker_skull", title: "SECRET" }
+		{
+			count: 2000
+			item: {
+				Count: 1
+				id: "alexscaves:jelly_bean"
+				tag: {
+					Potion: "mowziesmobs:poison_resist"
+				}
+			}
+			title: "SECRET"
+		}
 	]
 	title: "Glory"
 	use_title: true
