@@ -1,4 +1,4 @@
-Pickaxes:
+Pickaxes have:
 Steel - 0
 Tin - 1
 Lead - 2
@@ -22,7 +22,7 @@ Celestium - 10
 Galactrium - 10
 Aeonite - 12
 
-Ores:
+Ores require:
 Tin - 0
 Spectrillium - 0
 Lead - 1
