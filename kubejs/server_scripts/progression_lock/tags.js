@@ -175,7 +175,6 @@ ServerEvents.tags("item", e => {
     "ancient_elements:palladium_hoe",
     "ancient_elements:palladium_drill",
     "ancient_elements:palladium_hammer",
-    "block_factorys_bosses:large_sword",
     "terramity:onyx_sword",
     "terramity:onyx_axe",
     "block_factorys_bosses:large_sword",
