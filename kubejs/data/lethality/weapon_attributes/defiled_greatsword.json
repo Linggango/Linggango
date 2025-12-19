@@ -1,18 +1,29 @@
 {
-  "parent": "bettercombat:double_axe",
   "attributes": {
-    "attack_range": 5,
-    "two_handed": true,
+    "attack_range": 5.5,
+    "category": "greatsword",
     "pose": "lethality:greatsword_pose",
-   "attacks": [
+    "two_handed": true,
+    "attacks": [
       {
-        "swing_sound" : { "id" : "simplyswords:dark_sword_attack_01"}
+        "hitbox": "HORIZONTAL_PLANE",
+        "angle": 200,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greatsword_rl",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_attack_01",
+          "pitch": 0.3
+        }
       },
       {
-        "swing_sound" : { "id" : "simplyswords:dark_sword_attack_02"}
-      },
-      {
-        "swing_sound" : { "id" : "simplyswords:dark_sword_attack_03"}
+        "hitbox": "HORIZONTAL_PLANE",
+        "angle": 200,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greatsword_lr",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_attack_02",
+          "pitch": 0.35
+        }
       }
     ]
   }

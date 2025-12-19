@@ -22,7 +22,6 @@
 		{ item: "netherexp:shotgun_core", title: "SECRET" }
 		{ item: "create_connected:control_chip", title: "SECRET" }
 		{ item: "productivetrees:red_banana_sign", title: "SECRET" }
-		{ item: "koopascritters:raw_agazzis_cichlid", title: "SECRET" }
 		{ item: "goety:undeath_potion", title: "SECRET" }
 		{
 			command: "/summon minecraft:creeper"
@@ -133,7 +132,6 @@
 			title: "SECRET"
 		}
 		{ item: "undergarden:catalyst", title: "SECRET" }
-		{ item: "verdant:golden_moss_clump", title: "SECRET" }
 		{ item: "productivetrees:citron_sapling", title: "SECRET" }
 		{
 			item: {

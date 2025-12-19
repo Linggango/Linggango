@@ -1,0 +1,33 @@
+{
+  "attributes": {
+    "attack_range": 5.0,
+    "attack_speed": 0.8,
+    "two_handed": true,
+    "pose": "lethality:greatsword_pose",
+    "category": "claymore",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_attack_with_blood_01",
+          "pitch": 0.7
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_attack_with_blood_03",
+          "pitch": 0.9
+        }
+      }
+    ]
+  }
+}

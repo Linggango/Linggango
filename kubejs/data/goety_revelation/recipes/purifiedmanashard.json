@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "kubejs:magic_vessel"
+  },
+  "craftType": "expert_nether",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "minecraft:raiders",
+    "display_name": "entity.goety.apostle"
+  },
+  "soulCost": 666,
+  "duration": 40,
+  "ingredients": [
+    {
+      "item": "darkdoppelganger:shadow_orb"
+    },
+    {
+      "item": "brutality:pocket_black_hole"
+    },
+    {
+      "item": "traveloptics:pocket_black_hole"
+    },
+    {
+      "item": "armageddon_mod:calamitous_core"
+    },
+    {
+      "item": "block_factorys_bosses:knight_sword"
+    },
+    {
+      "item": "goety_revelation:valettein"
+    },
+    {
+      "item": "aquamirae:ship_graveyard_echo"
+    },
+    {
+      "item": "enigmaticdelicacy:harmonious_grail"
+    },
+    {
+      "item": "alexsmobs:void_worm_eye"
+    },
+    {
+      "item": "kubejs:fartinium_ingot"
+    },
+    {
+      "item": "kubejs:shard_of_compressed_mana"
+    },
+    {
+      "item": "terramity:kamehameha"
+    }
+  ],
+  "result": {
+    "item": "kubejs:purified_shard_of_compressed_mana"
+  }
+}

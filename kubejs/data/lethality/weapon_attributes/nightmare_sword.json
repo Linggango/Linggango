@@ -12,7 +12,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_right",
         "swing_sound": {
-          "id": "brutality:supernova_1",
+          "id": "enigmaticdice:crucible_of_rile_preattack",
           "pitch": 0.8
         }
       },
@@ -23,7 +23,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_left",
         "swing_sound": {
-          "id": "brutality:supernova_1",
+          "id": "enigmaticdice:crucible_of_rile_preattack",
           "pitch": 0.76
         }
       },
@@ -34,8 +34,8 @@
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slam",
         "swing_sound": {
-          "id": "brutality:supernova_1",
-          "pitch": 0.65
+          "id": "lethality:nightfall_shield_use",
+          "pitch": 0.2
         }
       }
     ]

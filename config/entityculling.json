@@ -65,7 +65,15 @@
     "gtbcs_geomancy_plus:resonate_pillar",
     "mowziesmobs:pillar_piece",
     "mowziesmobs:pillar_sculptor",
-    "mowziesmobs:pillar"
+    "mowziesmobs:pillar",
+    "saintsdragons:raevyx_lightning_chain",
+    "saintsdragons:raevyx",
+    "saintsdragons:nulljaw",
+    "saintsdragons:ignivorus_magma_pillar",
+    "saintsdragons:ignivorus",
+    "saintsdragons:cindervane_magma_block",
+    "saintsdragons:cindervane",
+    "saintsdragons:stegonaut"
   ],
   "tracingDistance": 128,
   "debugMode": false,
@@ -145,7 +153,15 @@
     "mowziesmobs:sculptor",
     "mowziesmobs:pillar_sculptor",
     "mowziesmobs:boulder_platform",
-    "mowziesmobs:boulder_platform_crumbling"
+    "mowziesmobs:boulder_platform_crumbling",
+    "saintsdragons:ignivorus",
+    "saintsdragons:cindervane_magma_block",
+    "saintsdragons:cindervane",
+    "saintsdragons:ignivorus_magma_pillar",
+    "saintsdragons:nulljaw",
+    "saintsdragons:raevyx",
+    "saintsdragons:raevyx_lightning_chain",
+    "saintsdragons:stegonaut"
   ],
   "disableF3": false,
   "skipEntityCulling": false,

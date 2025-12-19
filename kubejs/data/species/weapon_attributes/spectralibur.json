@@ -1,0 +1,74 @@
+{
+  "attributes": {
+    "attack_range": 3.5,
+    "category": "sword",
+    "pose": "weapon:pose_big_katana_animated",
+    "attacks": [
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_cross_slash",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_breaks"
+        }
+      },
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_stab",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_breaks"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_breaks"
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_vert_lr",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_breaks"
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_breaks"
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_lr",
+        "swing_sound": {
+          "id": "simplyswords:dark_sword_breaks"
+        }
+      }
+    ]
+  }
+}

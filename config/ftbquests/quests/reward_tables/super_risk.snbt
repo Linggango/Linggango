@@ -253,7 +253,6 @@
 			title: "SECRET"
 		}
 		{ count: 32, item: "farmersdelight:organic_compost", title: "SECRET" }
-		{ item: "royalvariations:spiritual_crown", title: "SECRET" }
 		{ item: "productivetrees:european_larch_planks", title: "SECRET" }
 		{ count: 512, item: "enigmaticdice:enigmatic_die", title: "SECRET", weight: 0.001f }
 		{
@@ -370,6 +369,18 @@
 			title: "SECRET"
 			type: "command"
 		}
+		{ item: "tameablebeasts:flying_helmet", title: "SECRET" }
+		{
+			item: {
+				Count: 1
+				id: "armageddon_mod:ultimate_sword_of_the_elements_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{ item: "productivetrees:slimy_delight_sign", title: "SECRET" }
 	]
 	title: "SUPER RISK"
 }

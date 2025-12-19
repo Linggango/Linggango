@@ -11,7 +11,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_right",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_1"
+          "id" : "simplyswords:dark_sword_whoosh_02"
         }
       },
       {
@@ -21,7 +21,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_left",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_1"
+          "id" : "simplyswords:dark_sword_whoosh_03"
         }
       },
       {
@@ -31,7 +31,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_uppercut_right",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_1"
+          "id" : "simplyswords:dark_sword_whoosh_01"
         }
       },
       {
@@ -41,7 +41,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_stab",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_1"
+          "id" : "simplyswords:dark_sword_whoosh_04"
         }
       }
     ]

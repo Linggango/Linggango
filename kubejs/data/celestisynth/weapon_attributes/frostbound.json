@@ -1,0 +1,47 @@
+{
+  "parent": "bettercombat:scythe",
+  "attributes": {
+    "attack_range": 4.0,
+    "attacks": [
+      {
+        "angle": 150.0,
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "damage_multiplier": 1.1,
+        "hitbox": "HORIZONTAL_PLANE",
+        "swing_sound": {
+          "id": "irons_spellbooks:spell.ray_of_frost.cast",
+          "pitch": 0.7,
+          "randomness": 0.1,
+          "volume": 1.0
+        },
+        "upswing": 0.5
+      },
+      {
+        "angle": 150.0,
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "hitbox": "HORIZONTAL_PLANE",
+        "swing_sound": {
+          "id": "irons_spellbooks:spell.ray_of_frost.cast",
+          "pitch": 0.8,
+          "randomness": 0.1,
+          "volume": 1.0
+        },
+        "upswing": 0.5
+      },
+      {
+        "angle": 0.0,
+        "animation": "bettercombat:two_handed_slam",
+        "damage_multiplier": 1.2,
+        "hitbox": "FORWARD_BOX",
+        "swing_sound": {
+          "id": "bettercombat:claymore_slam",
+          "pitch": 0.9,
+          "randomness": 0.1,
+          "volume": 1.0
+        },
+        "upswing": 0.5
+      }
+    ],
+    "two_handed": true
+  }
+}

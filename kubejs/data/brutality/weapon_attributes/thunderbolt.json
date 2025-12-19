@@ -6,13 +6,13 @@
     "two_handed": true,
     "attacks": [
       {
-        "swing_sound" : { "id" : "goety:redstone_golem_electric_sparks"}
+        "swing_sound" : { "id" : "goety:shock_cast"}
       },
       {
-        "swing_sound" : { "id" : "goety:redstone_golem_electric_sparks"}
+        "swing_sound" : { "id" : "goety:shock_cast"}
       },
       {
-        "swing_sound" : { "id" : "goety:redstone_golem_electric_sparks"}
+        "swing_sound" : { "id" : "goety:shock_cast"}
       }
     ]
   }

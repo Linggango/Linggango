@@ -2,24 +2,24 @@ EntityJSEvents.attributes(e => {
   e.modify("minecraft:warden", attributes => {
     attributes.add("minecraft:generic.max_health", 1500);
     attributes.add("minecraft:generic.attack_damage", 50);
-    attributes.add("minecraft:generic.movement_speed", 0.15);
+    attributes.add("minecraft:generic.movement_speed", 0.4);
   });
 
   e.modify("minecraft:zombie", attributes => {
     attributes.add("minecraft:generic.max_health", 25);
     attributes.add("minecraft:generic.attack_damage", 4.5);
-    attributes.add("minecraft:generic.movement_speed", 0.09);
+    attributes.add("minecraft:generic.movement_speed", 0.25);
   });
 
   e.modify("minecraft:skeleton", attributes => {
     attributes.add("minecraft:generic.max_health", 10);
     attributes.add("minecraft:generic.attack_damage", 4.5);
-    attributes.add("minecraft:generic.movement_speed", 0.05);
+    attributes.add("minecraft:generic.movement_speed", 0.2);
   });
 
   e.modify("armageddon_mod:eldoraththe_ancient_builder", attributes => {
     attributes.add("minecraft:generic.attack_damage", 30);
-    attributes.add("minecraft:generic.movement_speed", 0.15);
+    attributes.add("minecraft:generic.movement_speed", 0.3);
     attributes.add("minecraft:generic.attack_knockback", 3);
   });
 
@@ -32,7 +32,7 @@ EntityJSEvents.attributes(e => {
 
   e.modify("armageddon_mod:zoranththe_forgotten_one", attributes => {
     attributes.add("minecraft:generic.attack_damage", 40);
-    attributes.add("minecraft:generic.movement_speed", 0.2);
+    attributes.add("minecraft:generic.movement_speed", 0.4);
     attributes.add("minecraft:generic.attack_knockback", 0.5);
     attributes.add("minecraft:generic.armor", 20);
   });
@@ -43,7 +43,7 @@ EntityJSEvents.attributes(e => {
 
   e.modify("armageddon_mod:zoranththe_forgotten_one", attributes => {
     attributes.add("minecraft:generic.attack_damage", 40);
-    attributes.add("minecraft:generic.movement_speed", 0.2);
+    attributes.add("minecraft:generic.movement_speed", 0.3);
     attributes.add("minecraft:generic.attack_knockback", 0.5);
     attributes.add("minecraft:generic.armor", 30);
   });

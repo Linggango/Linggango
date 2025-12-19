@@ -21,8 +21,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 8.0d
-			x: -4.7833333333333385d
-			y: -1.9571428571428555d
+			x: -4.72959216716125d
+			y: -2.2173202095156483d
 		}
 		{
 			dev: true
@@ -52,20 +52,20 @@
 			y: -10.5d
 		}
 		{
-			height: 7.0d
-			image: "more_critters:textures/screens/critter_atlas_root_page.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: -5.5d
-			y: -2.5d
-		}
-		{
 			height: 1.0d
 			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.3475031990209416d
 			y: 3.534949792225234d
+		}
+		{
+			height: 7.0d
+			image: "ldlib:textures/gui/bordered_background.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.515306452875535d
+			y: -2.753034495229933d
 		}
 	]
 	order_index: 2

@@ -4,13 +4,14 @@ ServerEvents.recipes(e => {
   e.remove({ id: "enigmaticlegacy:the_cube" });
   e.remove({ id: "enigmaticlegacy:crafting/the_cube" });
 
-  e.shaped("enigmaticlegacy:the_cube", ["ABC", "DED", "CFA"], {
+  e.shaped("enigmaticlegacy:the_cube", ["ABC", "DEG", "CFA"], {
     A: "cataclysm:witherite_block",
     B: "enigmaticaddons:revival_leaf",
     C: "enigmaticlegacy:evil_ingot",
     D: "kubejs:broken_cube_piece_1",
     E: "enigmaticaddons:lost_engine",
     F: "enigmaticaddons:forgotten_ice",
+    G: "kubejs:broken_cube_piece_2"
   });
 
   e.shaped("enigmaticlegacy:cursed_ring", [" A ", "ABA", " C "], {

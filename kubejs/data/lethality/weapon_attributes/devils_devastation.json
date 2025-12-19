@@ -1,28 +1,78 @@
 {
   "attributes": {
-    "attack_range": 5.0,
+    "attack_range": 5.5,
     "category": "sword",
-    "two_handed": false,
     "pose": "weapon:pose_big_katana_animated",
     "attacks": [
       {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
         "hitbox": "HORIZONTAL_PLANE",
-        "damage_multiplier": 1,
-        "angle": 120,
+        "damage_multiplier": 1.2,
+        "angle": 150,
         "upswing": 0.5,
-        "animation": "bettercombat:one_handed_slash_horizontal_right",
+        "animation": "malfu_combat_animation:er_sword_double_cross_slash",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_1"
+          "id": "dungeonnowloading:soul_scorcher_overheat",
+          "pitch": 1.2
+        }
+      },
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_stab",
+        "swing_sound": {
+          "id": "dungeonnowloading:soul_scorcher_overheat",
+          "pitch": 0.8
         }
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "dungeonnowloading:soul_scorcher_overheat",
+          "pitch": 0.95
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
         "angle": 120,
         "upswing": 0.5,
-        "animation": "bettercombat:one_handed_slash_horizontal_left",
+        "animation": "malfu_combat_animation:er_sword_vert_lr",
         "swing_sound": {
-          "id" : "brutality:darkin_blade_2"
+          "id": "dungeonnowloading:soul_scorcher_overheat",
+          "pitch": 0.8
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "dungeonnowloading:soul_scorcher_overheat",
+          "pitch": 1.2
+        }
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_lr",
+        "swing_sound": {
+          "id": "dungeonnowloading:soul_scorcher_overheat",
+          "pitch": 1.0
         }
       }
     ]

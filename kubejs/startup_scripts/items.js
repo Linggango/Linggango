@@ -69,7 +69,7 @@ StartupEvents.registry("item", e => {
     .rarity("epic");
 
   e.create("linggangoonium_ingot")
-    .displayName("§cLinggangoonium Ingot")
+    .displayName("§cLinggangonium Ingot")
     .texture("kubejs:item/linggangoonium")
     .rarity("epic");
 

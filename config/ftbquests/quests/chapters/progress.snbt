@@ -326,7 +326,7 @@
 						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
-							Icon: "essential:textures/account/sign_out_8x7.png"
+							Icon: "armageddon_mod:item/bruh_sword"
 						}
 					}
 					id: "63EA418D3EEA25E9"
@@ -943,26 +943,19 @@
 			icon: "minecraft:ender_eye"
 			id: "2B69C369F7D0B25C"
 			min_required_tasks: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "celestisynth:textures/abilityicon/skill/keres_skill_icon_1.png"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "celestisynth:textures/abilityicon/skill/keres_skill_icon_1.png"
 					}
-					id: "6676B496DDE5726D"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
 				}
-				{
-					id: "20F0DA5996940501"
-					item: "jjbamusic:disc_i_want_you"
-					type: "item"
-				}
-			]
+				id: "6676B496DDE5726D"
+				table_id: 8699295573854160387L
+				title: "&l&4Glorious"
+				type: "random"
+			}]
 			shape: "square"
 			size: 1.2d
 			subtitle: "End / Main island"
@@ -1662,33 +1655,13 @@
 			}]
 			size: 1.0d
 			tasks: [{
-				elapsedTime: 20L
+				elapsedTime: 3L
 				id: "1C500F8A4BA14B7E"
 				title: "INVCLEANER"
 				type: "questsadditions:time"
 			}]
 			x: 1.0d
 			y: 37.0d
-		}
-		{
-			dependencies: ["297F31BB6030C00F"]
-			id: "6D79D4F4C5CB2B93"
-			shape: "square"
-			size: 1.0d
-			subtitle: "I wonder.."
-			tasks: [{
-				id: "5B843CD22A7C4F12"
-				item: {
-					Count: 1
-					id: "weapon:greatsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: -9.0d
 		}
 		{
 			dependencies: ["2EAC826E47A3A682"]
@@ -1878,6 +1851,22 @@
 			title: "Undergarden!"
 			x: -4.0d
 			y: -10.5d
+		}
+		{
+			id: "7E73ED46222113B3"
+			rewards: [{
+				auto: "enabled"
+				id: "16EBA1E0711ABE62"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			tasks: [{
+				elapsedTime: 6L
+				id: "301774D23CB3439E"
+				type: "questsadditions:time"
+			}]
+			x: 3.0d
+			y: 37.0d
 		}
 	]
 	title: "Main Progression"

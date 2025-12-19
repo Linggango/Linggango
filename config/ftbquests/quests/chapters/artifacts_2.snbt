@@ -7490,6 +7490,67 @@
 			x: -10.5d
 			y: 2.0d
 		}
+		{
+			id: "5DF8FCE8086A3836"
+			tasks: [{
+				id: "1204095F4CF851C1"
+				item: "uniqueaccessories:bloody_knife"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			id: "3F2637C4FDA71867"
+			tasks: [{
+				id: "44208C2C21D5C37D"
+				item: "uniqueaccessories:rose_of_temptation"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			id: "3D2217A128B19D18"
+			tasks: [{
+				id: "58146B48C2D04556"
+				item: "uniqueaccessories:ender_lens"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -7.0d
+		}
+		{
+			id: "538BD6A9CFDEB300"
+			tasks: [{
+				id: "460265FDAEC6D3FB"
+				item: "uniqueaccessories:rusty_guillotine_blade"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -7.0d
+		}
+		{
+			id: "423DA831B5374B4C"
+			tasks: [{
+				id: "6DEE134D88FAC6B8"
+				item: "uniqueaccessories:power_crystal"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -7.0d
+		}
+		{
+			id: "02237C49254B086C"
+			subtitle: "&cbe careful"
+			tasks: [{
+				id: "7E5DF8F09336AD76"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -7.0d
+		}
 	]
 	title: "Artifacts"
 }

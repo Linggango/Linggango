@@ -6,7 +6,27 @@
 	group: "3C6437AAADAFC5CB"
 	icon: "thermal:machine_pulverizer"
 	id: "6209831AE9DA6BBA"
-	order_index: 6
+	images: [
+		{
+			height: 2.5d
+			image: "customtextures:textures/thermal_series.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,7 +59,6 @@
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
-			description: ["I only enjoy the company of cats. I hate humans. It's not a matter of personal grievance. My hatred is almost like a demonic instinct."]
 			id: "786D5D4A23FC64B7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -47,7 +66,7 @@
 				table_id: 6391132639270329681L
 				type: "random"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "Essential Material"
 			tasks: [{
 				id: "0ED5BAC42D2140B2"
 				item: "thermal:rf_coil"
@@ -565,7 +584,7 @@
 				}
 			]
 			title: "Power Storage \\& Transportation"
-			x: -0.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -624,8 +643,8 @@
 				}
 			]
 			title: "Fluid Storage \\& Transportation"
-			x: -0.5d
-			y: 1.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3E9BA9A88D5876D6"]
@@ -650,7 +669,7 @@
 				type: "checkmark"
 			}]
 			title: "Upgrades!"
-			x: 4.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -677,7 +696,7 @@
 				item: "thermal:upgrade_augment_1"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.5d
 			y: -1.5d
 		}
 		{
@@ -703,7 +722,7 @@
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
@@ -729,7 +748,7 @@
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 13.5d
 			y: -1.5d
 		}
 		{
@@ -748,7 +767,7 @@
 				item: "thermal:rf_coil_augment"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
@@ -766,7 +785,7 @@
 				item: "thermal:rf_coil_storage_augment"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: 1.5d
 		}
 		{
@@ -784,7 +803,7 @@
 				item: "thermal:rf_coil_xfer_augment"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.5d
 			y: 1.5d
 		}
 		{
@@ -802,7 +821,7 @@
 				item: "thermal:machine_speed_augment"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 13.5d
 			y: -0.5d
 		}
 		{
@@ -820,7 +839,7 @@
 				item: "thermal:machine_efficiency_augment"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -838,7 +857,7 @@
 				item: "thermal:machine_output_augment"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -856,7 +875,7 @@
 				item: "thermal:machine_catalyst_augment"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 13.5d
 			y: 1.5d
 		}
 		{
@@ -873,7 +892,7 @@
 				item: "thermal:machine_cycle_augment"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
@@ -892,7 +911,7 @@
 				item: "thermal:machine_null_augment"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: 0.5d
 		}
 		{
@@ -910,7 +929,7 @@
 				item: "thermal:dynamo_output_augment"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.5d
 			y: 0.5d
 		}
 		{
@@ -928,7 +947,7 @@
 				item: "thermal:dynamo_fuel_augment"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 12.5d
 			y: 0.5d
 		}
 		{
@@ -947,7 +966,7 @@
 				item: "thermal:dynamo_throttle_augment"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
@@ -965,7 +984,7 @@
 				item: "thermal:area_radius_augment"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -983,7 +1002,7 @@
 				item: "thermal:potion_amplifier_augment"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 10.5d
 			y: -0.5d
 		}
 		{
@@ -1001,7 +1020,7 @@
 				item: "thermal:potion_duration_augment"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 10.5d
 			y: 0.5d
 		}
 		{
@@ -1165,7 +1184,7 @@
 				type: "item"
 			}]
 			title: "Crude Machines"
-			x: 2.5d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -1184,7 +1203,7 @@
 				item: "thermal:device_hive_extractor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -1203,7 +1222,7 @@
 				item: "thermal:device_tree_extractor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -1222,7 +1241,7 @@
 				item: "thermal:device_fisher"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 4.5d
 			y: 5.0d
 		}
 		{
@@ -1241,7 +1260,7 @@
 				item: "thermal:device_composter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -1260,7 +1279,7 @@
 				item: "thermal:device_soil_infuser"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -1279,7 +1298,7 @@
 				item: "thermal:device_water_gen"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.5d
 			y: 4.5d
 		}
 		{
@@ -1298,7 +1317,7 @@
 				item: "thermal:device_collector"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -1317,7 +1336,7 @@
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -1336,7 +1355,7 @@
 				item: "thermal:device_xp_condenser"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 8.5d
 			y: 5.0d
 		}
 		{
@@ -1355,7 +1374,7 @@
 				item: "thermal:device_nullifier"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -1374,7 +1393,7 @@
 				item: "thermal:device_potion_diffuser"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -1521,7 +1540,7 @@
 				item: "thermal:charge_bench"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.5d
 			y: 6.5d
 		}
 		{
@@ -1540,7 +1559,7 @@
 				item: "thermal:item_buffer"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 7.5d
 			y: 5.5d
 		}
 		{
@@ -1559,7 +1578,7 @@
 				item: "thermal:tinker_bench"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 5.5d
 			y: 5.5d
 		}
 	]

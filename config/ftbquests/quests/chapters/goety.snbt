@@ -1728,6 +1728,14 @@
 			x: -2.5d
 			y: 0.0d
 		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.5d
+		}
 	]
 	order_index: 7
 	quest_links: [ ]

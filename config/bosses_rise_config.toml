@@ -9,17 +9,17 @@ Warning = ["All number values need to include decimals !", "Use 10.0 instead of 
 
 ["Boss Armor"]
 	#Max Armor : 30
-	"Sandworm Armor" = 20.0
-	"Yeti Armor" = 20.0
-	"Dragon Armor" = 30.0
+	"Sandworm Armor" = 35.0
+	"Yeti Armor" = 5.0
+	"Dragon Armor" = 45.0
 	"Knight Armor" = 250.0
 
 ["Base Boss Damages"]
 	#Not all damages sources depends on this variable !
-	"Sandworm Damage" = 25.0
-	"Yeti Damage" = 30.0
-	"Dragon Damage" = 120.0
-	"Knight Damage" = 260.0
+	"Sandworm Damage" = 45.0
+	"Yeti Damage" = 65.0
+	"Dragon Damage" = 140.0
+	"Knight Damage" = 320.0
 
 [Values]
 	#Change the speed of the recovery of the Roll ability

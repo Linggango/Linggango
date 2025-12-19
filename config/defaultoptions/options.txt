@@ -1,5 +1,4 @@
 version:3465
-betterBiomeBlendRadius:14
 autoJump:false
 operatorItemsTab:true
 autoSuggestions:true
@@ -25,7 +24,7 @@ hideLightningFlashes:false
 mouseSensitivity:0.375586854460094
 fov:0.0
 screenEffectScale:0.5046948356807511
-fovEffectScale:0.5025678326610683
+fovEffectScale:0.3173973417972625
 darknessEffectScale:1.0
 glintSpeed:0.3075117370892018
 glintStrength:0.5023474178403754
@@ -43,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","file/Stay_True_1.20.zip","resources/MCA_resourcepack-V3.1.1.zip","file/§b§lVanilla Experience+§0.zip","file/Farcr\u0027s Re-Crafted V2.24.zip","file/waystones_1_20_1_update_3.zip","file/§6Armors Enhanced§8.zip","file/cuter_mmonsters.zip","file/Ars Nouveau Refresh 1.0.zip","file/Better SB Upgrades.zip","file/CM_Larger_Swords.zip","file/CoffeeGUI_1.20.1_NOSHADERS_release_v2.0.1.zip","file/Create Immersive Aircraft Warship ResoucePack v1.2.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Create New Age Retexture 0.2.1.zip","file/CreateSophisticatedBackpacks.zip","file/Exposure-CreateCompatibility.zip","file/GoetyRevelation art style.zip","file/Iteratively Engineered 1.5.zip","file/LinggangoSoundtrack.zip","file/Powah_Pyxal-ated_0.2.2.zip","file/Traveloptics_Reimagined.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/Irons_Coquet_Compat_V0.2.zip","file/Excalibur_Lootr_v1.1.zip","rubinated_nether/better_netherite_template","file/Enigmaticless 1.20.1.zip","file/ModdedCoffeeGUI_Release_v1.0.3.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/betterillagertexture–1.20.1.zip","file/Embers Retextured (1.20.1) 5.0.zip","file/Excalibur Mowzie\u0027s Mobs 1.0.zip","file/Fancy Crops v1.3.zip","file/good_lookin_ground.zip","file/NoBushyLeaves.zip","file/BB\u0027sBOMDTweaks0.3.zip","file/Simple Grass Flowers v1.9.5.zip","file/AETexturesBackport1.20-1.1.zip","file/Re-Simple-Storage.zip"]
-incompatibleResourcePacks:["file/cuter_mmonsters.zip","file/CreateSophisticatedBackpacks.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/Excalibur_Lootr_v1.1.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/Excalibur Mowzie\u0027s Mobs 1.0.zip","file/good_lookin_ground.zip","file/Simple Grass Flowers v1.9.5.zip","file/Re-Simple-Storage.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","file/Stay_True_1.20.zip","resources/MCA_resourcepack-V3.1.1.zip","file/§b§lVanilla Experience+§0.zip","file/Farcr\u0027s Re-Crafted V2.24.zip","file/waystones_1_20_1_update_3.zip","file/§6Armors Enhanced§8.zip","file/cuter_mmonsters.zip","file/Ars Nouveau Refresh 1.0.zip","file/Better SB Upgrades.zip","file/CoffeeGUI_1.20.1_NOSHADERS_release_v2.0.1.zip","file/Create Immersive Aircraft Warship ResoucePack v1.2.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Create New Age Retexture 0.2.1.zip","file/CreateSophisticatedBackpacks.zip","file/Exposure-CreateCompatibility.zip","file/GoetyRevelation art style.zip","file/Iteratively Engineered 1.5.zip","file/Powah_Pyxal-ated_0.2.2.zip","file/Traveloptics_Reimagined.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/Excalibur_Lootr_v1.1.zip","rubinated_nether/better_netherite_template","file/Enigmaticless 1.20.1.zip","file/ModdedCoffeeGUI_Release_v1.0.3.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/Embers Retextured (1.20.1) 5.0.zip","file/Excalibur Mowzie\u0027s Mobs 1.0.zip","file/Fancy Crops v1.3.zip","file/good_lookin_ground.zip","file/AETexturesBackport1.20-1.1.zip","file/Re-Simple-Storage.zip","file/LinggangoTextures.zip","file/Fire_Rekindled.zip","file/NoBushyLeaves.zip","unique_nether_wood","generated/fragmentum_layer","file/BB\u0027sBOMDTweaks0.5.zip"]
+incompatibleResourcePacks:["file/cuter_mmonsters.zip","file/CreateSophisticatedBackpacks.zip","file/Simply Swords Reforged v1.zip","file/A Better GUI 2 - FTB.zip","file/Excalibur_Lootr_v1.1.zip","file/Cataclysmic_tunes_V8(Maledictus_update).zip","file/Excalibur Mowzie\u0027s Mobs 1.0.zip","file/good_lookin_ground.zip","file/Re-Simple-Storage.zip","file/Fire_Rekindled.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -55,7 +54,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:false
-pauseOnLostFocus:false
+pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -64,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:0.572769953051643
 notificationDisplayTime:1.0
-mipmapLevels:2
+mipmapLevels:0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:0
@@ -85,8 +84,8 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.5091059602649006
-soundCategory_music:0.15845070422535212
+soundCategory_master:0.5041390728476821
+soundCategory_music:0.10915492957746478
 soundCategory_record:1.0
 soundCategory_weather:0.20422535211267606
 soundCategory_block:1.0

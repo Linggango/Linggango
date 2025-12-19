@@ -25,6 +25,14 @@
 			x: 0.5d
 			y: 5.0d
 		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -568,5 +576,5 @@
 			y: 8.0d
 		}
 	]
-	title: "Storage Solutions"
+	title: "Early Storage"
 }

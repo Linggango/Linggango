@@ -4,6 +4,7 @@
 	default_quest_shape: "irontier"
 	filename: "armor_tierlist_2"
 	group: "3B5FC78CC89E4CD7"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -33,11 +34,22 @@
 			x: -28.0d
 			y: 6.0d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -44.5d
+			y: 5.5d
+		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4DC4887D6A626F11"
 			tasks: [
 				{
@@ -90,6 +102,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "334153E322FEB67A"
 			tasks: [
 				{
@@ -142,6 +155,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6251F642675D1E3B"
 			tasks: [
 				{
@@ -194,6 +208,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "31358E93C3C0A316"
 			tasks: [
 				{
@@ -246,6 +261,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4AEEDCCCEEFF5E52"
 			tasks: [
 				{
@@ -298,6 +314,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "116DEF9CADF45BF0"
 			tasks: [
 				{
@@ -350,6 +367,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6319BF91B2BBCBF6"
 			tasks: [
 				{
@@ -402,6 +420,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "146F15E6F147BBB6"
 			shape: "goldtier"
 			tasks: [
@@ -461,6 +480,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "39B255C9A8E1B237"
 			shape: "goldtier"
 			tasks: [
@@ -514,6 +534,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "3474BCA33692079C"
 			shape: "goldtier"
 			tasks: [
@@ -567,6 +588,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "350B03D5AA41EA59"
 			shape: "goldtier"
 			tasks: [
@@ -620,6 +642,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "69A6C9466E2DBD15"
 			shape: "goldtier"
 			tasks: [
@@ -673,6 +696,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6B10B2F6A01228E2"
 			shape: "goldtier"
 			tasks: [
@@ -732,6 +756,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0CEDB867C2FD61E9"
 			shape: "goldtier"
 			tasks: [
@@ -785,6 +810,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "588F7A8DFFF10F7D"
 			shape: "diamondtier"
 			tasks: [
@@ -838,6 +864,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "0B23621DEF0F4329"
 			shape: "diamondtier"
 			tasks: [
@@ -878,6 +905,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1F05A761477E8FCA"
 			shape: "diamondtier"
 			tasks: [
@@ -907,6 +935,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "299A45FE9BC639EE"
 			shape: "diamondtier"
 			tasks: [
@@ -960,6 +989,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "6B05151949E8ED6E"
 			shape: "diamondtier"
 			tasks: [
@@ -1013,6 +1043,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "2DD2658EBD5ECBD2"
 			shape: "diamondtier"
 			tasks: [
@@ -1066,6 +1097,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "4FE763269B914F97"
 			shape: "diamondtier"
 			tasks: [
@@ -1119,6 +1151,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "44FA84598C501A59"
 			shape: "netheritetier"
 			tasks: [
@@ -1172,6 +1205,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "340369EF95675CBC"
 			shape: "netheritetier"
 			tasks: [
@@ -1225,6 +1259,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "1A095955738EF463"
 			shape: "netheritetier"
 			tasks: [
@@ -1278,6 +1313,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "534872787E33B5B8"
 			shape: "netheritetier"
 			tasks: [
@@ -1331,6 +1367,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "027BB4436B060ACB"
 			shape: "netheritetier"
 			tasks: [
@@ -1384,6 +1421,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "01EB67EBD2F61F4B"
 			shape: "netheritetier"
 			tasks: [
@@ -1437,6 +1475,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "004CAF59A205A5BD"
 			shape: "netheritetier"
 			tasks: [
@@ -1490,6 +1529,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "539EF546463670BE"
 			shape: "netheritetier"
 			tasks: [
@@ -1543,6 +1583,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "5E71128A1AED7F27"
 			shape: "diamondtier"
 			tasks: [
@@ -1596,6 +1637,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "43091E16866932BB"
 			shape: "goldtier"
 			tasks: [
@@ -1649,6 +1691,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "06F5E1D1D8A7AB3A"
 			tasks: [
 				{
@@ -1701,6 +1744,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "294DEE3FA9FF8226"
 			shape: "woodtier"
 			tasks: [
@@ -1754,6 +1798,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "75DC00CE27DAE8CA"
 			shape: "woodtier"
 			tasks: [
@@ -1807,6 +1852,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "24850E2E95C8D1FE"
 			shape: "woodtier"
 			tasks: [
@@ -1860,6 +1906,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "545F42D8EAFB4936"
 			shape: "woodtier"
 			tasks: [
@@ -1913,6 +1960,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "48B9E9D20D4A0B40"
 			shape: "woodtier"
 			tasks: [
@@ -1966,6 +2014,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["02AE79E1837C7B79"]
 			id: "120CD3B5E87BD7B8"
 			shape: "woodtier"
 			tasks: [

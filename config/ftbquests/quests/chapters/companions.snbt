@@ -401,7 +401,7 @@
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
 				"If you lit teddy, it will mutate  and turn into a angel which gives you constant regeneration!"
 			]
-			icon: "simplehats:teddy_bear"
+			icon: "plushie_buddies:plushie_polar_bear"
 			icon_scale: 1.3d
 			id: "6736CF50F17079BC"
 			rewards: [

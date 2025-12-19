@@ -9,10 +9,10 @@
         "damage_multiplier": 2.0,
         "hitbox": "HORIZONTAL_PLANE",
         "swing_sound": {
-          "id": "bettercombat:scythe_slash",
+          "id": "alshanex_familiars:harp_explosion",
           "pitch": -2.0,
           "randomness": 0.1,
-          "volume": 1.0
+          "volume": 2.0
         },
         "upswing": 0.5
       },
@@ -21,10 +21,10 @@
         "animation": "bettercombat:two_handed_slash_horizontal_left",
         "hitbox": "HORIZONTAL_PLANE",
         "swing_sound": {
-          "id": "bettercombat:scythe_slash",
+          "id": "alshanex_familiars:harp_explosion",
           "pitch": -2.0,
           "randomness": 0.1,
-          "volume": 1.0
+          "volume": 2.0
         },
         "upswing": 0.5
       },
@@ -34,7 +34,7 @@
         "damage_multiplier": 3.0,
         "hitbox": "FORWARD_BOX",
         "swing_sound": {
-          "id": "legendary_monsters:anchor_slam",
+          "id": "fdbosses:chesed_boom_explosion_bigger",
           "pitch": 0.5,
           "volume": 2.0
         },

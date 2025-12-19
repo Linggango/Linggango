@@ -6,7 +6,6 @@ ServerEvents.recipes(e => {
   e.remove({ id: "composite_material:amethyst_boots" });
   e.remove({ id: "composite_material:amethyst_leggings" });
   e.remove({ id: "composite_material:amethyst_helmet" });
-  e.remove({ id: "composite_material:amethyst_chestplate" });
   e.remove({ id: "composite_material:allay_steel_boots" });
   e.remove({ id: "composite_material:allay_steel_chestplate" });
   e.remove({ id: "composite_material:allay_steel_helmet" });
@@ -24,12 +23,13 @@ ServerEvents.recipes(e => {
   e.remove({ id: "composite_material:dungeon_sword_reinforced" });
   e.remove({ id: "composite_material:obsidian_steel_ingot" });
   e.remove({ id: "composite_material:perkin" });
+  e.remove({ id: "composite_material:etherite_ingot" });
 
   e.shaped("composite_material:etherite_boots", ["   ", "ABA", "CDC"], {
     A: "composite_material:perkin",
     B: "composite_material:echoium_boots",
     C: "terramity:reverium",
-    D: "composite_material:etherite_block",
+    D: "composite_material:etherite_ingot",
   });
 
   e.shaped("composite_material:etherite_leggings", ["ABA", "ACA", "D D"], {
@@ -39,7 +39,7 @@ ServerEvents.recipes(e => {
     D: "composite_material:perkin",
   });
 
-  e.shaped("composite_material:etherite_chestplate", ["ABA", "CDC", "ADA"], {
+  e.shaped("composite_material:etherite_chestplate", ["ABA", "CAC", "ADA"], {
     A: "terramity:reverium",
     B: "composite_material:echoium_chestplate",
     C: "composite_material:perkin",
@@ -49,7 +49,7 @@ ServerEvents.recipes(e => {
   e.shaped("composite_material:etherite_helmet", [" A ", "BCB", "ADA"], {
     A: "terramity:reverium",
     B: "composite_material:perkin",
-    C: "composite_material:etherite_block",
+    C: "composite_material:etherite_ingot",
     D: "composite_material:echoium_helmet",
   });
 
@@ -156,12 +156,6 @@ ServerEvents.recipes(e => {
     B: "composite_material:copper_leggings",
   });
 
-  e.shaped("composite_material:amethyst_chestplate", ["  ", "ABA", "ACA"], {
-    A: "minecraft:amethyst_shard",
-    B: "composite_material:copper_chestplate",
-    C: "caverns_and_chasms:amethyst_block",
-  });
-
   e.shaped("composite_material:amethyst_helmet", ["AAA", "ABA", "   "], {
     A: "minecraft:amethyst_shard",
     B: "composite_material:copper_helmet",
@@ -197,4 +191,17 @@ ServerEvents.recipes(e => {
     C: "composite_material:evolutium",
     D: "composite_material:dungeon_sword",
   });
+
+  e.shaped('3x composite_material:etherite_ingot',  ["ABC", "DEF", "GHI"], {
+    A: "composite_material:allay_steel_ingot",
+    B: "terramity:nyxium",
+    C: "composite_material:echoium_ingot",
+    D: "thermal:enderium_ingot",
+    E: "minecraft:nether_star",
+    F: "armageddon_mod:eclipsium_alloy",
+    G: "goety:dark_ingot",
+    H: "enigmaticlegacy:etherium_ingot",
+    I: "celestisynth:supernal_netherite_ingot",  
+  });
+  
 });

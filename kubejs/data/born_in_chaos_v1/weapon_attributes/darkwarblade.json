@@ -1,0 +1,43 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 4.5,
+    "two_handed": true,
+    "pose": "weapon:pose_great_sword_animated",
+    "category": "claymore",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "swing_sound": {
+          "id": "goety:hammer_swing"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "swing_sound": {
+          "id": "goety:hammer_swing"
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.5,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slam",
+        "swing_sound": {
+          "id": "bettercombat:claymore_slam",
+          "randomness": 0,
+          "pitch": 0.5
+        }
+      }
+    ]
+  }
+}

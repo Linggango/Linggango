@@ -3,3 +3,7 @@
 	#Use the old animation style
 	oldAnimationStyle = false
 
+["Compatibility Settings"]
+	#Disable Naturalist's Bug Net to use Faunify's Bug Net
+	replaceNet = true
+

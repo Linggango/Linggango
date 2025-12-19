@@ -1,0 +1,877 @@
+{
+	autofocus_id: "69450E6D37CB6BFD"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "square"
+	filename: "modular_routers"
+	group: "3C6437AAADAFC5CB"
+	icon: "modularrouters:modular_router"
+	id: "33ECC6AB5D6E9FFE"
+	images: [
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["For starters, continue with this path."]
+			image: "hexerei:textures/book/arrow_left.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "modularrouters:book"
+				}
+			}
+			id: "69450E6D37CB6BFD"
+			rewards: [{
+				id: "5B593AF8B4E45644"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.4d
+			subtitle: "In-Game Guide"
+			tasks: [{
+				id: "459EB7B2A24A9CB9"
+				title: "alr"
+				type: "checkmark"
+			}]
+			title: "Modular Routers!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69450E6D37CB6BFD"]
+			description: [
+				"Modular Router is going to be the core of your whole modular router system. but it won't work out of the box, we need modules to make it work."
+				""
+				"Let's start with the basic ones."
+				""
+			]
+			icon_scale: 1.2d
+			id: "1FB9DF3573080F92"
+			rewards: [{
+				count: 2
+				id: "6C2EBA30B7DF5522"
+				item: "modularrouters:blank_module"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5BA3AE64D5D1D4D0"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			id: "22B9F01190496541"
+			rewards: [{
+				id: "0DB10197E0564902"
+				item: "modularrouters:sender_module_1"
+				type: "item"
+			}]
+			subtitle: "Put it in the modular router"
+			tasks: [{
+				id: "31BA267B3FC4A4BF"
+				item: "modularrouters:sender_module_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			id: "43B5E4E494513F12"
+			rewards: [{
+				id: "38B9C59F4C606F7E"
+				item: "modularrouters:puller_module_1"
+				type: "item"
+			}]
+			subtitle: "Put it in the modular router"
+			tasks: [{
+				id: "45FEB6D2171386FF"
+				item: "modularrouters:puller_module_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"22B9F01190496541"
+				"43B5E4E494513F12"
+			]
+			description: [
+				"&eSender&r sends items to a another storage method, always has more range than puller."
+				""
+				"&ePuller&r has short range, pulls items from the storage and sends it to sender."
+				""
+				"Remember these are only mk.1 in other module tiers they get really op quickly."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "6D382190A88B44CE"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "62A39338091121D4"
+				title: "okay"
+				type: "checkmark"
+			}]
+			title: "Sender and Puller"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"22B9F01190496541"
+				"43B5E4E494513F12"
+			]
+			description: [
+				"In order to set up your modular router system, you have to configure your modules."
+				""
+				"While they're &ein the modular router,&r Middle-Click your modules. This will open a another GUI showing you where to extract the item to. Choose the direction your storage is facing and it will Pull \\& Send."
+				""
+				"Sender mk.1 works up to 8 blocks of range, so just keep the direction correct."
+				""
+				"aaandd congratulations, you have set your first modular routers system up!"
+				""
+				"&8More information:"
+				"{image:modularrouters:textures/patchouli/module_gui.png width:100 height:100 align:center}"
+				"&8There are nine filter slots, where you can insert ghost copies of any item or block. The module will only operate if the item in the router's buffer matches an item in the module's filter (if whitelisting; the opposite if blacklisting)."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "7001446C376CBC39"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "6E091D953F8BEBE2"
+				title: "okay"
+				type: "checkmark"
+			}]
+			title: "Setting up your first system"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7001446C376CBC39"]
+			description: ["Unlike the Mk.1, the Mk.2 puller requires a right-click to specify the target storage for item extraction."]
+			id: "542B196E778CDFA7"
+			subtitle: "Latest tier of puller, can pull from 12 blocks away."
+			tasks: [{
+				id: "4F343BC5E0863F07"
+				item: "modularrouters:puller_module_2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7001446C376CBC39"]
+			description: ["Unlike the Mk.1, the Mk.2 puller requires a right-click to select the target container for item transfer."]
+			id: "519BDBA11D2D3FA7"
+			subtitle: "Second tier of sender, can send items up to 24 blocks."
+			tasks: [{
+				id: "60880CFFB0C7D518"
+				item: "modularrouters:sender_module_2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["519BDBA11D2D3FA7"]
+			id: "37DAC890201A1467"
+			subtitle: "Last tier of sender module, can transfer items up to INFINITE amount of range!"
+			tasks: [{
+				id: "1F0BBBDE7BDCCE8B"
+				item: "modularrouters:sender_module_3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			description: ["Modular routers mod offers HUGE amount of modules that can make your storage system even cleaner, and better!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "319B52549E4E7311"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "63DB0489EF05159F"
+				title: "Other modules"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			id: "2BAF374C05A98F01"
+			subtitle: "Transfers Fluids"
+			tasks: [{
+				id: "23229DE509F0A03B"
+				item: "modularrouters:fluid_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BAF374C05A98F01"]
+			id: "5A6F09619C3BA17A"
+			subtitle: "Transfers Fluids, has 12 block range."
+			tasks: [{
+				id: "7CDFFDB0439979E6"
+				item: "modularrouters:fluid_module_2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			id: "3811CCB277382A44"
+			subtitle: "Can send items to multiple targets, pretty much a extended version of sender mk.2"
+			tasks: [{
+				id: "774420AEDE6105BF"
+				item: "modularrouters:distributor_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			id: "05B05F8E01952D97"
+			subtitle: "This module tries to break blocks.."
+			tasks: [{
+				id: "28F9970D625C665F"
+				item: "modularrouters:breaker_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"This powerful module acts like a fake player which can use an item in the router's buffer, against nearby blocks or entities. There are three modes, which can be selected via the controls on the right of the GUI."
+				""
+				"Here's a list of the modes:"
+				""
+				"&eRight-Click:"
+				"This mode performs a right-click with the item in the router's buffer, just as if a player had done so. The logic used is the same as for player clicks, e.g. right-clicking a Flint and Steel on a door will open the door, not start a fire."
+				""
+				"&eRight-Click Entity:"
+				"Right-click Entity This mode performs a Right-Click with the item in the router's buffer on a nearby entity. You could use this to milk a cow for example, or shear a sheep."
+				""
+				"&eAttack Entity:"
+				"This mode performs a left-click with the item in the router's buffer on a nearby entity, attacking it. This mode costs Forge Energy by default, unlike other modules."
+			]
+			id: "14ECD09D1DD43F0D"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5DF5C5DB7B65AE86"
+				item: "modularrouters:activator_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["This module doesn't actually manipulate items, but instead detects specific items in the router's buffer. If the buffer contents are matched by the module's filter, it will make the router emit a redstone signal in the configured direction."]
+			id: "53DA594DF4A9F3E8"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1233B7CEB7BDE878"
+				item: "modularrouters:detector_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["This module tries to drop an item from the router's buffer as an item entity in the world. The drop will be ad jacent to the router in the module's configured direction. The item entity will be placed with a zero velocity, unlike the vanilla Dropper which adds an irritating random velocity to the item."]
+			id: "7ACAD44C4EEDDBFF"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "7A5FA43E5A9E5FC2"
+				item: "modularrouters:dropper_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["This module is like a combination of an Energy Output and a Distributor Module, in that it can wirelessly distribute FE (Forge Energy) to up to 8 nearby energy-accepting blocks."]
+			id: "0B3BA1E52F1EF1EA"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "02CA072501BE5100"
+				item: "modularrouters:energy_distributor_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["This module attempts to output FE (Forge Energy) from the Router to an adjacent energy- receiving block, in its configured direction. The module can extract energy from either the router's internal energy buffer (if any Energy Upgrades are installed) or from an energy-containing item in the router's item buffer. The internal energy buffer is used by preference."]
+			id: "76BE65C287A3C72E"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "781840ECA9ECE79A"
+				item: "modularrouters:energy_output_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"This module extends and withdraws a row of blocks (from the router's buffer) in the module's configured direction."
+				""
+				"Using this module, its possible to build large extending bridges and doorways."
+			]
+			id: "231B632171517DB2"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "398B5AE2B9B08798"
+				item: "modularrouters:extruder_module_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["231B632171517DB2"]
+			description: [
+				"This module behaves somewhat like the Extruder Module Mk1, but with a few important differences: "
+				""
+				"The Mk2 module doesn't place items from the router's buffer, but rather from a template defined within the module itself."
+				""
+				"This template appears on the right-hand side of the module's GUI, has 9 slots, and can have multiple items per slot. Items placed in the template are \"ghost items."
+				""
+				"Blocks extruded are \"virtual\" - effectively created out of nowhere, but drop nothing when broken and can't be crafted normally."
+				""
+				"Therefore, this module isn't suitable for farming like the Extruder Mk1, but can be used to place doors/bridges etc. with more complex patterns than the Mk1 could."
+				""
+				"The default range for the Extruder Mk2 is 24 blocks, which can be increased to 48 with Range Upgrades."
+			]
+			id: "4A4C9BB789B0875E"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1600D0C79E261664"
+				item: "modularrouters:extruder_module_2"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["This module behaves like the Dropper Module, except that it also imparts a configurable velocity to the dropped item, potentially throwing the item a considerable distance. You can ad just the item's speed, pitch and yaw via the module's GUI."]
+			id: "38251B95901614B3"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "512B6EA2F7104573"
+				item: "modularrouters:flinger_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"This module tries to place an item from the router's buffer as a block, adjacent to the router in the module's configured direction. If the item isn't a block or the destination block space is obstructed, nothing will be done."
+				""
+				"Normal Minecraft placement rules are followed; e.g. sugar cane can only be placed next to water on sand/dirt."
+				"Fluid blocks will be replaced, as will replaceable blocks such as tall grass."
+				""
+				"The Placer module can plant seeds on farmland, and cocoa beans on an adjacent jungle log."
+			]
+			id: "73E664E5DAA5E4D8"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "28B19C22840E51FB"
+				item: "modularrouters:placer_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"This module tries to transfer items between the router and a player's own inventory. The player can be anywhere in any dimension, making this a rather powerful module."
+				""
+				"The module can transfer items either from or to the player; you can set this in the module's GUI."
+				""
+				"The module can operate on either the player's main 36- slot inventory, their 4-slot armor inventory, their offhand slot, or their Ender inventory (as shown by vanilla Ender Chests). This can also be set in the module's GUI."
+				""
+				"Extracted/inserted items can, of course, be filtered by the module."
+			]
+			id: "545B9F23755E3F14"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "7D8DAF1E70ECCFB8"
+				item: "modularrouters:player_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["This module scans for dropped items in a 13x13x13 cubic area around the router (i.e. up to 6 blocks in each direction), and absorbs them into the router's buffer, if possible."]
+			id: "76CBD91373C8E8C0"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "395A31B0E0E8B1D0"
+				item: "modularrouters:vacuum_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"This dangerous module permanently destroys items in the router's buffer! "
+				""
+				"It is strongly recommended to configure this module with a whitelist filter to prevent accidental deletion of valuable items."
+			]
+			id: "7E7D02298B236B2D"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5071C79BD40BAFDC"
+				item: "modularrouters:void_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "5760CD5FAF75D2B3"
+			shape: "square"
+			subtitle: "Upgrades are huge QoL mechanics, i heavily suggest you to use them!"
+			tasks: [{
+				id: "5D88A68CDA9DEB07"
+				title: "Upgrades"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "521608484C24851F"
+			shape: "diamond"
+			subtitle: "Makes the router immune to explosion."
+			tasks: [{
+				id: "32686F03164B9D23"
+				item: "modularrouters:blast_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "265509E1347C9698"
+			shape: "diamond"
+			subtitle: "Disguise your router as a another block."
+			tasks: [{
+				id: "3A7701269D96A472"
+				item: "modularrouters:camouflage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "0F586E812F12EF51"
+			shape: "diamond"
+			subtitle: "Gives the router an internal energy buffer."
+			tasks: [{
+				id: "07C71B082679E95A"
+				item: "modularrouters:energy_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "53C66BD3EDA8C093"
+			shape: "diamond"
+			subtitle: "Increases overall fluid transfer rate."
+			tasks: [{
+				id: "4B02641242527871"
+				item: "modularrouters:fluid_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "30C454CF37A67518"
+			shape: "diamond"
+			subtitle: "Supresses Sounds"
+			tasks: [{
+				id: "0DC7625D3DD3D677"
+				item: "modularrouters:muffler_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"A Router with a Security Upgrade installed can only be  opened by players whitelisted by that upgrade. The upgrade doesn't prevent a router being broken; but since upgrades and modules remain in a broken router, players can't break a router to steal modules/upgrades or reconfigure the router. If you want to prevent a router being broken, you may wish to explore other mods' block protection capabilities."
+				""
+				"Several modules (Placer, Breaker, Activator) do their work as a fake player. By default this is a player with the username [Modular Routers], but when a security upgrade is installed, those modules operate as the upgrade's owner. This is much safer on multiplayer servers with claim protection than simply allowing [Modular Routers] to do anything with your claims."
+				""
+				"When the Activator Module is in Attack Mode, it will ignore any players whitelisted by a Security Upgrade installed in the Router. This is generally a good idea to avoid pain \\& suffering if you have a high-damage weapon in your Router."
+			]
+			id: "48825F640DD8CEA7"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3D18C8DD628332EC"
+				item: "modularrouters:security_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"By default, a router ticks every 20 server ticks, or once per second. On each tick, every installed module is executed in order, left to right."
+				""
+				"If you need a router to run faster than this, add Speed Upgrades; each Speed Upgrade reduces the tick interval by 2 server ticks, down to aminimum of every 2 server ticks (or 10 times per second)."
+			]
+			id: "46E4A2CAC2A5B545"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "563655BCF4752CE8"
+				item: "modularrouters:speed_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"Modules in a router operate on a single item at a time: e.g. a Sender Module will send a single item from the router's buffer each router tick, regardless of how many items are in the buffer."
+				""
+				"By adding Stack Upgrades to a router, this can be increased. Each Stack Upgrade doubles the number of items that can be processed by each module, up to a maximum of 64, or the item's native stack size (e.g. 16 for Ender Pearls)."
+				""
+				"It therefore follows that 6 is the maximum number of useful Stack Upgrades which can be installed in one router."
+			]
+			id: "2B965D7600460A99"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "6F765093BEFFB673"
+				item: "modularrouters:stack_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"This upgrade is used to guarantee that two or morerouters run at the same time. The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20). This tuning value can be set by right-clicking the Sync Upgrade to open its GUI, or quickly set to a random value by sneak-right-clicking the upgrade."
+				""
+				"Any routers with this upgrade installed, with same the tuning value, and with the same number of Speed Upgrades installed, will always run on the same tick. The actual tuning value doesn't matter; only that the value is consistent across the routers you want to synchronise."
+				""
+				"This is particularly useful if you have a group of routers with Extruder Modules installed, and want to ensure all modules extend/retract at exactly the same time."
+			]
+			id: "25504EECE84B5DBA"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5B7CB9D54797C4B4"
+				item: "modularrouters:sync_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48825F640DD8CEA7"]
+			id: "1713F364D961420F"
+			shape: "diamond"
+			tasks: [{
+				id: "7BC914769840D043"
+				item: "modularrouters:override_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76CBD91373C8E8C0"]
+			description: [
+				"This augment can only be added to the Vacuum Module. It allows the Vacuum Module to ignore the normal pickup delay on dropped items - 40 ticks for items dropped by players, and 10 ticks for items dropped by other means (e.g. sheep shearing) - and pick up items as soon as it sees them."
+				""
+				"A max of one Fast Pickup Augment can be added."
+			]
+			id: "550CACCA0B623F8F"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5577367B42DB80B0"
+				item: "modularrouters:fast_pickup_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A4C9BB789B0875E"]
+			description: [
+				"This augment can only be added to the Extruder Module Mk2."
+				""
+				"When present, any fake blocks extruded by the module take on the properties of the faked block, e.g. Obsidian is hard to break, Glowstone emits light, and Redstone Blocks emit a redstone signal."
+			]
+			id: "03E5CB277A0098C8"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5F5547F73290823D"
+				item: "modularrouters:mimic_augment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7ACAD44C4EEDDBFF"
+				"38251B95901614B3"
+			]
+			description: [
+				"This augment can only be added to the Dropper and Flinger modules."
+				""
+				"It can be stacked; each augment added will increase the pickup delay on dropped/flung items by 10 ticks (0.5 sec). This can be useful if you don't want players accidentally picking up nearby dropped items, for example."
+			]
+			id: "721A3DC7074B0183"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1F26A32A7D738461"
+				item: "modularrouters:pickup_delay_augment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A4C9BB789B0875E"
+				"231B632171517DB2"
+			]
+			description: [
+				"This augment can only be applied to the Extruder Mk1 and Extruder Mk2 modules."
+				""
+				"It can be stacked. Each instance of the augment increases the force with which entities are shoved when the module extrudes a block."
+			]
+			id: "3932D58165B95855"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "59CFB4011B4AC002"
+				item: "modularrouters:pushing_augment"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"This augment can be added to any module that has a range, such as the Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Fluid Mk2, and Vacuum modules. "
+				""
+				"It can be stacked, and each augment will reduce the range of the module by one block. This is probably only useful in conjunction with the Vacuum Module to control the range it scans for items."
+			]
+			id: "1506A8EB5472E1FA"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "10BF611EBE7837CB"
+				item: "modularrouters:range_down_augment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"This augment can be added to any module that has a range, including the Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Fluid Mk2, and Vacuum modules. "
+				""
+				"It can be stacked, and each augment will increase the range of the module by one block."
+			]
+			id: "647D1535A0C1AC0C"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "36EFE9238B798B81"
+				item: "modularrouters:range_up_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"This augment can be added to any module. "
+				""
+				"Normally, modules are run when the router runs, with no questions asked. However, if this augment is added to a module, that module can define its own redstone behavior. An extra button is added to the module's graphical user interface (GUI) to control this setting."
+			]
+			id: "026C72D063C44771"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3E136B372877C60F"
+				item: "modularrouters:redstone_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"This augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router's buffer."
+				""
+				"When a module has a Regulator Augment, you will see an extra numeric textfield in its graphical user interface (GUI) where you can configure a limit. This limit is interpreted differently depending on the particular module:"
+				""
+				"For the Sender Mk1/Mk2/Mk3 Modules and the Player Module (in insert mode), the module will only send an item to the inventory if there are fewer than the configured number of that item already present."
+				""
+				"For the Puller Mk1/Mk2 and Player Module (in extract mode), the module will only pull an item from the inventory if there are more than the configured number of that item in the inventory."
+			]
+			id: "102BFB030F28768C"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "13E6D53A1B1A626D"
+				item: "modularrouters:regulator_augment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"This augment can be added to any module that handles items (as opposed to blocks, fluids, or energy)."
+				""
+				"Adding Stack Augments to a module increases the number of items it can process per tick. Each Stack Augment doubles the number of items, up to a maximum of the item's natural stack size (which is 64 for most items)."
+				""
+				"If the router also has Stack Upgrades installed, the module's Stack Augments will override that setting. For example, if a router has 6 Stack Upgrades, and a module has 2 Stack Augments, the module will process 4 items per tick, not 64."
+			]
+			id: "39527C164E2B4588"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "590C18FAF8FB7A62"
+				item: "modularrouters:stack_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76CBD91373C8E8C0"]
+			description: [
+				"This augment can only be added to a Vacuum Module."
+				""
+				"When this augment is installed, the Vacuum Module will absorb experience orbs instead of items. The orbs will be converted into Bottles o' Enchanting at a rate of 7 XP per bottle. This rate corresponds to the average amount of XP gained by breaking a Bottle o' Enchanting."
+				""
+				"Depending on what other mods are installed, it might also be possible to convert orbs into XP fluids. This requires either a fluid-containing tank to be in the router's buffer or adjacent to the router. In the latter case, ensure that the Eject button is enabled in the Vacuum Module's graphical user interface (GUI)."
+			]
+			id: "15B2A1C08289FC7A"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "01DCA5856D140E2C"
+				item: "modularrouters:xp_vacuum_augment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+	title: "Modular Routers"
+}
