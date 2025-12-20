@@ -83,6 +83,12 @@ ServerEvents.tags("item", e => {
     "simplyswords:iron_halberd",
     "ancient_elements:iron_hammer",
     "forbidden_arcanus:iron_blacksmith_gavel",
+    "animus:spear_iron",
+    "simplymore:iron_grandsword",
+    "legendary_monsters:the_great_frost",
+    "deeperdarker:resonarium_sword",
+    "eeeabsmobs:demolisher",
+    "ancient_elements:jungle_steel_axe",
   ]);
 
   e.add("forge:golden_tools", [
@@ -116,6 +122,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:golden_hammer",
     "forbidden_arcanus:golden_blacksmith_gavel",
     "forbidden_arcanus:mystical_dagger",
+    "embers:grandhammer",
   ]);
 
   e.add("forge:emerald_tools", [
@@ -257,6 +264,18 @@ ServerEvents.tags("item", e => {
     "ancient_elements:nether_steel_drill",
     "cataclysm:infernal_forge",
     "forbidden_arcanus:diamond_blacksmith_gavel",
+    "animus:spear_diamond",
+    "animus:spear_bound",
+    "animus:spear_sentient",
+    "brutality:prismatic_greatsword",
+    "composite_material:dungeon_sword_reinforced",
+    "knightsnmages:noble_sword",
+    "mythsandlegends:gargoyle_axe",
+    "brutality:diamond_knife",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "brutality:jackpot",
   ]);
 
   e.add("forge:netherite_tools", [
@@ -489,6 +508,20 @@ ServerEvents.tags("item", e => {
     "companions:crystallized_blood_scythe",
     "caverns_and_chasms:necromium_pickaxe",
     "forbidden_arcanus:netherite_blacksmith_gavel",
+    "animus:hand_of_death",
+    "dungeonsdelight:stained_cleaver",
+    "dungeonsdelight:stained_knife",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:ender_slayer",
+    "enigmaticlegacy:eldritch_pan",
+    "knightsnmages:dark_sword",
+    "mekaweapons:mekatana",
+    "sgjourney:naquadah_sword",
+    "armageddon_mod:rustyswordofthelegendaryhero",
+    "armageddon_mod:scalding_silence",
+    "lethality:netherite_bafs",
+    "ancient_elements:infernal_axe",
+    "ancient_elements:ender_steel_axe",
   ]);
 
   e.add("forge:elvenite_tools", [
@@ -550,11 +583,9 @@ ServerEvents.tags("item", e => {
     "composite_material:echoium_shovel",
     "composite_material:echoium_hoe",
     "enigmaticdice:unequal_exchange",
-    "dungeonsdelight:stained_cleaver",
     "lethality:hellspec_bafs",
     "lethality:void_bafs",
     "lethality:conductite_bafpb",
-    "dungeonsdelight:stained_knife",
     "enigmaticdice:soul_eater",
     "enigmaticdice:permafrost",
     "enigmaticdice:crucible_of_rile",
@@ -596,6 +627,9 @@ ServerEvents.tags("item", e => {
     "terramity:exodium_pickaxe",
     "terramity:exodium_shovel",
     "terramity:devastation",
+    "composite_material:echoium_sword_reinforced",
+    "mofus_better_end_:mite_queen_scythe",
+    "armageddon_mod:the_voidfang_saber",
   ]);
 
   e.add("forge:bloody_tools", [
@@ -621,6 +655,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:celestium_drill",
     "terramity:murasama",
     "legendary_monsters:mossy_hammer",
+				"armageddon_mod:the_sword_of_the_starved",
 ]);
 
 e.add("forge:helionite_tools", [
@@ -684,7 +719,6 @@ e.add("forge:helionite_tools", [
     "brutality:double_down",
     "brutality:whisperwaltz",
     "brutality:supernova",
-    "brutality:prismatic_greatsword",
     "brutality:rhongomyniad",
     "brutality:darkin_blade",
     "brutality:darkin_scythe",
@@ -692,6 +726,7 @@ e.add("forge:helionite_tools", [
     "brutality:royal_guardian_sword",
     "block_factorys_bosses:knight_sword",
     "brutality:dull_knife",
+    "composite_material:etherite_sword_reinforced",
   ]);
 
   e.add("forge:iron_armor", [
