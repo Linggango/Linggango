@@ -82,6 +82,7 @@ ServerEvents.tags("item", e => {
     "simplyswords:iron_scythe",
     "simplyswords:iron_halberd",
     "ancient_elements:iron_hammer",
+    "forbidden_arcanus:iron_blacksmith_gavel",
   ]);
 
   e.add("forge:golden_tools", [
@@ -113,6 +114,8 @@ ServerEvents.tags("item", e => {
     "simplyswords:gold_scythe",
     "simplyswords:gold_halberd",
     "ancient_elements:golden_hammer",
+    "forbidden_arcanus:golden_blacksmith_gavel",
+    "forbidden_arcanus:mystical_dagger",
   ]);
 
   e.add("forge:emerald_tools", [
@@ -253,6 +256,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:nether_steel_hammer",
     "ancient_elements:nether_steel_drill",
     "cataclysm:infernal_forge",
+    "forbidden_arcanus:diamond_blacksmith_gavel",
   ]);
 
   e.add("forge:netherite_tools", [
@@ -483,7 +487,8 @@ ServerEvents.tags("item", e => {
     "ancient_elements:void_steel_hammer",
     "ancient_elements:void_steel_drill",
     "companions:crystallized_blood_scythe",
-    "caverns_and_chasms:necromium_pickaxe"
+    "caverns_and_chasms:necromium_pickaxe",
+    "forbidden_arcanus:netherite_blacksmith_gavel",
   ]);
 
   e.add("forge:elvenite_tools", [
