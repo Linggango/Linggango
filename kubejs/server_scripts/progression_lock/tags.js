@@ -469,6 +469,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:frost_drill",
     "ancient_elements:meteorite_pickaxe",
     "ancient_elements:meteorite_axe",
+    "ancient_elements:meteoriteshovel",
     "ancient_elements:meteorite_shovel",
     "ancient_elements:meteorite_sword",
     "ancient_elements:meteorite_hoe",
