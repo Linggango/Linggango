@@ -107,6 +107,14 @@ ServerEvents.tags("item", e => {
     "mofus_better_end_:mite_queen_scythe",
     "mythsandlegends:gargoyle_axe",
     "sgjourney:naquadah_sword",
+    "brutality:spatula",
+    "brutality:the_golden_spatula",
+    "brutality:iron_knife",
+    "brutality:gold_knife",
+    "brutality:diamond_knife",
+    "brutality:void_knife",
+    "brutality:meloncholy",
+    "brutality:apple_core",
   ])
 });
 

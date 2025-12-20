@@ -251,6 +251,7 @@ ServerEvents.tags("item", e => {
     "composite_material:dungeon_sword_reinforced",
     "knightsnmages:noble_sword",
     "mythsandlegends:gargoyle_axe",
+    "brutality:diamond_knife",
   ]);
 
   e.add("forge:netherite_tools", [
