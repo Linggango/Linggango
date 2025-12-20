@@ -145,6 +145,7 @@ ServerEvents.tags("item", e => {
     "born_in_chaos_v1:sweet_sword",
     "tameablebeasts:bug_sword",
     "jellyfishing:golden_spatula",
+    "born_in_chaos_v1:frostbitten_blade",
   ]);
 
   e.add("forge:emerald_tools", [
@@ -180,6 +181,7 @@ ServerEvents.tags("item", e => {
     "born_in_chaos_v1:carrot_sword",
     "jellyfishing:karate_glove",
     "tameablebeasts:beetle_sword",
+    "born_in_chaos_v1:icy_sweetness",
   ]);
 
   e.add("forge:diamond_tools", [
@@ -604,7 +606,6 @@ ServerEvents.tags("item", e => {
     "brutality:gungnir",
     "terramity:simmeredge",
     "legendary_monsters:soul_great_sword",
-    "lethality:forbidden_oathblade",
     "terramity:seventh_star",
     "knightquest:knopesh_claymore",
     "lethality:tainted_blade",
@@ -621,9 +622,9 @@ ServerEvents.tags("item", e => {
     "jellyfishing:power_karate_glove",
     "jellyfishing:master_karate_glove",
     "traveloptics:abyssal_tidecaller",
-    "cataclysm:the_obliterator",
+    "traveloptics:the_obliterator",
     "born_in_chaos_v1:darkwarblade",
-    "enigmaticlegacy:astral_spear",
+    "enigmaticaddons:astral_spear",
     "traveloptics:scourge_of_the_sands",
     "goety_revelation:gungnir",
     "traveloptics:harbringers_wrath",
@@ -686,6 +687,8 @@ ServerEvents.tags("item", e => {
     "traveloptics:thorns_of_oblivion",
     "brutality:old_gpu",
     "brutality:the_golden_spatula",
+    "lethality:forbidden_oathblade",
+    "lethality:caustic_edge",
   ]);
 
   e.add("forge:voiderite_tools", [
@@ -751,7 +754,6 @@ ServerEvents.tags("item", e => {
     "armageddon_mod:the_voidfang_saber",
     "lethality:reverium_bafs",
     "lethality:exodium_bafs",
-    "lethality:caustic_edge",
     "armageddon_mod:primalis",
     "armageddon_mod:ultimate_sword_of_the_elements",
     "armageddon_mod:ultimate_sword_of_the_elements_schulk",
@@ -771,6 +773,8 @@ ServerEvents.tags("item", e => {
     "traveloptics:cursed_wraithblade",
     "traveloptics:mechanized_wraithblade",
     "armageddon_mod:indomita_furia",
+    "lethality:exalted_oathblade",
+    "lethality:blighted_cleaver",
   ]);
 
   e.add("forge:bloody_tools", [
@@ -804,9 +808,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:endrium_hoe",
     "ancient_elements:endrium_hammer",
     "ancient_elements:endrium_drill",
-    "lethality:exalted_oathblade",
     "lethality:nyxium_bafs",
-    "lethality:blighted_cleaver",
     "armageddon_mod:thalassar",
     "lethality:grievance",
     "lethality:violence",
@@ -814,13 +816,15 @@ ServerEvents.tags("item", e => {
     "armageddon_mod:bloody_sword",
     "armageddon_mod:the_vampiric_blade",
     "armageddon_mod:bloody_scythe",
+    "lethality:defiled_greatsword",
+    "lethality:devils_devastation",
+    "lethality:gaels_greatsword",
   ]);
 
 e.add("forge:helionite_tools", [
     "celestisynth:keres",
     "lethality:foreign_hook",
     "lethality:stop_sign",
-    "lethality:defiled_greatsword",
     "composite_material:etherite_sword",
     "composite_material:etherite_axe",
     "composite_material:etherite_pickaxe",
@@ -845,8 +849,6 @@ e.add("forge:helionite_tools", [
     "ancient_elements:galactrium_hoe",
     "ancient_elements:galactrium_hammer",
     "ancient_elements:galactrium_drill",
-    "lethality:devils_devastation",
-    "lethality:gaels_greatsword",
     "lethality:vehemence",
     "lethality:starlight",
     "lethality:real_knife",
