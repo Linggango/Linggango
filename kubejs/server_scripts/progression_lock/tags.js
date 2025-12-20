@@ -82,6 +82,11 @@ ServerEvents.tags("item", e => {
     "simplyswords:iron_scythe",
     "simplyswords:iron_halberd",
     "animus:spear_iron",
+    "simplymore:iron_grandsword",
+    "legendary_monsters:the_great_frost",
+    "deeperdarker:resonarium_sword",
+    "eeeabsmobs:demolisher",
+    "ancient_elements:jungle_steel_axe",
   ]);
 
   e.add("forge:golden_tools", [
@@ -252,6 +257,10 @@ ServerEvents.tags("item", e => {
     "knightsnmages:noble_sword",
     "mythsandlegends:gargoyle_axe",
     "brutality:diamond_knife",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "brutality:jackpot",
   ]);
 
   e.add("forge:netherite_tools", [
@@ -448,6 +457,11 @@ ServerEvents.tags("item", e => {
     "knightsnmages:dark_sword",
     "mekaweapons:mekatana",
     "sgjourney:naquadah_sword",
+    "armageddon_mod:rustyswordofthelegendaryhero",
+    "armageddon_mod:scalding_silence",
+    "lethality:netherite_bafs",
+    "ancient_elements:infernal_axe",
+    "ancient_elements:ender_steel_axe",
   ]);
 
   e.add("forge:elvenite_tools", [
@@ -500,6 +514,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:endrium_pickaxe",
     "ancient_elements:infernal_pickaxe",
     "ancient_elements:aetherium_pickaxe",
+    "ancient_elements:aetherium_axe",
     "ancient_elements:frost_pickaxe",
     "ancient_elements:meteorite_pickaxe",
     "celestisynth:solaris",
@@ -543,6 +558,7 @@ ServerEvents.tags("item", e => {
     "terramity:exodium_shovel",
     "composite_material:echoium_sword_reinforced",
     "mofus_better_end_:mite_queen_scythe",
+    "armageddon_mod:the_voidfang_saber",
   ]);
 
   e.add("forge:helionite_tools", [
@@ -638,6 +654,7 @@ ServerEvents.tags("item", e => {
     "ancient_elements:celestium_drill",
     "terramity:nyxium_shovel",
     "terramity:murasama",
+    "armageddon_mod:the_sword_of_the_starved",
   ]);
 
   e.add("forge:iron_armor", [
