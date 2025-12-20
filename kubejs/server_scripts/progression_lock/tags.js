@@ -81,6 +81,7 @@ ServerEvents.tags("item", e => {
     "simplyswords:iron_chakram",
     "simplyswords:iron_scythe",
     "simplyswords:iron_halberd",
+    "animus:spear_iron",
   ]);
 
   e.add("forge:golden_tools", [
@@ -111,6 +112,7 @@ ServerEvents.tags("item", e => {
     "simplyswords:gold_chakram",
     "simplyswords:gold_scythe",
     "simplyswords:gold_halberd",
+    "embers:grandhammer",
   ]);
 
   e.add("forge:emerald_tools", [
@@ -242,6 +244,13 @@ ServerEvents.tags("item", e => {
     "simplyswords:diamond_chakram",
     "simplyswords:diamond_scythe",
     "simplyswords:diamond_halberd",
+    "animus:spear_diamond",
+    "animus:spear_bound",
+    "animus:spear_sentient",
+    "brutality:prismatic_greatsword",
+    "composite_material:dungeon_sword_reinforced",
+    "knightsnmages:noble_sword",
+    "mythsandlegends:gargoyle_axe",
   ]);
 
   e.add("forge:netherite_tools", [
@@ -429,6 +438,15 @@ ServerEvents.tags("item", e => {
     "simplyswords:netherite_chakram",
     "simplyswords:netherite_scythe",
     "simplyswords:netherite_halberd",
+    "animus:hand_of_death",
+    "dungeonsdelight:stained_cleaver",
+    "dungeonsdelight:stained_knife",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:ender_slayer",
+    "enigmaticlegacy:eldritch_pan",
+    "knightsnmages:dark_sword",
+    "mekaweapons:mekatana",
+    "sgjourney:naquadah_sword",
   ]);
 
   e.add("forge:elvenite_tools", [
@@ -466,11 +484,9 @@ ServerEvents.tags("item", e => {
     "composite_material:echoium_pickaxe",
     "composite_material:echoium_axe",
     "enigmaticdice:unequal_exchange",
-    "dungeonsdelight:stained_cleaver",
     "lethality:hellspec_bafs",
     "lethality:void_bafs",
     "lethality:conductite_bafpb",
-    "dungeonsdelight:stained_knife",
     "enigmaticdice:soul_eater",
     "enigmaticdice:permafrost",
     "enigmaticdice:crucible_of_rile",
@@ -524,6 +540,8 @@ ServerEvents.tags("item", e => {
     "terramity:exodium_sword",
     "terramity:exodium_pickaxe",
     "terramity:exodium_shovel",
+    "composite_material:echoium_sword_reinforced",
+    "mofus_better_end_:mite_queen_scythe",
   ]);
 
   e.add("forge:helionite_tools", [
@@ -587,7 +605,6 @@ ServerEvents.tags("item", e => {
     "brutality:double_down",
     "brutality:whisperwaltz",
     "brutality:supernova",
-    "brutality:prismatic_greatsword",
     "brutality:rhongomyniad",
     "brutality:darkin_blade",
     "brutality:darkin_scythe",
@@ -595,6 +612,7 @@ ServerEvents.tags("item", e => {
     "brutality:royal_guardian_sword",
     "block_factorys_bosses:knight_sword",
     "brutality:dull_knife",
+    "composite_material:etherite_sword_reinforced",
   ]);
 
   e.add("forge:bloody_tools", [
