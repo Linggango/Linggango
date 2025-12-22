@@ -125,6 +125,7 @@
 !/config/forbidden_arcanus-client.toml
 !/config/forbidden_arcanus-common.toml
 !/config/forge-client.toml
+!/config/ftbquests_tierlists-client.toml
 !/config/gnetum.json
 !/config/goety_revelation.toml
 !/config/gtbcs_spell_lib-common.toml

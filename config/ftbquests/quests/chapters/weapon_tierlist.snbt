@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "weapon_tierlist"
-	group: "3B5FC78CC89E4CD7"
+	group: "732C19DBA160D9E8"
 	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
@@ -45,7 +45,7 @@
 			y: -4.5d
 		}
 	]
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

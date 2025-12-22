@@ -1,0 +1,78 @@
+
+#Auto-Tierlist Configuration
+[autotierlist]
+	#Enable weapon tierlist generation
+	enableWeaponTierlist = true
+	#Enable armor tierlist generation
+	enableArmorTierlist = true
+	#Horizontal spacing between quests
+	#Range: 1.0 ~ 5.0
+	questSpacingX = 1.0
+	#Vertical spacing between quests
+	#Range: 1.0 ~ 5.0
+	questSpacingY = 1.0
+	#Extra vertical spacing between tiers
+	#Range: 1.0 ~ 10.0
+	tierSpacingY = 1.0
+	#Manual tier overrides for weapons
+	#Format: "modid:itemname=tier"
+	#Example: "minecraft:wooden_sword=0"
+	weaponTierOverrides = ["lethality:violence=25", "lethality:sacrifice=24", "lethality:vehemence=23", "enigmaticlegacy:eldritch_pan=22", "brutality:shadowstep=15"]
+	#Manual tier overrides for armor pieces
+	#Format: "modid:itemname=tier"
+	#Example: "minecraft:leather_helmet=0"
+	armorTierOverrides = []
+	#Item tags to include in weapon tierlist
+	#Format: "namespace:tagname"
+	#Example: "forge:tools/swords", "minecraft:swords"
+	#Leave empty to use attribute detection only
+	weaponTags = ["goety_revelation:tools/weapons", "forge:tools/weapons", "forge:tools/swords", "minecraft:swords", "c:tools/melee_weapons", "minecraft:weapons"]
+	#Item tags to include in armor tierlist
+	#Format: "namespace:tagname"
+	#Example: "forge:armors", "minecraft:armor"
+	#Leave empty to use attribute detection only
+	armorTags = []
+	#Manually specified items to include in weapon tierlist
+	#Format: "modid:itemname"
+	#Example: "minecraft:diamond_sword", "twilightforest:fiery_sword"
+	weaponItems = []
+	#Manually specified items to include in armor tierlist
+	#Format: "modid:itemname"
+	#Example: "minecraft:diamond_chestplate"
+	armorItems = []
+	#Use attribute-based detection (attack damage > 0 for weapons, armor > 0 for armor)
+	#If true, items with appropriate attributes will be included automatically
+	#If false, only items matching tags or manual lists will be included
+	useAttributeDetection = true
+	#EMI recipe categories to skip when building crafting chains
+	#Format: "modid:category_id"
+	#Example: "emi:smithing_trim" to skip armor trim recipes
+	#Common categories to skip:
+	#  - emi:anvil_repairing (anvil repairs)
+	skippedEmiCategories = ["emi:anvil_repairing", "ars_nouveau:armor_upgrade", "adamsarsplus:a_armor_upgrade", "ars_nouveau:netherite_upgrade"]
+	#Items to completely skip during tierlist generation
+	#Format: "modid:itemname"
+	#Example: "minecraft:wooden_sword", "create:copper_sword"
+	#These items will be excluded from both weapon and armor tierlists
+	skippedItems = ["foolish:stick_of_disposal", "armageddon_mod:creative_obliterator", "simplymore:mimicry_twinblade", "simplymore:mimicry_rapier", "simplymore:mimicry_katana", "simplymore:mimicry_sai", "simplymore:mimicry_spear", "simplymore:mimicry_glaive", "simplymore:mimicry_warglaive", "simplymore:mimicry_cutlass", "simplymore:mimicry_claymore", "simplymore:mimicry_greathammer", "simplymore:mimicry_greataxe", "simplymore:mimicry_chakram", "simplymore:mimicry_scythe", "simplymore:mimicry_halberd", "simplymore:mimicry_great_katana", "simplymore:mimicry_grandsword", "simplymore:mimicry_backhand_blade", "simplymore:mimicry_lance", "simplymore:mimicry_khopesh", "simplymore:mimicry_dagger", "simplymore:mimicry_pernach", "simplymore:mimicry_quarterstaff", "simplymore:mimicry_great_spear", "simplymore:mimicry_deer_horns"]
+	#List of tag entries. Format: [tags, label letter, color, header_item, advancement]
+	#Tags can be comma-separated for multiple tags
+	#Example: ["forge:diamond_tools,minecraft:swords", "D", "c", "minecraft:diamond", "advancements.the_diamond_keeper"]
+	tags = [["forge:iron_tools, forge:iron_armor, forge:iron_blocks", "I", "f", "minecraft:iron_ingot", "armageddon_mod:the_iron_keeper"], ["forge:golden_tools, forge:golden_armor, forge:golden_blocks", "G", "6", "minecraft:gold_ingot", "armageddon_mod:the_gold_keeper"], ["forge:emerald_tools, forge:emerald_armor, forge:emerald_blocks", "E", "a", "minecraft:emerald", "armageddon_mod:the_emerald_keeper"], ["forge:diamond_tools, forge:diamond_armor, forge:diamond_blocks", "D", "b", "minecraft:diamond", "armageddon_mod:the_diamond_keeper"], ["forge:netherite_tools, forge:netherite_armor, forge:netherite_blocks", "N", "8", "minecraft:netherite_ingot", "armageddon_mod:the_netherite_keeper"], ["forge:elvenite_tools, forge:elvenite_armor, forge:elvenite_blocks", "E", "e", "armageddon_mod:elvenite_ingot", "armageddon_mod:the_elvenite_keeper"], ["forge:voiderite_tools, forge:voiderite_armor, forge:voiderite_blocks", "V", "5", "armageddon_mod:voiderite", "armageddon_mod:the_voiderite_keeper"], ["forge:bloody_tools, forge:bloody_armor, forge:bloody_blocks", "B", "4", "armageddon_mod:bloody_ingot", "armageddon_mod:the_blood_keeper"], ["forge:helionite_tools, forge:helionite_armor, forge:helionite_blocks", "H", "6", "armageddon_mod:helionite_ingot", "armageddon_mod:the_sun_keeper"]]
+	#Chapter ID for weapon tierlist
+	weaponChapterId = "autotierlist_weapons"
+	#Chapter ID for armor tierlist
+	armorChapterId = "autotierlist_armor"
+	#Translatable title key for weapon chapter
+	weaponChapterTitle = "ftbquests_tierlists.chapter.weapons.title"
+	#Translatable title key for armor chapter
+	armorChapterTitle = "ftbquests_tierlists.chapter.armor.title"
+	#Optional group ID to assign generated chapters to
+	chapter_group = "732C19DBA160D9E8"
+	#Optional index within the chapter group to insert generated chapters at. Empty value means quests would be last
+	index_in_chapter_group = "0"
+	#Icon for the weapon chapter (modid:itemname)
+	weapon_chapter_icon = "terramity:sword_of_the_imprisoned_shrunk"
+	#Icon for the armor chapter (modid:itemname)
+	armor_chapter_icon = "composite_material:etherite_chestplate"
+
