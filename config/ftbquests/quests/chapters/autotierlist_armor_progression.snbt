@@ -1,0 +1,6373 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "autotierlist_armor_progression"
+	group: "732C19DBA160D9E8"
+	icon: {
+		Count: 1
+		id: "composite_material:etherite_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "01C793CA4FE2DFC8"
+	images: [
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 30.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 32.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 34.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 36.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 38.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 40.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_dark_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 42.0d
+		}
+		{
+			height: 0.05d
+			image: "ftblibrary:textures/gui/row_light_gray.png"
+			rotation: 0.0d
+			width: 1000.0d
+			x: -2.0d
+			y: 44.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BC8F90E5EB879CC"
+			tasks: [{
+				id: "6A8FC8779D02FBCF"
+				type: "checkmark"
+			}]
+			title: "[1] Armor: 1"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "7251BC0446377AB6"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.rubber_ring_blue\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "0BD918C742CC542D"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 0.0d
+		}
+		{
+			id: "5445744EB35D16A9"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.rubber_ring_pink\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "080F8953663BA767"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_pink"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 0.0d
+		}
+		{
+			id: "37EB4895C2C0BF2A"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.rubber_ring_stripped\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "4104D30DCCEE768C"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_stripped"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 126.0d
+			y: 0.0d
+		}
+		{
+			id: "0B0E42DB4E4F690E"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.rubber_ring_pelican\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "77E7FF514A03DE6F"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_pelican"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 127.0d
+			y: 0.0d
+		}
+		{
+			id: "545779E61DFC533F"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.rubber_ring_axolotl\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "6D4F6E87578C10C8"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_axolotl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 0.0d
+		}
+		{
+			id: "5E106642526A3579"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.bikini\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "2790FFA790109339"
+				item: {
+					Count: 1
+					id: "beachparty:bikini"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 0.0d
+		}
+		{
+			id: "3B8282CF86BE90C4"
+			subtitle: "{\"color\":\"#FAF3E0\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#D4B483\",\"translate\":\"tooltip.beachparty.effect.item.beachparty.swim_wings\"},{\"text\":\"\\n\"}],\"translate\":\"tooltip.beachparty.curiosslot\"}"
+			tasks: [{
+				consume_items: false
+				id: "3C5F7280CF567161"
+				item: {
+					Count: 1
+					id: "beachparty:swim_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 130.0d
+			y: 0.0d
+		}
+		{
+			id: "44D4C8BBC860EE10"
+			tasks: [{
+				consume_items: false
+				id: "4DAD33402C16B4DE"
+				item: {
+					Count: 1
+					id: "create:cardboard_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 131.0d
+			y: 0.0d
+		}
+		{
+			id: "2C520DA7E50D0221"
+			subtitle: "{\"color\":\"gray\",\"translate\":\"item.windswept.feather_cloak.desc\"}"
+			tasks: [{
+				consume_items: false
+				id: "6E799FEDF987A1FE"
+				item: {
+					Count: 1
+					id: "windswept:feather_cloak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 132.0d
+			y: 0.0d
+		}
+		{
+			id: "3D6570484AE4794C"
+			tasks: [{
+				id: "7A3D551A3D1C6619"
+				type: "checkmark"
+			}]
+			title: "[2] Armor: 2"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "2CB5B6F378F5B1C6"
+			tasks: [{
+				consume_items: false
+				id: "635D83D31F2BE586"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:bride_body_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "60116AC1A451E935"
+			tasks: [{
+				consume_items: false
+				id: "37E023ABF66963B0"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:frankenstein_body_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "5151975790171E29"
+			tasks: [{
+				consume_items: false
+				id: "281CA4FEE04B1125"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:green_ugly_christmas_sweater_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "193E3B01CB6446CC"
+			tasks: [{
+				consume_items: false
+				id: "3E94B108B949D033"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:mermaid_body_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "4A60E300D39623D4"
+			tasks: [{
+				consume_items: false
+				id: "6913BD6EE3CF986B"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:merman_body_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "3E82D544D6A3E660"
+			tasks: [{
+				consume_items: false
+				id: "44FC302FF03D64BF"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:mummy_body_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "5234A75B3ACF9D90"
+			tasks: [{
+				consume_items: false
+				id: "29C5F75C222617C2"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:pirate_body_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "19DF34CDFE7BD643"
+			tasks: [{
+				consume_items: false
+				id: "6B5B22C45CCB7ABD"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:red_ugly_christmas_sweater_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "28AA87467BDF404D"
+			subtitle: "{\"color\":\"gold\",\"translate\":\"info.thermal.beekeeper_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "0FB2757CF9763F9E"
+				item: {
+					Count: 1
+					id: "thermal:beekeeper_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 2.0d
+		}
+		{
+			id: "201EE3C9637CB2CC"
+			tasks: [{
+				id: "64CA56A47BAAFE32"
+				type: "checkmark"
+			}]
+			title: "[3] Armor: 3"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "404B93BDA0EAB3C7"
+			tasks: [{
+				consume_items: false
+				id: "620425E7EA1DC5EA"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:bunny_costume_leather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "63C62C72B07143A2"
+			tasks: [{
+				consume_items: false
+				id: "36525CC5F777623D"
+				item: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 88.0d
+			y: 4.0d
+		}
+		{
+			id: "27EA89BE8BEAACF2"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.novice_builder_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.novice_builder_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.novice_builder_armor_chestplate.description_3\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.novice_builder_armor_chestplate.description_4\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.novice_builder_armor_chestplate.description_5\"}],\"translate\":\"item.armageddon_mod.novice_builder_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "3E47E0B1B690AAC2"
+				item: {
+					Count: 1
+					id: "armageddon_mod:novice_builder_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 89.0d
+			y: 4.0d
+		}
+		{
+			id: "0CC1AB7C09C96F6B"
+			tasks: [{
+				consume_items: false
+				id: "0A63C3A20387A32F"
+				item: {
+					Count: 1
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 4.0d
+		}
+		{
+			id: "759EFC1E36A59A00"
+			subtitle: "{\"color\":\"gray\",\"translate\":\"item.alexsmobs.unsettling_kimono.desc\"}"
+			tasks: [{
+				consume_items: false
+				id: "4622A3CCC2DF59C7"
+				item: {
+					Count: 1
+					id: "alexsmobs:unsettling_kimono"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 4.0d
+		}
+		{
+			id: "55E7189431AA28E3"
+			tasks: [{
+				consume_items: false
+				id: "145FC3B50E1AB911"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 126.0d
+			y: 4.0d
+		}
+		{
+			id: "4EAD2E0E4839EFA5"
+			tasks: [{
+				consume_items: false
+				id: "36611E6754C640CA"
+				item: {
+					Count: 1
+					id: "endergetic:booflo_vest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 127.0d
+			y: 4.0d
+		}
+		{
+			id: "7DD1DAB1029D5F25"
+			subtitle: "{\"color\":\"gray\",\"translate\":\"tooltip.hexalia.ghostveil\"}"
+			tasks: [{
+				consume_items: false
+				id: "36D9FC015FAFDA1B"
+				item: {
+					Count: 1
+					id: "hexalia:ghostveil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 4.0d
+		}
+		{
+			id: "074BB20FADEC67B0"
+			tasks: [{
+				consume_items: false
+				id: "1CE3CA74E44B3B0E"
+				item: {
+					Count: 1
+					id: "immersiveengineering:armor_faraday_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 4.0d
+		}
+		{
+			id: "4AE7AA5AA3D98B46"
+			tasks: [{
+				consume_items: false
+				id: "04A53E8A93348D3E"
+				item: {
+					Count: 1
+					id: "vinery:winemaker_apron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 130.0d
+			y: 4.0d
+		}
+		{
+			id: "1CDBC7733A3BDBFE"
+			tasks: [{
+				id: "2FA3FED42255B432"
+				type: "checkmark"
+			}]
+			title: "[4] Armor: 4"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "220B6872106F2CF9"
+			tasks: [{
+				consume_items: false
+				id: "1B029324220D7365"
+				item: "create:copper_backtank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63C62C72B07143A2"]
+			id: "35EBE507ADC27228"
+			tasks: [{
+				consume_items: false
+				id: "45E71F881D2F28B5"
+				item: {
+					Count: 1
+					id: "galosphere:sterling_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 88.0d
+			y: 6.0d
+		}
+		{
+			id: "179FB0091460F45A"
+			tasks: [{
+				consume_items: false
+				id: "1B6064815167780A"
+				item: {
+					Count: 1
+					id: "alexscaves:primordial_tunic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 6.0d
+		}
+		{
+			id: "16EF555D782660DA"
+			tasks: [{
+				consume_items: false
+				id: "43C64538783A6B9C"
+				item: {
+					Count: 1
+					id: "alexscaves:gingerbread_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 6.0d
+		}
+		{
+			id: "2828BA56F4BF2AE2"
+			tasks: [{
+				consume_items: false
+				id: "33E7FB8A9C705794"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 126.0d
+			y: 6.0d
+		}
+		{
+			id: "43B2EEB8B284C683"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"160\"]}"
+			tasks: [{
+				consume_items: false
+				id: "384CE4EEF24A88EF"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 127.0d
+			y: 6.0d
+		}
+		{
+			id: "6612D5E49B8D149D"
+			tasks: [{
+				consume_items: false
+				id: "22C8F2EFAB8D1207"
+				item: {
+					Count: 1
+					id: "opposing_force:deepwoven_tunic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 6.0d
+		}
+		{
+			id: "263E69DBDD6CA9A0"
+			tasks: [{
+				consume_items: false
+				id: "64407EBAFF17CDA0"
+				item: {
+					Count: 1
+					id: "thermal:diving_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 6.0d
+		}
+		{
+			id: "39E59EAEC97AB2F3"
+			subtitle: "{\"color\":\"gold\",\"translate\":\"info.thermal.hazmat_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "76B46A57859124D5"
+				item: {
+					Count: 1
+					id: "thermal:hazmat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 130.0d
+			y: 6.0d
+		}
+		{
+			id: "43CCC90E2F669C80"
+			tasks: [{
+				id: "4EA2572B38F946CD"
+				type: "checkmark"
+			}]
+			title: "[5] Armor: 5"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2CB5B6F378F5B1C6"
+				"21646B373680183A"
+			]
+			id: "656ECCE2FA5FFAEE"
+			tasks: [{
+				consume_items: false
+				id: "46C7DFEFC3208ED1"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:bride_body_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"60116AC1A451E935"
+			]
+			id: "48117129BEC6C486"
+			tasks: [{
+				consume_items: false
+				id: "177FE11348642328"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:frankenstein_body_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"5151975790171E29"
+			]
+			id: "1FBDE769B224AEC8"
+			tasks: [{
+				consume_items: false
+				id: "2484C10B24A00AC5"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:green_ugly_christmas_sweater_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"193E3B01CB6446CC"
+			]
+			id: "6CDDAC5A4125D4C5"
+			tasks: [{
+				consume_items: false
+				id: "1C35D59FE4E35E35"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:mermaid_body_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"4A60E300D39623D4"
+			]
+			id: "1114F75DD70FDA85"
+			tasks: [{
+				consume_items: false
+				id: "197EE51C4F257597"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:merman_body_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"3E82D544D6A3E660"
+			]
+			id: "229693DA80019581"
+			tasks: [{
+				consume_items: false
+				id: "50967DB95A35C5DF"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:mummy_body_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5234A75B3ACF9D90"
+				"21646B373680183A"
+			]
+			id: "39F9C4BA73F1A93F"
+			tasks: [{
+				consume_items: false
+				id: "248ED432FE2282F9"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:pirate_body_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"19DF34CDFE7BD643"
+			]
+			id: "0699A713AE485960"
+			tasks: [{
+				consume_items: false
+				id: "7B7541FC7696B3EA"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:red_ugly_christmas_sweater_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["716AAE93072688C1"]
+			id: "42314EDF5D78B3A4"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "46AE14CA9FF7888E"
+				item: {
+					Count: 1
+					id: "ars_nouveau:sorcerer_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "716AAE93072688C1"
+			tasks: [{
+				consume_items: false
+				id: "7529B1E2AE68D030"
+				item: {
+					Count: 1
+					id: "minecraft:golden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"G\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.minecraft.golden_chestplate\"}],\"text\":\"[\"}"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63C62C72B07143A2"]
+			id: "3E7E2AEFA98D618A"
+			tasks: [{
+				consume_items: false
+				id: "05F5C3B8FAA8442A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 88.0d
+			y: 8.0d
+		}
+		{
+			id: "0CBC5A4202F09122"
+			tasks: [{
+				consume_items: false
+				id: "5DF2C0CECBE1DD87"
+				item: {
+					Count: 1
+					id: "alexscaves:cloak_of_darkness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 8.0d
+		}
+		{
+			id: "2182910AB8EDF6F7"
+			subtitle: "{\"color\":\"gray\",\"translate\":\"item.alexsmobs.rocky_chestplate.desc\"}"
+			tasks: [{
+				consume_items: false
+				id: "6E161889A26936C2"
+				item: {
+					Count: 1
+					id: "alexsmobs:rocky_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 8.0d
+		}
+		{
+			id: "159AFD612B681938"
+			subtitle: "{\"text\":\"§cFull Set Effect: §e15% increased attack damage\"}"
+			tasks: [{
+				consume_items: false
+				id: "7BDC96870690CD47"
+				item: {
+					Count: 1
+					id: "ancient_elements:lead_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.lead_chestplate\"}],\"text\":\"[\"}"
+			x: 126.0d
+			y: 8.0d
+		}
+		{
+			id: "25D7351BC493CBC8"
+			subtitle: "{\"text\":\"§cFull Set Effect: §e10% increased movement speed\"}"
+			tasks: [{
+				consume_items: false
+				id: "7DC3A111AB399457"
+				item: {
+					Count: 1
+					id: "ancient_elements:tin_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 127.0d
+			y: 8.0d
+		}
+		{
+			id: "203B199AC95EFE1F"
+			tasks: [{
+				consume_items: false
+				id: "588C4EBB84E6CA7E"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:silver_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 8.0d
+		}
+		{
+			id: "74FB068D48227950"
+			tasks: [{
+				consume_items: false
+				id: "3C561A283FB55B97"
+				item: {
+					Count: 1
+					id: "composite_material:copper_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 8.0d
+		}
+		{
+			id: "34BC221EEA3F019E"
+			tasks: [{
+				consume_items: false
+				id: "3A36705DDFB6690E"
+				item: "crittersandcompanions:gold_dragonfly_armor"
+				type: "item"
+			}]
+			x: 130.0d
+			y: 8.0d
+		}
+		{
+			id: "192F8FD06AEF7FD2"
+			subtitle: "{\"text\":\"§7Activate the armor ability to damage nearby mobs in exchange for health.\"}"
+			tasks: [{
+				consume_items: false
+				id: "25ADE107A4BF66EF"
+				item: {
+					Count: 1
+					id: "foolish:soul_coat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 131.0d
+			y: 8.0d
+		}
+		{
+			id: "0B76CDF66D9B722A"
+			tasks: [{
+				consume_items: false
+				id: "36678EC435609D8F"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 132.0d
+			y: 8.0d
+		}
+		{
+			id: "064C599759BC2E2A"
+			tasks: [{
+				id: "052D38E7CA534216"
+				type: "checkmark"
+			}]
+			title: "[6] Armor: 6"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["716AAE93072688C1"]
+			id: "18173787419D9463"
+			tasks: [{
+				consume_items: false
+				id: "46FAE021EF1EDFD0"
+				item: {
+					Count: 1
+					id: "armageddon_mod:gilded_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"G\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.armageddon_mod.gilded_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21646B373680183A"]
+			id: "1BB52E5BD074EA73"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "105CEB40F8C27743"
+				item: {
+					Count: 1
+					id: "ars_nouveau:arcanist_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21646B373680183A"]
+			id: "3F0B6C124204BC95"
+			tasks: [{
+				consume_items: false
+				id: "50587F079D64315D"
+				item: {
+					Count: 1
+					id: "bloodmagic:livingplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "0978ABD7CC3AA708"
+			subtitle: "{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"translate\":\"tooltip.composite_material.amethyst_tool\"}],\"translate\":\"tooltip.composite_material.amethyst_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "3EA339DF908ED58A"
+				item: {
+					Count: 1
+					id: "composite_material:amethyst_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.composite_material.amethyst_chestplate\"}],\"text\":\"[\"}"
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "21646B373680183A"
+			tasks: [{
+				consume_items: false
+				id: "263B913CDF6CF018"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.minecraft.iron_chestplate\"}],\"text\":\"[\"}"
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3F0B6C124204BC95"]
+			id: "6914F7CE599D1339"
+			subtitle: "{\"color\":\"gold\",\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "1F6D58E96247C3C9"
+				item: {
+					Count: 1
+					id: "tomeofblood:living_mage_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"404B93BDA0EAB3C7"
+			]
+			id: "1107966EFFE82775"
+			tasks: [{
+				consume_items: false
+				id: "06C6143925ED570D"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:bunny_costume_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["63C62C72B07143A2"]
+			id: "65661741D37F23D4"
+			subtitle: "{\"font\":\"brutality:gamer\",\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"brutality.description.type.full_set_passive\"},{\"text\":\"\\n\"},{\"translate\":\"item.brutality.noir_chestplate.full_set_passive.1\"}],\"translate\":\"rarity.fabled.name\"}"
+			tasks: [{
+				consume_items: false
+				id: "6F67FDC6C8ED12B7"
+				item: {
+					Count: 1
+					id: "brutality:noir_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"bold\":false,\"extra\":[{\"color\":\"#FFD16CE3\",\"text\":\"N\"},{\"color\":\"#FFD981E5\",\"text\":\"o\"},{\"color\":\"#FFE4A5ED\",\"text\":\"i\"},{\"color\":\"#FFEDC3F3\",\"text\":\"r\"},{\"color\":\"#FFF7E6FA\",\"text\":\" \"},{\"color\":\"#FFF9FCFE\",\"text\":\"C\"},{\"color\":\"#FFDBEFF8\",\"text\":\"l\"},{\"color\":\"#FFC2E4F3\",\"text\":\"o\"},{\"color\":\"#FFA3D7ED\",\"text\":\"a\"},{\"color\":\"#FF85CAE7\",\"text\":\"k\"}],\"text\":\"\"}],\"text\":\"[\"}"
+			x: 88.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["27EA89BE8BEAACF2"]
+			id: "23316F70D1621969"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.apprentice_builder_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.apprentice_builder_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.apprentice_builder_armor_chestplate.description_3\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.apprentice_builder_armor_chestplate.description_4\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.apprentice_builder_armor_chestplate.description_5\"}],\"translate\":\"item.armageddon_mod.apprentice_builder_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "44B3D38C6BD3F90E"
+				item: {
+					Count: 1
+					id: "armageddon_mod:apprentice_builder_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 89.0d
+			y: 10.0d
+		}
+		{
+			id: "25CB2CFCB36916D6"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"tooltip.ad_astra.shift_description\"}],\"translate\":\"tooltip.ad_astra.fluid\",\"with\":[\"0\",\"1K\",{\"translate\":\"fluid_type.ad_astra.oxygen\"}]}"
+			tasks: [{
+				consume_items: false
+				id: "5E527BDF2DDA500E"
+				item: {
+					Count: 1
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 10.0d
+		}
+		{
+			id: "460C72B600EA5864"
+			tasks: [{
+				consume_items: false
+				id: "2D19FF5D4CC983F4"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 10.0d
+		}
+		{
+			id: "5E67B579A47C5C9A"
+			tasks: [{
+				consume_items: false
+				id: "41A4FBAB86B9C318"
+				item: {
+					Count: 1
+					id: "alexsmobs:crocodile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 126.0d
+			y: 10.0d
+		}
+		{
+			id: "6217EF51EBAC6454"
+			tasks: [{
+				consume_items: false
+				id: "5100BAC7A3AB8C58"
+				item: {
+					Count: 1
+					id: "aquamirae:abyssal_brigantine"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.aquamirae.abyssal_brigantine\"}],\"text\":\"[\"}"
+			x: 127.0d
+			y: 10.0d
+		}
+		{
+			id: "767CED40B8D06CC6"
+			tasks: [{
+				consume_items: false
+				id: "1B24F5C647796029"
+				item: {
+					Count: 1
+					id: "aquamirae:three_bolt_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 10.0d
+		}
+		{
+			id: "61741EA43AE00C9D"
+			tasks: [{
+				consume_items: false
+				id: "0D034820368D7E5C"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.block_factorys_bosses.knight_chestplate\"}],\"text\":\"[\"}"
+			x: 129.0d
+			y: 10.0d
+		}
+		{
+			id: "101960F8A1F87E15"
+			tasks: [{
+				consume_items: false
+				id: "469A8FCEBF5C7403"
+				item: "crittersandcompanions:iron_dragonfly_armor"
+				type: "item"
+			}]
+			x: 130.0d
+			y: 10.0d
+		}
+		{
+			id: "03BBDA720979466D"
+			tasks: [{
+				consume_items: false
+				id: "09C58B020139D5E6"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:mortem_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 131.0d
+			y: 10.0d
+		}
+		{
+			id: "4F232997A283BFD4"
+			tasks: [{
+				consume_items: false
+				id: "2FF1968604570373"
+				item: {
+					Count: 1
+					id: "goety:cursed_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 132.0d
+			y: 10.0d
+		}
+		{
+			id: "5989963A578930CA"
+			tasks: [{
+				consume_items: false
+				id: "40413EBC6AB4CE1F"
+				item: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 133.0d
+			y: 10.0d
+		}
+		{
+			id: "0BA3D3EB989D8D1F"
+			tasks: [{
+				consume_items: false
+				id: "61AF1A0194ABC83D"
+				item: {
+					Count: 1
+					id: "undergarden:masticated_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 134.0d
+			y: 10.0d
+		}
+		{
+			id: "62FA527B3C24988C"
+			tasks: [{
+				consume_items: false
+				id: "0C7986F93E2CF1EB"
+				item: {
+					Count: 1
+					id: "undergarden:ancient_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 135.0d
+			y: 10.0d
+		}
+		{
+			id: "1E4C98017D92CAEB"
+			tasks: [{
+				id: "17BB0A39807C29F7"
+				type: "checkmark"
+			}]
+			title: "[7] Armor: 7"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"656ECCE2FA5FFAEE"
+				"345BA7A2CC72E242"
+			]
+			id: "676AAD8C9B1A2938"
+			tasks: [{
+				consume_items: false
+				id: "1B7D27E86E6CEF8E"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:bride_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"48117129BEC6C486"
+				"345BA7A2CC72E242"
+			]
+			id: "5CAC7F3FFDE40304"
+			tasks: [{
+				consume_items: false
+				id: "78F14C67A02D6CA4"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:frankenstein_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"345BA7A2CC72E242"
+				"1FBDE769B224AEC8"
+			]
+			id: "2ABDBCD8CFA8E983"
+			tasks: [{
+				consume_items: false
+				id: "2E1539BFA6F4129E"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:green_ugly_christmas_sweater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6CDDAC5A4125D4C5"
+				"345BA7A2CC72E242"
+			]
+			id: "50C4E35BA61885A7"
+			tasks: [{
+				consume_items: false
+				id: "1C531D146A544F3C"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:mermaid_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"345BA7A2CC72E242"
+				"1114F75DD70FDA85"
+			]
+			id: "4704842573588A48"
+			tasks: [{
+				consume_items: false
+				id: "3AB2155D2BA199CA"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:merman_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"345BA7A2CC72E242"
+				"229693DA80019581"
+			]
+			id: "303DAC5A807C6852"
+			tasks: [{
+				consume_items: false
+				id: "6E777853E8660BE1"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:mummy_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"39F9C4BA73F1A93F"
+				"345BA7A2CC72E242"
+			]
+			id: "6C85CC9591984772"
+			tasks: [{
+				consume_items: false
+				id: "4E22D561FBE2E5B8"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:pirate_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0699A713AE485960"
+				"345BA7A2CC72E242"
+			]
+			id: "41995B8777FD57C1"
+			tasks: [{
+				consume_items: false
+				id: "5B75D520095E5941"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:red_ugly_christmas_sweater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "1A1F99DD52FECF22"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "78CF93F4EF5BC5DD"
+				item: {
+					Count: 1
+					id: "adamsarsplus:cade_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["21646B373680183A"]
+			id: "76D65D7641395206"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"2\"}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "2E9D013587572C8C"
+				item: {
+					Count: 1
+					id: "goety:black_iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"345BA7A2CC72E242"
+				"1107966EFFE82775"
+			]
+			id: "3674AB58A0841AA2"
+			tasks: [{
+				consume_items: false
+				id: "192924E5DA52B9C0"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:bunny_costume"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A1F99DD52FECF22"]
+			id: "69188550A8D5C75E"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty IV\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "12A45B490AE431D9"
+				item: {
+					Count: 1
+					id: "adamsarsplus:cade_robes_a"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["63C62C72B07143A2"]
+			id: "1B2D0F247BCF3FFE"
+			subtitle: "{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"red\",\"translate\":\"tooltip.composite_material.primitive_armor_1\"}],\"translate\":\"tooltip.composite_material.primitive_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "09D21D8796CF479E"
+				item: {
+					Count: 1
+					id: "composite_material:primitive_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"H\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.composite_material.primitive_chestplate\"}],\"text\":\"[\"}"
+			x: 88.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["23316F70D1621969"]
+			id: "26EFE2E37896B89F"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.expert_builder_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.expert_builder_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.expert_builder_armor_chestplate.description_3\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.expert_builder_armor_chestplate.description_4\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.expert_builder_armor_chestplate.description_5\"}],\"translate\":\"item.armageddon_mod.expert_builder_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "45913B6FC47809E7"
+				item: {
+					Count: 1
+					id: "armageddon_mod:expert_builder_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 89.0d
+			y: 12.0d
+		}
+		{
+			id: "148A76F808140CF5"
+			tasks: [{
+				consume_items: false
+				id: "0580BF016E082CE7"
+				item: {
+					Count: 1
+					id: "sgjourney:jaffa_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 90.0d
+			y: 12.0d
+		}
+		{
+			id: "41F848B59BBFD6A0"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eSpeed Bonus after Critical Strike (Steel Weapons Needet)\"}"
+			tasks: [{
+				consume_items: false
+				id: "08D573F2E1611657"
+				item: {
+					Count: 1
+					id: "ancient_elements:steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.steel_chestplate\"}],\"text\":\"[\"}"
+			x: 91.0d
+			y: 12.0d
+		}
+		{
+			id: "50AF475CBC198329"
+			tasks: [{
+				consume_items: false
+				id: "3B75C7FF8E1F86BC"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.aquamirae.terrible_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 12.0d
+		}
+		{
+			id: "7353BCCF115C5226"
+			subtitle: "{\"text\":\"§7Gives the wearer strength while bare-handed. Use the armor ability key to heavily damage and fling nearby mobs in exchange for 10 seconds of weakness.\"}"
+			tasks: [{
+				consume_items: false
+				id: "31046E2D0143CB4B"
+				item: {
+					Count: 1
+					id: "foolish:swamp_beast_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 12.0d
+		}
+		{
+			id: "16E4F4E8C34F6DA9"
+			tasks: [{
+				consume_items: false
+				id: "329056545E1C4CA8"
+				item: {
+					Count: 1
+					id: "jellyfishing:air_suit_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.jellyfishing.air_suit_chestplate\"}],\"text\":\"[\"}"
+			x: 126.0d
+			y: 12.0d
+		}
+		{
+			id: "4BFB09BF90F5D16A"
+			tasks: [{
+				consume_items: false
+				id: "3B5975D51CF62C8B"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.undergarden.cloggrum_chestplate\"}],\"text\":\"[\"}"
+			x: 127.0d
+			y: 12.0d
+		}
+		{
+			id: "26D5FD0DAB3C0533"
+			tasks: [{
+				id: "1D764A79ADBD53BD"
+				type: "checkmark"
+			}]
+			title: "[8] Armor: 8"
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["676AAD8C9B1A2938"]
+			id: "658FB4CC8904D34D"
+			tasks: [{
+				consume_items: false
+				id: "176BCFE7EE9D7F43"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_bride_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5CAC7F3FFDE40304"]
+			id: "0B045A66BDBC8652"
+			tasks: [{
+				consume_items: false
+				id: "634AA96462B8DE04"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_frankenstein_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2ABDBCD8CFA8E983"]
+			id: "3076B93CC377BE21"
+			tasks: [{
+				consume_items: false
+				id: "6E8E8EC5C6D0531A"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_green_ugly_christmas_sweater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["50C4E35BA61885A7"]
+			id: "33CBD3CC62B8D451"
+			tasks: [{
+				consume_items: false
+				id: "3FF0BB7E59DB86B0"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_mermaid_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4704842573588A48"]
+			id: "2BDE6208636F1699"
+			tasks: [{
+				consume_items: false
+				id: "41B65DC905B5C2FF"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_merman_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["303DAC5A807C6852"]
+			id: "38E09A1A7A9D6A0A"
+			tasks: [{
+				consume_items: false
+				id: "34BD1349BE2F5E80"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_mummy_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6C85CC9591984772"]
+			id: "78A425DFCF35A41D"
+			tasks: [{
+				consume_items: false
+				id: "23E2DB38D668ED50"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_pirate_body"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["41995B8777FD57C1"]
+			id: "099FCE9031CBE6F0"
+			tasks: [{
+				consume_items: false
+				id: "520A0063296FEF9F"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_red_ugly_christmas_sweater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["21646B373680183A"]
+			id: "39F73B2CE5ADDE8D"
+			tasks: [{
+				consume_items: false
+				id: "2199646A9C0883C8"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3674AB58A0841AA2"]
+			id: "109E086F6C9E4A35"
+			tasks: [{
+				consume_items: false
+				id: "424C78EB0D1A0F4E"
+				item: {
+					Count: 1
+					id: "maidensmerrymaking:reinforced_bunny_costume"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["21646B373680183A"]
+			id: "291AC16975E58F57"
+			tasks: [{
+				consume_items: false
+				id: "3773CD80CDC82D6A"
+				item: {
+					Count: 1
+					id: "experienceobelisk:cognitive_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.experienceobelisk.cognitive_chestplate\"}],\"text\":\"[\"}"
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3D1A548B2D1198DF"]
+			id: "53ECCB9F1413E209"
+			tasks: [{
+				consume_items: false
+				id: "5EA8FDC13E7F88A9"
+				item: {
+					Count: 1
+					id: "hazennstuff:blazeborne_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 93.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6FAE6CB470837837"]
+			id: "38573F53FD9A6B95"
+			tasks: [{
+				consume_items: false
+				id: "17D38CD4900E7569"
+				item: {
+					Count: 1
+					id: "hazennstuff:creaking_sorcerer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 94.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"53ECCB9F1413E209"
+				"38573F53FD9A6B95"
+			]
+			id: "2C14BA6AAB8A8F24"
+			tasks: [{
+				consume_items: false
+				id: "3BADDC7835B74B91"
+				item: {
+					Count: 1
+					id: "hazennstuff:fireblossom_battlemage_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 95.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["53ECCB9F1413E209"]
+			id: "56CB8415BBE4F520"
+			tasks: [{
+				consume_items: false
+				id: "5C7DD6596B122222"
+				item: {
+					Count: 1
+					id: "hazennstuff:hazel_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 96.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["56CB8415BBE4F520"]
+			id: "7DBC175E063A4D34"
+			tasks: [{
+				consume_items: false
+				id: "48E51DE9B05ACF61"
+				item: {
+					Count: 1
+					id: "hazennstuff:how_did_you_find_the_hazel_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 97.0d
+			y: 14.0d
+		}
+		{
+			id: "6FAE6CB470837837"
+			tasks: [{
+				consume_items: false
+				id: "6AB7DB300D15F232"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 98.0d
+			y: 14.0d
+		}
+		{
+			id: "3D1A548B2D1198DF"
+			tasks: [{
+				consume_items: false
+				id: "21A9415A3098B4CB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pyromancer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 99.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["77EA4768AD0AF632"]
+			id: "4481FAB3A830EBE0"
+			tasks: [{
+				consume_items: false
+				id: "54BF4B896303238D"
+				item: {
+					Count: 1
+					id: "hazennstuff:thunder_prowler_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 100.0d
+			y: 14.0d
+		}
+		{
+			id: "77EA4768AD0AF632"
+			tasks: [{
+				consume_items: false
+				id: "0CC16C05B9E7DDF7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:electromancer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 101.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["35C872119882C30B"]
+			id: "101D5CCD61DF2F4C"
+			tasks: [{
+				consume_items: false
+				id: "42DEB68B56CBE962"
+				item: {
+					Count: 1
+					id: "hazennstuff:cryogenic_ruler_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 102.0d
+			y: 14.0d
+		}
+		{
+			id: "35C872119882C30B"
+			tasks: [{
+				consume_items: false
+				id: "230A3BEC808416E4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cryomancer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 103.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["51A98C3CDE9EE261"]
+			id: "05396F6B22749186"
+			tasks: [{
+				consume_items: false
+				id: "45B574C1D31E64B8"
+				item: {
+					Count: 1
+					id: "hazennstuff:alchemist_supreme_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 104.0d
+			y: 14.0d
+		}
+		{
+			id: "51A98C3CDE9EE261"
+			tasks: [{
+				consume_items: false
+				id: "19950739AA933DA6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 105.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["092C09604F2A1AF5"]
+			id: "19CCA1D9E2921B64"
+			tasks: [{
+				consume_items: false
+				id: "78E79B30F89D5F21"
+				item: {
+					Count: 1
+					id: "hazennstuff:ender_dragon_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 106.0d
+			y: 14.0d
+		}
+		{
+			id: "092C09604F2A1AF5"
+			tasks: [{
+				consume_items: false
+				id: "3F777C8547773809"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shadowwalker_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 107.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["26D0C57E649CE7A8"]
+			id: "690BE21D20F21D91"
+			tasks: [{
+				consume_items: false
+				id: "36DE2BE077DB900C"
+				item: {
+					Count: 1
+					id: "hazennstuff:infestation_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 108.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3D758FE9ED5DC375"]
+			id: "5DB79DECE96E4D69"
+			tasks: [{
+				consume_items: false
+				id: "2F145B9A783C23E2"
+				item: {
+					Count: 1
+					id: "hazennstuff:flesh_mass_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 113.0d
+			y: 14.0d
+		}
+		{
+			id: "3D758FE9ED5DC375"
+			tasks: [{
+				consume_items: false
+				id: "32CF6DDE120F8E3F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 114.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4D262A6580FEFD37"]
+			id: "748F94EA7BAA64D6"
+			tasks: [{
+				consume_items: false
+				id: "0C542462F49B68D0"
+				item: {
+					Count: 1
+					id: "hazennstuff:seraph_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 115.0d
+			y: 14.0d
+		}
+		{
+			id: "4D262A6580FEFD37"
+			tasks: [{
+				consume_items: false
+				id: "4A17663908B4B04A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 116.0d
+			y: 14.0d
+		}
+		{
+			id: "6CFC29A7DA3E64BB"
+			subtitle: "{\"text\":\"§cFull Set Effect: §ehealth regen effect when under 50% HP\"}"
+			tasks: [{
+				consume_items: false
+				id: "714BDD505058DC1E"
+				item: {
+					Count: 1
+					id: "ancient_elements:palladium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.palladium_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 14.0d
+		}
+		{
+			id: "4116CF1859F9AF2C"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eChance to dodge an attack\"}"
+			tasks: [{
+				consume_items: false
+				id: "0B2C50CAC47DEE42"
+				item: {
+					Count: 1
+					id: "ancient_elements:titanium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.titanium_chestplate\"}],\"text\":\"[\"}"
+			x: 125.0d
+			y: 14.0d
+		}
+		{
+			id: "24D5ADE9BD55048B"
+			subtitle: "{\"text\":\"§8Press Shift to show tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "190D3CC16015BBDD"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 126.0d
+			y: 14.0d
+		}
+		{
+			id: "16B57CE51EBA297D"
+			subtitle: "{\"text\":\"§8Press Shift to show tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "19A597F39B1E440E"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:spiny_shell_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 127.0d
+			y: 14.0d
+		}
+		{
+			id: "1119130ADC0897FC"
+			tasks: [{
+				consume_items: false
+				id: "22E15CC3BB8D7911"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:sanguine_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.caverns_and_chasms.sanguine_chestplate\"}],\"text\":\"[\"}"
+			x: 128.0d
+			y: 14.0d
+		}
+		{
+			id: "3614D633034E4AF7"
+			subtitle: "{\"italic\":true,\"color\":\"gray\",\"translate\":\"item.celestisynth.solar_crystal_armor_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "555A2D2EC4E752A2"
+				item: {
+					Count: 1
+					id: "celestisynth:solar_crystal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 14.0d
+		}
+		{
+			id: "0C790C804D6E7F1A"
+			subtitle: "{\"italic\":true,\"color\":\"gray\",\"translate\":\"item.celestisynth.lunar_stone_armor_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "1AAABB6F5A8A0A53"
+				item: {
+					Count: 1
+					id: "celestisynth:lunar_stone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 130.0d
+			y: 14.0d
+		}
+		{
+			id: "1EFA24705D092FE4"
+			subtitle: "{\"color\":\"gray\",\"translate\":\"embers.tooltip.inflictor.slots\",\"with\":[\"7\"]}"
+			tasks: [{
+				consume_items: false
+				id: "64817307F71A594F"
+				item: {
+					Count: 1
+					id: "embers:ashen_cloak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 131.0d
+			y: 14.0d
+		}
+		{
+			id: "7AEFBFEBD252AF10"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"320\"]}"
+			tasks: [{
+				consume_items: false
+				id: "4B23969F0DAC24AF"
+				item: {
+					Count: 1
+					id: "evolvedmekanism:refined_redstone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.evolvedmekanism.refined_redstone_chestplate\"}],\"text\":\"[\"}"
+			x: 132.0d
+			y: 14.0d
+		}
+		{
+			id: "49027B1A9BEC795A"
+			tasks: [{
+				consume_items: false
+				id: "04AC260455E20531"
+				item: {
+					Count: 1
+					id: "goety:cursed_paladin_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 133.0d
+			y: 14.0d
+		}
+		{
+			id: "685F0EB50EAFCDC8"
+			tasks: [{
+				consume_items: false
+				id: "0C44A0718C511627"
+				item: {
+					Count: 1
+					id: "immersiveengineering:armor_steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 134.0d
+			y: 14.0d
+		}
+		{
+			id: "17D3052686C3B4CE"
+			tasks: [{
+				consume_items: false
+				id: "334ED8EABF21C04F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pumpkin_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 135.0d
+			y: 14.0d
+		}
+		{
+			id: "3AB4F277B2362195"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.legendary_monsters.withered_ribcage2\"}],\"translate\":\"item.legendary_monsters.withered_ribcage1\"}"
+			tasks: [{
+				consume_items: false
+				id: "3F1DC3CB1669702E"
+				item: {
+					Count: 1
+					id: "legendary_monsters:withered_ribcage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 136.0d
+			y: 14.0d
+		}
+		{
+			id: "74E59131667C7CBA"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"288\"]}"
+			tasks: [{
+				consume_items: false
+				id: "164D27D1AC918711"
+				item: {
+					Count: 1
+					id: "mekanismtools:bronze_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 137.0d
+			y: 14.0d
+		}
+		{
+			id: "72D202A90C824E57"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"480\"]}"
+			tasks: [{
+				consume_items: false
+				id: "32AD072E36757DD3"
+				item: {
+					Count: 1
+					id: "mekanismtools:osmium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.mekanismtools.osmium_chestplate\"}],\"text\":\"[\"}"
+			x: 138.0d
+			y: 14.0d
+		}
+		{
+			id: "43B572904D3F49E4"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"272\"]}"
+			tasks: [{
+				consume_items: false
+				id: "10BB4734EAAFB5C3"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_glowstone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.mekanismtools.refined_glowstone_chestplate\"}],\"text\":\"[\"}"
+			x: 139.0d
+			y: 14.0d
+		}
+		{
+			id: "026DE20FAC0864A4"
+			subtitle: "{\"color\":\"gray\",\"translate\":\"item.mowziesmobs.geomancer_robe.text.0\"}"
+			tasks: [{
+				consume_items: false
+				id: "2950D68F583B5BFF"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_robe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 140.0d
+			y: 14.0d
+		}
+		{
+			id: "3F9AEFBA129860EB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.mythsandlegends.more_info\"}],\"translate\":\"tooltip.mythsandlegends.ironshade_armor_tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "26F81266427FE8A1"
+				item: {
+					Count: 1
+					id: "mythsandlegends:ironshade_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.mythsandlegends.ironshade_chestplate\"}],\"text\":\"[\"}"
+			x: 141.0d
+			y: 14.0d
+		}
+		{
+			id: "78133CBA091606AB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.mythsandlegends.more_info\"}],\"translate\":\"tooltip.mythsandlegends.soulpiercer_armor_tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "537F25D7D608507B"
+				item: {
+					Count: 1
+					id: "mythsandlegends:soulpiercer_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.mythsandlegends.soulpiercer_chestplate\"}],\"text\":\"[\"}"
+			x: 142.0d
+			y: 14.0d
+		}
+		{
+			id: "72FBABB79F64428A"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.mythsandlegends.more_info\"}],\"translate\":\"tooltip.mythsandlegends.frosthowl_armor_tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "60DE4AFD7D3B98A9"
+				item: {
+					Count: 1
+					id: "mythsandlegends:frosthowl_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 143.0d
+			y: 14.0d
+		}
+		{
+			id: "197FFCADDA059D07"
+			subtitle: "{\"translate\":\"item.nethers_exorcism_reborn.crab_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "56A6A8F8C7240FDF"
+				item: {
+					Count: 1
+					id: "nethers_exorcism_reborn:crab_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.nethers_exorcism_reborn.crab_chestplate\"}],\"text\":\"[\"}"
+			x: 144.0d
+			y: 14.0d
+		}
+		{
+			id: "2B767994715E5C59"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.reverium_paladin_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.reverium_paladin_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.reverium_paladin_chestplate.description_3\"}],\"translate\":\"item.terramity.reverium_paladin_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "5F153C5AB36E35B3"
+				item: {
+					Count: 1
+					id: "terramity:reverium_paladin_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.reverium_paladin_chestplate\"}],\"text\":\"[\"}"
+			x: 145.0d
+			y: 14.0d
+		}
+		{
+			id: "10D11EA3B5143EDA"
+			tasks: [{
+				id: "395E92F4205ACD9B"
+				type: "checkmark"
+			}]
+			title: "[9] Armor: 9"
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "73D9D170DFB290E1"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"},{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"ars_elemental.armor_set.shift_info\",\"with\":[{\"color\":\"aqua\",\"text\":\"SHIFT\"}]}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"4\"]}"
+			tasks: [{
+				consume_items: false
+				id: "65FE90D5BA2AE8A6"
+				item: {
+					Count: 1
+					id: "ars_elemental:air_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "244A5EA3EF637641"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"},{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"ars_elemental.armor_set.shift_info\",\"with\":[{\"color\":\"aqua\",\"text\":\"SHIFT\"}]}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"4\"]}"
+			tasks: [{
+				consume_items: false
+				id: "58E2500C9E255ABC"
+				item: {
+					Count: 1
+					id: "ars_elemental:aqua_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "6D4F27F2643996ED"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"},{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"ars_elemental.armor_set.shift_info\",\"with\":[{\"color\":\"aqua\",\"text\":\"SHIFT\"}]}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"4\"]}"
+			tasks: [{
+				consume_items: false
+				id: "219874DCB4D2E0C8"
+				item: {
+					Count: 1
+					id: "ars_elemental:earth_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "200F682F40E5467C"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"},{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"ars_elemental.armor_set.shift_info\",\"with\":[{\"color\":\"aqua\",\"text\":\"SHIFT\"}]}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"4\"]}"
+			tasks: [{
+				consume_items: false
+				id: "28BD77C68531277E"
+				item: {
+					Count: 1
+					id: "ars_elemental:fire_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["09C7916E18FC0DE1"]
+			id: "786629B917990A32"
+			subtitle: "{\"color\":\"dark_aqua\",\"translate\":\"tooltip.composite_material.allay_steel_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "176D399DE7EFD30D"
+				item: {
+					Count: 1
+					id: "composite_material:allay_steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.composite_material.allay_steel_chestplate\"}],\"text\":\"[\"}"
+			x: 20.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "324CDB713680E43F"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "3B72E8948021D2CD"
+				item: {
+					Count: 1
+					id: "ars_nouveau:battlemage_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "52DBDF6AB2BE9EA5"
+			tasks: [{
+				consume_items: false
+				id: "5C85485AFF61C3E6"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:necromium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.caverns_and_chasms.necromium_chestplate\"}],\"text\":\"[\"}"
+			x: 22.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0978ABD7CC3AA708"]
+			id: "09C7916E18FC0DE1"
+			subtitle: "{\"color\":\"dark_aqua\",\"translate\":\"tooltip.composite_material.obsidian_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "075ECA98E9BBBD5B"
+				item: {
+					Count: 1
+					id: "composite_material:obsidian_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.composite_material.obsidian_chestplate\"}],\"text\":\"[\"}"
+			x: 23.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["76D65D7641395206"]
+			id: "5EB36E8B234C30F3"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"5\"}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "7BA9A4F3434E2EB3"
+				item: {
+					Count: 1
+					id: "goety:dark_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["76D65D7641395206"]
+			id: "691728D6B6C5B02E"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"4\"}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "203C774566994279"
+				item: {
+					Count: 1
+					id: "goety_revelation:spectre_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["76D65D7641395206"]
+			id: "4C595DA6FA78C9CB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"4\"}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "515A54FBA5CC3FE4"
+				item: {
+					Count: 1
+					id: "goety_revelation:spider_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 16.0d
+		}
+		{
+			id: "345BA7A2CC72E242"
+			tasks: [{
+				consume_items: false
+				id: "673BC6DF1B080FE4"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.minecraft.diamond_chestplate\"}],\"text\":\"[\"}"
+			x: 27.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["148A76F808140CF5"]
+			id: "0AC0004AF83830B3"
+			tasks: [{
+				consume_items: false
+				id: "74D39F5226E8A905"
+				item: {
+					Count: 1
+					id: "sgjourney:system_lord_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 90.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["41F848B59BBFD6A0"]
+			id: "2D05EED62982487C"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eImmune to Poison\"}"
+			tasks: [{
+				consume_items: false
+				id: "3D3ADD18E2DE5861"
+				item: {
+					Count: 1
+					id: "ancient_elements:jungle_steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 91.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["41F848B59BBFD6A0"]
+			id: "428CD648F78A1F64"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eImmune to Wither\"}"
+			tasks: [{
+				consume_items: false
+				id: "03C9C316FAFC96E0"
+				item: {
+					Count: 1
+					id: "ancient_elements:nether_steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.nether_steel_chestplate\"}],\"text\":\"[\"}"
+			x: 92.0d
+			y: 16.0d
+		}
+		{
+			id: "7709CC42707D27D9"
+			subtitle: "{\"color\":\"green\",\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.primordial_crest_armor.tooltip1\"},{\"text\":\"\\n\"},{\"text\":\"\"}],\"translate\":\"item.traveloptics.primordial_crest_armor.tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "24DDB32A2D86CE93"
+				item: {
+					Count: 1
+					id: "traveloptics:primordial_crest_armor_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 117.0d
+			y: 16.0d
+		}
+		{
+			id: "154A935695354231"
+			tasks: [{
+				consume_items: false
+				id: "0BFEDD182911B574"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:dragon_bones_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.block_factorys_bosses.dragon_bones_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 16.0d
+		}
+		{
+			id: "3363D7B1266390D4"
+			subtitle: "{\"color\":\"dark_green\",\"translate\":\"item.cataclysm.bloom_stone_pauldrons.desc\",\"with\":[{\"text\":\"Y\"}]}"
+			tasks: [{
+				consume_items: false
+				id: "48E1EA3DF8FF4AF5"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 16.0d
+		}
+		{
+			id: "20874F145B95CB6B"
+			tasks: [{
+				consume_items: false
+				id: "15D56F30B73F698A"
+				item: "crittersandcompanions:diamond_dragonfly_armor"
+				type: "item"
+			}]
+			x: 126.0d
+			y: 16.0d
+		}
+		{
+			id: "057F8B0D896FF696"
+			subtitle: "{\"color\":\"gray\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"translate\":\"item.dungeonnowloading.spawner_armor.tooltip.ability_description\"}],\"translate\":\"item.dungeonnowloading.spawner_armor.tooltip.ability_name\"}"
+			tasks: [{
+				consume_items: false
+				id: "5331251044F14C48"
+				item: {
+					Count: 1
+					id: "dungeonnowloading:spawner_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.dungeonnowloading.spawner_chestplate\"}],\"text\":\"[\"}"
+			x: 127.0d
+			y: 16.0d
+		}
+		{
+			id: "55843EC32CA8BEB0"
+			subtitle: "{\"translate\":\"tooltip.enigmaticlegacy.holdShift\"}"
+			tasks: [{
+				consume_items: false
+				id: "1E1EA604A40904B7"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 16.0d
+		}
+		{
+			id: "611160186B854DDC"
+			subtitle: "{\"color\":\"#999999\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#4F1C18\",\"translate\":\"tooltip.hexerei.witch_armor_bonus\",\"with\":[\"0\",\"2\"]}],\"translate\":\"[%s]\",\"with\":[{\"color\":\"#AAAA00\",\"translate\":\"tooltip.hexerei.shift\"}]}"
+			tasks: [{
+				consume_items: false
+				id: "35A243C93A790F01"
+				item: {
+					Count: 1
+					id: "hexerei:witch_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 16.0d
+		}
+		{
+			id: "38DCA929479A8F8C"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.legendary_monsters.mossy_chestplate2\"}],\"translate\":\"item.legendary_monsters.mossy_chestplate1\"}"
+			tasks: [{
+				consume_items: false
+				id: "6A1594A2CB782864"
+				item: {
+					Count: 1
+					id: "legendary_monsters:mossy_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 130.0d
+			y: 16.0d
+		}
+		{
+			id: "2F8E78648868D4ED"
+			subtitle: "{\"color\":\"#CFCFCF\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#CFCFCF\",\"translate\":\"tooltip.mekanism.mode\",\"with\":[{\"color\":\"#59C15F\",\"translate\":\"jetpack.mekanism.normal\"}]}],\"translate\":\"tooltip.mekanism.no_gas\"}"
+			tasks: [{
+				consume_items: false
+				id: "6A2B746472351A28"
+				item: "mekanism:jetpack_armored"
+				type: "item"
+			}]
+			x: 131.0d
+			y: 16.0d
+		}
+		{
+			id: "795E5AB444C3374C"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"1200\"]}"
+			tasks: [{
+				consume_items: false
+				id: "4212BC7F13F99E58"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.mekanismtools.refined_obsidian_chestplate\"}],\"text\":\"[\"}"
+			x: 132.0d
+			y: 16.0d
+		}
+		{
+			id: "783FD9C553271566"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"320\"]}"
+			tasks: [{
+				consume_items: false
+				id: "1E33FD6C62149DF0"
+				item: {
+					Count: 1
+					id: "mekanismtools:steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.mekanismtools.steel_chestplate\"}],\"text\":\"[\"}"
+			x: 133.0d
+			y: 16.0d
+		}
+		{
+			id: "57FF7AB5F0A497CA"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.ruby_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.ruby_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.ruby_armor_chestplate.description_3\"}],\"translate\":\"item.terramity.ruby_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "2EF2A0B355B2DE92"
+				item: {
+					Count: 1
+					id: "terramity:ruby_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.ruby_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 134.0d
+			y: 16.0d
+		}
+		{
+			id: "485E019992F033F0"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.sapphire_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.sapphire_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.sapphire_armor_chestplate.description_3\"}],\"translate\":\"item.terramity.sapphire_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "64F42A164CABD758"
+				item: {
+					Count: 1
+					id: "terramity:sapphire_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.sapphire_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 135.0d
+			y: 16.0d
+		}
+		{
+			id: "1593CC93EC3C61BE"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.topaz_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.topaz_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.topaz_armor_chestplate.description_3\"}],\"translate\":\"item.terramity.topaz_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "03F626B1DE0603E1"
+				item: {
+					Count: 1
+					id: "terramity:topaz_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.topaz_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 136.0d
+			y: 16.0d
+		}
+		{
+			id: "70648452E440A25F"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.onyx_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.onyx_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.onyx_armor_chestplate.description_3\"}],\"translate\":\"item.terramity.onyx_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "41532333045C7A6D"
+				item: {
+					Count: 1
+					id: "terramity:onyx_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.onyx_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 137.0d
+			y: 16.0d
+		}
+		{
+			id: "067FBC540780E916"
+			subtitle: "{\"color\":\"green\",\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.deepling_mage_armor.tooltip1\"},{\"text\":\"\\n\"},{\"text\":\"\"}],\"translate\":\"item.traveloptics.deepling_mage_armor.tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "39D1DE398C33EE66"
+				item: {
+					Count: 1
+					id: "traveloptics:deepling_mage_armor_robe"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 138.0d
+			y: 16.0d
+		}
+		{
+			id: "781FB30E43C2680D"
+			tasks: [{
+				consume_items: false
+				id: "7967A80736378C1C"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"white\",\"text\":\"I\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.undergarden.froststeel_chestplate\"}],\"text\":\"[\"}"
+			x: 139.0d
+			y: 16.0d
+		}
+		{
+			id: "0D0CDA1D16C24B6D"
+			tasks: [{
+				id: "282F5880E0BD3FBF"
+				type: "checkmark"
+			}]
+			title: "[10] Armor: 10"
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"220B6872106F2CF9"
+				"10816E7A2E085D50"
+			]
+			id: "639DF37D0D62E3E8"
+			tasks: [{
+				consume_items: false
+				id: "418FF60056C8B722"
+				item: "create:netherite_backtank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "365B5DB82A83766D"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "7F29C2BA6AF66BD4"
+				item: {
+					Count: 1
+					id: "adamsarsplus:ryan_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["691728D6B6C5B02E"]
+			id: "4E98B659D37228B9"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"6\"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.endinglib.itemLimitDamage\",\"with\":[\"20\"]}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "44AC5EC80EB91146"
+				item: {
+					Count: 1
+					id: "goety_revelation:spectre_darkmage_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4C595DA6FA78C9CB"]
+			id: "45BA0E37F1C147EB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"6\"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.endinglib.itemLimitDamage\",\"with\":[\"20\"]}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "0B31166D33E4C9A4"
+				item: {
+					Count: 1
+					id: "goety_revelation:spider_darkmage_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "4C54332D3343DB5B"
+			subtitle: "{\"extra\":[{\"color\":\"yellow\",\"translate\":\"tooltip.item.companions.key.mage_set\"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"dark_gray\",\"translate\":\"tooltip.item.companions.key.abilities\"}],\"text\":\" \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"tooltip.item.companions.mage_set\"}],\"text\":\"  \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.mage_set_desc_1\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.mage_set_desc_2\",\"with\":[\"30\"]}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.mage_set_desc_3\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"tooltip.item.companions.mage_set_2\"}],\"text\":\"  \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"light_purple\",\"translate\":\"tooltip.item.companions.mage_set_desc_4\",\"with\":[\"10\"]}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"light_purple\",\"translate\":\"tooltip.item.companions.mage_set_desc_5\",\"with\":[\"15\"]}],\"text\":\"   \"}],\"translate\":\"tooltip.icon.companions.star\"}"
+			tasks: [{
+				consume_items: false
+				id: "220470F11901B005"
+				item: {
+					Count: 1
+					id: "companions:mage_coat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "5D5D13B5356B796A"
+			subtitle: "{\"extra\":[{\"color\":\"yellow\",\"translate\":\"tooltip.item.companions.key.blood_set\"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"dark_gray\",\"translate\":\"tooltip.item.companions.key.abilities\"}],\"text\":\" \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"tooltip.item.companions.crystallized_blood_set\"}],\"text\":\"  \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.crystallized_blood_set_desc_1\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.crystallized_blood_set_desc_2\",\"with\":[\"50\"]}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.crystallized_blood_set_desc_3\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"tooltip.item.companions.crystallized_blood_set_2\"}],\"text\":\"  \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"red\",\"translate\":\"tooltip.item.companions.crystallized_blood_set_desc_4\",\"with\":[\"15\"]}],\"text\":\"   \"}],\"translate\":\"tooltip.icon.companions.star\"}"
+			tasks: [{
+				consume_items: false
+				id: "3A92D34824BB9FA9"
+				item: {
+					Count: 1
+					id: "companions:crystallized_blood_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "74A57FE15BDD3B82"
+			subtitle: "{\"extra\":[{\"color\":\"yellow\",\"translate\":\"tooltip.item.companions.key.holy_robe_set\"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"dark_gray\",\"translate\":\"tooltip.item.companions.key.abilities\"}],\"text\":\" \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"tooltip.item.companions.holy_robe_set\"}],\"text\":\"  \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.holy_robe_set_desc_1\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.holy_robe_set_desc_2\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.holy_robe_set_desc_3\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gray\",\"translate\":\"tooltip.item.companions.holy_robe_set_desc_4\"}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"tooltip.item.companions.holy_robe_set_2\"}],\"text\":\"  \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gold\",\"translate\":\"tooltip.item.companions.holy_robe_set_desc_5\",\"with\":[\"7\"]}],\"text\":\"   \"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"gold\",\"translate\":\"tooltip.item.companions.holy_robe_set_desc_6\",\"with\":[\"10\"]}],\"text\":\"   \"}],\"translate\":\"tooltip.icon.companions.star\"}"
+			tasks: [{
+				consume_items: false
+				id: "5C4F35B1B846B907"
+				item: {
+					Count: 1
+					id: "companions:holy_robe_coat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "2A104D6D4E7B1E19"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.apple_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "595C625072558593"
+				item: {
+					Count: 1
+					id: "knightquest:apple_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "2D33427E0F19F726"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.bamboo_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "6317C9C6813AFA7D"
+				item: {
+					Count: 1
+					id: "knightquest:bamboo_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "567B336DA6BA5196"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.blaze_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "35505582E746D5D7"
+				item: {
+					Count: 1
+					id: "knightquest:blaze_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "2E30EF3D5F4C472B"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.bow_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "060D99BE4EC9C417"
+				item: {
+					Count: 1
+					id: "knightquest:bow_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "43FAE3AE4C85A993"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.creeper_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5B01CD20BA7F0801"
+				item: {
+					Count: 1
+					id: "knightquest:creeper_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "6B8A648EEFABF048"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.deepslate_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "6B35D7154851D105"
+				item: {
+					Count: 1
+					id: "knightquest:deepslate_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "49537A828FD1E456"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.evoker_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "1130EA0F4F402C45"
+				item: {
+					Count: 1
+					id: "knightquest:evoker_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 36.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "1F915CD5356549CD"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.path_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "468BA5E4C04F5840"
+				item: {
+					Count: 1
+					id: "knightquest:path_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "3803FB2B7FC8E738"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.polar_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "50FCDCD9AB49CB05"
+				item: {
+					Count: 1
+					id: "knightquest:polar_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "43A3C5B8AED40D43"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.shinobi_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "71FD8F0684F96B74"
+				item: {
+					Count: 1
+					id: "knightquest:shinobi_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "3C0137BA1967F2DA"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.silver_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5A5BD6C989E08198"
+				item: {
+					Count: 1
+					id: "knightquest:silver_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 40.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "12EDAC489BA0C2B0"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.skeleton_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5D3E991062C282E9"
+				item: {
+					Count: 1
+					id: "knightquest:skeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "5FC8AC56BA49C523"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.spider_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "0B583D33643D8F5E"
+				item: {
+					Count: 1
+					id: "knightquest:spider_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 42.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "612C527EFFB1CCDE"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.strawhat_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "215686FD777DCAE3"
+				item: {
+					Count: 1
+					id: "knightquest:strawhat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 43.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "62BF8DB9C53B7F3C"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.witch_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "39CC5A893CF162F6"
+				item: {
+					Count: 1
+					id: "knightquest:witch_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "1C14A4C6CB402A9E"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.zombie_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "0728521854F0B690"
+				item: {
+					Count: 1
+					id: "knightquest:zombie_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 45.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "29910DE01E48F2B2"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"tooltip.ad_astra.shift_description\"}],\"translate\":\"tooltip.ad_astra.fluid\",\"with\":[\"0\",\"2K\",{\"translate\":\"fluid_type.ad_astra.oxygen\"}]}"
+			tasks: [{
+				consume_items: false
+				id: "7317D93B60641BCF"
+				item: {
+					Count: 1
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 46.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["365B5DB82A83766D"]
+			id: "7C7D25DEC415F914"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "5ACD8FF6BDE23794"
+				item: {
+					Count: 1
+					id: "adamsarsplus:ryan_robes_a"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 47.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "091054563F099D2C"
+			subtitle: "{\"color\":\"#75FF89\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"#CFCFCF\",\"translate\":\"tooltip.mekanism.no_gas\"},{\"text\":\"\\n\"},{\"color\":\"#CFCFCF\",\"translate\":\"tooltip.mekanism.hold_for_modules\",\"with\":[{\"color\":\"#559EFF\",\"translate\":\"key.keyboard.left.shift\"}]}],\"translate\":\"tooltip.mekanism.stored_energy\",\"with\":[{\"color\":\"#CFCFCF\",\"translate\":\"generic.mekanism.fraction\",\"with\":[{\"extra\":[{\"translate\":\"energy.mekanism.forge.short\"}],\"text\":\"0 \"},{\"extra\":[{\"translate\":\"energy.mekanism.forge.short\"}],\"text\":\"6.40 M\"}]}]}"
+			tasks: [{
+				consume_items: false
+				id: "11400C1AD0591968"
+				item: "mekanism:mekasuit_bodyarmor"
+				type: "item"
+			}]
+			x: 48.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "10816E7A2E085D50"
+			tasks: [{
+				consume_items: false
+				id: "1AE1A0163CB73362"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.minecraft.netherite_chestplate\"}],\"text\":\"[\"}"
+			x: 49.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "31F3BB45CA4A4F7E"
+			tasks: [{
+				consume_items: false
+				id: "3B542A68E7EC6BE3"
+				item: {
+					Count: 1
+					id: "mofus_better_end_:titanium_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "781B8663A45CD201"
+			tasks: [{
+				consume_items: false
+				id: "78C59981166D6915"
+				item: {
+					Count: 1
+					id: "sgjourney:naquadah_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 51.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "23C8E0852E11399B"
+			tasks: [{
+				consume_items: false
+				id: "5D2415D7AEF2B683"
+				item: {
+					Count: 1
+					id: "tameablebeasts:bug_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 52.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["23C8E0852E11399B"]
+			id: "29E93151B8EB18A6"
+			tasks: [{
+				consume_items: false
+				id: "34E5B8FD57CA9FC1"
+				item: {
+					Count: 1
+					id: "tameablebeasts:bug_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 53.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "2D3094140BF4A070"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.bamboo_blue_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "379DC138EEA82C19"
+				item: {
+					Count: 1
+					id: "knightquest:bamboo_blue_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 54.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "2764744F47DE8094"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.bamboo_green_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "7A47B8EA9D114DF3"
+				item: {
+					Count: 1
+					id: "knightquest:bamboo_green_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 55.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "1B06D0DA57B28971"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.bat_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "48031C65EE36F804"
+				item: {
+					Count: 1
+					id: "knightquest:bat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 56.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "0D62190364473D6E"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.conquistador_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "7D59DF88719E0B61"
+				item: {
+					Count: 1
+					id: "knightquest:conquistador_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 57.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "1CC092A079056A68"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.dragon_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "256ADC8D2458DDB8"
+				item: {
+					Count: 1
+					id: "knightquest:dragon_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 58.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "3A3567219230CCBB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.enderman_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "18EB86ADF6BFE589"
+				item: {
+					Count: 1
+					id: "knightquest:enderman_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 59.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "5524F1371862723D"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.forze_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5171C0A657D9EB8A"
+				item: {
+					Count: 1
+					id: "knightquest:forze_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 60.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "18F8C6D70FE36700"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.hollow_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5427518216149BAB"
+				item: {
+					Count: 1
+					id: "knightquest:hollow_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 61.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "19127FB183449BA7"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.horn_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "65EB8A0228D3C31B"
+				item: {
+					Count: 1
+					id: "knightquest:horn_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 62.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "66D3476110B0AC5C"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.husk_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "2733B27385183CFF"
+				item: {
+					Count: 1
+					id: "knightquest:husk_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 63.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "3092EBC09A395DC9"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.nether_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "38E21F4CD6C16311"
+				item: {
+					Count: 1
+					id: "knightquest:nether_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 64.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "353298B592A5D1BE"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.phantom_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "38FE075E1A88C277"
+				item: {
+					Count: 1
+					id: "knightquest:phantom_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 65.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "41AECAD041ECB24E"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.pirate_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5386E099A304A6FC"
+				item: {
+					Count: 1
+					id: "knightquest:pirate_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 66.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "63594B3B2644A846"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.sea_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "423BFF30198BC6DD"
+				item: {
+					Count: 1
+					id: "knightquest:sea_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 67.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "07CF5566AD3F6FDB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.shield_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "23A4D7BB5C1AD332"
+				item: {
+					Count: 1
+					id: "knightquest:shield_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 68.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "2F5F70C4E300AFD8"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.silverfish_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "3F579A5E9E9FEEA6"
+				item: {
+					Count: 1
+					id: "knightquest:silverfish_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 69.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "4CD956E950E339AB"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.skulk_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5E9392DC0DC5E4BC"
+				item: {
+					Count: 1
+					id: "knightquest:skulk_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 70.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "3D1EA9D6682F90AC"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.squire_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "5B61EB93C28A0E16"
+				item: {
+					Count: 1
+					id: "knightquest:squire_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 71.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "118C232977D6BD0C"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.veteran_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "3174D6089ACDEF68"
+				item: {
+					Count: 1
+					id: "knightquest:veteran_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 72.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "217236B7C654539C"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.warlord_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "777E47F07C5F6D6E"
+				item: {
+					Count: 1
+					id: "knightquest:warlord_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 73.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "50BBE592D91D588B"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.item.knightquest.wither_helmet.bonus\",\"with\":[\"§7§o-25%\",\"§7§o-40%\",\"§7§o-14%\",\"§7§o4\",\"§7§o-40%\",\"§7§o10\",\"§7§o-30%\",\"§7§o90.0%\",\"§7§o-30%\",\"§7§o25%\",\"§7§o-30%\",\"§7§o1.0\",\"§7§o6\",\"§7§o50\"]}],\"translate\":\"tooltip.item.knightquest.full_set_bonus\"}"
+			tasks: [{
+				consume_items: false
+				id: "262ABD44EC5E7A0F"
+				item: {
+					Count: 1
+					id: "knightquest:wither_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 74.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["41F848B59BBFD6A0"]
+			id: "5DF3F851EFE7FB65"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eImmune to Levitation\"}"
+			tasks: [{
+				consume_items: false
+				id: "43FA73CFAB869977"
+				item: {
+					Count: 1
+					id: "ancient_elements:ender_steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.ender_steel_chestplate\"}],\"text\":\"[\"}"
+			x: 91.0d
+			y: 18.0d
+		}
+		{
+			id: "26D0C57E649CE7A8"
+			tasks: [{
+				consume_items: false
+				id: "6352DBDF5870F2A5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.irons_spellbooks.netherite_mage_chestplate\"}],\"text\":\"[\"}"
+			x: 109.0d
+			y: 18.0d
+		}
+		{
+			id: "56B485D0C34B7569"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.lethality.bm_chestplate.tooltip\"},{\"text\":\"\\n\"},{\"text\":\" \"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.lethality.battle_maid_set.advanced4\"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.lethality.battle_maid_set.advanced5\"}],\"text\":\" \"}"
+			tasks: [{
+				consume_items: false
+				id: "27A131B3885116F6"
+				item: {
+					Count: 1
+					id: "lethality:battle_maid_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 118.0d
+			y: 18.0d
+		}
+		{
+			id: "7250C8F5F9C2624D"
+			subtitle: "{\"text\":\"§cFull Set Effect: §e25% faster in Deserts\"}"
+			tasks: [{
+				consume_items: false
+				id: "48BB1663AAE2DA39"
+				item: {
+					Count: 1
+					id: "ancient_elements:ancient_metal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.ancient_metal_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 18.0d
+		}
+		{
+			id: "6C6CDD03F78255EC"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eChance for a Meteorite to Strike when hurt, Immune to Meteorite Strikes\"}"
+			tasks: [{
+				consume_items: false
+				id: "22086CBA3723328B"
+				item: {
+					Count: 1
+					id: "ancient_elements:meteorite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.meteorite_chestplate\"}],\"text\":\"[\"}"
+			x: 125.0d
+			y: 18.0d
+		}
+		{
+			id: "781B2094FD480809"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eWater Breathing and +25% Swim Speed\"}"
+			tasks: [{
+				consume_items: false
+				id: "3723FDD1A1957DE2"
+				item: {
+					Count: 1
+					id: "ancient_elements:abyssal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.abyssal_chestplate\"}],\"text\":\"[\"}"
+			x: 126.0d
+			y: 18.0d
+		}
+		{
+			id: "1302F50C76A79F95"
+			subtitle: "{\"font\":\"brutality:gamer\",\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"brutality.description.type.full_set_passive\"},{\"text\":\"\\n\"},{\"translate\":\"item.brutality.terra_chestplate.full_set_passive.1\"}],\"translate\":\"rarity.fabled.name\"}"
+			tasks: [{
+				consume_items: false
+				id: "569B262A39ADB168"
+				item: {
+					Count: 1
+					id: "brutality:terra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"bold\":false,\"extra\":[{\"color\":\"#FFD16CE3\",\"text\":\"T\"},{\"color\":\"#FFD36FE2\",\"text\":\"e\"},{\"color\":\"#FFD77BE4\",\"text\":\"r\"},{\"color\":\"#FFDC8DE8\",\"text\":\"r\"},{\"color\":\"#FFE099EA\",\"text\":\"a\"},{\"color\":\"#FFE5ABEE\",\"text\":\" \"},{\"color\":\"#FFE9B7F0\",\"text\":\"D\"},{\"color\":\"#FFEDC3F3\",\"text\":\"e\"},{\"color\":\"#FFF2D5F6\",\"text\":\"f\"},{\"color\":\"#FFF6E1F9\",\"text\":\"e\"},{\"color\":\"#FFFBF3FC\",\"text\":\"n\"},{\"color\":\"#FFFFFFFF\",\"text\":\"d\"},{\"color\":\"#FFF4FAFD\",\"text\":\"e\"},{\"color\":\"#FFE5F4FA\",\"text\":\"r\"},{\"color\":\"#FFDBEFF8\",\"text\":\" \"},{\"color\":\"#FFCCE9F5\",\"text\":\"C\"},{\"color\":\"#FFC2E4F3\",\"text\":\"a\"},{\"color\":\"#FFB2DEEF\",\"text\":\"r\"},{\"color\":\"#FFA8D9EE\",\"text\":\"a\"},{\"color\":\"#FF9ED5EC\",\"text\":\"p\"},{\"color\":\"#FF8FCEE9\",\"text\":\"a\"},{\"color\":\"#FF85CAE7\",\"text\":\"c\"},{\"color\":\"#FF85C4E8\",\"text\":\"e\"}],\"text\":\"\"}],\"text\":\"[\"}"
+			x: 127.0d
+			y: 18.0d
+		}
+		{
+			id: "7D1F2A3045F4EE37"
+			tasks: [{
+				consume_items: false
+				id: "339EE5AA00E7BF5B"
+				item: {
+					Count: 1
+					id: "foolish:keepsteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 128.0d
+			y: 18.0d
+		}
+		{
+			id: "0602DED47E569425"
+			tasks: [{
+				consume_items: false
+				id: "4CA67116D8FCE464"
+				item: {
+					Count: 1
+					id: "foolish:blunt_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 129.0d
+			y: 18.0d
+		}
+		{
+			id: "126E2B01128530CB"
+			tasks: [{
+				consume_items: false
+				id: "220951DAC3C98309"
+				item: {
+					Count: 1
+					id: "mofus_better_end_:dark_iron_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 130.0d
+			y: 18.0d
+		}
+		{
+			id: "7A069B6E97C02AA4"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"text\":\"\"},{\"text\":\"\\n\"},{\"text\":\"§7Ability:\"},{\"text\":\"\\n\"},{\"text\":\"§7Lets the user fly freely for 10 seconds\"},{\"text\":\"\\n\"},{\"text\":\"§7Cooldown: 40 seconds\"}],\"text\":\"§4Requires End Warrior Armor Helmet,Leggings and Boots to use this item's ability\"}"
+			tasks: [{
+				consume_items: false
+				id: "59CF1BFEB79518D0"
+				item: {
+					Count: 1
+					id: "mofus_better_end_:end_warrior_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 131.0d
+			y: 18.0d
+		}
+		{
+			id: "5DB87E73AE19E828"
+			tasks: [{
+				consume_items: false
+				id: "35C6D004730E362E"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 132.0d
+			y: 18.0d
+		}
+		{
+			id: "50D5231A00A96645"
+			tasks: [{
+				id: "0906E6B5161ABFB7"
+				type: "checkmark"
+			}]
+			title: "[11] Armor: 11"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "7289CF72D5A8E821"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.mythsandlegends.infernum_warplate_armor_tooltip2\"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.mythsandlegends.more_info\"}],\"translate\":\"tooltip.mythsandlegends.infernum_warplate_armor_tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "70A8B01F07B5C4AA"
+				item: {
+					Count: 1
+					id: "mythsandlegends:infernum_warplate_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 49.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "4FE254476CB51EF0"
+			tasks: [{
+				consume_items: false
+				id: "5B97A806B97B2BCF"
+				item: {
+					Count: 1
+					id: "nethers_exorcism_reborn:drifter_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.nethers_exorcism_reborn.drifter_chestplate\"}],\"text\":\"[\"}"
+			x: 75.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "3DD616D03A3312C5"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.cosmilite_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.cosmilite_armor_chestplate.description_2\"}],\"translate\":\"item.terramity.cosmilite_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "67640202612A66B7"
+				item: {
+					Count: 1
+					id: "terramity:cosmilite_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.cosmilite_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 76.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "7E83C6AF67EAAD9F"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.dimlite_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.dimlite_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.dimlite_chestplate.description_3\"}],\"translate\":\"item.terramity.dimlite_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "1C0EBBCB19B49D5B"
+				item: {
+					Count: 1
+					id: "terramity:dimlite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.dimlite_chestplate\"}],\"text\":\"[\"}"
+			x: 77.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "4E9BB2A51F2215B2"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.virentium_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.virentium_armor_chestplate.description_2\"}],\"translate\":\"item.terramity.virentium_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "039FC2748E2D7187"
+				item: {
+					Count: 1
+					id: "terramity:virentium_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.virentium_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 78.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "2B4FBE8BD0106567"
+			tasks: [{
+				consume_items: false
+				id: "515B8E35755A516F"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 79.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["41F848B59BBFD6A0"]
+			id: "65444C184FEF1BCE"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eImmune to Void\"}"
+			tasks: [{
+				consume_items: false
+				id: "2C41E022FD2C7FE7"
+				item: {
+					Count: 1
+					id: "ancient_elements:void_steel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.void_steel_chestplate\"}],\"text\":\"[\"}"
+			x: 91.0d
+			y: 20.0d
+		}
+		{
+			id: "6AFC32C7CD32205A"
+			tasks: [{
+				consume_items: false
+				id: "16C654C273B52F0F"
+				item: {
+					Count: 1
+					id: "armageddon_mod:elvenite_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.armageddon_mod.elvenite_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 119.0d
+			y: 20.0d
+		}
+		{
+			id: "704E9DE71CD28A54"
+			tasks: [{
+				consume_items: false
+				id: "095C7E93DB525F64"
+				item: {
+					Count: 1
+					id: "terramity:iridium_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.iridium_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 120.0d
+			y: 20.0d
+		}
+		{
+			id: "7BAFD6C7802B1775"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eFaster on Ice, slows Attackers Down\"}"
+			tasks: [{
+				consume_items: false
+				id: "69339E40D6990AFB"
+				item: {
+					Count: 1
+					id: "ancient_elements:frost_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_gray\",\"text\":\"N\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.frost_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 20.0d
+		}
+		{
+			id: "03F7A8E4D3F61C82"
+			tasks: [{
+				consume_items: false
+				id: "664B3685145D2BFC"
+				item: {
+					Count: 1
+					id: "terramity:conjuror_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.conjuror_chestplate\"}],\"text\":\"[\"}"
+			x: 125.0d
+			y: 20.0d
+		}
+		{
+			id: "162DFCD0D35ABA81"
+			tasks: [{
+				consume_items: false
+				id: "5A4A3C959B28F018"
+				item: {
+					Count: 1
+					id: "terramity:evil_king_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"aqua\",\"text\":\"D\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.evil_king_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 126.0d
+			y: 20.0d
+		}
+		{
+			id: "2FE99BF848341E09"
+			tasks: [{
+				id: "207645898354A0B9"
+				type: "checkmark"
+			}]
+			title: "[12] Armor: 12"
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["716AAE93072688C1"]
+			id: "0A0B718DD9F0E448"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eImmune to Most Debuffs\"}"
+			tasks: [{
+				consume_items: false
+				id: "7F943BA22FD69C1F"
+				item: {
+					Count: 1
+					id: "ancient_elements:elementinium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.elementinium_chestplate\"}],\"text\":\"[\"}"
+			x: 11.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"324CDB713680E43F"
+				"1BB52E5BD074EA73"
+				"42314EDF5D78B3A4"
+			]
+			id: "69C967955DFA2AD8"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "5397C9105BD05E50"
+				item: {
+					Count: 1
+					id: "adamsarsplus:nick_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["345BA7A2CC72E242"]
+			id: "430B97A2D1147B61"
+			subtitle: "{\"text\":\"§cFull Set Effect: §e50% increased Jump Height & No fall Damage\"}"
+			tasks: [{
+				consume_items: false
+				id: "1760480DFE360D94"
+				item: {
+					Count: 1
+					id: "ancient_elements:aetherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.aetherium_chestplate\"}],\"text\":\"[\"}"
+			x: 27.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["29910DE01E48F2B2"]
+			id: "3483DC6BC7E501B9"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"gold\",\"translate\":\"tooltip.ad_astra.energy\",\"with\":[\"0\",\"1M\"]},{\"text\":\"\\n\"},{\"color\":\"green\",\"translate\":\"tooltip.ad_astra.max_energy_in\",\"with\":[\"1K\"]},{\"text\":\"\\n\"},{\"color\":\"gray\",\"translate\":\"tooltip.ad_astra.shift_description\"}],\"translate\":\"tooltip.ad_astra.fluid\",\"with\":[\"0\",\"4K\",{\"translate\":\"fluid_type.ad_astra.oxygen\"}]}"
+			tasks: [{
+				consume_items: false
+				id: "06F843ABFAA6728C"
+				item: {
+					Count: 1
+					id: "ad_astra:jet_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 46.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"7C7D25DEC415F914"
+				"69188550A8D5C75E"
+				"306D425CC83FA4ED"
+			]
+			id: "207D963F9EF1162D"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty IV\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "28BD958E83868945"
+				item: {
+					Count: 1
+					id: "adamsarsplus:camr_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 47.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["207D963F9EF1162D"]
+			id: "7CFC7387B6CA8D18"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty V\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "4C64236B5AB99700"
+				item: {
+					Count: 1
+					id: "adamsarsplus:camr_robes_a"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 80.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["69C967955DFA2AD8"]
+			id: "306D425CC83FA4ED"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "33C57841010150BF"
+				item: {
+					Count: 1
+					id: "adamsarsplus:nick_robes_a"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 81.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["428CD648F78A1F64"]
+			id: "5CCC327F4485DF22"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eChance to set Attackers on Fire \"}"
+			tasks: [{
+				consume_items: false
+				id: "7328CAA6C241A171"
+				item: {
+					Count: 1
+					id: "ancient_elements:infernal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.infernal_chestplate\"}],\"text\":\"[\"}"
+			x: 92.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["56B485D0C34B7569"]
+			id: "7DE5E67E9E0624B0"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"tooltip.lethality.hf_bm_chestplate.tooltip\"},{\"text\":\"\\n\"},{\"text\":\" \"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.lethality.hf_battle_maid_set.advanced4\"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.lethality.hf_battle_maid_set.advanced5\"}],\"text\":\" \"}"
+			tasks: [{
+				consume_items: false
+				id: "71B9E901877DB868"
+				item: {
+					Count: 1
+					id: "lethality:hf_battle_maid_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 118.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["704E9DE71CD28A54"]
+			id: "0AEFADF407B4001D"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.conductite_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.conductite_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.conductite_armor_chestplate.description_3\"}],\"translate\":\"item.terramity.conductite_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "18D308FCF86892E6"
+				item: {
+					Count: 1
+					id: "terramity:conductite_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.conductite_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 120.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["704E9DE71CD28A54"]
+			id: "4C145F91D4221799"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.hellspec_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.hellspec_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.hellspec_chestplate.description_3\"}],\"translate\":\"item.terramity.hellspec_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "5D9479255CC2570B"
+				item: {
+					Count: 1
+					id: "terramity:hellspec_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.hellspec_chestplate\"}],\"text\":\"[\"}"
+			x: 121.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["704E9DE71CD28A54"]
+			id: "4CCD77777ABFCD69"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.void_mage_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.void_mage_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.void_mage_chestplate.description_3\"}],\"translate\":\"item.terramity.void_mage_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "4CCE43D8F4D6C1FE"
+				item: {
+					Count: 1
+					id: "terramity:void_mage_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.void_mage_chestplate\"}],\"text\":\"[\"}"
+			x: 122.0d
+			y: 22.0d
+		}
+		{
+			id: "0ABC51D5E2847B61"
+			tasks: [{
+				consume_items: false
+				id: "7BDF2957A99912FC"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 22.0d
+		}
+		{
+			id: "703C7A3018E7AE9E"
+			tasks: [{
+				id: "06151B13BD2E0463"
+				type: "checkmark"
+			}]
+			title: "[13] Armor: 13"
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5EB36E8B234C30F3"]
+			id: "7687B9028B86C1F2"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"% \"},{\"translate\":\"info.goety.armor.discount\"}],\"text\":\"16\"},{\"text\":\"\\n\"},{\"translate\":\"tooltip.endinglib.itemLimitDamage\",\"with\":[\"20\"]}],\"translate\":\"tooltip.endinglib.holdShiftEffect\"}"
+			tasks: [{
+				consume_items: false
+				id: "5DC8F58E2F41217F"
+				item: {
+					Count: 1
+					id: "goety_revelation:apocalyptium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "706B7BC32279E3E3"
+			subtitle: "{\"text\":\"§8Press Shift to show tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "5AE17831AA37BED4"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 49.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "260B0C9BA5B887FA"
+			subtitle: "{\"color\":\"dark_green\",\"translate\":\"item.cataclysm.ignitium_chestplate.desc\"}"
+			tasks: [{
+				consume_items: false
+				id: "53DFF8FD6B411FCD"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.cataclysm.ignitium_chestplate\"}],\"text\":\"[\"}"
+			x: 82.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["260B0C9BA5B887FA"]
+			id: "1C5044C44484636B"
+			tasks: [{
+				consume_items: false
+				id: "5330C5E0575BE880"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.cataclysm.ignitium_elytra_chestplate\"}],\"text\":\"[\"}"
+			x: 83.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["26D0C57E649CE7A8"]
+			id: "6F4B41DF16EAAEFB"
+			subtitle: "{\"color\":\"green\",\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.abyssal_hide_armor.tooltip1\"},{\"text\":\"\\n\"},{\"text\":\"\"}],\"translate\":\"item.traveloptics.abyssal_hide_armor.tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "2F3492A20C289D93"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_hide_armor_robe"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 109.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["26D0C57E649CE7A8"]
+			id: "7DA9087E27D82784"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"green\",\"translate\":\"item.traveloptics.cursed_wraithguard_armor.tooltip\"},{\"text\":\"\\n\"},{\"extra\":[{\"color\":\"white\",\"translate\":\"item.tooltip.traveloptics.phantom_rage\",\"with\":[\"0\",\"350\"]}],\"text\":\"💢 \"},{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.cursed_wraithguard_armor.tooltip1\"},{\"text\":\"\\n\"},{\"text\":\"\"}],\"text\":\"\"}"
+			tasks: [{
+				consume_items: false
+				id: "74AAD4D56FCE1435"
+				item: {
+					Count: 1
+					id: "traveloptics:cursed_wraithguard_chestplate"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.traveloptics.cursed_wraithguard_chestplate\"}],\"text\":\"[\"}"
+			x: 110.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["26D0C57E649CE7A8"]
+			id: "39D9868D8958DE33"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"green\",\"translate\":\"item.traveloptics.forlorn_harbinger.tooltip\"},{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.forlorn_harbinger.tooltip1\"},{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.shift_hold.advanced_tooltips\"},{\"text\":\"\\n\"},{\"text\":\"\"},{\"text\":\"\\n\"},{\"color\":\"yellow\",\"translate\":\"item.traveloptics.forlorn_harbinger.tooltip.darkness\",\"with\":[\"0%\"]},{\"text\":\"\\n\"},{\"text\":\"\"}],\"text\":\"\"}"
+			tasks: [{
+				consume_items: false
+				id: "3EF3664647F78890"
+				item: {
+					Count: 1
+					id: "traveloptics:forlorn_harbinger_robe"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.traveloptics.forlorn_harbinger_robe\"}],\"text\":\"[\"}"
+			x: 111.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["26D0C57E649CE7A8"]
+			id: "176EDC56262BB72D"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"color\":\"green\",\"translate\":\"item.traveloptics.mechanized_exoskeleton.tooltip\"},{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.mechanized_exoskeleton.tooltip1\"},{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.shift_hold.advanced_tooltips\"},{\"text\":\"\\n\"},{\"text\":\"\"},{\"text\":\"\\n\"},{\"color\":\"yellow\",\"translate\":\"item.traveloptics.mechanized_exoskeleton.tooltip.fuel\",\"with\":[\"0%\"]},{\"text\":\"\\n\"},{\"text\":\"\"}],\"text\":\"\"}"
+			tasks: [{
+				consume_items: false
+				id: "6F36133FA1E779AA"
+				item: {
+					Count: 1
+					id: "traveloptics:mechanized_exoskeleton_chestplate"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.traveloptics.mechanized_exoskeleton_chestplate\"}],\"text\":\"[\"}"
+			x: 112.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7709CC42707D27D9"]
+			id: "26D86BB80413064B"
+			subtitle: "{\"color\":\"green\",\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.traveloptics.tectonic_crest_armor.tooltip1\"},{\"text\":\"\\n\"},{\"text\":\"\"}],\"translate\":\"item.traveloptics.tectonic_crest_armor.tooltip\"}"
+			tasks: [{
+				consume_items: false
+				id: "4AE75DB60953FE86"
+				item: {
+					Count: 1
+					id: "traveloptics:tectonic_crest_armor_chestplate"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.traveloptics.tectonic_crest_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 117.0d
+			y: 24.0d
+		}
+		{
+			id: "2948E14B7D5A4B36"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eImmune to Fire/Hellfire, Faster in Lava\"}"
+			tasks: [{
+				consume_items: false
+				id: "2661754B7B25045E"
+				item: {
+					Count: 1
+					id: "ancient_elements:hellstone_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.hellstone_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 24.0d
+		}
+		{
+			id: "265A124807F903B3"
+			tasks: [{
+				consume_items: false
+				id: "2E5D519888DD01BA"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.cataclysm.bone_reptile_chestplate\"}],\"text\":\"[\"}"
+			x: 125.0d
+			y: 24.0d
+		}
+		{
+			id: "37A72D34A55B4188"
+			tasks: [{
+				consume_items: false
+				id: "33E68D4E7DD44E0A"
+				item: {
+					Count: 1
+					id: "dodosmobs:chimera_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.dodosmobs.chimera_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 126.0d
+			y: 24.0d
+		}
+		{
+			id: "67233DB493AE4AD3"
+			tasks: [{
+				id: "5CBD3D4F6AC38555"
+				type: "checkmark"
+			}]
+			title: "[14] Armor: 14"
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "5E2E7EFB231285F7"
+			tasks: [{
+				consume_items: false
+				id: "505E6126D56D6737"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_chestplate"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.eeeabsmobs.ghost_warrior_chestplate\"}],\"text\":\"[\"}"
+			x: 49.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"786629B917990A32"
+				"2B4FBE8BD0106567"
+			]
+			id: "72ACD48D57BE8DAE"
+			subtitle: "{\"color\":\"dark_aqua\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"translate\":\"tooltip.composite_material.echoium_armor_1\"},{\"text\":\"\\n\"},{\"color\":\"dark_purple\",\"translate\":\"tooltip.composite_material.echoium_armor_2\"}],\"translate\":\"tooltip.composite_material.echoium_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "2E84051F2585BA41"
+				item: {
+					Count: 1
+					id: "composite_material:echoium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.composite_material.echoium_chestplate\"}],\"text\":\"[\"}"
+			x: 79.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"7C7D25DEC415F914"
+				"69188550A8D5C75E"
+				"306D425CC83FA4ED"
+			]
+			id: "57982A8EA5FE3723"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "485B3D6110C00301"
+				item: {
+					Count: 1
+					id: "adamsarsplus:matt_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 81.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "4D3BCA6880D72DF3"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eFaster on Soulsand\"}"
+			tasks: [{
+				consume_items: false
+				id: "46B86E3C85F57DDA"
+				item: {
+					Count: 1
+					id: "ancient_elements:spectrillium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.spectrillium_chestplate\"}],\"text\":\"[\"}"
+			x: 84.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["57982A8EA5FE3723"]
+			id: "5A3ECF5FF34D37FE"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty IV\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "283F8FDCBC3CBE07"
+				item: {
+					Count: 1
+					id: "adamsarsplus:matt_robes_a"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 85.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "62E4613146A5C11D"
+			tasks: [{
+				consume_items: false
+				id: "18AE6BE39AF0462B"
+				item: "foolish:stellar_armor_chestplate"
+				type: "item"
+			}]
+			x: 86.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6AFC32C7CD32205A"]
+			id: "7330EB2845D78DAF"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.calamitous_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.calamitous_armor_chestplate.description_2\"}],\"translate\":\"item.armageddon_mod.calamitous_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "415E44EC3777F420"
+				item: {
+					Count: 1
+					id: "armageddon_mod:calamitous_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 119.0d
+			y: 26.0d
+		}
+		{
+			id: "4AB54821A5CF1769"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.voiderite_armor_chestplate.description_1\"}],\"translate\":\"item.armageddon_mod.voiderite_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "10668B98E6BD16FC"
+				item: {
+					Count: 1
+					id: "armageddon_mod:voiderite_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.armageddon_mod.voiderite_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 26.0d
+		}
+		{
+			id: "1A71D476C6127529"
+			tasks: [{
+				consume_items: false
+				id: "0D24BFE31BAF422E"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:tyr_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 125.0d
+			y: 26.0d
+		}
+		{
+			id: "1D234CE215916463"
+			tasks: [{
+				id: "6F17D013CA1B1391"
+				type: "checkmark"
+			}]
+			title: "[15] Armor: 15"
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			id: "6A2943073BB80E3A"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"text\":\"\"},{\"text\":\"\\n\"},{\"text\":\"§c[Press Armor Effect Keybind to Create a Toxic Puddle]\"}],\"text\":\"§cFull Set Effect: §eNight Vision & Immune to Blindness, creation of damaging Toxic Puddles\"}"
+			tasks: [{
+				consume_items: false
+				id: "1C737CC07D83C28C"
+				item: {
+					Count: 1
+					id: "ancient_elements:endrium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.endrium_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 28.0d
+		}
+		{
+			id: "527EB25F235F3646"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"2400\"]}"
+			tasks: [{
+				consume_items: false
+				id: "6AD4FDAE66183947"
+				item: {
+					Count: 1
+					id: "evolvedmekanism:better_gold_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"yellow\",\"text\":\"E\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.evolvedmekanism.better_gold_chestplate\"}],\"text\":\"[\"}"
+			x: 125.0d
+			y: 28.0d
+		}
+		{
+			id: "098E9B48E8AAA130"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.exodium_warlock_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.exodium_warlock_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.exodium_warlock_chestplate.description_3\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.exodium_warlock_chestplate.description_4\"}],\"translate\":\"item.terramity.exodium_warlock_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "402E2720459DC6A6"
+				item: {
+					Count: 1
+					id: "terramity:exodium_warlock_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"V\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.exodium_warlock_chestplate\"}],\"text\":\"[\"}"
+			x: 126.0d
+			y: 28.0d
+		}
+		{
+			id: "3D4D5DD8B3E68252"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.terramity.nyxium_knight_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.nyxium_knight_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.nyxium_knight_chestplate.description_3\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.nyxium_knight_chestplate.description_4\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.nyxium_knight_chestplate.description_5\"},{\"text\":\"\\n\"},{\"translate\":\"item.terramity.nyxium_knight_chestplate.description_6\"}],\"translate\":\"item.terramity.nyxium_knight_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "0CEEA5D02D7697C7"
+				item: {
+					Count: 1
+					id: "terramity:nyxium_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.terramity.nyxium_knight_chestplate\"}],\"text\":\"[\"}"
+			x: 127.0d
+			y: 28.0d
+		}
+		{
+			id: "3B5C2123A949B9DF"
+			tasks: [{
+				id: "36D7BF0397A73BD6"
+				type: "checkmark"
+			}]
+			title: "[16] Armor: 16"
+			x: -2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"5A3ECF5FF34D37FE"
+				"7CFC7387B6CA8D18"
+			]
+			id: "79371DA0AC695BA2"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty V\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "5C21CC5B8E4CF0D2"
+				item: {
+					Count: 1
+					id: "adamsarsplus:adam_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 85.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["79371DA0AC695BA2"]
+			id: "0C11B1AFFE10070C"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty VI\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"},{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty III\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "549553D1FB286443"
+				item: {
+					Count: 1
+					id: "adamsarsplus:adam_robes_a"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 87.0d
+			y: 30.0d
+		}
+		{
+			id: "0D3D3EE224C2ABCE"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"text\":\"\"},{\"text\":\"\\n\"},{\"text\":\"§c[Press Armor Effect Keybind to release a Shockwave]\"}],\"text\":\"§cFull Set Effect: §eWhen taking Damage, charges up a Shockwave Ability\"}"
+			tasks: [{
+				consume_items: false
+				id: "030A1F6591649573"
+				item: {
+					Count: 1
+					id: "ancient_elements:celestium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.celestium_chestplate\"}],\"text\":\"[\"}"
+			x: 123.0d
+			y: 30.0d
+		}
+		{
+			id: "07040666B9352BFF"
+			tasks: [{
+				id: "6ED89EA34B12411F"
+				type: "checkmark"
+			}]
+			title: "[17] Armor: 17"
+			x: -2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["748F94EA7BAA64D6"]
+			id: "08397F21061A9644"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty II\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "0C95471AA862B598"
+				item: {
+					Count: 1
+					id: "knightsnmages:blue_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 115.0d
+			y: 32.0d
+		}
+		{
+			id: "0C4AB6CF035EB1A7"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.bloody_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.bloody_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.bloody_armor_chestplate.description_3\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.bloody_armor_chestplate.description_4\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.bloody_armor_chestplate.description_5\"}],\"translate\":\"item.armageddon_mod.bloody_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "6D57964D71E54513"
+				item: {
+					Count: 1
+					id: "armageddon_mod:bloody_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.armageddon_mod.bloody_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 124.0d
+			y: 32.0d
+		}
+		{
+			id: "60D53B33595ADACE"
+			subtitle: "{\"translate\":\"tooltip.mekanismtools.hp\",\"with\":[\"4800\"]}"
+			tasks: [{
+				consume_items: false
+				id: "3FEAAFFC7717DF38"
+				item: {
+					Count: 1
+					id: "evolvedmekanism:plaslitherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"dark_red\",\"text\":\"B\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.evolvedmekanism.plaslitherite_chestplate\"}],\"text\":\"[\"}"
+			x: 125.0d
+			y: 32.0d
+		}
+		{
+			id: "1FFA93919588C849"
+			tasks: [{
+				id: "294494CD4EAC4D0F"
+				type: "checkmark"
+			}]
+			title: "[19] Armor: 19"
+			x: -2.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["72ACD48D57BE8DAE"]
+			id: "4846129BCF1D74B5"
+			subtitle: "{\"color\":\"dark_purple\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_purple\",\"translate\":\"tooltip.composite_material.etherite_armor_1\"},{\"text\":\"\\n\"},{\"color\":\"gold\",\"translate\":\"tooltip.composite_material.etherite_armor_2\"}],\"translate\":\"tooltip.composite_material.etherite_armor\"}"
+			tasks: [{
+				consume_items: false
+				id: "17CF3AE690C58C17"
+				item: {
+					Count: 1
+					id: "composite_material:etherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"H\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.composite_material.etherite_chestplate\"}],\"text\":\"[\"}"
+			x: 79.0d
+			y: 34.0d
+		}
+		{
+			id: "648318F753A35F7E"
+			tasks: [{
+				id: "4D277C44623BBF63"
+				type: "checkmark"
+			}]
+			title: "[20] Armor: 20"
+			x: -2.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "66C906847718EC05"
+			subtitle: "{\"color\":\"dark_green\",\"extra\":[{\"text\":\"\\n\"},{\"color\":\"dark_green\",\"translate\":\"item.cataclysm.cursium_chestplate.desc2\"},{\"text\":\"\\n\"},{\"color\":\"dark_green\",\"translate\":\"item.cataclysm.cursium_chestplate.desc3\"}],\"translate\":\"item.cataclysm.cursium_chestplate.desc\"}"
+			tasks: [{
+				consume_items: false
+				id: "6A4937BD5339C85C"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"H\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.cataclysm.cursium_chestplate\"}],\"text\":\"[\"}"
+			x: 49.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["0D3D3EE224C2ABCE"]
+			id: "068F41336C3F5DA1"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"text\":\"\"},{\"text\":\"\\n\"},{\"text\":\"§c[Press Armor Effect Keybind to Teleport]\"}],\"text\":\"§cFull Set Effect: §eTeleportation with a shockwave at your previous location, Immune to Cosmic Shock\"}"
+			tasks: [{
+				consume_items: false
+				id: "7B7E1AD29A132EE1"
+				item: {
+					Count: 1
+					id: "ancient_elements:galactrium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"H\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.galactrium_chestplate\"}],\"text\":\"[\"}"
+			x: 123.0d
+			y: 36.0d
+		}
+		{
+			id: "361DC058F79F827B"
+			tasks: [{
+				id: "3C8833D66119C41A"
+				type: "checkmark"
+			}]
+			title: "[21] Armor: 21"
+			x: -2.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"21646B373680183A"
+				"10816E7A2E085D50"
+				"345BA7A2CC72E242"
+				"716AAE93072688C1"
+			]
+			id: "0F0F8346A8C497B1"
+			subtitle: "{\"text\":\"§cFull Set Effect: §eResistance II, 20% Agility Boost, Chance to Explode Attackers, Immune to Elemental Debuffs\"}"
+			tasks: [{
+				consume_items: false
+				id: "360C34999744AC27"
+				item: {
+					Count: 1
+					id: "ancient_elements:aeonite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"H\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.ancient_elements.aeonite_chestplate\"}],\"text\":\"[\"}"
+			x: 49.0d
+			y: 38.0d
+		}
+		{
+			id: "120FC9A2CB5AB21D"
+			tasks: [{
+				id: "410DE017F6133831"
+				type: "checkmark"
+			}]
+			title: "[24] Armor: 24"
+			x: -2.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["10816E7A2E085D50"]
+			id: "2EACC998BE8139A8"
+			subtitle: "{\"extra\":[{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.helionite_armor_chestplate.description_1\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.helionite_armor_chestplate.description_2\"},{\"text\":\"\\n\"},{\"translate\":\"item.armageddon_mod.helionite_armor_chestplate.description_3\"}],\"translate\":\"item.armageddon_mod.helionite_armor_chestplate.description_0\"}"
+			tasks: [{
+				consume_items: false
+				id: "4557B04EE796B0B9"
+				item: {
+					Count: 1
+					id: "armageddon_mod:helionite_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"text\":\"H\"},{\"color\":\"gray\",\"text\":\"] \"},{\"translate\":\"item.armageddon_mod.helionite_armor_chestplate\"}],\"text\":\"[\"}"
+			x: 49.0d
+			y: 40.0d
+		}
+		{
+			id: "34FFD9D5CDEAEE39"
+			tasks: [{
+				id: "731FF1BF2CB3362B"
+				type: "checkmark"
+			}]
+			title: "[28] Armor: 28"
+			x: -2.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["4E98B659D37228B9"]
+			id: "07D1331915D272EA"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "188645964BD1019A"
+				item: {
+					Count: 1
+					id: "knightsnmages:elite_mage_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 42.0d
+		}
+		{
+			id: "6E6B18B741223C53"
+			tasks: [{
+				id: "7E5424C468CC9EA6"
+				type: "checkmark"
+			}]
+			title: "[43] Armor: 43"
+			x: -2.0d
+			y: 44.0d
+		}
+		{
+			id: "17D2E72C09FEA73D"
+			subtitle: "{\"color\":\"gold\",\"extra\":[{\"text\":\"\\n\"},{\"italic\":true,\"color\":\"red\",\"text\":\"Empty I\"}],\"translate\":\"ars_nouveau.tier\",\"with\":[\"1\"]}"
+			tasks: [{
+				consume_items: false
+				id: "3196ED189DD16FFB"
+				item: {
+					Count: 1
+					id: "knightsnmages:dark_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 124.0d
+			y: 44.0d
+		}
+	]
+	title: "{\"extra\":[{\"text\":\" \"},{\"translate\":\"ftbquests_tierlists.chapter.armor.title\"}],\"translate\":\"ftbquests_tierlists.chapter.title.mode.crafting_progression\"}"
+}
