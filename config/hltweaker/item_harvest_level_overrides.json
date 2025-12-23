@@ -1,5 +1,4 @@
 {
-  "_comment": "netherite = 4, 5; elvenite = 6; voiderite = 7; bloody = 8, 9; helionite = 12",
   "composite_material:allay_steel_pickaxe": {
     "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
   },
