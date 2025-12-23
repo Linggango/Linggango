@@ -1,0 +1,15 @@
+{
+  "loot_table_id": "knightquest:entities/lizzy",
+  "entries": [
+    {
+      "item": "knightquest:lizzy_scale",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "random_chance",
+          "chance": 0.50
+        }
+      ]
+    }
+  ]
+}
