@@ -1,0 +1,16 @@
+{
+  "loot_table_id": "knightquest:entities/ratman",
+  "context_type": "ENTITY",
+  "entries": [
+    {
+      "item": "knightquest:ratman_eye",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "random_chance",
+          "chance": 0.50
+        }
+      ]
+    }
+  ]
+}

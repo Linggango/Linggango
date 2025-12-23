@@ -1,0 +1,11 @@
+{
+  "loot_table_id": "block_factorys_bosses:entities/underworld_knight",
+  "mob_id": "block_factorys_bosses:underworld_knight",
+  "context_type": "ENTITY",
+  "entries": [
+    {
+      "item": "block_factorys_bosses:knight_sword",
+      "weight": 1
+    }
+  ]
+}
