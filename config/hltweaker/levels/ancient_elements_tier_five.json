@@ -1,0 +1,7 @@
+{
+  "color": "#00CED1",
+  "level": 5,
+  "icons": {
+    "minecraft:mineable/pickaxe": "ancient_elements:meteorite_pickaxe"
+  }
+}

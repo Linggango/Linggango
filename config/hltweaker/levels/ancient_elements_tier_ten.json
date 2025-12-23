@@ -1,0 +1,7 @@
+{
+  "color": "#FFD700",
+  "level": 10,
+  "icons": {
+    "minecraft:mineable/pickaxe": "ancient_elements:celestium_pickaxe"
+  }
+}

@@ -1,0 +1,45 @@
+Pickaxes have:
+Steel - 0
+Tin - 1
+Lead - 2
+Abyssal - 3
+Ancient Metal - 3
+Jungle Steel - 3
+Nether Steel - 3
+Palladium - 3
+Titanium - 3
+Ender Steel - 4
+Frost - 5
+Meteorite - 5
+Void Steel - 5
+Aetherium - 6
+Elementium - 6
+Infernal - 7
+Hellstone - 8
+Spectrillium - 8
+Endrium - 9
+Celestium - 10
+Galactrium - 10
+Aeonite - 12
+
+Ores require:
+Tin - 0
+Spectrillium - 0
+Lead - 1
+Jungle Steel - 2
+Steel - 2
+Palladium - 2
+Steel Ender - 3
+Titanium - 3
+Nether Steel - 3
+Ancient Metal Debris - 3
+Abyssal Debris - 3
+Frost - 4
+Meteorite - 4
+Void Steel - 4
+Aetherium - 5
+Infernal - 6
+Spectrillium - 7
+Endrium - 8
+Celestium - 9
+Galactric Debris - 10
