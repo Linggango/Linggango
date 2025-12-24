@@ -1,0 +1,10 @@
+{
+  "loot_table_id": "goety:entities/vizier",
+  "context_type": "ENTITY",
+  "entries": [
+    {
+      "item": "goety:soul_ruby",
+      "weight": 1
+    }
+  ]
+}

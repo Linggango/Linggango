@@ -1,0 +1,10 @@
+{
+  "loot_table_id": "goety:entities/crone",
+  "context_type": "ENTITY",
+  "entries": [
+    {
+      "item": "goety:crone_hat",
+      "weight": 1
+    }
+  ]
+}

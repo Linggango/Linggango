@@ -1,0 +1,20 @@
+{
+  "loot_table_id": "goety:entities/apostle",
+  "context_type": "ENTITY",
+  "entries": [
+    {
+      "item": "goety:night_beacon",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "location",
+          "dimension": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "item": "goety:unholy_blood",
+      "weight": 1
+    }
+  ]
+}
