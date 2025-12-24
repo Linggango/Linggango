@@ -15,6 +15,28 @@
     {
       "item": "goety:unholy_blood",
       "weight": 1
+    },
+    {
+      "item": "goety_revelation:ascension_halo",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "value_check",
+          "key": "emi_loot_registry.goety_revelation.apostle.is_apollyon",
+          "value_translation": "emi_loot_registry.true"
+        }
+      ]
+    },
+    {
+      "item": "goety_revelation:broken_halo",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "value_check",
+          "key": "emi_loot_registry.goety_revelation.apostle.is_apollyon",
+          "value_translation": "emi_loot_registry.false"
+        }
+      ]
     }
   ]
 }
