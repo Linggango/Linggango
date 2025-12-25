@@ -5,6 +5,26 @@
     {
       "item": "lethality:sword_of_splendor",
       "weight": 1
+    },
+    {
+      "item": "brutality:trial_guardian_eyebrows",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "random_chance",
+          "chance": 0.75
+        }
+      ]
+    },
+    {
+      "item": "brutality:trial_guardian_hands",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "random_chance",
+          "chance": 0.75
+        }
+      ]
     }
   ]
 }

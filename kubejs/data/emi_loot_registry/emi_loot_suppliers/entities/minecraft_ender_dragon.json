@@ -1,0 +1,16 @@
+{
+  "loot_table_id": "minecraft:entities/ender_dragon",
+  "context_type": "ENTITY",
+  "entries": [
+    {
+      "item": "brutality:dragonheart",
+      "weight": 1,
+      "conditions": [
+        {
+          "type": "random_chance",
+          "chance": 0.25
+        }
+      ]
+    }
+  ]
+}
