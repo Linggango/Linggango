@@ -1764,7 +1764,17 @@
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
-			description: ["They're &coutdated&r as of now."]
+		 description: [
+  				"They're &coutdated&r as of now."
+  				""
+  				"To view which items are locked by a boss you should use EMI's tag search."
+  				""
+  				"Open inventory and type"
+  				""
+  				"    #forge:&9<tier>&r"
+  				""
+  				"where &9tier&r is one of: &firon&r, &egolden&r, &aemerald&r, &bdiamond&r, &0netherite&r, &6elvenite&r, &dvoiderite&r, &4bloody&r, &ehelionite"
+  			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
