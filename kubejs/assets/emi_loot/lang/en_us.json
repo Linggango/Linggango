@@ -1,5 +1,0 @@
-{
-  "emi_loot.condition.location": "Drops in certain locations/multiblocks %s",
-  "emi_loot.condition.raining_true": "Drops when it is raining",
-  "emi_loot.condition.raining_false": "Drops when it is not raining"
-}
