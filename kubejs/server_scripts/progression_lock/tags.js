@@ -768,7 +768,7 @@ ServerEvents.tags("item", e => {
     "lethality:sacrifice",
     "lethality:blighted_cleaver",
     "lethality:void_bafs",
-    "lethality:violence",
+         "lethality:violence",
     "lethality:vehemence",
     "lethality:starlight",
     "lethality:real_knife",
