@@ -1303,8 +1303,6 @@ ServerEvents.tags("item", e => {
     "bloodmagic:livingchestplate",
     "bloodmagic:livingleggings",
     "bloodmagic:livingboots",
-    "ancient_elements:meteorite_helmet",
-    "ancient_elements:meteorite_chestplate",
     "terramity:dimlite_helmet",
     "terramity:dimlite_chestplate",
     "terramity:dimlite_leggings",
