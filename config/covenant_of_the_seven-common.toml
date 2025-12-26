@@ -1,31 +1,130 @@
 
 [covenant_of_the_seven]
-	#Maximum value for the exponential growth multiplier for calculating the relative closeness of the current spell level to its maximum level when using LP instead of Mana
-	#Default: 30.0
-	#Range: 0.01 ~ 100.0
-	levelScale = 30.0
-	#Fixed cost multiplier for COMMON spells when using LP instead of Mana
-	#Default: 2.0
-	#Range: 0.01 ~ 100.0
-	commonMultiplier = 2.0
-	#Fixed cost multiplier for UNCOMMON spells when using LP instead of Mana
-	#Default: 3.0
-	#Range: 0.01 ~ 100.0
-	uncommonMultiplier = 3.0
-	#Fixed cost multiplier for RARE spells when using LP instead of Mana
-	#Default: 7.0
-	#Range: 0.01 ~ 100.0
-	rareMultiplier = 7.0
-	#Fixed cost multiplier for EPIC spells when using LP instead of Mana
-	#Default: 12.0
-	#Range: 0.01 ~ 100.0
-	epicMultiplier = 12.0
-	#Fixed cost multiplier for LEGENDARY spells when using LP instead of Mana
-	#Default: 25.0
-	#Range: 0.01 ~ 100.0
-	legendaryMultiplier = 25.0
 	#SpellPower multiplier provided by the Blasphemy of the Elements for each curse
 	#Default: 0.4
 	#Range: 0.01 ~ 100.0
 	curseMultiplier = 0.4
+	#Maximum value for the exponential growth multiplier for calculating the relative closeness of the current spell level to its maximum level when using LP instead of Mana
+	#Default: 30.0
+	#Range: 0.01 ~ 100.0
+	levelScaleLP = 30.0
+	#Fixed cost multiplier for COMMON spells when using LP instead of Mana
+	#Default: 2.0
+	#Range: 0.01 ~ 100.0
+	commonMultiplierLP = 2.0
+	#Fixed cost multiplier for UNCOMMON spells when using LP instead of Mana
+	#Default: 3.0
+	#Range: 0.01 ~ 100.0
+	uncommonMultiplierLP = 3.0
+	#Fixed cost multiplier for RARE spells when using LP instead of Mana
+	#Default: 7.0
+	#Range: 0.01 ~ 100.0
+	rareMultiplierLP = 7.0
+	#Fixed cost multiplier for EPIC spells when using LP instead of Mana
+	#Default: 12.0
+	#Range: 0.01 ~ 100.0
+	epicMultiplierLP = 12.0
+	#Fixed cost multiplier for LEGENDARY spells when using LP instead of Mana
+	#Default: 25.0
+	#Range: 0.01 ~ 100.0
+	legendaryMultiplierLP = 25.0
+	#Damage reduction penalty the Ring of the Seven Virtues provides for every point of armor, measured in percents.
+	#Default: 4
+	#Range: 1 ~ 100
+	virtueDampen = 4
+	#Bonus Luck levels the Ring of the Seven Virtues provides
+	#Default: 7
+	#Range: 1 ~ 100
+	virtueLuck = 7
+	#Bonus Block Reach levels the Ring of the Seven Virtues provides
+	#Default: 7
+	#Range: 1 ~ 100
+	virtueBlockReach = 7
+	#Loot increase multiplier provided by the Ring of the Seven Virtues, measured in percents.
+	#Default: 4
+	#Range: 1 ~ 100
+	virtueLoot = 4
+	#Damage redirection provided by the Ring of the Seven Virtues, measured in percents.
+	#Default: 60
+	#Range: 0 ~ 100
+	virtueProtection = 60
+	#Additional items to consider as weapons by the Ring of the Seven Virtues
+	#Format: ["modid:itemid", "modid:itemid"]
+	includedWeapons = []
+	#Items to exclude from being considered as weapons by the Ring of the Seven Virtues
+	#Note: Exclusion takes priority over Inclusion
+	#Format: ["modid:itemid", "modid:itemid"]
+	excludedWeapons = []
+	#List of mobs to consider as animals by the Ring of the Seven Virtues
+	#Format: ["modid:mob", "modid:mob"]
+	includedAnimals = []
+	#List of mobs to exclude from being considered as animals by the Ring of the Seven Virtues
+	#Note: Exclusion takes priority over Inclusion
+	#Format: ["modid:mob", "modid:mob"]
+	excludedAnimals = ["alexscaves:tremorzilla"]
+	#Whether to strike the player with lightning for hitting Animals when wearing the Ring of the Seven Virtues
+	#Default: true
+	crueltyPunishment = true
+	#Minimum light level at the player's position to halt the player's movement when wearing the Ring of the Seven Virtues
+	#Default: 0
+	#Range: 0 ~ 15
+	lightMovement = 0
+	#Maximum value for the exponential growth multiplier for calculating the relative closeness of the current spell level to its maximum level when using Aura instead of Mana
+	#Default: 10.0
+	#Range: 0.01 ~ 100.0
+	levelScaleAura = 10.0
+	#Fixed cost multiplier for COMMON spells when using Aura instead of Mana
+	#Default: 2.0
+	#Range: 0.01 ~ 100.0
+	commonMultiplierAura = 2.0
+	#Fixed cost multiplier for UNCOMMON spells when using Aura instead of Mana
+	#Default: 3.0
+	#Range: 0.01 ~ 100.0
+	uncommonMultiplierAura = 3.0
+	#Fixed cost multiplier for RARE spells when using Aura instead of Mana
+	#Default: 5.0
+	#Range: 0.01 ~ 100.0
+	rareMultiplierAura = 5.0
+	#Fixed cost multiplier for EPIC spells when using Aura instead of Mana
+	#Default: 7.0
+	#Range: 0.01 ~ 100.0
+	epicMultiplierAura = 7.0
+	#Fixed cost multiplier for LEGENDARY spells when using Aura instead of Mana
+	#Default: 10.0
+	#Range: 0.01 ~ 100.0
+	legendaryMultiplierAura = 10.0
+	#List of effects granted by the Ambrosial Arbor
+	#Format: ["modid:effectid", "modid:effectid"]
+	ambrosialEffects = ["minecraft:absorption", "minecraft:conduit_power", "minecraft:dolphins_grace", "minecraft:fire_resistance", "minecraft:haste", "minecraft:health_boost", "minecraft:hero_of_the_village", "minecraft:invisibility", "minecraft:jump_boost", "minecraft:luck", "minecraft:night_vision", "minecraft:regeneration", "minecraft:resistance", "minecraft:saturation", "minecraft:speed", "minecraft:strength", "minecraft:water_breathing"]
+	#Additional items to consider as Golden Food and can be eaten after having consumed 7 Ambrosial Arbor
+	#Format: ["modid:itemid", "modid:itemid"]
+	ambrosialPenalty = []
+	#List of mobs unaffected by the curse of exaltation
+	#Note: This exemption is intended for bosses and mini-bosses
+	#Format: ["modid:mob", "modid:mob"]
+	ignoredMobs = ["minecraft:elder_guardian", "minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "alexscaves:forsaken", "alexscaves:hullbreaker", "cataclysm:kobolediator", "alexscaves:luxtructosaurus", "alexscaves:nucleeper", "alexscaves:tremorzilla", "cataclysm:amethyst_crab", "cataclysm:aptrgangr", "cataclysm:clawdian", "cataclysm:coralssus", "cataclysm:ender_golem", "cataclysm:the_prowler", "cataclysm:wadjet", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:sculptor", "mowziesmobs:umvuthi"]
+	#Armor increase provided by Insignia of Lightforged Benediction for each percent of the equipped helm's durability remaining.
+	#Default: 1.0
+	#Range: 0.0 ~ 100.0
+	benedictionArmor = 1.0
+	#Armor Toughness increase provided by Insignia of Lightforged Benediction for each percent of the equipped boots' durability remaining.
+	#Default: 0.5
+	#Range: 0.0 ~ 100.0
+	benedictionArmorToughness = 0.5
+	#Max Health increase provided by Insignia of Lightforged Benediction for each percent of the equipped chestplate's durability remaining.
+	#Default: 2.0
+	#Range: 0.0 ~ 100.0
+	benedictionMaxHealth = 2.0
+	#Knockback Resistance increase provided by Insignia of Lightforged Benediction for each percent of the equipped leggings' durability remaining.
+	#Default: 0.25
+	#Range: 0.0 ~ 100.0
+	benedictionKnockbackResistance = 0.25
+	#Attack Damage increase provided by Scroll of a Thousand Virtues for each point of Armor.
+	#Default: 1.0
+	#Range: 0.0 ~ 100.0
+	divineScrollAttackFromArmor = 1.0
+	#Attack Damage increase provided by Scroll of a Thousand Virtues for each point of Armor Toughness.
+	#Default: 1.0
+	#Range: 0.0 ~ 100.0
+	divineScrollAttackFromArmorToughness = 1.0
 

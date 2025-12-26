@@ -7,6 +7,9 @@ ServerEvents.recipes(e => {
   e.remove({ id: "armageddon_mod:corrupted_tear_recipe" });
   e.remove({ id: "armageddon_mod:titansinsignacraftingrecipe" });
   e.remove({ id: "armageddon_mod:echoingscraprecipe" });
+  e.remove({ id: "armageddon_mod:mossy_helionite_brick_stairs_recipe2" });
+  e.remove({ id: "armageddon_mod:bloody_helionite_brick_stairs_recipe" });
+
 
   e.shaped("armageddon_mod:iron_ring", ["ABA", "B B", "ABA"], {
     A: "create:iron_sheet",

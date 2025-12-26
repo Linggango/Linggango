@@ -9,7 +9,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "enigmaticlegacy:item/berserk_charm"
+			Icon: "armageddon_mod:item/iron_ring"
 		}
 	}
 	id: "1C3191D26FEC058D"
@@ -45,7 +45,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

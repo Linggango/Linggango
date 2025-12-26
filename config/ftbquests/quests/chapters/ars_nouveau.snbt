@@ -4,7 +4,13 @@
 	default_quest_shape: "hexagon"
 	filename: "ars_nouveau"
 	group: "20D67F7F184680D5"
-	icon: "ars_nouveau:archmage_spell_book"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ars_nouveau:item/caster_tome"
+		}
+	}
 	id: "6AEDA2F9BEB57759"
 	images: [
 		{

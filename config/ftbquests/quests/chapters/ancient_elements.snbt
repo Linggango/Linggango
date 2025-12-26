@@ -384,6 +384,13 @@
 				""
 				"This questline is directly inspired by the mod's in-game journal."
 			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "composite_material:item/sepachanted_book"
+				}
+			}
 			id: "68DE8655DEE4F57A"
 			shape: "square"
 			size: 1.5d

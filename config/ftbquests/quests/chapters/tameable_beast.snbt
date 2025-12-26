@@ -4,13 +4,7 @@
 	default_quest_shape: "woodtier"
 	filename: "tameable_beast"
 	group: "3C6AB1DE39D4F441"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "domesticationinnovation:item/collar_tag"
-		}
-	}
+	icon: "domesticationinnovation:wayward_lantern"
 	id: "266A5686BA357872"
 	images: [
 		{

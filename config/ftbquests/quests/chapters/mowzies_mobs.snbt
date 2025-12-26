@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mobs"
+	group: "62B6EA0538DBB088"
+	id: "4F591C894C8C8BF7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mowzie's Mobs"
+}

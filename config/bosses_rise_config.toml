@@ -5,7 +5,7 @@ Warning = ["All number values need to include decimals !", "Use 10.0 instead of 
 	"Sandworm Health" = 1000.0
 	"Yeti Health" = 4000.0
 	"Dragon Health" = 10000.0
-	"Knight Health" = 900000.0
+	"Knight Health" = 200000.0
 
 ["Boss Armor"]
 	#Max Armor : 30
@@ -18,8 +18,8 @@ Warning = ["All number values need to include decimals !", "Use 10.0 instead of 
 	#Not all damages sources depends on this variable !
 	"Sandworm Damage" = 45.0
 	"Yeti Damage" = 65.0
-	"Dragon Damage" = 140.0
-	"Knight Damage" = 320.0
+	"Dragon Damage" = 150.0
+	"Knight Damage" = 360.0
 
 [Values]
 	#Change the speed of the recovery of the Roll ability

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "goety_bosses"
+	group: "62B6EA0538DBB088"
+	id: "53547AFCC48E1C67"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Goety: Bosses"
+}

@@ -21,6 +21,10 @@ ServerEvents.recipes(e => {
   e.remove({ id: "brutality:anger_management" });
   e.remove({ id: "brutality:crown_of_tyranny" });
   e.remove({ id: "brutality:blade_of_the_ruined_king" });
+  e.remove({ id: "brutality:gluttony" });
+  e.remove({ id: "brutality:heart_of_gold" });
+  e.remove({ id: "brutality:self_repair_nexus"})
+  e.remove({ id: "brutality:vampire_knives"});
 
   e.shaped("brutality:royal_guardian_sword", ["ABC", "DEB", "FDA"], {
     A: "minecraft:gold_block",
@@ -50,4 +54,18 @@ ServerEvents.recipes(e => {
     D: "terramity:spectral_soul",
     E: "terramity:black_matter",
   });
+
+  e.shaped("brutality:self_repair_nexus", ["ABA", "BCB", "ABA"], {
+    A: "cataclysm:witherite_ingot",
+    B: "terramity:black_matter",
+    C: "minecraft:nether_star",
+  });
+
+  e.shaped("brutality:vampire_knives", ["ABB", "ACB", "DAA"], {
+    A: "terramity:chthonic_crystal",
+    B: "brutality:diamond_knife",
+    C: "terramity:cthonic_nectar",
+    D: "bloodmagic:activationcrystalweak",
+  });
+
 });

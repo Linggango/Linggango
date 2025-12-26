@@ -4,7 +4,7 @@
 	default_quest_shape: "square"
 	filename: "powah"
 	group: "3C6437AAADAFC5CB"
-	icon: "powah:energizing_rod_spirited"
+	icon: "powah:energizing_orb"
 	id: "49B60BD59597EF1A"
 	images: [
 		{
@@ -226,7 +226,7 @@
 			y: -1.0d
 		}
 	]
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

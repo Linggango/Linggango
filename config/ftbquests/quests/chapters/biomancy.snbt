@@ -6,9 +6,9 @@
 	group: "3C6437AAADAFC5CB"
 	icon: {
 		Count: 1
-		id: "ftbquests:custom_icon"
+		id: "biomancy:despoil_sickle"
 		tag: {
-			Icon: "biomancy:item/shield/thorn_shield_icon"
+			Damage: 0
 		}
 	}
 	id: "5E55600F304A764F"

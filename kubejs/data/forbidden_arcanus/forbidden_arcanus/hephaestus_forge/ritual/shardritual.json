@@ -9,8 +9,8 @@
     "forge_tier": 5
   },
   "essences": {
-    "aureal": 20000,
-    "blood": 100000,
+    "aureal": 2000,
+    "blood": 10000,
     "experience": 7500,
     "souls": 1000
   },

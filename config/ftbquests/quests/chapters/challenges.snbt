@@ -8,7 +8,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "goety_spillage:item/skull_bomb"
+			Icon: "born_in_chaos_v1:item/shattered_skull"
 		}
 	}
 	id: "3751A749EAB4494C"
@@ -31,18 +31,25 @@
 			x: -13.5d
 			y: -1.5d
 		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["Extremely WIP.. lmk if u got challenge ideas in my discord.."]
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -5.5d
+		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5E18FABA8CEF0C72"]
 			description: [
 				"Do you still think the pack is easy or.. boring? (hope u dont) "
 				""
 				"Well there's challenges, they will make the game harder and weirder. Don't cheat!!"
-				""
-				"&lChallenges that are up there are EXTREMELY, SCARINGLY CHALLENGING."
 			]
 			icon: {
 				Count: 1

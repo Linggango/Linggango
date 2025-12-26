@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "a_home"
-	group: "3B5FC78CC89E4CD7"
-	id: "477909BE24DADB0F"
+	filename: "meet_your_fight"
+	group: "62B6EA0538DBB088"
+	id: "7C67D6C6173A83C9"
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
-	title: "Building your house"
+	title: "Meet Your Fight"
 }

@@ -4,7 +4,7 @@
 	default_quest_shape: "pentagon"
 	filename: "immersive_engineering"
 	group: "3C6437AAADAFC5CB"
-	icon: "immersiveengineering:wirecoil_copper"
+	icon: "immersiveengineering:manual"
 	id: "3DAD57E3F71B4E27"
 	images: [
 		{

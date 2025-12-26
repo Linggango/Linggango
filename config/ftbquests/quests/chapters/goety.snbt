@@ -9,7 +9,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "goety_cataclysm:item/arcane_spirit"
+			Icon: "goety:item/crone_hat"
 		}
 	}
 	id: "4E8B5FE547EA181F"

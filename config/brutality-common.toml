@@ -3,7 +3,7 @@
 	#Should Seventh Star Projectiles break blocks (Default = False)
 	seventhStarShouldBreakBlocks = true
 	#Should Atomic Judgement break blocks (Default = False)
-	atomicJudgementShouldBreakBlocks = true
+	atomicJudgementShouldBreakBlocks = false
 	#Atomic Judgement explosion multiplier (Default = 1.0)
 	#Range: 0.0 ~ 10.0
 	atomicJudgementExplosionMultiplier = 1.0

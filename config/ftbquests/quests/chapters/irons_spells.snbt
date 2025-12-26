@@ -7,19 +7,9 @@
 	group: "20D67F7F184680D5"
 	icon: {
 		Count: 1
-		id: "irons_spellbooks:hither_thither_wand"
+		id: "ftbquests:custom_icon"
 		tag: {
-			ISB_Spells: {
-				data: [{
-					id: "irons_spellbooks:portal"
-					index: 0
-					level: 1
-					locked: 1b
-				}]
-				maxSpells: 1
-				mustEquip: 0b
-				spellWheel: 1b
-			}
+			Icon: "irons_spellbooks:item/common_ink"
 		}
 	}
 	id: "529863295F3FB653"
@@ -4780,7 +4770,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -4824,7 +4814,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -4854,7 +4844,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -5735,7 +5725,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -5765,7 +5755,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -6313,6 +6303,30 @@
 			title: "The Howling Of Tempest"
 			x: 0.0d
 			y: 20.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "36CC29620C8341CD"
+			shape: "square"
+			subtitle: "Magnetic Spellbook"
+			tasks: [{
+				id: "41D65477FF887CC3"
+				item: {
+					Count: 1
+					id: "traveloptics:the_diamantic_archive"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
 		}
 	]
 	title: "Iron's Spells"

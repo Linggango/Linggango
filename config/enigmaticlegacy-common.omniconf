@@ -478,7 +478,7 @@
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletVesselEnabled=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3
@@ -770,8 +770,8 @@
 ##########################################################################################################
 
 "The Seven Curses" {
-    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
-    I:CursedRingArmorDebuff=30
+    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 80, synchronized: yes]
+    I:CursedRingArmorDebuff=60
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
     B:CursedRingAutoEquip=false
@@ -779,8 +779,8 @@
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
     B:CursedRingEnableSpecialDrops=true
 
-    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
-    I:CursedRingEnchantingBonus=10
+    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 80, synchronized: yes]
+    I:CursedRingEnchantingBonus=80
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
     D:CursedRingEndermenRandomportFrequency=1.0
@@ -791,17 +791,17 @@
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
     I:CursedRingExperienceBonus=400
 
-    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingFortuneBonus=1
+    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 7, synchronized: yes]
+    I:CursedRingFortuneBonus=7
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingKnockbackDebuff=200
 
-    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingLootingBonus=1
+    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 7, synchronized: yes]
+    I:CursedRingLootingBonus=7
 
-    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
-    I:CursedRingMonsterDamageDebuff=50
+    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 0, synchronized: yes]
+    I:CursedRingMonsterDamageDebuff=0
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
     S:CursedRingNeutralAngerBlacklist <

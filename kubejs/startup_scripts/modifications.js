@@ -120,9 +120,12 @@ ItemEvents.modification(e => {
     "knightsnmages:dark_knight_boots",
   ].forEach(id => {
     e.modify(id, item => {
+      // SET DURABILITY HERE
+      item.maxDamage = 4000 
+
       item.addAttribute(
         "minecraft:generic.armor",
-        $UUID.randomUUID(),
+        "d8e0e03e-6705-4c0e-8558-4c1729098491", // See note below!
         "Armor",
         25.0,
         "addition"
@@ -130,7 +133,7 @@ ItemEvents.modification(e => {
 
       item.addAttribute(
         "minecraft:generic.armor_toughness",
-        $UUID.randomUUID(),
+        "3d996614-2c6b-4e12-b5e1-0f7238711130",
         "Armor toughness",
         10.0,
         "multiply_base"
@@ -138,7 +141,7 @@ ItemEvents.modification(e => {
 
       item.addAttribute(
         "irons_spellbooks:blood_spell_power",
-        $UUID.randomUUID(),
+        "f4f8997a-2453-4811-9252-475269382218",
         "Blood Power",
         0.3,
         "multiply_base"
@@ -146,7 +149,7 @@ ItemEvents.modification(e => {
 
       item.addAttribute(
         "minecraft:generic.max_health",
-        $UUID.randomUUID(),
+        "a7465910-4859-4252-9447-975262788506",
         "Max health",
         20.0,
         "addition"

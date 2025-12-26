@@ -1,9 +1,3 @@
-netherite = 4, 5
-elvenite = 6
-voiderite = 7
-bloody = 8, 9
-helionite = 12
-
 Pickaxes have:
 Steel - 0
 Tin - 1

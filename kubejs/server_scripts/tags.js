@@ -190,15 +190,3 @@ ServerEvents.tags("block", e => {
     "ancient_elements:galactric_debris"
   ]);
 });
-
-ServerEvents.tags("item", e => {
-  [
-    "forge:ingots/steel",
-    "ad_astra:steel_ingot"
-  ].forEach(tag =>
-    e.add(tag, [
-      "ancient_elements:steel_ingot",
-      "lethality:improbability_steel"
-    ])
-  );
-});

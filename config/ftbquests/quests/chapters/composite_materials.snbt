@@ -116,8 +116,8 @@
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.8567100294338985d
-			y: -3.81654531341006d
+			x: 4.785714285714285d
+			y: -3.6785714285714306d
 		}
 		{
 			height: 0.5d
@@ -142,8 +142,8 @@
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -13.0d
+			x: -4.0d
+			y: -14.5d
 		}
 		{
 			height: 3.0d
@@ -242,10 +242,9 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "composite_material:item/etherite_sword_reinforced_large"
+					Icon: "composite_material:item/reinforced_book"
 				}
 			}
-			icon_scale: 1.2d
 			id: "5B405969C6A4170B"
 			rewards: [{
 				id: "7522850D2C6B935F"
@@ -253,7 +252,7 @@
 				xp: 25
 			}]
 			shape: "square"
-			size: 1.6d
+			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{

@@ -4,7 +4,7 @@
 	default_quest_shape: "woodtier"
 	filename: "storage_solutions"
 	group: "3C6437AAADAFC5CB"
-	icon: "sophisticatedbackpacks:backpack"
+	icon: "minecraft:chest"
 	id: "5F6B7CD03DAE57CA"
 	images: [
 		{

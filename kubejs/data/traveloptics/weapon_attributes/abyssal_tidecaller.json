@@ -1,0 +1,67 @@
+{
+  "attributes": {
+    "attack_range": 3.5,
+    "pose": "simplyswords:pose_soulrender",
+    "two_handed": false,
+    "category": "scythe",
+    "attacks": [
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:one_handed_swipe_vertical_rl",
+        "swing_sound": {
+          "id": "simplyswords:elemental_sword_sci-fi_attack_02",
+          "volume": 0.3,
+          "pitch": 1.2
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:one_handed_swipe_vertical_lr",
+        "swing_sound": {
+          "id": "simplyswords:elemental_sword_sci-fi_attack_02",
+          "volume": 0.3,
+          "pitch": 1.2
+        }
+      },
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.4,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:axe_double_updown",
+        "swing_sound": {
+          "id": "simplyswords:elemental_sword_sci-fi_attack_02",
+          "volume": 0.3,
+          "pitch": 1.2
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:axe_updown_rl",
+        "swing_sound": {
+          "id": "simplyswords:elemental_sword_sci-fi_attack_02",
+          "volume": 0.3,
+          "pitch": 1.2
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:axe_updown_lr",
+        "swing_sound": {
+          "id": "simplyswords:elemental_sword_sci-fi_attack_01",
+          "volume": 0.3,
+          "pitch": 1.2
+        }
+      }
+    ]
+  }
+}

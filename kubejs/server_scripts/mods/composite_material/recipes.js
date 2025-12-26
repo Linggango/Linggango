@@ -161,7 +161,7 @@ ServerEvents.recipes(e => {
     B: "composite_material:copper_helmet",
   });
 
-  e.shaped("composite_material:perkin", ["ABC", "DED", "FAG"], {
+  e.shaped("2x composite_material:perkin", ["ABC", "DED", "FAG"], {
     A: "minecraft:experience_bottle",
     B: "minecraft:honey_bottle",
     C: "minecraft:dragon_breath",

@@ -9,7 +9,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "terramity:item/sword_of_the_imprisoned_shrunk"
+			Icon: "minecraft:item/iron_sword"
 		}
 	}
 	id: "5DE05839F7DB07F6"

@@ -92,7 +92,7 @@
 			y: -4.0d
 		}
 	]
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
