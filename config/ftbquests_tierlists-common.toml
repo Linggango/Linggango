@@ -69,7 +69,7 @@
 	armorChapterTitle = "Armor Tierlist"
 	#Optional group ID to assign generated chapters to
 	#chapter_group = "732C19DBA160D9E8"
-	chapter_group = ""
+	chapter_group = "732C19DBA160D9E8"
 	#Optional index within the chapter group to insert generated chapters at. Empty value means quests would be last
 	index_in_chapter_group = "0"
 	#Icon for the weapon chapter (modid:itemname)
