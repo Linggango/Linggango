@@ -49,7 +49,7 @@
 	#Example: "emi:smithing_trim" to skip armor trim recipes
 	#Common categories to skip:
 	#  - emi:anvil_repairing (anvil repairs)
-	skippedEmiCategories = ["emi:anvil_repairing", "ars_nouveau:armor_upgrade", "adamsarsplus:a_armor_upgrade", "ars_nouveau:netherite_upgrade"]
+	skippedEmiCategories = ["emi:anvil_repairing", "ars_nouveau:armor_upgrade", "adamsarsplus:a_armor_upgrade", "ars_nouveau:netherite_upgrade", "embers:dawnstone_anvil"]
 	#Items to completely skip during tierlist generation
 	#Format: "modid:itemname"
 	#Example: "minecraft:wooden_sword", "create:copper_sword"
@@ -64,15 +64,16 @@
 	#Chapter ID for armor tierlist
 	armorChapterId = "autotierlist_armor"
 	#Translatable title key for weapon chapter
-	weaponChapterTitle = "ftbquests_tierlists.chapter.weapons.title"
+	weaponChapterTitle = "Weapon Tierlist"
 	#Translatable title key for armor chapter
-	armorChapterTitle = "ftbquests_tierlists.chapter.armor.title"
+	armorChapterTitle = "Armor Tierlist"
 	#Optional group ID to assign generated chapters to
-	chapter_group = "732C19DBA160D9E8"
+	#chapter_group = "732C19DBA160D9E8"
+	chapter_group = ""
 	#Optional index within the chapter group to insert generated chapters at. Empty value means quests would be last
 	index_in_chapter_group = "0"
 	#Icon for the weapon chapter (modid:itemname)
-	weapon_chapter_icon = "terramity:sword_of_the_imprisoned_shrunk"
+	weapon_chapter_icon = "terramity:sword_of_the_imprisoned"
 	#Icon for the armor chapter (modid:itemname)
 	armor_chapter_icon = "composite_material:etherite_chestplate"
 
