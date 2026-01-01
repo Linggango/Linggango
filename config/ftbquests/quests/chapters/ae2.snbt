@@ -5,7 +5,7 @@
 	default_quest_shape: "irontier"
 	filename: "ae2"
 	group: "3C6437AAADAFC5CB"
-	icon: "ae2:charged_certus_quartz_crystal"
+	icon: "ae2:controller"
 	id: "33309D13991D7983"
 	images: [
 		{
@@ -46,7 +46,7 @@
 			y: -8.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

@@ -9,7 +9,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "block_factorys_bosses:item/knight"
+			Icon: "block_factorys_bosses:item/large_sword"
 		}
 	}
 	id: "084C60296473EF4E"
@@ -1263,7 +1263,7 @@
 				""
 				"{image:customtextures:textures/netheritemont.png width:250 height:100 align:center}"
 			]
-			icon: "cataclysm:monstrous_eye"
+			icon: "cataclysm:netherite_effigy"
 			id: "199DC3A3AD90A47B"
 			min_required_tasks: 1
 			rewards: [{
@@ -1276,7 +1276,7 @@
 			size: 1.2d
 			subtitle: "Nether"
 			tasks: [{
-				entity: "goety_cataclysm:netherite_monstrosity"
+				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:netherite_effigy"
 				id: "0F64B8BF53DA0DFA"
 				title: "&cNetherite Monstrosity"
@@ -2735,7 +2735,6 @@
 			optional: true
 			progression_mode: "linear"
 			rewards: [{
-				auto: "enabled"
 				command: "/summon eeeabsmobs:immortal"
 				elevate_perms: true
 				icon: {
@@ -2747,7 +2746,7 @@
 				}
 				id: "6F406159952BF52B"
 				silent: true
-				title: "Summoning Immortal"
+				title: "Summon Immortal"
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2786,7 +2785,7 @@
 			size: 1.2d
 			subtitle: "Underground"
 			tasks: [{
-				entity: "goety:hostile_redstone_monstrosity"
+				entity: "goety:redstone_monstrosity"
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
@@ -2827,7 +2826,7 @@
 			size: 1.2d
 			subtitle: "Underground"
 			tasks: [{
-				entity: "goety:redstone_golem"
+				entity: "goety:hostile_redstone_golem"
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"

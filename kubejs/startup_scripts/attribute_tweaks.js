@@ -14,7 +14,7 @@ EntityJSEvents.attributes(e => {
   e.modify("minecraft:skeleton", attributes => {
     attributes.add("minecraft:generic.max_health", 10);
     attributes.add("minecraft:generic.attack_damage", 4.5);
-    attributes.add("minecraft:generic.movement_speed", 0.2);
+    attributes.add("minecraft:generic.movement_speed", 0.25);
   });
 
   e.modify("armageddon_mod:eldoraththe_ancient_builder", attributes => {
@@ -137,7 +137,7 @@ EntityJSEvents.attributes(e => {
   e.modify("minecraft:ender_dragon", attributes => {
     attributes.add("minecraft:generic.attack_damage", 60);
     attributes.add("minecraft:generic.max_health", 6500);
-    attributes.add("minecraft:generic.armor", 35);
+    attributes.add("minecraft:generic.armor", 55);
     attributes.add("minecraft:generic.armor_toughness", 50);
   });
 

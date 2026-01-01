@@ -1,0 +1,41 @@
+{
+  "attributes": {
+    "attack_range": 3.75,
+    "pose": "bettercombat:pose_two_handed_heavy",
+    "two_handed": true,
+    "category": "hammer",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 0.85,
+        "angle": 140,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "swing_sound": {
+          "id": "alexscaves:magnetron_assemble"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 0.85,
+        "angle": 140,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "swing_sound": {
+          "id": "alexscaves:magnetron_assemble"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.6,
+        "animation": "bettercombat:two_handed_slam",
+        "swing_sound": {
+          "id": "legendary_monsters:anchor_slam",
+          "pitch": 0.8
+        }
+      }
+    ]
+  }
+}

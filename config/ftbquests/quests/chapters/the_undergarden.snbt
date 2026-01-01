@@ -61,7 +61,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Big jungle in underground :O"]
 			icon: "undergarden:grongle_sapling"
 			id: "647A87E800C703C3"
 			rewards: [{
@@ -71,7 +70,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:gronglegrowth"
 				icon: "undergarden:grongle_sapling"
@@ -84,7 +82,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["This nasty water is basically the ocean of undergarden."]
 			icon: "undergarden:glitterkelp"
 			id: "353AEEC116A5DEEF"
 			rewards: [{
@@ -94,7 +91,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:ancient_sea"
 				icon: "undergarden:glitterkelp"
@@ -107,7 +103,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Wiggle wiggle wiggle forest"]
 			icon: "undergarden:wigglewood_sapling"
 			id: "050D8480EE9D8E62"
 			rewards: [{
@@ -117,7 +112,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:wigglewood_forest"
 				icon: "undergarden:wigglewood_sapling"
@@ -130,7 +124,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Plains of the undergarden but with no trees?.."]
 			icon: "undergarden:depthrock_bricks"
 			id: "4E3D548E5D8D7D26"
 			rewards: [{
@@ -152,7 +145,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["These veils look like.. uhh."]
 			icon: "undergarden:veil_mushroom"
 			id: "7E3DA4168D352B42"
 			rewards: [{
@@ -162,7 +154,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:veil_mushroom_bog"
 				icon: "undergarden:veil_mushroom"
@@ -175,7 +166,7 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["This greataxe with knockback II is fun."]
+			description: ["This greataxe with knockback II aand pulsation is fun."]
 			id: "0D91A6B36BD2F526"
 			rewards: [{
 				id: "5C97016990826793"
@@ -202,7 +193,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Barren and bleak."]
 			icon: "undergarden:depthrock"
 			id: "36389696767EFB4E"
 			rewards: [{
@@ -224,7 +214,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Big bloody fockin moshrooms mate"]
 			icon: "undergarden:blood_mushroom"
 			id: "06D13E319C26C949"
 			rewards: [{
@@ -234,7 +223,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:blood_mushroom_bog"
 				icon: "undergarden:blood_mushroom"
@@ -247,7 +235,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Basically a deadsea. No kelps no live nun!"]
 			icon: "undergarden:sediment"
 			id: "1BAE1519E44E40CE"
 			rewards: [{
@@ -269,7 +256,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Name says it all."]
 			icon: "undergarden:deepturf_block"
 			id: "15A8F04BC10E619E"
 			rewards: [{
@@ -291,7 +277,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["One of the cold biomes of the undergarden. Filled with lots of icesicles!"]
 			icon: "undergarden:frozen_deepturf_block"
 			id: "1E13D7CE5A9EFF74"
 			rewards: [{
@@ -301,7 +286,6 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:frostfields"
 				icon: "minecraft:snow_block"
@@ -314,7 +298,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["A neighbor to the frostfields, has trees!"]
 			icon: "undergarden:blood_mushroom_stem"
 			id: "0C98503A2F20484D"
 			rewards: [{
@@ -324,7 +307,6 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:frosty_smogstem_forest"
 				icon: "undergarden:frozen_deepturf_block"
@@ -337,7 +319,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Shrinking balls while entering this sea "]
 			icon: "ecologics:thin_ice"
 			id: "073BA8470EA37A00"
 			rewards: [{
@@ -347,7 +328,6 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:icy_sea"
 				icon: "minecraft:packed_ice"
@@ -360,7 +340,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Again a mushroom biome! with no blood this time."]
 			icon: "undergarden:indigo_mushroom"
 			id: "0A0A991BAC99092C"
 			rewards: [{
@@ -370,7 +349,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:indigo_mushroom_bog"
 				icon: "undergarden:indigo_mushroom"
@@ -383,7 +361,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["An another mushroom biome with beautiful purple mushrooms!"]
 			icon: "undergarden:ink_mushroom"
 			id: "278D34BBC13356DF"
 			rewards: [{
@@ -393,7 +370,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:ink_mushroom_bog"
 				icon: "undergarden:ink_mushroom"
@@ -406,7 +382,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Berries berries but dangerous."]
 			icon: "undergarden:smog_vent"
 			id: "511144EF336BFAF5"
 			rewards: [{
@@ -428,7 +403,6 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Mushrooms and trees together."]
 			icon: "undergarden:smogstem_sapling"
 			id: "43FD4AEBB9548E57"
 			rewards: [{
@@ -438,7 +412,6 @@
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
 			tasks: [{
 				biome: "undergarden:smogstem_forest"
 				icon: "undergarden:smogstem_sapling"
@@ -452,7 +425,7 @@
 		{
 			description: [
 				"In order to enter the Undergarden, you have to create a portal just like nether but with stone bricks!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"Instead of lighting it up with a lighter, we need something else, a catalyst!"
 			]
 			icon: {

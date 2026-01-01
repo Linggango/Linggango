@@ -1,0 +1,7 @@
+{
+  "color": "#FF4500",
+  "level": 8,
+  "icons": {
+    "minecraft:mineable/pickaxe": "ancient_elements:spectrillium_pickaxe"
+  }
+}

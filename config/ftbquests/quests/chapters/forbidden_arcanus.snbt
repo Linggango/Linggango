@@ -8,7 +8,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "forbidden_arcanus:item/enchanted_soul"
+			Icon: "forbidden_arcanus:item/tool/netherite_blacksmith_gavel"
 		}
 	}
 	id: "6BAB5E4EEFE28AF7"

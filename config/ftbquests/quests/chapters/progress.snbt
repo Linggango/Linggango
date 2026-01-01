@@ -30,8 +30,8 @@
 			image: "born_in_chaos_v1:textures/mob_effect/dark_splash.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 9.0d
-			y: -12.5d
+			x: -13.0d
+			y: -9.5d
 		}
 		{
 			click: "A"
@@ -96,8 +96,8 @@
 			image: "armageddon_mod:item/elvenite_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -5.0d
+			x: -4.0d
+			y: -8.5d
 		}
 		{
 			click: "a"
@@ -107,30 +107,19 @@
 			image: "armageddon_mod:item/voiderite_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
-			y: -6.0d
+			x: -6.0d
+			y: -8.5d
 		}
 		{
 			click: "a"
-			dependency: "5C70A89677BEAE60"
+			dependency: "4BFFC4F93792C4F7"
 			height: 1.0d
 			hover: ["Unlocks Bloody Ingot"]
 			image: "armageddon_mod:item/bloody_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: -7.5d
-		}
-		{
-			click: "a"
-			dependency: "25326B961DE6B5EA"
-			height: 1.0d
-			hover: ["Unlocks Helionite"]
-			image: "armageddon_mod:item/helionite_nugget"
-			rotation: -90.0d
-			width: 1.0d
-			x: 8.0d
-			y: -10.0d
+			x: -9.0d
+			y: -5.5d
 		}
 		{
 			dev: true
@@ -139,8 +128,8 @@
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.0d
-			y: -14.0d
+			x: -10.0d
+			y: -13.0d
 		}
 		{
 			dependency: "19F19149E61D93AD"
@@ -159,8 +148,8 @@
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.9820425880923054d
-			y: -7.7481087281730225d
+			x: -1.0d
+			y: -7.5d
 		}
 		{
 			click: "a"
@@ -190,6 +179,17 @@
 			x: -10.0d
 			y: -18.0d
 		}
+		{
+			click: "a"
+			dependency: "25326B961DE6B5EA"
+			height: 1.0d
+			hover: ["Unlocks Helionite"]
+			image: "armageddon_mod:item/blessed_ingot_of_the_sun"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.5d
+			y: -5.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -202,12 +202,6 @@
 				"{image:customtextures:textures/ironoreerror.png width:200 height:30 align:center}"
 				""
 				"Minecraft's main ores are now guarded by powerful bosses. To proceed, you must challenge the &cIron Colossus!&r Craft the Iron Remote, and summon him!"
-				""
-				"&dRecommended armor:"
-				""
-				"-The Chainmail Armor Set"
-				""
-				"-The Sterling Armor Set"
 			]
 			id: "5D3E8E9BCD0A9935"
 			rewards: [
@@ -251,7 +245,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "39392EAA73398E23"
@@ -281,7 +275,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "minecraft:item/iron_sword"
+					Icon: "composite_material:item/ancient_book"
 				}
 			}
 			id: "79097B7E3E4E2782"
@@ -309,14 +303,9 @@
 					}
 					type: "item"
 				}
-				{
-					id: "043AA8D7DCBF7567"
-					item: "born_in_chaos_v1:evilometer"
-					type: "item"
-				}
 			]
-			shape: "rsquare"
-			size: 1.5d
+			shape: "square"
+			size: 1.35d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
@@ -347,13 +336,7 @@
 		}
 		{
 			dependencies: ["5D3E8E9BCD0A9935"]
-			description: [
-				"Same with iron, in order to get to gold ingot, we need to kill &cThe Goblin Lord&r"
-				""
-				"&dRecommended armor:&r Iron Armor Set,"
-				""
-				"Silver Armor Set."
-			]
+			description: ["Same with iron, in order to get to gold ingot, we need to kill &cThe Goblin Lord&r"]
 			icon_scale: 1.2d
 			id: "7D0C439E5D207DDE"
 			rewards: [
@@ -369,7 +352,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2AEC50CF84DFB0EE"
@@ -393,16 +376,6 @@
 				""
 				"Defeating this formidable foe will unlock a vast new tier of weapons and armor, including access to &2Emerald&r crafting materials."
 				""
-				"&dRecommended Armor:&r"
-				""
-				"-Gilded Armor Set"
-				""
-				"-Bronze Armor Set"
-				""
-				"-Cloggrum Armor Set"
-				""
-				"-Copper Armor Set"
-				""
 				"&eNote: Emerald Totem is crafted through Create Compacting."
 			]
 			id: "4F34F740CD095315"
@@ -425,7 +398,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "694DA8D87F0DA4F3"
@@ -450,12 +423,6 @@
 				"Defeating this boss will unlock a powerful new arsenal of weapons, access to core enchanting mechanics, and the key to &bDiamond&r crafting."
 				""
 				"&cImportant:&r Be sure to bring bucket of water to mitigate fall damage."
-				""
-				"&dRecommended Armor:&r"
-				""
-				"-Osmium Armor Set"
-				""
-				"-Necromium Armor Set"
 			]
 			id: "2EAC826E47A3A682"
 			rewards: [
@@ -471,7 +438,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3FD1CCE976B9831B"
@@ -496,12 +463,6 @@
 				"Defeating this powerful boss will unlock a wealth of new weapons and armor, granting you access to the &eNetherite."
 				""
 				"Warning: Zoranth can only be spawned within the Nether Dimension."
-				""
-				"&dRecommended Armor:&r"
-				""
-				"-Crystallized Armor Set"
-				""
-				"-Obsidian Armor Set"
 			]
 			id: "297F31BB6030C00F"
 			rewards: [
@@ -517,7 +478,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7C71359E6E149A5C"
@@ -541,10 +502,6 @@
 				""
 				"This material allows you to craft numerous powerful swords and a complete armor set. Of course, access to this valuable resource is gated by another boss challenge."
 				""
-				"&dRecommended Armor:&r"
-				""
-				"-Refined Obsidian Armor Set"
-				""
 				"&eNote: Titan's insignia is crafted through Create Heated Compacting."
 			]
 			id: "231B06216159E95A"
@@ -561,7 +518,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0E74AD81045EEB1A"
@@ -575,8 +532,8 @@
 				type: "item"
 			}]
 			title: "Accessing The Elvenite"
-			x: -2.0d
-			y: -5.0d
+			x: -4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["231B06216159E95A"]
@@ -584,10 +541,6 @@
 				"Vaedric was once a solitary wanderer of the End Dimension. You can say it was a journey that, unfortunately, did not end well for him."
 				""
 				"Defeating this entity will unlock Voiderite!"
-				""
-				"&dRecommended Armor:&r"
-				""
-				"-Elvenite Armor Set with Enhanced Protection IV"
 				""
 				"&7&lNote: You must summon him on the Outer End Islands."
 			]
@@ -605,7 +558,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7F803DA0A30DEC5E"
@@ -618,8 +571,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4E97AB0CAB1A3763"]
@@ -627,12 +580,6 @@
 				"Defeating this entity is crucial, as it drops a key item required for all incoming boss encounters."
 				""
 				"Be warned: this foe is immortal for a short duration during its second phase!"
-				""
-				"&dRecommended Armor:&r"
-				""
-				"-Voiderite Armor Set (enchanted with Enhanced Protection IV)"
-				""
-				"It is highly recommended you bring plenty of Golden Apples for the fight."
 				""
 				"&8Go create your own build from now on."
 			]
@@ -656,7 +603,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7BD2921B77B302C6"
@@ -669,8 +616,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["338DD0DDABBF130D"]
@@ -696,7 +643,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7371A1AA3D9C1A4A"
@@ -709,8 +656,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: -10.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
@@ -773,8 +720,8 @@
 				}
 			]
 			title: "Craft an Ankh Tablet"
-			x: 12.0d
-			y: -5.0d
+			x: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
@@ -805,7 +752,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4359AEA5A7EC91E3"
@@ -819,8 +766,8 @@
 				type: "item"
 			}]
 			title: "Accessing The Blood!"
-			x: 9.0d
-			y: -7.5d
+			x: -10.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
@@ -843,7 +790,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			size: 1.2d
+			size: 1.45d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2A6C4BFBB6B26F6D"
@@ -857,8 +804,8 @@
 				type: "item"
 			}]
 			title: "Accessing The Helionate!"
-			x: 9.0d
-			y: -10.0d
+			x: -13.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["647CCE4CA1600E21"]
@@ -894,7 +841,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.7d
+			size: 2.0d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
@@ -921,8 +868,8 @@
 				}
 			]
 			title: "The Main Reason Of Corruption"
-			x: 9.0d
-			y: -12.5d
+			x: -13.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
@@ -930,12 +877,6 @@
 				"&cThe Ender Dragon&r is among the most ancient creatures in existence. She guards the gates to the End Cities until her final breath."
 				""
 				"There is a profound reason she has survived for so long. Upon her death, she will drop the unique material known as &eKhyros's Tears.&r"
-				""
-				"&dRecommended Armor:&r"
-				""
-				"-Refined Obsidian Armor Set"
-				""
-				"-Dark Metal Armor Set"
 				""
 				"&4&lWARNING!&r This encounter represents a major difficulty jump from previous challenges."
 			]
@@ -957,7 +898,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "End / Main island"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -968,8 +909,8 @@
 				value: 1L
 			}]
 			title: "Kill&c The Ender Dragon"
-			x: -1.9820425880923054d
-			y: -7.7481087281730225d
+			x: -2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
@@ -989,7 +930,7 @@
 				xp: 1
 			}]
 			shape: "square"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "Opens the eye shop"
 			tasks: [{
 				id: "2B699C669419D85D"
@@ -1449,7 +1390,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.0d
+			size: 1.2d
 			subtitle: "Lucky &mBlocks&r Dices!"
 			tasks: [{
 				id: "6ACEE3AA66C01647"
@@ -1490,7 +1431,7 @@
 				xp: 1
 			}]
 			shape: "square"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "Didn't had enough?"
 			tasks: [{
 				id: "2854EB5AD76019A3"
@@ -1498,8 +1439,8 @@
 				type: "checkmark"
 			}]
 			title: "&dGambling&r &aActivator"
-			x: 2.0d
-			y: -3.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -1523,8 +1464,8 @@
 				title: "Low risk reward"
 				type: "random"
 			}]
-			shape: "hexagon"
-			size: 1.0d
+			shape: "square"
+			size: 1.25d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1534,8 +1475,8 @@
 				type: "item"
 			}]
 			title: "-&aLow risk-"
-			x: 1.5d
-			y: -1.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -1558,8 +1499,8 @@
 				title: "Medium Risk"
 				type: "random"
 			}]
-			shape: "hexagon"
-			size: 1.0d
+			shape: "square"
+			size: 1.25d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1569,8 +1510,8 @@
 				type: "item"
 			}]
 			title: "-&eMedium Risk-"
-			x: 2.5d
-			y: -1.0d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -1593,8 +1534,8 @@
 				title: "High Risk"
 				type: "random"
 			}]
-			shape: "hexagon"
-			size: 1.0d
+			shape: "square"
+			size: 1.25d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1604,8 +1545,8 @@
 				type: "item"
 			}]
 			title: "-&6High Risk&r-"
-			x: 1.5d
-			y: -2.0d
+			x: -6.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1628,8 +1569,8 @@
 				title: "&4SUPER RISK!"
 				type: "random"
 			}]
-			shape: "hexagon"
-			size: 1.0d
+			shape: "square"
+			size: 1.25d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1639,8 +1580,8 @@
 				type: "item"
 			}]
 			title: "-&cSUPER RISK&r-"
-			x: 2.5d
-			y: -2.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			disable_toast: true
@@ -1654,12 +1595,14 @@
 				type: "command"
 			}]
 			size: 1.0d
+			subtitle: "background stuff"
 			tasks: [{
 				elapsedTime: 3L
 				id: "1C500F8A4BA14B7E"
 				title: "INVCLEANER"
 				type: "questsadditions:time"
 			}]
+			title: "inventory cleaner"
 			x: 1.0d
 			y: 37.0d
 		}
@@ -1721,8 +1664,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -8.0d
+			x: -11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
@@ -1741,8 +1684,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.0d
+			x: -9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["338DD0DDABBF130D"]
@@ -1768,13 +1711,14 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -7.5d
+			x: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["19F19149E61D93AD"]
 			id: "35DDA00473CAD95A"
 			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "7FA30093088548D6"
 				item: {
@@ -1793,6 +1737,7 @@
 			dependencies: ["19F19149E61D93AD"]
 			id: "28BC42C468822F49"
 			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "693E6A8F2827609D"
 				item: {
@@ -1833,7 +1778,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.2d
+			size: 1.25d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
@@ -1853,19 +1798,46 @@
 			y: -10.5d
 		}
 		{
-			id: "7E73ED46222113B3"
-			rewards: [{
-				auto: "enabled"
-				id: "16EBA1E0711ABE62"
-				item: "ftbquests:book"
-				type: "item"
-			}]
+			id: "65447435305B2B2B"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "40373C8D5DE5D36E"
+					item: "ftbquests:book"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "28BB93D2F3F6D09E"
+					item: "enigmaticlegacy:cursed_ring"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "40A05B8E06B94F3E"
+					item: "covenant_of_the_seven:virtue_ring"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6C95ABE504F26F79"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					only_one: true
+					type: "item"
+				}
+			]
+			subtitle: "background stuff"
 			tasks: [{
-				elapsedTime: 6L
-				id: "301774D23CB3439E"
+				elapsedTime: 8L
+				id: "63D26F1794A569FE"
 				type: "questsadditions:time"
 			}]
-			x: 3.0d
+			title: "item giver"
+			x: 2.0d
 			y: 37.0d
 		}
 	]

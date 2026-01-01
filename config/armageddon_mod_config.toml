@@ -35,11 +35,11 @@
 
 	[Hardmode.hardmode_health_modifier]
 		#This number increases the life of entities when entering hardmode troughout a multiplication. Default = 2.5 and don't forget the number and the dot
-		hardmode_health_modifier = 3.7
+		hardmode_health_modifier = 3.5
 
 	[Hardmode.hardmode_damage_modifier]
 		#This number increases the damages of entities when entering hardmode troughout a multiplication. Default = 2.0 and don't forget the number and the dot
-		hardmode_damage_modifier = 4.1
+		hardmode_damage_modifier = 4.2
 
 ["Gapple Sickness"]
 

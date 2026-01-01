@@ -1,0 +1,7 @@
+{
+  "color": "#8A2BE2",
+  "level": 6,
+  "icons": {
+    "minecraft:mineable/pickaxe": "ancient_elements:aetherium_pickaxe"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "composite_material:allay_steel_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
+  },
+  "terramity:virentium_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
+  },
+  "terramity:cosmilite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
+  },
+  "terramity:dimlite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
+  },
+  "terramity:iridium_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
+  },
+  "minecraft:netherite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_five"
+  },
+  "armageddon_mod:elvenite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_six"
+  },
+  "terramity:conductite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_six"
+  },
+  "terramity:void_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_six"
+  },
+  "terramity:hellspec_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_six"
+  },
+  "evolvedmekanism:better_gold_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_six"
+  },
+  "cataclysm:void_forge": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_six"
+  },
+  "armageddon_mod:voiderite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_seven"
+  },
+  "composite_material:echoium_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_seven"
+  },
+  "terramity:exodium_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_seven"
+  },
+  "armageddon_mod:reverium_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_eight"
+  },
+  "armageddon_mod:unstable_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_eight"
+  },
+  "armageddon_mod:hollow_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_eight"
+  },
+  "armageddon_mod:the_hungery_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_eight"
+  },
+  "terramity:devastation": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_eight"
+  },
+  "armageddon_mod:bloody_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_nine"
+  },
+  "evolvedmekanism:plaslitherite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_nine"
+  },
+  "terramity:nyxium_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_nine"
+  },
+  "armageddon_mod:helionite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_twelve"
+  },
+  "composite_material:primitive_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_twelve"
+  },
+  "composite_material:etherite_pickaxe": {
+    "minecraft:mineable/pickaxe": "ancient_elements_tier_twelve"
+  }
+}

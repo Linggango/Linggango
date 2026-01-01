@@ -6,9 +6,9 @@
 	group: "3C6AB1DE39D4F441"
 	icon: {
 		Count: 1
-		id: "ftbquests:custom_icon"
+		id: "patchouli:guide_book"
 		tag: {
-			Icon: "simplyswords:item/runic_tablet"
+			"patchouli:book": "simplyswords:runic_grimoire"
 		}
 	}
 	id: "75316E8D631F174C"
@@ -70,6 +70,17 @@
 					count: 4
 					id: "5E12586E60A353E5"
 					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "28287BEAAE57900A"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
 					type: "item"
 				}
 			]

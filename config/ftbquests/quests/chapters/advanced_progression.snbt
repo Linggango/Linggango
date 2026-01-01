@@ -84,9 +84,9 @@
 			]
 			icon: {
 				Count: 1
-				id: "patchouli:guide_book"
+				id: "ftbquests:custom_icon"
 				tag: {
-					"patchouli:book": "terramity:terramity_guidebook"
+					Icon: "composite_material:item/disenchanted_book"
 				}
 			}
 			id: "43ACAF3A3EA50806"
@@ -96,7 +96,7 @@
 				xp: 5
 			}]
 			shape: "square"
-			size: 1.35d
+			size: 1.5d
 			subtitle: "In-game Wiki"
 			tasks: [{
 				disable_toast: true
@@ -552,7 +552,7 @@
 			description: [
 				"Don't forget to use spectral soul to duplicate it for later needs!"
 				""
-				"Because of some incompatiblities, the ore doesn't generate or hardly found."
+				"&cNeed to confirm if the ore generates in nether normally. Contact me on discord."
 			]
 			hide_dependency_lines: false
 			icon: {

@@ -4,7 +4,7 @@
 	default_quest_shape: "square"
 	filename: "create"
 	group: "3C6437AAADAFC5CB"
-	icon: "create:cogwheel"
+	icon: "create:wrench"
 	id: "27900E4479E6E12D"
 	images: [{
 		dev: true
@@ -16,7 +16,7 @@
 		x: -10.0d
 		y: -1.5d
 	}]
-	order_index: 4
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

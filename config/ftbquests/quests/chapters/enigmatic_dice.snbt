@@ -8,7 +8,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "enigmaticdice:item/enigmatic_die"
+			Icon: "enigmaticdice:item/ring_of_agility"
 		}
 	}
 	id: "4A00ED87BED283AE"

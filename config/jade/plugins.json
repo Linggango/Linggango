@@ -1,4 +1,7 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -51,6 +54,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -75,15 +82,17 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "adorablehamsterpets": {
-    "hamster_debug_info": true,
-    "hamster_bed_info": true,
-    "wild_bush_tooltips": true
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "infinitybuttons": {
     "hide_secret_buttons": true,
     "hide_lantern_buttons": true,
     "hide_torch_buttons": true
+  },
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -96,52 +105,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "goety": {
-    "block_owner": true,
-    "soul_energy": true,
-    "raider_leader": true,
-    "servant_mode": true,
-    "zombie_villager": true,
-    "villager_profession": true,
-    "train_to": true,
-    "summon_lifespan": true,
-    "trainable": true
-  },
-  "framedblocks": {
-    "framed_item_frame": true
-  },
-  "compactmachines": {
-    "machine": true,
-    "tunnel": true
-  },
-  "champions": {
-    "enable_affix_compact": true
-  },
-  "expatternprovider": {
-    "jade_chamber": true,
-    "jade_wireless": true
-  },
-  "balm": {
-    "jade": true
   },
   "modularrouters": {
     "router": true
@@ -159,14 +122,43 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
   "petrolpark": {
     "contamination": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "goety_revelation": {
     "rune_reactor_id": true,
     "runestone_id": true
+  },
+  "goety": {
+    "block_owner": true,
+    "soul_energy": true,
+    "raider_leader": true,
+    "servant_mode": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "train_to": true,
+    "summon_lifespan": true,
+    "trainable": true
   }
 }

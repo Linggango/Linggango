@@ -8,7 +8,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "ftbquests:item/book"
+			Icon: "fzzy_config:textures/gui/sprites/widget/entry_ok.png"
 		}
 	}
 	id: "21D04D37429B5EA5"
@@ -19,20 +19,10 @@
 			height: 1.0d
 			hover: ["Why not catch memories with your friends? "]
 			image: "ftblibrary:icons/friends"
-			rotation: 90.0d
+			rotation: 45.0d
 			width: 1.0d
-			x: 3.0d
-			y: -7.0d
-		}
-		{
-			click: "https://discord.gg/linggango"
-			height: 1.0d
-			hover: ["Join Linggango Discord Server!"]
-			image: "ars_nouveau:textures/gui/discord_tab.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.8838077871004941d
-			y: -6.99086999914249d
+			x: 2.8214285714285765d
+			y: -7.785714285714285d
 		}
 		{
 			height: 3.0d
@@ -40,7 +30,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.5d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			click: "a"
@@ -60,8 +50,27 @@
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -11.5d
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Like the project? Consider supporting!"]
+			image: "customtextures:textures/patreon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			click: "https://discord.gg/linggango"
+			height: 1.0d
+			hover: ["Official Linggango Discord Server!"]
+			image: "customtextures:textures/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.5d
 		}
 	]
 	order_index: 0
@@ -81,7 +90,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "quark:textures/emote/cheer.png"
+					Icon: "cofh_core:textures/gui/icons/icon_information.png"
 				}
 			}
 			icon_scale: 1.1d
@@ -96,16 +105,6 @@
 					count: 4
 					id: "01CFA19341BF13B4"
 					item: "minecraft:oak_log"
-					type: "item"
-				}
-				{
-					id: "685ACC91B4468CCB"
-					table_id: 8187598339445351107L
-					type: "random"
-				}
-				{
-					id: "30096648FC106BF9"
-					item: "enigmaticlegacy:cursed_ring"
 					type: "item"
 				}
 			]
@@ -144,7 +143,7 @@
 				""
 				"If you wanna know more about it just check here:"
 				""
-				"{ \"text\": \"Ring OF The Seven Curses\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1409F2EE726A20\" } }"
+				"{ \"text\": \"Ring Of The Seven Curses\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1409F2EE726A20\" } }"
 			]
 			icon_scale: 1.2d
 			id: "47E7012A860C9908"
@@ -228,7 +227,7 @@
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
 				"Some of Keybinds: "
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"\"&dN&r\" FTB Ultimine (breaks multiple blocks at once)"
 				""
 				"''&dZ&r'' Zoom"
@@ -239,17 +238,11 @@
 				""
 				"''&dR&r'' Roll (Dodge)"
 				""
-				"''&dO&r'' Voice chat menu (also enabling)"
-				""
 				"''&dM&r'' Map"
-				""
-				"\"&dI&r\" Chunk Claiming"
 				""
 				"''&dShift+B&r'' Open Backpack"
 				""
 				"''&dF&r\" Cast spell"
-				""
-				"\"&d';&r'' Mute Microphone"
 			]
 			icon: {
 				Count: 1
@@ -265,7 +258,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -274,8 +267,8 @@
 				type: "checkmark"
 			}]
 			title: "Keybinds"
-			x: -1.0d
-			y: -6.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -503,7 +496,7 @@
 				type: "xp"
 				xp: 1
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -512,8 +505,8 @@
 				type: "checkmark"
 			}]
 			title: "&bFTB&r Essentials"
-			x: 2.0d
-			y: -6.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -528,6 +521,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "pentagon"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -558,8 +552,8 @@
 				type: "item"
 			}]
 			title: "Explorer's Compass"
-			x: -1.0d
-			y: -5.0d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -629,9 +623,9 @@
 			dependencies: ["2F61EF4131AB4E54"]
 			description: [
 				"Just throw it into a hole and it will start expanding like crazy!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"There's other variations check jei to see "
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"@hole_filler_mod"
 			]
 			id: "08275C9A2F615AB1"
@@ -957,7 +951,7 @@
 			description: [
 				"Breaking grass or crops with a &aHoe&r will now break them in a 3x3 area."
 				"A &aDiamond Hoe&r will break a 5x5 area instead."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"You can add a &3Fortune enchantement&r to a &aHoe&r to get extra drops from grass and crops."
 			]
 			icon: {
@@ -1082,9 +1076,9 @@
 				"Up to a double chests worth!"
 				"One seat on the back."
 				"&6Shift&r + &6Right-Click&r to access the inventory!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"Press &6R&r for attach/detach &aCart&r."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"You can take a &aCart&r and hitch it even when you're on horseback."
 			]
 			id: "36C98DEFE8AE5788"
@@ -1298,9 +1292,9 @@
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
 				"It is also capable of transporting a sufficient amount of cargo."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"&aShields&r, also with banner patterns, can be attached to grant additional defense."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"With its icebreaker ability, it proves to be a promising vessel in cold and icy oceans."
 			]
 			icon: "smallships:oak_drakkar"
@@ -1536,7 +1530,7 @@
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
 				"Elytra allows you to float in the sky!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				""
 				"With fireworks and some artifacts you can also get a huge speed boost."
 			]
 			icon_scale: 1.3d
@@ -1583,7 +1577,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["Travel methods for land and sea."]
+			description: ["Travel methods for land and sea. There's also wagons that i didn't mention.. take a look in EMI"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1633,28 +1627,6 @@
 			}]
 			x: 2.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["19237C5BA8DDB6AF"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "brutality:item/curio/charm/spite_shard/spite_shard_inventory"
-				}
-			}
-			id: "5E18FABA8CEF0C72"
-			shape: "goldtier"
-			size: 1.0d
-			subtitle: "Tick to unlock \"challenges\" questline"
-			tasks: [{
-				id: "31B40E87616E4CC8"
-				title: "Yes, i do"
-				type: "checkmark"
-			}]
-			title: "&dWanna spice up your experience?"
-			x: 2.0d
-			y: -5.0d
 		}
 		{
 			dependencies: ["7A545E5DF48EDB9B"]
@@ -1764,7 +1736,17 @@
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
-			description: ["They're &coutdated&r as of now."]
+		 description: [
+  				"They're &coutdated&r as of now."
+  				""
+  				"To view which items are locked by a boss you should use EMI's tag search."
+  				""
+  				"Open inventory and type"
+  				""
+  				"    #forge:&9<tier>&r"
+  				""
+  				"where &9tier&r is one of: &firon&r, &egolden&r, &aemerald&r, &bdiamond&r, &0netherite&r, &6elvenite&r, &dvoiderite&r, &4bloody&r, &ehelionite"
+  			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2078,6 +2060,7 @@
 			dependencies: ["1E486494B5164856"]
 			id: "09064FBADD382415"
 			shape: "circle"
+			subtitle: "Places 9 blocks at once"
 			tasks: [{
 				id: "40DE490551457796"
 				item: {
@@ -2097,6 +2080,7 @@
 			dependencies: ["09064FBADD382415"]
 			id: "17B86EC69507C90C"
 			shape: "pentagon"
+			subtitle: "Places 27 blocks at once"
 			tasks: [{
 				id: "2C7F7DD870784BFB"
 				item: {
@@ -2116,6 +2100,7 @@
 			dependencies: ["17B86EC69507C90C"]
 			id: "6F2EEED9173AE2BF"
 			shape: "octagon"
+			subtitle: "Places 128 blocks at once"
 			tasks: [{
 				id: "3BCBA94345836425"
 				item: {
@@ -2135,6 +2120,7 @@
 			dependencies: ["6F2EEED9173AE2BF"]
 			id: "01EBF2288D43D333"
 			shape: "gear"
+			subtitle: "Places 1024 blocks at once"
 			tasks: [{
 				id: "0792BBCF9A0306A7"
 				item: {
@@ -2186,9 +2172,19 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["31EECB880BFA9F88"]
+			dependencies: ["19237C5BA8DDB6AF"]
+			description: [
+				"Nature's compass is not a ordinary compass. "
+				""
+				"It allows you to locate any biome without having to use OP commands!"
+			]
 			id: "4C373F050CB18168"
-			subtitle: "Now we locating biomes!"
+			rewards: [{
+				id: "736826F99BFD964F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "150A313D2D0FB590"
 				item: {
@@ -2198,8 +2194,103 @@
 				}
 				type: "item"
 			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19237C5BA8DDB6AF"]
+			description: [
+				"Ring Of The Seven Virtues is also a game-changing curio."
+				""
+				"For more information please check:"
+				""
+				"{ \"text\": \"Ring Of The Seven Virtues\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25B57A361188BAB3\" } }"
+			]
+			id: "084AD7DD6DEDF6C8"
+			shape: "pentagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "7D5B811C6BB6C6EB"
+				item: "covenant_of_the_seven:virtue_ring"
+				type: "item"
+			}]
 			x: -1.0d
-			y: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19237C5BA8DDB6AF"]
+			description: [
+				"Amulets provide you unique buffs at cost of nothing!"
+				""
+				"They're given to you at the start of the world making them nice for early-game."
+			]
+			id: "55A0C32438274E54"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "333118994581CFBE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.1f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.2f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.3f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.4f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.5f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.6f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.7f
+								}
+							}
+						]
+					}
+				}
+				title: "Any Amulet"
+				type: "item"
+			}]
+			title: "Amulets"
+			x: -1.0d
+			y: -5.0d
 		}
 	]
 	title: "Getting Started"

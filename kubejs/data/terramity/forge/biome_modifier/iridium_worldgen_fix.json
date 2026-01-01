@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "terramity:nether_iridium_ore",
+  "step": "underground_decoration"
+}

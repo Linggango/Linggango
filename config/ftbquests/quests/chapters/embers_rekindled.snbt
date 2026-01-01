@@ -4,13 +4,7 @@
 	default_quest_shape: "woodtier"
 	filename: "embers_rekindled"
 	group: "3C6437AAADAFC5CB"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "embers:item/golems_eye_opening4"
-		}
-	}
+	icon: "embers:ancient_codex"
 	id: "154D78C870ED668C"
 	images: [
 		{

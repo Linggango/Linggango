@@ -1,0 +1,94 @@
+{
+  "attributes" : {
+    "attack_range": 3.0,
+    "pose": "",
+    "two_handed": false,
+    "category": "trident",
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_rl_stab",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_rl_stabup",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 0.95
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_lr_stab",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 1.05
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_rl_stab",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 1.1
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_lr_stab",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 1.05
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_rl_stabup",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 0.95
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:trident_rl_stab",
+        "swing_sound": {
+          "id": "alexscaves:ortholance_wave",
+          "volume": 0.5,
+          "pitch": 1.0
+        }
+      }
+    ]
+  }
+}

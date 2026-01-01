@@ -8,7 +8,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "artifacts:item/helium_flamingo"
+			Icon: "artifacts:item/pickaxe_heater"
 		}
 	}
 	id: "44F86CB070F12FF2"

@@ -24,7 +24,8 @@ ServerEvents.recipes(e => {
   e.remove({ id: "ancient_elements:palladium_drill" });
   e.remove({ id: "ancient_elements:steel_drill" });
   e.remove({ id: "ancient_elements:lead_drill" });
-  e.remove({ id: "ancient_elements:tin_drill" });
+  e.remove({ id: "ancient_elements:din_drill" });
+
 
   e.shaped("ancient_elements:ominous_bell", ["ABA", "BAB", "   "], {
     A: "armageddon_mod:raw_elvenite",
@@ -56,4 +57,5 @@ ServerEvents.recipes(e => {
     A: "minecraft:stone",
     B: "minecraft:blaze_rod",
   });
+
 });

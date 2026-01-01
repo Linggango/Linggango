@@ -4,13 +4,7 @@
 	default_quest_shape: "square"
 	filename: "enigmatic_delight"
 	group: "509FB55A8427ED0C"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "enigmaticdelicacy:item/divine_fruit_pie_block"
-		}
-	}
+	icon: "enigmaticdelicacy:etherium_stove"
 	id: "10A6D722E0AF9151"
 	images: [
 		{

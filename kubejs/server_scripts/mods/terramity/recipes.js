@@ -4,6 +4,7 @@ ServerEvents.recipes(e => {
   e.remove({ id: "terramity:divergency_gauntlet_recipe" });
   e.remove({ id: "terramity:cthonic_curse_bracelets_recipe" });
   e.remove({ id: "terramity:focus_scarf_recipe" });
+  e.remove({ id: "terramity:daemonium_glass_ring_recipe"});
 
   e.shaped("terramity:pocket_universe", [" A ", "BCD", "EFG"], {
     A: "brutality:the_clock_of_frozen_time",

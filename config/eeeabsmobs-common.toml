@@ -153,7 +153,7 @@
 			"Attack multiplier" = 5.0
 			#Set this mob damageCap
 			#Range: 0.0 ~ 1024.0
-			DamageCap = 25.0
+			DamageCap = 125.0
 
 			[Mobs."Immortal Mobs".Immortal."Damage Adapt"]
 				#Set max adaptable damage sources for this mob
