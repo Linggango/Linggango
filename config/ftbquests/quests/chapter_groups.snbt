@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "3B5FC78CC89E4CD7", title: "&lInfo" }
+		{ id: "732C19DBA160D9E8", title: "&lTierlists" }
 		{ id: "3C6AB1DE39D4F441", title: "&lProgression" }
 		{ id: "52FA8429D8BF5933", title: "&lExploration" }
 		{ id: "509FB55A8427ED0C", title: "&lCookery \\& Chef" }
