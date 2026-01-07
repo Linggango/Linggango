@@ -43,6 +43,22 @@ ServerEvents.tags("item", e => {
     "enigmaticlegacy:etherium_pickaxe",
     "cataclysm:void_forge",
     "foolish:stellar_pickaxe",
+    "forbidden_arcanus:draco_arcanus_pickaxe",
+    "ancient_elements:ender_steel_pickaxe",
+    "naturesaura:depth_pickaxe",
+    "sgjourney:naquadah_pickaxe",
+    "undergarden:utherium_pickaxe",
+    "terramity:void_pickaxe",
+    "terramity:conductite_pickaxe",
+    "terramity:hellspec_pickaxe",
+    "terramity:dimlite_pickaxe",
+    "terramity:cosmilite_pickaxe",
+    "terramity:virentium_pickaxe",
+    "terramity:iridium_pickaxe",
+    "ancient_elements:endrium_pickaxe",
+    "terramity:reverium_pickaxe",
+    "terramity:exodium_pickaxe",
+    "terramity:nyxium_pickaxe",
   ])
   );
 
