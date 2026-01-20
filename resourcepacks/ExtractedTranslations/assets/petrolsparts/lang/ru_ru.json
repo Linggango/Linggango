@@ -1,0 +1,18 @@
+{
+  "advancement.petrolsparts.pneumatic_tube": "Totally Tubular",
+  "advancement.petrolsparts.pneumatic_tube.description": "Use a Pneumatic Tube to transport an Item",
+  "block.petrolsparts.hydraulic_transmission": "Hydraulic Transmission",
+  "block.petrolsparts.pneumatic_tube": "Pneumatic Tube",
+  "block.petrolsparts.pneumatic_tube.cant_flip": "The Pneumatic Tube must be empty to change its direction",
+  "block.petrolsparts.pneumatic_tube.jammed": "Jammed!",
+  "block.petrolsparts.pneumatic_tube.jammed.hint": "There are Items stuck in this Pneumatic Tube that _can\u0027t get out_.",
+  "petrolsparts.ponder.hydraulic_transmission.header": "Cheating with the Hydraulic Transmission",
+  "petrolsparts.ponder.hydraulic_transmission.text_1": "Do you hate the core gameplay mechanic of Create?",
+  "petrolsparts.ponder.hydraulic_transmission.text_2": "The Hydraulic Transmission can make almost any connection.",
+  "petrolsparts.ponder.pneumatic_tube.header": "Transporting Items with the Pneumatic Tube",
+  "petrolsparts.ponder.pneumatic_tube.text_1": "Place two Pneumatic Tube Blocks and use a few more to connect them.",
+  "petrolsparts.ponder.pneumatic_tube.text_2": "If either (or both) ends are given rotational power, Pneumatic Tubes can move Items between inventories a stack at a time.",
+  "petrolsparts.ponder.pneumatic_tube.text_3": "The extracted items can be filtered on the input end.",
+  "petrolsparts.ponder.pneumatic_tube.text_4": "If the output end has no connected inventory, it will shoot the Items out.",
+  "petrolsparts.ponder.pneumatic_tube.text_5": "The direction of transport can be inverted as long as the Tube is empty."
+}

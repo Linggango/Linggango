@@ -1,0 +1,7 @@
+{
+  "iris.keybind.wireframe": "Wireframe (SP only)",
+  "iris.load.failure.generic": "Oculus encountered an issue trying to load the shader; please report this to Oculus developers. ",
+  "iris.load.failure.shader": "The shaderpack failed to load! Please report the error to the shader developer. ",
+  "options.iris.colorSpace": "Color Space",
+  "options.iris.colorSpace.sodium_tooltip": "The color space to transform the screen to. Works on top of shader packs. Use SRGB if unsure."
+}

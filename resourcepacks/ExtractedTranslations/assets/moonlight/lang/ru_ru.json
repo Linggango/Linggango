@@ -1,0 +1,11 @@
+{
+  "fluid.moonlight.generic_fluid": "Безымянная жидкость",
+  "gui.moonlight.open_mod_page": "Открыть страницу %s на CurseForge",
+  "item.minecraft.potion_lingering": "Туманное зелье",
+  "item.minecraft.potion_splash": "Взрывное зелье",
+  "leaves_type.twilightforest.dark": "Тёмное дерево",
+  "leaves_type.ulterlands.souldrained": "Окаменевшие",
+  "message.moonlight.anti_repost": "Похоже, вы скачали %1$s с вредоносного сайта :( Получите реальную версию %2$s.",
+  "message.moonlight.anti_repost_link": "здесь",
+  "wood_type.twilightforest.dark": "Тёмное дерево"
+}

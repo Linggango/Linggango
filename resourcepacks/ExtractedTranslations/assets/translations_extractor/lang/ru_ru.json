@@ -1,0 +1,4 @@
+{
+  "translations_extractor.extract.translations.no_data": "Не было найдено отсутствующих переводов, старый ресурс-пак был переименован в backup",
+  "translations_extractor.extract.translations.success": "Строки для перевода успешно сгенерированы! Ресурс-пак можно найти по пути: %s"
+}

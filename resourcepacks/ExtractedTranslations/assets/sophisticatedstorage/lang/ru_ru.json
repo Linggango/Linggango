@@ -1,0 +1,14 @@
+{
+  "block.sophisticatedstorage.storage_connector": "%s Storage Connector",
+  "block.sophisticatedstorage.storage_connector.tooltip": "Bridges gaps between storage blocks in a storage multiblock.",
+  "gui.sophisticatedstorage.upgrades.buttons.do_not_refill_crafting_grid": "Do Not Refill Crafting Grid",
+  "gui.sophisticatedstorage.upgrades.buttons.refill_crafting_grid": "Refill Crafting Grid",
+  "item.sophisticatedstorage.advanced_alchemy_upgrade": "Advanced Alchemy Upgrade",
+  "item.sophisticatedstorage.advanced_alchemy_upgrade.tooltip": "Automatically uses potions, food with effects, or milk buckets\nHas additional effect filtering options",
+  "item.sophisticatedstorage.alchemy_upgrade": "Alchemy Upgrade",
+  "item.sophisticatedstorage.alchemy_upgrade.tooltip": "Automatically uses potions, food with effects, or milk buckets",
+  "item.sophisticatedstorage.storage_connector": "%s Storage Connector",
+  "item.sophisticatedstorage.super_packing_tape": "Super Packing Tape",
+  "item.sophisticatedstorage.super_packing_tape.tooltip": "Remaining uses: %s",
+  "item.sophisticatedstorage.super_packing_tape.tooltip.disabled": "Disabled - config set to drop all storages as packed"
+}

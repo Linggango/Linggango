@@ -1,0 +1,10 @@
+{
+  "entity.animights.canito": "Canito",
+  "entity.animights.catwain": "Catwain",
+  "item.animights.bone_mace": "Bone Mace",
+  "item.animights.fish_rapier": "Fish Sword Sword",
+  "main_action.animights.client_message.is_following": "%1$s is now following you",
+  "main_action.animights.client_message.is_sitting": "%1$s is now sitting down",
+  "main_action.animights.client_message.is_wandering": "%1$s is now wandering around",
+  "main_action.animights.client_message.is_working": "%1$s is now getting to work"
+}

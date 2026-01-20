@@ -1,0 +1,10 @@
+{
+  "yacl.control.color.color_picker_title": "Color Picker",
+  "yacl.control.dropdown.dropdown_widget_title": "Dropdown Chooser",
+  "yacl.control.text.blank": "\u003cblank\u003e",
+  "yacl.list.add_top": "New entry",
+  "yacl.list.empty": "List is empty",
+  "yacl.list.move_down": "Move down",
+  "yacl.list.move_up": "Move up",
+  "yacl.list.remove": "Remove"
+}

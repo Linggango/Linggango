@@ -1,0 +1,7 @@
+{
+  "text.nea.enable.clampCrossbowAnimations": "Clamp Crossbow Animations",
+  "text.nea.enable.clampCrossbowAnimations.tooltip": "Clamps the animations",
+  "text.nea.enable.customBowRotationLock": "Custom Bow Rotation Lock",
+  "text.nea.enable.customBowRotationLock.tooltip": "Puts the body at an angle while using the custom bow animation",
+  "text.nea.holdUpItemsMode.CONFIG_INVERTED": "Not Config Items"
+}

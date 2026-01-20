@@ -1,0 +1,8 @@
+{
+  "gui.advanced_ae.ImportExportBus": "ME Import Export Bus",
+  "gui.tooltips.advanced_ae.FilteredImport": "Filtered Import",
+  "gui.tooltips.advanced_ae.FilteredImportOff": "Input is unrestricted",
+  "gui.tooltips.advanced_ae.FilteredImportOn": "Input must match crafting outputs while crafting jobs are active",
+  "item.advanced_ae.import_export_bus_part": "ME Import Export Bus",
+  "material.advanced_ae.quantum_alloy": "Quantum Alloy"
+}

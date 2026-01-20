@@ -1,0 +1,18 @@
+{
+  "block.domesticationinnovation.wayward_lantern": "Wayward Lantern",
+  "domesticationinnovation.sound.subtitle.blazing_protection": "Blazing bar dissapears",
+  "enchantment.domesticationinnovation.blazing_protection": "Blazing Protection",
+  "enchantment.domesticationinnovation.blazing_protection.desc": "Pet will be protected from damage by 2 blazing bars per level, which knockback and set attackers on fire.",
+  "enchantment.domesticationinnovation.healing_aura": "Healing Aura",
+  "enchantment.domesticationinnovation.healing_aura.desc": "Pet will ocassionally heal owner and other pets around it, level determines strength of healing effect.",
+  "enchantment.domesticationinnovation.immaturity_curse": "Curse of Immaturity",
+  "enchantment.domesticationinnovation.immaturity_curse.desc": "Pet appears and behaves as a baby version of itself, with reduced attack damage.",
+  "enchantment.domesticationinnovation.muffled": "Muffled",
+  "enchantment.domesticationinnovation.muffled.desc": "Pet will be silent and not emit vibrations when moving.",
+  "enchantment.domesticationinnovation.rejuvenation": "Rejuvenation",
+  "enchantment.domesticationinnovation.rejuvenation.desc": "When injured, pet may absorb experience orbs to heal itself.",
+  "enchantment.domesticationinnovation.tethered_teleport": "Tethered Teleport",
+  "enchantment.domesticationinnovation.tethered_teleport.desc": "Pet will teleport with its owner, even across dimensions.",
+  "entity.domesticationinnovation.psychic_wall": "Psychic Wall",
+  "message.domesticationinnovation.wayward_lantern_return": "%s has found its way to a nearby Wayward Lantern"
+}

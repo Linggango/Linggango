@@ -1,0 +1,11 @@
+{
+  "create.schematic.tool.flip.description.3": "",
+  "create.schematic.tool.move.description.3": "",
+  "create.schematic.tool.move_y.description.2": "",
+  "create.schematic.tool.move_y.description.3": "",
+  "create.schematic.tool.print.description.3": "",
+  "create.schematic.tool.rotate.description.2": "",
+  "create.schematic.tool.rotate.description.3": "",
+  "create.track_signal.mode_controlled_by_computer": "Signal mode is controlled by computer",
+  "tag.item.create.casing": "Casings"
+}

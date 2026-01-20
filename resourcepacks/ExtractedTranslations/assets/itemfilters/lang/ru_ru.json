@@ -1,0 +1,10 @@
+{
+  "itemfilters.help_text.damage": "Item Damage\n▶ May also include relational operators, e.g. \"\u003c10\" or \"\u003e\u003d5\"\n and optionally by percentage, e.g. \"\u003e50%\"",
+  "itemfilters.help_text.filter": "Filter (Right-Click to clear)",
+  "itemfilters.help_text.max_count": "Maximum Stack Size\n▶ May also include relational operators, e.g. \"\u003c64\" or \"\u003e\u003d16\"",
+  "itemfilters.help_text.nbt": "NBT String\n▶ e.g. { text:\"hello\", value: 1, active: true }",
+  "itemfilters.help_text.regex": "Regular Expression\n Matched against the item ID\n▶ e.g. \"^minecraft:\" matches all vanilla items",
+  "itemfilters.help_text.variants": "Tab, Scroll Wheel, Cursor Up/Down: adjust highlight\nEnter: select highlighted",
+  "itemfilters.help_text.weak_nbt": "Weak NBT String\n▶ e.g. { text:\"hello\", value: 1, active: true }\n▶ Only the NBT fields supplied will be checked (any other fields in the item are ignored)",
+  "itemfilters.variants": "Variants [%d]"
+}

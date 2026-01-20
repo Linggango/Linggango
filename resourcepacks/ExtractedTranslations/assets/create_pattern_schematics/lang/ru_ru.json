@@ -1,0 +1,15 @@
+{
+  "create_pattern_schematics.contraption_application.applied_to": "Шаблонная схематика применена к ",
+  "create_pattern_schematics.contraption_application.deployers": "Автономному активатору(ам)",
+  "create_pattern_schematics.contraption_application.not_positioned": "Не удалось применить схематику: Схематика не развёрнута!",
+  "create_pattern_schematics.ponder.schematic_printing.header": "Печатью шаблонов при помощи шаблонных схематик",
+  "create_pattern_schematics.schematic.tool.clone": "Клонировать",
+  "create_pattern_schematics.schematic.tool.clone.description.0": "Повторяет выбранную схематику",
+  "create_pattern_schematics.schematic.tool.clone.description.1": "Выберите и используйте [Ctrl]-прокрутку, чтобы выполнить клонирование в текущем направлении.",
+  "create_pattern_schematics.schematic.tool.clone.description.2": "Либо используйте [Ctrl+Shift]-прокрутку, чтобы выполнить клонирование на выбранной поверхности.",
+  "create_pattern_schematics.schematic.tool.clone.description.3": "",
+  "item.create_pattern_schematics.empty_pattern_schematic": "Пустая шаблонная схематика",
+  "item.create_pattern_schematics.empty_pattern_schematic.tooltip.summary": "Может быть использована для создания _расширенной версии схематики Create_, которая позволяет штуковинам и строительным пушкам многократно _повторять дизайн_.",
+  "item.create_pattern_schematics.pattern_schematic": "Шаблонная схематика",
+  "item.create_pattern_schematics.pattern_schematic.tooltip.summary": "_Расширенная версия схематики Create_, которая позволяет штуковинам и строительным пушкам многократно _повторять дизайн_."
+}

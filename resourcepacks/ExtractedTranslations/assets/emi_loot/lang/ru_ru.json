@@ -1,0 +1,15 @@
+{
+  "emi.category.emi_loot.trial_chamber": "Trial Chamber Loot",
+  "emi_loot.condition.raining_false": "Drops when it is not raining",
+  "emi_loot.condition.raining_true": "Drops when it is raining",
+  "emi_loot.emi_loot_config.directDrops.archaeologyLoot": "Include Archaeology Direct Drops",
+  "emi_loot.emi_loot_config.directDrops.archaeologyLoot.desc": "Whether archaeology loot tables include manually added \u0027direct drops\u0027",
+  "emi_loot.emi_loot_config.directDrops.blockLoot": "Include Block Direct Drops",
+  "emi_loot.emi_loot_config.directDrops.blockLoot.desc": "Whether block loot tables include manually added \u0027direct drops\u0027",
+  "emi_loot.emi_loot_config.directDrops.chestLoot": "Include Chest Direct Drops",
+  "emi_loot.emi_loot_config.directDrops.chestLoot.desc": "Whether chest loot tables include manually added \u0027direct drops\u0027",
+  "emi_loot.emi_loot_config.directDrops.gameplayLoot": "Include Gaemplay Direct Drops",
+  "emi_loot.emi_loot_config.directDrops.gameplayLoot.desc": "Whether gameplay loot tables include manually added \u0027direct drops\u0027",
+  "emi_loot.emi_loot_config.splitChestLootByTrial": "Split Out Trial Loot",
+  "emi_loot.emi_loot_config.splitChestLootByTrial.desc": "When true, chest loot tables with \u0027trial_chamber\u0027 in their id will be split into a separate trial chamber category"
+}

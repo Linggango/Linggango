@@ -1,0 +1,4 @@
+{
+  "shouldersurfing.configuration.integrations.curios.adaptive_crosshair_item_properties": "Adaptive crosshair item properties",
+  "shouldersurfing.configuration.integrations.curios.adaptive_crosshair_item_properties.tooltip": "Item properties of an item, that when equipped in a curios slot, trigger the dynamic crosshair in adaptive mode. Example: \u0027necklace@charged\u0027"
+}

@@ -1,0 +1,13 @@
+{
+  "gui.jei.category.recipe.crashed": "This recipe crashed. Please see the client logs for details.",
+  "gui.jei.category.tagInformation": "%s Tags",
+  "gui.jei.category.tagInformation.block": "Block Tags",
+  "gui.jei.category.tagInformation.fluid": "Fluid Tags",
+  "gui.jei.category.tagInformation.item": "Item Tags",
+  "jei.tooltip.item.search.aliases": "Search Aliases:",
+  "jei.tooltip.liquid.flowing": "%s (Flowing)",
+  "jei.tooltip.lookupHistory.disable": "Hide JEI Lookup History",
+  "jei.tooltip.lookupHistory.enable": "Show JEI Lookup History",
+  "jei.tooltip.lookupHistory.usage": "Shows a list of the ingredients recently used for looking up recipes.",
+  "jei.tooltip.show.all.recipes.hotkey": "Press \"%s\" to show all recipes."
+}

@@ -1,0 +1,13 @@
+{
+  "block.rubinated_nether.altar_stone": "Altar Stone",
+  "block.rubinated_nether.altar_stone_bricks": "Altar Stone Bricks",
+  "block.rubinated_nether.altar_stone_pillar": "Altar Stone Pillar",
+  "block.rubinated_nether.altar_stone_tiles": "Altar Stone Tiles",
+  "block.rubinated_nether.chiseled_altar_stone_bricks": "Chiseled Altar Stone Bricks",
+  "block.rubinated_nether.dry_ice": "Dry Ice",
+  "block.rubinated_nether.ornate_ruby_glass": "Ornate Ruby Glass",
+  "block.rubinated_nether.ornate_ruby_glass_pane": "Ornate Ruby Glass Pane",
+  "block.rubinated_nether.rubination_altar": "Rubination Altar",
+  "block.rubinated_nether.runestone": "Runestone",
+  "tooltip.rubinated_nether.wip.tooltip": "WIP feature - This is purely decorative and contains bugs."
+}

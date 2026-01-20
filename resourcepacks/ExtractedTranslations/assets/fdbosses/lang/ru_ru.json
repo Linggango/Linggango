@@ -1,0 +1,5 @@
+{
+  "fdbosses.core_ability.fire_and_ice_core": "Can be combined with items that has damage. Allows summoning Malkuth fireballs on item use.",
+  "fdbosses.core_ability.lightning_core": "Can be combined with items that has damage. Gives an ability to summon Chesed lightnings on hit.",
+  "fdbosses.word.core_lose": "WARNING: You cannot put two or more different cores on one item!"
+}

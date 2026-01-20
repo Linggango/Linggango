@@ -1,0 +1,16 @@
+{
+  "effect.thermal.fortune_revealed": "Fortune Revealed",
+  "info.thermal.fortune_cookie_bad_luck.0": "Help! I am trapped in a Fortune Cookie bakery.",
+  "info.thermal.fortune_cookie_bad_luck.1": "Things will get better. For someone else.",
+  "info.thermal.fortune_cookie_bad_luck.2": "I believe in you. Nobody else does, though.",
+  "info.thermal.fortune_cookie_bad_luck.3": "Fate likes you. Luck does not.",
+  "info.thermal.fortune_cookie_bad_luck.4": "Hope you\u0027re smart or pretty. You are NOT lucky.",
+  "info.thermal.fortune_cookie_luck.0": "Fortune smiles upon you.",
+  "info.thermal.fortune_cookie_luck.1": "Your lucky numbers are...",
+  "info.thermal.fortune_cookie_luck.2": "Better to be lucky than good.",
+  "info.thermal.fortune_cookie_luck.3": "Do or do not. There is no try.",
+  "info.thermal.fortune_cookie_luck.4": "Who needs brains or looks? You have luck!",
+  "item.thermal.dynamo_throttle_augment.keyword": "augment dynamo",
+  "item.thermal.fortune_cookie": "Fortune Cookie",
+  "thermal.book.subtitle": "MC 1.20.1"
+}

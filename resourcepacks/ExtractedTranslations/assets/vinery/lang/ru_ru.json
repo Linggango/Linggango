@@ -1,0 +1,6 @@
+{
+  "effect.vinery.health_effect": "Health Effect",
+  "effect.vinery.health_effect.description": "Increases Maximum Health for the Duration of this Effect.",
+  "tooltip.vinery.fermentation_barrel.red_crimson_juice_with_percentage": "Crimson Red Grapejuice: %s%%",
+  "tooltip.vinery.fermentation_barrel.white_warped_juice_with_percentage": "Warped White Grapejuice: %s%%"
+}

@@ -1,0 +1,16 @@
+{
+  "ae2wtlib.configuration.magnet_card_range": "Magnet Card Range",
+  "chat.ae2wtlib.NetworkNotPowered": "Network Not Powered",
+  "gui.ae2wtlib.allow": "Allow",
+  "gui.ae2wtlib.craft_if_missing.text": "Craft if Missing",
+  "gui.ae2wtlib.cycle_terminal.desc1": "Right click to open %s",
+  "gui.ae2wtlib.deny": "Deny",
+  "gui.ae2wtlib.magnet.text": "Magnet",
+  "gui.ae2wtlib.magnet_settings_title": "Magnet Settings",
+  "gui.ae2wtlib.magnetcard.desc.me_no_magnet": "Magnet Off, Pickup to ME",
+  "gui.ae2wtlib.pick_block.text": "Enable Pick Block",
+  "gui.ae2wtlib.pickup_to_me.text": "Pickup to ME System",
+  "gui.ae2wtlib.restock.text": "Restock",
+  "gui.ae2wtlib.wireless_terminal_settings_title": "Wireless Terminal Settings",
+  "key.ae2.ae2wtlib_stow": "Stow stack in hand into ME System"
+}

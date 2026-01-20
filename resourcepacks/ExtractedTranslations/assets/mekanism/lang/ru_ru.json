@@ -1,0 +1,3 @@
+{
+  "constants.mekanism.recipe_warning": "Broken tags in Mekanism recipes detected, please check server logs for details. You will be missing some recipes and machines may not accept expected inputs."
+}

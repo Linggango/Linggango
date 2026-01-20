@@ -1,0 +1,13 @@
+{
+  "block.powah.deepslate_uraninite_ore": "Deepslate Uraninite Ore",
+  "block.powah.deepslate_uraninite_ore_dense": "Deepslate Uraninite Ore (Dense)",
+  "block.powah.deepslate_uraninite_ore_poor": "Deepslate Uraninite Ore (Poor)",
+  "tag.item.c.blue_ices": "Blue Ice",
+  "tag.item.c.dry_ices": "Dry Ice",
+  "tag.item.c.ices": "Any Ice",
+  "tag.item.c.packed_ices": "Packed Ice",
+  "tag.item.c.raw_uraninite_ores": "Raw Uraninite Ores",
+  "tag.item.c.regular_ices": "Ice",
+  "tag.item.c.uraninite_blocks": "Uraninite Blocks",
+  "tag.item.c.uraninite_ores": "Uraninite Ores"
+}

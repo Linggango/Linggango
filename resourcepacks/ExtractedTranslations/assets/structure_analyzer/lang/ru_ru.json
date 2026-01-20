@@ -1,0 +1,13 @@
+{
+  "emi.category.structure_analyzer.locate_biome": "Biome Analyzer",
+  "emi.category.structure_analyzer.locate_structure": "Structure Analyzer",
+  "structure_analyzer.jei.biomes_found.prefix": "Found",
+  "structure_analyzer.jei.biomes_found.suffix": "biomes",
+  "structure_analyzer.jei.button.start_search": "Start search",
+  "structure_analyzer.jei.locate_biome_by_entity.title": "Biome Locator",
+  "structure_analyzer.jei.locate_structure.title": "Structure Analyzer",
+  "structure_analyzer.jei.no_results": "No structures found",
+  "structure_analyzer.jei.progress": "%s / %s",
+  "structure_analyzer.jei.results_found.prefix": "Found",
+  "structure_analyzer.jei.results_found.suffix": "structures"
+}

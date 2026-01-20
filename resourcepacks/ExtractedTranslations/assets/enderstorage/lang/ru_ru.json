@@ -1,0 +1,10 @@
+{
+  "block.enderstorage.ender_chest": "Эндер-сундук",
+  "block.enderstorage.ender_tank": "Эндер-резервуар",
+  "enderstorage.command.no_arguments": "Неверное число аргументов",
+  "enderstorage.command.no_colour": "Неверный цвет: %s",
+  "enderstorage.command.no_freq": "Неизвестная частота",
+  "enderstorage.command.usage": "enderstorage \u003cчастота\u003e|(\u003cцвет\u003e \u003cцвет\u003e \u003cцвет\u003e) [владелец]",
+  "enderstorage.serverop": "Оператор",
+  "item.enderstorage.ender_pouch": "Эндер-сумка"
+}
