@@ -1,0 +1,17 @@
+{
+  "name": "Serpentine Valour [SM]",
+  "icon": "simplymore:serpentine_valour",
+  "advancement": "simplymore:serpentine_valour",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:serpentine_valour",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Serpentine Valour is a weapon that feeds off the triumph of its wielder, growing ever stronger. It was stolen many times by warriors bloodthirsty for its raw power. This weapon creates a slick substance upon its blade, delivering a stinging pain when touched."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The pain experienced when the substance is forcefully injected into a foe has made many people submit fully after a single blow. A faint power resonates down its hilt, which is constructed of a fraction of spine from a fallen wyrm."
+    }
+  ]
+}

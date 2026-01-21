@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Неукротимого",
+  "icon": "terramity:music_sheet_of_the_indomitable",
+  "category": "terramity:ocarina",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Неукротимого",
+      "text": "Нотный стан Неукротимого даёт Невосприимчивость на 60 секунд.$(br2)Этот стан можно найти довольно часто в подземных святилищах.",
+      "item": {
+        "item": "terramity:music_sheet_of_the_indomitable"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Jester Penetrate [SM]",
+  "icon": "simplymore:jester_penetrate",
+  "advancement": "simplymore:jester_penetrate",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:jester_penetrate",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()He’s the DEADLIEST minecraft player on the DEADLIEST minecraft smp - The Heart Transplant SMP!"
+    }
+  ]
+}

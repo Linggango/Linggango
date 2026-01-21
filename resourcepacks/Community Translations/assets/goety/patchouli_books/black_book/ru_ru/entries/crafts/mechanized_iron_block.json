@@ -1,0 +1,15 @@
+{
+  "name": "Блок механизированного железа",
+  "icon": "goety_cataclysm:mechanized_iron_block",
+  "category": "goety:cataclysm/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Машины Древней Фабрики, похоже, сделаны в основном из железа и редстоуна, а Предвестник имеет в своём строении большое количество визерита. И если последний остаётся для вас загадкой, то рецепт металла, из которого состоят остальные машины, вам всё же удалось воссоздать."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:mechanized_iron_block"
+    }
+  ]
+}

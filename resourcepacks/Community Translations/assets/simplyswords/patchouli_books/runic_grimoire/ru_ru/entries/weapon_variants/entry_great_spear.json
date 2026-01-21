@@ -1,0 +1,26 @@
+{
+  "name": "Great Spear [SM]",
+  "icon": "simplymore:iron_great_spear",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_great_spear",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Great spears are giant spikes places upon long poles, able to strike from incredible distances. Great spears easily keep foes at bay, making it impossible for them to hit you."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:great_spear/iron_great_spear",
+      "recipe2": "simplymore:great_spear/gold_great_spear"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:great_spear/diamond_great_spear"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:great_spear/netherite_great_spear",
+      "recipe2": "simplymore:great_spear/runic_great_spear"
+    }
+  ]
+}

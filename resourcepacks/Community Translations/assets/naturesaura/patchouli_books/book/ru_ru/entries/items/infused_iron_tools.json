@@ -1,0 +1,41 @@
+{
+  "name": "Botanist\u0027s Tools",
+  "icon": "naturesaura:infused_iron_pickaxe",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:infused_materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Using the inherent powers of $(l:using/altar)Infused Iron$(), one can produce tools that not only have similar properties to its base material $(item)Iron$(), but also have additional features that one wouldn\u0027t quite expect.$(br)The following pages will display how to create the tools and how to use their special features."
+    },
+    {
+      "type": "text",
+      "text": "On top of that, when taking an $(l:items/aura_cache)Aura Cache$() with you, the tools will be able to use the $(aura) that it has stored to regenerate their durability, significantly increasing their lifespan. For this, one simply needs to hold still and sneak, and the tool in one\u0027s hand will slowly recharge."
+    },
+    {
+      "type": "crafting",
+      "text": "The $(item)Botanist\u0027s Pickaxe$(), when interacted with a block, will turn it into its $(thing)mossy$() variation, provided that it has one.",
+      "recipe": "naturesaura:infused_pickaxe"
+    },
+    {
+      "type": "crafting",
+      "text": "The $(item)Botanist\u0027s Handaxe$() is quite a bit better at removing $(thing)leaves$(), doing so much faster than regular tools.",
+      "recipe": "naturesaura:infused_axe"
+    },
+    {
+      "type": "crafting",
+      "text": "The $(item)Botanist\u0027s Shovel$() has the ability to make $(thing)grass$() grow on fallow land through simple interaction, along with making broader $(thing)paths$() on grass.",
+      "recipe": "naturesaura:infused_shovel"
+    },
+    {
+      "type": "crafting",
+      "text": "The $(item)Botanist\u0027s Hoe$() helps a farmer obtain different kinds of $(thing)seeds$() in the ways of old by simply being used on a piece of grass or dirt.",
+      "recipe": "naturesaura:infused_hoe"
+    },
+    {
+      "type": "crafting",
+      "text": "The $(item)Botanist\u0027s Blade$() is a good way of dealing with monsters: It will cause any mob you hit to be $(thing)slowed down$() for a couple of seconds, making them an easier target.",
+      "recipe": "naturesaura:infused_sword"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Apocalyptic Longbow",
+  "icon": "goety_revelation:bow_of_revelation",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "By studying the broken divinity, you have found a way to upgrade your hunter\u0027s bow and thus obtain the power of those envoys of divinity."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:bow_of_revelation"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:bow_of_revelation": 1
+  }
+}

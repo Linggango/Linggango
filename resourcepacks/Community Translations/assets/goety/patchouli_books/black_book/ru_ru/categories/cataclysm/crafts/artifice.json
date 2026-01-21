@@ -1,0 +1,7 @@
+{
+  "name": "Трюки",
+  "description": "Использование энергии души и манипулирование ею.",
+  "icon": "goety_cataclysm:fabricator",
+  "parent": "goety:cataclysm/crafts",
+  "sortnum": 3
+}

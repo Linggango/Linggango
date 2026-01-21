@@ -1,0 +1,10 @@
+{
+  "commands.endinglib.fill_entity.failed": "No entities were filled",
+  "commands.endinglib.fill_entity.success": "Successfully filled %s entities",
+  "commands.endinglib.fill_entity.toobig": "Too many entities in the specified area (maximum %s, specified %s)",
+  "tooltip.endinglib.holdShiftEffect": "§5Hold §6Shift§5 to see effect details.",
+  "tooltip.endinglib.holdShiftSetEffect": "§5Hold §6Shift§5 to see set effect details.",
+  "tooltip.endinglib.itemLimitDamage": "§7Single durability loss limit : %d",
+  "tooltip.endinglib.setEffect": "§5Set Effect:",
+  "tooltip.endinglib.specialEffect": "§5Special Effect:"
+}

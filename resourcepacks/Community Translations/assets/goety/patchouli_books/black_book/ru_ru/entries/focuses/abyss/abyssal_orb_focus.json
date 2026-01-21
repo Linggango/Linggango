@@ -1,0 +1,18 @@
+{
+  "name": "Фокус глубинной сферы",
+  "icon": "goety_cataclysm:abyssal_orb_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти сферы глубинной энергий будут искать любые ближайшие цели или, если заклинание использовано, пока вы смотрите на подходящую сущность, целиться в них и взрываться, накладывая на них эффект Страха Глубины."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/abyssal_orb_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:abyssal_orb_focus": 1
+  }
+}

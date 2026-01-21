@@ -1,0 +1,17 @@
+{
+  "name": "Cindergorge [SM]",
+  "icon": "simplymore:cindergorge",
+  "advancement": "simplymore:cindergorge",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:cindergorge",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A simplistic weapon tacked together from hand-shaped rocks, seemingly just a rocky mace with spikes jutting out from all sides; clumsily made. You can feel the heat from within, pure embroiled rage emanating from the weapon’s core, much like the chieftain"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "who once wielded the weapon. Their influence still remains inside the peaks of this primal weapon, burning brightly as it wars within. A form of shamanic energy dances around the strike-end of the weapon, an archaic form of magic mastered by very few."
+    }
+  ]
+}

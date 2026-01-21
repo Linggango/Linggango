@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан очищения",
+  "icon": "terramity:music_sheet_of_cleansing",
+  "category": "terramity:ocarina",
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан очищения",
+      "text": "Нотный стан очищения убирает все эффекты зелий пользователя, без исключений.$(br2)Этот лист выпадает довольно часто из Равиила, вызванного копьём Лонгинья. Он также является крайне редким дропом из коров.",
+      "item": {
+        "item": "terramity:music_sheet_of_cleansing"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

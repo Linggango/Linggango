@@ -1,0 +1,17 @@
+{
+  "name": "Timekeeper [SM]",
+  "icon": "simplymore:timekeeper",
+  "advancement": "simplymore:timekeeper",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:timekeeper",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The Timekeeper was created by adorning a khopesh with a feather plucked from each of the Egyptian timekeeping Gods - Ra, Khonsu and Thoth. The energy of these feathers formed into an ethereal ball of light, which seems to shift as the great celestial"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "beings do above. During the day, the power of the sun causes this weapon to shimmer and erupt into solar flares, while at night, the moon’s energy causes the blade to darken and cause gravity shifts. When neither Ra nor Khonsu respond to its call, the Timekeeper turns to Thoth to restore order."
+    }
+  ]
+}

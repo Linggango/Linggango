@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Стража Испытаний",
+  "icon": "terramity:music_sheet_of_the_trial_guardian",
+  "category": "terramity:ocarina",
+  "sortnum": 32,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Стража Испытаний",
+      "text": "Нотный стан Стража Испытаний даёт Сопротивление I и Слабость I на 30 секунд.$(br2)Этот стан выпадает со Стража Испытаний.",
+      "item": {
+        "item": "terramity:music_sheet_of_the_trial_guardian"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

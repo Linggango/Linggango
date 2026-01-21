@@ -1,0 +1,6 @@
+{
+  "name": "Ветряные",
+  "description": "Бо́льшая власть над ветрами.",
+  "icon": "goety_cataclysm:sandstorm_focus",
+  "parent": "goety:cataclysm/focuses"
+}

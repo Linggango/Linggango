@@ -1,0 +1,14 @@
+{
+  "midnightlib.curseforge": "CurseForge",
+  "midnightlib.midnightconfig.background_texture": "Texture of config screen backgrounds",
+  "midnightlib.midnightconfig.config_screen_list": "Enable Config Screen List",
+  "midnightlib.midnightconfig.enum.ConfigButton.FALSE": "§cNo",
+  "midnightlib.midnightconfig.enum.ConfigButton.MODMENU": "§bModMenu",
+  "midnightlib.midnightconfig.enum.ConfigButton.TRUE": "§aYes",
+  "midnightlib.midnightconfig.title": "MidnightLib Config",
+  "midnightlib.modrinth": "Modrinth",
+  "midnightlib.overview.title": "MidnightConfig Overview",
+  "midnightlib.wiki": "Wiki",
+  "modmenu.descriptionTranslation.midnightlib": "Common Library for Team MidnightDust\u0027s mods.\nProvides a config api, automatic integration with other mods, common utils, and cosmetics.",
+  "modmenu.summaryTranslation.midnightlib": "Common Library for Team MidnightDust\u0027s mods."
+}

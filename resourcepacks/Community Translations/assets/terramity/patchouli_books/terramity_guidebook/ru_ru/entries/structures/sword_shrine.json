@@ -1,0 +1,26 @@
+{
+  "name": "Святилище Меча",
+  "icon": "terramity:excalibur",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Святилище меча — это структура, встречающаяся в мире Terramity.$(br2)Эту структуру можно иногда найти, выступающую на поверхность в равнинах, лесах и горах."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Меч в камне может быть извлечён только теми, кто обладает героической натурой.$(br2)Или... просто имейте 13 сердец и всё равно сможете его вытащить.",
+      "item": {
+        "item": "terramity:excalibur"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Святилище Меча",
+      "images": [
+        "terramity:textures/screens/sword_shrine.png"
+      ],
+      "border": true
+    }
+  ]
+}

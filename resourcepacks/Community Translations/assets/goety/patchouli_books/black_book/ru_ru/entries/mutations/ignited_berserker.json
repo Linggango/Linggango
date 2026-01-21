@@ -1,0 +1,33 @@
+{
+  "name": "Огненный берсерк",
+  "icon": "cataclysm:dying_ember",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Удивительно, но позволить духу берсерка вселиться в огненного элементаля не привело к катастрофой."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_blazes_to_ignited_berserker"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ignited_berserker",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Берсерка можно исцелить при помощи костей, огненных стержней или огненного порошка, а также он может пассивно исцеляться, если его владелец наденет Незерскую мантию или Некро-плащ."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:ignited_soul",
+      "text": "Если их пламя потушат, эти огненные призраки оставят после себя горящие ядра, которые можно использовать на всполохе, чтобы вернуть Берсерка из мертвых."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:ignited_soul": 4
+  }
+}

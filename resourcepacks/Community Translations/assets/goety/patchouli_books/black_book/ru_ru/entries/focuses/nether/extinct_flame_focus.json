@@ -1,0 +1,18 @@
+{
+  "name": "Фокус угасшего пламени",
+  "icon": "goety_cataclysm:extinct_flame_focus",
+  "category": "goety:cataclysm/focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Используя силу самого Игниса, вы создаете огненные шары, которые, после небольшой паузы, начинают преследовать ближайших врагов, погружая их в огненные взрывы."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/extinct_flame_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:extinct_flame_focus": 1
+  }
+}

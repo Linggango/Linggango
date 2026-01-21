@@ -1,0 +1,18 @@
+{
+  "name": "Фокус смертоносного луча",
+  "icon": "goety_cataclysm:death_laser_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы воспроизводите лазерный луч провожатого с помощью магии, уничтожая все цели перед собой."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/death_laser_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:death_laser_focus": 1
+  }
+}

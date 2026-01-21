@@ -1,0 +1,16 @@
+{
+  "name": "Треснутый микрокосм",
+  "icon": "terramity:cracked_microcosm",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Треснутый микрокосм — необходимый ингредиент для $(l:terramity:ores/exodium)Эксодиума$().$(br2)Треснутый микрокосм можно получить, бросив пустую эссенцию в черную дыру, вызванную бомбой черной дыры."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:black_hole_bomb_recipe",
+      "recipe2": "terramity:exodium_ingot_recipe"
+    }
+  ]
+}

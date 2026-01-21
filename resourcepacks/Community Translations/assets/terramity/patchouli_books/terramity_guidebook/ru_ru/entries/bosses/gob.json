@@ -1,0 +1,33 @@
+{
+  "name": "Гоб, король гномов",
+  "icon": "terramity:gobs_gilded_hat_helmet",
+  "category": "terramity:bosses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "\u0027Гоб, король гномов\u0027 — первый босс в Террамити.$(br2)Его можно найти во «Дворе гномов», строении, которое можно найти только в темных лесах и болотах.$(br2)Рекомендуемое снаряжение:$(br) -Алмазная/незеритовая броня $(br) -Сильное оружие"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "terramity:gob",
+      "scale": 0.55,
+      "offset": 0.45,
+      "rotate": true
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Можно вызвать, щелкнув ПКМ по статуе золотого гнома с $(l:terramity:misc/gnome_bartering)Красной шляпой гнома$().$(br2)Статую золотого гнома можно найти в строении «Двор гномов», распологающимся только в тёмных лесах и болотах.",
+      "item": {
+        "item": "terramity:red_gnome_hat_helmet"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Двор гномов",
+      "images": [
+        "terramity:textures/screens/court.png"
+      ],
+      "border": true
+    }
+  ]
+}

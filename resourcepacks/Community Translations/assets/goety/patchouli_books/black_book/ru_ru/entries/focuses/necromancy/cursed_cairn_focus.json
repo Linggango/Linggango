@@ -1,0 +1,18 @@
+{
+  "name": "Фокус проклятого кургана",
+  "icon": "goety_cataclysm:cursed_cairn_focus",
+  "category": "goety:cataclysm/focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это заклинание призывает высоких арбалетчиков, которые пронзят своих врагов стрелами."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/cursed_cairn_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:cursed_cairn_focus": 1
+  }
+}

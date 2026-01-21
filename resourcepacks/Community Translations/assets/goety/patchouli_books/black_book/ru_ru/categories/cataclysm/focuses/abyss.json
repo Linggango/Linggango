@@ -1,0 +1,6 @@
+{
+  "name": "Глубоководные",
+  "description": "Бо́льшая власти над морями и океанами.",
+  "icon": "goety_cataclysm:abyssal_beam_focus",
+  "parent": "goety:cataclysm/focuses"
+}

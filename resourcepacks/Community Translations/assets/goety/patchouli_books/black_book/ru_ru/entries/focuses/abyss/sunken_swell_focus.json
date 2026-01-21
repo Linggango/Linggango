@@ -1,0 +1,18 @@
+{
+  "name": "Фокус глубинной зыпи",
+  "icon": "goety_cataclysm:sunken_swell_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Благодаря полномочиям, которые вы получили прикончив Левиафана, вы можете призывать его бывших прислужников под своё командование. С вероятностью 25% вы сможете призвать Глубинника-рыболова."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/sunken_swell_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:sunken_swell_focus": 1
+  }
+}

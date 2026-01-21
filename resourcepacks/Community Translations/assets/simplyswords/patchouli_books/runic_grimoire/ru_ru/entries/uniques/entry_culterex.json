@@ -1,0 +1,17 @@
+{
+  "name": "Culterex [SM]",
+  "icon": "simplymore:culterex",
+  "advancement": "simplymore:culterex",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:culterex",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A beautiful, gilded dagger, presented as a gift to the Great Sage himself. As the Sage carried around the artefact with honour, he soon came to figure that his admirer was not as faithful as he had once believed. A curse began to spill forth from the blade, a malevolent"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "aura swallowing the once shimmering silver. The Great Sage made an effort to dispel the curse, reverse engineering its energy to track down his would-be assassin. Unfortunately for him, over the years he kept the relic, a lingering trace of the hex remained hidden, slowly weakening him."
+    }
+  ]
+}

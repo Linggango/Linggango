@@ -1,0 +1,22 @@
+{
+  "name": "Окарина Силы",
+  "icon": "terramity:ocarina_of_power",
+  "category": "terramity:ocarina",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Окарина Силы",
+      "text": "Окарина Силы — невероятно мощный инструмент в вашем арсенале.$(br2)Нотные станы добавляют эффекты к вашим мелодиям, а песню можно выбрать в меню окарины. Разные песни изменяют эффекты, полученные от нотных станов.",
+      "item": {
+        "item": "terramity:ocarina_of_power"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:ocarina_of_power_recipe",
+      "text": "Вы можете играть на окарине, нажав [ПКМ].$(br2)Меню окарины открывается комбинацией [Shift + ПКМ]."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Socket Carvers [SM]",
+  "icon": "simplymore:runefused_carver",
+  "category": "simplyswords:category_gem_socketing",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:runefused_carver",
+      "text": "$(#0BE334)Items Added In Simply More$(br2)$()Runefused and Netherfused Carvers contain an energy negative to that of the Gems. Due to this, they may be applied to a unique weapon to carve a Gem slot into a weapon that would otherwise be unable to fully articulate the powers wielded within the Gems."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:runefused_carver",
+      "recipe2": "simplymore:netherfused_carver"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Восприятия",
+  "icon": "terramity:music_sheet_of_perception",
+  "category": "terramity:ocarina",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Восприятия",
+      "text": "Нотный стан Восприятия даёт эффект Ночного зрения на 180 секунд.$(br2)Этот стан часто можно найти в заброшенных шахтах.",
+      "item": {
+        "item": "terramity:music_sheet_of_perception"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Кабели",
+  "icon": "ad_astra:desh_cable",
+  "sortnum": 4,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Кабели",
+      "item": "ad_astra:desh_cable",
+      "text": "Кабели обеспечивают передачу энергии на большие расстояния. Существует два варианта: стальные и дешевые – дешевые, имеющие более высокую скорость передачи. При использовании с Гаечным Ключом кабели можно сконфигурировать так, чтобы они протягивались в разных направлениях или отсоединялись от узлов сети."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:steel_cable",
+      "recipe2": "ad_astra:desh_cable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cable ducts",
+      "text": "Cables are not solid blocks. As such, they will not seal a structure which prevents oxygen distributors and gravity normalizers from functioning. The cable duct is a full block that works exactly like cables while preventing leaks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cable_duct"
+    }
+  ]
+}

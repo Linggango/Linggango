@@ -1,0 +1,19 @@
+{
+  "name": "Atonement Voucher",
+  "icon": "goety_revelation:atonement_voucher",
+  "category": "goety:revelation/crafts",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If you sincerely repent...The shadow of Apocalypse will no longer hang over you."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:atonement_voucher"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:atonement_voucher": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Тёмных Волшебников",
+  "icon": "terramity:music_sheet_of_the_shadow_wizards",
+  "category": "terramity:ocarina",
+  "sortnum": 33,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Тёмных Волшебников",
+      "text": "Нотный стан Тёмных Волшебников накладывает на ближайших мобов ослабление Проклятие на 5 секунд.$(br2)Этот стан выпадает с Тёмных Волшебников.",
+      "item": {
+        "item": "terramity:music_sheet_of_the_shadow_wizards"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

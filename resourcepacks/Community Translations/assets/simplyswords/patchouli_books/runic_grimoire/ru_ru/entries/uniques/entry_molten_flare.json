@@ -1,0 +1,17 @@
+{
+  "name": "Molten Flare [SM]",
+  "icon": "simplymore:molten_flare",
+  "advancement": "simplymore:molten_flare",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:molten_flare",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The Molten Flare was forged in the heart of the Nether; deep within the inferno. The Molten Flare fires off shards of molten rock from the flaming stream of magma constantly running down the blade. The heft of this weapon can crumble defences in seconds,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "with a single swing leaving a shield split in half. When the blade strikes the earth, it boils the rock beneath it, causing a spew of lava from the ground."
+    }
+  ]
+}

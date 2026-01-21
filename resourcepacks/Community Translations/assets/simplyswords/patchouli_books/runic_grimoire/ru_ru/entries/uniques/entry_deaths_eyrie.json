@@ -1,0 +1,17 @@
+{
+  "name": "Death\u0027s Eyrie [SM]",
+  "icon": "simplymore:deaths_eyrie",
+  "advancement": "simplymore:deaths_eyrie",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:deaths_eyrie",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Formed in vengeance, Death’s Eyrie is the amalgamation of a hundred souls twisted into a weapon by the Master of Death himself, an unholy concoction created with one goal in mind, the death of the oh-so \"righteous\" one; the one who had"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "caused him all of this grief. The blade draws power from the moonlight to draw forth the souls within into physical manifestations capable of tearing a target asunder, no matter their strength. With one final sacrifice, the lich melded his own soul into the weapon, hoping that this would be enough to finally destroy the angel that had haunted him all this time, whether he be sung the hero or the villain."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Eternal Watch",
+  "icon": "goety_revelation:eternal_watch",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety_revelation:puzzle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After obtaining the eternal item, you managed to conduct some tests on it and understood its essence. After several attempts, you finally understood how to fully exert its function."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:eternal_watch"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:eternal_watch": 1
+  }
+}

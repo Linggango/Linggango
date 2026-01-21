@@ -1,0 +1,47 @@
+{
+  "name": "Spectre Set",
+  "icon": "goety_revelation:spectre_helmet",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety:goety/craft_black_iron_armor",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sometimes you wonder—how do those blue specters truly manifest? After countless experiments, you fused ectoplasm with echoes of the damned, forging Specter Armor."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Specter helmet remains unaffected by blindness, while the boots grant absolute silence to your movements."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When clad in the full Specter set, your strikes sear foes with soul-chilling frost, dealing extra damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When you holding the Specter Whip.Your attacks crack the air with sonic booms...."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spectre_helmet"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spectre_chestplate"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spectre_leggings"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spectre_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:spectre_helmet": 2,
+    "goety_revelation:spectre_chestplate": 3,
+    "goety_revelation:spectre_leggings": 4,
+    "goety_revelation:spectre_boots": 5
+  }
+}

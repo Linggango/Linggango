@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Стойкости",
+  "icon": "terramity:music_sheet_of_resilience",
+  "category": "terramity:ocarina",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Стойкости",
+      "text": "Нотный стан Стойкости даёт эффект Увеличения здоровья III на 60 секунд.$(br2)Этот стан часто можно найти в иглу.",
+      "item": {
+        "item": "terramity:music_sheet_of_resilience"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

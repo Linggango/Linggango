@@ -1,0 +1,6 @@
+{
+  "name": "Незерские",
+  "description": "Бо́льшая власть над огненными пропастями Незера.",
+  "icon": "goety_cataclysm:flare_bomb_focus",
+  "parent": "goety:cataclysm/focuses"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Brassturn [SM]",
+  "icon": "simplymore:brassturn",
+  "advancement": "simplymore:brassturn",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:brassturn",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A prototype for the mechanical marvel which would have been used by a Steampunk society\u0027s greatest warriors and protectors. A weapon designed to be effective even in the hands of someone with no experience, and to flourish in the hands of someone skilled"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "with such weaponry. The weapon adapts to the user’s movements to enhance and take over their strikes, slicing many times per second with little effort from the user. As a prototype, it oxidises when overused, a quirk that had to be ironed out. What a shame it was that they didn’t figure it out in time."
+    }
+  ]
+}

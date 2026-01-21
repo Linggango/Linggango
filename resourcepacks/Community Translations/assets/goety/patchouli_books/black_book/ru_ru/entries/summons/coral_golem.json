@@ -1,0 +1,26 @@
+{
+  "name": "Коралловый голем",
+  "icon": "minecraft:copper_block",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти големы, будучи более слабыми и механическими собратьями Кораллусов, тем не менее являются сильными прислужниками, которых стоит иметь под рукой."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:coral_golem",
+      "scale": 0.5
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:coral_golem",
+      "text": "Нажмите ПКМ по центральному медному блоку ядром оживления."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кораллы могут быть любого типа. Этих големов можно исцелить при помощи кораллов."
+    }
+  ]
+}

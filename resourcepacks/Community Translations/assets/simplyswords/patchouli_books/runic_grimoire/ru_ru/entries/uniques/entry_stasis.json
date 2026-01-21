@@ -1,0 +1,17 @@
+{
+  "name": "Stasis [SM]",
+  "icon": "simplymore:stasis",
+  "advancement": "simplymore:stasis",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:stasis",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Statis consists of two copper lightning rods magically magnitized together in a violent coexistence. It is not uncommon for the two halves to become overwhelmed with electricity and expel it in the easiest way they see fit, to the dismay of the wielder."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It can sometimes become beneficial, however, such as when the weapon decides to shock a foe, effectively short-circuiting the magical energy of their weapon for a short while. The magnetism of the rods can be honed and increased to draw in more electricity, usually from the sky."
+    }
+  ]
+}

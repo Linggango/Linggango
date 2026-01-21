@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Легендарного Супер Нюхача",
+  "icon": "terramity:music_sheet_of_the_legendary_super_sniffer",
+  "category": "terramity:ocarina",
+  "sortnum": 31,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Легендарного Супер Нюхача",
+      "text": "Нотный стан Легендарного Супер Нюхача даёт эффект Заряд на 30 секунд.$(br2)Этот стан выпадает с Супер Нюхача.",
+      "item": {
+        "item": "terramity:music_sheet_of_the_legendary_super_sniffer"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

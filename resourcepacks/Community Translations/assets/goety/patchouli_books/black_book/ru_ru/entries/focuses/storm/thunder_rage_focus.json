@@ -1,0 +1,18 @@
+{
+  "name": "Фокус грозовой ярости",
+  "icon": "goety_cataclysm:thunder_rage_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это заклинание, копирующее гнев Сциллы, требует непрерывного произнесения. Вы создаёте вокруг себя вихри и грозовые тучи, а затем обрушиваете поток воды и грозовые копья в направлении своего взгляда."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/thunder_rage_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:thunder_rage_focus": 1
+  }
+}

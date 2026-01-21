@@ -1,0 +1,55 @@
+{
+  "name": "Драугры-прислужники",
+  "icon": "cataclysm:draugr_head",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Проклятые тюремщики Маледиктуса, так преданно охранявшие его тюрьму, но не сделавшие ничего, даже попытку мести, когда их единственный заключенный сбежал и начал сеять хаос."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Эти драугры — либо трупы воинов, оживленных и проклятых таким образом, либо призванные и околдованные стражи из темницы самого Маледиктуса, использующего их головы в качестве вместилища для проклятия. Теперь вы подчиняете их себе схожим образом."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:draugr_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_draugr_servant_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:elite_draugr_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_elite_draugr_servant_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:royal_draugr_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_royal_draugr_servant_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:aptrgangr",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_aptrgangr_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Все виды драугров можно исцелить при помощи костей и гнилой плоти, или если их владелец наденет Некро-плащ."
+    }
+  ]
+}

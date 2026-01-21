@@ -1,0 +1,18 @@
+{
+  "name": "Фокус штормового змея",
+  "icon": "goety_cataclysm:storm_serpent_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это заклинание призывает призрачных змей, которые бросаются на ваших врагов и взрываются в бурном вихре, оставляя выживших уязвимыми для других атак молнией."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/storm_serpent_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:storm_serpent_focus": 1
+  }
+}

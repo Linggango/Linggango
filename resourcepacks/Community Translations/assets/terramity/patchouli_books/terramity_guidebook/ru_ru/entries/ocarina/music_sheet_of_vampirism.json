@@ -1,0 +1,24 @@
+{
+  "name": "Нотный Стан Вампиризма",
+  "icon": "terramity:music_sheet_of_vampirism",
+  "category": "terramity:ocarina",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный Стан Вампиризма",
+      "text": "Нотный Стан Вампиризма предоставляет эффект кражи жизни на 30 секунд.$(br2)Этот стан можно редко найти в Хтонических Подземельях.",
+      "item": {
+        "item": "terramity:music_sheet_of_vampirism"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные Станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

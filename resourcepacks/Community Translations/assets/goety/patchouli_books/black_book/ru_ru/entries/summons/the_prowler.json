@@ -1,0 +1,37 @@
+{
+  "name": "Провожатый",
+  "icon": "cataclysm:mech_eye",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Механическое создание, слишком высокотехнологичное, чтобы вы могли соорудить его с помощью нынешних рисурсов. К счастью, Энергия Душ позволяет использовать силу давно умерших, чтобы воссоздать это механическое чудо под вашим правлением."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:the_prowler",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_prowler_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Их можно излечить при помощи железных слитков или блоков железа."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:mechanized_core",
+      "text": "При уничтожении эти разрушительные машины оставляют свои механизированные ядра, содержащие чертежи и технологии, полезные для их восстаовления."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:prowler",
+      "text": "Нажмите ПКМ по центральному блоку механизированного железа механизированным ядром."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:mechanized_core": 4
+  }
+}

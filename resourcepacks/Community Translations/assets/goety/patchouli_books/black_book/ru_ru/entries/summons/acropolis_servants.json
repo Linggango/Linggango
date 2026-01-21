@@ -1,0 +1,79 @@
+{
+  "name": "Прислужники Акрополя",
+  "icon": "cataclysm:lacrima",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Множество морских существ, обитающих в святилище Сциллы, которых вам удалось призвать и подчинить своей воле."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:urchinkin_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_urchinkin_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Покрытые ядовитыми шипами, эти крошечные существа могут стать серьёзной помехой, особенно если их владелец носит Дикую мантию, давая их шипам возможность отравлять даже нежить."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:symbiocto_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_drowned_servant_to_drowned_host"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Довольно странный вид осьминогов, находящихся в симбиотических отношениях с утопленниками: они прикрепляются к их головам и стреляют мощными чернильными зарядами в своих врагов и врагов хозяина. Если Симбиокт не прикреплён к утопленнику, ему можно приказать прикрепиться к нему. Или, при желании, можно использовать ПКМ по Симбиокту пустой рукой, присев, и он прикрепится к вам. Чтобы отцепить его, нажмите по нему ПКМ пустой рукой и не приседая."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:cindaria_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_cindaria_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Эти величественные существа не только способны стрелять водными копьями, но и их атаки в ближнем бою поражают несколько целей и наносят огромный урон."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:hippocamtus",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_hippocamtus_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Стражи Акрополя, эти водоплавающие воины могут не только атаковать своих врагов с больших расстояний, но и парировать атаки, оглушающие врагов на достаточно долгое время, чтобы успеть пронзить их своими копьями."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:clawdian",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_clawdian_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Эти могучие джаггернауты могут превзойти многих врагов и прислужников аналогичного размера, хотя у них есть печальная привычка бросаться с уступов, как и их собратья Аптергангры. Находясь на расстоянии, эти ракообразные вырывают кусок земли и бросают его в цель. Они также обладают гидрокинетической способностью вызывать волны в сторону своих врагов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Всех этих существ можно излечить при помощи рыбы, или если их владелец наденет Глубоководную мантию."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Haunted Whip",
+  "icon": "goety_revelation:haunted_whip_hilt",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To indulge your twisted summoner fantasies, you\u0027ve devised an unholy weapon—though its corruption remains incomplete."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:haunted_whip_hilt"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For a warlock steeped in black magic like yourself, weaving a bone-whip is but a flick of the wrist; only its components demand abyssal deliberation.After brooding amidst necrotic whispers, two materials crystallize in your mind:"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "First, the fangs of a Deepnest Broodmother—a lash that pumps necrotic venom through creatures\u0027 veins with each searing strike.Second, ghostly ectoplasm—forged into a whip that hungers for mages\u0027 souls, its touch unleashing screech-force damage that siphons torment back to its wielder."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Though distinct in origin, both whips share profane traits:They excavate foliage and plant blocks with predatory haste, yet falter against stone or metal;Their sweep attacks inflict full damage without needing the Sweeping Edge enchantment (though the enchantment would expand their arc of decay)."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:venomous_spider_whip"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spectre_whip"
+    }
+  ]
+}

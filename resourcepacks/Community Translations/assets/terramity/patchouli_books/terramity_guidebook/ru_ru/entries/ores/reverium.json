@@ -1,0 +1,29 @@
+{
+  "name": "Ревериум",
+  "icon": "terramity:reverium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ревериум — это новый металл, добавленный Terramity.$(br2)Ревериум можно получить, объеденив профанум, анти призму и перья ангела.$(br2)Ревериум можно получить только после победы над Теневыми Волшебниками."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Ревериум",
+      "images": [
+        "terramity:textures/screens/reverium.png"
+      ],
+      "border": true,
+      "text": "Ревериум хранит в себе силу небес."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:reverium_recipe",
+      "recipe2": "terramity:reverium_block_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для этого металла нет кузнечного шаблона, вместо этого вы должны изготовить набор инструментов и броню только из слитков."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Gold Feather",
+  "icon": "goety_revelation:gold_feather",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "We become extremely vulnerable when casting spells, as they cannot move freely. Unless you have a mount, you must endure the agonizingly slow crawl during the casting time."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:gold_feather"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fortunately, you\u0027ve learned a technique from the villagers that allows limited movement during spellcasting! Though far from sprinting speed, it proves sufficient in most situations."
+    }
+  ]
+}

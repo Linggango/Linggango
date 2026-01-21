@@ -1,0 +1,31 @@
+{
+  "name": "Chaos Extraction",
+  "icon": "minecraft:paper",
+  "category": "goety:revelation/rumors",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Many items in the world are in chaos and peculiarity, but mages like us will always find a way to seize that random possibility..."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:puzzle1"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:puzzle2"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:puzzle3"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:puzzle4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Put the answer in the magic ritual, and then use the empty focus, and we can get what we want in our hearts...No one knows what we will get. It could be the power to manipulate the world, or it could just be a handful of dirt."
+    }
+  ]
+}

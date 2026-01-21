@@ -1,0 +1,38 @@
+{
+  "name": "Космическая Станция",
+  "icon": "ad_astra:/textures/gui/sprites/space_station.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Космическая Станция",
+      "text": "Космическая станция - это предварительно построенное сооружение, которое создается на экране выбора планеты при условии, что у вас есть необходимые материалы. Космические станции всегда расположены на орбите Луны или планеты и предоставляют возможность размещать блоки в этом измерении орбиты."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Космическая Станция",
+      "text": "Космические станции предназначены для расширения, что позволяет вам построить базу вашей мечты на Луне/Планете. Они всегда появляются в том месте, в которое вы запустили свою ракету, поэтому запомните координаты, чтобы не потерять структуру."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Moving in Space",
+      "text": "Physics in space are very different from earth. In this zero-gravity environment, you\u0027ll float around and not be affected by gravity or friction. This can make it difficult to move around. One tool that can help you is the zip gun. This takes oxygen and will rapidly consume it to propel you forward. This allows you to move around in space. Careful to control your speed. As there\u0027s no friction, you can go flying out and get lost."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Zip Gun",
+      "recipe": "ad_astra:zip_gun"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cadmus",
+      "text": "If $(l:https://modrinth.com/mod/cadmus)Cadmus$(/l) is installed, the 3x3 chunks in your space station will be claimed. In addition, players will not be able to create new space stations in any of your claimed chunks."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Argonauts",
+      "text": "If $(l:https://modrinth.com/mod/argonauts)Argonauts$(/l) is installed is installed, other players in your party or guild will be able to land at your space station, and you\u0027ll be able to land at theirs."
+    }
+  ]
+}

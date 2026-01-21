@@ -1,0 +1,12 @@
+{
+  "name": "Rima",
+  "icon": "minecraft:coarse_dirt",
+  "sortnum": 4,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Seemingly dead planet with life hiding inside the cracs in its surface, a part of Apophis\u0027 domain."
+    }
+  ]
+}

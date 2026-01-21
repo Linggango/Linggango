@@ -1,0 +1,32 @@
+{
+  "name": "Уаджит",
+  "icon": "cataclysm:ancient_spear",
+  "category": "goety:cataclysm/mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Благодаря обычному Кобольду, вам удалось вызвать великого Уаджита и подчинить его своей воле."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_koboleton_to_wadjet_servant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:wadjet",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этих неживый заклинателей можно исцелить при помощи костей, и они пассивно исцеляются, если их владелец носит Некро-плащ."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:arcane_spirit",
+      "text": "В случае смерти эти древние маги оставляют свой дух, который, при использовании на Кобольде, возродит их."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:arcane_spirit": 4
+  }
+}

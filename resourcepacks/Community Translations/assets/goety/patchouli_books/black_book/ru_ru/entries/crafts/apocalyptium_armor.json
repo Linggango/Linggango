@@ -1,0 +1,29 @@
+{
+  "name": "Apocalyptium Set",
+  "icon": "goety_revelation:apocalyptium_upgrade_smithing_template",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety_revelation:apocalyptium_ingot",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Since the Apocalyptium ingot is the ultimate upgraded version of the dark metal ingot,the armor made from it will provide great power like that of the gods!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Each piece of armor can reduce the amount of soul energy used. It is applicable in situations such as casting spells, healing servants, and repairing some items. Unfortunately, when synthesizing items or performing rituals, no reduction will be provided."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When wearing the full set, they can even resist the effect immunity of the Ascension Ring, passively restore health even when the hunger value is depleted, and be completely immune to explosive magic and fire damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you want to make this divine armor, you need the corresponding template....."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:apocalyptium_template"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Хтонический собор",
+  "icon": "terramity:occult_fabric",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Хтонический собор — это структура, которую можно найти в Террамити и необходимая для битвы с финальным боссом.$(br2)Эту структуру можно найти только на крыше Незера."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/shadow_wizards)Тёмных волшебников$() можно вызвать, щелкнув ПКМ по пьедесталу, найденному в соборе, оккультной тканью, выпавшей из врагов, найденных внутри собора. $(l:terramity:structures/chthonic_dungeon)Хтонического подземелья$().",
+      "item": {
+        "item": "terramity:occult_fabric"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Хтонический собор",
+      "images": [
+        "terramity:textures/screens/cathedral.png"
+      ],
+      "border": true
+    }
+  ]
+}

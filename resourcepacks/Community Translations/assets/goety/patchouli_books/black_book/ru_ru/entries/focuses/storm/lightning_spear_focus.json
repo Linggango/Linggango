@@ -1,0 +1,18 @@
+{
+  "name": "Фокус грозового копья",
+  "icon": "goety_cataclysm:lightning_spear_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Заклинание стреляет копьём из молний, которое оставляет после себя небольшое грозовое облако, наносящее урон врагам, стоящим на нём. Использование Грозового посоха позволяет выпустить два копья."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/lightning_spear_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:lightning_spear_focus": 1
+  }
+}

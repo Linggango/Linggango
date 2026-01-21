@@ -1,0 +1,29 @@
+{
+  "name": "Эксодиум",
+  "icon": "terramity:exodium_superalloy",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эксодиум — это новый металл, добавленный Terramity.$(br2)Эксодиум можно получить, объеденив профанум, анти призму и треснувший микрокосм.$(br2)Эксодиум можно получить только после победы над Тёмными Волшебниками."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Exodium",
+      "images": [
+        "terramity:textures/screens/exodium.png"
+      ],
+      "border": true,
+      "text": "Эксодиум содержит силу ???."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:exodium_ingot_recipe",
+      "recipe2": "terramity:exodium_to_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для этого металла нет кузнечного шаблона, вместо этого вы должны изготовить набор инструментов и броню только из слитков."
+    }
+  ]
+}

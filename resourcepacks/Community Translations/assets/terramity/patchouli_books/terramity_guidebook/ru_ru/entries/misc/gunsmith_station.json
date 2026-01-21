@@ -1,0 +1,15 @@
+{
+  "name": "Станция оружейника",
+  "icon": "terramity:gunsmith_station",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Станция оружейника — это новая рабочая станция жителя, добавленная Terramity.$(br2)Станцию ​​оружейника можно разместить рядом с жителем деревни, чтобы получить оружейника, жителя деревни, который будет торговать предметами, связанными с пушками, даже порохом!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:gunsmith_station_recipe"
+    }
+  ]
+}

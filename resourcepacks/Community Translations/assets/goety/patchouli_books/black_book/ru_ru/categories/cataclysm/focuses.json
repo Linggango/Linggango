@@ -1,0 +1,7 @@
+{
+  "name": "Фокусы",
+  "description": "Катаклизм теперь в форме заклинаний!",
+  "icon": "goety_cataclysm:flare_bomb_focus",
+  "parent": "goety:cataclysm",
+  "sortnum": 2
+}

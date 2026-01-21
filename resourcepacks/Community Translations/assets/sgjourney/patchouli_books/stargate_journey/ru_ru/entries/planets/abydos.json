@@ -1,0 +1,12 @@
+{
+  "name": "Abydos",
+  "icon": "minecraft:sand",
+  "sortnum": 1,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A desert planet in Ra\u0027s domain."
+    }
+  ]
+}

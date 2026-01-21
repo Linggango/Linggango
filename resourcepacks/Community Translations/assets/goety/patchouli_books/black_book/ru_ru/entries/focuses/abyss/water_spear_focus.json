@@ -1,0 +1,15 @@
+{
+  "name": "Фокус водного копья",
+  "icon": "goety_cataclysm:water_spear_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это заклинание стреляет копьём из воды под высоким давлением, которое будет отскакивает от поверхностей. Использование Глубоководного посоха позволяет выпустить сразу два копья."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:focus/water_spear_focus"
+    }
+  ]
+}

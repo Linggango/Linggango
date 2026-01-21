@@ -1,0 +1,23 @@
+{
+  "name": "Разложившаяся бедроковая пыль",
+  "icon": "terramity:decayed_bedrock_dust",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пыль бедрока — это мощный материал для некоторых аксессуаров и оружия, который даже позволяет вам создавать бедрок, если у вас достаточно пыли.$(br2)Её можно получить только после победы над $(l:terramity:bosses/trial_guardian)Хранителем испытаний$() и получения Запретного посоха."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:decayed_bedrock_recipe",
+      "recipe2": "terramity:bedrock_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "При поражении $(l:terramity:bosses/trial_guardian)Хранитель испытаний$() сбрасывает запретный посох, необходимый для дальнейшего прогресса. Используя запретный посох на бедроке, вы сможете его разложить, что позволит добыть его.",
+      "item": {
+        "item": "terramity:perish_staff"
+      }
+    }
+  ]
+}

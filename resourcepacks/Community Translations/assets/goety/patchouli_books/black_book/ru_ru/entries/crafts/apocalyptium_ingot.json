@@ -1,0 +1,18 @@
+{
+  "name": "Apocalyptium Ingot",
+  "icon": "goety_revelation:apocalyptium_ingot",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "By borrowing the divinity of ascension, you can make these metals more...powerful and profane!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:apocalyptium_ingot"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:apocalyptium_ingot": 1
+  }
+}

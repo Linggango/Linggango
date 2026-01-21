@@ -1,0 +1,17 @@
+{
+  "name": "Grandfrost [SM]",
+  "icon": "simplymore:grandfrost",
+  "advancement": "simplymore:grandfrost",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:grandfrost",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Grandfrost is a grandsword forged of permafrost up on the tallest mountain, sharp yet brittle. However broken the blade seems to seem, the blade constantly repairs itself with crystalline shards of ice. Some speculate that perhaps the ice is actually"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "a sentient creature of sorts, explaining the curious glows that the blade exudes. This weapon can harvest moisture from the air, however slight, and transform it into a howling blizzard within seconds, pushing enemies away and leaving them frostbitten."
+    }
+  ]
+}

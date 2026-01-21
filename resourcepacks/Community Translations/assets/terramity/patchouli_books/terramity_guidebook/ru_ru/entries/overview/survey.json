@@ -1,0 +1,20 @@
+{
+  "name": "Опрос (Нажмите здесь)",
+  "icon": "terramity:gaias_grace",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Если у вас есть несколько минут и желание помочь в разработке мода, пройдите опрос ниже. Это лучший способ предложить новые функции! Если ваша идея будет добавлена, я смогу указать ваше имя в благодарностях и добавить её в мод. Не забудьте указать своё имя пользователя в ответе.",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdSbeZEJEnXBIwsVhdcESFpxfvbbVVuCrGVjhakPar57_0A_w/viewform?usp\u003dsf_link",
+      "link_text": "Пройти опрос"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "terramity:textures/screens/survey.png"
+      ],
+      "border": true
+    }
+  ]
+}

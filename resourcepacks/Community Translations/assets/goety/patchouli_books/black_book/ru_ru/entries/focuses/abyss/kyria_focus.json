@@ -1,0 +1,18 @@
+{
+  "name": "Фокус дамы",
+  "icon": "goety_cataclysm:kyria_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пока этот фокус на вашей палочке или посохе, величественная госпожа моря ответит на ваш зов."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/kyria_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:kyria_focus": 1
+  }
+}

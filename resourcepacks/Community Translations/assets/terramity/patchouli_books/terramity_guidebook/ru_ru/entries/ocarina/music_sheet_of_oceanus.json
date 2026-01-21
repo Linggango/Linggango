@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Океануса",
+  "icon": "terramity:music_sheet_of_oceanus",
+  "category": "terramity:ocarina",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Океануса",
+      "text": "Нотный стан Океануса даёт эффекты Подводного дыхания и Благодати дельфина на 60 секунд.$(br2)Этот стан часто можно найти в затонувших кораблях.",
+      "item": {
+        "item": "terramity:music_sheet_of_oceanus"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

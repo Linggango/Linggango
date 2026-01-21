@@ -1,0 +1,34 @@
+{
+  "name": "Профанум",
+  "icon": "terramity:profanum",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Профанум — это новый металл, добавленный Terramity.$(br2)Профанум используется для изготовления слитков никсиума, экзодиума и ревериума.$(br2)Профановую руду можно найти глубоко в верхнем мире, между Y\u003d-10 и Y\u003d-64."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Профанум",
+      "images": [
+        "terramity:textures/screens/profanum.png"
+      ],
+      "border": true,
+      "text": "Профанум — невероятная основа для мощных сплавов."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "terramity:profanum_smelt",
+      "text": "Профанум опасен на ощупь, будьте осторожны, если собираетесь его выплавить.$(br2)Руду можно добыть только адской, пустотной или кондуклитовой киркой (или лучше).."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:nyxium_recipe",
+      "recipe2": "terramity:exodium_ingot_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:reverium_recipe"
+    }
+  ]
+}

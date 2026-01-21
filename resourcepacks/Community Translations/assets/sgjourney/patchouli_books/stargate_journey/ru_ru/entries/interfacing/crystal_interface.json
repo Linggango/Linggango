@@ -1,0 +1,12 @@
+{
+  "name": "Crystal Interface",
+  "icon": "sgjourney:crystal_interface",
+  "sortnum": 2,
+  "category": "sgjourney:interfacing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TODO"
+    }
+  ]
+}

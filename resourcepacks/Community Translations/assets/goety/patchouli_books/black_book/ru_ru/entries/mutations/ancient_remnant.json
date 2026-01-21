@@ -1,0 +1,30 @@
+{
+  "name": "Древний Ревенант",
+  "icon": "cataclysm:remnant_skull",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/read_terminus_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Используя редкие и дорогие материалы вместе с магией, вы можете превратить Современного Ревенента в силу, столь же могущественную, как и его прародитель."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_modern_remnant_to_ancient_remnant_servant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ancient_remnant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:ancient_plating"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Возрождённого Монарха можно исцелить при помощи костей, и он может пассивно исцеляться, если его владелец наденет Некро-плащ. Во время второй фазы он сможет пассивно исцеляться даже в огне и без секундной задержки."
+    }
+  ]
+}

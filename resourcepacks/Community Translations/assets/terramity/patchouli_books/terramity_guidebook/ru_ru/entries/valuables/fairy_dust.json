@@ -1,0 +1,16 @@
+{
+  "name": "Пыль феи",
+  "icon": "terramity:fairy_dust",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пыль феи выпадает из любой феи и используется для создания некоторых хороших предметов из Террамити.$(br2)Феи появляются практически повсюду в мире, так что отправляйтесь на поиски, и вы точно найдете хотя бы несколько."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:radiant_honey_recipe",
+      "recipe2": "terramity:power_bracelets_recipe"
+    }
+  ]
+}

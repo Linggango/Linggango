@@ -1,0 +1,84 @@
+{
+  "name": "Глубинники-прислужники",
+  "icon": "cataclysm:lionfish",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Последователи Левиафана, странные существа, подозрительно похожие на обитателей Энда, но не способные к телепортации и живущие в воде."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_deepling_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Обычный глубинник, способный метать коралловые копья на большие расстояния или использовать их в ближнем бою. При необходимости ему можно дать коралловое копьё."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_angler_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_deepling_angler_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Глубинники, вооружённые удочками и держащие на поводке рыбу-льва. Их окраска и способность отравлять врагов заставляют задуматься о том, как эти двое связаны друг с другом."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Используйте ножницы на рыбе-льве, чтобы освободить её. В таком случае она начнёт следовать за вами и подчиняться. Если у рыболова не будет рыбы-льва, он поймает новую через 10 минут, по умолчанию, если он находится в воде и у него всё ещё есть удочки. Поимка рыбы-льва постепенно уменьшает прочность удочки, хотя им можно дать новую."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_brute_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_deepling_servant_to_deepling_brute"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Сильные глубинники, обладающие большей ловкостью и силой, чем их обычные сородичи. При необходимости им можно дать Коралловый Бердыш."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_priest_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_deepling_servant_to_deepling_priest"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Даже командуя ими, вы понятия не имеете, поклоняются ли эти существа Левиафану или тому существу, что питает Аметистовый алтарь. При необходимости им можно дать ритуальный кинжал."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_warlock_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_deepling_servant_to_deepling_warlock"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "В отличие от своих собратьев-жрецов, эти глубинники используют силу Левиафана, чтобы вызывать из земли лучи глубинной энергии. Однако они не испытывает интереса к грибам или крошечным бородавочным паукообразным. При необходимости им можно дать ритуальный кинжал."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Все виды глубинников можно излечить при помощи рыбы, или если их владелец наденет Глубоководную мантию."
+    }
+  ]
+}

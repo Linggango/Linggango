@@ -1,0 +1,36 @@
+{
+  "name": "Черная материя",
+  "icon": "terramity:black_matter",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Черная материя — это необходимый предмет для получения мощных металлов Террамити.$(br2)Она может быть получена только после победы над $(l:terramity:bosses/trial_guardian)Стражем испытаний$() и получения Запретного посоха."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Бедроковая руда черной материи",
+      "images": [
+        "terramity:textures/screens/black_matter.png"
+      ],
+      "border": true,
+      "text": "Бедроковую руду черной материи, можно найти на поверхности Нижнего мира."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Разложившаяся руда черной материи",
+      "images": [
+        "terramity:textures/screens/decayed_black_matter.png"
+      ],
+      "border": true,
+      "text": "Разложившаяся руда черной материи, теперь доступна для добычи."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/trial_guardian)Страж испытаний$() дропает запретный посох при поражении, необходимый предмет для прогресса. Использование запретного посоха на бедроковой руда черной материи разложит её, позволяя добывать.",
+      "item": {
+        "item": "terramity:perish_staff"
+      }
+    }
+  ]
+}

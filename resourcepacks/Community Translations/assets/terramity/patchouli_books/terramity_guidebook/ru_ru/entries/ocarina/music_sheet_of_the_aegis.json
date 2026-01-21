@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Эгида",
+  "icon": "terramity:music_sheet_of_the_aegis",
+  "category": "terramity:ocarina",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Эгида",
+      "text": "Нотный стан Эгида даёт Поглощение III на 30 секунд.$(br2)Этот стан выпадает чрезвычайно редко при добыче золотой руды.",
+      "item": {
+        "item": "terramity:music_sheet_of_the_aegis"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

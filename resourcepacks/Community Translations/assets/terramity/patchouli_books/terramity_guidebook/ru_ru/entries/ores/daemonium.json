@@ -1,0 +1,30 @@
+{
+  "name": "Демонит",
+  "icon": "terramity:daemonium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Демонит — это новый драгоценный камень, добавленный Terramity.$(br2)Демонит используется для шаблонов кузнечного дела димлита, космилита и вирентия.$(br2)Демонитовую руду можно найти на потолке Незера."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Демонит",
+      "images": [
+        "terramity:textures/screens/daemonium.png"
+      ],
+      "border": true,
+      "text": "Демонит отличная база для пушек."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:advanced_gun_parts_recipe",
+      "recipe2": "terramity:dimlite_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:cosmilite_upgrade_recipe",
+      "recipe2": "terramity:virentium_upgrade_recipe"
+    }
+  ]
+}

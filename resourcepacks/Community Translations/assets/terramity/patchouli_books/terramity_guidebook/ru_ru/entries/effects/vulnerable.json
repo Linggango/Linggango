@@ -1,0 +1,11 @@
+{
+  "name": "Уязвимость",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Уязвимость — это новый эффект зелья/статуса, добавленный Terramity.$(br2)Этот эффект увеличивает весь получаемый урон в 1,33 раза."
+    }
+  ]
+}

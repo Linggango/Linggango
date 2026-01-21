@@ -1,0 +1,33 @@
+{
+  "name": "Драугр некромант-прислужник",
+  "icon": "cataclysm:black_steel_ingot",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/unlock_necromancer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вам удалось открыть способ создания драугров-некромантов. Они акатуют стрелами из призрачной энергии и призывают драугров для исполнения своих приказов. Для ритуала используется не обычный скелет, а драугр."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_draugr_to_draugr_necromancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Их можно научить призывать элитных и королевских драугров, щёлкнув по ним ПКМ соответствующими фокусами. Они не могут призывать другие типы нежити-прислужников. Щёлкнув по ним ПКМ пустой рукой, чтобы некромант призоввал для вас нежить-прислужников. Их можно излечить так же, как и обычных драугров-прислужников."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:draugr_necromancer_servant",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:soul_jar_draugr",
+      "text": "Если драугр некромант умрёт, а в вашем инвентвре будет $(l:crafts/empty_soul_jar)пустая банка души$(), душа драугра будет помещена внутрь. ПКМ банкой душ по обычному драугру, чтобы вернуть некроманта к жизни в новом теле."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:soul_jar_draugr": 4
+  }
+}

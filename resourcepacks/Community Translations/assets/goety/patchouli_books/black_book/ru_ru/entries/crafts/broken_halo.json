@@ -1,0 +1,35 @@
+{
+  "name": "Broken Halo",
+  "icon": "goety_revelation:broken_halo",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety:goety/read_forbidden_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When the apostles are perishing, there will always be a strange energy fluctuation spreading out. This makes you, a dark sorcerer, usually curious. You usually wonder if you can capture that strange fluctuation."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You have also made many attempts, such as imitating clothes of those dark envoys. However, you know that this is just a counterfeit derived from false source."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After the ultimate art of necromancy was reconstructed, you finally understood the nature of that fluctuation, and unexpectedly discovered a hidden secret path of ascension. It is the art of ascending to godhood from the lower realm - embracing destruction and thus seizing the great power of hell realm."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In order to draw attention of the gods, you must obtain some of their creations. And when apostles are defeated, the halo is usually taken back by the gods."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "But after repeated experiments, you finally found a way to capture divinity, although this method is not perfect. That divinity dissipated after the destruction of apostles, but it is enough for you to achieve what you want in your mind."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:broken_halo"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:broken_halo": 1
+  }
+}

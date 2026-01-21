@@ -1,0 +1,17 @@
+{
+  "name": "Lustrous Moxie [SM]",
+  "icon": "simplymore:lustrous_moxie",
+  "advancement": "simplymore:lustrous_moxie",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:lustrous_moxie",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Imbued with the taught blessing of the Great Sage, a noble warrior once wandered the lands with this weapon in tow. Light envelops the shimmering blade as the oscillating lights sparkled in the eyes of the villagers he saved."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Rushing evil down at blinding speeds and targeting people with Moxie’s mark to slay all unholy abominations that once wandered the lands. In his final moments, he laid his weapon to rest by his side before slowly melding into the earth. The weapon still shimmers as brightly as it did that day."
+    }
+  ]
+}

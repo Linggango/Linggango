@@ -1,0 +1,26 @@
+{
+  "name": "Шпиль испытаний",
+  "icon": "terramity:spire_key",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Шпиль испытаний — это структура, встречающаяся в Terramity, и необходимая для сражения с третьим боссом в прогрессии мода.$(br2)Структура может быть найдена в любом океане."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/trial_guardian)Страж Испытаний$() может быть вызван, если вставить ключ шпиля в замок, находящийся в шпиле.$(br2)Шпиль испытаний — это длинное и сложное подземелье, и вы должны быть хорошо подготовлены перед его посещением.",
+      "item": {
+        "item": "terramity:spire_key"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Шпиль испытаний",
+      "images": [
+        "terramity:textures/screens/spire.png"
+      ],
+      "border": true
+    }
+  ]
+}

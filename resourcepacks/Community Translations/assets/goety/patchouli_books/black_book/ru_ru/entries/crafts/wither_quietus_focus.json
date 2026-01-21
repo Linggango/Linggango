@@ -1,0 +1,19 @@
+{
+  "name": "Wither Quietus Focus",
+  "icon": "goety_revelation:wither_quietus_focus",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety_revelation:quietus",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Release the deepest malice of the Wither and wipe out lives you point to."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:wither_quietus_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:wither_quietus_focus": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Mystery of the End",
+  "icon": "goety_revelation:puzzle_item",
+  "category": "goety:revelation/rumors",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After fighting with that three - headed demon, the eternal dragon, and even the Lord of the Underworld, sometimes you may also wonder whether there is really no possibility of ascending to a god in this world? The answer is uncertain. And in that hidden scroll, not only the legendary necromancy is mentioned, but also some other things...You think they should be recorded."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(o)One of the essential conditions is the divinity of the Nether Religion. Because without divinity, one cannot step onto the ladder of ascending to godhood.$(br)The second essential condition is to have a will strong enough to fight against the whole world. The world will never allow the birth of a true god.$(br)The third essential condition is to have the power to plunge the instant into eternity."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(o)If a god is not eternal, it will not exist in this world.$(br)The fourth essential condition is four fragments, the four items chosen by the Apocalyptic Revelation. Without them, the divinity cannot be complete.$(br)The fifth essential condition is to commit the crime of Doomsday No. 5, and use the stinger that is sharp enough to cut through the barrier of reality to see the truth...$(br)The sixth essential condition, location.Face the nihility of the end directly."
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goety_revelation:end",
+      "text": "$(o)In that miniature city of the end, rely on the revelation to open this ladder of ascending to godhood.$(br)And the last condition is courage. I must have the courage to give up the whole world once.$(br)Wait for the final moment. By then, \u0027the end\u0027 will manifest for myself."
+    }
+  ]
+}

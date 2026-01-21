@@ -1,0 +1,17 @@
+{
+  "name": "Viper\u0027s Call [SM]",
+  "icon": "simplymore:vipers_call",
+  "advancement": "simplymore:vipers_call",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:vipers_call",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Viper’s Call is a patch of hide from a defeated greatwyrm, transformed into its own sentient creature. This weapon constantly expels serum from its spines, causing potion effects the wielder has to stay infinitely, so long as they retain the stimulant."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As a desperate measure, the weapon is able to project a larger, venomous version of itself around its master to deter foes from stepping close."
+    }
+  ]
+}

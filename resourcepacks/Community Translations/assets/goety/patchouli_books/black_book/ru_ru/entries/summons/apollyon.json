@@ -1,0 +1,66 @@
+{
+  "name": "The Lord of Apocalypse",
+  "icon": "goety_revelation:ascension_halo",
+  "category": "goety:revelation/summons",
+  "advancement": "goety_revelation:broken",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In the process of deciphering Forbidden Scrolls, you found out that in the past, the Nether Cult in the hell realm have exerted all of their powers to carry out an attempt to ascend with wild ambition. The scale was so grand that it could be described as extremely exaggerated. However, the result was clearly a failure. As now that place has long been reduced"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "to a wasteland that full of smells of destruction, and few dare to set foot there. However, a sorcerer like you, who dares enough to open the Black Book, surely covet this destructive power."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After obtaining the Broken Halo, you are fully confident to go and pay a visit to the leader of the Nether Cult, Apollyon, the King of the Bottomless Pit, and challenge him, so that he would recognize your determination and then become the thirteenth apostle. However, this road of trial will by no means easy; it will surely be an extremely rare and fierce battle."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety_revelation:textures/ui/overworld_apollyon.png"
+      ],
+      "border": true,
+      "text": "An archival picture regarding Apollyon."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Restricted by the dimensional barriers of overworld, his divine power can only seep through a little bit and descend on apostles in the main world, turning into an incarnation who represents his will, thus starting the trial for the True Chosen One"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Although this battle has some similarities with ordinary apostle battles, even if you let only an essence of the power of Lord of the Netherworld seeps through, that will make the battle extremely difficult. That pure power of destruction will strengthen apostles to a terrifying level. Therefore, if you are not fully prepared, you should not rashly start this trial."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_revelation:ascension_halo",
+      "text": "If you can defeat his incarnation in this trial, then you can obtain the real power of ascension and would be promoted to a true apostle."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:summon_apollyon2"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:summon_apollyon"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You should not carry out this trial for the Chosen One in the nether, because without the protection of dimensional barriers of the overworld, you will experience the true malice."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety_revelation:textures/ui/nether_apollyon.png"
+      ],
+      "border": true,
+      "text": "A sighting report submitted by XinHai307."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_revelation:revelation",
+      "text": "However, if you can endure this pain and suffering, you will receive unexpected rewards..."
+    }
+  ]
+}

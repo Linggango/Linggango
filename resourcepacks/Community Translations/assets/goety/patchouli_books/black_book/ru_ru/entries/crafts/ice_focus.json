@@ -1,0 +1,18 @@
+{
+  "name": "Absolute Zero Focus",
+  "icon": "goety_revelation:ice_focus",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Through the Frigid Ice and the culmination of all frost powers, you have finally forged a mighty Frost Focus. This focus freezes all creatures within its radius while summoning volleys of icicles to pierce through themand creatures struck by these icicles become more vulnerable.$(br)Furthermore, when casting with a Frost Staff, you can double the radius of the freezing field!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:ice_focus_el"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:ice_focus_el": 1
+  }
+}

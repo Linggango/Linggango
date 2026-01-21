@@ -1,0 +1,22 @@
+{
+  "name": "Фокус метеоритного дождя",
+  "icon": "goety:meteor_shower_focus",
+  "category": "goety:focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Наполняя фокус града стрел силой Незера, вы создаёте дождь из взрывоопасных лавовых бомб."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/meteor_shower_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/nether_staff)незерского посоха$() увеличивает число лавовых бомб."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:meteor_shower_focus": 1
+  }
+}
