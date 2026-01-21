@@ -2,5 +2,22 @@
   "arseng.page.source_acceptor": "The ME Source Converter converts source into AE energy. Attach it to an ME network and feed it source with a relay in order to power the network itself simply using source.",
   "arseng.page.source_acceptor_description": "The Source Converter comes in both block and cable part form.",
   "arseng.page.source_cell_housing": "ME Source Cells can be crafted with an ME Source Cell Housing. They will store many jars\u0027 worth of source within an Applied Energistics 2 ME system.",
-  "item.arseng.creative_source_cell": "Creative ME Source Cell"
+  "block.arseng.me_source_jar": "МЭ кувшин источника",
+  "block.arseng.source_acceptor": "МЭ преобразователь источника",
+  "item.arseng.cable_source_acceptor": "МЭ преобразователь источника",
+  "item.arseng.creative_source_cell": "Creative ME Source Cell",
+  "item.arseng.portable_source_cell_16k": "16К переносная ячейка источника",
+  "item.arseng.portable_source_cell_1k": "1К переносная ячейка источника",
+  "item.arseng.portable_source_cell_256k": "256К переносная ячейка источника",
+  "item.arseng.portable_source_cell_4k": "4К переносная ячейка источника",
+  "item.arseng.portable_source_cell_64k": "64К переносная ячейка источника",
+  "item.arseng.source_cell_housing": "МЭ корпус ячейки источника",
+  "item.arseng.source_p2p_tunnel": "МЭ одноранговый тоннель источника",
+  "item.arseng.source_storage_cell_16k": "16К МЭ ячейка хранения источника",
+  "item.arseng.source_storage_cell_1k": "1К МЭ ячейка хранения источника",
+  "item.arseng.source_storage_cell_256k": "256К МЭ ячейка хранения источника",
+  "item.arseng.source_storage_cell_4k": "4К МЭ ячейка хранения источника",
+  "item.arseng.source_storage_cell_64k": "64К МЭ ячейка хранения источника",
+  "item.arseng.spell_p2p_tunnel": "МЭ одноранговый тоннель заклинания",
+  "itemGroup.arseng": "Ars Énergistique"
 }
