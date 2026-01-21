@@ -50,5 +50,5 @@
   "gnetum.config.tooltip.auto": "Gnetum автоматически решит, кэшировать этот элемент или нет.\n\nТекущий статус: %s",
   "gnetum.config.tooltip.off": "Кэширование этого элемента принудительно отключено.",
   "gnetum.config.tooltip.on": "Кэширование этого элемента принудительно включено.",
-  "gnetum.config.vanilla": "Именованные элементы...",
+  "gnetum.config.vanilla": "Именованные элементы..."
 }
