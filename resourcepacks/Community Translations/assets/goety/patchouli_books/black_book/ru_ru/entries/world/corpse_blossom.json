@@ -1,0 +1,21 @@
+{
+  "name": "Смертоцветы",
+  "icon": "goety:corpse_blossom",
+  "category": "goety:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В зарослях джунглей было замечено (а скорее учуяно) вонючее растение. Оно не только пахнет и красиво выглядит, но и содержит в себе энергию джунглей."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/corpse_blossom.png"
+      ],
+      "border": true
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:corpse_blossom": 1
+  }
+}

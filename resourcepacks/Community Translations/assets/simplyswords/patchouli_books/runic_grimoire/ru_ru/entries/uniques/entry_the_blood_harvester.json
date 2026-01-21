@@ -1,0 +1,17 @@
+{
+  "name": "The Blood Harvester [SM]",
+  "icon": "simplymore:the_blood_harvester",
+  "advancement": "simplymore:the_blood_harvester",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:the_blood_harvester",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()This blade once had a formidable place in a vicious Berserker\u0027s arsenal before it was abandoned, having fulfilled its use. It is designed to sap energy from the harvest moon, being able to enter harvest cycles where The Blood Harvester fully powers up,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "locating nearby targets and violently striking them down. The blade end of this weapon is made specifically to maximize blood loss, leading to sickening, slow, painful deaths as its former owner feasted on their suffering."
+    }
+  ]
+}

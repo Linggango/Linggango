@@ -1,0 +1,17 @@
+{
+  "name": "Soul Foreseer [SM]",
+  "icon": "simplymore:soul_foreseer",
+  "advancement": "simplymore:soul_foreseer",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:soul_foreseer",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The Soul Foreseer is a spectral weapon floating around a beacon of blue flame. It acts as a guide for those lost in death, unable to find a resting place. The beacon acts as a sort of comforting agent to those who seek it. It acts as a judge to the living,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "stealing and judging souls to discover their morality. While the Soul Foreseer has a soul, it is kept stagnant, unable to change itself in any way, keeping judgement fair. If a soul is to not pass its judgement, it attempts to rip it permanently from its owner, teleporting them towards the blade for finalization."
+    }
+  ]
+}

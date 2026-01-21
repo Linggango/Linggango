@@ -1,0 +1,11 @@
+{
+  "name": "Иммунитет",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Иммунитет — это новый эффект зелья/статуса, добавленный Terramity.$(br2)Этот эффект делает вас невосприимчивым к голоду, слабости, иссушению, яду, медлительности, $(l:terramity:effects/shadowflame)Shadowflame$(), тьме, слепоте, головокружению и $(l:terramity:effects/hexed)Hexed$()."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Защиты",
+  "icon": "terramity:music_sheet_of_defense",
+  "category": "terramity:ocarina",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Защиты",
+      "text": "Нотный стан Защиты даёт эффект Сопротивления I на 15 секунд.$(br2)Этот стан часто можно найти в подземельях.",
+      "item": {
+        "item": "terramity:music_sheet_of_defense"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

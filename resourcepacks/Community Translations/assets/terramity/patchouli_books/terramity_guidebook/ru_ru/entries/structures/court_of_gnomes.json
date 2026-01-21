@@ -1,0 +1,26 @@
+{
+  "name": "Двор Гномов",
+  "icon": "terramity:red_gnome_hat_helmet",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Двор Гномов — это структура, встречающаяся в мире Terramity и необходимая для сражения с первым боссом в прогрессии мода.$(br2)Эту структуру можно найти только в тёмных лесах и болотах."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/gob)Гоб, Король Гномов$() может быть призван, если нажать правой кнопкой мыши на золотую статую гнома внутри двора, держа $(l:terramity:misc/gnome_bartering)красную шляпу гнома$().",
+      "item": {
+        "item": "terramity:red_gnome_hat_helmet"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Двор Гномов",
+      "images": [
+        "terramity:textures/screens/court.png"
+      ],
+      "border": true
+    }
+  ]
+}

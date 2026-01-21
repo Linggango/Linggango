@@ -1,0 +1,17 @@
+{
+  "name": "Earthshatter [SM]",
+  "icon": "simplymore:earthshatter",
+  "advancement": "simplymore:earthshatter",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:earthshatter",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The Earthshatter is one of the last remnants of a long forgotten kingdom. Once the prized blade of the great tyrant ruler, now sits broken, taken over by nature. The weapon’s great size allows it to break shields and armor as if cutting flesh, leaving"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "targets vulnerable to this weapon’s wrath. This blade can strike the ground with such ferocity that it creates an earthquake, launching foes off of their feet."
+    }
+  ]
+}

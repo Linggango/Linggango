@@ -1,0 +1,17 @@
+{
+  "name": "Blade of the Grotesque [SM]",
+  "icon": "simplymore:blade_of_the_grotesque",
+  "advancement": "simplymore:blade_of_the_grotesque",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:blade_of_the_grotesque",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A blade created by a powerful necromancer long ago, reviving the petrified body of a vengeful soul. The soul now wishes to cause other people the pain they felt for so, so long. The blade wraps and binds itself to its wielder, fortifying them. The weapon"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "attempts to fully solidify as many foes as it can, though due to their decades stuck in that form, they only have enough strength to temporarily cause this curse. That does not matter to them, however, because even seconds stuck with that curse is worse than anything else in this life."
+    }
+  ]
+}

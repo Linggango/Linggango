@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Бури",
+  "icon": "terramity:music_sheet_of_storms",
+  "category": "terramity:ocarina",
+  "sortnum": 28,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Бури",
+      "text": "Нотный стан Бури изменяет погоду при игре.$(br2)Этот стан можно довольно редко найти в затонувших кораблях.",
+      "item": {
+        "item": "terramity:music_sheet_of_storms"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Никсиум",
+  "icon": "terramity:nyxium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Никсиум — это новый металл, добавленный Terramity.$(br2)Никсиум можно получить, объеденив профанум, анти призму и опаловый лунный камень.$(br2)Никсиум можно получить только после победы над Теневыми Волшебниками."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Никсиум",
+      "images": [
+        "terramity:textures/screens/nyxium.png"
+      ],
+      "border": true,
+      "text": "Никсиум содержит силу луны."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:nyxium_recipe",
+      "recipe2": "terramity:nyx_to_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для этого металла нет кузнечного шаблона, вместо этого вы должны изготовить набор инструментов и броню только из слитков."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Gungnir",
+  "icon": "goety_revelation:gungnir",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After some experiments, you successfully replicated this ancient divine artifact. As an artifact named Gungnir,this Spear of Eternity will nail all creatures in place to endure the roasting of the hellfire!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:gungnir"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:gungnir": 1
+  }
+}

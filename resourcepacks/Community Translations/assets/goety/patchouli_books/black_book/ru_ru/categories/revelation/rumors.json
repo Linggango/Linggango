@@ -1,0 +1,7 @@
+{
+  "name": "Final rumor",
+  "description": "The Puzzle",
+  "icon": "minecraft:globe_banner_pattern",
+  "parent": "goety:revelation",
+  "sortnum": 7
+}

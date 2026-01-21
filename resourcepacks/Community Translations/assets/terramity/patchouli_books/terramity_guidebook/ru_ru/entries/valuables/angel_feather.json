@@ -1,0 +1,16 @@
+{
+  "name": "Перо ангела",
+  "icon": "terramity:angel_feather",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Перья ангела — это необходимый ингредиент для $(l:terramity:ores/reverium)Ревериума$().$(br2)Перья ангела можно получить, бросив Копьё Лонгинья в небо верхнего мира, пронзая небеса и вызывая его гнев..."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:unholy_lance_recipe",
+      "recipe2": "terramity:reverium_recipe"
+    }
+  ]
+}

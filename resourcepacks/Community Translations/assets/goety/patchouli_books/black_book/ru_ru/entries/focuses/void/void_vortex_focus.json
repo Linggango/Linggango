@@ -1,0 +1,18 @@
+{
+  "name": "Фокус вихря пустоты",
+  "icon": "goety_cataclysm:void_vortex_focus",
+  "category": "goety:cataclysm/focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Заклинание вызывает торнадо, созданное из самой пустоты. Оно затягивает в себя ближайшие несоюзные цели, а затем взрывается."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/void_vortex_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:void_vortex_focus": 1
+  }
+}

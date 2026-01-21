@@ -1,0 +1,19 @@
+{
+  "name": "Slime Amulet",
+  "icon": "goety_revelation:amulet_of_slime",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Slimes are remarkably basic organisms, frequently serving as study specimens for novice wizards."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_revelation:amulet_of_slime"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It seems beneath your talents to study such creatures, nevertheless you\u0027ve devised an amulet that negates fall damage."
+    }
+  ]
+}

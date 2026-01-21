@@ -1,0 +1,33 @@
+{
+  "name": "Варп трубы",
+  "icon": "terramity:warp_pipe",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Варп-трубы — хорошее решение для быстрого перемещения на короткие расстояния, добавленное Terramity.$(br2)Используйте их, чтобы быстро обойти свою базу, построить лабиринт, который знаете только вы, или путешествовать на большие расстояния, используя множество соединенных вместе варп-труб."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Сантехнический ключ позволяет связывать и развязывать основные трубы вместе.$(br2)Некоторые основные трубы можно соединить только с другими, а некоторые можно прикрепить одним способом. Белые и черные трубы взаимодействуют уникальным образом: черные трубы можно привязать только к белым трубкам.",
+      "item": {
+        "item": "terramity:plumbers_wrench"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:warp_pipe_recipe",
+      "recipe2": "terramity:red_warp_pipe_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:blue_warp_pipe_recipe",
+      "recipe2": "terramity:yellow_warp_pipe_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:white_warp_pipe_recipe",
+      "recipe2": "terramity:black_warp_pipe_recipe"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Deer Horns [SM]",
+  "icon": "simplymore:iron_deer_horns",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_deer_horns",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Deer horns are double-edged daos, able to quickly and effectively cut through an opponent with ease. Named after their resemblance to antlers, deer horns usually require a master sensai to evoke the true power of such a weapon."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:deer_horns/iron_deer_horns",
+      "recipe2": "simplymore:deer_horns/gold_deer_horns"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:deer_horns/diamond_deer_horns"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:deer_horns/netherite_deer_horns",
+      "recipe2": "simplymore:deer_horns/runic_deer_horns"
+    }
+  ]
+}

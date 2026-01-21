@@ -1,0 +1,26 @@
+{
+  "name": "Great Katana [SM]",
+  "icon": "simplymore:iron_great_katana",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_great_katana",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A form of katana wielded by only the biggest, strongest samurai. The thin but long blade maximises both agility and destruction for a swift but effective attack."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:great_katana/iron_great_katana",
+      "recipe2": "simplymore:great_katana/gold_great_katana"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:great_katana/diamond_great_katana"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:great_katana/netherite_great_katana",
+      "recipe2": "simplymore:great_katana/runic_great_katana"
+    }
+  ]
+}

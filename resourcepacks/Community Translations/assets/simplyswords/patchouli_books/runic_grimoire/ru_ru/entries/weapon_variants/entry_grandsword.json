@@ -1,0 +1,26 @@
+{
+  "name": "Grandsword [SM]",
+  "icon": "simplymore:iron_grandsword",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_grandsword",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A pure slab of metal stood upon a hilt. The grandsword is the ultimate melee weapon, held by the most brutish warlords. The weapon\u0027s raw strength rips through any shield it may hit."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:grandsword/iron_grandsword",
+      "recipe2": "simplymore:grandsword/gold_grandsword"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:grandsword/diamond_grandsword"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:grandsword/netherite_grandsword",
+      "recipe2": "simplymore:grandsword/runic_grandsword"
+    }
+  ]
+}

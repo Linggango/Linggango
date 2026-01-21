@@ -1,0 +1,19 @@
+{
+  "name": "Revelation Focus",
+  "icon": "goety_revelation:revelation_focus",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety_revelation:revelation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Stimulate the power of the Seal... and then burn all the inferior creatures that dare enough to approach you...！"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:revelation_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:revelation_focus": 1
+  }
+}

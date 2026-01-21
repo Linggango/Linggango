@@ -1,0 +1,31 @@
+{
+  "name": "Супер нюхач",
+  "icon": "minecraft:sniffer_egg",
+  "category": "terramity:bosses",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "«Супер нюхач» — второй босс в Террамити.$(br2)Его можно вызвать в любой точке мира, ударив молнией в нюхача.$(br2)Рекомендуемое снаряжение:$(br) -Димлитовая/Вирентиумная броня$( br) -Сильные пушки$(br) -Много патронов"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "terramity:super_sniffer",
+      "scale": 0.8,
+      "offset": 0.65,
+      "rotate": true
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Можно вызвать, ударив нюхача молнией. Самый простой способ сделать это - создать посох молнии и ударить им рядом с нюхачом (не включенным, иначе он умрет). $(br2)Яйца нюхача можно найти довольно редко во многих структурах из Террамити.",
+      "item": {
+        "item": "minecraft:sniffer_egg"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "text": "An arena is imperative to the Super Sniffer fight. Your arena should include some obsidian blockades for blocking the beam attack. The Super Sniffer\u0027s spirit bomb can tear through any arena, so watch out!",
+      "recipe": "terramity:lightning_staff_recipe"
+    }
+  ]
+}

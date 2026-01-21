@@ -1,0 +1,47 @@
+{
+  "name": "Spider Set",
+  "icon": "goety_revelation:spider_helmet",
+  "category": "goety:revelation/crafts",
+  "advancement": "goety:goety/craft_black_iron_armor",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Spiders are terrifying creatures, yet we can learn much from them.That\u0027s why you crafted specialized armor—one that makes you more... spider-like?!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Spider boots protect you from fall damage, while the helmet grants night vision, revealing all even in utter darkness."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When you don the full Spider Armor, you gain the ability to scale walls and entangle foes in webs should they dare strike you up close—even healing yourself whenever you deal damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It also synergizes powerfully with the Spider Whip......"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spider_helmet"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spider_chestplate"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spider_leggings"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:spider_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:spider_helmet": 2,
+    "goety_revelation:spider_chestplate": 3,
+    "goety_revelation:spider_leggings": 4,
+    "goety_revelation:spider_boots": 5
+  }
+}

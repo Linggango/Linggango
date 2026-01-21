@@ -1,0 +1,26 @@
+{
+  "name": "Backhand Blade [SM]",
+  "icon": "simplymore:iron_backhand_blade",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_backhand_blade",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A slick blade designed to be held secretively behind you, consealing the blade before it is too late to react to your strike. Commonly used by assassins, backhand blades boast a very fast, precise swing."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:backhand_blade/iron_backhand_blade",
+      "recipe2": "simplymore:backhand_blade/gold_backhand_blade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:backhand_blade/diamond_backhand_blade"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:backhand_blade/netherite_backhand_blade",
+      "recipe2": "simplymore:backhand_blade/runic_backhand_blade"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Проклятие Осечки",
+  "icon": "minecraft:enchanted_book",
+  "category": "terramity:enchants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Проклятие Осечки — это проклятие-зачарование, добавленное Terramity.$(br)$(br)Это зачарование удваивает отталкивание/отдачу от любого оружия.$(br)$(br)Максимальный уровень: 1"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "terramity:textures/screens/guns.png"
+      ],
+      "border": true
+    }
+  ]
+}

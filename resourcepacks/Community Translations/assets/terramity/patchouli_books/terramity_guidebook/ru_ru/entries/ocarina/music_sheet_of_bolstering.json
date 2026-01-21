@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан укрепления",
+  "icon": "terramity:music_sheet_of_bolstering",
+  "category": "terramity:ocarina",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан укрепления",
+      "text": "Нотный стан укрепления увеличивает уровень эффектов других нотных станов на +1.$(br2)Этот лист почти всегда можно найти в сокровищницах, а иногда — в заражённых лабораториях, которые редко встречаются в глубине шахт.",
+      "item": {
+        "item": "terramity:music_sheet_of_bolstering"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

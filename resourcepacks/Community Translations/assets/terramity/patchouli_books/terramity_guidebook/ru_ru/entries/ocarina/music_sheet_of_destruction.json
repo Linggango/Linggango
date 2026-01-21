@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Разрушения",
+  "icon": "terramity:music_sheet_of_destruction",
+  "category": "terramity:ocarina",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Разрушения",
+      "text": "Нотный стан Разрушения накладывает эффект Моментального Урона II на ближайших мобов.$(br2)Этот стан можно получить, бросив Нотный стан Жизни в стигийскую кровь.",
+      "item": {
+        "item": "terramity:music_sheet_of_destruction"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

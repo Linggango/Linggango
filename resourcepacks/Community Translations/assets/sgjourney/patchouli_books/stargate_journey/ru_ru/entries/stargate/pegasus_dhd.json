@@ -1,0 +1,17 @@
+{
+  "name": "Pegasus DHD",
+  "icon": "sgjourney:pegasus_dhd",
+  "sortnum": 5,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "Pegasus DHD",
+      "type": "patchouli:crafting",
+      "recipe": "sgjourney:pegasus_dhd"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pegasus DHD can use Advanced Crystals, but can\u0027t use regular Crystals."
+    }
+  ]
+}

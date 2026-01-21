@@ -1,0 +1,7 @@
+{
+  "name": "Summons",
+  "description": "The path to meet the gods..",
+  "icon": "goety:unholy_blood",
+  "parent": "goety:revelation",
+  "sortnum": 3
+}

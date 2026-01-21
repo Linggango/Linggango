@@ -1,0 +1,15 @@
+{
+  "name": "Фокус пепельного дыхания",
+  "icon": "goety_cataclysm:ashen_breath_focus",
+  "category": "goety:cataclysm/focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вместо того, чтобы извергать пламя, вы выдыхаете короткий поток раскалённого пепла, нанося больше урона и ослепляя врагов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:focus/ashen_breath_focus"
+    }
+  ]
+}

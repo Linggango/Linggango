@@ -1,0 +1,24 @@
+{
+  "name": "Нотный Стан Слабости",
+  "icon": "terramity:music_sheet_of_weakness",
+  "category": "terramity:ocarina",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный Стан Слабости",
+      "text": "Нотный Стан Слабости накладывает на ближайших мобов эффект Слабость II на 30 секунд.$(br2)Этот стан выпадает крайне редко при убийстве зомби или скелетов.",
+      "item": {
+        "item": "terramity:music_sheet_of_weakness"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные Станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Темпа",
+  "icon": "terramity:music_sheet_of_tempo",
+  "category": "terramity:ocarina",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Темпа",
+      "text": "Нотный стан Темпа даёт эффект Скорость I на 60 секунд.$(br2)Этот стан часто встречается в земляных хижинах, которые можно найти в лесах.",
+      "item": {
+        "item": "terramity:music_sheet_of_tempo"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

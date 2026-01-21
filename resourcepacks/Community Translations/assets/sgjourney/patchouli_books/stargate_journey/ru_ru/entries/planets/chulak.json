@@ -1,0 +1,12 @@
+{
+  "name": "Chulak",
+  "icon": "sgjourney:matok",
+  "sortnum": 2,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A forest planet in Apophis\u0027 domain."
+    }
+  ]
+}

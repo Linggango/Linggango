@@ -1,0 +1,48 @@
+{
+  "name": "Некромант",
+  "icon": "goety:necro_cape",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/unlock_necromancer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В свитке содержатся некоторые инструкции по наделению разумом давно умерших, что позволяет вам создавать некромантов из скелетов и командовать ими."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_skeleton_to_necromancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Некромантов можно научить вызывать не только зомби. Нажатие по ним ПКМ определёнными некро-фокусами позволяет им призывать больше различных прислужников. Нажатие ПКМ пустой рукой заставит их призывать прислужников-нежить. Их можно исцелять также, как и скелетов-прислужников."
+    },
+    {
+      "type": "patchouli:entity",
+      "text": "They will only accept focuses that summons an undead creature they can\u0027t already summon themselves. They can accept Rotting Focus, Osseous Focus, Spooky Focus, Reaping Focus, Vanguard Focus and Blackguard Focus."
+    },
+    {
+      "type": "goety:ritual",
+      "text": "Right-clicking on them with an empty hand will cause the Necromancer to summon Undead Servants for you. They are healed the same way as regular Skeleton Servants."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:cairn_necromancer_servant"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "recipe": "goety:convert_stray_to_cairn_necromancer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:cairn_necromancer_servant"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:soul_jar",
+      "text": "Should a Necromancer fall, having an $(l:crafts/empty_soul_jar)Empty Soul Jar$() will cause their soul to fill it, which, when right-clicked on a Skeleton, will revive them using said Skeleton as their new body. It\u0027s also rumored that feeding them with a jar of another necromancer will increase their power..."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:soul_jar": 6
+  }
+}

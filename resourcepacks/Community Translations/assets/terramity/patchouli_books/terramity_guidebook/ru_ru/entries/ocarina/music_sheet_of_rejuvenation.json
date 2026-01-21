@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Омоложения",
+  "icon": "terramity:music_sheet_of_rejuvenation",
+  "category": "terramity:ocarina",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Омоложения",
+      "text": "Нотный стан Омоложения даёт эффект Регенерации I на 30 секунд.$(br2)Этот стан редко выпадает с розовых фей.",
+      "item": {
+        "item": "terramity:music_sheet_of_rejuvenation"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

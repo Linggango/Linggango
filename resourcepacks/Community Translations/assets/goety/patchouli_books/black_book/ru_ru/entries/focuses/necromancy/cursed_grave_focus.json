@@ -1,0 +1,18 @@
+{
+  "name": "Фокус проклятой могилы",
+  "icon": "goety_cataclysm:cursed_grave_focus",
+  "category": "goety:cataclysm/focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Тела доблестных воинов можно найти во многих холодных и ледяных биомах. С помощью некромантии вы сможете оживить эти трупы, подобно тому, как Маледиктус наложил проклятие на своих тюремщиков.."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/cursed_grave_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:cursed_grave_focus": 1
+  }
+}

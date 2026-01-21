@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Жизни",
+  "icon": "terramity:music_sheet_of_life",
+  "category": "terramity:ocarina",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Жизни",
+      "text": "Нотный стан Жизни даёт эффект Исцение II вам и ближайшим мобам.$(br2)Этот стан выпадает довольно редко при сборе фей в бутылки.",
+      "item": {
+        "item": "terramity:music_sheet_of_life"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

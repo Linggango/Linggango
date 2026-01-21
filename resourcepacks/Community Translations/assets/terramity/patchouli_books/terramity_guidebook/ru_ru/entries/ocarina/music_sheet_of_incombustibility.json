@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Невоспламенимости",
+  "icon": "terramity:music_sheet_of_incombustibility",
+  "category": "terramity:ocarina",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Невоспламенимости",
+      "text": "Нотный стан Невоспламенимости даёт эффект Огнестойкости на 120 секунд.$(br2)Этот стан часто можно найти в наблюдательных вышках.",
+      "item": {
+        "item": "terramity:music_sheet_of_incombustibility"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

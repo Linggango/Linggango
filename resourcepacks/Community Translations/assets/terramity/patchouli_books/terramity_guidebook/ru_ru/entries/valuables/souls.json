@@ -1,0 +1,44 @@
+{
+  "name": "Души",
+  "icon": "terramity:spectral_soul",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Души — важные материалы для крафта некоторых мощных предметов в мире Террамити.$(br2)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Злобные души можно получить, убив деревенских жителей. В качестве альтернативы они падают с Адских палачей.",
+      "item": {
+        "item": "terramity:spiteful_soul"
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Потерянные души можно найти в мавзолеях, они падают с палачей и с мобов, которых вы найдете внутри Шпиля Испытаний.",
+      "item": {
+        "item": "terramity:lost_soul"
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Проклятые души можно получить, разрушив спавнер мобов любого типа.",
+      "item": {
+        "item": "terramity:accursed_soul"
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Душа хранителя получается просто путем поражения хранителя. Удачи!",
+      "item": {
+        "item": "terramity:warden_soul"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:spectral_soul_recipe",
+      "recipe2": "terramity:hero_sword_recipe"
+    }
+  ]
+}

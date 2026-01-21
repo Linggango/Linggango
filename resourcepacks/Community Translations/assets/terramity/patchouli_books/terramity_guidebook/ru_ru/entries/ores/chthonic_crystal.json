@@ -1,0 +1,23 @@
+{
+  "name": "Хтонический кристалл",
+  "icon": "terramity:chthonic_crystal",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Хтонические кристаллы важны для создания мощных предметов Террамити.$(br2)Хтонические кристаллы лучше всего добываются при добыче бримслэга. Его можно добыть только вирентиевой, космилитовой, димлитовой, иридиевой или более мощной киркой."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Бримслаг можно найти где угодно в Незере, где можно найти чернит, но чаще всего он встречается в базальтовых дельтах.",
+      "item": {
+        "item": "terramity:brimslag"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:hellspec_alloy_recipe",
+      "recipe2": "terramity:stygian_safety_emblem_recipe"
+    }
+  ]
+}

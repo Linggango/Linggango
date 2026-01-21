@@ -1,0 +1,29 @@
+{
+  "name": "Адский аллюминий",
+  "icon": "terramity:hellspec_alloy",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Адский аллюминий — это новый металл, добавленный Terramity.$(br2)Адский аллюминий можно получить путем объединения иридия, черной материи и хтонических кристаллов.$(br2)Черную материю можно получить только после победы над Стражем испытаний."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Адский аллюминий",
+      "images": [
+        "terramity:textures/screens/hellspec.png"
+      ],
+      "border": true,
+      "text": "Адский аллюминий содержит силу ада."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:hellspec_alloy_recipe",
+      "recipe2": "terramity:hellspec_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кузнечный шаблон выпадает из Стража испытаний, и для улучшения его необходимо использовать на иридии."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Cavum Tenebrae",
+  "icon": "minecraft:deepslate_diamond_ore",
+  "sortnum": 5,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A planet crushed by the tidal forces caused by its orbit that\u0027s dangerously close to a black hole."
+    }
+  ]
+}

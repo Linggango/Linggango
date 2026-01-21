@@ -1,0 +1,48 @@
+{
+  "name": "Тёмные волшебники",
+  "icon": "terramity:gundalfs_hat_helmet",
+  "category": "terramity:bosses",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "«Тёмные волшебники» — четвертый и последний босс в развитии Террамити.$(br2)Его можно вызвать, используя оккультную ткань на пьедестале, найденном в Хтоническом соборе.$(br2)Рекомендуемое снаряжение:$(br) -Пустотная/ Адско-алюминиевая/Кондуклитовая броня$(br) -Сильное оружие и аксессуары."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "terramity:enchanter_merlin",
+      "scale": 0.65,
+      "offset": 0.65,
+      "rotate": true
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "terramity:sorceress_circe",
+      "scale": 0.65,
+      "offset": 0.65,
+      "rotate": true
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Можно вызвать, используя оккультную ткань на пьедестале, найденном в Хтоническом соборе. Хтонический собор можно найти где угодно на крыше Незера.$(br2)Оккультную ткань можно найти в Хтоническом подземелье.",
+      "item": {
+        "item": "terramity:occult_fabric"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Хтонический собор",
+      "images": [
+        "terramity:textures/screens/cathedral.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "После победы над Тёмными Волшебниками дропаются анти призмы — необходимый предмет, используемый при изготовлении лучших металлов.",
+      "item": {
+        "item": "terramity:antiprism"
+      }
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "cerulean.configuration.client": "client",
-  "cerulean.configuration.example": "example",
-  "example_mod.configuration.client": "client",
-  "example_mod.configuration.example": "example",
-  "sodiumoptionsmodcompat.configuration.client": "client",
-  "sodiumoptionsmodcompat.configuration.example": "example"
-}

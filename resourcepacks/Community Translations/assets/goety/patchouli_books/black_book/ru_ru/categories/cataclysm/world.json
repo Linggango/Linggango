@@ -1,0 +1,7 @@
+{
+  "name": "Исследование",
+  "description": "В мире будто стало больше катаклизмов...",
+  "icon": "cataclysm:lionfish",
+  "parent": "goety:cataclysm",
+  "sortnum": 6
+}

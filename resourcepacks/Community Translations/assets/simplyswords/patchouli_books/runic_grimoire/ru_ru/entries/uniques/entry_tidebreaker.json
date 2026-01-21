@@ -1,0 +1,17 @@
+{
+  "name": "Tidebreaker [SM]",
+  "icon": "simplymore:tidebreaker",
+  "advancement": "simplymore:tidebreaker",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:tidebreaker",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()When the Drowned God fell into the deep for the last time, he left this artefact behind to remember his legacy. Being remotely close to this unique causes hallucinations and paranoia, and wielding it can cause mindbreaking levels of insanity. This weapon"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "has been seen causing a target’s insanity to become real, transporting them into dangerous situations. Many dismiss the tale that this weapon was created by a God, because what loving God would create an object so horrific."
+    }
+  ]
+}

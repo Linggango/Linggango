@@ -1,0 +1,26 @@
+{
+  "name": "Lance [SM]",
+  "icon": "simplymore:iron_lance",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_lance",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Commonly used in the olden era, it was said lances were used to pierce and pull people along the ground as the wielder ran around on horseback. While weilded without a secondary armament in the other hand and while on a mount, lances gain a boost in damage."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:lance/iron_lance",
+      "recipe2": "simplymore:lance/gold_lance"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:lance/diamond_lance"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:lance/netherite_lance",
+      "recipe2": "simplymore:lance/runic_lance"
+    }
+  ]
+}

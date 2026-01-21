@@ -1,0 +1,17 @@
+{
+  "name": "Glimmerstep [SM]",
+  "icon": "simplymore:glimmerstep",
+  "advancement": "simplymore:glimmerstep",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:glimmerstep",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Glimmerstep is the culmination of fallen stars collected over the years, forged together with intense power to form one star which acts as the core of this weapon. Stars dance the blade in a beautiful display for both wielder and foe. Those in its presence"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "are often stunned with the absolute beauty exhumed when it strikes. The constellations within its core makes for a breathtaking explosion straight from the depths of the cosmos."
+    }
+  ]
+}

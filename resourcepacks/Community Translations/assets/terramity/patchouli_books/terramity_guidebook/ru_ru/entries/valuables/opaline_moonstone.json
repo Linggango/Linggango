@@ -1,0 +1,16 @@
+{
+  "name": "Лунокаменный опал",
+  "icon": "terramity:opaline_moonstone",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Лунокаменный опал — необходимый ингредиент для $(l:terramity:ores/nyxium)Никсиума$().$(br2)Он может быть получен только после создания $(l:terramity:misc/moondrill_cannon)Пушка-луно-дрели$() и использования ее для откалывания кусочков луны."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:moondrill_cannon_recipe",
+      "recipe2": "terramity:nyxium_recipe"
+    }
+  ]
+}

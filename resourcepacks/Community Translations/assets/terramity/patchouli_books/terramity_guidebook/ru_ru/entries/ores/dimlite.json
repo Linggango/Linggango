@@ -1,0 +1,29 @@
+{
+  "name": "Димлит",
+  "icon": "terramity:dimlite_ingot",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Димлит — это новый металл, добавленный Terramity.$(br2)Димлит можно получить, объеденив нетронутые димлитовые и эхо-осколки.$(br2)Димлитовую руду можно найти в верхнем мире, между Y\u003d-44 и Y. \u003d-64."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Димлит",
+      "images": [
+        "terramity:textures/screens/dimlite.png"
+      ],
+      "border": true,
+      "text": "Димлит хранит силу глубокой тьмы."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:dimlite_to_ingot",
+      "recipe2": "terramity:dimlite_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кузнечный шаблон выпадает из Гоба, короля гномов, и для улучшения его необходимо использовать на незерите."
+    }
+  ]
+}

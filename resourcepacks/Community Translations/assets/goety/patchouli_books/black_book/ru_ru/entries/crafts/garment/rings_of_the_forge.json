@@ -1,0 +1,22 @@
+{
+  "name": "Кольцо кузницы",
+  "icon": "goety:ring_of_the_forge",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "При вызове зомби- или скелетов-прислужников у них есть небольшой шанс появиться в броне. С этим кольцом шанс увеличится до 100%%."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ring_of_the_forge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если параметр \u0027illagerServantTrainArmor\u0027 включен, то это кольцо будет давать броню злодеянам, которые только получили профессию."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ring_of_the_forge": 1
+  }
+}

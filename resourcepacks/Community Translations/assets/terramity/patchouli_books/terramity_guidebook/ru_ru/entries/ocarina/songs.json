@@ -1,0 +1,23 @@
+{
+  "name": "Песни",
+  "icon": "terramity:music_sheet_of_cleansing",
+  "category": "terramity:ocarina",
+  "sortnum": 2,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Песни",
+      "text": "Песни влияют на эффекты, добавляемые нотными станами. Одна песня может быть лучше в одной ситуации, но не подойти в другой. Вы можете увидеть описание эффекта песни, наведя курсор на соответствующую кнопку в меню окарины."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Меню Окарины",
+      "images": [
+        "terramity:textures/screens/ocarina_screen.png"
+      ],
+      "border": true,
+      "text": "Песни можно выбрать с левой стороны меню окарины."
+    }
+  ]
+}

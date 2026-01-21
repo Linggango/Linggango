@@ -1,0 +1,13 @@
+{
+  "name": "The Pan [SM]",
+  "icon": "simplymore:the_pan",
+  "advancement": "simplymore:the_pan",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:the_pan",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()It took 8 blacksmiths 6 years to fully construct this masterpiece. For centuries afterwards, this fierce weapon’s legacy rang out throughout the lands as the perfect slaying machine - the bane of all that lives. How it ended up in the hands of unworthy scum like you is unknown."
+    }
+  ]
+}

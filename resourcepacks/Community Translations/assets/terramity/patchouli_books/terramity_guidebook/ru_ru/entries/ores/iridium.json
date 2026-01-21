@@ -1,0 +1,30 @@
+{
+  "name": "Иридиум",
+  "icon": "terramity:iridium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Иридиум — это новый металл, добавленный Terramity.$(br2)Иридиум используется для изготовления адского алюминия, пустотных сплавов и шаблонов кузнечного дела.$(br2)Иридиевую руду можно найти глубоко в любом измерении, и ее может добыть только димлитовая , космилитовая или вирентиумная кирка."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Иридиум",
+      "images": [
+        "terramity:textures/screens/iridium.png"
+      ],
+      "border": true,
+      "text": "Иридиум это отличная база для более сильных сплавов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:iridium_ingot",
+      "recipe2": "terramity:hellspec_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:void_upgrade_recipe",
+      "recipe2": "terramity:conductite_upgrade_recipe"
+    }
+  ]
+}

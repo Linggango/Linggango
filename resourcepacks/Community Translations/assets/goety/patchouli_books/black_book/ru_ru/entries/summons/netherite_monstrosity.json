@@ -1,0 +1,31 @@
+{
+  "name": "Незеритовое Чудовище",
+  "icon": "cataclysm:monstrous_helm",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_terminus_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Хотя Редстоуновое Чудовище — один из самых могущественных прислужников, которых вы можете создать, возможно, с помощью силы Незеритового Горна вам удастся воссоздать его незеритовый аналог."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:netherite_monstrosity",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:netherite_monstrosity",
+      "text": "Нажмите ПКМ по центральному укреплённому блоку редстоуна Незеритовым Горном."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:netherite_plating"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чернит можно заменить другими вариантами, кроме позолоченного чернита для оболочки. Несмотря на то, что говорится в описании «Редстоунового Чудовища», этот вариант превосходит свой аналог по силе. Его можно починить, используя блоки незерита, вёдра лавы или лавовые батареи, а так же поместив его над огнём душ. У Незеритового Чудовища такой же предел призыва, как и у его редстоунового аналога."
+    }
+  ]
+}

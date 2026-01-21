@@ -1,0 +1,28 @@
+{
+  "name": "Типы боеприпасов",
+  "icon": "terramity:gold_round",
+  "category": "terramity:guns",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В Terramity существует множество различных типов боеприпасов.$(br2)Оружие в Terramity использует только боеприпасы определенного типа.$(br2)Когда вы держите оружие в руках, на счетчике боеприпасов отображается тип боеприпасов, который оно использует."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Например, базовая винтовка использует только золотые патроны, которые довольно дешевы и их даже можно фармить в большинстве модпаков. Если боеприпасов становится мало, создайте ферму $(l:terramity:misc/bomb_flower)Bomb Flower$() для получения пороха!",
+      "item": {
+        "item": "terramity:basic_rifle"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:copper_round_recipe",
+      "recipe2": "terramity:gold_round_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:daemonium_shotshell_recipe",
+      "recipe2": "terramity:dimlite_round_recipe"
+    }
+  ]
+}

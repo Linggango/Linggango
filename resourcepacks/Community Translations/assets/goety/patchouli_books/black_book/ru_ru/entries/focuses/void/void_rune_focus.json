@@ -1,0 +1,15 @@
+{
+  "name": "Фокус руны пустоты",
+  "icon": "goety_cataclysm:void_rune_focus",
+  "category": "goety:cataclysm/focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Хотя можно просто использовать Руну Пустоты, вы решили, что будет гораздо лучше превратить её в заклинание."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:focus/void_rune_focus"
+    }
+  ]
+}

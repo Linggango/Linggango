@@ -1,0 +1,7 @@
+{
+  "name": "Мутации",
+  "description": "Трансфорируйте одинх существ в других.",
+  "icon": "cataclysm:burning_ashes",
+  "parent": "goety:cataclysm",
+  "sortnum": 4
+}

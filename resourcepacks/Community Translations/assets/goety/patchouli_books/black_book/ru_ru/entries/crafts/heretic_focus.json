@@ -1,0 +1,34 @@
+{
+  "name": "Heretic Focus",
+  "icon": "goety_revelation:heretic_focus",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It seems that your terrifying reputation has spread to a certain cult family or cult group, so much so that there are some guys in it who want to respond and submit to you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can regard them as mercenaries who work for some kind of benefit, but unfortunately, from the moment they respond or are forced to submit to your summons, their fates are doomed to become your tools."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:heretic_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This Focus can generate several Heretic and Maverick to fight for you with one summoning. The Maverick are responsible for close combat, and the Heretic are responsible for long range roaring and summoning the burst traps."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When casting spells with the Nether staff, the number of Heretics and Mavericks generated at one time is fixed at the maximum value, and Mavericks will obtain the Strength II and Speed II effects."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If the Ascension Halo is worn at the same time, the two effects held by Maverick will be upgraded to level V, and the negative effects given by attacking creatures will be upgraded to level IV, and the damage of the fire burst traps summoned by Heretic will be greatly increased."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:heretic_focus": 1
+  }
+}

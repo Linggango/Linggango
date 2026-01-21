@@ -1,0 +1,17 @@
+{
+  "name": "Matterbane [SM]",
+  "icon": "simplymore:matterbane",
+  "advancement": "simplymore:matterbane",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:matterbane",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Created in mass to kill a rogue parasite, this weapon was given to as many people in their secret society as possible. Made of pure ionised plasma, the weapon slices through any material it comes across with ease, often firing off antiparticles as it reacts catastrophically on impact."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They were meant to be kept secret to those outside the commune, though more and more have been turning up in the public eye as the search for the parasite still runs rampant."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Фокус аметистового кластера",
+  "icon": "goety_cataclysm:amethyst_cluster_focus",
+  "category": "goety:cataclysm/focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы выстреливаете вокруг себя гроздью аметистов, подобно убитому вами крабу."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:focus/amethyst_cluster_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Используя $(l:crafts/staff/geo_staff)Гео-посох$(), вы призовёте ещё больше аметистов."
+    }
+  ]
+}

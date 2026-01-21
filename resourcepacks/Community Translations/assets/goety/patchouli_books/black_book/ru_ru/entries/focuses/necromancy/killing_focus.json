@@ -1,0 +1,19 @@
+{
+  "name": "Фокус убиения",
+  "icon": "goety:killing_focus",
+  "category": "goety:focuses/necromancy",
+  "advancement": "goety:goety/kill_a_apostle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Заклинание наносит урон, равный текущему здоровью жертвы, но также наносит 125% этого урона заклинателю. Если у него достаточно здоровья, чтобы выжить, жертва получит весь урон, в противном случае заклинание нанесёт как можно больше урона и жертве, и заклинателю, не убивая последнего."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/killing_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:killing_focus": 1
+  }
+}

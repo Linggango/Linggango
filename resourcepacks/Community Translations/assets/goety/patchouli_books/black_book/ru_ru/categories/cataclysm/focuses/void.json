@@ -1,0 +1,6 @@
+{
+  "name": "Пустотные",
+  "description": "Бо́льшая власть над пустотой.",
+  "icon": "goety_cataclysm:void_vortex_focus",
+  "parent": "goety:cataclysm/focuses"
+}

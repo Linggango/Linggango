@@ -1,0 +1,15 @@
+{
+  "name": "Эссенция Глубины",
+  "icon": "goety_cataclysm:abyss_essence",
+  "category": "goety:cataclysm/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти эссенции, полученные после победы над Левиафаном, символизируют вашу победу над великим зверем и даруют власть над его поддаными."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:abyss_essence"
+    }
+  ]
+}

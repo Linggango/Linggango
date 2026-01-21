@@ -1,0 +1,17 @@
+{
+  "name": "Boa\u0027s Fang [SM]",
+  "icon": "simplymore:boas_fang",
+  "advancement": "simplymore:boas_fang",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:boas_fang",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Boa’s Fang, contrary to the name, is a fragment of a scale from a dead greatwyrm. A lingering energy causes the scale to glisten lightly, despite the fact that it has not been connected to its host for millennia. The spines near the hilt of the blade"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "allow the blade to glide through the air easily, allowing the blade to strike with high speeds and agility. They also double as being able to wrap themselves around enemies, constricting their ability to breathe. This weapon is able to fire venomous acid outwards towards foes, once used by the greatwyrm for self defense."
+    }
+  ]
+}

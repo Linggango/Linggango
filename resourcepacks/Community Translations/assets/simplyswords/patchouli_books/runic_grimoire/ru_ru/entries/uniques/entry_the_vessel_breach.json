@@ -1,0 +1,17 @@
+{
+  "name": "The Vessel Breach [SM]",
+  "icon": "simplymore:the_vessel_breach",
+  "advancement": "simplymore:the_vessel_breach",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:the_vessel_breach",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The Vessel Breach, formed of crystallised blood gathered from the many it has slain in the hands of its creator. Simply holding the blade can lead to madness as the tormented souls of those consumed by the blade scream out pained cries at the wielder."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This madness often leads to those unworthy stabbing the blade into themselves, entering a bloodlust-fueled rage until the blood loss causes them to sink into the collective within. It was left to rot in the dust when its owner was slain, such a weapon deserves no place in this world."
+    }
+  ]
+}

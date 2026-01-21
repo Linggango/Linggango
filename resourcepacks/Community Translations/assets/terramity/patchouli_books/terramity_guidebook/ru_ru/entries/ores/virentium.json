@@ -1,0 +1,29 @@
+{
+  "name": "Вирентиум",
+  "icon": "terramity:virentium_alloy_ingot",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вирентий — это новый металл, добавленный Terramity.$(br2)Вирентий можно получить путем обработки лома незерита и гаянита.$(br2)Гейанитовую руду можно найти в виде треугольника в мшистых пещерах, между Y\u003d20 и Y\u003d. -64. Также можно получить из лилии Гейи."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Virentium",
+      "images": [
+        "terramity:textures/screens/virentium.png"
+      ],
+      "border": true,
+      "text": "Вирентиум хранит в себе силу мшистых пещер."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:virentium_ingot_recipe",
+      "recipe2": "terramity:virentium_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кузнечный шаблон выпадает из Гоба, Короля гномов и Супернюхача, и для улучшения его необходимо использовать на незерите."
+    }
+  ]
+}

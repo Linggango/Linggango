@@ -1,0 +1,17 @@
+{
+  "name": "Revvengine [SM]",
+  "icon": "simplymore:revvengine",
+  "advancement": "simplymore:revvengine",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:revvengine",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The engine hums as smoke expels from the overheating exhaust, a design flaw reminiscent of its prototype status. Revvengine serves as a modified version of one of the Steampunk Society’s most common tools, the chainsaw; hastily made to aid in the"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "recent, unexpected war. It was quickly scrapped as newer, better weaponry was blueprinted, but a few experimental models can still be found broken down within the former battlegrounds."
+    }
+  ]
+}

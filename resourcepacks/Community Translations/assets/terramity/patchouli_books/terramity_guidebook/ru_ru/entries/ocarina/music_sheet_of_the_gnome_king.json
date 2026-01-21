@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Короля Гномов",
+  "icon": "terramity:music_sheet_of_the_gnome_king",
+  "category": "terramity:ocarina",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Короля Гномов",
+      "text": "Нотный стан Короля Гномов даёт Спешку II на 120 секунд.$(br2)Этот стан выпадает с Гоба, Короля Гномов.",
+      "item": {
+        "item": "terramity:music_sheet_of_the_gnome_king"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

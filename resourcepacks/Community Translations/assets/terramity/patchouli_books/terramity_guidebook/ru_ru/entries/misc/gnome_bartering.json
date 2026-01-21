@@ -1,0 +1,19 @@
+{
+  "name": "Торговля с гномами",
+  "icon": "terramity:red_gnome_hat_helmet",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Гномы — это новый моб, добавленный Terramity, и с ними можно торговать.$(br2)Дайте любому гному алмаз, и он отдаст вам свою шляпу. Если вы дадите гному какой-либо дроп с босса Террамити, он даст вам взамен случайную ценность."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "terramity:cave_gnome",
+      "text": "ПКМ по гному с нужным предметом в руке, чтобы обменять его.",
+      "scale": 0.55,
+      "offset": 0.45,
+      "rotate": true
+    }
+  ]
+}

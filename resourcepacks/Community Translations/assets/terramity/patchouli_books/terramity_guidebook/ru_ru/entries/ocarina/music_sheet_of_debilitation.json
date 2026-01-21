@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Ослабления",
+  "icon": "terramity:music_sheet_of_debilitation",
+  "category": "terramity:ocarina",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Ослабления",
+      "text": "Нотный стан Ослабления накладывает эффект Уязвимости на ближайших мобов на 30 секунд.$(br2)Этот стан часто можно найти в пустынных пирамидах.",
+      "item": {
+        "item": "terramity:music_sheet_of_debilitation"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

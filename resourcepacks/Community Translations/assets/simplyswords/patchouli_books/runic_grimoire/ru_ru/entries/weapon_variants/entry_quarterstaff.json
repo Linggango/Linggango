@@ -1,0 +1,26 @@
+{
+  "name": "Quarterstaff [SM]",
+  "icon": "simplymore:iron_quarterstaff",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_quarterstaff",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Quarterstaffs are long sticks imbued with spikes or metal tips to cause maximum damage. Masters of this weapon are able to hone all their strength towards the tip, allowing it to puncture the skin and slice directly through."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:quarterstaff/iron_quarterstaff",
+      "recipe2": "simplymore:quarterstaff/gold_quarterstaff"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:quarterstaff/diamond_quarterstaff"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:quarterstaff/netherite_quarterstaff",
+      "recipe2": "simplymore:quarterstaff/runic_quarterstaff"
+    }
+  ]
+}

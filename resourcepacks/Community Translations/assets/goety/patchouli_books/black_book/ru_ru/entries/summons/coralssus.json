@@ -1,0 +1,26 @@
+{
+  "name": "Кораллус",
+  "icon": "minecraft:horn_coral_block",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Могущественное существо из Затонувшего Города, которое, возможно, было оживлено Глубинниками при помощи методов, успешно воспроизведённых вами."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:coralssus",
+      "scale": 0.5
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:coralssus",
+      "text": "Нажмите ПКМ по центральному кораллу ядром оживления."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать Кораллуса, необходимо использовать лишь один вид кораллов: огненных, роговых или трубчатых. Для исцеления также надо использовать соответствующий им коралл."
+    }
+  ]
+}

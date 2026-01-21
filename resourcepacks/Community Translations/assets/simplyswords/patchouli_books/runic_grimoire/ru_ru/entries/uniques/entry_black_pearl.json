@@ -1,0 +1,17 @@
+{
+  "name": "Black Pearl [SM]",
+  "icon": "simplymore:black_pearl",
+  "advancement": "simplymore:black_pearl",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:black_pearl",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Black Pearl is the enchanted blade used by a fierce pirate captain long ago. Stories say it was stolen from a great creature of the deep, who made it their life’s goal to retrieve the weapon back. The blade seemed to react to the darkened heart of the"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "captain, making it act according to the pirate way. The blade has the ability to steal afflictions from targets that may aid its wielder. This is not the only trait it adopted from its new owner, as it also has the ability to fire cannonballs . Black Pearl was found one day washed up on a beach, along with a few jewels and coins. The day it was found also marked the last day the captain’s crew were spotted in the open ocean."
+    }
+  ]
+}

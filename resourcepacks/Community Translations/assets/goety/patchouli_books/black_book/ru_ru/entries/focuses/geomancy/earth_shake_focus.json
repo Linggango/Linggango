@@ -1,0 +1,18 @@
+{
+  "name": "Earth Shake Focus",
+  "icon": "goety_cataclysm:earth_shake_focus",
+  "category": "goety:cataclysm/focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Summons tiny shockwaves that shoots from the caster\u0027s feet, damaging enemies in its way."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/earth_shake_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:earth_shake_focus": 1
+  }
+}

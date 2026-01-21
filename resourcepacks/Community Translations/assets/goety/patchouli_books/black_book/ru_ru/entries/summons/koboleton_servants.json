@@ -1,0 +1,24 @@
+{
+  "name": "Кобольды-прислужники",
+  "icon": "cataclysm:koboleton_bone",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Слуги Древнего Ревенанта, теперь призваны из Проклятой Пирамиды, чтобы служить под вашим командованием. К сожалению, их обезоруживающие способности полезны только против существ, подобных вам."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:koboleton_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_koboleton_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кобольдов можно излечить при помощи костей, или, если их владелец наденет Некро-плащ."
+    }
+  ]
+}

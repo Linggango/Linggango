@@ -1,0 +1,26 @@
+{
+  "name": "Pernach [SM]",
+  "icon": "simplymore:iron_pernach",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_pernach",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Pernachs are a more formidable variant of maces, shaped specifically to bite into armour instead of bouncing off. By focusing the point of impact with their flanges, a hit from a pernach inflicts far more pain than most other bludgeoning weapons."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:pernach/iron_pernach",
+      "recipe2": "simplymore:pernach/gold_pernach"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:pernach/diamond_pernach"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:pernach/netherite_pernach",
+      "recipe2": "simplymore:pernach/runic_pernach"
+    }
+  ]
+}

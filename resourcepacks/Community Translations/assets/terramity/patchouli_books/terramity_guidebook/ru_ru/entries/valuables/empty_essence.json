@@ -1,0 +1,29 @@
+{
+  "name": "Пустая Эссенция",
+  "icon": "terramity:empty_essence",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пустая эссенция — необходимый ингредиент для $(l:terramity:ores/void)Пустотного сплава$() и других важных предметов.$(br2)Пустую эссенцию можно получить, бросив $(l:terramity:valuables/black_matter)Черную Материю$() в стигийскую кровь, которую можно найти в некоторых структурах Terramity, таких как Шпиль Испытаний."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Стигийская Кровь",
+      "enable_visualize": false,
+      "multiblock": {
+        "pattern": [
+          [
+            "SSS",
+            "S0S",
+            "SSS"
+          ]
+        ],
+        "mapping": {
+          "S": "terramity:stygian_blood",
+          "0": "terramity:stygian_blood"
+        }
+      }
+    }
+  ]
+}

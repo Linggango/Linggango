@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Дедала",
+  "icon": "terramity:music_sheet_of_daedalus",
+  "category": "terramity:ocarina",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Дедала",
+      "text": "Нотный стан Дедала даёт эффект Смертельного Полёта на 120 секунд.$(br2)Этот стан часто можно найти в городах конца.",
+      "item": {
+        "item": "terramity:music_sheet_of_daedalus"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

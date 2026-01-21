@@ -1,0 +1,23 @@
+{
+  "name": "Master Forge Ritual",
+  "icon": "minecraft:smithing_table",
+  "category": "goety:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requirements: $(li)1 Cauldron full of Lava $(li)1 Smithing Table $(li)1 Anvils $(li)1 Rune Engraved Table"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/master_forge_ritual.png"
+      ],
+      "border": true,
+      "text": "An example of how the ritual can be placed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Creating a Forge belonging to a great darkmage around the Dark Altar allows you to craft certain items and upgrade your magical arsenal."
+    }
+  ]
+}

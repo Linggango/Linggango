@@ -1,0 +1,18 @@
+{
+  "name": "The Needle",
+  "icon": "goety_revelation:the_needle",
+  "category": "goety:revelation/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Accompanied by the power of annihilation... You can create a stinger that can penetrate the biological armor!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_revelation:needle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_revelation:needle": 1
+  }
+}

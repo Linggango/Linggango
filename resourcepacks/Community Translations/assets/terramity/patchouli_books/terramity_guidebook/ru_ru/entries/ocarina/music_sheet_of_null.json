@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан NULL",
+  "icon": "terramity:music_sheet_of_null",
+  "category": "terramity:ocarina",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан NULL",
+      "text": "Нотный стан NULL даёт эффект Ошибка в коде на 15 секунд.$(br2)Этот стан очень редко можно найти в Испытательных шпилях.",
+      "item": {
+        "item": "terramity:music_sheet_of_null"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

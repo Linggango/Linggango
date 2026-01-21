@@ -1,0 +1,19 @@
+{
+  "name": "Благодарности",
+  "icon": "terramity:gold_medal",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Я Aurukel, тот, кто написал эту книгу, и автор мода. Вы можете заглянуть на мой канал YouTube, где я публикую всякую ерунду. Вы можете найти там мои другие социальные сети, такие как Discord и Twitter, если хотите связаться со мной.",
+      "url": "https://www.youtube.com/@aurukel",
+      "link_text": "Aurukel\u0027s YouTube"
+    },
+    {
+      "type": "patchouli:link",
+      "text": "В версии 0.9.4 MilkyFur помогла, полностью переделав текстуры и спрайты мода. Вы можете посмотреть ее работу в Twitter, она отличный художник!",
+      "url": "https://x.com/Milk_Furr",
+      "link_text": "MilkyFur\u0027s Twitter"
+    }
+  ]
+}

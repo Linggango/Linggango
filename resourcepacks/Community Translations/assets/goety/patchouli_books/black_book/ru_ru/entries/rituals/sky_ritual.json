@@ -1,0 +1,24 @@
+{
+  "name": "Ритуал небес",
+  "icon": "minecraft:feather",
+  "category": "goety:rituals",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Требования: $(li)Алтарь должен быть на высоте не менее 128 метров"
+    },
+    {
+      "type": "patchouli:text",
+      "images": [
+        "goety:textures/gui/entries/sky_ritual.png"
+      ],
+      "border": true,
+      "text": "Подняв алтарь высоко в воздух, вы сможете использовать сами ветры и небеса для усиления своей магии."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By putting the Altar high in the air, you can harness the very winds and the sky to power your magics."
+    }
+  ]
+}

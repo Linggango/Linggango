@@ -1,0 +1,32 @@
+{
+  "name": "Коболедатор",
+  "icon": "cataclysm:kobolediator_skull",
+  "category": "goety:cataclysm/mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "При помощи обычного Кобольда вам удалось возродить и подчинить своей воле могучего Коболедатора."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_koboleton_to_kobolediator_servant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:kobolediator",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этого неживого гладиатора можно исцелить при помощи костей, а также он пассивно исцелятся, если его владелец наденет Некро-плащ."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:warrior_spirit",
+      "text": "При смерти эти древние воины оставляют собственный дух, который, завладевая Кобольдом, возрождает могучего гиганта."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:warrior_spirit": 4
+  }
+}

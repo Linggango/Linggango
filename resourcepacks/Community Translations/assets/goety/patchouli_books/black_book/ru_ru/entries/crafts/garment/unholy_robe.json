@@ -1,0 +1,33 @@
+{
+  "name": "Нечестивые одежды",
+  "icon": "goety:unholy_robe",
+  "category": "goety:crafts/garment",
+  "advancement": "goety:goety/kill_a_apostle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Используя $(l)чистейшую$() кровь тёмного посланника, $(l)которую можно получить, только убив его в Незере$(), вы создали точную копию его одежд. Мантия даёт вам иммунитет к огню и проклятию ожога, а вместе со шляпой наделяет некоторые заклинания адским пламенем."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:unholy_fabric"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:unholy_robe"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:unholy_hat"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Нечестивая шляпа в два раза снижает получаемый урон, если вы находитесь в Незере, а также ограничивает максимальное получаемое количество урона, подобно апостолам. Нечестивая мантия даёт устойчивость к адскому пламени."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:unholy_fabric": 1,
+    "goety:unholy_robe": 2,
+    "goety:unholy_hat": 3
+  }
+}

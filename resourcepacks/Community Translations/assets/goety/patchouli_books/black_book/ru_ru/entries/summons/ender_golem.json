@@ -1,0 +1,53 @@
+{
+  "name": "Эндер-голем",
+  "icon": "goety_cataclysm:void_mold_block",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_warred_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вариант могучего редстоунового голема, но в отличие от него, в создании этого голема используентся пустота из Энда."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ender_golem",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:ender_golem",
+      "text": "Нажмите ПКМ по центральному пустотному блоку ядром оживления."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Обсидиан можно заменить на обсидиановые кирпичи. Получившийся в результате голем намного превосходит железных, поскольку он не только сильнее, но и с помощью палочки/посоха можно приказать ему следовать, бродить или стоять. Голема можно починить, нажав по нему ПКМ пустотным блоком или рунами пустоты."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:void_mold_block",
+      "text": "Кристалл пустоты и обсидиан можно использовать, чтобы создать мощную оболочку."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:void_stone",
+      "recipe2": "goety_cataclysm:void_crystal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:void_lantern_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:ender_golem_skull",
+      "text": "При смерти из голема выпадает его «череп». Череп можно использовать для оживления голема более дешёвым способом. Однако череп помнит своего изначального создателя, и возрождённый голем будет выполнять только его команды."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:ender_golem_revive",
+      "enable_visualize": false
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:ender_golem_skull": 7
+  }
+}

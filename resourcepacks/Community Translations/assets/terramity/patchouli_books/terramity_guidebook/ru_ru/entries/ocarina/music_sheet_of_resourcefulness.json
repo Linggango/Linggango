@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Находчивости",
+  "icon": "terramity:music_sheet_of_resourcefulness",
+  "category": "terramity:ocarina",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Находчивости",
+      "text": "Нотный стан Находчивости даёт эффект Находчивые патроны I на 60 секунд.$(br2)Этот стан можно довольно редко найти в заросших сооружениях.",
+      "item": {
+        "item": "terramity:music_sheet_of_resourcefulness"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

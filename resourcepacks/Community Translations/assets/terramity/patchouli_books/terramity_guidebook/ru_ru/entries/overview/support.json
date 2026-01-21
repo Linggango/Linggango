@@ -1,0 +1,20 @@
+{
+  "name": "Поддержать Мод",
+  "icon": "terramity:crystal_heart",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "(пишет автор мода, а не форка) На данный момент я ещё не добавил способа, чтобы вы могли меня поддержать. Но если вам очень хочется, можете подписаться на мой YouTube-канал.",
+      "url": "https://www.youtube.com/@aurukel",
+      "link_text": "YouTube-канал"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "terramity:textures/screens/awesome_chiaotzu.png"
+      ],
+      "border": true
+    }
+  ]
+}

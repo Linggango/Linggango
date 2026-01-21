@@ -1,0 +1,29 @@
+{
+  "name": "Космилит",
+  "icon": "terramity:cosmilite_ingot",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Космилит — это новый металл, добавленный Terramity.$(br2)Космилит можно получить, объединив космический лом и золотые слитки.$(br2)Остатки звезд можно найти в энде, между Y\u003d50 и Y\u003d 0."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Космилит",
+      "images": [
+        "terramity:textures/screens/cosmilite.png"
+      ],
+      "border": true,
+      "text": "Космилит хранит в себе силу космоса."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:cosmilite_ingot_recipe",
+      "recipe2": "terramity:cosmilite_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кузнечный шаблон выпадает из Супер Нюхача, и для улучшения его необходимо использовать на незерите."
+    }
+  ]
+}

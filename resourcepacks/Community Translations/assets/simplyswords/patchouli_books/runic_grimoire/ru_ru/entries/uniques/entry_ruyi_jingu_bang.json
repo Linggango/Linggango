@@ -1,0 +1,17 @@
+{
+  "name": "Ruyi Jingu Bang [SM]",
+  "icon": "simplymore:ruyi_jingu_bang",
+  "advancement": "simplymore:ruyi_jingu_bang",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:ruyi_jingu_bang",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()As Sun Wukong asked the Dragon King for a blade fit for someone of his power, the Dragon King cunningly points towards the useless pillar sat in his treasury. As Sun Wukong grabbed the staff, he instantly gained control of a now empowered magic weapon,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "the Ruyi Jingu Bang. Sun Wukong then shrunk the weapon from its colossal size down to a centimeter, then hid it within his ear. The staff holds the power to increase and shrink in size to the wielder’s whims. Reach to the heavens."
+    }
+  ]
+}

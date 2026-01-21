@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Левитации",
+  "icon": "terramity:music_sheet_of_levitation",
+  "category": "terramity:ocarina",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Левитации",
+      "text": "Нотный стан Левитации накладывает эффект Левитации на ближайших мобов на 5 секунд.$(br2)Этот стан выпадает довольно редко с шалкеров.",
+      "item": {
+        "item": "terramity:music_sheet_of_levitation"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

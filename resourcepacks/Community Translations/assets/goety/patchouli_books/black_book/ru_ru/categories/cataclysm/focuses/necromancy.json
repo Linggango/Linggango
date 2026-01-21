@@ -1,0 +1,6 @@
+{
+  "name": "Некромантия",
+  "description": "Бо́льшая власть над мёртвыми.",
+  "icon": "goety_cataclysm:desert_raid_focus",
+  "parent": "goety:cataclysm/focuses"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Myrmedge [SM]",
+  "icon": "simplymore:myrmedge",
+  "advancement": "simplymore:myrmedge",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:myrmedge",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Within the nest of an antlion queen sat an egg strangely larger than the rest. Whilst some may have assumed this were a healthy larva, they could not be more wrong. Out from the clutch crawled an abomination, bent and twisted into a shape resembling"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "a blade. It seemed the creature suffered great pain from this transformation, and in a display of mercy, the Great Sage dampened its conscious thoughts, leaving little more than a husk-like weapon to lay by his side. The pain was now over, yet the hunger was left ever-growing."
+    }
+  ]
+}

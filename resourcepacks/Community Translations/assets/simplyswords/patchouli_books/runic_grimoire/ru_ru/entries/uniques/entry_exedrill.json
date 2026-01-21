@@ -1,0 +1,17 @@
+{
+  "name": "Exedrill [SM]",
+  "icon": "simplymore:exedrill",
+  "advancement": "simplymore:exedrill",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:exedrill",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The ground shakes as the drill bores through solid stone. Exedrill had started off as a simple tool, a resource gatherer for the Steampunk Society. It was not until the royal mechanic decided it could have other uses that it became what it is now. She began work as ordered,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "a weapon that would break through any barricade, making trenches in the field and leaving open crevices in targets. Tragically, the royal mechanic was ambushed before she could bring her design to life, her schematics left unfinished. Slaughtered to aid the crusade of a highly advanced society, whom fate had already declared the victor."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Пустотный сплав",
+  "icon": "terramity:void_alloy",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пустотный сплав — это новый металл, добавленный Terramity.$(br2)Пустотный сплав можно получить, объединив иридий, черную материю и пустую эссенцию.$(br2)Черную материю можно получить только после победы над Стражем испытаний."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Пустотный сплав",
+      "images": [
+        "terramity:textures/screens/void.png"
+      ],
+      "border": true,
+      "text": "Пустотный сплав хранит в себе силу пустоты."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:void_alloy_recipe",
+      "recipe2": "terramity:void_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Шаблон кузнечного дела выпадает из стража испытаний, и для улучшения его необходимо использовать на иридии."
+    }
+  ]
+}

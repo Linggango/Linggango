@@ -1,0 +1,20 @@
+{
+  "name": "Фокус снаряда душ",
+  "icon": "goety:soul_bolt_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "С помощью этого фокуса вы можете быстро стрелять снарядами энергии душ, нанося отбрасывающий магический урон."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/soul_bolt_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/read_forbidden_scroll",
+      "text": "Использование $(l:crafts/staff/nameless_staff)безымянного посоха$() позволит фокусу создавать некро-снаряды, которые наносят больше урона нескольким жертвам."
+    }
+  ]
+}

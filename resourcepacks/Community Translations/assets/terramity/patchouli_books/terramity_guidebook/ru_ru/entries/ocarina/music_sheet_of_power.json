@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Силы",
+  "icon": "terramity:music_sheet_of_power",
+  "category": "terramity:ocarina",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Силы",
+      "text": "Нотный стан Силы даёт эффект Силы II на 30 секунд.$(br2)Этот стан редко можно найти в сундуках в крепостях Нижнего мира.",
+      "item": {
+        "item": "terramity:music_sheet_of_power"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

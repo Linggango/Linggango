@@ -1,0 +1,7 @@
+{
+  "name": "Прислужники",
+  "description": "Больше прислужников для Тёмного Владыки!",
+  "icon": "cataclysm:draugr_head",
+  "parent": "goety:cataclysm",
+  "sortnum": 3
+}

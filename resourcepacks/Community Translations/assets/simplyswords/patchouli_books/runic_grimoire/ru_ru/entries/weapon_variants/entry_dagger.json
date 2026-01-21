@@ -1,0 +1,26 @@
+{
+  "name": "Dagger [SM]",
+  "icon": "simplymore:iron_dagger",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_dagger",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Daggers are usually regarded as unsophisticated weaponry, used by the most incompetent of warriors. It is hard to dispute the fact, however, that those who face the wrath of the mighty dagger do not usually last long enough to think of that fact."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:dagger/iron_dagger",
+      "recipe2": "simplymore:dagger/gold_dagger"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:dagger/diamond_dagger"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:dagger/netherite_dagger",
+      "recipe2": "simplymore:dagger/runic_dagger"
+    }
+  ]
+}

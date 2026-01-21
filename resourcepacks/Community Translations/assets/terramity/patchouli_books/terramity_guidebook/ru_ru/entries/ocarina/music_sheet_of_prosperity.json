@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Процветания",
+  "icon": "terramity:music_sheet_of_prosperity",
+  "category": "terramity:ocarina",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Процветания",
+      "text": "Нотный стан Процветания даёт эффект Героя деревни на 60 секунд.$(br2)Этот стан можно довольно часто найти в заставах разбойников.",
+      "item": {
+        "item": "terramity:music_sheet_of_prosperity"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

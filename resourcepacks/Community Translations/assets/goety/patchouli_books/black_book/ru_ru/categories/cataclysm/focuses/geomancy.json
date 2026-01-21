@@ -1,0 +1,6 @@
+{
+  "name": "Геомантия",
+  "description": "Бо́льшая власть над землёй.",
+  "icon": "goety_cataclysm:desert_crush_focus",
+  "parent": "goety:cataclysm/focuses"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Времени",
+  "icon": "terramity:music_sheet_of_time",
+  "category": "terramity:ocarina",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Времени",
+      "text": "Нотный стан Времени продвигает время в мире на 12 часов (бонусы, увеличивающие уровень эффекта, увеличивают количество прошедших часов).$(br2)Этот стан выпадает, если лечь спать, имея в инвентаре призматический камень (призматический камень при этом не расходуется).",
+      "item": {
+        "item": "terramity:music_sheet_of_time"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

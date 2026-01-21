@@ -1,0 +1,19 @@
+{
+  "name": "Быстрая перезарядка",
+  "icon": "minecraft:enchanted_book",
+  "category": "terramity:enchants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Быстрая перезарядка — это чары, добавленные Terramity.$(br)$(br)Это чары увеличивают скорость перезарядки.$(br)$(br)Максимальный уровень: 1"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "terramity:textures/screens/guns.png"
+      ],
+      "text": "Несовместимо с зачарованием Полуавтомат",
+      "border": true
+    }
+  ]
+}

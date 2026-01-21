@@ -1,0 +1,34 @@
+{
+  "name": "Хтоническое подземелье",
+  "icon": "terramity:chthonian_void",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Хтоническое подземелье — это структура, найденная в Террамити, и предметы, найденные внутри, необходимы для борьбы с четвертым боссом в развитии мода. $(br2)Структуру можно найти в Незере, обычно погруженной под лавовые озера."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "terramity:textures/screens/chthonic_dungeon.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Вход в подземелье",
+      "images": [
+        "terramity:textures/screens/dungeon_entrance.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Хтоническое казино",
+      "images": [
+        "terramity:textures/screens/casino.png"
+      ],
+      "border": true
+    }
+  ]
+}

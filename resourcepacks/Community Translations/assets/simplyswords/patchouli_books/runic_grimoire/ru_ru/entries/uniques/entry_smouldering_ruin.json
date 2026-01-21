@@ -1,0 +1,17 @@
+{
+  "name": "Smouldering Ruin [SM]",
+  "icon": "simplymore:smouldering_ruin",
+  "advancement": "simplymore:smouldering_ruin",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:smouldering_ruin",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()Smouldering Ruin is surviving proof that even a puny blade may lay waste to foes with extreme power. A strong scent of death is expelled from the crimson flames that envelop the blade, a lasting effigy of the masses slaughtered under its rule. Just"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "the slightest touch of the flames enveloping this weapon causes your soul to wither away, especially in the hands of a capable wielder."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Бестиарий",
+  "description": "Записи о существах катаклизма, наводнивших этот мир.",
+  "icon": "cataclysm:netherite_effigy",
+  "parent": "goety:cataclysm/world",
+  "sortnum": 1
+}

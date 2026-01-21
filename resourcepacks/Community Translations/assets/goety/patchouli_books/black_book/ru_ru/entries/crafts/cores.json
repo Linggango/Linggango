@@ -1,0 +1,40 @@
+{
+  "name": "Магические ядра",
+  "icon": "goety:empty_focus",
+  "category": "goety:crafts",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Магические ядра используются для создания всевозможных заклинаний и снаряжения и создаются через различные ритуалы."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:empty_focus",
+      "title": "Пустой фокус",
+      "text": "$(l:intro/magical_components)Пустой фокус$() — основа всех магических фокусов."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:animation_core"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:hunger_core"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:wind_core"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:mystic_core"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:animation_core": 2,
+    "goety:hunger_core": 3,
+    "goety:wind_core": 4,
+    "goety:mystic_core": 5
+  }
+}

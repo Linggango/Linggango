@@ -1,0 +1,26 @@
+{
+  "name": "Khopesh [SM]",
+  "icon": "simplymore:iron_khopesh",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:iron_khopesh",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()A common weapon in ancient egypt, the khopesh can be found in graves of Pharohs long past. Khopeshs were usually used for vanity as well as warfare, a display of wealth and prosperity."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:khopesh/iron_khopesh",
+      "recipe2": "simplymore:khopesh/gold_khopesh"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:khopesh/diamond_khopesh"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplymore:khopesh/netherite_khopesh",
+      "recipe2": "simplymore:khopesh/runic_khopesh"
+    }
+  ]
+}

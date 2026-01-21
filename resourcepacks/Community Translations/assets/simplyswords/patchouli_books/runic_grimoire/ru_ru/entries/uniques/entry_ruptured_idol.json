@@ -1,0 +1,23 @@
+{
+  "name": "Ruptured Idol [SM]",
+  "icon": "simplymore:ruptured_idol",
+  "advancement": "simplymore:ruptured_idol",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplymore:ruptured_idol",
+      "text": "$(#0BE334)Item Added In Simply More$(br2)$()The former signature weapon of the Great Sage, now left decaying. Before his passing, this weapon was used to keep the Nether from expanding into the Overworld, and now is the only thing stopping their expanse. It is hard to picture what could happen if this weapon was destroyed fully - or worse - corrupted."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:ascended_idol",
+      "recipe2": "simplymore:tarnished_idol"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplymore:holylight",
+      "recipe2": "simplymore:darksent"
+    }
+  ]
+}

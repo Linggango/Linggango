@@ -1,0 +1,33 @@
+{
+  "name": "Огненный ревенант",
+  "icon": "cataclysm:burning_ashes",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Встреча с огненным ревенантом стала для вас сюрпризом. Кто мог подумать, что мёртвых возможно оживить через огонь? Благодаря вашим знаниям о пламени и некромантии, вы нашли способ создать своего собственного ревенанта."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_wildfire_to_ignited_revenant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ignited_revenant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ревенанта можно исцелить при помощи костей, огненных стержней или огненным порошком, и он может пассивно исцеляться, если его владелец наденет Незерскую мантию или Некро-плащ. Чтобы восстановить его щиты, используйте незеритовый лом."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:ignited_helm",
+      "text": "При смерти эти огненные духи оставляют свои шлемы, которые можно использовать на Диком пламени, чтобы возродить ревенанта."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:ignited_helm": 4
+  }
+}

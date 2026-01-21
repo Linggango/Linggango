@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Вечности",
+  "icon": "terramity:music_sheet_of_everlasting",
+  "category": "terramity:ocarina",
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Вечности",
+      "text": "Нотный стан Вечности увеличивает длительность других нотных станов в 1,5 раза.$(br2)Этот стан почти всегда можно найти в закопанных сокровищах и иногда — в снежных крепостях, которые встречаются в любых биомах со снегом.",
+      "item": {
+        "item": "terramity:music_sheet_of_everlasting"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}

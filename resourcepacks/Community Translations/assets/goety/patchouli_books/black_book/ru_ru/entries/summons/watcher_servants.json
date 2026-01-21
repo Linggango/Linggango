@@ -1,0 +1,20 @@
+{
+  "name": "Наблюдатель-прислужник",
+  "icon": "cataclysm:laser_gatling",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Наблюдатели из Древней Фабрики, способные стрелять огненными лазерами и разрывать врагов металлическими челюстями, теперь воссозданы благодаря союзу магии и технологий."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:watcher_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Наблюдателей можно излечить при помощи железных слитков."
+    }
+  ]
+}

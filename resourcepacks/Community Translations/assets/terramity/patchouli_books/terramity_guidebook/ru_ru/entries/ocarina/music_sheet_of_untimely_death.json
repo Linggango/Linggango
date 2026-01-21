@@ -1,0 +1,24 @@
+{
+  "name": "Нотный стан Несвоевременной Смерти",
+  "icon": "terramity:music_sheet_of_untimely_death",
+  "category": "terramity:ocarina",
+  "sortnum": 27,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Нотный стан Несвоевременной Смерти",
+      "text": "Нотный стан Несвоевременной Смерти мгновенно убьёт использующего.$(br2)Этот стан выпадает довольно редко при смерти игрока. Его также можно редко получить, если в вас ударит молния.",
+      "item": {
+        "item": "terramity:music_sheet_of_untimely_death"
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Нотные станы",
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
+      "border": true
+    }
+  ]
+}
