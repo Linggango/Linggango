@@ -17,7 +17,9 @@
     {
       "type": "patchouli:image",
       "title": "Шпиль испытаний",
-      "images": ["terramity:textures/screens/spire.png"],
+      "images": [
+        "terramity:textures/screens/spire.png"
+      ],
       "border": true
     }
   ]

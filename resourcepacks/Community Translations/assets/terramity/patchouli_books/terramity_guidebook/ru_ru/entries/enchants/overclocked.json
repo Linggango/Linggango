@@ -7,9 +7,11 @@
       "type": "patchouli:text",
       "text": "Разгон — это зачарование, добавленное Terramity.$(br)$(br)Это зачарование уменьшает скорость запуска оружия типа рельсы.$(br)$(br)Максимальный уровень: 1"
     },
-	{
+    {
       "type": "patchouli:image",
-      "images": ["terramity:textures/screens/guns.png"],
+      "images": [
+        "terramity:textures/screens/guns.png"
+      ],
       "border": true
     }
   ]

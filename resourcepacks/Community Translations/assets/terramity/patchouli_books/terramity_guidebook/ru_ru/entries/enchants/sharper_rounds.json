@@ -7,9 +7,11 @@
       "type": "patchouli:text",
       "text": "Острые пули — это чары, добавленные Terramity.$(br)$(br)Эти чары увеличивают урон от пуль на 6,667% за каждый уровень.$(br)$(br)Максимальный уровень: 5"
     },
-	{
+    {
       "type": "patchouli:image",
-      "images": ["terramity:textures/screens/guns.png"],
+      "images": [
+        "terramity:textures/screens/guns.png"
+      ],
       "border": true
     }
   ]

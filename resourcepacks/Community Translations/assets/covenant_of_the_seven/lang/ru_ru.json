@@ -13,7 +13,7 @@
   "affinity.covenant_of_the_seven.wind": "Wind",
   "creativetab.covenant_tab": "Covenant of the Seven Curses",
   "curios.identifier.blasphemy": "Богохульство",
-  "curios.identifier.covenant": "Завет",
+  "curios.identifier.feet": "Feet",
   "curios.identifier.sacrament": "Святыня",
   "death.attack.sacrifice": "%1$s погиб из-за высокомерного использования магии.",
   "item.covenant_of_the_seven.all_seeing_eye": "§6The All-Seeing Eye",
@@ -184,7 +184,6 @@
   "tooltip.covenant_of_the_seven.divine_scroll1": "§f+%1$s §8Атака",
   "tooltip.covenant_of_the_seven.divine_scroll10": "§7Изменение §8Третьего Бремени§7:",
   "tooltip.covenant_of_the_seven.divine_scroll11": "§7Штраф к снижению урона ограничен на §f60%",
-  "tooltip.covenant_of_the_seven.divine_scroll12": "§7Эти признаки также применяются к Снарядам",
   "tooltip.covenant_of_the_seven.divine_scroll2": "§7Этот признак умножается на общее значение",
   "tooltip.covenant_of_the_seven.divine_scroll3": "§7вашей характеристики §fБроня§7.",
   "tooltip.covenant_of_the_seven.divine_scroll4": "§f+%1$s §8Атака",
@@ -421,6 +420,5 @@
   "ui.covenant_of_the_seven.golden_food_restriction": "Благодать Древа позволяет вам вкушать лишь позолоченную пищу.",
   "ui.covenant_of_the_seven.lp_cost": "%d LP",
   "ui.covenant_of_the_seven.no_armor_burden": "Вера требует полных боевых доспехов. Ваш удар ослабевает.",
-  "ui.covenant_of_the_seven.weapon_toss_burden": "Ваше оружие дрожит при мысли о насилии.",
-  "ui.covenant_of_the_seven_curses.cast_cancel_anti_covenant": "Вы не принадлежите к этому завету"
+  "ui.covenant_of_the_seven.weapon_toss_burden": "Ваше оружие дрожит при мысли о насилии."
 }

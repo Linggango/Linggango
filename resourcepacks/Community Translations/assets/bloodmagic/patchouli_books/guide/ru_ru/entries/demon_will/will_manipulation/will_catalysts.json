@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Если у $(raw)Demon Will$() есть один недостаток, так это то, что его сбор — медленный и утомительный процесс. Даже с почти полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумным Мечом$(), зачарованным $(thing)Looting III$() и дополнительно усиленным $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Glint Plunderer's Glint II$(), это по-прежнему ручной процесс, и у вас есть дела поважнее, чем заняться шлепаньем пауков и убийством скелетов."
+      "text": "Если у $(raw)Demon Will$() есть один недостаток, так это то, что его сбор — медленный и утомительный процесс. Даже с почти полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумным Мечом$(), зачарованным $(thing)Looting III$() и дополнительно усиленным $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Glint Plunderer\u0027s Glint II$(), это по-прежнему ручной процесс, и у вас есть дела поважнее, чем заняться шлепаньем пауков и убийством скелетов."
     },
     {
       "type": "patchouli:text",

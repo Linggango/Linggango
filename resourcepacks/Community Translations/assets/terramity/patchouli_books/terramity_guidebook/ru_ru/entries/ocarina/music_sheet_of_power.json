@@ -15,7 +15,9 @@
     {
       "type": "patchouli:image",
       "title": "Нотные станы",
-      "images": ["terramity:textures/screens/music_sheets.png"],
+      "images": [
+        "terramity:textures/screens/music_sheets.png"
+      ],
       "border": true
     }
   ]

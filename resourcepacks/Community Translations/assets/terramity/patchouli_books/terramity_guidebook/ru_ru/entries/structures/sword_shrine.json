@@ -17,7 +17,9 @@
     {
       "type": "patchouli:image",
       "title": "Святилище Меча",
-      "images": ["terramity:textures/screens/sword_shrine.png"],
+      "images": [
+        "terramity:textures/screens/sword_shrine.png"
+      ],
       "border": true
     }
   ]

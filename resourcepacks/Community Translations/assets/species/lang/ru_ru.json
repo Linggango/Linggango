@@ -485,7 +485,7 @@
   "subtitles.item.species.crankbow.pull": "Скорострел заряжается",
   "subtitles.item.species.crankbow.remove_arrow": "Скорострел разряжается стрелой",
   "subtitles.item.species.crankbow.shoot": "Скорострел стреляет",
-  "subtitles.item.species.crankbow.shoot_sparing": "Скорострел экономит стрелу",
+  "subtitles.item.species.crankbow.shoot_spare": "Crankbow spares an arrow",
   "subtitles.item.species.crankbow.speed": "Скорострел ускоряется",
   "subtitles.item.species.crankbow.stop": "Скорострел замедляется",
   "subtitles.item.species.harpoon.anchor": "Подвес закреплён",

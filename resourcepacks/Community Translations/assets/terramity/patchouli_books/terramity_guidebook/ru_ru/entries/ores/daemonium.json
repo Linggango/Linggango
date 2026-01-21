@@ -10,19 +10,21 @@
     {
       "type": "patchouli:image",
       "title": "Демонит",
-      "images": ["terramity:textures/screens/daemonium.png"],
+      "images": [
+        "terramity:textures/screens/daemonium.png"
+      ],
       "border": true,
       "text": "Демонит отличная база для пушек."
     },
-	{
-	  "type": "patchouli:crafting",
-	  "recipe": "terramity:advanced_gun_parts_recipe",
-	  "recipe2": "terramity:dimlite_upgrade_recipe"
-	},
-	{
+    {
       "type": "patchouli:crafting",
-	  "recipe": "terramity:cosmilite_upgrade_recipe",
-	  "recipe2": "terramity:virentium_upgrade_recipe"
+      "recipe": "terramity:advanced_gun_parts_recipe",
+      "recipe2": "terramity:dimlite_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:cosmilite_upgrade_recipe",
+      "recipe2": "terramity:virentium_upgrade_recipe"
     }
   ]
 }

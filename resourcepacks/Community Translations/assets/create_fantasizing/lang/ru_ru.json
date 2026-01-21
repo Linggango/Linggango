@@ -2,7 +2,7 @@
   "block.create_fantasizing.andesite_crate": "Andesite Crate",
   "block.create_fantasizing.brass_crate": "Brass Crate",
   "block.create_fantasizing.compact_hydraulic_engine": "Компактный гидравлический двигатель",
-  "block.create_fantasizing.compact_hydraulic_engine.summary": "Генерирует напряжение (стресс) в _любом_ месте.",
+  "block.create_fantasizing.compact_hydraulic_engine.tooltip.summary": "It can generate Stress _anywhere_.",
   "block.create_fantasizing.compact_wind_engine": "Компактный ветряной двигатель",
   "block.create_fantasizing.compact_wind_engine.tooltip.summary": "Генерирует напряжение (стресс) в _любом_ месте.",
   "block.create_fantasizing.iron_crate": "Iron Crate",

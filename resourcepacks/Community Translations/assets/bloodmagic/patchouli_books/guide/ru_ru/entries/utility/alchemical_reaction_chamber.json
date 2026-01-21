@@ -45,22 +45,7 @@
     {
       "type": "patchouli:crafting",
       "heading": "Гидратационная камера",
-      "recipe": "bloodmagic:primitive_hydration_cell",
       "text": "Гидратационная ячейка используется для изготовления глины, краеугольного камня баланса."
-    },
-    {
-      "type": "bloodmagic:2x_crafting_arc",
-      "a.heading": "Глина из песка",
-      "a.recipe": "bloodmagic:arc/clay_from_sand",
-      "a.fluid_input": "minecraft:water_bucket",
-      "b.heading": "Глина из Терракоты",
-      "b.recipe": "bloodmagic:arc/clay_from_terracotta",
-      "b.fluid_input": "minecraft:water_bucket"
-    },
-    {
-      "type": "patchouli:text",
-      "heading": "Automation",
-      "text": "Если вы хотите автоматизировать ARC, возможно, как часть цепочки $(l:bloodmagic:utility/ore_processing)Ore-Tripling$(), вы можете знать, что это $(thing)side$(), очень похожее на $(item)furnace$(). Инструменты можно вставлять или извлекать только сверху, входные данные — сбоку, а выходные — снизу. Помните об этом при размещении $(item)Hoppers$() или $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлов маршрутизации$()."
     }
   ]
 }

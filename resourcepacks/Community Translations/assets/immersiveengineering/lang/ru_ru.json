@@ -1361,7 +1361,7 @@
   "manual.immersiveengineering.update": "НОВОСТИ ОБНОВЛЕНИЙ!",
   "material.constantan.name": "Константан",
   "material.hemp.name": "Волокно промышленной конопли",
-  "material.treated_wood.name": "Обработанная древесина",
+  "material.treatedwood.name": "Treated Wood",
   "modifier.thermalinversion.desc": "§oГорячий и Холодный!§r\nУдаряя врага в горячей или холодной окружающей среде охладит или сожжёт его.",
   "modifier.thermalinversion.name": "Термальная инверсия",
   "recipe.immersiveengineering.hammerCrushing": "Дробление",

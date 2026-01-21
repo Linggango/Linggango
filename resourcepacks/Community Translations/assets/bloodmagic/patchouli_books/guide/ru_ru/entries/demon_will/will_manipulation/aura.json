@@ -34,6 +34,7 @@
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Демонический пилон",
       "recipe": "bloodmagic:soulforge/demon_pylon",
+      "anchor": "pylon",
       "text": "Пилон будет притягивать все виды воли из всех соседних блоков (не включая диагонали). Несколько пилонов можно соединить в цепочку, чтобы переносить Волю на большие расстояния."
     },
     {
@@ -48,6 +49,7 @@
         "bloodmagic:demon_will/will_manipulation/crystallized_will",
         "bloodmagic:demon_will/will_manipulation/aspected_will",
         "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest",
         "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
       ],
       "text": "Я могу сделать больше, я чувствую это..."

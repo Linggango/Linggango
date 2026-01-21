@@ -21,6 +21,7 @@
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Разумная коса",
       "recipe": "bloodmagic:soulforge/sentientscythe",
+      "anchor": "scythe",
       "text": "Как и в случае с киркой, без воли, которая могла бы привести в действие вашу косу, она сравнительно тупая и громоздкая; Однако, имея достаточно полный $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$(), вы предвидите, что он станет разрушительным инструментом. $(br)Мы упоминали, что он до сих пор работает как мотыга?"
     },
     {

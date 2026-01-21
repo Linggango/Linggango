@@ -11,7 +11,9 @@
     },
     {
       "type": "patchouli:image",
-      "images": ["terramity:textures/screens/awesome_chiaotzu.png"],
+      "images": [
+        "terramity:textures/screens/awesome_chiaotzu.png"
+      ],
       "border": true
     }
   ]

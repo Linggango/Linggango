@@ -4,6 +4,7 @@
   "category": "bloodmagic:dungeons",
   "extra_recipe_mappings": {
     "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:bleedingedge": 0,
     "bloodmagic:hellforgedparts": 3
   },
   "pages": [
@@ -39,12 +40,14 @@
     },
     {
       "type": "patchouli:text",
+      "anchor": "mines",
       "text": "Ключ мастера позволит войти в $(thing)The Mines$(), что является еще одним шагом вперед как по сложности, так и по наградам. Наряду с $(l:bloodmagic:dungeons/demonite)Demonite Ore$(), которая необходима для высокого уровня $(l:bloodmagic:alchemy_table/potions)зельеварения$() и $(l:bloodmagic:altar/blood_altar)Кровавого алтаря 5-го уровня$() и сопровождающего его $(l:bloodmagic:altar/soul_network)Orb$(), вы найдете множество более обыденной добычи, зачарованного оружия и инструментов, мазей, зелий и многого другого."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:hellforgedparts",
       "title": "Замысловатые детали из адской закалки",
+      "anchor": "hellforged_parts",
       "text": "Исследуйте достаточно, и, возможно, вам повезет найти $(item)Intricate Hellforged Parts$(), которые можно использовать для удвоения силы существующих $(item)Runes$(). Это как объединить два $(blood)Кровавых Алтаря$() в одном!"
     }
   ]

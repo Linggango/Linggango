@@ -7,14 +7,16 @@
       "type": "patchouli:text",
       "text": "Стекло Пустоты — это новый блок, добавленный Terramity.$(br2)Стекло Пустоты действует как окно в любую стену. Используйте его, чтобы видеть сквозь что угодно, что упрощает поиск подземных сооружений или скрытых баз."
     },
-	{
+    {
       "type": "patchouli:image",
-      "images": ["terramity:textures/screens/void_glass.png"],
+      "images": [
+        "terramity:textures/screens/void_glass.png"
+      ],
       "border": true
     },
-	{
-	  "type": "patchouli:crafting",
-	  "recipe": "terramity:void_glass_recipe"
-	}
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:void_glass_recipe"
+    }
   ]
 }

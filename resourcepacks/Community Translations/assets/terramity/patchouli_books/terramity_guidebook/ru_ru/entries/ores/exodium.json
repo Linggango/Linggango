@@ -10,16 +10,18 @@
     {
       "type": "patchouli:image",
       "title": "Exodium",
-      "images": ["terramity:textures/screens/exodium.png"],
+      "images": [
+        "terramity:textures/screens/exodium.png"
+      ],
       "border": true,
       "text": "Эксодиум содержит силу ???."
     },
-	{
-	  "type": "patchouli:crafting",
-	  "recipe": "terramity:exodium_ingot_recipe",
-	  "recipe2": "terramity:exodium_to_block"
-	},
-	{
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:exodium_ingot_recipe",
+      "recipe2": "terramity:exodium_to_block"
+    },
+    {
       "type": "patchouli:text",
       "text": "Для этого металла нет кузнечного шаблона, вместо этого вы должны изготовить набор инструментов и броню только из слитков."
     }

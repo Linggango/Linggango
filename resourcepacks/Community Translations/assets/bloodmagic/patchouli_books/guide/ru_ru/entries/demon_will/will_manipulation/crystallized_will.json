@@ -22,6 +22,16 @@
     {
       "type": "patchouli:text",
       "text": "Если у вас в инвентаре более 512 $(raw)Will$() (в любом количестве $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() и любого типа), вы можете собрать эти кристаллы, щелкнув правой кнопкой мыши по шпилю пустой рукой. Это удалит все, кроме центрального шпиля. $(br2)Однако, если у вас недостаточно $(raw)will$(), $(italic)really$() вам нужен Кристалл центрального шпиля или вы просто спешите, вы можете собрать все с помощью кирки."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Related Links",
+      "entries": [
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "5 will per harvested crystal isn\u0027t a particularly impressive haul, but the above rituals (alongside $(l:bloodmagic:demon_will/will_manipulation/will_catalysts)Will Catalysts$()) should allow you to boost and automate their production for some impressive gains."
     }
   ]
 }

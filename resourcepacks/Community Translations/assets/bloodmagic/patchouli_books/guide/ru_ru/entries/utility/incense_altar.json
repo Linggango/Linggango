@@ -26,7 +26,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Более того, в зависимости от общего $(thing)Tranquility$() области вы получите бонус к $(blood)LP$(), добавленному к $(l:bloodmagic:altar/blood_altar)Blood Altar$(). При наведении курсора на $(item)Алтарь благовоний$() с помощью $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$(/l) или $(l:bloodmagic:alchemy_array/sigil/seer)Seer's Sigil$() отобразится общая сумма $(thing)Tranquility$() установки (верхнее число) и процентный бонус, полученный при принесении жертвы (внизу). номер). Когда вы жертвуете, он берет $(blood)LP$(), который вы обычно получаете, и умножает его на (1 + бонус/100)."
+      "text": "Более того, в зависимости от общего $(thing)Tranquility$() области вы получите бонус к $(blood)LP$(), добавленному к $(l:bloodmagic:altar/blood_altar)Blood Altar$(). При наведении курсора на $(item)Алтарь благовоний$() с помощью $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$(/l) или $(l:bloodmagic:alchemy_array/sigil/seer)Seer\u0027s Sigil$() отобразится общая сумма $(thing)Tranquility$() установки (верхнее число) и процентный бонус, полученный при принесении жертвы (внизу). номер). Когда вы жертвуете, он берет $(blood)LP$(), который вы обычно получаете, и умножает его на (1 + бонус/100)."
     },
     {
       "type": "patchouli:image",

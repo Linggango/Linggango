@@ -7,9 +7,11 @@
       "type": "patchouli:text",
       "text": "Тяжелая поступь — это чары, добавленные Terramity.$(br)$(br)Это чары устраняют отбрасывание/отдачу от любого оружия.$(br)$(br)Максимальный уровень: 1"
     },
-	{
+    {
       "type": "patchouli:image",
-      "images": ["terramity:textures/screens/guns.png"],
+      "images": [
+        "terramity:textures/screens/guns.png"
+      ],
       "border": true
     }
   ]

@@ -19,7 +19,7 @@
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Секреты шахтера 2",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
-      "text": "Эта обновленная версия помазания увеличивает доход до +4 опыта за блок. $(br2)Применяется: Miner's Secrets II (256 блоков опыта)"
+      "text": "Эта обновленная версия помазания увеличивает доход до +4 опыта за блок. $(br2)Применяется: Miner\u0027s Secrets II (256 блоков опыта)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
@@ -31,7 +31,7 @@
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Секреты шахтера III",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
-      "text": "Эта обновленная версия помазания увеличивает доход до +6 опыта за блок. $(br2)Применяется: Miner's Secrets III (256 блоков опыта)"
+      "text": "Эта обновленная версия помазания увеличивает доход до +6 опыта за блок. $(br2)Применяется: Miner\u0027s Secrets III (256 блоков опыта)"
     }
   ]
 }

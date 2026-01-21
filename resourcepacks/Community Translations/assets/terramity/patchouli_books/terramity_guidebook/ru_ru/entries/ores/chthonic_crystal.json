@@ -10,14 +10,14 @@
     {
       "type": "patchouli:spotlight",
       "text": "Бримслаг можно найти где угодно в Незере, где можно найти чернит, но чаще всего он встречается в базальтовых дельтах.",
-	  "item": {
-		"item": "terramity:brimslag"
-	  }
+      "item": {
+        "item": "terramity:brimslag"
+      }
     },
-	{
+    {
       "type": "patchouli:crafting",
-	  "recipe": "terramity:hellspec_alloy_recipe",
-	  "recipe2": "terramity:stygian_safety_emblem_recipe"
+      "recipe": "terramity:hellspec_alloy_recipe",
+      "recipe2": "terramity:stygian_safety_emblem_recipe"
     }
   ]
 }

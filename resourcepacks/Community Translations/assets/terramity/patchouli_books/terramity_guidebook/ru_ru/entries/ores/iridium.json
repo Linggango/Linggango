@@ -10,19 +10,21 @@
     {
       "type": "patchouli:image",
       "title": "Иридиум",
-      "images": ["terramity:textures/screens/iridium.png"],
+      "images": [
+        "terramity:textures/screens/iridium.png"
+      ],
       "border": true,
       "text": "Иридиум это отличная база для более сильных сплавов."
     },
-	{
-	  "type": "patchouli:crafting",
-	  "recipe": "terramity:iridium_ingot",
-	  "recipe2": "terramity:hellspec_upgrade_recipe"
-	},
-	{
+    {
       "type": "patchouli:crafting",
-	  "recipe": "terramity:void_upgrade_recipe",
-	  "recipe2": "terramity:conductite_upgrade_recipe"
+      "recipe": "terramity:iridium_ingot",
+      "recipe2": "terramity:hellspec_upgrade_recipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terramity:void_upgrade_recipe",
+      "recipe2": "terramity:conductite_upgrade_recipe"
     }
   ]
 }

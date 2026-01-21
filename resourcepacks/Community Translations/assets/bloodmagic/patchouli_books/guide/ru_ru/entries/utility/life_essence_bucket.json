@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(blood)Life Essence$() прекрасно и хорошо в $(l:bloodmagic:altar/blood_altar)Blood Altar$(), где его можно использовать для крафта или направить в $(l:bloodmagic:altar/soul_network)Orb$() для питания $(thing)Rituals$(), но что, если вы хотите построить ров из этого материала вокруг вашего $(l:bloodmagic:utility/incense_altar)Алтарь благовоний$()? К счастью, извлечение $(blood)Life Essence$() относительно тривиально. Просто поместите $(item)Bucket$() в $(l:bloodmagic:altar/blood_altar)Blood Altar$() и подождите несколько секунд, пока он заполнится. $(blood)1 LP$()=1 МБ, поэтому $(blood)1000 LP$() должно хватить для вашего $(item)Bucket$()."
+      "text": "$(blood)Life Essence$() прекрасно и хорошо в $(l:bloodmagic:altar/blood_altar)Blood Altar$(), где его можно использовать для крафта или направить в $(l:bloodmagic:altar/soul_network)Orb$() для питания $(thing)Rituals$(), но что, если вы хотите построить ров из этого материала вокруг вашего $(l:bloodmagic:utility/incense_altar)Алтарь благовоний$()? К счастью, извлечение $(blood)Life Essence$() относительно тривиально. Просто поместите $(item)Bucket$() в $(l:bloodmagic:altar/blood_altar)Blood Altar$() и подождите несколько секунд, пока он заполнится. $(blood)1 LP$()\u003d1 МБ, поэтому $(blood)1000 LP$() должно хватить для вашего $(item)Bucket$()."
     },
     {
       "type": "bloodmagic:crafting_altar",

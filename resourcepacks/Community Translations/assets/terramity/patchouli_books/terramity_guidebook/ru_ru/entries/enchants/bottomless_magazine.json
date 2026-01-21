@@ -7,9 +7,11 @@
       "type": "patchouli:text",
       "text": "Бездонный магазин — это чары, добавленные Terramity.$(br)$(br)Эти чары увеличивают максимальный боезапас любого оружия, которое их поддерживает. Добавляемый боезапас варьируется в зависимости от оружия.$(br)$(br)Максимальный уровень: 3"
     },
-	{
+    {
       "type": "patchouli:image",
-      "images": ["terramity:textures/screens/guns.png"],
+      "images": [
+        "terramity:textures/screens/guns.png"
+      ],
       "border": true
     }
   ]

@@ -23,7 +23,7 @@
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Польский XL Archer's",
+      "heading": "Польский XL Archer\u0027s",
       "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
       "text": "Эта обновленная версия помазания действует в шестнадцать раз дольше. $(br2)Применимо: Снайперская стрельба I (4096 выстрелов)"
     },
