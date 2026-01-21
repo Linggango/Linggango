@@ -1,17 +1,17 @@
 {
-  "name": "Weaken",
+  "name": "Ослабление",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Weaken",
-      "text": "Weaken is a runic power that imbues the wielder\u0027s weapon with the $(#87185d)$(l)essence of decay$(). $(br2)It grants the wielder a chance to slow and weaken their target with each successful strike."
+      "title": "Ослабление",
+      "text": "Ослабление — это руническая сила, наполняющая оружие владельца $(#87185d)$(l)эссенцией тления$(). $(br2)Даёт шанс замедлить и ослабить цель при каждом успешном ударе."
     },
     {
       "type": "patchouli:text",
-      "text": "Weaken is a powerful runic power that can give the wielder an edge in battle by slowing and weakening their target. $(br2)It\u0027s ideal for characters that are focused on close quarters combat, as it allows them to land more attacks and make the target\u0027s attacks less effective."
+      "text": "Ослабление — мощная руна, способная дать владельцу преимущество в бою за счёт замедления и ослабления противника. $(br2)Идеально подходит для персонажей, ориентированных на ближний бой, так как позволяет наносить больше ударов и снижать эффективность атак врага."
     }
   ]
 }

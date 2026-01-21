@@ -169,7 +169,7 @@
   "tooltip.bakery.cake_1": "§e[ПКМ]§r, чтобы взять",
   "tooltip.bakery.cake_2": "§e[ПКМ]§r с §a[Ножом]§r, чтобы разрезать",
   "tooltip.bakery.cake_3": "§e[Shift + ПКМ]§r, чтобы съесть",
-  "tooltip.bakery.cakedoughonstation": "Place Cake Dough on top of the Caking Station to start caking",
+  "tooltip.bakery.cakedoughonstation": "Поместите тесто для торта сверху на станцию для выпечки, чтобы начать приготовление",
   "tooltip.bakery.canbeplaced": "Можно поставить",
   "tooltip.bakery.thankyou_1": "Награда за изготовление всех угощений",
   "tooltip.bakery.thankyou_2": "При размещении:",

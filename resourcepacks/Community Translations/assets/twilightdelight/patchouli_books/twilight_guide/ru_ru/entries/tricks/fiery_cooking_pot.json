@@ -1,0 +1,15 @@
+{
+  "name": "Огненный котелок",
+  "icon": "twilightdelight:fiery_cooking_pot",
+  "category": "twilightdelight:tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Нагревается самостоятельно. Готовит блюда из Twilight Forest или Twilight's Flavor & Delight за 10 секунд, если требуется больше времени. На Печи из лабиринта готовит их за 5 секунд."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "twilightdelight:fiery_cooking_pot"
+    }
+  ]
+}

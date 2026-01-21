@@ -1,17 +1,17 @@
 {
-  "name": "Pincushion",
+  "name": "Подушка для стрел",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Pincushion",
-      "text": "Pincushion is a runic power that imbues the wielder\u0027s weapon with the $(#d1422c)$(l)essence of retaliation$(). $(br2)It provides a weapon with the ability to deal additional damage to enemies based on the number of arrows stuck in the wielder\u0027s body."
+      "title": "Подушка для стрел",
+      "text": "Подушка для стрел — это руническая сила, наполняющая оружие владельца $(#d1422c)$(l)эссенцией возмездия$(). $(br2)Позволяет оружию наносить дополнительный урон врагам в зависимости от количества стрел, застрявших в теле владельца."
     },
     {
       "type": "patchouli:text",
-      "text": "With Pincushion, the wielder becomes a deadly pincushion for their enemies, encouraging ranged attackers to think twice before firing at them. The more arrows that hit the wielder, the more powerful their strikes become, making them an even greater threat in combat. "
+      "text": "С этой руной владелец становится смертельно опасной «подушкой для стрел» для своих врагов, заставляя лучников и других дальнобойных противников дважды подумать, прежде чем стрелять. Чем больше стрел попадает во владельца, тем сильнее становятся его атаки, превращая его в ещё более грозную силу в бою."
     }
   ]
 }

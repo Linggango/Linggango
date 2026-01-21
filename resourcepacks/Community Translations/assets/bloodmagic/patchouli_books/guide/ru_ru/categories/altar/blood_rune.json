@@ -1,6 +1,6 @@
 {
-  "name": "Blood Runes",
-  "description": "There\u0027s lots of different runes. They do cool stuff! Try mixing and matching to see what works best for you.",
+  "name": "Кровавые руны",
+  "description": "Есть много разных рун. Они делают крутые вещи! Попробуйте смешивать и сочетать, чтобы увидеть, что лучше всего подходит для вас.",
   "icon": "bloodmagic:blankrune",
   "parent": "bloodmagic:altar"
 }

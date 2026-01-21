@@ -1,17 +1,17 @@
 {
-  "name": "Freeze",
+  "name": "Заморозка",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Freeze",
-      "text": "Freeze is a runic power that imbues the wielder\u0027s weapon with the $(#38caff)$(l)essence of cold and ice$(). $(br2)It grants the wielder a chance to chill or freeze their targets with each successful hit."
+      "title": "Заморозка",
+      "text": "Заморозка — это руническая сила, наполняющая оружие владельца $(#38caff)$(l)эссенцией холода и льда$(). $(br2)Даёт шанс при каждом успешном ударе замедлить или заморозить цель."
     },
     {
       "type": "patchouli:text",
-      "text": "Freeze is a powerful runic power that can greatly disrupt the flow of battle and give the wielder a strategic advantage. $(br2)It\u0027s ideal for characters that are focused on crowd control and support, such as mages, warlocks, and summoners, who can use the power to immobilize their enemies and give their allies an opening to strike."
+      "text": "Заморозка — мощная руническая сила, способная серьёзно нарушить ход боя и дать владельцу тактическое преимущество. $(br2)Идеально подходит для персонажей, ориентированных на контроль толпы и поддержку, таких как маги, колдуны и призыватели, которые могут обездвиживать врагов и давать союзникам возможность для атаки."
     }
   ]
 }

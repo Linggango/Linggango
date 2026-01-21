@@ -1,21 +1,21 @@
 {
-  "name": "Standard Item Filter",
+  "name": "Стандартный фильтр товаров",
   "icon": "bloodmagic:itemrouterfilterexact",
   "category": "bloodmagic:demon_will/item_routing",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Standard Item Filter lets you select up to 9 items to withdraw from, or insert into, the adjacent inventory when inserted into a $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Node$(). $(br2)Each item has a quantity - leaving this blank will default to \u0027all\u0027. $(br2)The Filter also has an Allow and Deny function. In Deny mode, quantities are ignored. "
+      "text": "Стандартный фильтр предметов позволяет вам выбрать до 9 предметов для извлечения или вставки в соседний инвентарь при вставке в $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узел маршрутизации$(). $(br2)У каждого товара есть количество. Если оставить это поле пустым, по умолчанию будет указано «все». $(br2)Фильтр также имеет функции «Разрешить» и «Запретить». В режиме Deny количества игнорируются."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Standard Item Filter",
+      "heading": "Стандартный фильтр товаров",
       "recipe": "bloodmagic:alchemytable/router_filter",
-      "text": "$(br)When used in an $(item)Input Routing Node$(), the quantity tells the node how many of that item to leave in the selected inventory. Anything above this amount will be imported into the network."
+      "text": "$(br)При использовании в узле входной маршрутизации $(item)$() количество сообщает узлу, сколько предметов следует оставить в выбранном инвентаре. Все, что превышает эту сумму, будет импортировано в сеть."
     },
     {
       "type": "patchouli:text",
-      "text": "When used in an $(item)Output Routing Node$(), the quantity tells the node how many of that item to fill in the selected inventory with. Anything above this amount will be left in the network - either passed into another valid inventory, or left where it is."
+      "text": "При использовании в узле $(item)Output Routing Node$() количество сообщает узлу, каким количеством этого элемента нужно заполнить выбранный инвентарь. Все, что превышает эту сумму, останется в сети — либо перейдет в другой действительный инвентарь, либо останется там, где оно есть."
     },
     {
       "type": "patchouli:image",
@@ -23,9 +23,9 @@
         "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
         "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
       ],
-      "title": "Standard Item Filter GUI",
+      "title": "Стандартный графический интерфейс фильтра элементов",
       "border": true,
-      "text": "The GUI and the mouseover text of a configured filter."
+      "text": "Графический интерфейс и текст при наведении курсора мыши настроенного фильтра."
     }
   ]
 }

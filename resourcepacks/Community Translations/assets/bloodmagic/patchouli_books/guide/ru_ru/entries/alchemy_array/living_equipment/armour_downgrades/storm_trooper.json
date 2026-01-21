@@ -1,11 +1,11 @@
 {
-  "name": "Storm Trooper",
+  "name": "Штурмовик",
   "icon": "minecraft:arrow",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Makes you wildly inaccurate when shooting bows and crossbows."
+      "text": "Делает вас крайне неточным при стрельбе из луков и арбалетов."
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

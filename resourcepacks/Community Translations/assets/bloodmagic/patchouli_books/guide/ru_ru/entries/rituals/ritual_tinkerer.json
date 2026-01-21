@@ -1,12 +1,12 @@
 {
-  "name": "Ritual Tinkerer",
+  "name": "Ритуальный мастер",
   "icon": "bloodmagic:ritualtinkerer",
   "category": "bloodmagic:rituals",
   "priority": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Ritual Tinkerer$() is an essential tool for the advanced sanguimancer who is looking for all they can get out of their $(thing)Rituals$(). It has three main modes, as described overleaf. You can cycle between them by pressing [$(k:sneak)] and [$(k:use)]."
+      "text": "$(item)Ritual Tinkerer$() — это незаменимый инструмент для продвинутых сангвиантов, которые ищут все, что можно получить от своих $(thing)Rituals$(). Он имеет три основных режима, как описано на обороте. Вы можете переключаться между ними, нажимая [$(k:sneak)] и [$(k:use)]."
     },
     {
       "type": "patchouli:crafting",
@@ -14,11 +14,11 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Information: Describes the function of the $(thing)Ritual$(), similar to the $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(). $(li)Set Will Consumed: Tells the $(thing)Ritual$() which kinds of $(raw)Demon Will$() (if any) to consume from the $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). Specify this by carrying $(item)Demon Will Crystals$() in your hotbar, one for each type of $(raw)will$() you wish the $(thing)Ritual$() to consume. Further information about the effects of $(raw)Demon Will$() upon $(thing)Rituals$() can be found on each $(thing)Ritual$()\u0027s respective page in this book."
+      "text": "$(li)Информация: Описывает функцию $(thing)Ritual$(), аналогичную $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(). $(li)Set Will Consumed: сообщает $(thing)Ritual$(), какие виды $(raw)Demon Will$() (если есть) потреблять из $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). Укажите это, добавив $(item)Demon Will Crystals$() на свою горячую панель, по одному для каждого типа $(raw)will$(), который вы хотите, чтобы $(thing)Ritual$() потреблял. Дополнительную информацию о влиянии $(raw)Demon Will$() на $(thing)Rituals$() можно найти на соответствующей странице каждого $(thing)Ritual$() в этой книге."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Define Area: Specifies the zone that the $(thing)Ritual$() should work in, and displays the current zone. If multiple zones can be specified, pressing [$(k:sneak)] and [$(k:use)] on the $(item)Master Ritual Stone$() will cycle through them. Some $(thing)Rituals$() can be expanded far beyond their default areas, but keep in mind that this will increase the $(blood)LP$() cost to match..."
+      "text": "$(li)Define Area: указывает зону, в которой должен работать $(thing)Ritual$(), и отображает текущую зону. Если можно указать несколько зон, нажатие [$(k:sneak)] и [$(k:use)] на $(item)Master Ritual Stone$() будет циклически переключаться между ними. Некоторые $(thing)Rituals$() могут быть расширены далеко за пределы их областей по умолчанию, но имейте в виду, что это увеличит стоимость $(blood)LP$() до соответствия..."
     }
   ]
 }

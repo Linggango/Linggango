@@ -1,108 +1,108 @@
 {
-  "name": "Tiers \u0026 Getting Started",
+  "name": "Уровни и начало работы",
   "icon": "bloodmagic:sacrificialdagger",
   "category": "bloodmagic:utility",
   "priority": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(blood)Blood Magic 3$()\u0027s progression is still being reworked, and the first few steps are significantly different from $(blood)Blood Magic 2$()\u0027s. $(br2)We are still retooling our guidance, but we are waiting until the progression is locked down. In the meantime, here is a quick overview on how to progress in $(blood)Blood Magic 3$()."
+      "text": "Прогресс $(blood)Blood Magic 3$() все еще перерабатывается, и первые несколько шагов существенно отличаются от $(blood)Blood Magic 2$(). $(br2)Мы все еще переоснащаем наше руководство, но ждем, пока прогресс будет заблокирован. А пока вот краткий обзор того, как прогрессировать в $(blood)Blood Magic 3$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:altar",
-      "title": "Blood Altar (Tier-1)",
-      "text": "The first step of $(blood)Blood Magic$() is to build a $(l:bloodmagic:altar/blood_altar)Blood Altar$() and $(l:bloodmagic:altar/blood_altar#knife)Sacrificial Knife$(). Use these to generate $(blood)LP$() from Self-Sacrificing.$(br2)Use this $(blood)LP$() to craft a $(l:bloodmagic:altar/soul_network)Weak Blood Orb$(), several $(l:bloodmagic:altar/slates)Blank Slates$(), and a few $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snares$()."
+      "title": "Кровавый Алтарь (Уровень 1)",
+      "text": "Первым шагом $(blood)Blood Magic$() является создание $(l:bloodmagic:altar/blood_altar)Blood Altar$() и $(l:bloodmagic:altar/blood_altar#knife)Жертвенного ножа$(). Используйте их для создания $(blood)LP$() из Самопожертвования.$(br2)Используйте этот $(blood)LP$() для создания $(l:bloodmagic:altar/soul_network)Слабой сферы крови$(), нескольких $(l:bloodmagic:altar/slates)Чистых досок$() и нескольких $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Ловушки души$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:alchemytable",
-      "title": "Alchemy Table (Tier-1)",
-      "text": "The $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() uses $(blood)LP$() from a player\u0027s $(thing)Soul Network$() (drawn from the $(l:bloodmagic:altar/soul_network)bound Blood Orb$() in it) to craft various different objects, such as:$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ashes$()$(li)$(item)Reagents for Sigils$()$(li)$(l:bloodmagic:alchemy_table/anointments)Anointments$()$(li)$(thing)2x Ore Processing$()$(li)and various other odds and ends."
+      "title": "Алхимический стол (Уровень 1)",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)Alchemy_table$() использует $(blood)LP$() из $(thing)Soul Network$() игрока (взятого из $(l:bloodmagic:altar/soul_network)связанного в нем Blood Orb$()) для создания различных объектов, таких как as:$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Чародейский пепел$()$(li)$(item)Реагенты для печатей$()$(li)$(l:bloodmagic:alchemy_table/aintments)Помазания$()$(li)$(thing)2x Обработка руды$()$(li)и различные другие мелочи."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:arcaneashes",
-      "title": "Alchemy Array (Tier-1)",
-      "text": "An $(thing)Alchemy Array$() is made by placing some $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ashes$() on the ground. The Alchemy Array can have 2 $(item)items$() inserted into it via [$(k:use)], and will either craft an $(item)item$() (such as a $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$()) or perform $(thing)some kind of function$() (such as $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)turning day into night$())."
+      "title": "Алхимический массив (Уровень 1)",
+      "text": "$(thing)Alchemy Array$() создается путем размещения на земле $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ashes$(). Alchemy Array может иметь 2 $(item)items$(), вставленных в него через [$(k:use)], и он либо создаст $(item)item$() (например, $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$()), либо выполнит $(thing)какую-то функцию$() (например, $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)превращая день в ночь$())."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:soulforge",
-      "title": "Hellfire Forge (Tier-1)",
-      "text": "The $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() crafts using $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(). You get your first $(raw)Will$() by using $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snares$(), though upgrading to a $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$() is recommended. The $(item)Hellfire Forge$() is used for stuff directly related to $(raw)Demon Will$() (like $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() and $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$()), and consumables (like $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Explosive Charges$() and $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Throwing Daggers$())."
+      "title": "Кузница Адского Пламени (Уровень 1)",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() создает с использованием $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(). Вы получаете свой первый $(raw)Will$(), используя $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snares$(), хотя рекомендуется обновить его до $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$(). $(item)Hellfire Forge$() используется для вещей, непосредственно связанных с $(raw)Demon Will$() (например, $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() и $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$()), а также расходных материалов (например, $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Разрывные заряды$() и $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Метательные кинжалы$())."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:daggerofsacrifice",
-      "title": "Tier Two",
-      "text": "At this point, you will be able to craft a $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Dagger of Sacrifice$() in order to slaughter mobs for more $(blood)LP$(). Various $(item)Upgrade Runes$() should be available for your $(item)Blood Altar$(), and some more $(item)Sigils$() will be available. As before, you should focus on further upgrading your $(l:bloodmagic:altar/blood_altar)Altar$()."
+      "title": "Второй уровень",
+      "text": "На этом этапе вы сможете создать $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Кинжал жертвоприношения$(), чтобы убивать мобов и получать больше $(blood)LP$(). Для вашего $(item)Blood Altar$() должны быть доступны различные $(item)Upgrade Runes$(), а также будут доступны еще некоторые $(item)Sigils$(). Как и раньше, вам следует сосредоточиться на дальнейшем обновлении вашего $(l:bloodmagic:altar/blood_altar)Altar$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:alchemy_flask",
-      "title": "Potioncrafting (Tier-2)",
-      "text": "If building your $(l:bloodmagic:altar/blood_altar)Altar$() is getting tiresome and you feel in need of a distraction, why not try out the newly available $(l:bloodmagic:alchemy_table/potions)Potioncrafting$() system? you will be able to craft $(thing)Alchemy Flasks$() or $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Tipped Amethyst Throwing Daggers$() and imbue them with literally dozens of effects."
+      "title": "Зельеварение (Уровень 2)",
+      "text": "Если создание $(l:bloodmagic:altar/blood_altar)Altar$() становится утомительным и вы чувствуете, что вам нужно отвлечься, почему бы не попробовать новую доступную систему $(l:bloodmagic:alchemy_table/potions)Potioncrafting$()? вы сможете создать $(thing)Алхимические колбы$() или $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Аметистовые кинжалы с наконечниками$() и наделить их буквально десятками эффектов."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:ritualdiviner",
-      "title": "Tier Three",
-      "text": "By this point, you will have the ability to create some basic $(l:bloodmagic:rituals/ritual_basics)Rituals$() and $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$() as well. This armour is very versatile, though you\u0027ll have to work hard to unlock its full potential. At this point you should look into upgrading your $(l:bloodmagic:altar/blood_altar)Altar$() and your $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$() to unlock more powerful $(thing)Rituals$(). How, you say?"
+      "title": "Уровень третий",
+      "text": "К этому моменту у вас появится возможность создавать базовые $(l:bloodmagic:rituals/ritual_basics)Rituals$() и $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живые доспехи$(). Эта броня очень универсальна, хотя вам придется потрудиться, чтобы полностью раскрыть ее потенциал. На этом этапе вам следует подумать об обновлении вашего $(l:bloodmagic:altar/blood_altar)Altar$() и вашего $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(), чтобы разблокировать более мощные $(thing)Rituals$(). Как, говоришь?"
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:simplekey",
-      "title": "Dungeoneering (Tier-3)",
-      "text": "By performing the $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Edge of the Hidden Realm$(), that\u0027s how! This will allow you limited access to $(thing)Demon Realm$(), and hopefully to $(l:bloodmagic:dungeons/tau_fruit)Tau Fruit$(), which can be cultivated into $(thing)Saturated Tau$() and then converted into $(item)Weak Blood Shards$() in the $(l:bloodmagic:utility/alchemical_reaction_chamber)Alchemical Reaction Chamber$(). These can be used to make the Tier IV Altar, more powerful $(l:bloodmagic:alchemy_table/anointments)Anointments$(), and $(l:bloodmagic:alchemy_table/potions#average_potions)Potion Catalysts$()."
+      "title": "Исследование подземелий (Уровень 3)",
+      "text": "Выполнив $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Грань Скрытого Царства$(), вот как! Это позволит вам ограничить доступ к $(thing)Demon Realm$() и, надеюсь, к $(l:bloodmagic:dungeons/tau_fruit)Tau Fruit$(), который можно вырастить в $(thing)Saturated Tau$(), а затем превратить в $(item)Weak Blood Shards$() в $(l:bloodmagic:utility/alchemical_reaction_chamber)Камере алхимических реакций$(). Их можно использовать для создания Алтаря IV уровня, более мощных $(l:bloodmagic:alchemy_table/anointments)Anointments$() и $(l:bloodmagic:alchemy_table/potions#average_potions)Potion Catalysts$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:duskscribetool",
-      "title": "Tier Four",
-      "text": "at Tier 4, you will gain access to the $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l), and with it, a plethora of more advanced $(thing)Rituals$(), allowing such feats as $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)automating your LP supply$(), unlimited $(l:bloodmagic:rituals/ritual_list/ritual_condor)creative flight within your base$(), and even $(l:bloodmagic:rituals/ritual_list/ritual_meteor)summoning a devastating meteor$() from the heavens, chock full of goodies!"
+      "title": "Уровень четвертый",
+      "text": "на уровне 4 вы получите доступ к $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l), а вместе с ним и множеству более продвинутых $(thing)Rituals$(), позволяющих использовать такие умения, как $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)автоматизацию поставок LP$(), неограниченный $(l:bloodmagic:rituals/ritual_list/ritual_condor)творческий полет внутри вашей базы$() и даже $(l:bloodmagic:rituals/ritual_list/ritual_meteor)вызов разрушительного метеора$() с небес, битком набитый вкусностями!"
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:upgradetome",
-      "title": "Better Armour (Tier-4)",
-      "text": "You may have tinkered around with $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$() by this point, but the relatively low cap of points may have started to chafe. With the $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l), you are now free to augment your armour like never before. Firstly, The $(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ritual of Living Evolution$() will allow you to raise your points cap from 100 to 300."
+      "title": "Улучшенная броня (Уровень 4)",
+      "text": "Возможно, к этому моменту вы повозились с $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$(), но относительно низкий предел очков, возможно, начал раздражать. С помощью $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) вы теперь можете усилить свою броню, как никогда раньше. Во-первых, $(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ритуал живой эволюции$() позволит вам поднять лимит очков со 100 до 300."
     },
     {
       "type": "patchouli:text",
-      "text": "If that\u0027s not enough, you can use the $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Sound of the Cleansing Soul$() to strip your armour of its upgrades. These tomes can be copied into a $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Training Bracelet$(), or re-applied to your armour to ensure you only train Upgrades that you actually want. $(br2)Any leftover $(thing)Upgrade Tomes$() can be kept as fuel for the $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Penance of the Leaden Soul$(). This ritual allows you to apply $(thing)Downgrades$() to your Armour."
+      "text": "Если этого недостаточно, вы можете использовать $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Sound of the Cleansing Soul$(), чтобы лишить вашу броню ее улучшений. Эти тома можно скопировать в $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)тренировочный браслет$() или повторно применить к вашей броне, чтобы гарантировать, что вы тренируете только те улучшения, которые вам действительно нужны. $(br2)Любые оставшиеся $(thing)Upgrade Tomes$() можно сохранить в качестве топлива для $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Покаяния свинцовой души$(). Этот ритуал позволяет вам применить $(thing)Downgrades$() к вашей броне."
     },
     {
       "type": "patchouli:text",
-      "text": "While these are expensive (and each comes with a hefty penalty), their negative point-cost will give you more room to further improve your upgrades. $(br2)Want to be incredibly tough and healthy, and don\u0027t mind being slow? Try combining $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/body_builder)Body Builder$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)Brilliance$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/healthy)Healthy$() X, and $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough)Tough$() X with $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/dig_slowdown)Leadened Pick$() X and $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/speed_decreas e)Limp Leg$() X."
+      "text": "Несмотря на то, что они дорогие (и за каждое из них налагается значительный штраф), их отрицательная стоимость в очках даст вам больше возможностей для дальнейшего улучшения ваших улучшений. $(br2)Хотите быть невероятно выносливым и здоровым и не против медлительности? Попробуйте объединить $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/body_builder)Body Builder$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)Brilliance$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/healthy)Healthy$() X и $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough)Tough$() X с $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/dig_slowdown)Свинцовая кирка$() X и $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/speed_decreas e)Хромая нога$() X."
     },
     {
       "type": "patchouli:text",
-      "text": "Feel more like exploring and going fast? Perhaps you don\u0027t care about your offhand? Maybe $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Strong Legs$() X, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/quick_feet)Quick Feet$() X, and $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)Crippled Arm$() would be more your speed. $(br2)Feel like having both at different times? Make multiple chestplates and swap between them! There are dozens of upgrades and downgrades, so mix and match to find your favourite combinations."
+      "text": "Вам больше хочется исследовать и двигаться быстро? Возможно, вас не волнует ваша навскидка? Может быть, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Strong Legs$() X, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/quick_feet)Quick Feet$() X, и $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)Crippled Arm$() будет для вас большей скоростью. $(br2)Хотите попробовать и то, и другое в разное время? Сделайте несколько нагрудников и переключайтесь между ними! Существуют десятки улучшений и понижений, поэтому комбинируйте и комбинируйте, чтобы найти свои любимые комбинации."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:vengefulcrystal",
-      "title": "Aspected Will (Tier-4)",
-      "text": "You may want to look into the $(l:bloodmagic:rituals/ritual_tinkerer)Ritual Tinkerer$() and the various kinds of $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspects$() available to you, and consider how they may be used to refine your existing rituals and alter how your $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() and $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Weapons$() work. To progress beyond this point, however, a delve into the $(thing)Demon Realm$() will be needed..."
+      "title": "Аспектная воля (Уровень 4)",
+      "text": "Возможно, вы захотите изучить $(l:bloodmagic:rituals/ritual_tinkerer)Ritual Tinkerer$() и различные виды $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspects$(), доступные вам, и подумать, как их можно использовать для усовершенствования существующих ритуалов и изменения того, как ваши $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Weapons$() работают. Однако, чтобы продвинуться дальше этой точки, потребуется углубиться в $(thing)Demon Realm$()..."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:mineentrancekey",
-      "title": "The Demon Realm (Tier-4)",
-      "text": "By performing the $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Pathway to the Endless Realm$(), you can gain access to the $(thing)Demon Realm$() proper, along with all of its treasures and terrors. Come equipped for a fight! Delve deep, and you may find a rich source of $(l:bloodmagic:dungeons/demonite)Demonite Ore$(), which can be combined into block form and used for the capstones on your altar, along with the $(item)Archmage\u0027s Blood Orb$()."
+      "title": "Царство Демонов (Уровень 4)",
+      "text": "Выполнив $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Путь в Бесконечное Царство$(), вы сможете получить доступ к самому $(thing)Царству Демонов$() вместе со всеми его сокровищами и ужасами. Приходите экипированными для боя! Копните глубже, и вы сможете найти богатый источник $(l:bloodmagic:dungeons/demonite)Демонитовой руды$(), которую можно объединить в форму блока и использовать для замковых камней на вашем алтаре вместе с $(item)Кровавой сферой архимага$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:ingot_hellforged",
-      "title": "Tier Five",
-      "text": "This is the top tier. At this point you have access to everything that $(blood)Blood Magic$() has to offer. Continue to delve into the Demon Realm to hunt for rare treasures, and you may be lucky enough to find $(item)Intricate Hellforged Parts$(), which can be used alongside some $(item)Netherite Scrap$() to double the power of each of your altar\u0027s Runes!"
+      "title": "Пятый уровень",
+      "text": "Это верхний уровень. На этом этапе у вас есть доступ ко всему, что может предложить $(blood)Blood Magic$(). Продолжайте погружаться в Царство Демонов в поисках редких сокровищ, и, возможно, вам повезет найти $(item)Замысловатые детали адской кузни$(), которые можно использовать вместе с некоторыми $(item)Незеритовыми отходами$(), чтобы удвоить силу каждой из рун вашего алтаря!"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:barrier",
-      "title": "Tier Six?",
-      "text": "What? No. Look, even in 1.12, this only existed as a favor to pack makers and was otherwise unimplemented. You\u0027ve come too far. Go back a page."
+      "title": "Шестой уровень?",
+      "text": "Что? Нет. Смотрите, даже в версии 1.12 это существовало только как услуга производителям упаковок и в остальном не было реализовано. Вы зашли слишком далеко. Вернитесь на страницу назад."
     }
   ]
 }

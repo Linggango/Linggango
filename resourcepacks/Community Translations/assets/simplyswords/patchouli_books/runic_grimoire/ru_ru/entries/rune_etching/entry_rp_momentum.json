@@ -1,17 +1,17 @@
 {
-  "name": "Momentum",
+  "name": "Импульс",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Momentum",
-      "text": "Momentum is a runic power that imbues the wielder\u0027s weapon with the $(#389fff)$(l)essence of mass and velocity$(). $(br2)It generates forward momentum, swiftly propelling the wielder forward."
+      "title": "Импульс",
+      "text": "Импульс — это руническая сила, наполняющая оружие владельца $(#389fff)$(l)эссенцией массы и скорости$(). $(br2)Создаёт мощный толчок вперёд, стремительно продвигая владельца вперёд."
     },
     {
       "type": "patchouli:text",
-      "text": "The surge of energy created by Momentum can be used to great effect in combat, allowing the wielder to cover ground quickly and move in for the kill."
+      "text": "Всплеск энергии, создаваемый Импульсом, отлично подходит для боя: позволяет быстро сокращать дистанцию и внезапно атаковать противника."
     }
   ]
 }

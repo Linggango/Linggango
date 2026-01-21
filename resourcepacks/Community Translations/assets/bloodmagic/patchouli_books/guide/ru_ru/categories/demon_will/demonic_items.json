@@ -1,6 +1,6 @@
 {
-  "name": "Demonic Items",
-  "description": "From the functional to the deadly, Demon Will unlocks a lot of powerful tools for the budding Sanguimancer.",
+  "name": "Демонические предметы",
+  "description": "От функциональных до смертоносных, «Воля демона» открывает множество мощных инструментов для начинающего сангвианта.",
   "icon": "bloodmagic:soulsword",
   "parent": "bloodmagic:demon_will"
 }

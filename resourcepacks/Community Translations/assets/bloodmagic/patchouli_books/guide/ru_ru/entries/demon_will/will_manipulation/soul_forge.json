@@ -1,11 +1,11 @@
 {
-  "name": "Hellfire Forge",
+  "name": "Кузница Адского Пламени",
   "icon": "bloodmagic:soulforge",
   "category": "bloodmagic:demon_will/will_manipulation",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Hellfire Forge$() is one of the core crafting mechanics of $(blood)Blood Magic$(), alongside the $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) itself. Here, you can work with the $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() you have harvested from mobs, to allow you to create $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$(), including the $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$(), $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$(), various $(item)reagents$(), $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ash$(), and many things besides."
+      "text": "$(item)Hellfire Forge$() — это одна из основных механик крафта $(blood)Blood Magic$(), наряду с самим $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). Здесь вы можете работать с $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(), которую вы собрали с мобов, чтобы создать $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$(), включая $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$(), $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$(), различные $(item)реагенты$(), $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ash$() и многое другое."
     },
     {
       "type": "patchouli:crafting",

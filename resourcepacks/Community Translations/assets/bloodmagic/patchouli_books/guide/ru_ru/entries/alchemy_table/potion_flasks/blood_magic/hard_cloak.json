@@ -1,30 +1,30 @@
 {
-  "name": "Hard Cloak",
+  "name": "Жесткий плащ",
   "icon": "minecraft:obsidian",
   "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Hard Cloak$() provides 3 points of Armour Toughness per level when used."
+      "text": "$(thing)Hard Cloak$() при использовании дает 3 очка прочности брони за уровень."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Hard Cloak (3:00)",
+      "a.heading": "Жесткий плащ (3:00)",
       "a.recipe": "bloodmagic:flask/hard_cloak",
-      "b.heading": "Hard Cloak (8:00)",
+      "b.heading": "Жесткий плащ (8:00)",
       "b.recipe": "bloodmagic:flask/length_hard_cloak",
-      "c.heading": "Hard Cloak II (1:30)",
+      "c.heading": "Жесткий плащ II (1:30)",
       "c.recipe": "bloodmagic:flask/potency_hard_cloak"
     },
     {
       "type": "patchouli:text",
-      "text": "adding $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() can further boost your potions."
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
     },
     {
       "type": "bloodmagic:2x_crafting_flask",
-      "a.heading": "Hard Cloak III (0:45)",
+      "a.heading": "Жесткий плащ III (0:45)",
       "a.recipe": "bloodmagic:flask/potency_average_hard_cloak",
-      "b.heading": "Hard Cloak (21:20)",
+      "b.heading": "Жесткий плащ (21:20)",
       "b.recipe": "bloodmagic:flask/length_average_hard_cloak"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Arcanethyst",
+  "name": "Арканест",
   "icon": "simplyswords:arcanethyst",
   "advancement": "simplyswords:arcanethyst",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:arcanethyst",
-      "text": "The Arcanethyst is a powerful halberd that harnesses the power of arcane magic to manipulate its enemies, akin to that of telekinesis. The halberd is crafted from enchanted amethyst, a rare and valuable gemstone known for its ability to channel magical energy."
+      "text": "Арканест — это мощная алебарда, использующая силу арканной магии для управления врагами, подобно телекинезу. Алебарда выкована из зачарованного аметиста — редкого и ценного камня, известного своей способностью проводить магическую энергию."
     },
     {
       "type": "patchouli:text",
-      "text": "The halberd\u0027s unique ability to lift enemies off the ground with a wave of arcane energy, leaves them vulnerable to follow-up attacks. This halberd is considered a powerful tool of destruction, but it requires the absorption of power from the flesh of its enemies in order to reach its greatest potential."
+      "text": "Уникальная способность алебарды — поднимать врагов в воздух волной арканной энергии, делая их уязвимыми для последующих атак. Эта алебарда считается грозным орудием разрушения, однако для раскрытия полного потенциала ей необходимо впитывать силу из плоти поверженных врагов."
     }
   ]
 }

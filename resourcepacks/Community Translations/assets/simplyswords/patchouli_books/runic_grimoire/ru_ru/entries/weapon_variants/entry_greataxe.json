@@ -1,12 +1,12 @@
 {
-  "name": "Greataxe",
+  "name": "Секира",
   "icon": "simplyswords:iron_greataxe",
   "category": "simplyswords:category_weapon_variants",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:iron_greataxe",
-      "text": "The greataxe requires a high level of strength and skill to wield effectively. It is a two-handed weapon, which means that the wielder uses both hands to hold and swing the weapon. It\u0027s also known for its versatility as it can be used for chopping, slicing, and crushing attacks."
+      "text": "Секира требует высокого уровня силы и мастерства для эффективного использования. Это двуручное оружие, то есть игрок держит и размахивает им обеими руками. Секира также известна своей универсальностью: она подходит для рубящих, рассеивающих и дробящих атак."
     },
     {
       "type": "patchouli:crafting",

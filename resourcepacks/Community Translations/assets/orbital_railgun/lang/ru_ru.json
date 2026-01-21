@@ -1,13 +1,13 @@
 {
   "creativetab.orbital_railgun": "Orbital Railgun Reforged",
-  "death.attack.strike": "%1$s was obliterated by an Orbital Strike",
-  "item.orbital_railgun.orbital_railgun": "Orbital Railgun Reforged",
-  "item.orbital_railgun.orbital_railgun.tooltip": "Calls down a devastating orbital strike.",
-  "item.orbital_railgun.orbital_railgun.tooltip.shift1": "⚡ Hold to charge; release at full power.",
-  "item.orbital_railgun.orbital_railgun.tooltip.shift2": "⚙ Highly configurable",
-  "item.orbital_railgun.orbital_railgun.tooltip.shift3": "⚠ Shader effects are incompatible with Oculus shader packs\nso you will not see the mods shader effects while using shader packs.",
-  "subtitles.orbital_railgun.equip": "Railgun equipped",
-  "subtitles.orbital_railgun.railgun_shoot": "Orbital Strike Called",
-  "subtitles.orbital_railgun.scope_on": "Scope online",
-  "tooltip.orbital_railgun.hold_shift": "Hold ⇧ Shift for details"
+  "death.attack.strike": "%1$s был стёрт с лица земли орбитальным ударом",
+  "item.orbital_railgun.orbital_railgun": "Орбитальная рельса-ган рефордж",
+  "item.orbital_railgun.orbital_railgun.tooltip": "Вызывает сокрушительный орбитальный удар.",
+  "item.orbital_railgun.orbital_railgun.tooltip.shift1": "⚡ Удерживайте для зарядки; отпустите для максимальной мощности.",
+  "item.orbital_railgun.orbital_railgun.tooltip.shift2": "⚙ Гибкая настройка",
+  "item.orbital_railgun.orbital_railgun.tooltip.shift3": "⚠ Эффекты шейдеров несовместимы с пакетами шейдеров Oculus\nвы не увидите эффекты мода при использовании таких пакетов.",
+  "subtitles.orbital_railgun.equip": "Рельса-ган экипирован",
+  "subtitles.orbital_railgun.railgun_shoot": "Вызван орбитальный удар",
+  "subtitles.orbital_railgun.scope_on": "Прицел активен",
+  "tooltip.orbital_railgun.hold_shift": "Удерживайте ⇧ Shift для подробностей"
 }

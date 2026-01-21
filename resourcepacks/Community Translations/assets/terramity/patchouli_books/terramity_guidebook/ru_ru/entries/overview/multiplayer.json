@@ -10,9 +10,9 @@
     {
       "type": "patchouli:spotlight",
       "text": "Если вы хотите участвовать в PvP, попробуйте создать арену и бросить вызов своим друзьям один на один, где победит тот, кто сможет лучше всего собрать аксессуары, броню и оружие!",
-      "item": {
-        "item": "terramity:chthonic_cursemark"
-      }
+	  "item": {
+		"item": "terramity:chthonic_cursemark"
+	  }
     }
   ]
 }

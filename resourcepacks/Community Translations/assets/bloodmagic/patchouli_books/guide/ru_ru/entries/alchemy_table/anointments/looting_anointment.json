@@ -1,37 +1,37 @@
 {
-  "name": "Plunderer\u0027s Glint",
+  "name": "Блеск грабителя",
   "icon": "bloodmagic:looting_anointment",
   "category": "bloodmagic:alchemy_table/anointments",
   "pages": [
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Plunderer\u0027s Glint",
+      "heading": "Блеск грабителя",
       "recipe": "bloodmagic:alchemytable/looting_anointment",
-      "text": "Increases the drops from killed mobs. Also stacks with the Looting enchantment.$(br2)Valid items: Tools, Swords.$(br2)Applies: Plundering I (256 hits)"
+      "text": "Увеличивает выпадение с убитых мобов. Также суммируется с чарами «Мародерство».$(br2)Действительные предметы: Инструменты, Мечи.$(br2)Применяется: Грабеж I (256 попаданий)."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Plunderer\u0027s Glint L",
+      "heading": "Блеск грабителя L",
       "recipe": "bloodmagic:alchemytable/looting_anointment_l",
-      "text": "This upgraded version of the anointment lasts four times longer. $(br2)Applies: Plundering I (1024 hits)"
+      "text": "Эта обновленная версия помазания действует в четыре раза дольше. $(br2)Применяется: Грабеж I (1024 попадания)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Plunderer\u0027s Glint II",
+      "heading": "Блеск грабителя II",
       "recipe": "bloodmagic:alchemytable/looting_anointment_2",
-      "text": "This upgraded version of the anointment further increases the drops from killed mobs. $(br2)Applies: Plundering II (256 hits)"
+      "text": "Эта улучшенная версия помазания еще больше увеличивает выпадение с убитых мобов. $(br2)Применяется: Грабеж II (256 попаданий)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Plunderer\u0027s Glint XL",
+      "heading": "Блеск грабителя XL",
       "recipe": "bloodmagic:alchemytable/looting_anointment_xl",
-      "text": "This upgraded version of the anointment lasts sixteen times longer. $(br2)Applies: Plundering I (4096 hits)"
+      "text": "Эта обновленная версия помазания действует в шестнадцать раз дольше. $(br2)Применяется: Разграбление I (4096 просмотров)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Plunderer\u0027s Glint III",
+      "heading": "Блеск грабителя III",
       "recipe": "bloodmagic:alchemytable/looting_anointment_3",
-      "text": "This upgraded version of the anointment further increases the drops from killed mobs. $(br2)Applies: Plundering III (256 hits)"
+      "text": "Эта улучшенная версия помазания еще больше увеличивает выпадение с убитых мобов. $(br2)Применяется: Грабеж III (256 попаданий)"
     }
   ]
 }

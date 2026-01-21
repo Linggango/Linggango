@@ -1,13 +1,13 @@
 {
-  "name": "Ritual of the Feathered Knife",
+  "name": "Ритуал пернатого ножа",
   "icon": "bloodmagic:sacrificialdagger",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Ritual of the Feathered Knife",
+      "name": "Ритуал пернатого ножа",
       "multiblock_id": "bloodmagic:feathered_knife",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -18,15 +18,15 @@
           "blood"
         ],
         [
-          "blood altar",
+          "кровавый алтарь",
           "l:bloodmagic:altar/blood_altar"
         ],
         [
-          "Runes of Self Sacrifice",
+          "Руны самопожертвования",
           "l:bloodmagic:altar/blood_rune/self_sacrifice_rune"
         ],
         [
-          "Tough Palms",
+          "Жесткие пальмы",
           "l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough_palms"
         ]
       ]
@@ -37,7 +37,7 @@
       "page_type": "raw",
       "text_overrides": [
         [
-          "Raw Will",
+          "сырая воля",
           "raw"
         ]
       ]
@@ -48,11 +48,11 @@
       "page_type": "corrosive",
       "text_overrides": [
         [
-          "Incense Bonus",
+          "Бонус благовоний",
           "thing"
         ],
         [
-          "Incense Altar",
+          "Алтарь благовоний",
           "l:bloodmagic:utility/incense_altar"
         ]
       ]
@@ -74,7 +74,7 @@
       "page_type": "destructive",
       "text_overrides": [
         [
-          "Destructive Will",
+          "Разрушительная воля",
           "destructive"
         ]
       ]
@@ -90,7 +90,7 @@
       "page_type": "altar",
       "text_overrides": [
         [
-          "Blood Altar",
+          "Кровавый Алтарь",
           "l:bloodmagic:altar/blood_altar"
         ]
       ]

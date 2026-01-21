@@ -1,0 +1,16 @@
+{
+  "name": "Temporal Sadness",
+  "icon": "twilightdelight:teardrop_sword",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот эффект снижает атаку на 10 пунктов и уменьшает скорость передвижения цели вдвое."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:teardrop_sword",
+      "text": "Накладывается на врагов при атаке Мечом из Слёз."
+    }
+  ]
+}

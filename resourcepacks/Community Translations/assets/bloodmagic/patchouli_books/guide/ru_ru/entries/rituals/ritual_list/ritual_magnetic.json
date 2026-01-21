@@ -1,13 +1,13 @@
 {
-  "name": "Ritual of Magnetism",
+  "name": "Ритуал Магнетизма",
   "icon": "minecraft:iron_ore",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Ritual of Magnetism",
+      "name": "Ритуал Магнетизма",
       "multiblock_id": "bloodmagic:magnetism",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "By default, the $()Ritual of Magnetism$() searches down to bedrock in a radius of 3 blocks out from the $(item)Master Ritual Stone$() for ores to collect. This can be augmented by placing an expensive block directly underneath the MRS, as follows: $(br)$(li)$(item)Block of Iron$() - 7 blocks. $(li)$(item)Block of Gold$() - 15 blocks. $(li)$(item)Block of Diamond$() - 31 blocks."
+      "text": "По умолчанию $()Ритуал Магнетизма$() ищет руду до коренной породы в радиусе 3 блоков от $(item)Мастера Ритуального Камня$(). Это можно увеличить, поместив дорогой блок непосредственно под MRS следующим образом: $(br)$(li)$(item)Block of Iron$() — 7 блоков. $(li)$(item)Блок золота$() - 15 блоков. $(li)$(item)Блок Алмаза$() — 31 блок."
     },
     {
       "type": "bloodmagic:ritual_data",

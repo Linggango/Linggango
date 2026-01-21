@@ -11,9 +11,9 @@
       "type": "patchouli:text",
       "text": "Рубины можно найти практически где угодно в незере.$(br2)Сапфиры можно найти в заснеженных биомах.$(br2)Топазы можно найти в жарких, засушливых биомах.$(br2)В энде можно найти оникс.$( br2) Перламутровые осколки можно найти глубоко в любой точке верхнего мира."
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:prismatic_jewel_recipe"
-    }
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:prismatic_jewel_recipe"
+	}
   ]
 }

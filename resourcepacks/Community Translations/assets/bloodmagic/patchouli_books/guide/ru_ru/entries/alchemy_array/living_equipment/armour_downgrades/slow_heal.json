@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Reduces the effectiveness of all healing sources. Caps out at 80%, so a source that would normally heal 10 hearts will only heal 2."
+      "text": "Снижает эффективность всех источников исцеления. Максимум составляет 80%, поэтому источник, который обычно исцеляет 10 сердец, излечит только 2."
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

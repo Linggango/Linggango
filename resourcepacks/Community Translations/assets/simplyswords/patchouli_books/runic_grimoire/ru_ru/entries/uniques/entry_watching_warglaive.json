@@ -1,5 +1,5 @@
 {
-  "name": "Watching Warglaive",
+  "name": "Варглейв Наблюдателя",
   "icon": "simplyswords:watching_warglaive",
   "advancement": "simplyswords:watching_warglaive",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:watching_warglaive",
-      "text": "The Watching Warglaive is a powerful and deadly weapon that is made to be wielded by skilled and fierce warriors. Boasting two blinking eyes on the center, the blades are made of a dark, almost black metal that seems to absorb the light around it"
+      "text": "Варглейв Наблюдателя — это мощное и смертоносное оружие, созданное для умелых и отважных воинов. В центре оружия расположены два мигающих глаза, а лезвия выкованы из тёмного, почти чёрного металла, который словно поглощает свет вокруг себя."
     },
     {
       "type": "patchouli:text",
-      "text": "The Watching Warglaive has the power to siphon health from nearby enemies and transfer it to its wielder, keeping them in the fight longer. The Warglaive also has a chance to immediately execute its opponents, dealing a powerful and critical blow that can end the fight instantly."
+      "text": "Варглейв Наблюдателя способен высасывать здоровье у ближайших врагов и передавать его своему владельцу, позволяя дольше оставаться в бою. Кроме того, у варглейва есть шанс мгновенно казнить противника, нанося мощный критический удар, который может моментально завершить сражение."
     }
   ]
 }

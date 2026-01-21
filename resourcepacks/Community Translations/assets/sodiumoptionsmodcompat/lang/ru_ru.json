@@ -1,8 +1,8 @@
 {
-  "options.sodiumoptionsmodcompat.cullleaves.leaves": "Leaves",
-  "options.sodiumoptionsmodcompat.emf.models": "Models",
-  "options.sodiumoptionsmodcompat.esf.sounds": "Sounds",
-  "options.sodiumoptionsmodcompat.etf.misc": "Misc",
-  "options.sodiumoptionsmodcompat.etf.textures": "Textures",
-  "options.sodiumoptionsmodcompat.general": "General"
+  "options.sodiumoptionsmodcompat.cullleaves.leaves": "Листва",
+  "options.sodiumoptionsmodcompat.emf.models": "Модели",
+  "options.sodiumoptionsmodcompat.esf.sounds": "Звуки",
+  "options.sodiumoptionsmodcompat.etf.misc": "Разное",
+  "options.sodiumoptionsmodcompat.etf.textures": "Текстуры",
+  "options.sodiumoptionsmodcompat.general": "Общие"
 }

@@ -1,11 +1,11 @@
 {
-  "name": "Strong Legs",
+  "name": "Сильные ноги",
   "icon": "minecraft:diamond_leggings",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Increases jump height and reduces fall damage, up to a maximum of an additional 7.5 blocks and 83% fall resistance. Can be negated by holding [$(k:sneak)] while jumping. $(br2)Trained by: Jumping around. $(br2)Maximum level: 10"
+      "text": "Эффект: увеличивает высоту прыжка и уменьшает урон от падения, максимум до 7,5 дополнительных блоков и 83% сопротивления падению. Можно отменить, удерживая [$(k:sneak)] во время прыжка. $(br2)Тренируется: Прыгает. $(br2)Максимальный уровень: 10"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

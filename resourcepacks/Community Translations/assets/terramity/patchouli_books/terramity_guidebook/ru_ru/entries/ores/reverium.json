@@ -10,18 +10,16 @@
     {
       "type": "patchouli:image",
       "title": "Ревериум",
-      "images": [
-        "terramity:textures/screens/reverium.png"
-      ],
+      "images": ["terramity:textures/screens/reverium.png"],
       "border": true,
       "text": "Ревериум хранит в себе силу небес."
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:reverium_recipe",
-      "recipe2": "terramity:reverium_block_recipe"
-    },
-    {
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:reverium_recipe",
+	  "recipe2": "terramity:reverium_block_recipe"
+	},
+	{
       "type": "patchouli:text",
       "text": "Для этого металла нет кузнечного шаблона, вместо этого вы должны изготовить набор инструментов и броню только из слитков."
     }

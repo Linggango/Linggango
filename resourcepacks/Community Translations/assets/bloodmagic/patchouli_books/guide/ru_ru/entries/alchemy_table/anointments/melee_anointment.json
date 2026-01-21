@@ -1,37 +1,37 @@
 {
-  "name": "Honing Oil",
+  "name": "Хонинговальное масло",
   "icon": "bloodmagic:melee_anointment",
   "category": "bloodmagic:alchemy_table/anointments",
   "pages": [
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Honing Oil",
+      "heading": "Хонинговальное масло",
       "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
-      "text": "Temporarily increases the melee damage dealt by +3. $(br2)Valid items: Tools, Swords.$(br2)Applies: Whetstone I (256 hits)"
+      "text": "Временно увеличивает наносимый урон в ближнем бою на +3. $(br2)Действительные предметы: Инструменты, Мечи.$(br2)Применимо: Точильный камень I (256 попаданий)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Honing Oil L",
+      "heading": "Хонинговальное масло L",
       "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
-      "text": "This upgraded version of the anointment lasts four times longer. $(br2)Applies: Whetstone I (1024 hits)"
+      "text": "Эта обновленная версия помазания действует в четыре раза дольше. $(br2)Применяется: Точильный камень I (1024 попадания)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Honing Oil II",
+      "heading": "Хонинговальное масло II",
       "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
-      "text": "This upgraded version of the anointment increases melee damage dealt by +6. $(br2)Applies: Whetstone II (256 hits)"
+      "text": "Эта улучшенная версия помазания увеличивает наносимый урон в ближнем бою на +6. $(br2)Применяется: Whetstone II (256 попаданий)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Honing Oil XL",
+      "heading": "Хонинговальное масло XL",
       "recipe": "bloodmagic:alchemytable/melee_damage_anointment_xl",
-      "text": "This upgraded version of the anointment lasts sixteen times longer. $(br2)Applies: Whetstone I (4096 hits)"
+      "text": "Эта обновленная версия помазания действует в шестнадцать раз дольше. $(br2)Применяется: Точильный камень I (4096 просмотров)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Honing Oil III",
+      "heading": "Хонинговальное масло III",
       "recipe": "bloodmagic:alchemytable/melee_damage_anointment_3",
-      "text": "This upgraded version of the anointment increases melee damage dealt by +9. $(br2)Applies: Whetstone III (256 hits)"
+      "text": "Эта улучшенная версия помазания увеличивает наносимый урон в ближнем бою на +9. $(br2)Применяется: Точильный камень III (256 попаданий)"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
-  "name": "Seer\u0027s Sigil",
+  "name": "Символ Провидца",
   "icon": "bloodmagic:seersigil",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Seer\u0027s Sigil$() is a more advanced form of the $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$().  Alongside showing the amount of LP in the bound player\u0027s $(l:bloodmagic:altar/soul_network)Soul Network$(/l), it also shows more information when looking at a $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). $(br2)Like the $(item)Divination Sigil$(), it can also be used to edit your GUI. (See the Divination Sigil\u0027s entry for more info)"
+      "text": "$(item)Сигил Провидца$() — это более продвинутая форма Сигила $(l:bloodmagic:alchemy_array/sigil/divination)Гадательной Сигил$(). Помимо отображения количества LP в $(l:bloodmagic:altar/soul_network)Soul Network$(/l) связанного игрока, он также показывает дополнительную информацию при взгляде на $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). $(br2)Как и $(item)Divination Sigil$(), его также можно использовать для редактирования вашего графического интерфейса. (Для получения дополнительной информации см. запись о Сигиле гадания)"
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
-      "alchemy_table.heading": "Sight Reagent",
+      "alchemy_table.heading": "Прицел Реагент",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_sight",
-      "array.heading": "Seer\u0027s Sigil",
+      "array.heading": "Символ Провидца",
       "array.recipe": "bloodmagic:array/seersigil",
-      "array.text": "$(italic)When seeing all is not enough"
+      "array.text": "$(курсив)Когда увидеть всего недостаточно"
     },
     {
       "type": "patchouli:text",
-      "text": "From top to bottom, we have: $(li)The current Tier of the $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). $(li)The amount of blood currently inside the Altar, and the current total capacity of the Altar. (This defaults to 10,000mb, but may be increased with $(l:bloodmagic:altar/blood_rune/capacity_rune)Runes of Capacity$() and $(l:bloodmagic:altar/blood_rune/aug_capacity_rune)Runes of Augmented Capacity.$() $(li)The current crafting progress, if any. $(li)LP Consumption/Tick - how much LP the Altar will use per tick when crafting. $(li) Current LP Storage of any $(l:bloodmagic:altar/blood_rune/charging_rune)Charging Runes$() you may have."
+      "text": "Сверху вниз: $(li)Текущий уровень $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$(/l). $(li)Количество крови, находящейся в настоящее время в Алтаре, и текущая общая вместимость Алтаря. (По умолчанию это 10 000 МБ, но его можно увеличить с помощью $(l:bloodmagic:altar/blood_rune/capacity_rune)Runes of емкости$() и $(l:bloodmagic:altar/blood_rune/aug_capacity_rune)Runes of Augmented емкости.$() $(li)Текущего прогресса крафта, если таковой имеется. $(li)LP Consumption/Tick - как сколько LP Алтарь будет использовать за тик при создании. $(li) Текущее хранилище LP любых $(l:bloodmagic:altar/blood_rune/charging_rune)Charging Runes$(), которые у вас могут быть."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/sigil/seer_sigil_info.png"
       ],
-      "title": "Seer\u0027s Sigil Display",
+      "title": "Дисплей сигил провидца",
       "border": true,
-      "text": "The Seer\u0027s Sigil displays this HUD when you are looking at a Blood Altar."
+      "text": "Символ Провидца отображает этот HUD, когда вы смотрите на Кровавый Алтарь."
     }
   ]
 }

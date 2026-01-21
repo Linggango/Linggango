@@ -5,15 +5,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Grounded$() prevents the target from jumping. Swimming is unaffected, however. $(br2)It\u0027s made from a potion of $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)Jump Boost$()."
+      "text": "$(thing)Grounded$() предотвращает прыжок цели. Однако на плавание это не влияет. $(br2)Он сделан из зелья $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)Jump Boost$()."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Grounded (3:00)",
+      "a.heading": "Заземлен (3:00)",
       "a.recipe": "bloodmagic:flask/jump_to_grounded",
-      "b.heading": "Grounded (8:00)",
+      "b.heading": "Заземлено (8:00)",
       "b.recipe": "bloodmagic:flask/length_grounded",
-      "c.heading": "Grounded (21:20)",
+      "c.heading": "Заземлен (21:20)",
       "c.recipe": "bloodmagic:flask/length_average_grounded"
     }
   ]

@@ -1,0 +1,16 @@
+{
+  "name": "Aurora Glowing",
+  "icon": "twilightforest:aurora_block",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот эффект покрывает вас и все видимые сущности радужным свечением, включая предметы.$(br2)Полезен для поиска врагов за стенами, забытых предметов и подземных пещер."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:aurora_block",
+      "text": "Можно получить из напитков и десертов, созданных из Блока Авроры."
+    }
+  ]
+}

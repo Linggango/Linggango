@@ -1,6 +1,6 @@
 {
   "name": "Rituals",
-  "description": "Rituals consume $(blood)LP$() from your $(l:bloodmagic:altar/soul_network)Soul Network$(/l) in order to do a variety of tasks. $(br2)For information on specific rituals, click the Master Ritual Stone below.$(br2)\u003e\u003e\u003e      \u003c\u003c\u003c",
+  "description": "Ритуалы потребляют $(blood)LP$() из вашей $(l:bloodmagic:altar/soul_network)Soul Network$(/l) для выполнения различных задач. $(br2)Чтобы получить информацию о конкретных ритуалах, нажмите на Камень Мастера Ритуала ниже.$(br2)>>> <<<",
   "icon": "bloodmagic:ritualdiviner",
   "sortnum": 4
 }

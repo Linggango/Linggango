@@ -1,29 +1,29 @@
 {
-  "name": "Demon Will Aura Gauge",
+  "name": "Датчик ауры Демона Воля",
   "icon": "bloodmagic:demonwillgauge",
   "category": "bloodmagic:demon_will/will_manipulation",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "While in the player\u0027s inventory, the $(item)Demon Will Aura Gauge$() will display a HUD element to show how much $(raw)Demon Will$() is in the local $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). $(br2)From top to bottom, the measured Will aspects are: $(li)$(raw)Raw$() $(li)$(corrosive)Corrosive$() $(li)$(steadfast)Steadfast$() $(li)$(destructive)Destructive$() $(li)$(vengeful)Vengeful$()"
+      "text": "Находясь в инвентаре игрока, $(item)Demon Will Aura Gauge$() отобразит элемент HUD, показывающий, сколько $(raw)Demon Will$() находится в локальной $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). $(br2)Сверху вниз измеряемые аспекты Воли: $(li)$(raw)Raw$() $(li)$(corrosive)Corrosive$() $(li)$(steadfast)Steadfast$() $(li)$(destructive)Destructive$() $(li)$(vengeful)Mengeful$()"
     },
     {
       "type": "bloodmagic:crafting_soulforge",
       "recipe": "bloodmagic:soulforge/demon_will_gauge",
-      "heading": "Demon Will Aura Gauge",
-      "text": "See overleaf for an image of the Gauge\u0027s HUD Element."
+      "heading": "Датчик ауры Демона Воля",
+      "text": "На обороте показано изображение элемента HUD датчика."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
       ],
-      "title": "Aura Gauge HUD Element",
+      "title": "Элемент HUD датчика ауры",
       "border": true
     },
     {
       "type": "patchouli:text",
-      "text": "This gauge will appear in the top left of your screen. The coloured bars will give you a good estimate of how much of each $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspect$() is in the current chunk. $(br2)You can hold [$(k:sneak)] to get a numerical value for each Aspect, between 1 and 100 $(raw)Will$() for each. 100 is the maximum amount of any one aspect of $(raw)Will$() that a chunk can have in it."
+      "text": "Этот датчик появится в левом верхнем углу экрана. Цветные полосы дадут вам точную оценку того, сколько каждого $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspect$() находится в текущем фрагменте. $(br2)Вы можете удерживать [$(k:sneak)], чтобы получить числовое значение для каждого Аспекта от 1 до 100 $(raw)Will$() для каждого. 100 — это максимальное количество любого аспекта $(raw)Will$(), которое может содержать чанк."
     }
   ]
 }

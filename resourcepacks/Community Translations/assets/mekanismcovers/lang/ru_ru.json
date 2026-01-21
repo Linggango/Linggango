@@ -1,5 +1,5 @@
 {
-  "config.jade.plugin_mekanismcovers.cover_component": "Cover Component",
-  "item.mekanismcovers.cover": "Cover",
-  "text.mekanismcovers.empty": "Empty"
+  "config.jade.plugin_mekanismcovers.cover_component": "Компонент панели",
+  "item.mekanismcovers.cover": "Панель",
+  "text.mekanismcovers.empty": "Пусто"
 }

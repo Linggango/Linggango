@@ -1,11 +1,11 @@
 {
-  "name": "Alchemical Reaction Chamber",
+  "name": "Алхимическая реакционная камера",
   "icon": "bloodmagic:alchemicalreactionchamber",
   "category": "bloodmagic:utility",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Alchemical Reaction Chamber$(), or ARC for short, can function as a $(thing)Furnace$(), offers a form of $(l:bloodmagic:utility/ore_processing)Ore-Tripling$(), can revert $(l:bloodmagic:altar/soul_network)Blood Orbs$(), $(item)Netherrite$() and $(item)Reinforced Runes$(), and is currently the only way to get $(blood)Weak Blood Shards$(), specifically from a $(l:bloodmagic:dungeons/tau_fruit)Saturated Tau$(). $(br)Most tools used within the ARC degrade over time, but can be enchanted with unbreaking or mending to compensate."
+      "text": "$(item)Алхимическая реакционная камера$() еще не полностью реализована, но, помимо прочего, она может функционировать как $(thing)Печь$(), предлагает форму $(l:bloodmagic:utility/ore_processing)Утроение руды$(), может возвращать $(l:bloodmagic:altar/soul_network)Кровавые сферы$(), $(item)Незеррит$() и $(item)Reinforced Runes$(), и на данный момент это единственный способ получить $(blood)Weak Blood Shards$(), особенно из $(l:bloodmagic:dungeons/tau_fruit)Saturated Tau$()."
     },
     {
       "type": "patchouli:crafting",
@@ -13,39 +13,54 @@
     },
     {
       "type": "bloodmagic:crafting_soulforge",
-      "heading": "Sanguine Reverter",
+      "heading": "Сангвиник Ревертер",
       "recipe": "bloodmagic:soulforge/sanguine_reverter",
       "anchor": "blood_shard",
-      "text": "The $(item)Sanguine Reverter$() is used to create $(blood)Weak Blood Shards$(), and revert $(l:bloodmagic:altar/soul_network)Blood Orbs$(), $(item)Netherrite$() and $(item)Reinforced Runes$() to their input crafting item."
+      "text": "$(item)Sanguine Reverter$() используется для создания $(blood)Weak Blood Shards$() и возврата $(l:bloodmagic:altar/soul_network)Blood Orbs$(), $(item)Netherrite$() и $(item)Reinforced Runes$() в исходный предмет для крафта."
     },
     {
       "type": "bloodmagic:3x_crafting_arc",
-      "a.heading": "Weak Blood Shard",
+      "a.heading": "Слабый кровавый осколок",
       "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
-      "b.heading": "Revert Weak Blood Orb",
+      "b.heading": "Вернуть сферу слабой крови",
       "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
-      "c.heading": "Revert Apprentice Orb",
+      "c.heading": "Вернуть сферу ученика",
       "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
     },
     {
       "type": "bloodmagic:3x_crafting_arc",
-      "a.heading": "Revert Magician Orb",
+      "a.heading": "Вернуть сферу мага",
       "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
-      "b.heading": "Revert Master Orb",
+      "b.heading": "Вернуть сферу мастера",
       "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
-      "c.heading": "Revert netherrite",
+      "c.heading": "Возврат незеррита",
       "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
     },
     {
       "type": "bloodmagic:crafting_arc",
-      "heading": "Revert Reinforced Rune",
+      "heading": "Восстановить усиленную руну",
       "recipe": "bloodmagic:arc/reversion/speed",
-      "text": "All Reinforced Runes can be reverted in this way - this is just a demonstration."
+      "text": "Все усиленные руны можно вернуть таким способом – это всего лишь демонстрация."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Гидратационная камера",
+      "recipe": "bloodmagic:primitive_hydration_cell",
+      "text": "Гидратационная ячейка используется для изготовления глины, краеугольного камня баланса."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "Глина из песка",
+      "a.recipe": "bloodmagic:arc/clay_from_sand",
+      "a.fluid_input": "minecraft:water_bucket",
+      "b.heading": "Глина из Терракоты",
+      "b.recipe": "bloodmagic:arc/clay_from_terracotta",
+      "b.fluid_input": "minecraft:water_bucket"
     },
     {
       "type": "patchouli:text",
       "heading": "Automation",
-      "text": "Should you wish to automate the ARC, perhaps as part of an $(l:bloodmagic:utility/ore_processing)Ore-Tripling$() chain, you may want to know that it is $(thing)sided$(), much like a $(item)furnace$(). Tools can only be inserted or extracted from the top, inputs from the sides, and outputs from the bottom. Keep this in mind when placing your $(item)Hoppers$() or $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Nodes$()."
+      "text": "Если вы хотите автоматизировать ARC, возможно, как часть цепочки $(l:bloodmagic:utility/ore_processing)Ore-Tripling$(), вы можете знать, что это $(thing)side$(), очень похожее на $(item)furnace$(). Инструменты можно вставлять или извлекать только сверху, входные данные — сбоку, а выходные — снизу. Помните об этом при размещении $(item)Hoppers$() или $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлов маршрутизации$()."
     }
   ]
 }

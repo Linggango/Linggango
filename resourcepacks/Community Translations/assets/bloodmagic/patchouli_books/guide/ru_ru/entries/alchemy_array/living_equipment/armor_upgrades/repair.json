@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Repairs a random piece of worn armour every 100 ticks $(br2)Trained by: repairing your chestplate (in an anvil, with the $(thing)Mending$() enchantment, etc). $(br2)Maximum level: 1"
+      "text": "Эффект: ремонтирует случайную часть изношенной брони каждые 100 тиков. $(br2)Обучение: ремонт вашего нагрудника (на наковальне, с помощью чар $(thing)Mending$() и т. д.). $(br2)Максимальный уровень: 1"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

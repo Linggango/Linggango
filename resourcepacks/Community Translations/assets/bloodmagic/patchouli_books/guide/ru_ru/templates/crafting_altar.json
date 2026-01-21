@@ -3,7 +3,7 @@
   "components": [
     {
       "type": "patchouli:header",
-      "text": "#heading",
+      "text": "#заголовок",
       "x": -1,
       "y": -6
     },
@@ -40,13 +40,13 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Tier: #tier# $(br)LP: #lp#",
+      "text": "Уровень: #tier# $(br)LP: #lp#",
       "x": 59,
       "y": 5
     },
     {
       "type": "patchouli:text",
-      "text": "#text",
+      "text": "#текст",
       "y": 67
     }
   ]

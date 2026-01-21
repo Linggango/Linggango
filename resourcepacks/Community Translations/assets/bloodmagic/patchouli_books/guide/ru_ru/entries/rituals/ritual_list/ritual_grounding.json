@@ -1,13 +1,13 @@
 {
-  "name": "The Sinner\u0027s Burden",
+  "name": "Бремя грешника",
   "icon": "minecraft:dirt",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "The Sinner\u0027s Burden",
+      "name": "Бремя грешника",
       "multiblock_id": "bloodmagic:grounding",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -22,7 +22,7 @@
       "type": "bloodmagic:ritual_data",
       "ritual": "grounding",
       "page_type": "corrosive",
-      "text": "Behaves similarly to the $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspended$() effect."
+      "text": "Действует аналогично эффекту $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspended$()."
     },
     {
       "type": "bloodmagic:ritual_data",
@@ -41,7 +41,7 @@
       "page_type": "destructive",
       "text_overrides": [
         [
-          "Heavy Heart",
+          "Тяжелое сердце",
           "l:bloodmagic:alchemy_table/potion_flasks/blood_magic/heavy_heart"
         ]
       ]

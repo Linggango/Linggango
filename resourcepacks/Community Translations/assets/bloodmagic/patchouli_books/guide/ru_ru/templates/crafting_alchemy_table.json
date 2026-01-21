@@ -3,13 +3,13 @@
   "components": [
     {
       "type": "patchouli:header",
-      "text": "#heading",
+      "text": "#заголовок",
       "x": -1,
       "y": -6
     },
     {
       "type": "patchouli:text",
-      "text": "#text",
+      "text": "#текст",
       "x": 0,
       "y": 51
     },
@@ -88,9 +88,9 @@
     {
       "type": "patchouli:tooltip",
       "tooltip": [
-        "Cost: #syphon# LP",
-        "Duration: #time# Ticks",
-        "Tier: #tier#+"
+        "Стоимость: #syphon# LP",
+        "Продолжительность: #time# тиков",
+        "Уровень: #tier#+"
       ],
       "x": 69,
       "y": 8,

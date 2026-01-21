@@ -1,7 +1,7 @@
 {
-  "config.defaultoptions.defaultDifficulty": "Default Difficulty",
-  "config.defaultoptions.defaultDifficulty.tooltip": "The default difficulty selected for newly created worlds.",
-  "config.defaultoptions.lockDifficulty": "Lock Difficulty",
-  "config.defaultoptions.lockDifficulty.tooltip": "Set to true if the difficulty for new world\u0027s should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don\u0027t recommend. Why am I adding this option?",
-  "config.defaultoptions.title": "Default Options"
+  "config.defaultoptions.defaultDifficulty": "Сложность по умолчанию",
+  "config.defaultoptions.defaultDifficulty.tooltip": "Сложность, выбранная по умолчанию для вновь создаваемых миров.",
+  "config.defaultoptions.lockDifficulty": "Заблокировать сложность",
+  "config.defaultoptions.lockDifficulty.tooltip": "Установите в true, если сложность для новых миров должна быть заблокирована на конкретном значении по умолчанию. Игроки не смогут разблокировать это без внешних инструментов! Вероятно, плохая идея. Я не рекомендую. Зачем я добавляю эту опцию?",
+  "config.defaultoptions.title": "Параметры по умолчанию"
 }

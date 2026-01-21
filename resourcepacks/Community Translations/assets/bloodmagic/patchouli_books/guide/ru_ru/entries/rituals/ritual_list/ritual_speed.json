@@ -1,13 +1,13 @@
 {
-  "name": "Ritual of Speed",
+  "name": "Ритуал скорости",
   "icon": "minecraft:sugar",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "patchouli:multiblock",
-      "name": "Ritual of Speed",
+      "name": "Ритуал скорости",
       "multiblock_id": "bloodmagic:speed",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -19,7 +19,7 @@
       "page_type": "raw",
       "text_overrides": [
         [
-          "Raw Will",
+          "сырая воля",
           "raw"
         ]
       ]
@@ -40,7 +40,7 @@
       "page_type": "destructive",
       "text_overrides": [
         [
-          "Destructive Will",
+          "Разрушительная воля",
           "destructive"
         ]
       ]

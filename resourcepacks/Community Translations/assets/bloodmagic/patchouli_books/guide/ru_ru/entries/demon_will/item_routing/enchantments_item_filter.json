@@ -1,30 +1,30 @@
 {
-  "name": "Enchantments Item Filter",
+  "name": "Фильтр предметов зачарования",
   "icon": "bloodmagic:itemrouterfilterenchant",
   "category": "bloodmagic:demon_will/item_routing",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Enchantments Item Filter$() lets you sort items via any $(thing)Enchantments$() that they may (or may not) have. It operates similarly to the $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Standard Item Filter$(), particularly with regards to the quantity and allow/deny functions, but with a few extra buttons."
+      "text": "Фильтр $(item)Enchantments Item$() позволяет сортировать предметы по любому $(thing)Enchantments$(), который у них может быть (или не быть). Он работает аналогично $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Standard Item Filter$(), особенно в отношении количества и функций разрешения/запрета, но с несколькими дополнительными кнопками."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Enchantments Item Filter",
+      "heading": "Фильтр предметов зачарования",
       "recipe": "bloodmagic:alchemytable/enchant_router_filter",
-      "text": "Any enchanted book will work for this recipe."
+      "text": "Для этого рецепта подойдет любая зачарованная книга."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/routing/enchant_item_filter_gui.png"
       ],
-      "title": "Enchantments Filter GUI",
+      "title": "Графический интерфейс фильтра зачарований",
       "border": true,
-      "text": "Note the two new buttons to the right of the \u0027Allow\u0027 button."
+      "text": "Обратите внимание на две новые кнопки справа от кнопки «Разрешить»."
     },
     {
       "type": "patchouli:text",
-      "text": "The first button allows you to select whether to match $(thing)Every Enchantment$() on an enchanted item, $(thing)Any Enchantment$(), or $(thing)one particular enchantment$(). The second button allows you to specify whether to pay attention to the level or not. (E.G. \u0027Protection III\u0027 versus \u0027Protection\u0027). $(br2)If you insert $(thing)an unenchanted item$() into the filter, you can effectively Allow or Deny $(thing)any sort of enchantment$() to be inserted into or removed from the specified inventory."
+      "text": "Первая кнопка позволяет вам выбрать, следует ли сопоставлять $(thing)Every Enchantment$() для зачарованного предмета, $(thing)Любое Enchantment$() или $(thing)одно конкретное Enchantment$(). Вторая кнопка позволяет указать, обращать внимание на уровень или нет. (Например, «Защита III» или «Защита»). $(br2)Если вы вставите $(thing)незачарованный предмет$() в фильтр, вы сможете эффективно разрешить или запретить вставку $(thing)любого вида чар$() в указанный инвентарь или удаление из него."
     }
   ]
 }

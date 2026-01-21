@@ -1,5 +1,5 @@
 {
-  "name": "Storm\u0027s Edge",
+  "name": "Грань Бури",
   "icon": "simplyswords:storms_edge",
   "advancement": "simplyswords:storms_edge",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:storms_edge",
-      "text": "The Storm\u0027s Edge is said to be forged from a rare metal that is able to channel and harness the power of electricity. The hilt is made of a dark wood and are wrapped in protective leather."
+      "text": "Говорят, что Грань Бури выкована из редкого металла, способного проводить и накапливать электрическую энергию. Рукоять выполнена из тёмного дерева и обёрнута защитной кожей."
     },
     {
       "type": "patchouli:text",
-      "text": "The twinblade has the ability to store electricity, and with a command word or willpower, the wielder can release it to propel themselves forward, quickly closing the distance with their enemies and becoming temporarily invulnerable to all attacks."
+      "text": "Этот двулезвийный меч может накапливать электричество, а по команде или силой воли владелец способен высвободить его, чтобы стремительно броситься вперёд, быстро сокращая дистанцию с врагами и становясь временно неуязвимым для всех атак."
     }
   ]
 }

@@ -10,18 +10,14 @@
     {
       "type": "patchouli:image",
       "title": "Бедроковая руда черной материи",
-      "images": [
-        "terramity:textures/screens/black_matter.png"
-      ],
+      "images": ["terramity:textures/screens/black_matter.png"],
       "border": true,
       "text": "Бедроковую руду черной материи, можно найти на поверхности Нижнего мира."
     },
     {
       "type": "patchouli:image",
       "title": "Разложившаяся руда черной материи",
-      "images": [
-        "terramity:textures/screens/decayed_black_matter.png"
-      ],
+      "images": ["terramity:textures/screens/decayed_black_matter.png"],
       "border": true,
       "text": "Разложившаяся руда черной материи, теперь доступна для добычи."
     },

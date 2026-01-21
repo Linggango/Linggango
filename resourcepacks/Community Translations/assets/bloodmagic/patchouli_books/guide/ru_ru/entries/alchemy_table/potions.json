@@ -1,109 +1,109 @@
 {
-  "name": "Potion Crafting",
+  "name": "Создание зелий",
   "icon": "bloodmagic:alchemy_flask",
   "category": "bloodmagic:alchemy_table",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The basics of $(thing)Potion Crafting$() are known to all and sundry throughout the land. Even common Clerics and Witches have a firm grasp of the basics of brewing - take a handful of semi-rare ingredients, mix them together in the correct proportions, and consume the result (while holding your nose, if needed), or throw it at your foes."
+      "text": "Основы $(thing)Potion Crafting$() известны всем и каждому по всей стране. Даже обычные клирики и ведьмы хорошо разбираются в основах пивоварения — возьмите горсть полуредких ингредиентов, смешайте их в правильных пропорциях и употребите результат (зажав нос, если необходимо) или бросьте его в своих врагов."
     },
     {
       "type": "patchouli:text",
-      "text": "The addition of $(blood)Life Essence$() and some frankly ingenious Sanguimancy has allowed you to turbocharge the practice, however. $(br2)By imbuing ordinary $(item)Glass Bottles$() with your powers, you are able to hold far more than a single swig of liquid, and with the use of various $(item)Catalysts$() you have figured out how to combine multiple effects in one flask without them muddying together and cancelling out."
+      "text": "Однако добавление $(blood)Life Essence$() и откровенно изобретательной сангвинации позволило вам ускорить практику. $(br2)Наделив обычные $(item)Стеклянные бутылки$() своими способностями, вы сможете удерживать гораздо больше, чем один глоток жидкости, а с помощью различных $(item)Катализаторов$() вы выяснили, как объединить несколько эффектов в одной колбе, не смешивая их и не сводя на нет."
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Alchemy Flask",
+      "heading": "Алхимическая настойка",
       "recipe": "bloodmagic:altar/alchemy_flask",
-      "text": "A sturdy Flask that is far more capacious than any measly bottle!"
+      "text": "Прочная фляга, гораздо более вместительная, чем любая жалкая бутылочка!"
     },
     {
       "type": "patchouli:text",
-      "text": "Of course, a bottle, no matter how advanced, is all but useless without something to fill it. $(br2)Alongside all the usual well known $(thing)Effects$() such as $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)Water Breathing$(), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)Regeneration$(), or $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$(), we have also perfected a variety of other, more specialised recipes, such as $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Obsidian Cloak$(), or even $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Passive$(). These potions and many more are documented further on in the book."
+      "text": "Конечно, бутылка, какой бы продвинутой она ни была, практически бесполезна, если ее чем-то наполнить. $(br2)Наряду со всеми обычными хорошо известными $(thing)Эффектами$(), такими как $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)Водное дыхание$(), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)Регенерация$(), или $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$(), мы также усовершенствовали множество других, более специализированных рецептов, таких как $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Обсидиановый плащ$() или даже $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Passive$(). Эти и многие другие зелья описаны далее в книге."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:alchemy_flask",
-      "text": "Once you have used up any kind of alchemy flask, simply wash out and refill it with water, to get a fresh new flask ready for use."
+      "text": "После того, как вы израсходовали любую алхимическую колбу, просто промойте ее и наполните водой, чтобы получить новую колбу, готовую к использованию."
     },
     {
       "type": "patchouli:text",
-      "text": "Flasks also have their equivalent to $(thing)Splash$() and $(thing)Lingering Potions$(), see overleaf. $(br2)$(thing)Lingering Potions$() can be combined with 8 $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Amethyst Throwing Daggers$() in the $(item)Alchemical Reaction Chamber$() to create $(item)Tipped Amethyst Throwing Daggers$(). Any entity hit by one of these daggers will have the potion\u0027s effects transferred to it."
+      "text": "У флаконов также есть эквиваленты $(thing)Splash$() и $(thing)Lingering Potions$(), см. на обороте. $(br2)$(thing)Затяжные зелья$() можно объединить с 8 $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Аметистовыми метательными кинжалами$() в $(item)Алхимической реакционной камере$(), чтобы создать $(item)Аметистовые метательные кинжалы с наконечниками$(). На любое существо, пораженное одним из этих кинжалов, будут перенесены эффекты зелья."
     },
     {
       "type": "bloodmagic:2x_crafting_flask",
-      "a.heading": "Splash Alchemy Flask",
+      "a.heading": "Брызговая алхимическая колба",
       "a.recipe": "bloodmagic:flask/flask_splash",
-      "b.heading": "Lingering Alchemy Flask",
+      "b.heading": "Затяжной алхимический настой",
       "b.recipe": "bloodmagic:flask/flask_lingering"
     },
     {
       "type": "patchouli:text",
-      "text": "You may recall me mentioning the ability to make multiple $(thing)effects$() in a single $(item)Flask$(). Luckily, this process couldn\u0027t be easier. Simply brew up a potion, and use the resulting Flask in place of your empty Flask in the second brewing. For example, if you made a Flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$(), then took that flask and used it as an ingredient in a flask of $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$(), you\u0027d end up with an 8-dose Flask that gives you $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$() and $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$() with every swig!"
+      "text": "Возможно, вы помните, как я упоминал о возможности создания нескольких $(thing)effects$() в одном $(item)Flask$(). К счастью, этот процесс не может быть проще. Просто приготовьте зелье и используйте полученную колбу вместо пустой при втором заваривании. Например, если вы сделали флакон из $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$(), а затем взяли этот флакон и использовали его в качестве ингредиента во флаконе $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночного видения$(), вы получите флакон на 8 доз, который дает вам $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$() и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$() с каждым глотком!"
     },
     {
       "type": "patchouli:text",
-      "text": "Next up, we have $(item)Catalysts$(). There are a few kinds of catalyst, with a few different effects, so let\u0027s start off with the simplest three - $(item)Simple Catalyst$(), $(item)Small Power Catalyst$(), and $(item)Small Lengthening Catalyst$(). Of these, the first is the most straightforward - it provides a base to almost every Alchemical Potion, much as $(item)Nether Wart$() does for standard Potions."
+      "text": "Далее у нас есть $(item)Catalysts$(). Существует несколько типов катализаторов с разными эффектами, поэтому давайте начнем с трех самых простых — $(item)Simple Catalyst$(), $(item)Small Power Catalyst$() и $(item)Small Longening Catalyst$(). Из них первый является самым простым — он обеспечивает основу почти для каждого алхимического зелья, так же, как $(item)Death Wart$() делает стандартные зелья."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Simple Catalyst",
+      "heading": "Простой катализатор",
       "recipe": "bloodmagic:alchemytable/simple_catalyst",
-      "text": "A good base for nearly any effect. Stock up, you\u0027ll want a lot of these."
+      "text": "Хорошая база практически для любого эффекта. Запасайтесь, вам понадобится много таких."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Small Power Catalyst",
+      "heading": "Катализатор малой мощности",
       "recipe": "bloodmagic:alchemytable/mundane_power",
-      "text": "Power Catalysts increase the potency of the topmost effect inside the Flask, while decreasing the duration of the effect. It is roughly analogous to $(item)Glowstone$() in more standard potions. If the most recently applied effect cannot accept the catalyst, it will attempt to boost the second topmost, and so on."
+      "text": "Катализаторы силы увеличивают эффективность самого верхнего эффекта внутри флакона, одновременно уменьшая продолжительность эффекта. Это примерно аналогично $(item)Glowstone$() в более стандартных зельях. Если последний примененный эффект не может принять катализатор, он попытается усилить второй сверху и так далее."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Small Lengthening Catalyst",
+      "heading": "Малый катализатор удлинения",
       "recipe": "bloodmagic:alchemytable/mundane_lengthening",
-      "text": "Lengthening Catalysts increase the duration of the topmost effect inside the Flask. It is roughly analogous to $(item)Redstone$() in more standard potions. If the most recently applied effect cannot accept the catalyst, it will attempt to boost the second topmost, and so on."
+      "text": "Катализаторы удлинения увеличивают продолжительность самого верхнего эффекта внутри флакона. Это примерно аналогично $(item)Redstone$() в более стандартных зельях. Если последний примененный эффект не может принять катализатор, он попытается усилить второй сверху и так далее."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Combinational Catalyst",
+      "heading": "Комбинированный катализатор",
       "recipe": "bloodmagic:alchemytable/combinational",
-      "text": "$(item)Combinational Catalysts$() are a little more niche - they take two defined effects and synthesise a third, related effect from them. For example, a Flask with $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspended$() and $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Levitation$() would, when brewed with this catalyst, produce a Flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$()."
+      "text": "$(item)Комбинированные катализаторы$() немного более нишевы — они берут два определенных эффекта и синтезируют из них третий, связанный эффект. Например, настой с $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspended$() и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Levitation$() при сварке с этим катализатором создаст Настой с $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$()."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Weak Filling Agent",
+      "heading": "Слабый наполнитель",
       "recipe": "bloodmagic:alchemytable/weak_filling",
-      "text": "Filling Agents can be used to refresh the contents of a Flask, at the cost of losing some of the effects - the Weak Filling Agent can only preserve the topmost effect on the Flask. If you wish to preserve a different effect, consider using the $(item)Simple Cycling Catalyst.$()"
+      "text": "Наполнители можно использовать для обновления содержимого флакона за счет потери некоторых эффектов — слабый наполнитель может сохранить только самый верхний эффект на флаконе. Если вы хотите сохранить другой эффект, рассмотрите возможность использования $(item)Simple Cycling Catalyst.$()"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Simple Cycling Catalyst",
+      "heading": "Простой велосипедный катализатор",
       "recipe": "bloodmagic:alchemytable/cycling_catalyst",
-      "text": "The Cycling Catalyst can be used to alter the order of effects inside the Flask, and thus change which effect is altered by another Catalyst or Agent."
+      "text": "Циклический катализатор можно использовать для изменения порядка эффектов внутри флакона и, таким образом, изменения эффекта, изменяемого другим катализатором или агентом."
     },
     {
       "type": "patchouli:text",
-      "title": "Potion Crafting 201",
+      "title": "Создание зелий 201",
       "anchor": "average_potions",
-      "text": "If the potions you\u0027ve crafted so far just aren\u0027t enough for you, then perhaps you need to do a little exploring? With some $(item)Glow berries$(), some $(item)Cobbled Deepslate$() and a sprinkling of $(l:bloodmagic:dungeons/demonite)Hellforged Sand$(), you can boost the duration and power of your flasks significantly."
+      "text": "Если вам недостаточно зелий, которые вы создали до сих пор, то, возможно, вам нужно немного изучить их? С помощью $(item)Glow berry$(), $(item)Cobbled Deepslate$() и небольшого количества $(l:bloodmagic:dungeons/demonite)Hellforged Sand$() вы можете значительно увеличить продолжительность и мощность своих флаконов."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Strengthened Catalyst",
+      "heading": "Усиленный катализатор",
       "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
-      "text": "A more potent base for more potent catalysts."
+      "text": "Более мощная основа для более мощных катализаторов."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Standard Lengthening",
+      "heading": "Стандартное удлинение",
       "recipe": "bloodmagic:alchemytable/average_lengthening",
-      "text": "The Standard Lengthening Catalyst will increase the duration of the topmost effect from 3:00 to 21:20. Multiply that by the 8 doses each flask provides, and that\u0027s a heck of a long time!"
+      "text": "Стандартный катализатор удлинения увеличит продолжительность самого верхнего эффекта с 3:00 до 21:20. Умножьте это на 8 доз, которые дает каждая колба, и это будет чертовски долго!"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Standard Power Catalyst",
+      "heading": "Стандартный силовой катализатор",
       "recipe": "bloodmagic:alchemytable/average_power",
-      "text": "The Standard Power Catalyst is a souped-up version of the Small Power Catalyst, allowing you to get up to level III potion effects in your flask, while reducing the duration to just 45 seconds per dose."
+      "text": "Катализатор стандартной мощности — это усовершенствованная версия катализатора малой мощности, позволяющая получить эффекты зелий до уровня III в вашей колбе, сокращая при этом продолжительность действия до 45 секунд на одну дозу."
     }
   ]
 }

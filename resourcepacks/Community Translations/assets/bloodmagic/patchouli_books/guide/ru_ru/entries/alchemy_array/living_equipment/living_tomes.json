@@ -1,5 +1,5 @@
 {
-  "name": "Upgrade Tomes",
+  "name": "Улучшить тома",
   "icon": "bloodmagic:upgradetome",
   "priority": true,
   "category": "bloodmagic:alchemy_array/living_equipment",
@@ -9,15 +9,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Upon activating the $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Sound of the Cleansing Soul$(), a series of magical $(item)Tomes$() will manifest around you. $(br2)By pressing [$(k:use)] whilst holding one of these, you can \u0027teach\u0027 your chestplate one level of this skill (Assuming it has enough spare points to learn it). Holding [$(k:sneak)] and [$(k:use)] will instead consume as much XP from the tome as possible."
+      "text": "При активации $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Звука очищающей души$() вокруг вас появится серия магических $(item)Томов$(). $(br2)Нажав [$(k:use)], удерживая один из них, вы можете «обучить» свой нагрудник одному уровню этого навыка (при условии, что у него достаточно свободных очков для его изучения). Удержание [$(k:sneak)] и [$(k:use)] вместо этого будет потреблять как можно больше опыта из тома."
     },
     {
       "type": "patchouli:text",
-      "text": "Doing so will consume the $(item)Tome$() and apply all EXP from it to your chestplate - unless there are not enough $(thing)Upgrade Points$() available. $(br2)In this case, the Tome will apply as much EXP as it can and store the remainder - unless there\u0027s less than 1 level\u0027s worth left, in which case the tome will be destroyed."
+      "text": "При этом $(item)Fome$() будет израсходован и весь опыт из него будет перенесен на ваш нагрудник - если только не будет недостаточно доступных $(thing)Upgrade Points$(). $(br2)В этом случае фолиант будет использовать столько опыта, сколько сможет, а остаток сохранит - если только не останется менее 1 уровня, и в этом случае том будет уничтожен."
     },
     {
       "type": "patchouli:text",
-      "text": "This is an excellent way to focus training on abilities you wish to see more of, whilst conveniently forgetting ones you find less useful. $(br2)Alternately, you can teach different chestplates different skills, so you can have one chestplate for mining, one for combat, and yet another for exploration."
+      "text": "Это отличный способ сосредоточиться на тренировках на способностях, которые вы хотите увидеть больше, и при этом легко забыть о тех, которые вы считаете менее полезными. $(br2)В качестве альтернативы вы можете обучить разные нагрудники различным навыкам, так что у вас может быть один нагрудник для добычи полезных ископаемых, один для боя и еще один для исследования."
     }
   ]
 }

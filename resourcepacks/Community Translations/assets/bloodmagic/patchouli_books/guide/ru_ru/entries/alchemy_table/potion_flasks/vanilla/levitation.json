@@ -5,26 +5,26 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Levitation$() causes the target to float up into the air. Higher levels will make the target levitate faster.$(br2)It\u0027s made from a potion of $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)Slow Falling$()."
+      "text": "$(thing)Levitation$() заставляет цель взлетать в воздух. На более высоких уровнях цель будет левитировать быстрее.$(br2)Оно сделано из зелья $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)Slow Falling$()."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Levitation (3:00)",
+      "a.heading": "Левитация (3:00)",
       "a.recipe": "bloodmagic:flask/fall_to_levitation",
-      "b.heading": "Levitation (8:00)",
+      "b.heading": "Левитация (8:00)",
       "b.recipe": "bloodmagic:flask/length_levitation",
-      "c.heading": "Levitation II (1:30)",
+      "c.heading": "Левитация II (1:30)",
       "c.recipe": "bloodmagic:flask/potency_levitation"
     },
     {
       "type": "patchouli:text",
-      "text": "adding $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() can further boost your potions."
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
     },
     {
       "type": "bloodmagic:2x_crafting_flask",
-      "a.heading": "Levitation III (0:45)",
+      "a.heading": "Левитация III (0:45)",
       "a.recipe": "bloodmagic:flask/potency_average_levitation",
-      "b.heading": "Levitation (21:20)",
+      "b.heading": "Левитация (21:20)",
       "b.recipe": "bloodmagic:flask/length_average_levitation"
     }
   ]

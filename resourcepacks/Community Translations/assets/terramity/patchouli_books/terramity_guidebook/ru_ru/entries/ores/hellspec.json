@@ -10,18 +10,16 @@
     {
       "type": "patchouli:image",
       "title": "Адский аллюминий",
-      "images": [
-        "terramity:textures/screens/hellspec.png"
-      ],
+      "images": ["terramity:textures/screens/hellspec.png"],
       "border": true,
       "text": "Адский аллюминий содержит силу ада."
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:hellspec_alloy_recipe",
-      "recipe2": "terramity:hellspec_upgrade_recipe"
-    },
-    {
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:hellspec_alloy_recipe",
+	  "recipe2": "terramity:hellspec_upgrade_recipe"
+	},
+	{
       "type": "patchouli:text",
       "text": "Кузнечный шаблон выпадает из Стража испытаний, и для улучшения его необходимо использовать на иридии."
     }

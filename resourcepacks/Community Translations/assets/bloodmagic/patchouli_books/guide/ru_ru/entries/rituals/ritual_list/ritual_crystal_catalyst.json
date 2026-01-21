@@ -1,13 +1,13 @@
 {
-  "name": "Gathering of the Forsaken Souls",
+  "name": "Сбор покинутых душ",
   "icon": "bloodmagic:rawcatalyst",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Gathering of the Forsaken Souls",
+      "name": "Сбор покинутых душ",
       "multiblock_id": "bloodmagic:forsaken_soul",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",

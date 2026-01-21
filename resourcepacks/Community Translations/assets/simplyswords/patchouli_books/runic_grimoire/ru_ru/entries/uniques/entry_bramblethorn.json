@@ -1,5 +1,5 @@
 {
-  "name": "Bramblethorn",
+  "name": "Терновый Шип",
   "icon": "simplyswords:bramblethorn",
   "advancement": "simplyswords:bramblethorn",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:bramblethorn",
-      "text": "The Bramblethorn is a unique and deadly rapier that appears to be nothing more than a simple twig, but holds a powerful secret within. Crafted from a rare and enchanted wood that is both lightweight and durable, the Bramblethorn is capable of delivering swift and deadly strikes."
+      "text": "Терновый Шип — это уникальная и смертоносная рапира, которая выглядит как обычная ветка, но хранит в себе могущественную тайну. Созданная из редкой и зачарованной древесины, обладающей лёгкостью и прочностью, Терновый Шип способен наносить быстрые и смертельные удары."
     },
     {
       "type": "patchouli:text",
-      "text": "The rapier\u0027s ability to release a cloud of toxic spores with a flick of the wrist, can poison and incapacitate any enemies that dare to step within its reach. Aside from it\u0027s wielder, the spores know no discrimination, so be careful when wielding it near those whose lives you value."
+      "text": "Особенность рапиры — способность выпускать облако ядовитых спор одним взмахом запястья, отравляя и обездвиживая всех врагов, осмелившихся приблизиться. Споры не различают целей, кроме самого владельца, поэтому будьте осторожны при использовании этого оружия рядом с союзниками."
     }
   ]
 }

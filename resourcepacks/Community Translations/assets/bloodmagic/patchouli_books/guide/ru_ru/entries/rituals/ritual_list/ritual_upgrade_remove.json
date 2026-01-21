@@ -1,24 +1,24 @@
 {
-  "name": "Sound of the Cleansing Soul",
+  "name": "Звук очищающей души",
   "icon": "bloodmagic:upgradetome",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Sound of the Cleansing Soul",
+      "name": "Звук очищающей души",
       "multiblock_id": "bloodmagic:upgrade_remove",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
       "ritual": "upgrade_remove",
       "text_overrides": [
         [
-          "Living Armor",
+          "Живая броня",
           "l:bloodmagic:alchemy_array/living_equipment/living_basics"
         ],
         [
-          "Upgrade Tomes",
+          "Улучшить тома",
           "l:bloodmagic:alchemy_array/living_equipment/living_tomes"
         ]
       ]

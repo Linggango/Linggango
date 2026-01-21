@@ -1,18 +1,18 @@
 {
-  "name": "Movement Array",
+  "name": "Массив движения",
   "icon": "minecraft:feather",
   "category": "bloodmagic:alchemy_array/functional_array",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Movement Arrays are a pair of arrays that throws players, mobs, items, etc in a specific direction.  One will throw the items horizontally, while the other will throw them vertically."
+      "text": "Массивы движения — это пара массивов, которые отбрасывают игроков, мобов, предметы и т. д. в определенном направлении. Один будет бросать предметы горизонтально, а другой — вертикально."
     },
     {
       "type": "bloodmagic:2x_functional_array",
-      "a.heading": "Speed Array",
+      "a.heading": "Скоростной массив",
       "a.recipe": "bloodmagic:array/movement",
       "a.image": "movementarray.png",
-      "b.heading": "Updraft Array",
+      "b.heading": "Восходящий массив",
       "b.recipe": "bloodmagic:array/updraft",
       "b.image": "updraftarray.png"
     }

@@ -1,11 +1,11 @@
 {
-  "name": "Leadened Pick",
+  "name": "Свинцовая кирка",
   "icon": "minecraft:stone_pickaxe",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Reduces your dig speed. Caps out at an 80% reduction."
+      "text": "Эффект: Уменьшает скорость копания. Ограничивается снижением на 80%."
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

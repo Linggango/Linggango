@@ -1,17 +1,17 @@
 {
-  "name": "Trailblaze",
+  "name": "Прокладывание пути",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Trailblaze",
-      "text": "Trailblaze is a runic power that imbues the wielder\u0027s weapon with the $(#bf4117)$(l)essence of fire$(). $(br2)It grants the wielder a chance to ignite themselves while also increasing their speed with each successful strike."
+      "title": "Прокладывание пути",
+      "text": "Прокладывание пути — это руническая сила, наполняющая оружие владельца $(#bf4117)$(l)эссенцией огня$(). $(br2)Даёт шанс поджечь самого владельца, а также увеличивает его скорость передвижения после каждого успешного удара."
     },
     {
       "type": "patchouli:text",
-      "text": "It can be useful in battles against enemies that rely on speed and mobility, as the increased speed can allow the wielder to outmaneuver them. $(br2)The fire effect can be a drawback for characters that lack in defences, but the increased speed can make up for it in certain situations."
+      "text": "Эта руна может быть полезна в сражениях против врагов, полагающихся на скорость и мобильность, ведь повышение скорости позволяет обойти их и перехитрить. $(br2)Эффект поджигания может стать недостатком для персонажей с низкой защитой, но дополнительная скорость способна компенсировать этот риск в определённых ситуациях."
     }
   ]
 }

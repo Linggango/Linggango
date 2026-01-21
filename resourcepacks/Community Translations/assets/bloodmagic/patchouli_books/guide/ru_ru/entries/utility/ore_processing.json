@@ -1,5 +1,5 @@
 {
-  "name": "Ore Processing",
+  "name": "Переработка руды",
   "icon": "bloodmagic:basiccuttingfluid",
   "category": "bloodmagic:utility",
   "extra_recipe_mappings": {
@@ -15,41 +15,41 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() can be used, amongst other things, for ore doubling, whilst the $(l:bloodmagic:utility/alchemical_reaction_chamber)Alchemical Reaction Chamber$() can give you 2.5 ingots per piece of $(item)Raw Ore$(), or 4.5 ingots per $(item)Ore Block$(). Get more ore out of your mining expeditions with the power of blood!"
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() можно использовать, среди прочего, для удвоения руды, тогда как $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимическая реакционная камера$() может дать вам 2,5 слитка за кусок $(item)Сырой руды$() или 4,5 слитка за $(item)Ore Блокировать$(). Добывайте больше руды в своих горнодобывающих экспедициях силой крови!"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Basic Cutting Fluid",
+      "heading": "Базовая смазочно-охлаждающая жидкость",
       "anchor": "cutting_fluid",
       "recipe": "bloodmagic:alchemytable/basic_cutting_fluid_sigil",
-      "text": "$(item)Cutting Fluid$() is the penultimate step in all forms of Ore Processing. It can be used in the $(l:bloodmagic:utility/alchemical_reaction_chamber)Alchemical Reaction Chamber$(/l) to get 3 Ore Sand from one Ore Block, or 1.5 Ore Sand from one Raw Ore (on average). While a $(l:bloodmagic:alchemy_array/sigil/water)Water Sigil$() is used in this demonstration, a simple $(water)Bottle of Water$() may be used."
+      "text": "$(item)Cutting Fluid$() — предпоследний шаг во всех формах обработки руды. Его можно использовать в $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимической реакционной камере$(/l), чтобы получить 3 рудных песка из одного рудного блока или 1,5 рудного песка из одной сырой руды (в среднем). Хотя в этой демонстрации используется $(l:bloodmagic:alchemy_array/sigil/water)Water Sigil$(), можно использовать и простую $(water)Bottle of Water$()."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Intermediate Cutting Fluid",
+      "heading": "Промежуточная смазочно-охлаждающая жидкость",
       "anchor": "intermediate_cutting_fluid",
       "recipe": "bloodmagic:alchemytable/intermediate_cutting_fluid_sigil",
-      "text": "Intermediate Cutting Fluid is an improved version that lasts eight times as long and increases crafting speed by 50%. You\u0027ll have to go $(l:bloodmagic:dungeons/lobby)Dungeon Delving$() for the $(l:bloodmagic:dungeons/tau_fruit)Tau Oil$(), though."
+      "text": "Intermediate Cutting Fluid — улучшенная версия, которая служит в восемь раз дольше и увеличивает скорость обработки на 50%. Однако вам придется пойти $(l:bloodmagic:dungeons/lobby)Dungeon Delving$(), чтобы получить $(l:bloodmagic:dungeons/tau_fruit)Tau Oil$()."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Advanced Cutting Fluid",
+      "heading": "Усовершенствованная смазочно-охлаждающая жидкость",
       "anchor": "advanced_cutting_fluid",
       "recipe": "bloodmagic:alchemytable/advance_cutting_fluid_sigil",
-      "text": "Advanced Cutting Fluid lasts sixteen times as long, doubles crafting speed, and doubles the chance of getting bonus outputs from any recipes it\u0027s used in. You\u0027ll have to do some deep $(l:bloodmagic:dungeons/endless_realm)Dungeon Delving$() for the $(l:bloodmagic:dungeons/demonite)Hellforged Sand$() it needs."
+      "text": "Усовершенствованная режущая жидкость действует в шестнадцать раз дольше, удваивает скорость крафта и удваивает шанс получить бонусные результаты от любых рецептов, в которых она используется. Вам придется проделать несколько глубоких $(l:bloodmagic:dungeons/endless_realm)Dungeon Delving$(), чтобы получить $(l:bloodmagic:dungeons/demonite)Hellforged Sand$(), в котором она нуждается."
     },
     {
       "type": "bloodmagic:2x_crafting_alchemy_table",
-      "a.heading": "Iron Sand",
+      "a.heading": "Железный песок",
       "a.recipe": "bloodmagic:alchemytable/sand_iron",
-      "b.heading": "Gold Sand",
+      "b.heading": "Золотой песок",
       "b.recipe": "bloodmagic:alchemytable/sand_gold"
     },
     {
       "type": "bloodmagic:crafting_arc",
-      "heading": "Ore to 3 Metal Sand",
+      "heading": "Руда на 3 металлических песка",
       "recipe": "bloodmagic:arc/dustsfrom_ore_iron",
-      "text": "Once you have access to the $(l:bloodmagic:utility/alchemical_reaction_chamber)Alchemical Reaction Chamber$(/l), you can get 3 sand from every ore you mine."
+      "text": "Получив доступ к $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимической реакционной камере$(/l), вы сможете получить 3 песка из каждой добытой вами руды."
     },
     {
       "type": "patchouli:smelting",
@@ -58,26 +58,26 @@
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Explosive Powder",
+      "heading": "Взрывчатый порошок",
       "anchor": "ore_processing",
       "recipe": "bloodmagic:alchemytable/explosive_powder",
-      "text": "$(item)Explosive Powder$() in the $(item)ARC$() is used to turn $(item)Ores$() into 4.5 $(item)Ore Fragments$() on average, or $(item)Raw Ores$() into 2.25 ores on average, or turn $(item)Ingots$() into their $(item)Sand$() variant. It can also turn $(fire)Netherrack$() into $(air)Sulfur$() and 50mb of $(fire)Lava$(). It has 2 improved variants, overleaf."
+      "text": "$(item)Explosive Powder$() в $(item)ARC$() используется для превращения $(item)Ores$() в 4,5 $(item)Ore Fragments$() в среднем или $(item)Raw Ores$() в среднем в 2,25 руды или превращения $(item)Ingots$() в их вариант $(item)Sand$(). Он также может превратить $(fire)Netherrack$() в $(air)Sulfur$() и 50 МБ $(fire)Lava$(). Имеет два улучшенных варианта, на оборотной стороне."
     },
     {
       "type": "bloodmagic:2x_crafting_alchemy_table",
-      "a.heading": "Reinforced Explosive Cell",
+      "a.heading": "Усиленная взрывная ячейка",
       "a.recipe": "bloodmagic:alchemytable/explosive_cell",
-      "b.heading": "Hellforged Explosive Cell",
+      "b.heading": "Адская взрывная ячейка",
       "b.recipe": "bloodmagic:alchemytable/hellforged_explosive_cell",
-      "text": "the Reinforced and Hellforged Explosive Cells last longer and craft faster than the basic variant."
+      "text": "Усиленные и закаленные в аду взрывные ячейки служат дольше и изготавливаются быстрее, чем базовый вариант."
     },
     {
       "type": "bloodmagic:3x_crafting_arc",
-      "a.heading": "Raw Ore to Fragments",
+      "a.heading": "Необработанная руда во фрагменты",
       "a.recipe": "bloodmagic:arc/fragmentsiron",
-      "b.heading": "Ore to Fragments",
+      "b.heading": "Руда во фрагменты",
       "b.recipe": "bloodmagic:arc/fragmentsfrom_ore_iron",
-      "c.heading": "Sulfur and Lava",
+      "c.heading": "Сера и лава",
       "c.recipe": "bloodmagic:arc/netherrack_to_sulfer",
       "c.fluid_output": "minecraft:lava_bucket"
     },
@@ -85,48 +85,46 @@
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Resonator",
       "recipe": "bloodmagic:soulforge/resonator",
-      "anchor": "resonator",
-      "text": "The $(item)Resonator$() is used to turn $(item)Ore Fragments$() into the relevant $(item)Gravel$() for continued ore processing, and creates $(item)Tiny Corrupted Dust$(). The Reinforced Resonator has 4x durability, and the Hellforged resonator has 16x durability and doubles any bonus outputs."
+      "text": "$(item)Resonator$() используется для превращения $(item)Ore Fragments$() в соответствующий $(item)Gravel$() для продолжения обработки руды и создания $(item)Tiny Corrupted Dust$(). Усиленный резонатор имеет 4-кратную прочность, а резонатор Hellforged — 16-кратную прочность и удваивает любые бонусные мощности."
     },
     {
       "type": "bloodmagic:2x_crafting_soulforge",
-      "a.heading": "Reinforced Resonator",
+      "a.heading": "Усиленный резонатор",
       "a.recipe": "bloodmagic:soulforge/primitive_resonator",
-      "b.heading": "Hellforged Resonator",
+      "b.heading": "Адский резонатор",
       "b.recipe": "bloodmagic:soulforge/hellforged_resonator"
     },
     {
       "type": "bloodmagic:2x_crafting_arc",
-      "a.heading": "Fragment to Gravel",
+      "a.heading": "Фрагмент в гравий",
       "a.recipe": "bloodmagic:arc/gravelsiron",
-      "b.heading": "Gravel to Sand",
+      "b.heading": "Гравий в песок",
       "b.recipe": "bloodmagic:arc/dustsfrom_gravel_iron"
     },
     {
       "type": "patchouli:crafting",
-      "heading": "Corrupted Dust",
-      "anchor": "corrupted_dust",
+      "heading": "Испорченная пыль",
       "recipe": "bloodmagic:corrupted_dust",
-      "text": "Tiny Corrupted dust can be combined into $(item)Corrupted Dust$(), which can be used to further boost the yield of other ores. See overleaf for some examples."
+      "text": "Крошечную оскверненную пыль можно объединить в $(item)Corrupted Dust$(), которую можно использовать для дальнейшего увеличения добычи других руд. Некоторые примеры см. на обороте."
     },
     {
       "type": "bloodmagic:3x_crafting_alchemy_table",
-      "a.heading": "Corrupted Coal",
+      "a.heading": "Испорченный уголь",
       "a.recipe": "bloodmagic:alchemytable/corrupted_coal",
-      "b.heading": "Corrupted Iron",
+      "b.heading": "Испорченное железо",
       "b.recipe": "bloodmagic:alchemytable/corrupted_iron",
-      "c.heading": "Corrupted Debris",
+      "c.heading": "Испорченный мусор",
       "c.recipe": "bloodmagic:alchemytable/corrupted_netherite"
     },
     {
       "type": "patchouli:crafting",
-      "heading": "Fuel Cell (Furnace)",
+      "heading": "Топливный элемент (печь)",
       "recipe": "bloodmagic:primitive_furnace_cell",
-      "text": "The $(item)ARC$() also functions as a $(thing)Furnace$(), but the only fuel sources it accepts is the $(item)Primitive Fuel Cell$() or a $(l:bloodmagic:utility/lava_crystal)Lava Crystal$(/l)."
+      "text": "$(item)ARC$() также функционирует как $(thing)Furnace$(), но единственным источником топлива, который он принимает, является $(item)Primitive Fuel Cell$() или $(l:bloodmagic:utility/lava_crystal)Кристалл лавы$(/l)."
     },
     {
       "type": "patchouli:text",
-      "text": "The $(item)Primitive Fuel Cell$() is good for 128 individual uses. That\u0027s more than the $(item)Block of Coal$() used to craft it (60 items), and since it only loses durability when the crafting is finished it will not waste fuel."
+      "text": "$(item)Примитивный топливный элемент$() пригоден для 128 индивидуальных применений. Это больше, чем $(item)Блок угля$(), использованный для его изготовления (60 предметов), и поскольку он теряет прочность только после завершения изготовления, он не будет тратить топливо."
     }
   ]
 }

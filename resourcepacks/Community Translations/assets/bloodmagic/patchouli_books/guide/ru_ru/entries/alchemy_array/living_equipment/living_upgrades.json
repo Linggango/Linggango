@@ -1,16 +1,16 @@
 {
-  "name": "Living Equipment Upgrades",
+  "name": "Обновления жилого оборудования",
   "icon": "bloodmagic:upgradetome",
   "priority": true,
   "category": "bloodmagic:alchemy_array/living_equipment",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "While wearing this new armour, you have felt it growing, trying to assist you with various tasks it has seen you perform. $(br2)It seems to be able to perform in a number of areas, but its growth is limited, and trying to do everything at once is quite fruitless."
+      "text": "Нося эту новую броню, вы чувствовали, как она растет, пытаясь помочь вам с различными задачами, которые вы выполняли. $(br2)Вроде бы он способен работать во многих областях, но его рост ограничен, и попытки сделать все сразу совершенно бесплодны."
     },
     {
       "type": "patchouli:text",
-      "text": "Perhaps multiple specialised sets may be a good idea? Of course, you\u0027ll have to train it carefully if you want more than a smattering of poorly-directed benefits. $(br2)Fortunately, you have devised a $(l:rituals/ritual_list/ritual_upgrade_remove)Ritual$() that will assist with training, and $(l:rituals/ritual_list/ritual_armour_evolve)another one$() that will imbue your armour with a greater ability to grow."
+      "text": "Возможно, хорошей идеей будет использование нескольких специализированных наборов? Конечно, вам придется тщательно его тренировать, если вы хотите большего, чем просто небольшое количество плохо направленных преимуществ. $(br2)К счастью, вы разработали $(l:rituals/ritual_list/ritual_upgrade_remove)Ritual$(), который поможет в обучении, и $(l:rituals/ritual_list/ritual_armour_evolve)еще один$(), который наделит вашу броню большей способностью к росту."
     }
   ]
 }

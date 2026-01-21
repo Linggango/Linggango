@@ -3,13 +3,13 @@
   "components": [
     {
       "type": "patchouli:header",
-      "text": "#heading",
+      "text": "#заголовок",
       "x": -1,
       "y": -6
     },
     {
       "type": "patchouli:text",
-      "text": "#text",
+      "text": "#текст",
       "x": 0,
       "y": 51
     },
@@ -109,8 +109,8 @@
       "type": "patchouli:tooltip",
       "guard": "#show_fluid_tooltip",
       "tooltip": [
-        "Input: #tooltip_fluid_input#",
-        "Output: #tooltip_fluid_output#"
+        "Ввод: #tooltip_fluid_input#",
+        "Вывод: #tooltip_fluid_output#"
       ],
       "x": 31,
       "y": 7,

@@ -1,5 +1,5 @@
 {
-  "name": "Icewhisper",
+  "name": "Ледяной Шёпот",
   "icon": "simplyswords:icewhisper",
   "advancement": "simplyswords:icewhisper",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:icewhisper",
-      "text": "Icewhisper is a deadly halberd that radiates a debilitating frost aura around the wielder. This aura slows the movements of enemies, making them easier to strike and leaving them vulnerable to follow-up attacks."
+      "text": "Ледяной Шёпот — это смертоносная алебарда, излучающая ослабляющую морозную ауру вокруг владельца. Эта аура замедляет передвижение врагов, делая их более уязвимыми для ударов и последующих атак."
     },
     {
       "type": "patchouli:text",
-      "text": "In addition to its chilling presence, the halberd also has the ability to summon a blizzard, enveloping the battlefield in a tempest of ice and snow. This blizzard not only deals damage to foes, but also makes it harder for them to see and move, providing the wielder with a tactical advantage. The halberd is said to be forged from the purest ice and it shimmers with a cool blue light."
+      "text": "Помимо ледяного присутствия, алебарда способна вызывать метель, окутывая поле боя бурей изо льда и снега. Метель не только наносит урон противникам, но и затрудняет им обзор и передвижение, предоставляя владельцу тактическое преимущество. Говорят, что алебарда выкована из чистейшего льда и мерцает холодным голубым светом."
     }
   ]
 }

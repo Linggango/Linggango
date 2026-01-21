@@ -1,13 +1,13 @@
 {
-  "name": "Ritual of the Green Grove",
+  "name": "Ритуал Зеленой Рощи",
   "icon": "minecraft:bone_meal",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Ritual of the Green Grove",
+      "name": "Ритуал Зеленой Рощи",
       "multiblock_id": "bloodmagic:green_grove",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -19,7 +19,7 @@
       "page_type": "raw",
       "text_overrides": [
         [
-          "Raw Will",
+          "сырая воля",
           "raw"
         ]
       ]
@@ -40,7 +40,7 @@
       "page_type": "destructive",
       "text_overrides": [
         [
-          "Destructive Will",
+          "Разрушительная воля",
           "destructive"
         ]
       ]

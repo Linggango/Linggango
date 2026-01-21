@@ -1,17 +1,17 @@
 {
-  "name": "Swiftness",
+  "name": "Проворство",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Swiftness",
-      "text": "Swiftness is a runic power that imbues the wielder\u0027s weapon with the $(#389fff)$(l)essence of speed and agility$(). $(br2)It grants the wielder a chance to increase their movement speed with each successful hit."
+      "title": "Проворство",
+      "text": "Проворство — это руническая сила, наполняющая оружие владельца $(#389fff)$(l)эссенцией скорости и ловкости$(). $(br2)Даёт шанс увеличить скорость передвижения после каждого успешного удара."
     },
     {
       "type": "patchouli:text",
-      "text": "Swiftness is a powerful runic power that can give the wielder a significant advantage in battle. $(br2)It\u0027s ideal for characters that rely on mobility and speed, such as rogue, ranger, and monks, who can use the power to outmaneuver their enemies and strike quickly."
+      "text": "Проворство — мощная руна, способная дать владельцу значительное преимущество в бою. $(br2)Идеально подходит для персонажей, полагающихся на мобильность и скорость, таких как разбойники, следопыты и монахи, которые могут использовать эту силу, чтобы обойти врагов и наносить быстрые удары."
     }
   ]
 }

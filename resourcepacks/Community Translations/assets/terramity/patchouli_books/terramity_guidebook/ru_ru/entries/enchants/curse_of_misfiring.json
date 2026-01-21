@@ -9,9 +9,7 @@
     },
     {
       "type": "patchouli:image",
-      "images": [
-        "terramity:textures/screens/guns.png"
-      ],
+      "images": ["terramity:textures/screens/guns.png"],
       "border": true
     }
   ]

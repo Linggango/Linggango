@@ -1,5 +1,5 @@
 {
-  "name": "Hearthflame",
+  "name": "Очаговое Пламя",
   "icon": "simplyswords:hearthflame",
   "advancement": "simplyswords:hearthflame",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:hearthflame",
-      "text": "Hearthflame is a powerful greathammer imbued with the ability to cause devastating tremors. When swung, it sends out ripples of force that pull enemies towards it before igniting them in a fiery blast."
+      "text": "Очаговое Пламя — это мощный двуручный молот, наделённый способностью вызывать разрушительные сотрясения. При взмахе он посылает волны силы, которые притягивают врагов к себе, а затем поджигают их огненным взрывом."
     },
     {
       "type": "patchouli:text",
-      "text": "The resulting explosion not only deals massive damage, but also launches foes away from the wielder, providing an opportunity to reposition or pursue other targets. The hammer is said to be forged from the hottest flames of the earth and it radiates with an aura of heat. This weapon is perfect for warriors who want to deal massive damage and control the battlefield."
+      "text": "Взрыв не только наносит огромный урон, но и отбрасывает противников от владельца, давая возможность сменить позицию или преследовать других целей. Говорят, что этот молот был выкован из самых горячих пламён земли и излучает жаркое сияние. Это оружие идеально подходит для воинов, желающих наносить сокрушительный урон и контролировать поле боя."
     }
   ]
 }

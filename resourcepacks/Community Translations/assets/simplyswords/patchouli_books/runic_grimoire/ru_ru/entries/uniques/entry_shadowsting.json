@@ -1,5 +1,5 @@
 {
-  "name": "Shadowsting",
+  "name": "Жало Тени",
   "icon": "simplyswords:shadowsting",
   "advancement": "simplyswords:shadowsting",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:shadowsting",
-      "text": "Shadowsting is a slender rapier that is imbued with the power of shadows. The rapier\u0027s unique ability allows it the chance to deal armor-scaling magic damage to enemies, allowing it to penetrate even the toughest armor."
+      "text": "Жало Тени — это изящная рапира, наполненная силой теней. Уникальная способность рапиры позволяет с некоторым шансом наносить магический урон, зависящий от брони противника, что даёт возможность пробивать даже самую прочную защиту."
     },
     {
       "type": "patchouli:text",
-      "text": "The rapier also has the ability to create a shadowy mist that clouds the vision of its enemies, this ability is referred to as Shadowmist. The wielder can use the mist to create confusion and disorientation among their enemies, providing a strategic advantage in combat."
+      "text": "Рапира также способна создавать теневой туман, затмевающий зрение врагов. Эта способность называется Тенетуман. Владелец может использовать туман, чтобы вносить замешательство и дезориентацию среди противников, получая тактическое преимущество в бою."
     }
   ]
 }

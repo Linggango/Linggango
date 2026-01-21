@@ -1,5 +1,5 @@
 {
-  "name": "Gem Socketing",
-  "description": "Unwanted Unique weapons can be smelted down and used to craft powerful gems that can be socketed into other Unique weapons.",
+  "name": "Инкрустация самоцветов",
+  "description": "Ненужное уникальное оружие можно переплавить и использовать для создания мощных самоцветов, которые затем вставляются в другие уникальные предметы.",
   "icon": "simplyswords:runefused_gem"
 }

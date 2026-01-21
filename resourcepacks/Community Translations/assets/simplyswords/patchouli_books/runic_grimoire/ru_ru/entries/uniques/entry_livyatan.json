@@ -1,5 +1,5 @@
 {
-  "name": "Livyatan",
+  "name": "Левиафан",
   "icon": "simplyswords:livyatan",
   "advancement": "simplyswords:livyatan",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:livyatan",
-      "text": "The Livyatan is a fearsome axe that is capable of freezing its enemies and shattering them for incredible damage. With each strike, the axe may send out a wave of freezing energy that engulfs nearby targets, preventing them from moving completely."
+      "text": "Левиафан — это грозный топор, способный замораживать врагов и разбивать их вдребезги, нанося колоссальный урон. С каждым ударом топор может выпускать волну ледяной энергии, окутывающую ближайших противников и полностью обездвиживающую их."
     },
     {
       "type": "patchouli:text",
-      "text": "If the wielder wills it, the axe shatters them into pieces, dealing devastating damage. The axe is said to be forged from the heart of a legendary creature and it glows with a cold blue light. This weapon is perfect for warriors who want to deal massive damage and control the battlefield by freezing and shattering their enemies."
+      "text": "Если владелец пожелает, топор разнесёт врагов на куски, нанося сокрушительный урон. Говорят, что этот топор был выкован из сердца легендарного существа и светится холодным голубым светом. Это оружие идеально подходит для воинов, желающих наносить огромный урон и контролировать поле боя, замораживая и разбивая своих врагов."
     }
   ]
 }

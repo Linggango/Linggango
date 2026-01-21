@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Adds $(thing)Living Armour Socket$() Curios Slots to the player that are able to hold compatible $(6)Blood Magic$() items. $(br2)This upgrade can\u0027t be trained, only crafted. By default, each $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$() adds one additional slot."
+      "text": "Добавляет игроку слоты для $(thing)Living Armor Socket$() Curios, в которых можно хранить совместимые предметы $(6)Blood Magic$(). $(br2)Это улучшение невозможно обучить, его можно только создать. По умолчанию каждый $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$() добавляет один дополнительный слот."
     },
     {
       "type": "bloodmagic:crafting_upgrade_alchemy_table",
-      "a.heading": "Socketed Tome",
+      "a.heading": "Размещенный том",
       "a.recipe": "bloodmagic:alchemytable/curios_upgrade",
       "b.upgrade": "bloodmagic:curios_socket"
     }

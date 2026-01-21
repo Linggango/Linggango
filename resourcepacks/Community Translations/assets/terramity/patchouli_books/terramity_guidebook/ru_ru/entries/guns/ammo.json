@@ -10,19 +10,19 @@
     {
       "type": "patchouli:spotlight",
       "text": "Например, базовая винтовка использует только золотые патроны, которые довольно дешевы и их даже можно фармить в большинстве модпаков. Если боеприпасов становится мало, создайте ферму $(l:terramity:misc/bomb_flower)Bomb Flower$() для получения пороха!",
-      "item": {
-        "item": "terramity:basic_rifle"
-      }
+	  "item": {
+		"item": "terramity:basic_rifle"
+	  }
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:copper_round_recipe",
-      "recipe2": "terramity:gold_round_recipe"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:daemonium_shotshell_recipe",
-      "recipe2": "terramity:dimlite_round_recipe"
-    }
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:copper_round_recipe",
+	  "recipe2": "terramity:gold_round_recipe"
+	},
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:daemonium_shotshell_recipe",
+	  "recipe2": "terramity:dimlite_round_recipe"
+	}
   ]
 }

@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Adds an Elytra to your Living Armor. Rather than being trained, the $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$() must be crafted. $(br2)This Elytra does drain durability from the Chestplate, but at half the speed of a normal Elytra. $(br2)It also looks pretty neat."
+      "text": "Добавляет надкрылья к вашей живой броне. Вместо обучения необходимо создать $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$(). $(br2)Эти надкрылья поглощают прочность нагрудника, но со скоростью вдвое меньшей, чем у обычных надкрылий. $(br2)А еще он выглядит довольно аккуратно."
     },
     {
       "type": "bloodmagic:crafting_upgrade_array",
-      "a.heading": "Elytra Tome",
+      "a.heading": "Надкрылья Томе",
       "a.recipe": "bloodmagic:array/living_elytra_upgrade",
       "b.upgrade": "bloodmagic:elytra"
     }

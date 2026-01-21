@@ -1,11 +1,11 @@
 {
-  "name": "Tough Palms",
+  "name": "Жесткие пальмы",
   "icon": "bloodmagic:sacrificialdagger",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Grants a bonus to Self Sacrifice, up to an additional 150%. $(br2)Trained by: Sacrificing Blood with the Sacrificial Knife. $(br2)Maximum level: 10"
+      "text": "Эффект: дает бонус к самопожертвованию, вплоть до дополнительных 150%. $(br2)Обученный: Принесение крови в жертву с помощью жертвенного ножа. $(br2)Максимальный уровень: 10"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

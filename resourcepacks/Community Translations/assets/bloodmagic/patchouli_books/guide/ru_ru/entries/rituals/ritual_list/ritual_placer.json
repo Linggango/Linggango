@@ -1,13 +1,13 @@
 {
-  "name": "Domain of the Filler",
+  "name": "Домен наполнителя",
   "icon": "minecraft:dispenser",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "patchouli:multiblock",
-      "name": "Domain of the Filler",
+      "name": "Домен наполнителя",
       "multiblock_id": "bloodmagic:placer",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",

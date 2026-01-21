@@ -1,5 +1,5 @@
 {
-  "name": "Sword on a Stick",
+  "name": "Меч на Палке",
   "icon": "simplyswords:sword_on_a_stick",
   "advancement": "simplyswords:sword_on_a_stick",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:sword_on_a_stick",
-      "text": "The Sword on a Stick is a weapon of legend, said to be passed down from generation to generation of a family of great warriors. Tales of its deeds have spread far and wide throughout the lands, and all whom lend an ear can\u0027t help but be in awe at its power."
+      "text": "Меч на Палке — это легендарное оружие, которое, по слухам, передавалось из поколения в поколение в семье великих воинов. Рассказы о его подвигах разошлись по всему миру, и каждый, кто их слышал, не может не восхищаться его силой."
     },
     {
       "type": "patchouli:text",
-      "text": "On second thought though, this is probably just a stick with a sword strapped on the end."
+      "text": "Хотя, если подумать, это, скорее всего, просто палка, к которой примотан меч."
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
-  "name": "Resonance of the Faceted Crystal",
+  "name": "Резонанс граненого кристалла",
   "icon": "bloodmagic:vengefulcrystal",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Resonance of the Faceted Crystal",
+      "name": "Резонанс граненого кристалла",
       "multiblock_id": "bloodmagic:crystal_split",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
       "ritual": "crystal_split",
       "text_overrides": [
         [
-          "Raw crystal cluster",
+          "Кластер необработанных кристаллов",
           "l:bloodmagic:demon_will/will_manipulation/crystallized_will"
         ],
         [
-          "aspected crystal clusters",
+          "аспектированные кристаллические кластеры",
           "l:bloodmagic:demon_will/will_manipulation/aspected_will"
         ]
       ]
     },
     {
       "type": "patchouli:text",
-      "text": "This ritual takes a well grown (at least 5 spires) $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Raw Crystal Cluster$(/l) located 2 blocks above the $(item)Master Ritual Stone$(), and splits it into new single spires of each $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aspected Will$(/l) Crystal Clusters located directly above the 4 elemental Ritual Stones. This spacing is designed to accommodate a $(item)Demon Crystallizer$() on top of the $(item)Master Ritual Stone$().$(br2)For information on growing Demon Will Crystals, please see $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Crystallized Will$(/l)."
+      "text": "Этот ритуал берет хорошо выращенный (минимум 5 шпилей) $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Необработанный кристаллический кластер$(/l), расположенный в 2 блоках над $(item)Мастерским ритуальным камнем$(), и разделяет его на новые одиночные шпили каждого $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Аспектированного Will$(/l) Кристальные кластеры, расположенные прямо над четырьмя ритуальными камнями стихий. Это расстояние предназначено для размещения $(item)Кристаллизатора демона$() поверх $(item)Мастерского ритуального камня$().$(br2)Информацию о выращивании кристаллов воли демона см. в разделе $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристаллизованная воля$(/l)."
     },
     {
       "type": "patchouli:image",
-      "title": "Ritual Setup",
+      "title": "Ритуальная установка",
       "images": [
         "bloodmagic:images/entries/demon_will/will_splitting.png"
       ],
       "border": true,
-      "text": "Recommended setup for the Resonance of the Faceted Crystal ritual."
+      "text": "Рекомендуемая установка для ритуала «Резонанс граненого кристалла»."
     }
   ]
 }

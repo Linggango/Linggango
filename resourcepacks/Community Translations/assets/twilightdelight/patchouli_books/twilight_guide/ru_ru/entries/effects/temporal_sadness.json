@@ -1,0 +1,16 @@
+{
+  "name": "Ядовитая аура",
+  "icon": "twilightforest:steeleaf_ingot",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот эффект защищает игрока от отравления и накладывает эффект яда на всех врагов вокруг. Наносимый урон значительно сильнее обычного яда.$(br2)Зона действия отмечена зелёными частицами."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:steeleaf_ingot",
+      "text": "Можно получить из напитков и десертов, приготовленных из сталелиста."
+    }
+  ]
+}

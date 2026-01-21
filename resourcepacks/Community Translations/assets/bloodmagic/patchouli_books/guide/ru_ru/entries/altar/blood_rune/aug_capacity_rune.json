@@ -1,26 +1,26 @@
 {
-  "name": "Rune of Aug. Capacity",
+  "name": "Руна Августа. Вместимость",
   "icon": "bloodmagic:bettercapacityrune",
   "category": "bloodmagic:altar/blood_rune",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Rune of Augmented Capacity$() increases the capacity of the $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) by a multiplicative +7.5% per rune. The Augmented Capacity runes apply $(o)after$() the regular $(l:bloodmagic:altar/blood_rune/capacity_rune)Capacity runes$()."
+      "text": "$(item)Руна увеличенной мощности$() увеличивает мощность $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$(/l) на мультипликативную величину +7,5% за каждую руну. Руны расширенной мощности применяют $(o)after$() обычные руны $(l:bloodmagic:altar/blood_rune/capacity_rune)мощности$()."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Rune of Aug. Capacity",
+      "title": "Руна Августа. Вместимость",
       "recipe": "bloodmagic:blood_rune_aug_capacity"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:blood_rune_aug_capacity_2",
-      "text": "With some $(item)Netherite Scrap$() and some $(item)Intricate Hellforged Parts$() looted from the $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), you can double the power of your $(item)Rune of Augmented Capacity$(), increasing the capacity of the $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) by a multiplicative +15% per rune."
+      "text": "Имея $(item)Нетеритовый мусор$() и $(item)Замысловатые детали адской кузни$(), добытые из $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), вы можете удвоить силу своей $(item)Руны увеличенной мощности$(), увеличивая емкость $(l:bloodmagic:altar/blood_altar)Крови Алтарь$(/l) на мультипликатив +15% за руну."
     },
     {
       "type": "bloodmagic:crafting_arc",
       "recipe": "bloodmagic:arc/reversion/aug_capacity",
-      "text": "If you change your mind, you can undo the recipe in the ARC."
+      "text": "Если вы передумаете, вы можете отменить рецепт в ARC."
     }
   ]
 }

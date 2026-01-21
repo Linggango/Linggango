@@ -5,37 +5,37 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Teleposers$() allow for a form of $(fire)Redstone Controlled$() teleportation. Simply craft a $(item)Teleposition Focus$() (overleaf), bind it to your target teleposer, place it in another teleposer, and apply a redstone signal to the teleposer with a focus in it. Anything - blocks, items, entities, players - in a defined area above the two teleposers will be swapped."
+      "text": "$(item)Teleposers$() позволяют использовать форму $(fire)Redstone Controlled$() телепортации. Просто создайте $(item)Teleposition Focus$() (на обороте), привяжите его к целевому телепозеру, поместите в другой телепозер и примените сигнал красного камня к телепозеру с фокусом в нем. Все — блоки, предметы, сущности, игроки — в определенной области над двумя телепозерами будет заменено местами."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:teleposer",
-      "text": "Nothing comes for free, however; transporting blocks or entities via the teleposer will cost $(blood)1 LP$() each for every two blocks traversed, to a maximum of $(blood)1,000 LP$() per block/entity, or $(blood)10,000 LP$() total."
+      "text": "Однако ничто не приходит бесплатно; транспортировка блоков или объектов через телепозер будет стоить $(blood)1 LP$() каждый за каждые два пройденных блока, максимум до $(blood)1000 LP$() за блок/объект или $(blood)10000 LP$() в общей сложности."
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Teleposition Focus",
+      "heading": "Телепозиционный фокус",
       "recipe": "bloodmagic:altar/teleposer_focus",
-      "text": "The basic $(item)Teleposer Focus$() will swap anything in a 1x1x1 block area above the two teleposers."
+      "text": "Базовый $(item)Teleposer Focus$() поменяет местами все, что находится в области блока 1x1x1 над двумя телепозерами."
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Enhanced Focus",
+      "heading": "Улучшенный фокус",
       "recipe": "bloodmagic:altar/enhanced_teleposer_focus",
-      "text": "The $(item)Enhanced Teleposer Focus$() will swap anything in a 3x3x3 block area centred directly above the two teleposers."
+      "text": "$(item)Enhanced Teleposer Focus$() поменяет местами все, что находится в области блока 3x3x3, расположенной непосредственно над двумя телепозерами."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:enhanced_teleposer_focus",
-      "text": "The $(item)Reinforced Teleposer Focus$() will swap anything in a 5x5x5 block area centred directly above the two teleposers."
+      "text": "$(item)Reinforced Teleposer Focus$() поменяет местами что угодно в области блока 5x5x5, расположенной непосредственно над двумя телепозерами."
     },
     {
       "type": "patchouli:text",
-      "text": "Teleposers can be linked one-way (such that a redstone signal to the exiting Teleposer does nothing), two-way (such that each Teleposer has a Focus in it linking to the other teleposer, making you teleport back and forth at a redstone signal from either end), or they can even be chained - A to B to C and back to A. From base-traversing elevator systems to complex underground labrynths, go nuts!"
+      "text": "Телепозеры могут быть связаны в одну сторону (так, что сигнал красного камня выходящему телепозеру ничего не делает), двустороннее (так, что в каждом телепозере есть фокус, связанный с другим телепозером, что заставляет вас телепортироваться взад и вперед по сигналу красного камня с любого конца), или они могут даже быть связаны цепочкой - от A к B к C и обратно к A. От систем лифтов, перемещающихся по базе, до сложных подземных лабиринтов, сходите с ума!"
     },
     {
       "type": "patchouli:text",
-      "text": "If you\u0027re having difficulty getting your Teleposer to work, make sure that it is being $(thing)strongly redstone powered$(). This means that placing a redstone block next to the block won\u0027t power it - you\u0027ll need redstone dust or a repeater pointing into the side of the Teleposer, or a lever or  button directly on it. Life Essense isn\u0027t free after all, so the Teleposer is designed to minimize accidental misfires. For more information on strong vs weak redstone power, please consult $(l:https://minecraft.fandom.com/wiki/Redstone_mechanics?oldid\u003d2127827#Powered_vs._activated)the Minecraft Wiki.$() "
+      "text": "Если у вас возникли трудности с запуском Teleposer, убедитесь, что он $(thing)сильно работает на основе красного камня$(). Это означает, что размещение блока красного камня рядом с блоком не приведет к его включению — вам понадобится красная пыль, или повторитель, направленный в сторону телепозера, или рычаг или кнопка непосредственно на нем. В конце концов, Life Essense не бесплатна, поэтому Teleposer предназначен для минимизации случайных осечек. Для получения дополнительной информации о сильной и слабой силе красного камня посетите $(l:https://minecraft.fandom.com/wiki/Redstone_mechanics?oldid=2127827#Powered_vs._activated)Minecraft Wiki.$()"
     }
   ]
 }

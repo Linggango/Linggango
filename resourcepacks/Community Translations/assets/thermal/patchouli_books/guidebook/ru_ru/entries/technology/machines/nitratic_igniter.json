@@ -1,0 +1,22 @@
+{
+  "name": "Нитратный воспламенитель",
+  "icon": "thermal_extra:nitratic_igniter",
+  "category": "thermal:machines",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Нитратный воспламенитель — это машина, которая использует различные тротилы для детонации предметов в новые предметы. Выпадение можно увеличить с помощью дополнений и лучших $(l:thermal:world/materials/catalysts)катализаторов$(/l).$(br2)Рецепты нитратного воспламенителя ТРЕБУЮТ катализатор."
+    },
+    {
+      "type": "thermal:double_crafting_page",
+      "A.recipe": "thermal_extra:crafting/nitratic_igniter",
+      "title": "Нитратный воспламенитель"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Совместимость дополнений",
+      "text": "$(li)$(l:thermal:technology/augments/integral_comComponents)Встроенные компоненты$(/l)$(li)$(l:thermal:technology/augments/item_filter)Фильтр предметов$(/l)$(li)$(l:thermal:technology/augments/xp_storage)Знания Концентратор$(/l)$(li)$(l:thermal:technology/augments/rf_coil)Расширенная ВЧ-катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)Стабилизированная ВЧ-катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)ВЧ-высокопоточный поток Катушка$(/l)$(li)$(l:thermal:technology/augments/machine_speed)Усилитель потокосцепления$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)КПД потока$(/l)$(li)$(l:thermal:technology/augments/machine_output)Вспомогательный процесс Сито$(/l)$(li)$(l:thermal:technology/augments/machine_null)Вспомогательный кактус$(/l)$(li)$(l:thermal:technology/augments/machine_catalyst)Каталитическая камера регенерации$(/l)"
+    }
+  ]
+}

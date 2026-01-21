@@ -26,9 +26,7 @@
     {
       "type": "patchouli:image",
       "title": "Фейный Фонтан",
-      "images": [
-        "terramity:textures/screens/fairy.png"
-      ],
+      "images": ["terramity:textures/screens/fairy.png"],
       "border": true,
       "text": "Фейные фонтаны можно найти редко под землей, где камень соединяется с глубинным сланцем."
     }

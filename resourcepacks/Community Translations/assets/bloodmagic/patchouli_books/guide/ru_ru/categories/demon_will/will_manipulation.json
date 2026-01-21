@@ -1,6 +1,6 @@
 {
-  "name": "Will Manipulation",
-  "description": "Demonic will is strange stuff. Untapped, it seems to coalesce around entities, but it can be tapped, harnessed, and controlled. This chapter lays out the underlying concepts and advanced techniques for Demon Will manipulation.",
+  "name": "Манипуляция волей",
+  "description": "Демоническая воля — странная штука. Неиспользованный, он, кажется, сливается вокруг сущностей, но его можно использовать, использовать и контролировать. В этой главе излагаются основные концепции и передовые методы манипулирования Волей Демона.",
   "icon": "bloodmagic:basemonstersoul",
   "parent": "bloodmagic:demon_will"
 }

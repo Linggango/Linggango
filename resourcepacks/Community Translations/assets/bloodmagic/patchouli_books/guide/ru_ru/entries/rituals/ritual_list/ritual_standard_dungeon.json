@@ -1,24 +1,24 @@
 {
-  "name": "Pathway to the Endless Realm",
+  "name": "Путь в Бесконечный мир",
   "icon": "bloodmagic:ingot_hellforged",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Endless Realm",
+      "name": "Бесконечное царство",
       "multiblock_id": "bloodmagic:standard_dungeon",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
       "ritual": "standard_dungeon",
       "text_overrides": [
         [
-          "Demon Realm",
+          "Царство Демонов",
           "thing"
         ]
       ],
-      "text": "Beware, the Demon Realm is highly dangerous. Come prepared!"
+      "text": "Остерегайтесь, Царство Демонов очень опасно. Приходите подготовленными!"
     }
   ]
 }

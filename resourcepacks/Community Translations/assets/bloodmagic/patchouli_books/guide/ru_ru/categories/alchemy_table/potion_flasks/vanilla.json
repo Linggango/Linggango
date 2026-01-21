@@ -1,6 +1,6 @@
 {
-  "name": "Vanilla Effects",
-  "description": "These effects can be replicated by a standard $(item)Brewing Stand$(), though obviously not nearly as efficiently.",
+  "name": "Ванильные эффекты",
+  "description": "Эти эффекты могут быть воспроизведены стандартным $(item)Brewing Stand$(), хотя, очевидно, не так эффективно.",
   "icon": "minecraft:brewing_stand",
   "parent": "bloodmagic:alchemy_table/potion_flasks"
 }

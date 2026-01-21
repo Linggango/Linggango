@@ -1,6 +1,6 @@
 {
-  "name": "Living Armor Downgrades",
-  "description": "A list of available Living Armor Downgrades. $(br2) click $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade#downgrades)HERE$() for a primer on how they work.",
+  "name": "Понижение уровня Живой брони",
+  "description": "Список доступных понижений Живой брони. $(br2) нажмите $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade#downgrades)ЗДЕСЬ$(), чтобы узнать, как они работают.",
   "icon": "bloodmagic:upgradescraps",
   "parent": "bloodmagic:alchemy_array/living_equipment"
 }

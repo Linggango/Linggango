@@ -5,26 +5,26 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Regeneration$() heals the target over time. Higher levels increase the rate of healing."
+      "text": "$(thing)Regeneration$() со временем исцеляет цель. Более высокие уровни увеличивают скорость исцеления."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Regeneration (3:00)",
+      "a.heading": "Регенерация (3:00)",
       "a.recipe": "bloodmagic:flask/regen",
-      "b.heading": "Regeneration (8:00)",
+      "b.heading": "Регенерация (8:00)",
       "b.recipe": "bloodmagic:flask/length_regen",
-      "c.heading": "Regeneration II (1:30)",
+      "c.heading": "Регенерация II (1:30)",
       "c.recipe": "bloodmagic:flask/potency_regen"
     },
     {
       "type": "patchouli:text",
-      "text": "adding $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() can further boost your potions."
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
     },
     {
       "type": "bloodmagic:2x_crafting_flask",
-      "a.heading": "Regeneration III (0:45)",
+      "a.heading": "Регенерация III (0:45)",
       "a.recipe": "bloodmagic:flask/potency_average_regen",
-      "b.heading": "Regeneration (21:20)",
+      "b.heading": "Регенерация (21:20)",
       "b.recipe": "bloodmagic:flask/length_average_regen"
     }
   ]

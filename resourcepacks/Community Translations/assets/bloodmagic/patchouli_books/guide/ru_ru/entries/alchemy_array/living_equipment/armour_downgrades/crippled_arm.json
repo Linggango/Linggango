@@ -1,11 +1,11 @@
 {
-  "name": "Crippled Arm",
+  "name": "Искалеченная рука",
   "icon": "minecraft:shield",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Prevents you from using your offhand item. This includes placing torches, raising your shield, etc."
+      "text": "Эффект: Не позволяет вам использовать предмет для левой руки. Это включает в себя размещение факелов, поднятие щита и т. д."
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

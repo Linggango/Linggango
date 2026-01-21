@@ -1,24 +1,24 @@
 {
-  "name": "Ritual of Living Evolution",
+  "name": "Ритуал живой эволюции",
   "icon": "bloodmagic:livingplate",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Ritual of Living Evolution",
+      "name": "Ритуал живой эволюции",
       "multiblock_id": "bloodmagic:armour_evolve",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
       "ritual": "armour_evolve",
       "text_overrides": [
         [
-          "Living Armor",
+          "Живая броня",
           "l:bloodmagic:alchemy_array/living_equipment/living_basics"
         ]
       ],
-      "text": "Stand on the $(l:bloodmagic:rituals/ritual_stones)Master Ritual Stone$() while wearing $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armor$() to use this $(thing)ritual$()."
+      "text": "Встаньте на $(l:bloodmagic:rituals/ritual_stones)Мастерский ритуальный камень$(), надев $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живую броню$(), чтобы использовать этот $(thing)ритуал$()."
     }
   ]
 }

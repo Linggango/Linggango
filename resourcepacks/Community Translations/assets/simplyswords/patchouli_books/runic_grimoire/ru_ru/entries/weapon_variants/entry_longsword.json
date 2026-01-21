@@ -1,12 +1,12 @@
 {
-  "name": "Longsword",
+  "name": "Длинный меч",
   "icon": "simplyswords:iron_longsword",
   "category": "simplyswords:category_weapon_variants",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:iron_longsword",
-      "text": "The longsword is a versatile weapon that can be used for cutting, thrusting, and slicing. It was widely used by knights and other soldiers during the medieval period. The longsword is considered as the quintessential weapon of the knight and is known for its precision, cutting power and versatility."
+      "text": "Длинный меч — это универсальное оружие, подходящее для рубящих, колющих и режущих ударов. Он широко использовался рыцарями и другими воинами в средние века. Длинный меч считается классическим оружием рыцаря и известен своей точностью, режущей способностью и универсальностью."
     },
     {
       "type": "patchouli:crafting",

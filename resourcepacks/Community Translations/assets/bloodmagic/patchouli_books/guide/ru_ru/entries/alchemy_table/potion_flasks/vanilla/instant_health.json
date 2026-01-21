@@ -1,19 +1,19 @@
 {
-  "name": "Instant Health",
+  "name": "Мгновенное здоровье",
   "icon": "minecraft:glistering_melon_slice",
   "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Instant Health$() heals the target for 4 points per level. If the target is $(thing)Undead$(), they will be harmed for 4 points per level instead."
+      "text": "$(thing)Instant Health$() исцеляет цель на 4 очка за уровень. Если целью является $(thing)Undead$(), вместо этого они получат 4 очка за уровень."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Instant Health",
+      "a.heading": "Мгновенное здоровье",
       "a.recipe": "bloodmagic:flask/health",
-      "b.heading": "Instant Health II",
+      "b.heading": "Мгновенное здоровье II",
       "b.recipe": "bloodmagic:flask/potency_health",
-      "c.heading": "Instant Health III",
+      "c.heading": "Мгновенное здоровье III",
       "c.recipe": "bloodmagic:flask/potency_average_health"
     }
   ]

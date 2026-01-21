@@ -1,6 +1,6 @@
 {
-  "name": "Potion Flasks",
-  "description": "Many different Effects exist, so in the interests of organisation, you\u0027ve tried to sort them by their source.",
+  "name": "Фляги для зелий",
+  "description": "Существует множество различных эффектов, поэтому в интересах организации вы попытались отсортировать их по источнику.",
   "icon": "bloodmagic:alchemy_flask",
   "parent": "bloodmagic:alchemy_table"
 }

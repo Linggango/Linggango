@@ -1,9 +1,11 @@
 {
-  "name": "NOT YET IMPLEMENTED",
+  "name": "ЕЩЕ НЕ РЕАЛИЗОВАНО",
   "icon": "minecraft:barrier",
   "category": "bloodmagic:utility",
   "extra_recipe_mappings": {
     "bloodmagic:lightritualstone": 0,
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0,
     "bloodmagic:etherealslate": 0,
     "bloodmagic:nether_soil": 0,
     "bloodmagic:growing_doubt": 0,
@@ -14,27 +16,27 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "OK. Breaking the fourth wall here. $(blood)Blood Magic$() is not entirely feature complete, and some things you may recall from earlier versions are Not Yet Implemented. Some of these things may come back in the future, others are done and dusted. (Looking at you, Bound Armour and Weapons...)"
+      "text": "ОК. Ломаем четвертую стену здесь. $(blood)Blood Magic$() не является полностью функциональной, и некоторые вещи, которые вы, возможно, помните из более ранних версий, еще не реализованы. Некоторые из этих вещей могут вернуться в будущем, другие уже сделаны и вычищены. (Глядя на тебя, Связанные Доспехи и Оружие...)"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Arcane Ash Rituals. Some of these are coming back soon(tm),for now wait and see. $(li)Ritual of Binding. This went out with 1.7.10, stop asking. $(li)Imperfect Rituals (Lapis etc) - some of these have been implemented as Arcane Ash Arrays.  $(li)Sigil of the Frozen Lake. $(li)Sigil of Elasticity. $(li)Sigil of Elemental Affinity. $(li)Sigil of the Claw. $(li)Interdiction Ritual. $(li)Ritual of Containment. $(li)Le Vulcano Frigius."
+      "text": "$(li)Ритуалы чародейского пепла. Некоторые из них скоро вернутся (тм), а пока подождем и посмотрим. $(li)Ритуал связывания. Это вышло с 1.7.10, хватит спрашивать. $(li)Несовершенные ритуалы (ляпис и т. д.) — некоторые из них реализованы в виде массивов тайного пепла. $(li)Сигил замерзшего озера. $(li)Сигила Эластичности. $(li)Печать стихийного родства. $(li)Печать Когтя. $(li)Ритуал запрета. $(li)Ритуал сдерживания. $(li)Ле Вулкано Фригиус."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Ritual of Suppression. $(li)Ritual Dismantler. $(li)Ritual Diviner (Dawn). $(li)Grand Tartaric Gem. $(li)Spectral Weapons and Tools. $(li)Transposition Sigil. $(li)Sigil of Ender Severance. $(li)Sigil of Compression. $(li)Sigil of the Phantom Bridge. $(li)Assembly of the High Altar. $(li)Cry of the Eternal Soul. $(li)Hymn of Syphoning."
+      "text": "$(li)Ритуал подавления. $(li)Ритуальный демонтажник. $(li)Ритуальный прорицатель (Рассвет). $(li)Великий татарский драгоценный камень. $(li)Спектральное оружие и инструменты. $(li)Транспозиция Сигила. $(li)Сигил Эндера Северанса. $(li)Сигила сжатия. $(li)Сигил Призрачного моста. $(li)Собрание главного алтаря. $(li)Крик Вечной Души. $(li)Гимн сифонирования."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)The Gate of the Fold. $(li)Ritual of the Feathered Earth. $(li)Ritual of Expulsion. $(li)Awakened Activation Crystal."
+      "text": "$(li)Врата Каньона. $(li)Ритуал Пернатой Земли. $(li)Ритуал изгнания. $(li)Пробужденный кристалл активации."
     },
     {
       "type": "patchouli:text",
-      "text": "Other things may appear or disappear as the mod marches onwards. $(br2)For more information, check out the following: $(li)$(l:https://github.com/WayofTime/BloodMagic)Blood Magic Github$(), $(li)the $(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Blood Magic Curseforge Page$(), $(li)and the $(l:https://discord.gg/VtNrGrs)Blood Magic Discord$()."
+      "text": "Другие вещи могут появляться или исчезать по мере продвижения мода. $(br2)Для получения дополнительной информации посетите следующее: $(li)$(l:https://github.com/WayofTime/BloodMagic)Blood Magic Github$(), $(li)the $(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Blood Magic Curseforge Page$(), $(li)и $(l:https://discord.gg/VtNrGrs)Blood Magic Discord$()."
     },
     {
       "type": "patchouli:text",
-      "text": "This manual was put together by Wrincewind and VT-14, building on Way\u0027s original manual, with some help from Patchouli and MinecraftGuides.net. Thank you for playing! :)"
+      "text": "Это руководство было составлено Wrincewind и VT-14 на основе оригинального руководства Уэя при некоторой помощи Patchouli и MinecraftGuides.net. Спасибо за игру! :)"
     }
   ]
 }

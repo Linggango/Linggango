@@ -1,0 +1,16 @@
+{
+  "name": "Огненный ареал",
+  "icon": "twilightforest:torchberries",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот эффект защищает игрока от воспламенения и поджигает всех врагов вокруг. Обратите внимание, что он не защищает от урона огнём.$(br2)Зона действия эффекта отмечена частицами пламени."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:torchberries",
+      "text": "Можно получить из напитков и десертов, приготовленных из огненных ягод"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Получение Томагавк-Смика",
+  "icon": "twilightdelight:raw_tomahawk_smeak",
+  "category": "twilightdelight:tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы можете добыть Томагавк-Смик у Минотавров и Грибтавров с помощью Алмазного топора минотавра с различным шансом."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:raw_tomahawk_smeak",
+      "text": "Это ингредиент для приготовления бефстроганова из мифа."
+    }
+  ]
+}

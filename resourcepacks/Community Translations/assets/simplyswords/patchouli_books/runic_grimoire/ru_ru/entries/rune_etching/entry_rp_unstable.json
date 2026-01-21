@@ -1,17 +1,17 @@
 {
-  "name": "Unstable",
+  "name": "Нестабильность",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Unstable",
-      "text": "Unstable is a runic power that imbues the wielder\u0027s weapon with the $(#9243a3)$(l)essence of chaos$(). $(br2)It grants the wielder a chance to periodically apply random effects to themselves."
+      "title": "Нестабильность",
+      "text": "Нестабильность — это руническая сила, наполняющая оружие владельца $(#9243a3)$(l)эссенцией хаоса$(). $(br2)Даёт шанс периодически накладывать на владельца случайные эффекты."
     },
     {
       "type": "patchouli:text",
-      "text": "Keep in mind that this power is highly unpredictable, as it can also have negative effects. $(br2)It\u0027s ideal for players that enjoy taking risks and being surprised by the outcome, but it\u0027s not recommended for players that prefer consistency in battle."
+      "text": "Имейте в виду, что эта сила крайне непредсказуема и может вызывать как положительные, так и отрицательные эффекты. $(br2)Идеально подходит для игроков, которые любят рисковать и получать неожиданные результаты, но не рекомендуется тем, кто предпочитает стабильность в бою."
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Морозное Динамо",
+  "icon": "thermal_extra:dynamo_frost",
+  "category": "thermal:dynamos",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Frost Dynamo использует холодные предметы, такие как лед или снег, для производства радиочастотного излучения."
+    },
+    {
+      "type": "thermal:double_crafting_page",
+      "A.recipe": "thermal_extra:crafting/dynamo_frost",
+      "title": "Морозное Динамо"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Совместимость дополнений",
+      "text": "$(li)$(l:thermal:technology/augments/integral_comComponents)Встроенные компоненты$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)Расширенная конструкция резервуара$(/l)$(li)$(l:thermal:technology/augments/dynamo_output)Вспомогательная реакция Камера$(/l)$(li)$(l:thermal:technology/augments/dynamo_fuel)Многоцикловые форсунки$(/l)"
+    }
+  ]
+}

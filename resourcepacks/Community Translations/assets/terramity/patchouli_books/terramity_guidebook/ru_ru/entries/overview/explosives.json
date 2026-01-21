@@ -10,9 +10,9 @@
     {
       "type": "patchouli:spotlight",
       "text": "Позже в моде вы должны бросить определенный предмет в черную дыру (для чего требуется взрывчатка), чтобы получить необходимый предмет. Правило игры доводит дело до того, что при взрыве бомбы черной дыры вместо этого просто выпадает необходимый предмет. $(br2)/gamerule AllowTerramityExplosives false",
-      "item": {
-        "item": "terramity:black_hole_bomb"
-      }
+	  "item": {
+		"item": "terramity:black_hole_bomb"
+	  }
     }
   ]
 }

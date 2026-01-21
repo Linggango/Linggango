@@ -1,5 +1,5 @@
 {
-  "name": "Rune Etching",
-  "description": "Upon your adventures you may stumble across chests that contain Runic Tablets. These tablets can be used to etch runes onto Netherite weapons within a smithing table, granting them powerful magic abilities.",
+  "name": "Нанесение рун",
+  "description": "Во время своих приключений вы можете найти сундуки с руническими табличками. Эти таблички позволяют наносить руны на незеритовые оружия с помощью кузнечного стола, наделяя их мощными магическими способностями.",
   "icon": "simplyswords:runic_tablet"
 }

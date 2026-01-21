@@ -1,5 +1,5 @@
 {
-  "name": "Weapon Variants",
-  "description": "There are many different types of weapons that can be crafted, with each offering different fighting styles, and each with a variant for Iron, Gold, Diamond, and Netherite.",
+  "name": "Варианты оружия",
+  "description": "Существует множество различных видов оружия, которые можно создать. Каждый тип предлагает свой стиль боя, а также имеет варианты для железа, золота, алмаза и незерита.",
   "icon": "simplyswords:iron_longsword"
 }

@@ -7,11 +7,9 @@
       "type": "patchouli:text",
       "text": "Быстрое охлаждение — это чары, добавленные Terramity.$(br)$(br)Это чары уменьшают время восстановления рельсы оружия на 12% за каждый уровень.$(br)$(br)Максимальный уровень: 3"
     },
-    {
+	{
       "type": "patchouli:image",
-      "images": [
-        "terramity:textures/screens/guns.png"
-      ],
+      "images": ["terramity:textures/screens/guns.png"],
       "border": true
     }
   ]

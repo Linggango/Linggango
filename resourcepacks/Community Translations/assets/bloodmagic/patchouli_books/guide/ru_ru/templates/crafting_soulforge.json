@@ -3,7 +3,7 @@
   "components": [
     {
       "type": "patchouli:header",
-      "text": "#heading",
+      "text": "#заголовок",
       "x": -1,
       "y": -6
     },
@@ -65,8 +65,8 @@
     {
       "type": "patchouli:tooltip",
       "tooltip": [
-        "Minimum: #willrequired# Will",
-        "Drained: #willdrain# Will"
+        "Минимум: #willrequired# Будет",
+        "Истощен: #willdrain# Уилл"
       ],
       "x": 59,
       "y": 8,
@@ -81,7 +81,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "#text",
+      "text": "#текст",
       "y": 51
     }
   ]

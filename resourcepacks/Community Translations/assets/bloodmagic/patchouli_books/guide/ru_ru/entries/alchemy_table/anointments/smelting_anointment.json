@@ -1,25 +1,25 @@
 {
-  "name": "Slow-burning Oil",
+  "name": "Трудногорящее масло",
   "icon": "bloodmagic:smelting_anointment",
   "category": "bloodmagic:alchemy_table/anointments",
   "pages": [
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Slow-burning Oil",
+      "heading": "Трудногорящее масло",
       "recipe": "bloodmagic:alchemytable/smelting_anointment",
-      "text": "Uses heat to smelt harvested blocks. $(br2)Valid items: Tools, Swords, Charges. $(br2)Applies: Heated Tool I (256 blocks)"
+      "text": "Использует тепло для плавления собранных блоков. $(br2)Действующие предметы: Инструменты, Мечи, Заряды. $(br2)Применяется: Инструмент с подогревом I (256 блоков)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Slow-burning Oil L",
+      "heading": "Трудногорючее масло Л",
       "recipe": "bloodmagic:alchemytable/smelting_anointment_l",
-      "text": "This upgraded version of the anointment lasts four times longer. $(br2)Applies: Heated Tool I (1024 blocks)"
+      "text": "Эта обновленная версия помазания действует в четыре раза дольше. $(br2)Применяется: Инструмент с подогревом I (1024 блока)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Slow-burning Oil XL",
+      "heading": "Трудногорючее масло XL",
       "recipe": "bloodmagic:alchemytable/smelting_anointment_xl",
-      "text": "This upgraded version of the anointment lasts sixteen times longer. $(br2)Applies: Heated Tool I (4096 blocks)"
+      "text": "Эта обновленная версия помазания действует в шестнадцать раз дольше. $(br2)Применяется: Инструмент с подогревом I (4096 блоков)"
     }
   ]
 }

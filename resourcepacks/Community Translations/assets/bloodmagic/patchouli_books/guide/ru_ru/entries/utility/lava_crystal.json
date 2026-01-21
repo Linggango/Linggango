@@ -1,16 +1,16 @@
 {
-  "name": "Lava Crystal",
+  "name": "Кристалл лавы",
   "icon": "bloodmagic:lavacrystal",
   "category": "bloodmagic:utility",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Lava Crystal$() is a source of great heat. Between the $(fire)lava$() used in its creation and the power of your $(l:bloodmagic:altar/soul_network)Soul Network$(), you feel confident that it will never cool.$(br2) Pressing [$(k:use)] while looking at any block in the world will ignite it, at a cost of 100 LP."
+      "text": "$(item)Кристалл лавы$() — источник сильного тепла. Благодаря $(fire)lava$(), использованному при его создании, и силе вашей $(l:bloodmagic:altar/soul_network)Soul Network$() вы можете быть уверены, что он никогда не остынет.$(br2) Нажатие [$(k:use)] при взгляде на любой блок в мире подожжет его, заплатив 100 LP."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:lava_crystal",
-      "text": "$(br)Furthermore, if placed in the fuel slot of a $(item)Furnace$(), it will act as a never-ending $(thing)fuel source$(), consuming 50LP to burn for 10 seconds, or long enough to cook one item."
+      "text": "$(br)Более того, если его поместить в топливный слот $(item)Furnace$(), он будет действовать как бесконечный $(thing)источник топлива$(), потребляя 50LP для горения в течение 10 секунд или достаточно долго, чтобы приготовить один предмет."
     }
   ]
 }

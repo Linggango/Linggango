@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Increases XP drops from killing mobs, up to 150%. $(br2)Trained by: Collecting XP. $(br2)Maximum level: 10"
+      "text": "Эффект: увеличивает выпадение опыта за убийство мобов до 150%. $(br2)Тренируется: Сбор опыта. $(br2)Максимальный уровень: 10"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

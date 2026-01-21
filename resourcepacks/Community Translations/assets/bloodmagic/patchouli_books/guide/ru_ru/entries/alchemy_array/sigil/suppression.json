@@ -1,19 +1,19 @@
 {
-  "name": "Sigil of Suppression",
+  "name": "Символ подавления",
   "icon": "bloodmagic:sigilofsuppression",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Sigil of Suppression$(), when activated via pressing [$(k:use)], will temporarily obliviate all fluids in a roughly 6-block radius of its holder. A short while after moving away from the liquid in question, it will return as though it never left. While this will make exploring the lava oceans of the Nether much easier, beware of jumping into any deep pools of water with this active!"
+      "text": "$(item)Сигила подавления$(), при активации нажатием [$(k:use)], временно уничтожает все жидкости в радиусе примерно 6 блоков от своего держателя. Через некоторое время после удаления от рассматриваемой жидкости она вернется, как будто никогда не уходила. Хотя это значительно облегчит исследование лавовых океанов Нижнего мира, остерегайтесь прыгать в глубокие водоёмы с этим активом!"
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
-      "alchemy_table.heading": "Suppression Reagent",
+      "alchemy_table.heading": "Реагент подавления",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_suppression",
-      "array.heading": "Sigil of Suppression",
+      "array.heading": "Символ подавления",
       "array.recipe": "bloodmagic:array/suppressionsigil",
-      "array.text": "$(italic)Better than a Void Sigil®!"
+      "array.text": "$(курсив)Лучше, чем Символ Бездны®!"
     }
   ]
 }

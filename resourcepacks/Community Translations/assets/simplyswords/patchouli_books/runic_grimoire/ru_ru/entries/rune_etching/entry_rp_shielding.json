@@ -1,17 +1,17 @@
 {
-  "name": "Shielding",
+  "name": "Щитование",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Shielding",
-      "text": "Shielding is a runic power that imbues the wielder\u0027s weapon with the $(#389fff)$(l)essence of protection$(). $(br2)It grants the wielder a chance to grant absorption on hit with each successful strike."
+      "title": "Щитование",
+      "text": "Щитование — это руническая сила, наполняющая оружие владельца $(#389fff)$(l)эссенцией защиты$(). $(br2)Даёт шанс получить эффект поглощения при каждом успешном ударе по врагу."
     },
     {
       "type": "patchouli:text",
-      "text": "Shielding is a powerful runic power that can give the wielder an edge in battle by protecting them from harm. It\u0027s ideal for characters that are focused on tanking and absorbing damage, such as warriors and paladins. $(br2)It also can be useful for characters that rely on heavy hitting attacks, as the absorption effect allows them to stay in the fight for longer."
+      "text": "Щитование — мощная руна, которая даёт владельцу преимущество в бою, защищая его от урона. Идеально подходит для персонажей, ориентированных на танкование и поглощение урона, таких как воины и паладины. $(br2)Также будет полезна тем, кто полагается на мощные атаки, ведь эффект поглощения позволяет дольше оставаться в бою."
     }
   ]
 }

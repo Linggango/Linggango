@@ -1,0 +1,12 @@
+{
+  "name": "Добыча живого корня",
+  "icon": "twilightforest:liveroot",
+  "category": "twilightdelight:tricks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:liveroot_block",
+      "text": "Корневые блоки, расположенные рядом с плодородной почвой и блоком живого корня, будут постепенно превращаться в живой корень, что позволяет создавать фермы этого растения."
+    }
+  ]
+}

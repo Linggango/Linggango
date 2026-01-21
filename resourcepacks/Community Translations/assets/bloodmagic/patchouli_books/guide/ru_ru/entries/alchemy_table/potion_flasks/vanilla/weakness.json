@@ -5,26 +5,26 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Weakness$() decreases the target\u0027s attack damage by 4 points per level."
+      "text": "$(thing)Weakness$() уменьшает урон от атаки цели на 4 пункта за уровень."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Weakness (3:00)",
+      "a.heading": "Слабость (3:00)",
       "a.recipe": "bloodmagic:flask/weakness",
-      "b.heading": "Weakness (8:00)",
+      "b.heading": "Слабость (8:00)",
       "b.recipe": "bloodmagic:flask/length_weakness",
-      "c.heading": "Weakness II (1:30)",
+      "c.heading": "Слабость II (1:30)",
       "c.recipe": "bloodmagic:flask/potency_weakness"
     },
     {
       "type": "patchouli:text",
-      "text": "adding $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() can further boost your potions."
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
     },
     {
       "type": "bloodmagic:2x_crafting_flask",
-      "a.heading": "Weakness III (0:45)",
+      "a.heading": "Слабость III (0:45)",
       "a.recipe": "bloodmagic:flask/potency_average_weakness",
-      "b.heading": "Weakness (21:20)",
+      "b.heading": "Слабость (21:20)",
       "b.recipe": "bloodmagic:flask/length_average_weakness"
     }
   ]

@@ -1,13 +1,13 @@
 {
-  "name": "Well of Suffering",
+  "name": "Колодец страданий",
   "icon": "bloodmagic:life_essence_bucket",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Well Of Suffering",
+      "name": "Колодец страданий",
       "multiblock_id": "bloodmagic:well_of_suffering",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -18,27 +18,27 @@
           "blood"
         ],
         [
-          "blood altar",
+          "кровавый алтарь",
           "l:bloodmagic:altar/blood_altar"
         ]
       ]
     },
     {
       "type": "patchouli:text",
-      "text": "This ritual attacks mobs within its damage zone and puts the harvested $(blood)Blood$() into a nearby $(l:bloodmagic:altar/blood_altar)Blood Altar$(). Put a $(l:bloodmagic:altar/soul_network)Blood Orb$() in the Altar, maybe add a few $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Runes of Sacrifice$() for good measure and you\u0027ll never have to worry about your LP supplies again... As long as you can supply enough mobs."
+      "text": "Этот ритуал атакует мобов в зоне поражения и помещает собранную $(blood)Blood$() в ближайший $(l:bloodmagic:altar/blood_altar)Blood Altar$(). Поместите $(l:bloodmagic:altar/soul_network)Blood Orb$() в Алтарь, возможно, добавьте несколько $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Runes of Sacrifice$() на всякий случай, и вам больше никогда не придется беспокоиться о своих запасах LP... Пока вы сможете предоставить достаточно мобов."
     },
     {
       "type": "bloodmagic:ritual_data",
       "ritual": "well_of_suffering",
       "page_type": "altar",
-      "text": "The Ritual can only link to one altar at a time.",
+      "text": "Ритуал может быть связан только с одним алтарем одновременно.",
       "text_overrides": [
         [
-          "Blood Altar",
+          "Кровавый Алтарь",
           "l:bloodmagic:altar/blood_altar"
         ],
         [
-          " Blood",
+          "Кровь",
           "blood"
         ]
       ]
@@ -47,7 +47,7 @@
       "type": "bloodmagic:ritual_data",
       "ritual": "well_of_suffering",
       "page_type": "damage",
-      "text": "Mobs will still drop non-Player Kill mob drops."
+      "text": "Из мобов по-прежнему будут выпадать предметы, не связанные с убийством игрока."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "name": "Spike Array",
+  "name": "Шиповый массив",
   "icon": "minecraft:iron_ingot",
   "category": "bloodmagic:alchemy_array/functional_array",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Spike Array is a rather simple array with a single purpose. When a living entity steps into the array, they are hit with a full heart of damage. This is good for mob traps, or for making your base a bit spikier for players."
+      "text": "Spike Array — довольно простой массив с единственной целью. Когда живое существо входит в массив, оно получает полный урон в сердце. Это хорошо для ловушек для мобов или для того, чтобы сделать вашу базу более опасной для игроков."
     },
     {
       "type": "bloodmagic:functional_array",
-      "heading": "Spike Array",
+      "heading": "Шиповый массив",
       "recipe": "bloodmagic:array/spike",
       "image": "spikearray.png"
     }

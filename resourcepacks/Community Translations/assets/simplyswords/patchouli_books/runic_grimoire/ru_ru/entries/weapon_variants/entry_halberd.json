@@ -1,12 +1,12 @@
 {
-  "name": "Halberd",
+  "name": "Алебарда",
   "icon": "simplyswords:iron_halberd",
   "category": "simplyswords:category_weapon_variants",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:iron_halberd",
-      "text": "A Halberd is a type of pole weapon that features a long shaft with a sharp, hooked blade on one end and a axe head on the other. With its versatility and reach, the halberd is a formidable weapon in the hands of a skilled warrior."
+      "text": "Алебарда — это разновидность древкового оружия с длинным древком, на одном конце которого находится острое изогнутое лезвие-крюк, а на другом — топорный наконечник. Благодаря своей универсальности и большой дальности атаки алебарда становится грозным оружием в руках опытного воина."
     },
     {
       "type": "patchouli:crafting",

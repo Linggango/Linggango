@@ -1,5 +1,5 @@
 {
-  "name": "Twisted Blade",
+  "name": "Искривлённое Лезвие",
   "icon": "simplyswords:twisted_blade",
   "advancement": "simplyswords:twisted_blade",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:twisted_blade",
-      "text": "The Twisted Blade is a formidable greatsword that is known for its unique and deadly design. The blade of the sword is made of a special type of steel that is known for its ability to twist and contort with each strike."
+      "text": "Искривлённое Лезвие — это грозный двуручный меч, известный своим уникальным и смертоносным строением. Клинок этого меча выкован из особой стали, способной скручиваться и изгибаться при каждом ударе."
     },
     {
       "type": "patchouli:text",
-      "text": "This twisting motion gives the sword an unprecedented level of speed and power, making it one of the most deadly weapons on the battlefield. The sword\u0027s ability to increase in speed with each strike makes it incredibly deadly, as it can quickly wear down an opponent\u0027s defenses and strike a fatal blow. Additionally, the sword\u0027s unique design also makes it incredibly difficult to block or parry."
+      "text": "Такое скручивание придаёт мечу невиданную скорость и мощь, делая его одним из самых опасных видов оружия на поле боя. С каждым ударом меч становится быстрее, что позволяет быстро пробивать защиту противника и наносить смертельные удары. Кроме того, необычная форма клинка делает его крайне сложным для блокирования или парирования."
     }
   ]
 }

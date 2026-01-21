@@ -1,20 +1,20 @@
 {
-  "name": "Serenade of the Nether",
+  "name": "Серенада Пустоты",
   "icon": "minecraft:lava_bucket",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Serenade of the Nether",
+      "name": "Серенада Пустоты",
       "multiblock_id": "bloodmagic:lava",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
       "ritual": "lava",
       "text_overrides": [
         [
-          "master ritual stone",
+          "Мастер ритуального камня",
           "l:bloodmagic:rituals/ritual_stones"
         ]
       ]
@@ -38,7 +38,7 @@
       "type": "bloodmagic:ritual_data",
       "ritual": "lava",
       "page_type": "corrosive",
-      "text": "Particularly useful against denizens of The Nether."
+      "text": "Особенно полезен против жителей Пустоты."
     },
     {
       "type": "bloodmagic:ritual_data",
@@ -46,11 +46,11 @@
       "page_type": "vengeful",
       "text_overrides": [
         [
-          "Fire Fuse",
+          "Пожарный предохранитель",
           "thing"
         ]
       ],
-      "text": "When the debuff ends, they will do a wonderful impression of a firework."
+      "text": "Когда дебафф закончится, они произведут чудесное впечатление фейерверка."
     },
     {
       "type": "bloodmagic:ritual_data",
@@ -58,7 +58,7 @@
       "page_type": "destructive",
       "text_overrides": [
         [
-          "Destructive Will",
+          "Разрушительная воля",
           "destructive"
         ]
       ]
@@ -69,7 +69,7 @@
       "page_type": "steadfast",
       "text_overrides": [
         [
-          "Fire Resistance",
+          "Огнестойкость",
           "thing"
         ]
       ]
@@ -85,7 +85,7 @@
       "page_type": "fireDamage",
       "text_overrides": [
         [
-          "Corrosive Will",
+          "Разъедающая воля",
           "corrosive"
         ]
       ]
@@ -96,7 +96,7 @@
       "page_type": "fireFuse",
       "text_overrides": [
         [
-          "Fire Fuse",
+          "Пожарный предохранитель",
           "thing"
         ]
       ]
@@ -107,7 +107,7 @@
       "page_type": "fireResist",
       "text_overrides": [
         [
-          "Fire Resistance",
+          "Огнестойкость",
           "thing"
         ]
       ]

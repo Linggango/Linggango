@@ -13,9 +13,7 @@
     {
       "type": "patchouli:image",
       "title": "Меню Окарины",
-      "images": [
-        "terramity:textures/screens/ocarina_screen.png"
-      ],
+      "images": ["terramity:textures/screens/ocarina_screen.png"],
       "border": true,
       "text": "Песни можно выбрать с левой стороны меню окарины."
     }

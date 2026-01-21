@@ -1,12 +1,12 @@
 {
-  "name": "Sai",
+  "name": "Сай",
   "icon": "simplyswords:iron_sai",
   "category": "simplyswords:category_weapon_variants",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:iron_sai",
-      "text": "The sai is a versatile weapon that requires a high level of skill and training to wield effectively. It\u0027s known for its ability to deflect and trap an opponent\u0027s weapon, allowing the wielder to gain an advantage in combat. Because of its small size and easy handling it can be used in tight spaces and close-quarters."
+      "text": "Сай — это универсальное оружие, для эффективного владения которым требуется высокий уровень мастерства и тренировки. Он известен своей способностью отражать и блокировать оружие противника, что позволяет получить преимущество в бою. Благодаря небольшому размеру и лёгкости управления сай отлично подходит для использования в ограниченных пространствах и ближнем бою."
     },
     {
       "type": "patchouli:crafting",

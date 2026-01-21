@@ -1,5 +1,5 @@
 {
-  "name": "Frostfall",
+  "name": "Фростфолл",
   "icon": "simplyswords:frostfall",
   "advancement": "simplyswords:frostfall",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:frostfall",
-      "text": "Frostfall is a powerful hammer that harnesses the power of ice to freeze its enemies solid. The hammer is crafted from a rare metal that is able to withstand the intense cold of the ice. The hammer head is imbued with the power of ice, allowing it to freeze anything it strikes."
+      "text": "Фростфолл — это мощный молот, использующий силу льда для замораживания врагов. Молот выкован из редкого металла, способного выдерживать экстремальный холод. Его боёк наполнен ледяной энергией, позволяя замораживать всё, к чему он прикасается."
     },
     {
       "type": "patchouli:text",
-      "text": "The hammer\u0027s unique ability is the ability to encase its wielder in a protective layer of ice, granting them increased regeneration and resistance. It\u0027s said that the hammer was created by a powerful wizard who imbued it with the power of the winter, making it a fearsome weapon on the battlefield."
+      "text": "Уникальная способность молота — окутывать владельца защитным слоем льда, даруя ему повышенную регенерацию и сопротивление урону. Говорят, что этот молот был создан могущественным чародеем, наделившим его силой зимы, что делает Фростфолл грозным оружием на поле боя."
     }
   ]
 }

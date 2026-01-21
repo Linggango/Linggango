@@ -10,18 +10,16 @@
     {
       "type": "patchouli:image",
       "title": "Никсиум",
-      "images": [
-        "terramity:textures/screens/nyxium.png"
-      ],
+      "images": ["terramity:textures/screens/nyxium.png"],
       "border": true,
       "text": "Никсиум содержит силу луны."
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:nyxium_recipe",
-      "recipe2": "terramity:nyx_to_block"
-    },
-    {
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:nyxium_recipe",
+	  "recipe2": "terramity:nyx_to_block"
+	},
+	{
       "type": "patchouli:text",
       "text": "Для этого металла нет кузнечного шаблона, вместо этого вы должны изготовить набор инструментов и броню только из слитков."
     }

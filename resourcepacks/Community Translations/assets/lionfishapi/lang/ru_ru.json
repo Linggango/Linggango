@@ -1,6 +1,6 @@
 {
-  "gui.lionfishapi.optifine.message": "Optifine is very incompatible between different mods!",
-  "gui.lionfishapi.optifine.oculussuggestions": "Instead Shader Mod Oculus",
-  "gui.lionfishapi.optifine.title": "STOP USING OPTIFINE",
-  "gui.lionfishapi.optifine.xenonsuggestions": "Instead Optimization Mod Xenon"
+  "gui.lionfishapi.optifine.message": "Optifine крайне несовместим с другими модами!",
+  "gui.lionfishapi.optifine.oculussuggestions": "Используйте мод на шейдеры Oculus",
+  "gui.lionfishapi.optifine.title": "ХВАТИТ ИСПОЛЬЗОВАТЬ OPTIFINE",
+  "gui.lionfishapi.optifine.xenonsuggestions": "Используйте мод для оптимизации Xenon"
 }

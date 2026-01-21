@@ -17,9 +17,7 @@
     {
       "type": "patchouli:image",
       "title": "Двор Гномов",
-      "images": [
-        "terramity:textures/screens/court.png"
-      ],
+      "images": ["terramity:textures/screens/court.png"],
       "border": true
     }
   ]

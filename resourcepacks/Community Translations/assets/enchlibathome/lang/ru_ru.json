@@ -1,16 +1,16 @@
 {
-  "block.enchlibathome.ender_library": "Library of Alexandria",
-  "block.enchlibathome.library": "Enchantment Library",
+  "block.enchlibathome.ender_library": "Александрийская библиотека",
+  "block.enchlibathome.library": "Библиотека зачарований",
   "enchantment.level.16": "XVI",
   "enchantment.level.31": "XXXI",
-  "enchlibathome.ench.library": "Enchantment Library",
-  "info.enchlibathome.library": "The enchantment library is a block that stores enchantments.  Inserting an enchanted book will deposit it.  Left-clicking on a stored enchantment will extract one level of it.  Shift-clicking will extract the max level available.",
+  "enchlibathome.ench.library": "Библиотека зачарований",
+  "info.enchlibathome.library": "Библиотека зачарований — это блок для хранения чар. Вставьте зачарованную книгу, чтобы поместить её в библиотеку. Нажмите левой кнопкой мыши по чарам, чтобы извлечь один уровень. Нажмите Shift + ЛКМ, чтобы извлечь максимально доступный уровень.",
   "itemGroup.enchlibathome": "Enchantment Library at Home",
-  "tooltip.enchlib.capacity": "Level Capacity: %s",
-  "tooltip.enchlib.cost": "Point Cost: %s",
-  "tooltip.enchlib.extracting": "Extracting Level %s",
-  "tooltip.enchlib.item": "Storing %d enchantments.",
-  "tooltip.enchlib.max_lvl": "Max Level Available: %s",
-  "tooltip.enchlib.points": "Points Stored: %s/%s",
-  "tooltip.enchlib.unavailable": "Next Level Unavailable"
+  "tooltip.enchlib.capacity": "Вместимость (ур.): %s",
+  "tooltip.enchlib.cost": "Стоимость в очках: %s",
+  "tooltip.enchlib.extracting": "Извлечение уровня: %s",
+  "tooltip.enchlib.item": "Хранит зачарований: %d",
+  "tooltip.enchlib.max_lvl": "Макс. доступный уровень: %s",
+  "tooltip.enchlib.points": "Накоплено очков: %s/%s",
+  "tooltip.enchlib.unavailable": "Следующий уровень недоступен"
 }

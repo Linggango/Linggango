@@ -1,30 +1,30 @@
 {
-  "name": "Obsidian Cloak",
+  "name": "Обсидиановый плащ",
   "icon": "minecraft:diamond",
   "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Obsidian Cloak$() reduces all damage taken from non-magical sources by 20% per level. $(br2)It\u0027s created from a flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/hard_cloak)Hard Cloak$(), not an $(item)Empty Flask$() like most other $(thing)potions$()."
+      "text": "$(thing)Обсидиановый плащ$() снижает весь урон, получаемый от немагических источников, на 20% за уровень. $(br2)Он создан из колбы с $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/hard_cloak)Hard Cloak$(), а не из $(item)Empty Flask$(), как большинство других $(thing)potions$()."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Obsidian Cloak (3:00)",
+      "a.heading": "Обсидиановый плащ (3:00)",
       "a.recipe": "bloodmagic:flask/hard_to_obsidian",
-      "b.heading": "Obsidian Cloak (8:00)",
+      "b.heading": "Обсидиановый плащ (8:00)",
       "b.recipe": "bloodmagic:flask/length_obsidian_cloak",
-      "c.heading": "Obsidian Cloak II (1:30)",
+      "c.heading": "Обсидиановый плащ II (1:30)",
       "c.recipe": "bloodmagic:flask/potency_obsidian_cloak"
     },
     {
       "type": "patchouli:text",
-      "text": "adding $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() can further boost your potions."
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
     },
     {
       "type": "bloodmagic:2x_crafting_flask",
-      "a.heading": "Obsidian Cloak III (0:45)",
+      "a.heading": "Обсидиановый плащ III (0:45)",
       "a.recipe": "bloodmagic:flask/potency_average_obsidian_cloak",
-      "b.heading": "Obsidian Cloak (21:20)",
+      "b.heading": "Обсидиановый плащ (21:20)",
       "b.recipe": "bloodmagic:flask/length_average_obsidian_cloak"
     }
   ]

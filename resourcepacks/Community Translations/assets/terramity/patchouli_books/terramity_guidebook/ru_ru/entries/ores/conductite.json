@@ -10,18 +10,16 @@
     {
       "type": "patchouli:image",
       "title": "Кондуклит",
-      "images": [
-        "terramity:textures/screens/conductite.png"
-      ],
+      "images": ["terramity:textures/screens/conductite.png"],
       "border": true,
       "text": "Кондуклит хранит в себе силу электричества."
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:conductite_recipe",
-      "recipe2": "terramity:conductite_upgrade_recipe"
-    },
-    {
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:conductite_recipe",
+	  "recipe2": "terramity:conductite_upgrade_recipe"
+	},
+	{
       "type": "patchouli:text",
       "text": "Кузнечный шаблон выпадает из Стража испытания, и для улучшения его необходимо использовать на иридии."
     }

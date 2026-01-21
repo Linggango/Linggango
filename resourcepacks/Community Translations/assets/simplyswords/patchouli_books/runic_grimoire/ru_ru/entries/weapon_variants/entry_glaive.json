@@ -1,12 +1,12 @@
 {
-  "name": "Glaive",
+  "name": "Глефа",
   "icon": "simplyswords:iron_glaive",
   "category": "simplyswords:category_weapon_variants",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:iron_glaive",
-      "text": "A glaive is a type of polearm weapon that consists of a single-edged blade mounted on the end of a long pole or shaft, ideal for slicing or cutting. The design of the glaive allows for long reach in combat, making it useful for both attacking and defending."
+      "text": "Глефа — это разновидность древкового оружия с односторонним лезвием, закреплённым на конце длинного древка. Идеально подходит для рубящих и режущих ударов. Благодаря своей конструкции глефа обладает большой дальностью атаки, что делает её эффективной как для нападения, так и для защиты."
     },
     {
       "type": "patchouli:crafting",

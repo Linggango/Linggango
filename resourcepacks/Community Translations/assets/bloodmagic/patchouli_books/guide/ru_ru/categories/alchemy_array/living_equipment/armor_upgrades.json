@@ -1,6 +1,6 @@
 {
-  "name": "Living Armor Upgrades",
-  "description": "A list of available Living Armor Upgrades.",
+  "name": "Улучшения живой брони",
+  "description": "Список доступных улучшений живой брони.",
   "icon": "bloodmagic:upgradetome",
   "parent": "bloodmagic:alchemy_array/living_equipment"
 }

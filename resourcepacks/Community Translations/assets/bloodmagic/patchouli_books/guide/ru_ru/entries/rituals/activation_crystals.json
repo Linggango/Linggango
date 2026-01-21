@@ -1,20 +1,17 @@
 {
-  "name": "Activation Crystals",
+  "name": "Кристаллы активации",
   "icon": "bloodmagic:activationcrystalweak",
   "category": "bloodmagic:rituals",
-  "extra_recipe_mappings": {
-    "bloodmagic:activationcrystalcreative": 0
-  },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Your rituals require more than simply the correct arrangement of blocks and Sigils. An effort of will is required to open a channel from your Soul Network to the ritual, and The $(item)Activation Crystal$() will allow you to focus yourself enough to activate your rituals."
+      "text": "Ваши ритуалы требуют большего, чем просто правильное расположение блоков и печатей. Требуется усилие воли, чтобы открыть канал от вашей Сети Души к ритуалу, а $(item)Активационный Кристалл$() позволит вам достаточно сосредоточиться, чтобы активировать ваши ритуалы."
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Weak Activation Crystal",
+      "heading": "Слабый кристалл активации",
       "recipe": "bloodmagic:weak_activation_crystal",
-      "text": "Simply press [$(k:use)] with a bound Activation Crystal on a Master Ritual Stone to activate the ritual it\u0027s part of - assuming it\u0027s suitably assembled, that is.",
+      "text": "Просто нажмите [$(k:use)] с привязанным Кристаллом активации на Главном ритуальном камне, чтобы активировать ритуал, частью которого он является - при условии, что он собран соответствующим образом.",
       "anchor": "weak"
     }
   ]

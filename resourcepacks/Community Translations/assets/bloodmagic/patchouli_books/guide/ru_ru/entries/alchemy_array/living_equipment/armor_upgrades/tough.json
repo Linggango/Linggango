@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Protects you from non-projectile harm. $(br2)Trained by: Taking damage from anything but projectiles. $(br2)Maximum level: 10"
+      "text": "Эффект: Защищает вас от повреждений, не связанных с снарядами. $(br2)Тренируется: получение урона от чего угодно, кроме снарядов. $(br2)Максимальный уровень: 10"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

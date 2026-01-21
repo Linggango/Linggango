@@ -7,11 +7,9 @@
       "type": "patchouli:text",
       "text": "Узкие пеллеты — это чары, добавленные Terramity.$(br)$(br)Эти чары уменьшают разброс дробовиков.$(br)$(br)Максимальный уровень: 2$(br)$(br)Несовместимо с Переходом на пули."
     },
-    {
+	{
       "type": "patchouli:image",
-      "images": [
-        "terramity:textures/screens/guns.png"
-      ],
+      "images": ["terramity:textures/screens/guns.png"],
       "border": true
     }
   ]

@@ -1,13 +1,13 @@
 {
-  "name": "Filter Parts",
+  "name": "Части фильтра",
   "icon": "bloodmagic:componentframeparts",
   "category": "bloodmagic:demon_will/item_routing",
   "pages": [
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Filter Parts",
+      "heading": "Части фильтра",
       "recipe": "bloodmagic:alchemytable/component_frame_parts",
-      "text": "$(item)Filter Parts$() are an integral component in all $(item)Filters$(). They have no use on their own."
+      "text": "$(item)Filter Parts$() являются неотъемлемым компонентом всех $(item)Filters$(). Сами по себе они бесполезны."
     }
   ]
 }

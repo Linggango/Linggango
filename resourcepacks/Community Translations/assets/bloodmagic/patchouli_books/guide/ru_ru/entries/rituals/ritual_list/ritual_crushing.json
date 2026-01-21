@@ -1,13 +1,13 @@
 {
-  "name": "Ritual of the Crusher",
+  "name": "Ритуал Крушителя",
   "icon": "minecraft:iron_pickaxe",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Ritual of the Crusher",
+      "name": "Ритуал Крушителя",
       "multiblock_id": "bloodmagic:crushing",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -19,7 +19,7 @@
       "page_type": "raw",
       "text_overrides": [
         [
-          "Raw Will",
+          "сырая воля",
           "raw"
         ]
       ]
@@ -30,11 +30,11 @@
       "page_type": "corrosive",
       "text_overrides": [
         [
-          "Cutting Fluid",
+          "Смазочно-охлаждающая жидкость",
           "l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid"
         ],
         [
-          "Silk Touch",
+          "Шелковое прикосновение",
           "item"
         ]
       ]
@@ -43,7 +43,7 @@
       "type": "bloodmagic:ritual_data",
       "ritual": "crushing",
       "page_type": "vengeful",
-      "text": "For example, it will turn Coal into Blocks of Coal, Redstone Dust into Blocks of Redstone, etc."
+      "text": "Например, он превратит уголь в блоки угля, пыль из красного камня в блоки из красного камня и т. д."
     },
     {
       "type": "bloodmagic:ritual_data",
@@ -51,7 +51,7 @@
       "page_type": "destructive",
       "text_overrides": [
         [
-          "Fortune III",
+          "Фортуна III",
           "item"
         ]
       ]
@@ -62,7 +62,7 @@
       "page_type": "steadfast",
       "text_overrides": [
         [
-          "Silk Touch",
+          "Шелковое прикосновение",
           "item"
         ],
         [

@@ -1,56 +1,56 @@
 {
-  "name": "The Ritual Diviner",
+  "name": "Ритуальный прорицатель",
   "icon": "bloodmagic:ritualdiviner",
   "category": "bloodmagic:rituals",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Crafting rituals is an intricate business; Even if you have the correct $(item)Inscription Tools$(), you can\u0027t just slap runic inscriptions down any old how and expect things to happen. Luckily, the $(item)Ritual Diviner$() is here to help. $(br2)Hold [$(k:sneak)] and press [$(k:use)] or [$(k:attack)] while looking at empty air to cycle through the avaliable rituals in either direction."
+      "text": "Создание ритуалов — дело сложное; Даже если у вас есть правильные $(item)Inscription Tools$(), вы не можете просто наносить рунические надписи любым старым способом и ожидать, что что-то произойдет. К счастью, $(item)Ritual Diviner$() здесь, чтобы помочь. $(br2)Удерживайте [$(k:sneak)] и нажимайте [$(k:use)] или [$(k:attack)], глядя в пустой воздух, чтобы переключаться между доступными ритуалами в любом направлении."
     },
     {
       "type": "patchouli:text",
-      "text": "you can also change the direction that the completed ritual will face by pressing [$(k:use)]. This will only affect a small number of rituals, such as the $(l:bloodmagic:rituals/ritual_list/ritual_speed)Ritual of Speed$(), as most rituals are symmetrical."
+      "text": "вы также можете изменить направление завершенного ритуала, нажав [$(k:use)]. Это повлияет только на небольшое количество ритуалов, таких как $(l:bloodmagic:rituals/ritual_list/ritual_speed)Ритуал Скорости$(), поскольку большинство ритуалов симметричны."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:ritual_diviner_0",
-      "text": "simply tap [$(k:use)] while looking at a $(item)Master Ritual Stone$() to make the Diviner build the currently selected ritual out of any $(item)Ritual Stones$() you may be carrying. It\u0027s almost like magic!"
+      "text": "просто нажмите [$(k:use)], глядя на $(item)Master Ritual Stone$(), чтобы Прорицатель построил текущий выбранный ритуал из любых $(item)Ritual Stones$(), которые вы можете носить с собой. Это почти как волшебство!"
     },
     {
       "type": "patchouli:text",
-      "text": "The Ritual Diviner can break replaceable blocks (like tall grass, snow, etc), but not solid ones such as stone or dirt, so make sure the area is clear before you commence construction, or the $(l:bloodmagic:rituals/activation_crystals)Activation Crystal$() will be unable to do its job. $(br2)It\u0027s also worth noting that the base ritual diviner can only create some of the more basic rituals. If you want the most out of your diviner, you\u0027ll have to upgrade it with $(dusk)Dusk Inscription Tools$()."
+      "text": "Ritual Diviner может разбивать заменяемые блоки (например, высокую траву, снег и т. д.), но не твердые, такие как камень или грязь, поэтому перед началом строительства убедитесь, что область свободна, иначе $(l:bloodmagic:rituals/activation_crystals)Activation Crystal$() не сможет выполнять свою работу. $(br2)Также стоит отметить, что прорицатель базового ритуала может создавать только некоторые из наиболее простых ритуалов. Если вы хотите максимально эффективно использовать свой прорицатель, вам придется обновить его с помощью $(dusk)Dusk Inscription Tools$()."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:ritual_diviner_1",
       "anchor": "dusk",
-      "text": "Unlike the Elemental Inscription Tools, the Ritual Diviner and Ritual Diviner [Dusk] will never run out."
+      "text": "В отличие от инструментов для написания стихий, Ритуальный прорицатель и Ритуальный прорицатель [Сумерки] никогда не закончатся."
     },
     {
       "type": "patchouli:text",
-      "text": "The base Ritual Diviner requires one of each $(item)Elemental Inscription Tool$() for its construction, and thus a tier 3 $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). $(br2)The four base Elemental Inscription Tools can be crafted in your Altar for $(blood)1,000 LP$() each, as defined on the following pages. The Ritual Diviner [Dusk] similarly requires a Tier 4 Altar to make two Dusk Elemental Inscription Tools, at a cost of $(blood)2,000 LP$() each."
+      "text": "Для создания базового Ritual Diviner требуется по одному из каждого $(item)Inscription Tool$() и, следовательно, $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) 3-го уровня. $(br2)Четыре базовых инструмента для написания стихий можно изготовить на вашем Алтаре за $(blood)1,000 LP$() каждый, как определено на следующих страницах. Ритуальному прорицателю [Сумерки] аналогично требуется Алтарь 4-го уровня для изготовления двух Инструментов для написания элементалей Сумерек, стоимость каждого из которых составляет $(blood)2,000 LP$()."
     },
     {
       "type": "patchouli:text",
-      "text": "You can also use these tools to inscribe runes by hand, but this should only seriously be used for decorative purposes, as it is both slow and inaccurate."
+      "text": "Вы также можете использовать эти инструменты для написания рун вручную, но серьезно использовать это следует только в декоративных целях, так как это медленно и неточно."
     },
     {
       "type": "bloodmagic:2x_crafting_altar",
-      "a.heading": "Inscription Tool: Air",
+      "a.heading": "Инструмент для надписи: Воздух",
       "a.recipe": "bloodmagic:altar/air_tool",
-      "b.heading": "Inscription Tool: Fire",
+      "b.heading": "Инструмент для надписи: Огонь",
       "b.recipe": "bloodmagic:altar/fire_tool"
     },
     {
       "type": "bloodmagic:2x_crafting_altar",
-      "a.heading": "Inscription Tool: Water",
+      "a.heading": "Инструмент для надписи: Вода",
       "a.recipe": "bloodmagic:altar/water_tool",
-      "b.heading": "Inscription Tool: Earth",
+      "b.heading": "Инструмент для надписи: Земля",
       "b.recipe": "bloodmagic:altar/earth_tool"
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Inscription Tool: Dusk",
+      "heading": "Инструмент для надписи: Сумерки",
       "recipe": "bloodmagic:altar/dusk_tool"
     }
   ]

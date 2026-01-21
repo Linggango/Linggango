@@ -1,13 +1,13 @@
 {
-  "name": "Dawn of the New Moon",
+  "name": "Рассвет новолуния",
   "icon": "minecraft:ender_pearl",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "patchouli:multiblock",
-      "name": "Dawn of the New Moon",
+      "name": "Рассвет новолуния",
       "multiblock_id": "bloodmagic:sphere",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -30,9 +30,9 @@
         "bloodmagic:images/entries/ritual/sphere_above.png",
         "bloodmagic:images/entries/ritual/sphere_below.png"
       ],
-      "title": "Default Size",
+      "title": "Размер по умолчанию",
       "border": true,
-      "text": "The result of using the ritual with the default settings."
+      "text": "Результат использования ритуала с настройками по умолчанию."
     }
   ]
 }

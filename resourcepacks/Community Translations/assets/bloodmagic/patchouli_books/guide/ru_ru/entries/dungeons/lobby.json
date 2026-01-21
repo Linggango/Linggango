@@ -1,5 +1,5 @@
 {
-  "name": "The Antechamber",
+  "name": "Прихожая",
   "icon": "bloodmagic:dungeon_seal",
   "category": "bloodmagic:dungeons",
   "extra_recipe_mappings": {
@@ -7,25 +7,50 @@
     "bloodmagic:dungeon_seal": 0,
     "bloodmagic:dungeon_controller": 0,
     "bloodmagic:inversion_pillar_cap": 0,
+    "bloodmagic:dungeon_brick3": 1,
+    "bloodmagic:dungeon_brick2": 1,
+    "bloodmagic:dungeon_brick1": 1,
+    "bloodmagic:dungeon_brick_assorted": 1,
+    "bloodmagic:dungeon_stone": 1,
+    "bloodmagic:dungeon_eye": 1,
+    "bloodmagic:dungeon_polished": 1,
+    "bloodmagic:dungeon_tile": 1,
+    "bloodmagic:dungeon_tilespecial": 1,
+    "bloodmagic:dungeon_smallbrick": 1,
+    "bloodmagic:dungeon_brick_stairs": 1,
+    "bloodmagic:dungeon_polished_stairs": 1,
+    "bloodmagic:dungeon_pillar_center": 1,
+    "bloodmagic:dungeon_pillar_special": 1,
+    "bloodmagic:dungeon_pillar_cap": 1,
+    "bloodmagic:dungeon_brick_wall": 1,
+    "bloodmagic:dungeon_polished_wall": 1,
+    "bloodmagic:dungeon_brick_gate": 1,
+    "bloodmagic:dungeon_polished_gate": 1,
+    "bloodmagic:dungeon_brick_slab": 1,
+    "bloodmagic:dungeon_tile_slab": 1,
+    "bloodmagic:dungeon_regular_cracked_brick1": 1,
+    "bloodmagic:dungeon_cracked_brick1": 1,
+    "bloodmagic:dungeon_emitter": 1,
+    "bloodmagic:dungeon_alternator": 1,
     "bloodmagic:spikes": 1,
     "bloodmagic:dungeon_spike_trap": 1
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Upon performing the $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Edge of the Hidden Realm$() ritual, you will find yourself looking at an $(thing)Inversion Pillar$(). Right click this pillar to be transported to the Antechamber, your first foray into the $(thing)Demon Realm.$() $(br)There are a few things of note in this first room: $(li)A single treasure chest containing some basic loot and, if you are lucky, a few $(l:bloodmagic:dungeons/keys)Iron Keys$()."
+      "text": "Выполнив ритуал $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Грань Скрытого Царства$(), вы обнаружите, что смотрите на $(thing)Инверсионный Столп$(). Щелкните правой кнопкой мыши по этой колонне, чтобы перенестись в Прихожую, ваш первый набег на $(thing)Царство Демонов.$() $(br)В этой первой комнате есть несколько примечательных вещей: $(li)Один сундук с сокровищами, содержащий некоторую базовую добычу и, если вам повезет, несколько $(l:bloodmagic:dungeons/keys)Железных ключей$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Secondly, a number of $(thing)Doorways$(), each locked with a $(thing)Dungeon Seal.$() Use a $(item)Key$() on these seals to unlock the next room. $(li)Thirdly, an $(item)Inversion Pillar$(), a mirror of the one you summoned previously. [$(k:use)] this to return to your world. $(br2)There\u0027s also a large number of decorative blocks here, should you feel your home base needs some pizazz."
+      "text": "$(li)Во-вторых, несколько $(thing)Дверных проемов$(), каждая из которых заперта $(thing)Печатью подземелья.$() Используйте $(item)Key$() на этих печатях, чтобы открыть следующую комнату. $(li)В-третьих, $(item)Инверсионный столп$(), зеркало того, который вы вызвали ранее. [$(k:use)] это, чтобы вернуться в свой мир. $(br2)Здесь также есть большое количество декоративных блоков на тот случай, если вы почувствуете, что вашей базе нужно немного изящества."
     },
     {
       "type": "patchouli:text",
-      "text": "Any additional rooms you open from this antechamber will contain some combination of loot, monsters, traps and possibly some unactivated rituals. Keep your eyes peeled! $(br2)A few examples of loot that you might find: $(li)Enchanted Books $(li)Enchanted Weapons and Armour $(li)$(l:bloodmagic:alchemy_table/anointments)Various Anointments$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() $(li)Potion Ingredients"
+      "text": "Любые дополнительные комнаты, которые вы откроете из этой прихожей, будут содержать некоторую комбинацию добычи, монстров, ловушек и, возможно, некоторых неактивированных ритуалов. Держите глаза открытыми! $(br2)Несколько примеров добычи, которую вы можете найти: $(li)Зачарованные книги $(li)Зачарованное оружие и доспехи $(li)$(l:bloodmagic:alchemy_table/anointments)Различные помазания$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() $(li)Ингредиенты для зелий"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Tau Fruit $(li)Saturated Tau $(li)Tau Oil$(br2)So get hunting and keep an eye out for treasure and traps alike!"
+      "text": "$(li)Фрукт тау $(li)Насыщенное тау $(li)Масло тау$(br2)Так что отправляйтесь на охоту и следите за сокровищами и ловушками!"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Slow",
+  "name": "Замедление",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Slow",
-      "text": "Slow is a runic power that imbues the wielder\u0027s weapon with the $(#87185d)$(l)essence of sloth and torpor$(). $(br2)It grants the wielder a chance to slow down the movement speed of their targets with each successful hit."
+      "title": "Замедление",
+      "text": "Замедление — это руническая сила, наполняющая оружие владельца $(#87185d)$(l)эссенцией лени и оцепенения$(). $(br2)Даёт шанс замедлить скорость передвижения цели при каждом успешном ударе."
     },
     {
       "type": "patchouli:text",
-      "text": "Slow is a powerful runic power that can disrupt the flow of battle and give the wielder a strategic advantage. $(br2)It\u0027s ideal for characters that rely on hit-and-run tactics, as it allows them to slow down the chase and make a quick getaway."
+      "text": "Замедление — мощная руна, способная нарушить ход сражения и дать владельцу стратегическое преимущество. $(br2)Идеально подходит для персонажей, использующих тактику «бей и беги», ведь позволяет замедлить преследователей и быстро уйти от погони."
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "name": "Battle Hungry",
+  "name": "Жаждущий битвы",
   "icon": "minecraft:rotten_flesh",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Gives you hunger if you haven\u0027t attacked something recently. Higher levels give you a shorter cooldown window and make the hunger worse."
+      "text": "Дает вам голод, если вы в последнее время на что-то не нападали. Более высокие уровни сокращают время восстановления и усиливают голод."
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

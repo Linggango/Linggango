@@ -5,15 +5,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If the target would take fall damage, $(thing)Bounce$() will instead cause them to spring harmlessly off the ground. Whee! $(br2)Crouching before impact will prevent you from bouncing."
+      "text": "Если цель получит урон от падения, $(thing)Bounce$() вместо этого заставит ее безвредно оторваться от земли. Уи! $(br2)Приседая перед ударом, вы не сможете подпрыгнуть."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
-      "a.heading": "Bounce (3:00)",
+      "a.heading": "Отскок (3:00)",
       "a.recipe": "bloodmagic:flask/bounce",
-      "b.heading": "Bounce (8:00)",
+      "b.heading": "Отскок (8:00)",
       "b.recipe": "bloodmagic:flask/length_bounce",
-      "c.heading": "Bounce (21:20)",
+      "c.heading": "Отскок (21:20)",
       "c.recipe": "bloodmagic:flask/length_average_bounce"
     }
   ]

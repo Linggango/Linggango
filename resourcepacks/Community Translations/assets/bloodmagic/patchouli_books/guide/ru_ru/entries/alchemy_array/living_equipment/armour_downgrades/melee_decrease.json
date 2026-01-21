@@ -1,11 +1,11 @@
 {
-  "name": "Dulled Blade",
+  "name": "Тупой клинок",
   "icon": "minecraft:stone_sword",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Reduces your melee damage. Caps out at an 80% reduction."
+      "text": "Уменьшает ваш урон в ближнем бою. Ограничивается снижением на 80%."
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

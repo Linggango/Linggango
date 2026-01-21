@@ -42,9 +42,9 @@
   "curios.name": "Curios",
   "curios.slot": "Слот",
   "curios.tooltip.slot": "Слот:",
-  "gui.curios.page": "Page %d / %d",
+  "gui.curios.page": "Страница %d / %d",
   "gui.curios.toggle": "Переключить видимость",
-  "gui.curios.toggle.cosmetics": "Toggle Cosmetics",
+  "gui.curios.toggle.cosmetics": "Переключить косметику",
   "key.curios.category": "Curios",
   "key.curios.open.desc": "Открыть/Закрыть инвентарь Curios"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Dormant Relic",
+  "name": "Дремлющая Реликвия",
   "icon": "simplyswords:dormant_relic",
   "advancement": "simplyswords:dormant_relic",
   "category": "simplyswords:category_unique_weapons",
@@ -7,7 +7,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:dormant_relic",
-      "text": "The Dormant Relic is a peculiar sword that holds a mysterious secret within its blade. At first glance, it appears to be an ordinary and unremarkable sword, but it possesses dormant energy waiting to be awakened through the process of crafting."
+      "text": "Дремлющая Реликвия — это необычный меч, в клинке которого скрыта загадочная тайна. На первый взгляд он кажется обычным и ничем не примечательным мечом, но внутри него таится дремлющая энергия, которую можно пробудить с помощью крафта."
     },
     {
       "type": "patchouli:crafting",

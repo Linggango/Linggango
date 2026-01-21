@@ -70,7 +70,7 @@
   "sounds.config.option.description.itemSoundCooldown": "Время перезарядки звуков предметов в секундах.",
   "sounds.config.option.disableBlocksEntirely": "Отключить все изменённые звуки блоков",
   "sounds.config.option.enableChatSoundCooldown": "Включить перезарядку звуков",
-  "sounds.config.option.enableEnderpearlVariety": "Enable Enderpearl Variety",
+  "sounds.config.option.enableEnderpearlVariety.name": "Разнообразие звуков эндер-жемчуга",
   "sounds.config.option.enableItemSoundCooldown": "Включить перезарядку звука предмета",
   "sounds.config.option.ignoreEmptyHotbarSlots": "Игнорировать пустые слоты в хотбаре",
   "sounds.config.option.ignoreEmptyInventorySlots": "Игнорировать пустые слоты инвентаря",

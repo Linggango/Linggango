@@ -10,18 +10,16 @@
     {
       "type": "patchouli:image",
       "title": "Пустотный сплав",
-      "images": [
-        "terramity:textures/screens/void.png"
-      ],
+      "images": ["terramity:textures/screens/void.png"],
       "border": true,
       "text": "Пустотный сплав хранит в себе силу пустоты."
     },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "terramity:void_alloy_recipe",
-      "recipe2": "terramity:void_upgrade_recipe"
-    },
-    {
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:void_alloy_recipe",
+	  "recipe2": "terramity:void_upgrade_recipe"
+	},
+	{
       "type": "patchouli:text",
       "text": "Шаблон кузнечного дела выпадает из стража испытаний, и для улучшения его необходимо использовать на иридии."
     }

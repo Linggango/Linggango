@@ -1,5 +1,5 @@
 {
-  "name": "Tiers of Slates",
+  "name": "Ярусы сланцев",
   "icon": "bloodmagic:blankslate",
   "category": "bloodmagic:altar",
   "extra_recipe_mappings": {
@@ -11,25 +11,25 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l)\u0027s main use is the production of $(item)Slates$(). Each tier of slate requires the previous tier and a more powerful altar than the last."
+      "text": "Основное назначение $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) — производство $(item)Slates$(). Для каждого уровня сланца требуется предыдущий уровень и более мощный алтарь, чем последний."
     },
     {
       "type": "bloodmagic:2x_crafting_altar",
-      "a.heading": "Blank Slate",
+      "a.heading": "Чистый лист",
       "a.recipe": "bloodmagic:altar/slate",
-      "b.heading": "Reinforced Slate",
+      "b.heading": "Армированный шифер",
       "b.recipe": "bloodmagic:altar/reinforcedslate"
     },
     {
       "type": "bloodmagic:2x_crafting_altar",
-      "a.heading": "Imbued Slate",
+      "a.heading": "Прочный сланец",
       "a.recipe": "bloodmagic:altar/imbuedslate",
-      "b.heading": "Demonic Slate",
+      "b.heading": "Демонический сланец",
       "b.recipe": "bloodmagic:altar/demonicslate"
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Ethereal Slate",
+      "heading": "Эфирный сланец",
       "recipe": "bloodmagic:altar/etherealslate"
     }
   ]

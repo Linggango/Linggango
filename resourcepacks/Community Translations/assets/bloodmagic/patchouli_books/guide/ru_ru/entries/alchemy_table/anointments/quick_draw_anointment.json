@@ -1,37 +1,37 @@
 {
-  "name": "Dexterity Alkahest",
+  "name": "Ловкость",
   "icon": "bloodmagic:quick_draw_anointment",
   "category": "bloodmagic:alchemy_table/anointments",
   "pages": [
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Dexterity Alkahest",
+      "heading": "Ловкость",
       "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
-      "text": "Lowers the draw time of bows and crossbows by 33%. $(br2)Valid items: Bows, Crossbows.$(br2)Applies: Deft Hands I (256 shots)"
+      "text": "Уменьшает время натягивания луков и арбалетов на 33%. $(br2)Действующие предметы: Луки, Арбалеты.$(br2)Применимо: Ловкие руки I (256 выстрелов)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Dexterity Alkahest L",
+      "heading": "Ловкость Алкахест L",
       "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
-      "text": "This upgraded version of the anointment lasts four times longer. $(br2)Applies: Deft Hands I (1024 shots)"
+      "text": "Эта обновленная версия помазания действует в четыре раза дольше. $(br2)Применяется: Ловкие руки I (1024 выстрела)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Dexterity Alkahest II",
+      "heading": "Ловкость Алкахест II",
       "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
-      "text": "This upgraded version of the anointment lowers the draw time of bows and crossbows by 50%. $(br2)Applies: Deft Hands II (256 shots)"
+      "text": "Эта улучшенная версия помазания снижает время натяжения луков и арбалетов на 50%. $(br2)Применяется: Ловкие руки II (256 выстрелов)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Dexterity Alkahest XL",
+      "heading": "Ловкость Алкахест XL",
       "recipe": "bloodmagic:alchemytable/quick_draw_anointment_xl",
-      "text": "This upgraded version of the anointment lasts sixteen times longer. $(br2)Applies: Deft Hands I (4096 shots)"
+      "text": "Эта обновленная версия помазания действует в шестнадцать раз дольше. $(br2)Применяется: Ловкие руки I (4096 выстрелов)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Dexterity Alkahest III",
+      "heading": "Ловкость Алкахест III",
       "recipe": "bloodmagic:alchemytable/quick_draw_anointment_3",
-      "text": "This upgraded version of the anointment lowers the draw time of bows and crossbows by 67%. $(br2)Applies: Deft Hands III (256 shots)"
+      "text": "Эта улучшенная версия помазания снижает время натягивания луков и арбалетов на 67%. $(br2)Применяется: Ловкие руки III (256 выстрелов)"
     }
   ]
 }

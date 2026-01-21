@@ -1,15 +1,15 @@
 {
-  "name": "Charging Rune",
+  "name": "Зарядная руна",
   "icon": "bloodmagic:chargingrune",
   "category": "bloodmagic:altar/blood_rune",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Charging Rune$() is a unique Rune upgrade. When the $(l:bloodmagic:altar/blood_altar)Blood Altar$() is not crafting nor filling a $(l:bloodmagic:altar/soul_network)Blood Orb$(), it will syphon $(blood)LP$() from the Altar to charge an internal buffer. When an item is next placed inside of the Altar, it will instantaneously consume the stored charge and apply it to the crafting of the item at a 1:1 ratio."
+      "text": "$(item)Charging Rune$() — это уникальное улучшение руны. Когда $(l:bloodmagic:altar/blood_altar)Blood Altar$() не создает и не заполняет $(l:bloodmagic:altar/soul_network)Blood Orb$(), он перекачивает $(blood)LP$() из Алтаря для зарядки внутреннего буфера. Когда предмет в следующий раз будет помещен внутрь Алтаря, он мгновенно израсходует накопленный заряд и применит его к созданию предмета в соотношении 1:1."
     },
     {
       "type": "patchouli:text",
-      "text": "The Blood Altar does a charging tick once per 20 in-game ticks, which is reduced by 1 per $(l:bloodmagic:altar/blood_rune/acceleration_rune)Acceleration Rune.$(/l) $(br2)The speed that the Blood Altar charges at per charging tick is: [$(blood)10LP$() x $(l:bloodmagic:altar/blood_rune/charging_rune)Charging Runes$() x (1 + $(l:bloodmagic:altar/blood_rune/speed_rune)Speed Runes$()/10)] $(br2)The maximum charge that a Blood Altar can hold is $(blood)1000 LP$() per $(item)Charging Rune$(), which is then multiplied by: [(capacity of the main Blood Altar tank)/20000] if that value is above 1."
+      "text": "Кровавый Алтарь выполняет зарядку один раз за каждые 20 внутриигровых тактов, который уменьшается на 1 за каждые $(l:bloodmagic:altar/blood_rune/acceleration_rune)Руну Ускорения.$(/l) $(br2)Скорость, с которой Кровавый Алтарь заряжается за каждый такт зарядки, составляет: [$(blood)10LP$() x $(l:bloodmagic:altar/blood_rune/charging_rune)Руны зарядки$() x (1 + $(l:bloodmagic:altar/blood_rune/speed_rune)Руны скорости$()/10)] $(br2)Максимальный заряд, который может удерживать Кровавый алтарь, составляет $(blood)1000 LP$() за $(item)Руну зарядки$(), что составляет умножается на: [(емкость основного резервуара Алтаря Крови)/20000], если это значение превышает 1."
     },
     {
       "type": "patchouli:crafting",
@@ -18,12 +18,12 @@
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:blood_rune_charging_2",
-      "text": "With some $(item)Netherite Scrap$() and some $(item)Intricate Hellforged Parts$() looted from the $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), you can double the power of your $(item)Charging Rune$(), both in terms of capacity and speed."
+      "text": "С помощью $(item)Незеритового лома$() и $(item)Замысловатых частей адской кузни$(), добытых из $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), вы можете удвоить силу своей $(item)Charging Rune$(), как с точки зрения емкости, так и скорости."
     },
     {
       "type": "bloodmagic:crafting_arc",
       "recipe": "bloodmagic:arc/reversion/charging",
-      "text": "If you change your mind, you can undo the recipe in the ARC."
+      "text": "Если вы передумаете, вы можете отменить рецепт в ARC."
     }
   ]
 }

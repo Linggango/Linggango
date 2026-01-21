@@ -1,17 +1,17 @@
 {
-  "name": "Immolation",
+  "name": "Испепеление",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Immolation",
-      "text": "Immolation provides a powerful aura of holy fire. While active, this aura periodically damages nearby enemies, incinerating them with righteous flames. This damage scales based on the wielder\u0027s current health."
+      "title": "Испепеление",
+      "text": "Испепеление наделяет владельца мощной аурой святого огня. Пока сила активна, эта аура периодически наносит урон ближайшим врагам, сжигая их праведным пламенем. Урон зависит от текущего здоровья владельца."
     },
     {
       "type": "patchouli:text",
-      "text": "However, this potent ability comes at a cost - the wielder also takes lesser damage from the holy fire."
+      "text": "Однако за такую могущественную способность придётся заплатить — владелец также получает небольшой урон от святого огня."
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Магматический аккумулятор",
+  "icon": "thermal_extra:device_lava_gen",
+  "category": "thermal:devices",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Магматический аккумулятор — это устройство, добавленное Thermal Extra, которое генерирует лаву при касании двух блоков источника лавы. $(br2)Магматический аккумулятор будет генерировать лаву со скоростью 10 МБ/т. Он будет генерировать лаву со скоростью 40 МБ/т в Нижнем мире."
+    },
+    {
+      "type": "thermal:double_crafting_page",
+      "A.recipe": "thermal_extra:crafting/device_lava_gen",
+      "title": "Магматический аккумулятор"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Совместимость дополнений",
+      "text": "$(li)$(l:thermal:technology/augments/integral_comComponents)Интегральные компоненты$(/l)"
+    }
+  ]
+}

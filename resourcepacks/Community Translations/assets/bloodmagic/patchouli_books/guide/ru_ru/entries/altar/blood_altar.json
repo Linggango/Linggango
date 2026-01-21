@@ -1,5 +1,5 @@
 {
-  "name": "The Blood Altar",
+  "name": "Кровавый Алтарь",
   "icon": "bloodmagic:altar",
   "category": "bloodmagic:altar",
   "priority": "true",
@@ -9,7 +9,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Blood Altar$() is the central block of the mod, able to convert raw $(blood)blood$() into pure $(blood)Life Essence$(). While it may start off small and insignificant, its strength and size grows throughout the mod, acting as a cornerstone for most of your power."
+      "text": "$(item)Blood Altar$() — это центральный блок мода, способный конвертировать необработанную $(blood)blood$() в чистую $(blood)Life Essence$(). Хотя поначалу он может быть маленьким и незначительным, его сила и размер растут на протяжении всего мода, выступая в качестве краеугольного камня большей части вашей силы."
     },
     {
       "type": "patchouli:crafting",
@@ -17,36 +17,36 @@
     },
     {
       "type": "patchouli:text",
-      "text": "When placed into the world, the $(item)Blood Altar$() converts $(blood)blood$() into $(blood)Life Essence$(), which it then uses to transfigure items placed into it. By pressing [$(k:use)] while looking at the Altar, you may insert one item from your hand into the Altar\u0027s internal inventory. pressing [$(k:use)] with an empty hand will extract the item."
+      "text": "При размещении в мире $(item)Blood Altar$() преобразует $(blood)blood$() в $(blood)Life Essence$(), которую затем использует для трансфигурации помещенных в него предметов. Нажав [$(k:use)], глядя на Алтарь, вы можете вставить один предмет из руки во внутренний инвентарь Алтаря. нажатие [$(k:use)] пустой рукой приведет к извлечению предмета."
     },
     {
       "type": "multiblock",
-      "name": "Tier 1 Blood Altar",
+      "name": "Кровавый алтарь уровня 1",
       "multiblock_id": "bloodmagic:altar_one",
-      "text": "The Tier 1 Blood Altar, which has no runes."
+      "text": "Кровавый алтарь 1-го уровня, на котором нет рун."
     },
     {
       "type": "patchouli:text",
-      "text": "In order for you to add $(blood)Life Essence$(), measured as \"$(blood)LP$()\", you first have to craft a $(item)Sacrificial Knife$(). By pressing [$(k:use)] while aiming at air with the knife, you can \"extract\" $(blood)200 LP$() for the cost of one heart, placing it into a nearby Altar. The Altar starts with a maximum capacity of 10,000LP, and the blood level in the basin indicates the percentage filled. The $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$(/l) allows more detailed information about the Altar."
+      "text": "Чтобы добавить $(blood)Life Essence$(), измеряемую как «$(blood)LP$()», вам сначала нужно создать $(item)Жертвенный нож$(). Нажав [$(k:use)] и целясь ножом в воздух, вы можете «извлечь» $(blood)200 LP$() за стоимость одного сердца, поместив его в ближайший Алтарь. Изначально максимальная вместимость Алтаря составляет 10 000 LP, а уровень крови в чаше указывает процент заполнения. $(l:bloodmagic:alchemy_array/sigil/divination)Сигила предсказания$(/l) позволяет получить более подробную информацию об Алтаре."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:sacrificial_dagger",
       "anchor": "knife",
-      "text": "Keep in mind that 10% of the total $(blood)LP$() the altar can hold will be absorbed into an invisible internal \u0027tank\u0027 used for extracting and inserting $(blood)Life Essence$() into the Altar."
+      "text": "Имейте в виду, что 10% от общего количества $(blood)LP$(), которое может храниться на алтаре, будет поглощено невидимым внутренним «резервуаром», используемым для извлечения и добавления $(blood)Life Essence$() в Алтарь."
     },
     {
       "type": "patchouli:text",
-      "text": "The Blood Altar will attempt to start to craft as soon as an item is placed inside by a player (or after a periodic 5 seconds). The $(blood)LP$() inside of the Altar will slowly drain (indicated by red particles), transforming the item. If there is no $(blood)LP$() in the Altar, gray smoke will appear to indicate that the Altar is losing progress instead. Once enough $(blood)LP$() is consumed (cost multiplied by number in the item stack), the full stack will be transformed into a new item."
+      "text": "Кровавый Алтарь попытается начать работу, как только игрок поместит внутрь предмет (или через периодические 5 секунд). $(blood)LP$() внутри Алтаря будет медленно истощаться (обозначено красными частицами), трансформируя предмет. Если в Алтаре нет $(blood)LP$(), появится серый дым, указывающий на то, что вместо этого Алтарь теряет прогресс. Как только будет израсходовано достаточное количество $(blood)LP$() (стоимость умножена на число в стеке предметов), полный стек будет преобразован в новый предмет."
     },
     {
       "type": "patchouli:text",
-      "text": "The first item that you will want to craft is a $(l:bloodmagic:altar/soul_network)Weak Blood Orb$(/l), which by default is a diamond plus $(blood)2000 LP$() inside of a Tier 1 Blood Altar. All items that can be crafted by the Blood Altar can be found using Just Enough Items (JEI)."
+      "text": "Первый предмет, который вам нужно будет изготовить, — это $(l:bloodmagic:altar/soul_network)Weak Blood Orb$(/l), который по умолчанию представляет собой алмаз плюс $(blood)2000 LP$() внутри Алтаря крови 1-го уровня. Все предметы, которые можно изготовить на Кровавом Алтаре, можно найти с помощью Just Enough Items (JEI)."
     },
     {
       "type": "patchouli:text",
       "anchor": "blank_rune",
-      "text": "To upgrade the Blood Altar, you need to craft $(item)Blood Runes$() and place them around the Altar. Blood Runes act as upgrades to the Altar, and by using more advanced versions of the Blood Runes you can confer different effects on the Altar. The basic version, the $(item)Blank Rune$(), does not give any upgrades - it\u0027s only use is to upgrade the Tier of the Altar."
+      "text": "Чтобы улучшить Кровавый Алтарь, вам нужно создать $(item)Кровавые руны$() и разместить их вокруг Алтаря. Кровавые руны действуют как улучшения Алтаря, и, используя более продвинутые версии Кровавых рун, вы можете придавать Алтарю различные эффекты. Базовая версия, $(item)Blank Rune$(), не дает никаких улучшений — ее можно использовать только для улучшения уровня Алтаря."
     },
     {
       "type": "patchouli:crafting",
@@ -54,54 +54,54 @@
     },
     {
       "type": "patchouli:text",
-      "text": "In order to upgrade the Blood Altar to Tier 2, you must place 8 $(item)Blood Runes$() around the Altar. The runes in the cardinals can be upgraded, but the corner runes cannot act as upgrade runes until Tier 3."
+      "text": "Чтобы улучшить Кровавый Алтарь до уровня 2, вы должны разместить 8 $(item)Blood Runes$() вокруг Алтаря. Руны кардиналов можно улучшать, но угловые руны не могут действовать как руны улучшения до уровня 3."
     },
     {
       "type": "multiblock",
-      "name": "Tier 2 Blood Altar",
+      "name": "Кровавый алтарь 2-го уровня",
       "multiblock_id": "bloodmagic:altar_two",
-      "text": "The Tier 2 Blood Altar, which has 8 total runes."
+      "text": "Кровавый алтарь 2-го уровня, на котором всего 8 рун."
     },
     {
       "type": "patchouli:text",
       "anchor": "dagger_of_sacrifice",
-      "text": "Now that you have a Tier 2 Altar, you can look into getting $(blood)Life Essence$() from somewhere other than yourself. The $(item)Dagger of Sacrifice$() will allow you to sacrifice any mob (monster or passive) that stands within 2 blocks of your Altar, instantly killing them and granting you a decent sum of $(blood)LP$(). You can increase the amount you get per kill with $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Runes of Sacrifice$(). Different entities give different amounts of $(blood)LP$(). Check your configs for more info."
+      "text": "Теперь, когда у вас есть Алтарь 2-го уровня, вы можете попробовать получить $(blood)Life Essence$() откуда-то еще, кроме себя. $(item)Dagger of Sacrifice$() позволит вам принести в жертву любого моба (монстра или пассивного персонажа), стоящего в пределах 2 блоков от вашего Алтаря, мгновенно убивая его и давая вам приличную сумму $(blood)LP$(). Вы можете увеличить сумму, которую вы получаете за убийство, с помощью $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Runes of Sacrifice$(). Разные сущности дают разное количество $(blood)LP$(). Проверьте свои конфигурации для получения дополнительной информации."
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Dagger of Sacrifice",
+      "heading": "Кинжал жертвоприношения",
       "recipe": "bloodmagic:altar/daggerofsacrifice",
-      "text": "Slaughtering villagers for fun and profit!"
+      "text": "Убивайте жителей деревни ради развлечения и выгоды!"
     },
     {
       "type": "patchouli:text",
-      "text": "To upgrade the Blood Altar to Tier 3, place 5 $(item)Blood Runes$() one block down and two blocks away from the previous set of runes along each edge. Then place two blocks (indicated by the $(item)Stone Bricks$()) in each corner, starting above the new ring of runes, and then cap each pillar with $(item)Glowstone Blocks$().$(br)To check that it is successfully upgraded, use a $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$(/l) to check the tier. Note that any non-air block can be used for the pillars below the Glowstone."
+      "text": "Чтобы улучшить Кровавый Алтарь до уровня 3, поместите 5 $(item)Blood Runes$() на один блок вниз и на два блока дальше от предыдущего набора рун вдоль каждого края. Затем поместите два блока (обозначенных $(item)Stone Bricks$()) в каждый угол, начиная с нового кольца рун, а затем закройте каждый столб $(item)Glowstone Blocks$().$(br)Чтобы убедиться, что он успешно улучшен, используйте $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$(/l), чтобы проверить уровень. Обратите внимание, что для столбов под Светящимся камнем можно использовать любой блок, не являющийся воздушным."
     },
     {
       "type": "multiblock",
-      "name": "Tier 3 Blood Altar",
+      "name": "Кровавый алтарь 3-го уровня",
       "multiblock_id": "bloodmagic:altar_three",
-      "text": "The Tier 3 Blood Altar, which has 28 total runes, 20 more than a Tier 2, 5 on each side."
+      "text": "Кровавый алтарь 3-го уровня, на котором всего 28 рун, на 20 больше, чем на 2-м уровне, по 5 с каждой стороны."
     },
     {
       "type": "patchouli:text",
-      "text": "To upgrade the Blood Altar to Tier 4, place 7 $(item) Blood Runes$() one block down and two blocks away from the previous set of runes along each edge. Then place four solid blocks in each corner, starting above the new ring of runes, and then cap each pillar with $(l:bloodmagic:utility/bloodstone_bricks)Bloodstone Bricks$(/l) and/or $(l:bloodmagic:utility/bloodstone_bricks)Large Bloodstone Bricks$(/l). For these, you\u0027ll need $(l:bloodmagic:dungeons/tau_fruit)Tau Fruit$(), found via the $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Edge of the Hidden Realm$() ritual."
+      "text": "Чтобы улучшить Кровавый Алтарь до уровня 4, поместите 7 $(item) Blood Runes$() на один блок вниз и на два блока дальше от предыдущего набора рун вдоль каждого края. Затем поместите четыре сплошных блока в каждый угол, начиная с нового кольца рун, а затем закройте каждый столб $(l:bloodmagic:utility/bloodstone_bricks)Bloodstone Bricks$(/l) и/или $(l:bloodmagic:utility/bloodstone_bricks)Большими кровавыми кирпичами$(/l). Для этого вам понадобится $(l:bloodmagic:dungeons/tau_fruit)Tau Fruit$(), который можно найти с помощью ритуала $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Edge of the Hidden Realm$()."
     },
     {
       "type": "multiblock",
-      "name": "Tier 4 Blood Altar",
+      "name": "Алтарь крови 4-го уровня",
       "multiblock_id": "bloodmagic:altar_four",
-      "text": "The Tier 4 Blood Altar, which has 56 total runes, 28 more than a Tier 3, 7 on each side."
+      "text": "Кровавый алтарь 4-го уровня, на котором всего 56 рун, на 28 больше, чем на 3-м уровне, по 7 с каждой стороны."
     },
     {
       "type": "patchouli:text",
-      "text": "To upgrade the Blood Altar to Tier 5, place 13 $(item)Blood Runes$() one block down and three blocks away from the previous set of runes along each edge. Leave a one-block gap on either end, then place a $(l:bloodmagic:dungeons/demonite)Hellforged Block$() at each corner. You\u0027ll have to go delving deep into the $(thing)Demon Realm$() for this rare and exotic metal."
+      "text": "Чтобы улучшить Кровавый Алтарь до уровня 5, поместите 15 $(item) Blood Runes$() на один блок вниз и на три блока от предыдущего набора рун вдоль каждого края. Оставьте зазор в один блок с обоих концов, затем поместите $(l:bloodmagic:dungeons/demonite)Hellforged Block$() в каждом углу. Вам придется углубиться в $(thing)Demon Realm$() в поисках этого редкого и экзотического металла."
     },
     {
       "type": "multiblock",
-      "name": "Tier 5 Blood Altar",
+      "name": "Кровавый алтарь 5-го уровня",
       "multiblock_id": "bloodmagic:altar_five",
-      "text": "The Tier 5 Blood Altar, which has 108 total runes, 52 more than a Tier 4, 13 on each side."
+      "text": "Кровавый алтарь 5-го уровня, на котором всего 108 рун, что на 52 больше, чем на 4-м уровне, по 13 с каждой стороны."
     }
   ]
 }

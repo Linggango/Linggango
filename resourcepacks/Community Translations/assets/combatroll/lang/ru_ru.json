@@ -18,12 +18,12 @@
   "keybinds.combatroll.roll": "Сделать кувырок",
   "text.autoconfig.combatroll.option.client.hudArrowColor": "Цвет интерфейса",
   "text.autoconfig.combatroll.option.client.hudBackgroundOpacity": "Прозрачность интерфейса",
-  "text.autoconfig.combatroll.option.client.keybindingLabelPosition": "Keybinding label position",
+  "text.autoconfig.combatroll.option.client.keybindingLabelPosition": "Положение метки назначения клавиши",
   "text.autoconfig.combatroll.option.client.playCooldownFlash": "Мигание элементов HUD при полной перезарядке",
   "text.autoconfig.combatroll.option.client.playCooldownSound": "Проигрывать звук полной перезарядки",
   "text.autoconfig.combatroll.option.client.playRollSound": "Проигрывать звук кувырка",
-  "text.autoconfig.combatroll.option.client.showHUDInCreative": "Show Arrow in Creative mode",
-  "text.autoconfig.combatroll.option.client.showKeybinding": "Show keybinding on HUD",
-  "text.autoconfig.combatroll.option.client.showWhenFull": "Show Arrow when full",
+  "text.autoconfig.combatroll.option.client.showHUDInCreative": "Показывать стрелку в творческом режиме",
+  "text.autoconfig.combatroll.option.client.showKeybinding": "Показывать назначение клавиши на HUD",
+  "text.autoconfig.combatroll.option.client.showWhenFull": "Показывать стрелку при полном запасе",
   "text.autoconfig.combatroll.title": "Combat Roll"
 }

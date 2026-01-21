@@ -1,10 +1,10 @@
 {
-  "entity.trotting_wagons.armored_wagon": "Armored Wagon",
-  "entity.trotting_wagons.conestoga_wagon": "Conestoga Wagon",
-  "entity.trotting_wagons.royal_wagon": "Royal Wagon",
-  "item.trotting_wagons.armored_wagon": "Armored Wagon",
-  "item.trotting_wagons.conestoga_wagon": "Conestoga Wagon",
-  "item.trotting_wagons.horse_whip": "Horse Whip",
-  "item.trotting_wagons.royal_wagon": "Royal Wagon",
-  "item.trotting_wagons.wheel": "Wheel"
+  "entity.trotting_wagons.armored_wagon": "Бронированная повозка",
+  "entity.trotting_wagons.conestoga_wagon": "Фургон Конестога",
+  "entity.trotting_wagons.royal_wagon": "Королевская карета",
+  "item.trotting_wagons.armored_wagon": "Бронированная повозка",
+  "item.trotting_wagons.conestoga_wagon": "Фургон Конестога",
+  "item.trotting_wagons.horse_whip": "Кнут",
+  "item.trotting_wagons.royal_wagon": "Королевская карета",
+  "item.trotting_wagons.wheel": "Колесо"
 }

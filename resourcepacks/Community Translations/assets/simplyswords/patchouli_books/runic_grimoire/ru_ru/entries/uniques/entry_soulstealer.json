@@ -1,5 +1,5 @@
 {
-  "name": "Soulstealer",
+  "name": "Похититель Душ",
   "icon": "simplyswords:soulstealer",
   "advancement": "simplyswords:soulstealer",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:soulstealer",
-      "text": "The Soulstealer is a powerful and mysterious weapon that is said to have the ability to steal the souls of its victims and manipulate their perceptions. It is believed to be a powerful tool of manipulation and relocation, able to fog the minds of those it targets to become blind to the presence of its wielder."
+      "text": "Похититель Душ — это могущественное и загадочное оружие, которому приписывают способность похищать души своих жертв и искажать их восприятие. Считается, что этот артефакт позволяет не только манипулировать разумом, но и перемещать владельца, окутывая разум врагов туманом и делая их слепыми к его присутствию."
     },
     {
       "type": "patchouli:text",
-      "text": "The exact nature and capabilities of the Soulstealer are scarcely understood, as it is a highly sought-after and elusive weapon that is said to be wielded only by the most powerful and sinister individuals."
+      "text": "Истинная природа и возможности Похитителя Душ до конца не изучены, ведь это крайне редкое и желанное оружие, которое, по слухам, находится только у самых могущественных и зловещих личностей."
     }
   ]
 }

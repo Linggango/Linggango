@@ -1,5 +1,5 @@
 {
-  "name": "Soulrender",
+  "name": "Потрошитель Душ",
   "icon": "simplyswords:soulrender",
   "advancement": "simplyswords:soulrender",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:soulrender",
-      "text": "The Soulrender\u0027s blade is said to be crafted from a mysterious black metal that glows with a sinister energy, and it is said to be able to cut through not just flesh and bone, but also the very essence of a being."
+      "text": "Говорят, что клинок Потрошителя Душ выкован из таинственного чёрного металла, который светится зловещей энергией. Считается, что он способен разрезать не только плоть и кости, но и саму сущность существа."
     },
     {
       "type": "patchouli:text",
-      "text": "Once the soul is torn asunder, the victim is left weakened, both physically and spiritually. The scythe is said to be wielded by powerful necromancers, who use it to reap the souls of their enemies and use them for their own purposes. It is a weapon of great power and should be used with caution, as its ability to extract souls can have detrimental effects on the wielder\u0027s own soul."
+      "text": "Когда душа разрывается, жертва остаётся ослабленной как физически, так и духовно. Говорят, что этой косой владеют могущественные некроманты, использующие её для сбора душ своих врагов и применения их в своих целях. Это оружие огромной силы, и обращаться с ним следует осторожно, ведь способность извлекать души может негативно сказаться и на душе самого владельца."
     }
   ]
 }

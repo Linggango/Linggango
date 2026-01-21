@@ -1,17 +1,17 @@
 {
-  "name": "Imbued",
+  "name": "Наполнение",
   "icon": "simplyswords:runic_tablet",
   "category": "simplyswords:category_rune_etching",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:runic_tablet",
-      "title": "Imbued",
-      "text": "Imbued is a runic power that imbues the wielder\u0027s weapon with the $(#389fff)$(l)essence of magic$(). $(br2)It provides a weapon with the ability to lash out with a potent magical energy when hitting enemies."
+      "title": "Наполнение",
+      "text": "Наполнение — это руническая сила, наполняющая оружие владельца $(#389fff)$(l)эссенцией магии$(). $(br2)Позволяет оружию высвобождать мощную магическую энергию при попадании по врагам."
     },
     {
       "type": "patchouli:text",
-      "text": "The magical damage dealt by Imbued is often unpredictable, and tends to wane as the weapon suffers durability damage. Keeping the Imbued weapon repaired would be wise."
+      "text": "Магический урон, наносимый с помощью Наполнения, часто бывает непредсказуемым и уменьшается по мере износа оружия. Рекомендуется поддерживать оружие с этой руной в хорошем состоянии."
     }
   ]
 }

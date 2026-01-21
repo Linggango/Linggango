@@ -1,0 +1,16 @@
+{
+  "name": "Получение Эксперимента 115",
+  "icon": "twilightforest:experiment_115",
+  "category": "twilightdelight:tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы можете добыть Эксперимент 115 из Сумеречного Гэстстража, Сумеречного Гэстлёнка и обычных Гэстов с разной вероятностью."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:experiment_115",
+      "text": "С помощью ножа с «Шёлковым касанием» вы также можете добывать блоки Эксперимента 115, чтобы получить кусок."
+    }
+  ]
+}

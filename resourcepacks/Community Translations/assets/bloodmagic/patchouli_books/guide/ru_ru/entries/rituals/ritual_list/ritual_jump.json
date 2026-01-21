@@ -1,13 +1,13 @@
 {
-  "name": "Ritual of the High Jump",
+  "name": "Ритуал прыжка в высоту",
   "icon": "minecraft:diamond_boots",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "patchouli:multiblock",
-      "name": "Ritual of the High Jump",
+      "name": "Ритуал прыжка в высоту",
       "multiblock_id": "bloodmagic:jumping",
-      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) for easier construction."
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
     },
     {
       "type": "bloodmagic:ritual_info",

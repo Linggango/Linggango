@@ -1,5 +1,5 @@
 {
-  "name": "Slumbering Lichblade",
+  "name": "Дремлющее Личеклинок",
   "icon": "simplyswords:slumbering_lichblade",
   "advancement": "simplyswords:slumbering_lichblade",
   "category": "simplyswords:category_unique_weapons",
@@ -7,11 +7,11 @@
     {
       "type": "patchouli:spotlight",
       "item": "simplyswords:slumbering_lichblade",
-      "text": "The Slumbering Lichblade is a greatsword that exudes an aura of tormented souls that damages enemies that come too close. The sword is said to be crafted from the remains of a powerful Lich, and imbued with the power of the souls it consumed. Sometimes, a sinister whisper can be heard emanating from the blade."
+      "text": "Дремлющее Личеклинок — это огромный меч, излучающий ауру измученных душ, наносящую урон врагам, которые подходят слишком близко. Говорят, что меч был выкован из останков могущественного лича и наполнен силой поглощённых им душ. Иногда из клинка доносится зловещий шёпот."
     },
     {
       "type": "patchouli:text",
-      "text": "The sword, however, is currently in a dormant state and its true power is locked away. Through a special ritual or crafting process, the wielder can awaken the sword and unlock its greater abilities. Once awakened, the sword\u0027s aura can be commanded to attack an enemy, siphoning their lifeforce and granting it to the wielder. It is a weapon of great power and should be used with caution."
+      "text": "Однако сейчас меч находится в спящем состоянии, и его истинная сила запечатана. С помощью особого ритуала или процесса крафта владелец может пробудить меч и раскрыть его могущественные способности. После пробуждения ауру меча можно направить на врага, чтобы высасывать его жизненную силу и передавать её владельцу. Это очень мощное оружие, с которым стоит обращаться осторожно."
     },
     {
       "type": "patchouli:crafting",

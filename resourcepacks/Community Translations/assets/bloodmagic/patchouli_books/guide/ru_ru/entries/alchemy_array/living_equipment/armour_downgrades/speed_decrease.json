@@ -1,11 +1,11 @@
 {
-  "name": "Limp Leg",
+  "name": "Хромая нога",
   "icon": "minecraft:soul_sand",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Reduces your movement speed significantly. Caps out at a 70% reduction. $(br2)Maximum level: 10"
+      "text": "Эффект: Значительно снижает скорость вашего передвижения. Ограничивается с 70%-ной скидкой. $(br2)Максимальный уровень: 10"
     },
     {
       "type": "bloodmagic:living_armour_downgrade",

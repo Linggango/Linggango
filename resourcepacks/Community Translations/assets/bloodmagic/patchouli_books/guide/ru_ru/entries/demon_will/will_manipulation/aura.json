@@ -1,58 +1,56 @@
 {
-  "name": "Demon Will Aura",
+  "name": "Демон Воля Аура",
   "icon": "bloodmagic:demoncrucible",
   "category": "bloodmagic:demon_will/will_manipulation",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As we have $(l:bloodmagic:demon_will/will_manipulation/demon_will)established$(), $(raw)Demonic Will$() coalesces around certain creatures and propels them with malevonent force. However, this is not the only place that $(raw)Will$() can exist. By burning $(raw)Will$() in a $(item)Demon Crucible$(), it is possible to unleash the will into the $(thing)Aura$(), to great and fascinating effect."
+      "text": "Поскольку у нас есть $(l:bloodmagic:demon_will/will_manipulation/demon_will)installed$(), $(raw)Demonic Will$() объединяется вокруг определенных существ и приводит их в движение со злонамеренной силой. Однако это не единственное место, где может существовать $(raw)Will$(). Сжигая $(raw)Will$() в $(item)Demon Crucible$(), можно высвободить волю в $(thing)Aura$(), что приведет к великолепному и захватывающему эффекту."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
-      "heading": "Demon Crucible",
+      "heading": "Демон Горнило",
       "recipe": "bloodmagic:soulforge/demon_crucible",
-      "text": "Put a charged $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() or any aspect of $(item)Demon Will$() or $(item)Demon Crystal$() into it and let it run. $(item)Crystals$() will be consumed once the chunk\u0027s $(raw)Will$() dips below 50, wheras $(raw)Demon Will$() (in item form or from the $(item)Tartaric Gem$()) will be consumed a bit at a time, as needed."
+      "text": "Поместите в него заряженный $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() или любой аспект $(item)Demon Will$() или $(item)Demon Crystal$() и дайте ему поработать. $(item)Crystals$() будет израсходовано, как только $(raw)Will$() куска упадет ниже 50, тогда как $(raw)Demon Will$() (в форме предмета или из $(item)Tartaric Gem$()) будет расходоваться постепенно, по мере необходимости."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/demon_will/demon_crucible.png"
       ],
-      "title": "Demon Crucible",
+      "title": "Демон Горнило",
       "border": true,
-      "text": "The $(item)Demon Crucible$(), with a $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() inside it."
+      "text": "$(item)Demon Crucible$() с $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() внутри него."
     },
     {
       "type": "patchouli:text",
-      "text": "Now we have $(raw)Raw Will$() in the atmosphere. Great, now what? $(br2)Some $(thing)Rituals$() $(l:bloodmagic:rituals/ritual_tinkerer)benefit$() from $(raw)Raw Will$(), but the main benefit from this is the ability to create refined $(item)Demon Will Crystals$() and from there, $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)split them$() into their $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aspects$(). $(br2)Once you have some of these $(item)Aspected Will Crystals$(), you can burn them once more in the $(item)Crucible$() to unleash them into the $(thing)Aura$() for your rituals to benefit from."
+      "text": "Теперь в атмосфере есть $(raw)Raw Will$(). Отлично, а что теперь? $(br2)Некоторые $(thing)Rituals$() $(l:bloodmagic:rituals/ritual_tinkerer)benefit$() из $(raw)Raw Will$(), но основная польза от этого — возможность создавать очищенные $(item)Кристаллы Демонической Воли$() и оттуда $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)разделять их$() на свои $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aspects$(). $(br2)Как только у вас появятся некоторые из этих $(item)Аспектированных Кристаллов Воли$(), вы можете сжечь их еще раз в $(item)Тигеле$(), чтобы высвободить их в $(thing)Ауру$() для использования в ваших ритуалах."
     },
     {
       "type": "patchouli:text",
-      "text": "It\u0027s important to mention that the $(thing)Aura$() is chunk-based. That is, any $(raw)Will$() you burn will fill up the chunk that you burn it in, up to a total cap of 100 for each type. You can measure this using a $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Demon Will Aura Gauge$(). $(br2)To move Demon Will around, simply place a $(item)Demon Pylon$() in any adjacent chunk, and $(raw)Will$() will be drawn towards it."
+      "text": "Важно отметить, что $(thing)Aura$() основан на фрагментах. То есть любой записанный вами $(raw)Will$() заполнит фрагмент, в который вы его записали, вплоть до общего ограничения в 100 для каждого типа. Вы можете измерить это с помощью $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Demon Will Aura Gauge$(). $(br2)Чтобы переместить Demon Will, просто поместите $(item)Demon Pylon$() в любой соседний фрагмент, и $(raw)Will$() будет притянуто к нему."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
-      "heading": "Demon Pylon",
+      "heading": "Демонический пилон",
       "recipe": "bloodmagic:soulforge/demon_pylon",
-      "anchor": "pylon",
-      "text": "The Pylon will draw in all kinds of will from all adjacent chunks (not including diagnonals). Multiple Pylons can be chained in order to transfer Will over larger distances."
+      "text": "Пилон будет притягивать все виды воли из всех соседних блоков (не включая диагонали). Несколько пилонов можно соединить в цепочку, чтобы переносить Волю на большие расстояния."
     },
     {
       "type": "patchouli:text",
-      "text": "If you place a $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$(), inside a $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() will cause it to rapidly absorb $(raw)Will$() from the chunk it\u0027s in. $(br2)With an Aspect of $(raw)Will$() in the chunk, such as $(raw)Raw$() or $(corrosive)Corrosive$(), and an empty $(item)Tartaric Gem$(), it\u0027s possible to fill the Gem with that Aspect. $(br2)This lets you modify your $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() and $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sword$() accordingly. The effects are defined $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)here$()."
+      "text": "Если вы поместите $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() внутрь $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$(), это заставит его быстро поглотить $(raw)Will$() из куска, в котором он находится. $(br2)С аспектом $(raw)Will$() в кусок, такой как $(raw)Raw$() или $(corrosive)Corrosive$(), и пустой $(item)Tartaric Gem$(), можно наполнить драгоценный камень этим Аспектом. $(br2)Это позволит вам изменить $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sword$() соответственно. Эффекты определены $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)здесь$()."
     },
     {
       "type": "patchouli:relations",
-      "title": "Related Links",
+      "title": "Ссылки по теме",
       "entries": [
         "bloodmagic:rituals/ritual_tinkerer",
         "bloodmagic:demon_will/will_manipulation/crystallized_will",
         "bloodmagic:demon_will/will_manipulation/aspected_will",
         "bloodmagic:rituals/ritual_list/ritual_crystal_split",
-        "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
         "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
       ],
-      "text": "There\u0027s more I can do, I can feel it..."
+      "text": "Я могу сделать больше, я чувствую это..."
     }
   ]
 }

@@ -1,37 +1,37 @@
 {
-  "name": "Miner\u0027s Secrets",
+  "name": "Секреты шахтера",
   "icon": "bloodmagic:hidden_knowledge_anointment",
   "category": "bloodmagic:alchemy_table/anointments",
   "pages": [
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Miner\u0027s Secrets",
+      "heading": "Секреты шахтера",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
-      "text": "Exp-dropping blocks drop extra exp on successful harvest. Drops +2exp per block. Consumed when extra exp dropped.$(br2)Valid items: Tools, Swords.$(br2)Applies: Miner\u0027s Secrets I (256 exp-dropping blocks)"
+      "text": "Блоки, сбрасывающие опыт, дают дополнительный опыт при успешном сборе урожая. Выпадает +2 опыта за блок. Расходуется при выпадении дополнительного опыта.$(br2)Действующие предметы: Инструменты, Мечи.$(br2)Применяется: Секреты шахтера I (256 блоков для получения опыта)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Miner\u0027s Secrets L",
+      "heading": "Секреты шахтера L",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
-      "text": "This upgraded version of the anointment lasts four times longer. $(br2)Applies: Miner\u0027s Secrets I (1024 exp-dropping blocks)"
+      "text": "Эта обновленная версия помазания действует в четыре раза дольше. $(br2)Применяется: «Секреты шахтера I» (1024 блока опыта)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Miner\u0027s Secrets II",
+      "heading": "Секреты шахтера 2",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
-      "text": "This upgraded version of the anointment increases the yield to +4exp per block. $(br2)Applies: Miner\u0027s Secrets II (256 exp-dropping blocks)"
+      "text": "Эта обновленная версия помазания увеличивает доход до +4 опыта за блок. $(br2)Применяется: Miner's Secrets II (256 блоков опыта)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Miner\u0027s Secrets XL",
+      "heading": "Секреты шахтера XL",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_xl",
-      "text": "This upgraded version of the anointment lasts sixteen times longer. $(br2)Applies: Miner\u0027s Secrets I (4096 exp-dropping blocks)"
+      "text": "Эта обновленная версия помазания действует в шестнадцать раз дольше. $(br2)Применяется: «Секреты шахтера I» (4096 блоков опыта)"
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Miner\u0027s Secrets III",
+      "heading": "Секреты шахтера III",
       "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
-      "text": "This upgraded version of the anointment increases the yield to +6exp per block. $(br2)Applies: Miner\u0027s Secrets III (256 exp-dropping blocks)"
+      "text": "Эта обновленная версия помазания увеличивает доход до +6 опыта за блок. $(br2)Применяется: Miner's Secrets III (256 блоков опыта)"
     }
   ]
 }

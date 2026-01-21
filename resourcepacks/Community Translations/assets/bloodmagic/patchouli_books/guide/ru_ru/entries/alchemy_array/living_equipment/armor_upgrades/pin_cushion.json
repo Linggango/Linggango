@@ -1,11 +1,11 @@
 {
-  "name": "Pin Cushion",
+  "name": "Подушечка для булавок",
   "icon": "minecraft:arrow",
   "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Offers protection from arrows. $(br2)Trained by: Being shot. $(br2)Maximum level: 10"
+      "text": "Эффект: Обеспечивает защиту от стрел. $(br2)Тренировался: В него стреляли. $(br2)Максимальный уровень: 10"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

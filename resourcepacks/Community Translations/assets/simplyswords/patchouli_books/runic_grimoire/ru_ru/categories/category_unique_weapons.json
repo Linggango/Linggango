@@ -1,5 +1,5 @@
 {
-  "name": "Unique Weapons",
-  "description": "Upon your adventures you may stumble across chests that contain unique weapons. These weapons are exceedingly rare, cannot be crafted, and are imbued with powerful abilities. Such weapons can only be repaired with Runic Tablets.",
+  "name": "Уникальное оружие",
+  "description": "Во время своих приключений вы можете найти сундуки с уникальным оружием. Эти предметы чрезвычайно редки, не могут быть созданы вручную и наделены мощными способностями. Такое оружие можно починить только с помощью рунических табличек.",
   "icon": "simplyswords:emberblade"
 }

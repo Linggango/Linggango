@@ -3,7 +3,7 @@
   "components": [
     {
       "type": "patchouli:text",
-      "text": "#table",
+      "text": "#стол",
       "y": 0
     }
   ]

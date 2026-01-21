@@ -1,6 +1,6 @@
 {
-  "name": "Item Routing",
-  "description": "Who needs hoppers? Blood magic has a versatile and flexible item routing network, with a variety of filters to sort every need.",
+  "name": "Маршрутизация предметов",
+  "description": "Кому нужны хопперы? Магия крови имеет универсальную и гибкую сеть маршрутизации предметов с множеством фильтров для сортировки любых потребностей.",
   "icon": "bloodmagic:noderouter",
   "parent": "bloodmagic:demon_will"
 }

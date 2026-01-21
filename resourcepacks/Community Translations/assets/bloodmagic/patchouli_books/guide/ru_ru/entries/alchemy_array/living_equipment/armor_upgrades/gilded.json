@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Effect: Passivises Piglins as if you were wearing Golden Armor.$(br2)Trained by: Giving a Piglin a $(item)Gold Ingot$(). You must give it to them directly, it cannot be dropped on the ground.$(br2)Maximum level: 1"
+      "text": "Эффект: пассивирует свиней, как если бы вы носили золотую броню.$(br2)Обучено: дать свинье $(item)Золотой слиток$(). Вы должны отдать его им напрямую, его нельзя бросать на землю.$(br2)Максимальный уровень: 1"
     },
     {
       "type": "bloodmagic:living_armour_upgrade_table",

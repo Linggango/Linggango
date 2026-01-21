@@ -1,5 +1,5 @@
 {
-  "name": "Ritual Stones",
+  "name": "Ритуальные камни",
   "icon": "bloodmagic:waterritualstone",
   "category": "bloodmagic:rituals",
   "extra_recipe_mappings": {
@@ -12,7 +12,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Ritual Stones$() are the canvas upon which you will draw your $(item)Rituals$(). They also look quite nifty, and can be manually painted with the various $(l:bloodmagic:rituals/ritual_diviner)Elemental Inscription Tools$(). $(br2)Note that the Inscription Tools used to have durability, but now they last forever! Rejoice, you can decorate your base with $(fire)Fire Ritual Stones$() to your heart\u0027s content."
+      "text": "$(item)Ритуальные камни$() — это холст, на котором вы будете рисовать свои $(item)Ритуалы$(). Они также выглядят довольно изящно, и их можно раскрасить вручную с помощью различных $(l:bloodmagic:rituals/ritual_diviner)Инструментов для написания стихий$(). $(br2)Обратите внимание: раньше инструменты для надписей были долговечными, но теперь они служат вечно! Радуйтесь, вы можете украсить свою базу $(fire)Ritual Stones$() сколько душе угодно."
     },
     {
       "type": "patchouli:crafting",
