@@ -1,0 +1,22 @@
+{
+  "name": "book.enigmaticdelicacy.entry.abyssal_stew.name",
+  "icon": "enigmaticdelicacy:abyssal_stew",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/abyssal_stew",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 600,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.abyssal_stew.page.1"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/abyssal_stew",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.abyssal_stew.page.2"
+    }
+  ]
+}

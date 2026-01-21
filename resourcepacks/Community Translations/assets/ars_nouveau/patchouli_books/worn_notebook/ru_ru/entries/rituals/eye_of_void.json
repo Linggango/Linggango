@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:rituals",
+  "icon": "adamsarsplus:eye_of_void",
+  "name": "item.adamsarsplus.eye_of_void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.eye_of_void"
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "adamsarsplus:eye_of_void"
+    }
+  ]
+}

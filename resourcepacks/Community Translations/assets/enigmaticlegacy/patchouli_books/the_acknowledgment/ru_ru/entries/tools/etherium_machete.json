@@ -1,0 +1,22 @@
+{
+  "name": "book.enigmaticdelicacy.entry.etherium_machete.name",
+  "icon": "enigmaticdelicacy:etherium_machete",
+  "category": "enigmaticlegacy:tools",
+  "advancement": "enigmaticdelicacy:book/tools/etherium_machete",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.etherium_machete.page.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:etherium_machete",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.etherium_machete.page.2"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:rituals",
+  "icon": "adamsarsplus:eye_of_frost",
+  "name": "item.adamsarsplus.eye_of_frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.eye_of_frost"
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "adamsarsplus:eye_of_frost"
+    }
+  ]
+}

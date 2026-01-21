@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:tomeofblood",
+  "icon": "tomeofblood:glyph_sentient_wrath",
+  "name": "tomeofblood.glyph_name.glyph_sentient_wrath",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "tomeofblood.glyph_desc.glyph_sentient_wrath"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "tomeofblood:glyph_sentient_wrath"
+    }
+  ],
+  "sortnum": 2
+}

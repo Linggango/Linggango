@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_3",
+  "icon": "not_enough_glyphs:glyph_trail",
+  "name": "not_enough_glyphs.glyph_name.glyph_trail",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "not_enough_glyphs.glyph_desc.glyph_trail"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "not_enough_glyphs:glyph_trail"
+    }
+  ],
+  "sortnum": 1
+}

@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:equipment",
+  "icon": "adamsarsplus:generals_wheel",
+  "name": "item.adamsarsplus.generals_wheel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.generals_wheel"
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "adamsarsplus:generals_wheel"
+    }
+  ]
+}

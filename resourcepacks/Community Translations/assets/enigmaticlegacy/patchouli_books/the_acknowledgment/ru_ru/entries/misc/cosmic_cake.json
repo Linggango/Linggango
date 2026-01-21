@@ -1,0 +1,35 @@
+{
+  "name": "book.enigmaticlegacy.entry.cosmic_cake.name",
+  "icon": "enigmaticlegacy:cosmic_cake",
+  "category": "enigmaticlegacy:misc",
+  "advancement": "enigmaticlegacy:book/misc/cosmic_cake",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 120,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:cosmic_cake_slice": 3
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticlegacy.entry.cosmic_cake.page.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticlegacy:cosmic_cake",
+      "title": " ",
+      "text": "book.enigmaticlegacy.entry.cosmic_cake.page.2"
+    },
+    {
+      "type": "text",
+      "text": "book.enigmaticlegacy.entry.cosmic_cake.page.3"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticdelicacy:cosmic_cake_slice",
+      "title": "book.enigmaticdelicacy.entry.cut",
+      "text": "book.enigmaticdelicacy.entry.cosmic_cake.page.3"
+    }
+  ]
+}

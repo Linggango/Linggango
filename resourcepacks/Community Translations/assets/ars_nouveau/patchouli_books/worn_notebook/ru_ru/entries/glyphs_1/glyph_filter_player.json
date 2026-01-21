@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_1",
+  "icon": "toomanyglyphs:glyph_filter_player",
+  "name": "toomanyglyphs.glyph_name.glyph_filter_player",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "toomanyglyphs.glyph_desc.glyph_filter_player"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "toomanyglyphs:glyph_filter_player"
+    }
+  ],
+  "sortnum": 2
+}

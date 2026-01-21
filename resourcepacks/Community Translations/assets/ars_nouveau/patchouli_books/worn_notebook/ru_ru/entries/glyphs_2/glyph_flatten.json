@@ -1,0 +1,17 @@
+{
+  "!flag": "mod:arsomega",
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "arsomega:glyph_flatten",
+  "name": "arsomega.glyph_name.glyph_flatten",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "arsomega.glyph_desc.glyph_flatten"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "arsomega:glyph_flatten"
+    }
+  ],
+  "sortnum": 2
+}

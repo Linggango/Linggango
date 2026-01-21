@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "not_enough_glyphs:glyph_propagate_plane",
+  "name": "not_enough_glyphs.glyph_name.glyph_propagate_plane",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "not_enough_glyphs.glyph_desc.glyph_propagate_plane"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "not_enough_glyphs:glyph_propagate_plane"
+    }
+  ],
+  "sortnum": 2
+}

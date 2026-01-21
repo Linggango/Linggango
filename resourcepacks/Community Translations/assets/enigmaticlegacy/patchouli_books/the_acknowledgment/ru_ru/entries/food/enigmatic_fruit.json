@@ -1,0 +1,58 @@
+{
+  "name": "book.enigmaticdelicacy.entry.enigmatic_fruit.name",
+  "icon": "enigmaticdelicacy:enigmatic_fruit",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/enigmatic_fruit",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 160,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:enigmatic_fruit": 0,
+    "enigmaticdelicacy:enigmatic_fruit_crate": 0,
+    "enigmaticdelicacy:enigmatic_seed": 1,
+    "enigmaticdelicacy:sticky_pie_slice": 4
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.1"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticdelicacy:enigmatic_seed",
+      "title": "book.enigmaticdelicacy.entry.enigmatic_seed",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.2"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/enigmatic_cream",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.3"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/bloody_custard",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.4"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:sticky_pie",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.5"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/passion_fried_rice",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.6"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:fading_scroll",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_fruit.page.7"
+    }
+  ]
+}

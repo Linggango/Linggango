@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_1",
+  "icon": "tomeofblood:glyph_sentient_harm",
+  "name": "tomeofblood.glyph_name.glyph_sentient_harm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "tomeofblood.glyph_desc.glyph_sentient_harm"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "tomeofblood:glyph_sentient_harm"
+    }
+  ],
+  "sortnum": 2
+}

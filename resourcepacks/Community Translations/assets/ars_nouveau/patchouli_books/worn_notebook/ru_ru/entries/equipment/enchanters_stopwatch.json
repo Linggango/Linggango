@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:equipment",
+  "icon": "adamsarsplus:enchanters_stopwatch",
+  "name": "item.adamsarsplus.enchanters_stopwatch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.enchanters_stopwatch"
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "adamsarsplus:enchanters_stopwatch"
+    }
+  ]
+}

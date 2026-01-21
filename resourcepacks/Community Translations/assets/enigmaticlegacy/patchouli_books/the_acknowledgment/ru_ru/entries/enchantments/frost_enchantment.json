@@ -1,0 +1,37 @@
+{
+  "name": "book.enigmaticaddons.entry.frost_enchantment.name",
+  "icon": "minecraft:enchanted_book",
+  "category": "enigmaticlegacy:enchantments",
+  "advancement": "enigmaticlegacy:book/enchantments/generic",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticaddons.entry.frost_enchantment.page.1"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond_sword#1{Enchantments:[{lvl:2s,id:\u0027enigmaticaddons:frost_aspect\u0027}]}",
+      "link_recipe": false,
+      "title": "book.enigmaticaddons.entry.frost_enchantment.heading.1",
+      "text": "book.enigmaticaddons.entry.frost_enchantment.page.2"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond_chestplate#1{Enchantments:[{lvl:4s,id:\u0027enigmaticaddons:frost_protection\u0027}]}",
+      "link_recipe": false,
+      "title": "book.enigmaticaddons.entry.frost_enchantment.heading.2",
+      "text": "book.enigmaticaddons.entry.frost_enchantment.page.3"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond_axe#1{Enchantments:[{lvl:2s,id:\u0027enigmaticaddons:frost_shattering\u0027}]}",
+      "link_recipe": false,
+      "title": "book.enigmaticaddons.entry.frost_enchantment.heading.3",
+      "text": "book.enigmaticaddons.entry.frost_enchantment.page.4"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "book.enigmaticdelicacy.entry.enchantment_duplicator.name",
+  "icon": "enigmaticdelicacy:enchantment_duplicator",
+  "category": "enigmaticlegacy:misc",
+  "advancement": "enigmaticdelicacy:book/misc/enchantment_duplicator",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 130,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.enchantment_duplicator.page.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:enchantment_duplicator",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.enchantment_duplicator.page.2"
+    }
+  ]
+}

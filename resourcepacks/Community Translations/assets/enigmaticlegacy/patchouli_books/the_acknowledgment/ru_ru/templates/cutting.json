@@ -1,0 +1,74 @@
+{
+  "processor": "auviotre.enigmatic.delicacy.handlers.CuttingRecipeProcessor",
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "#heading",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "patchouli:image",
+      "image": "enigmaticdelicacy:textures/gui/cutting_overlay.png",
+      "x": 7,
+      "y": 2,
+      "width": 102,
+      "height": 52,
+      "u": 0,
+      "v": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input",
+      "framed": "false",
+      "x": 19,
+      "y": 16
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#tool",
+      "framed": "false",
+      "x": 42,
+      "y": 34
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#result1",
+      "framed": false,
+      "link_recipe": true,
+      "x": 63,
+      "y": 7
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#result2",
+      "framed": false,
+      "link_recipe": false,
+      "x": 82,
+      "y": 7
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#result3",
+      "framed": false,
+      "link_recipe": false,
+      "x": 63,
+      "y": 26
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#result4",
+      "framed": false,
+      "link_recipe": false,
+      "x": 82,
+      "y": 26
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#text",
+      "x": 1,
+      "y": 60,
+      "max_width": 115
+    }
+  ]
+}

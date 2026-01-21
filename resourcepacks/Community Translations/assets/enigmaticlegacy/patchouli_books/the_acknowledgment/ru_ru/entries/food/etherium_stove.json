@@ -1,0 +1,22 @@
+{
+  "name": "book.enigmaticdelicacy.entry.etherium_stove.name",
+  "icon": "enigmaticdelicacy:etherium_stove",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/etherium_stove",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 160,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.etherium_stove.page.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:etherium_stove",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.etherium_stove.page.2"
+    }
+  ]
+}

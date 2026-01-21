@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_3",
+  "icon": "adamsarsplus:glyph_effectconjurearrow",
+  "name": "adamsarsplus.glyph_name.glyph_effectconjurearrow",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.glyph_desc.glyph_effectconjurearrow"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "adamsarsplus:glyph_effectconjurearrow"
+    }
+  ],
+  "sortnum": 2
+}

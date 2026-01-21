@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_1",
+  "icon": "adamsarsplus:glyph_effecttenshadows",
+  "name": "adamsarsplus.glyph_name.glyph_effecttenshadows",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.glyph_desc.glyph_effecttenshadows"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "adamsarsplus:glyph_effecttenshadows"
+    }
+  ],
+  "sortnum": 2
+}

@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:resources",
+  "icon": "adamsarsplus:earth_soul",
+  "name": "item.adamsarsplus.earth_soul",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.earth_soul"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "adamsarsplus:nick"
+    }
+  ]
+}

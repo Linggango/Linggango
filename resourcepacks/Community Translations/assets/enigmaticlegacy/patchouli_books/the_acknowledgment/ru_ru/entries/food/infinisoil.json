@@ -1,0 +1,26 @@
+{
+  "name": "book.enigmaticdelicacy.entry.infinisoil.name",
+  "icon": "enigmaticdelicacy:infinisoil",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/infinisoil",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 700,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:infinisoil": 1,
+    "enigmaticdelicacy:infinisoil_farmland": 1
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.infinisoil.page.1"
+    },
+    {
+      "type": "enigmaticlegacy:hidden_crafting",
+      "recipe": "enigmaticdelicacy:infinisoil",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.infinisoil.page.2"
+    }
+  ]
+}

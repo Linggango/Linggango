@@ -1,0 +1,71 @@
+{
+  "name": "book.enigmaticdelicacy.entry.enigmatic_recipes.name",
+  "icon": "enigmaticdelicacy:stuffed_astral_potato",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/enigmatic_recipes",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 20,
+  "extra_recipe_mappings": {},
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.enigmatic_recipes.page"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:stuffed_astral_potato",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.stuffed_astral_potato.page"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/purified_dragon_breath",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.purified_dragon_breath.page"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:astral_popsicle",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.astral_popsicle.page"
+    },
+    {
+      "type": "enigmaticlegacy:cutting",
+      "recipe": "enigmaticdelicacy:cutting/astral_fruit_slice",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.astral_fruit_slice.page"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/ichoroot_soup",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.ichoroot_soup.page"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/ichor_egg",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.ichor_egg.page"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:etherium_steak",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.etherium_steak.page"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/ichor_bottle",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.ichor_bottle.page"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/redemption_potion",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.redemption_potion.page"
+    }
+  ]
+}

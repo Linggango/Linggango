@@ -1,0 +1,22 @@
+{
+  "name": "book.enigmaticdelicacy.entry.hungry_charm.name",
+  "icon": "enigmaticdelicacy:hungry_charm",
+  "category": "enigmaticlegacy:accessories",
+  "advancement": "enigmaticdelicacy:book/accessories/hungry_charm",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 45,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.hungry_charm.page.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:hungry_charm",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.hungry_charm.page.2"
+    }
+  ]
+}

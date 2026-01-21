@@ -1,0 +1,17 @@
+{
+  "!flag": "mod:arsomega",
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "arsomega:glyph_propagate_projectile",
+  "name": "arsomega.glyph_name.glyph_propagate_projectile",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "arsomega.glyph_desc.glyph_propagate_projectile"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "arsomega:glyph_propagate_projectile"
+    }
+  ],
+  "sortnum": 2
+}

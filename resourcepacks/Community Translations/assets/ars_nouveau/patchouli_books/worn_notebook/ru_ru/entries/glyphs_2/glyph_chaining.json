@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "toomanyglyphs:glyph_chaining",
+  "name": "toomanyglyphs.glyph_name.glyph_chaining",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "toomanyglyphs.glyph_desc.glyph_chaining"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "toomanyglyphs:glyph_chaining"
+    }
+  ],
+  "sortnum": 2
+}

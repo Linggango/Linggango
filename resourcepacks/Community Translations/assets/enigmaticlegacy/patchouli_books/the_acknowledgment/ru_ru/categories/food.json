@@ -1,0 +1,7 @@
+{
+  "name": "book.enigmaticdelicacy.category.food.name",
+  "description": "book.enigmaticdelicacy.category.food.desc",
+  "icon": "enigmaticlegacy:astral_fruit",
+  "sortnum": 100,
+  "secret": false
+}

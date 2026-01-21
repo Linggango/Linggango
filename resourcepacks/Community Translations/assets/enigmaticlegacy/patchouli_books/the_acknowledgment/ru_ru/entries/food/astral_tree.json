@@ -1,0 +1,70 @@
+{
+  "name": "book.enigmaticdelicacy.entry.astral_tree.name",
+  "icon": "enigmaticdelicacy:astral_sapling",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/astral_tree",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 240,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:astral_log": 1,
+    "enigmaticdelicacy:astral_wood": 1,
+    "enigmaticdelicacy:stripped_astral_log": 1,
+    "enigmaticdelicacy:stripped_astral_wood": 1,
+    "enigmaticdelicacy:astral_leaves": 2,
+    "enigmaticdelicacy:blossoming_astral_leaves": 2,
+    "enigmaticdelicacy:astral_leaf": 3,
+    "enigmaticdelicacy:glistening_bark": 3,
+    "enigmaticdelicacy:astral_planks": 4,
+    "enigmaticdelicacy:astral_stairs": 4,
+    "enigmaticdelicacy:astral_slab": 4,
+    "enigmaticdelicacy:astral_trapdoor": 4,
+    "enigmaticdelicacy:astral_door": 4,
+    "enigmaticdelicacy:astral_pressure_plate": 4,
+    "enigmaticdelicacy:astral_button": 4,
+    "enigmaticdelicacy:astral_cabinet": 4
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:astral_sapling",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.2"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticdelicacy:blossoming_astral_leaves",
+      "title": "book.enigmaticdelicacy.entry.astral_tree.blossoming",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.3"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticdelicacy:astral_leaf,enigmaticdelicacy:glistening_bark",
+      "title": "book.enigmaticdelicacy.entry.astral_tree.materials",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.4"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticdelicacy:stripped_astral_log,enigmaticdelicacy:stripped_astral_wood,enigmaticdelicacy:astral_planks,enigmaticdelicacy:astral_stairs,enigmaticdelicacy:astral_slab,enigmaticdelicacy:astral_trapdoor,enigmaticdelicacy:astral_door,enigmaticdelicacy:astral_cabinet",
+      "title": "book.enigmaticdelicacy.entry.astral_tree.building_materials",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.5"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/astral_tea",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.6"
+    },
+    {
+      "type": "crafting",
+      "recipe": "enigmaticdelicacy:glistening_heart",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.astral_tree.page.7"
+    }
+  ]
+}

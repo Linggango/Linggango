@@ -1,0 +1,85 @@
+{
+  "processor": "auviotre.enigmatic.delicacy.handlers.CookingRecipeProcessor",
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "#heading",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "patchouli:image",
+      "image": "enigmaticdelicacy:textures/gui/cooking_overlay.png",
+      "x": 7,
+      "y": 2,
+      "width": 102,
+      "height": 64,
+      "u": 0,
+      "v": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input1",
+      "framed": "false",
+      "x": 12,
+      "y": 7
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input2",
+      "framed": "false",
+      "x": 31,
+      "y": 7
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input3",
+      "framed": "false",
+      "x": 50,
+      "y": 7
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input4",
+      "framed": "false",
+      "x": 12,
+      "y": 26
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input5",
+      "framed": "false",
+      "x": 31,
+      "y": 26
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input6",
+      "framed": "false",
+      "x": 50,
+      "y": 26
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#output",
+      "framed": false,
+      "link_recipe": true,
+      "x": 88,
+      "y": 17
+    },
+    {
+      "type": "patchouli:item",
+      "item": "farmersdelight:cooking_pot",
+      "framed": false,
+      "x": 88,
+      "y": 36
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#text",
+      "x": 1,
+      "y": 66,
+      "max_width": 115
+    }
+  ]
+}

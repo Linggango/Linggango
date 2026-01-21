@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:resources",
+  "icon": "adamsarsplus:lightning_soul",
+  "name": "item.adamsarsplus.lightning_soul",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.lightning_soul"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "adamsarsplus:cam"
+    }
+  ]
+}

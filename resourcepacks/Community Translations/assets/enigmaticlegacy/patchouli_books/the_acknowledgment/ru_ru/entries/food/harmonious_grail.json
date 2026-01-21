@@ -1,0 +1,26 @@
+{
+  "name": "book.enigmaticdelicacy.entry.harmonious_grail.name",
+  "icon": "enigmaticdelicacy:harmonious_grail",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/harmonious_grail",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 220,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.harmonious_grail.page.1"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/harmonious_grail",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.harmonious_grail.page.2"
+    },
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.harmonious_grail.page.3"
+    }
+  ]
+}

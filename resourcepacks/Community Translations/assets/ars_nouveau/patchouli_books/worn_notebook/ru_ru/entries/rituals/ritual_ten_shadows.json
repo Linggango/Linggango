@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:rituals",
+  "icon": "adamsarsplus:ritual_ten_shadows",
+  "name": "item.adamsarsplus.ritual_ten_shadows",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.ritual_desc.ritual_ten_shadows"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "adamsarsplus:tablet_ritual_ten_shadows"
+    }
+  ]
+}

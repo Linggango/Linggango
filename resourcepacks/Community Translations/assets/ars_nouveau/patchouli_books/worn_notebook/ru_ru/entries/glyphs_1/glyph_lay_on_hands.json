@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_1",
+  "icon": "toomanyglyphs:glyph_lay_on_hands",
+  "name": "toomanyglyphs.glyph_name.glyph_lay_on_hands",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "toomanyglyphs.glyph_desc.glyph_lay_on_hands"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "toomanyglyphs:glyph_lay_on_hands"
+    }
+  ],
+  "sortnum": 1
+}

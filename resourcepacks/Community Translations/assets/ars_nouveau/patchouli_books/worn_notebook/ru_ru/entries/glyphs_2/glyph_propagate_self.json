@@ -1,0 +1,17 @@
+{
+  "!flag": "mod:arsomega",
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "arsomega:glyph_propagate_self",
+  "name": "arsomega.glyph_name.glyph_propagate_self",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "arsomega.glyph_desc.glyph_propagate_self"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "arsomega:glyph_propagate_self"
+    }
+  ],
+  "sortnum": 2
+}

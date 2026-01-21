@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:equipment",
+  "icon": "adamsarsplus:mage_tome",
+  "name": "item.adamsarsplus.mage_tome",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.mage_tome"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "adamsarsplus:mage_knight"
+    }
+  ]
+}

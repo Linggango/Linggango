@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "toomanyglyphs:glyph_filter_is_baby",
+  "name": "toomanyglyphs.glyph_name.glyph_filter_is_baby",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "toomanyglyphs.glyph_desc.glyph_filter_is_baby"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "toomanyglyphs:glyph_filter_is_baby"
+    }
+  ],
+  "sortnum": 2
+}

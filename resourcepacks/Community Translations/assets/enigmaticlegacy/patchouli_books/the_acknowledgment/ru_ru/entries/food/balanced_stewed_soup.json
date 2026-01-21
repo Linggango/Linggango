@@ -1,0 +1,25 @@
+{
+  "name": "book.enigmaticdelicacy.entry.balanced_stewed_soup.name",
+  "icon": "enigmaticdelicacy:balanced_stewed_soup",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/balanced_stewed_soup",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 250,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:balanced_stewed_soup": 1
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.balanced_stewed_soup.page.1"
+    },
+    {
+      "type": "enigmaticlegacy:cooking",
+      "recipe": "enigmaticdelicacy:cooking/balanced_stewed_soup",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.balanced_stewed_soup.page.2"
+    }
+  ]
+}

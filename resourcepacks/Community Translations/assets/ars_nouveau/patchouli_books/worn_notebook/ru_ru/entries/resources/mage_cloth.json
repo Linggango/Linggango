@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:resources",
+  "icon": "adamsarsplus:mage_cloth",
+  "name": "item.adamsarsplus.mage_cloth",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.mage_cloth"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "adamsarsplus:mage"
+    }
+  ]
+}

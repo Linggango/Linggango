@@ -1,0 +1,49 @@
+{
+  "name": "book.enigmaticdelicacy.entry.curse_blade.name",
+  "icon": "enigmaticdelicacy:curse_blade",
+  "category": "enigmaticlegacy:tools",
+  "advancement": "enigmaticdelicacy:book/tools/curse_blade",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 65,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:cursed_soul_crystal": 2,
+    "enigmaticdelicacy:cursed_soul_fragment": 2,
+    "enigmaticdelicacy:curse_potion": 3,
+    "enigmaticdelicacy:curse_crystal_knife": 4,
+    "enigmaticdelicacy:curse_crystal_pendant": 4,
+    "enigmaticdelicacy:curse_crystal_ring": 4
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.curse_blade.page.1"
+    },
+    {
+      "type": "enigmaticlegacy:cutting",
+      "recipe": "enigmaticdelicacy:cutting/curse_blade",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.curse_blade.page.2"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticlegacy:cursed_ring",
+      "title": "book.enigmaticdelicacy.entry.ring",
+      "text": "book.enigmaticdelicacy.entry.curse_blade.page.3"
+    },
+    {
+      "type": "enigmaticlegacy:brewing",
+      "recipe": "enigmaticdelicacy:curse_potion",
+      "index": "0",
+      "heading": "book.enigmaticdelicacy.entry.curse_blade.heading",
+      "text": "book.enigmaticdelicacy.entry.curse_blade.page.4"
+    },
+    {
+      "type": "spotlight",
+      "item": "enigmaticdelicacy:curse_crystal_knife,enigmaticdelicacy:curse_crystal_pendant,enigmaticdelicacy:curse_crystal_ring",
+      "title": "book.enigmaticdelicacy.entry.curse_blade.crystal_usage",
+      "text": "book.enigmaticdelicacy.entry.curse_blade.page.5"
+    }
+  ]
+}

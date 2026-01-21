@@ -1,0 +1,26 @@
+{
+  "name": "book.enigmaticdelicacy.entry.divine_fruit_pie.name",
+  "icon": "enigmaticdelicacy:divine_fruit_pie",
+  "category": "enigmaticlegacy:food",
+  "advancement": "enigmaticdelicacy:book/food/divine_fruit_pie",
+  "secret": false,
+  "priority": false,
+  "read_by_default": false,
+  "sortnum": 500,
+  "extra_recipe_mappings": {
+    "enigmaticdelicacy:divine_fruit_pie": 1,
+    "enigmaticdelicacy:divine_fruit_pie_block": 1
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.enigmaticdelicacy.entry.divine_fruit_pie.page.1"
+    },
+    {
+      "type": "enigmaticlegacy:hidden_crafting",
+      "recipe": "enigmaticdelicacy:divine_fruit_pie_block",
+      "title": " ",
+      "text": "book.enigmaticdelicacy.entry.divine_fruit_pie.page.2"
+    }
+  ]
+}

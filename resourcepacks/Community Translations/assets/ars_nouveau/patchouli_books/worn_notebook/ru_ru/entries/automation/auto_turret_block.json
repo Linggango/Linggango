@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:automation",
+  "icon": "adamsarsplus:auto_turret_block",
+  "name": "block.adamsarsplus.auto_turret_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.auto_turret_block"
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "adamsarsplus:auto_turret_block"
+    }
+  ]
+}

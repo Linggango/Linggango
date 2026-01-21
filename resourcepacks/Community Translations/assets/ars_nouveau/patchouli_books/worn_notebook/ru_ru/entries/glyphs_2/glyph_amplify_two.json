@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_2",
+  "icon": "toomanyglyphs:glyph_amplify_two",
+  "name": "toomanyglyphs.glyph_name.glyph_amplify_two",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "toomanyglyphs.glyph_desc.glyph_amplify_two"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "toomanyglyphs:glyph_amplify_two"
+    }
+  ],
+  "sortnum": 3
+}

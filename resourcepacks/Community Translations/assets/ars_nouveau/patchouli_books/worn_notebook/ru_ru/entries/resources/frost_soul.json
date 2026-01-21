@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:resources",
+  "icon": "adamsarsplus:frost_soul",
+  "name": "item.adamsarsplus.frost_soul",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "adamsarsplus.page.frost_soul"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "adamsarsplus:cade"
+    }
+  ]
+}
