@@ -1,9 +1,9 @@
 {
   "doespotatotick.page": "DPT",
-  "doespotatotick.skip.shoot": "Always Render Entities When Using Projectile Weapons",
-  "doespotatotick.skip.shoot.tooltip": "If true, when you are using/charging a bow/crossbow/trident or any other modded projectile weapons, entities will not be skipped by the \u0027Skip Rendering Untickable Entities\u0027 option.",
-  "doespotatotick.skip.untickable": "Skip Rendering Untickable Entities",
-  "doespotatotick.skip.untickable.tooltip": "If true, entities whose ticking is stopped by Does Potato Tick will no longer be rendered on the client.",
+  "doespotatotick.skip.shoot": "Всегда отрисовывать сущностей при использовании метательного оружия",
+  "doespotatotick.skip.shoot.tooltip": "Если включено, то при использовании или зарядке лука, арбалета, трезубца или любого другого модового метательного оружия, сущности не будут пропущены опцией «Пропускать отрисовку необрабатываемых сущностей».",
+  "doespotatotick.skip.untickable": "Пропускать отрисовку необрабатываемых сущностей",
+  "doespotatotick.skip.untickable.tooltip": "Если включено, сущности, чья обработка (тики) остановлена модом Does Potato Tick, больше не будут отрисовываться на стороне клиента.",
   "doespotatotick.warn.both.present": "На этом сервере установлен Does Potato Tick. Если ваша мобоферма перестаёт работать, когда вы находитесь далеко от неё, попробуйте использовать FTB Chunks или Open Parties And Claims для привата чанков. Это сообщение можно отключить в конфиге Does Potato Tick.",
   "doespotatotick.warn.ftbchunks.present": "На этом сервере установлен Does Potato Tick. Если ваша мобоферма перестаёт работать, когда вы находитесь далеко от неё, попробуйте использовать FTB Chunks для привата чанков. Это сообщение можно отключить в конфиге Does Potato Tick.",
   "doespotatotick.warn.notfound": "Установлен Does Potato Tick, но FTB Chunks или Open Parties And Claims не найден. Если ваша мобоферма перестаёт работать, когда вы находитесь далеко от неё, установите один из этих модов и приватните чанки. Это сообщение можно отключить в конфиге Does Potato Tick.",

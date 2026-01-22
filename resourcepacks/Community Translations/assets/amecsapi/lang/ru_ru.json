@@ -8,8 +8,8 @@
   "amecsapi.modifier.shift": "Shift",
   "amecsapi.modifier.shift.short": "Shft",
   "amecsapi.modifier.shift.tiny": "S",
-  "key.amecsapi.mouse.scroll.down": "Scroll Down",
-  "key.amecsapi.mouse.scroll.left": "Scroll Left",
-  "key.amecsapi.mouse.scroll.right": "Scroll Right",
-  "key.amecsapi.mouse.scroll.up": "Scroll Up"
+  "key.amecsapi.mouse.scroll.down": "Прокрутка вниз",
+  "key.amecsapi.mouse.scroll.left": "Прокрутка влево",
+  "key.amecsapi.mouse.scroll.right": "Прокрутка вправо",
+  "key.amecsapi.mouse.scroll.up": "Прокрутка вверх"
 }

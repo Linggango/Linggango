@@ -28,7 +28,7 @@
   "effect.aromatic.anosmia": "Аносмия",
   "entity.aromatic.caddle": "Каддл",
   "item.aromatic.barkjam_disc": "Музыкальная пластинка",
-  "item.aromatic.barkjam_disc.desc": "Quixotic Critter - Баркджем",
+  "item.aromatic.barkjam_disc.desc": "Quixotic Critter — Barkjam",
   "item.aromatic.caddle_spawn_egg": "Яйцо призыва каддла",
   "item.aromatic.cinnamon_bark": "Кора корицы",
   "item.aromatic.cinnamon_berries": "Ягоды корицы",
@@ -43,7 +43,7 @@
   "item_group.aromatic.aromatic": "Ароматика",
   "subtitles.caddle.death": "Каддл визжит",
   "subtitles.caddle.say": "Каддл хрюкает",
-  "subtitles.caddle.step": "Шаги",
+  "subtitles.caddle.step": "Шаги каддла",
   "subtitles.cinnamon.bundle.breaks": "Связка корицы раскрывается",
   "subtitles.cinnamon.bundle.shaken": "Связка корицы гремит"
 }

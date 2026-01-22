@@ -127,7 +127,7 @@
   "chloride.world": "Мир",
   "chloride.world.blueband.desc": "Если отключено, эффект голубой полосы убирается во всех измерениях",
   "chloride.world.blueband.title": "Голубая полоса неба",
-  "chloride.world.clouds.height.desc": "Поднимает высоту облаков.\nНастройте высоту облаков, не влияет на счастливых гастаов",
+  "chloride.world.clouds.height.desc": "Поднимает высоту облаков.\nНастройте высоту облаков, не влияет на счастливых гастов",
   "chloride.world.clouds.height.desc.__COMMENT": "ПОДНИМАЕТ ВЫСОТУ ОБЛАКОВ — можно заменить на локальную шутку или мем",
   "chloride.world.clouds.height.title": "Высота облаков",
   "chloride.world.custom_fog.desc": "Включает пользовательские значения тумана",

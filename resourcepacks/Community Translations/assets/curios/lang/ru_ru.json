@@ -1,11 +1,11 @@
 {
   "argument.curios.type.unknown": "Неизвестный тип слота аксессуара %s",
   "argument.entity.options.curios.description": "Инвентарь curios-объекта",
-  "commands.curios.add.success": "%d слоты типа %s были добавлены к %s",
+  "commands.curios.add.success": "%d слотов типа %s были добавлены к %s",
   "commands.curios.clear.success": "Слот %s был очищен у %s",
   "commands.curios.clearAll.success": "Все слоты были очищены для %s",
   "commands.curios.drop.success": "В слоте %s для %s предметы сброшены",
-  "commands.curios.dropAll.success": "Со всех слотах %s предметы сброшены",
+  "commands.curios.dropAll.success": "Со всех слотов %s предметы сброшены",
   "commands.curios.lock.success": "Слот %s был заблокирован для %s",
   "commands.curios.remove.success": "%d слотов типа %s было убрано у %s",
   "commands.curios.replace.success": "%s слот для %s заменён на %s",

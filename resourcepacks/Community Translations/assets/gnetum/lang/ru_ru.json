@@ -44,7 +44,7 @@
   "gnetum.config.numberOfPasses.tooltip": "Указывает общее количество проходов. Большее число повышает производительность, но замедляет обновление HUD.\n\nЧастота кадров HUD будет равна частному от деления FPS игры на количество проходов. Учтите, что фактическая частота кадров HUD также будет ограничена параметром \"Лимит FPS HUD\".",
   "gnetum.config.pass": "Проход",
   "gnetum.config.reset": "Сбросить настройки...",
-  "gnetum.config.searchHint": "Search...",
+  "gnetum.config.searchHint": "Поиск...",
   "gnetum.config.showFps": "Показывать FPS HUD в F3",
   "gnetum.config.showFps.tooltip": "Добавляет строку в левый верхний угол экрана F3 для отображения частоты кадров (FPS) интерфейса.",
   "gnetum.config.tooltip.auto": "Gnetum автоматически решит, кэшировать этот элемент или нет.\n\nТекущий статус: %s",

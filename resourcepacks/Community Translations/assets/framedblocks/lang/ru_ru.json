@@ -342,7 +342,7 @@
   "tooltip.framedblocks.split_line.false": "Линия разлома деформированной стороны идёт по крутой диагонали.",
   "tooltip.framedblocks.split_line.true": "Линия разлома деформированной стороны идёт по пологой диагонали.",
   "tooltip.framedblocks.y_slope": "Блок использует %s стороны для вертикальных скатов.",
-  "tooltip.framedblocks.y_slope.horizontal": "horizontal",
+  "tooltip.framedblocks.y_slope.horizontal": "горизонтальные",
   "tooltip.framedblocks.y_slope.toggle": "Ударьте обрамлённым гаечным ключом, чтобы переключить на %s стороны",
   "tooltip.framedblocks.y_slope.vertical": "вертикальные"
 }

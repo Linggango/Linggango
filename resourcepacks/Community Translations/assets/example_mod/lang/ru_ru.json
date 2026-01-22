@@ -1,8 +1,8 @@
 {
-  "cerulean.configuration.client": "client",
-  "cerulean.configuration.example": "example",
-  "example_mod.configuration.client": "client",
-  "example_mod.configuration.example": "example",
-  "sodiumoptionsmodcompat.configuration.client": "client",
-  "sodiumoptionsmodcompat.configuration.example": "example"
+  "cerulean.configuration.client": "клиент",
+  "cerulean.configuration.example": "пример",
+  "example_mod.configuration.client": "клиент",
+  "example_mod.configuration.example": "пример",
+  "sodiumoptionsmodcompat.configuration.client": "клиент",
+  "sodiumoptionsmodcompat.configuration.example": "пример"
 }

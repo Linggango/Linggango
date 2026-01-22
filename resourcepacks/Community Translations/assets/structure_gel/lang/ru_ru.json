@@ -7,8 +7,8 @@
   "block.structure_gel.orange_gel": "Оранжевый гель",
   "block.structure_gel.red_gel": "Красный гель",
   "block.structure_gel.yellow_gel": "Жёлтый гель",
-  "commands.structure_gel.clone.override": "Превышен лимит vanilla команды clone: %s блоков, клонируется %s блоков. Это может занять некоторое время",
-  "commands.structure_gel.fill.override": "Превышен лимит vanilla команды fill: %s блоков, заполняется %s блоков. Это может занять некоторое время",
+  "commands.structure_gel.clone.override": "Превышен лимит ванильной команды clone: %s блоков, клонируется %s блоков. Это может занять некоторое время",
+  "commands.structure_gel.fill.override": "Превышен лимит ванильной команды fill: %s блоков, заполняется %s блоков. Это может занять некоторое время",
   "gui.structure_gel.connect_to_blocks": "Соединять с блоками: %s",
   "gui.structure_gel.data_handler.apply_at_heightmap": "Применять по карте высот: %s",
   "gui.structure_gel.data_handler.compound": "Композит",
@@ -230,7 +230,7 @@
   "info.structure_gel.unknown_behavior": "• Поведение этого блока не определено. Убедитесь, что вы используете или расширяете StructureGelBlock в коде.",
   "item.structure_gel.building_tool": "Строительный инструмент",
   "item.structure_gel.building_tool.info.open_gui": "• Нажмите [%s] в воздухе, чтобы выбрать режим.",
-  "item.structure_gel.building_tool.info.select_block": "• For modes that require a block pallete you can press %s on a block to select it. You can also right click with an item held in your mouse onto this stack to select that block. If you use a block or item with an inventory, the inventory will be converted into a block pallete.",
+  "item.structure_gel.building_tool.info.select_block": "• Для режимов, требующих палитру блоков, вы можете нажать %s по блоку, чтобы выбрать его. Вы также можете нажать правой кнопкой мыши с предметом в руке по этому стеку, чтобы выбрать этот блок. Если вы используете блок или предмет с инвентарем, этот инвентарь будет преобразован в палитру блоков.",
   "item.structure_gel.building_tool.info.undo_and_redo": "• Вы можете отменить предыдущие действия с помощью %s и вернуть их с помощью %s.",
   "item.structure_gel.building_tool.info.zoom_reach": "• Вы можете изменить дальность действия, удерживая [%s] и используя колесо мыши.",
   "item.structure_gel.building_tool.mode.description.structure_gel:clone": "• Клонирует выбранную область к вашему местоположению.\n\n• Нажмите [%s] по блоку, чтобы выбрать первую точку.\n• Нажмите [%s] по другому блоку, чтобы выбрать вторую точку.\n• Нажмите [%s], чтобы клонировать выбранную область к себе.",
@@ -253,7 +253,7 @@
   "item.structure_gel.building_tool.mode.structure_gel:none": "Нет",
   "item.structure_gel.building_tool.mode.structure_gel:replace": "Замена",
   "item.structure_gel.building_tool.mode.structure_gel:shape": "Форма",
-  "itemGroup.structure_gel.structure_items": "Structure Items",
+  "itemGroup.structure_gel.structure_items": "Предметы структур",
   "itemGroup.structure_gel.structure_items.no_access": "Вам нужен доступ к командам для доступа к предметам в этой вкладке.",
   "key.structure_gel.open_building_tool_gui": "Открыть интерфейс строительного инструмента"
 }

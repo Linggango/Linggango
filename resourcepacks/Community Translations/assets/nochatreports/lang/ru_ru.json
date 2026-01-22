@@ -98,7 +98,7 @@
   "option.NoChatReports.enableDebugLog": "Отладочный лог",
   "option.NoChatReports.enableDebugLog.tooltip": "Включает вывод технической информации в лог.",
   "option.NoChatReports.enableMod": "Включить мод",
-  "option.NoChatReports.enableMod.tooltip": "Включает основную функциональность мода. Потребуется перезаход на сервер.",
+  "option.NoChatReports.enableMod.tooltip": "Включить основную функциональность мода. Потребуется перезаход на сервер.",
   "option.NoChatReports.hideInsecureMessageIndicators": "Скрыть индикаторы непроверенных сообщений",
   "option.NoChatReports.hideInsecureMessageIndicators.tooltip": "Убирает серую полосу слева от сообщений без подписи.",
   "option.NoChatReports.hideModifiedMessageIndicators": "Скрыть индикаторы измененных сообщений",

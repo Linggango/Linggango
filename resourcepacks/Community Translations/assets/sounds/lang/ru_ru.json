@@ -50,7 +50,7 @@
   "sounds.config.mention.option": "Упоминания в чате",
   "sounds.config.mention.option.description": "Звук, воспроизводимый при упоминании вас в новом сообщении в чате.",
   "sounds.config.mentionKeywords.option": "Включить префикс упоминания",
-  "sounds.config.mentionKeywords.option.description": "Должен ли использоваться префикс \u0027@\u0027 для определения того, упомянуты ли вы в сообщении чата?",
+  "sounds.config.mentionKeywords.option.description": "Должен ли использоваться префикс '@' для определения того, упомянуты ли вы в сообщении чата?",
   "sounds.config.message.option": "Сообщения в чате",
   "sounds.config.message.option.description": "Звук, воспроизводимый при получении сообщения в чате.",
   "sounds.config.negativeStatusEffectGain.option": "Получение негативного эффекта",
@@ -70,7 +70,7 @@
   "sounds.config.option.description.itemSoundCooldown": "Время перезарядки звуков предметов в секундах.",
   "sounds.config.option.disableBlocksEntirely": "Отключить все изменённые звуки блоков",
   "sounds.config.option.enableChatSoundCooldown": "Включить перезарядку звуков",
-  "sounds.config.option.enableEnderpearlVariety": "Enable Enderpearl Variety",
+  "sounds.config.option.enableEnderpearlVariety": "Разнообразить звуки жемчуга Края",
   "sounds.config.option.enableItemSoundCooldown": "Включить перезарядку звука предмета",
   "sounds.config.option.ignoreEmptyHotbarSlots": "Игнорировать пустые слоты в хотбаре",
   "sounds.config.option.ignoreEmptyInventorySlots": "Игнорировать пустые слоты инвентаря",
@@ -119,6 +119,6 @@
   "sounds.config.world.blocks.description": "Эти звуки распределяются по категориям и применяются на основе тегов, обеспечивая гибкость и настраиваемость.\nПри поиске звуков рекомендуется использовать строку поиска.\nЧтобы получить полный список блоков, относящихся к тем или иным тегам, нажмите на следующую кнопку:",
   "sounds.config.world.mechanics": "Механики",
   "sounds.config.world.mobs": "Мобы",
-  "sounds.incompatability.message": "Похоже, что установлены оба мода §lQualitySounds§r и §lSounds§r.\n\n§lПожалуйста, удалите мод QualitySounds, так как мод Sounds уже включает в себя все его звуковые эффекты и функциональные возможности.\n\nСохранение обоих установленных модов приведет к конфликтам с миксинами мода Sounds, что приведёт к дублированию звука и другим потенциальным проблемам и сбоям.§r\n\n§lSounds§r обладает полным набором функций, включая все, что предлагает QualitySounds, и ещё более настраиваемый интерфейс.§r\n\nС §lSounds§r, вы можете изменять звуки перемещения, падения, разрушения и шагов для блоков, которым были присвоены пользовательские звуковые эффекты, в том числе изменять их высоту и громкость — функции, которых нет в QualitySounds.\n",
+  "sounds.incompatability.message": "Похоже, что установлены оба мода QualitySounds и Sounds.\n\nПожалуйста, удалите мод QualitySounds, так как мод Sounds уже включает в себя все его звуковые эффекты и функциональные возможности.\n\nСохранение обоих установленных модов приведет к конфликтам с миксинами мода Sounds, что приведёт к дублированию звука и другим потенциальным проблемам и сбоям.§r\n\nSounds обладает полным набором функций, включая все, что предлагает QualitySounds, и ещё более настраиваемый интерфейс.§r\n\nС Sounds, вы можете изменять звуки перемещения, падения, разрушения и шагов для блоков, которым были присвоены пользовательские звуковые эффекты, в том числе изменять их высоту и громкость — функции, которых нет в QualitySounds.\n",
   "sounds.incompatability.title": "Обнаружена несовместимость"
 }

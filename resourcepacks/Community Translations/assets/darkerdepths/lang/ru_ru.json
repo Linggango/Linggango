@@ -19,7 +19,7 @@
   "block.darkerdepths.ash": "Пепел",
   "block.darkerdepths.ash_block": "Блок пепла",
   "block.darkerdepths.chiseled_aridrock_bricks": "Резные сухокаменные кирпичи",
-  "block.darkerdepths.chiseled_darkslate_bricks": "Резные мранцевые кирпиичи",
+  "block.darkerdepths.chiseled_darkslate_bricks": "Резные мранцевые кирпичи",
   "block.darkerdepths.chiseled_duskrock_bricks": "Резные сумранитовые кирпичи",
   "block.darkerdepths.chiseled_grimestone_bricks": "Резные гримневые кирпичи",
   "block.darkerdepths.cracked_aridrock_bricks": "Потрескавшиеся сухокаменные кирпичи",
@@ -48,7 +48,7 @@
   "block.darkerdepths.duskrock_bricks_wall": "Ограда из сумранитового кирпича",
   "block.darkerdepths.duskrock_slab": "Сумранитовая плита",
   "block.darkerdepths.duskrock_stairs": "Сумранитовые ступеньки",
-  "block.darkerdepths.duskrock_vertical_slab": "Вертикальнная сумранитовая плита",
+  "block.darkerdepths.duskrock_vertical_slab": "Вертикальная сумранитовая плита",
   "block.darkerdepths.duskrock_wall": "Сумранитовая ограда",
   "block.darkerdepths.forsaken_bronze_block": "Блок заброшенной бронзы",
   "block.darkerdepths.geyser": "Гейзер",
@@ -118,7 +118,7 @@
   "block.darkerdepths.vertical_petrified_planks": "Вертикальные высохшие доски",
   "block.darkerdepths.void_soul_jar": "Сосуд пустотных душ",
   "block.darkerdepths.void_soul_torch": "Факел пустотных душ",
-  "death.attack.soul_binding_damage": "Душа %1$s\u0027а была поглощена якорем смерти.",
+  "death.attack.soul_binding_damage": "Душа %1$s была поглощена якорем смерти.",
   "effect.darkerdepths.paranoia": "Паранойя",
   "effect.darkerdepths.soul_binding": "Связь душ",
   "enchantment.darkerdepths.quick_dash": "Быстрый рывок",
@@ -126,7 +126,7 @@
   "entity.darkerdepths.body_snatcher": "Телохититель",
   "entity.darkerdepths.glowshroom_monster": "Светогрибное чудище",
   "entity.darkerdepths.petrified_boat": "Высохшая лодка",
-  "entity.darkerdepths.petrified_chest_boat": "грузовая лодка",
+  "entity.darkerdepths.petrified_chest_boat": "Грузовая лодка",
   "entity.darkerdepths.void_soul": "Пустотная душа",
   "entity.darkerdepths.void_soul_knight": "Рыцарь пустотных душ",
   "item.darkerdepths.amber": "Янтарь",
@@ -150,5 +150,5 @@
   "tooltip.darkerdepths.glowshroom_cap.shift_desc_1": "Обеспечивает свет и спешку при ношении.",
   "tooltip.darkerdepths.glowshroom_cap.shift_desc_2": "Найдено на спине светогрибного чудища.",
   "tooltip.darkerdepths.press_shift": "Нажмите [SHIFT]",
-  "tooltip.darkerdepths.stiletto.shift_desc": "Нажмите [RIGHT CLICK] для рывка."
+  "tooltip.darkerdepths.stiletto.shift_desc": "Нажмите [ПРАВАЯ КНОПКА МЫШИ] для рывка."
 }

@@ -68,7 +68,7 @@
   "item.many_bows.frostbite_bow.tooltip.frostwalker": "Даёт эффект «Ледоход», пока лук натянут.",
   "item.many_bows.icicle_javelin_bow.tooltip": "Лук, пропитанный силой ледяных ветров.",
   "item.many_bows.icicle_javelin_bow.tooltip.ability": "Метает ледяные копья, пробивающие врагов насквозь.",
-  "item.many_bows.icicle_javelin_bow.tooltip.freeze": "summon ice upon block hit.",
+  "item.many_bows.icicle_javelin_bow.tooltip.freeze": "Призывает лед при попадании в блок.",
   "item.many_bows.radiance.no_experience": "Для выстрела из этого лука требуется опыт!",
   "item.many_bows.radiance.tooltip": "Лук, благословленный небесным светом.",
   "item.many_bows.radiance.tooltip.ability": "Энергия сияния калечит нежить, лечит союзников и ослепляет врагов.",

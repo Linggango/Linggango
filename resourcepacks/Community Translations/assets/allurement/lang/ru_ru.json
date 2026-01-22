@@ -1,6 +1,6 @@
 {
   "death.attack.allurement.shockwave": "%1$s был растоптан",
-  "death.attack.allurement.shockwave.item": "%1$s was stomped by %2$s using %3$s",
+  "death.attack.allurement.shockwave.item": "%1$s был растоптан %2$s с помощью %3$s",
   "enchantment.allurement.alleviating": "Облегчение",
   "enchantment.allurement.alleviating.desc": "Восполняет здоровье при получении опыта.",
   "enchantment.allurement.ascension_curse": "Проклятие вознесения",

@@ -1,4 +1,4 @@
 {
-  "config.jade.plugin_fulleng.storage_monitor": "Fullblock Storage Monitor",
-  "gui.fulleng.not_installed": "%s not installed."
+  "config.jade.plugin_fulleng.storage_monitor": "Монитор хранилища Fullblock",
+  "gui.fulleng.not_installed": "%s не установлено."
 }

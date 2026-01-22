@@ -1,7 +1,7 @@
 {
-  "gui.ae2insertexportcard.blacklist": "Blacklist",
-  "gui.ae2insertexportcard.whitelist": "Whitelist",
-  "item.ae2insertexportcard.export_card": "Export Card",
-  "item.ae2insertexportcard.insert_card": "Insert Card",
+  "gui.ae2insertexportcard.blacklist": "Черный список",
+  "gui.ae2insertexportcard.whitelist": "Белый список",
+  "item.ae2insertexportcard.export_card": "Карта экспорта",
+  "item.ae2insertexportcard.insert_card": "Карта вставки",
   "itemGroup.ae2insertexportcard": "AE2 Insert Export Card"
 }

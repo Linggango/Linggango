@@ -1,12 +1,12 @@
 {
   "text.trender.name": "Trender",
-  "text.trender.sendstacktraces": "Send Stacktraces",
-  "text.trender.sendstacktraces.tooltip": "When enabled, stacktraces in the log or game crashes that contain mod references to mods by tr7zw will be sent to the mod author via Sentry (Sentry.io) to help fix bugs faster. No personal information is collected or sent. (Restart the game after turning it on)",
-  "text.trender.style": "UI Style",
-  "text.trender.style.MODERN": "Modern",
-  "text.trender.style.MODERN_DARK": "Modern Dark",
-  "text.trender.style.VANILLA_MODERN": "Modern Vanilla",
-  "text.trender.style.VANILLA_OLD": "Old Vanilla",
-  "text.trender.style.tooltip": "Changes the UI Style for all of mods by tr7zw.",
-  "text.trender.tab.general_options": "Options"
+  "text.trender.sendstacktraces": "Отправка отчётов об ошибках",
+  "text.trender.sendstacktraces.tooltip": "Если включено, трассировки стека из логов или крашей игры, содержащие ссылки на моды от tr7zw, будут отправляться автору мода через Sentry (Sentry.io), чтобы помочь быстрее исправлять ошибки. Личная информация не собирается и не отправляется. (Перезапустите игру после включения)",
+  "text.trender.style": "Стиль интерфейса",
+  "text.trender.style.MODERN": "Современный",
+  "text.trender.style.MODERN_DARK": "Современный тёмный",
+  "text.trender.style.VANILLA_MODERN": "Современный ванильный",
+  "text.trender.style.VANILLA_OLD": "Старый ванильный",
+  "text.trender.style.tooltip": "Изменяет стиль интерфейса для всех модов от tr7zw.",
+  "text.trender.tab.general_options": "Настройки"
 }

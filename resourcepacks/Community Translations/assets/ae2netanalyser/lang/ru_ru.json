@@ -22,6 +22,6 @@
   "gui.ae2netanalyser.network_analyser.state.missing_nodes": "Узлов оффлайн: %s",
   "gui.ae2netanalyser.network_analyser.state.normal_nodes": "Обычных узлов: %s",
   "item.ae2netanalyser.network_analyser": "МЭ Анализатор сети",
-  "item.ae2netanalyser.p2p_analyser": "ME P2P Analyzer",
-  "itemGroup.ae2netanalyser": "AE2 Network Analyser"
+  "item.ae2netanalyser.p2p_analyser": "МЭ P2P-анализатор",
+  "itemGroup.ae2netanalyser": "Анализатор сети AE2"
 }

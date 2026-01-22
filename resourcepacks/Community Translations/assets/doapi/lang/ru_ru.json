@@ -1,6 +1,6 @@
 {
-  "block.doapi.standard": "Баннер завершения",
-  "block.doapi.wall_standard": "Настенный баннер завершения",
+  "block.doapi.standard": "Штандарт завершения",
+  "block.doapi.wall_standard": "Настенный штандарт завершения",
   "pack.source.builtinMod": "встроенный: %s",
   "sound.doapi.beer_elemental_ambient": "Фоновые звуки пивного элементаля",
   "sound.doapi.beer_elemental_attack": "Атака пивного элементаля",

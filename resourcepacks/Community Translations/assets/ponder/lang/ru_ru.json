@@ -38,7 +38,7 @@
   "catnip.ui.value_entry.restart_required": "Изменение этого параметра потребует _перезапуска клиента_ для вступления в силу",
   "catnip.util.fly_speed_set.message": "Скорость полёта %1$s временно изменена на %2$s",
   "catnip.util.unable_to_find_config.message": "Указанный файл конфигурации не найден",
-  "key.categories.ponder": "Ponder",
+  "key.categories.ponder": "Размышление",
   "key.ponder.ponder": "Размышление",
   "ponder.ponder.shared.ctrl_and": "Ctrl +",
   "ponder.ponder.shared.sneak_and": "Shift +",

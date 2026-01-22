@@ -8,6 +8,6 @@
   "config.client.treatBlacklistAsWhitelist": "Клиент отображает иконки оповещений только над этими мобами",
   "config.client.xOffset": "Регулирует позицию иконок оповещений по горизонтали",
   "config.client.yOffset": "Регулирует позицию иконок оповещений по вертикали",
-  "config.server.clientMobBlacklist": "Сервер не проверяет приобретение цели для этих мобов",
+  "config.server.clientMobBlacklist": "Сервер не проверяет обнаружение цели для этих мобов",
   "config.server.hideAlertAfterTicks": "Скрывать иконку оповещения для мобов, которые были видны X тактов, установите <= 0 для отключения этой функции"
 }

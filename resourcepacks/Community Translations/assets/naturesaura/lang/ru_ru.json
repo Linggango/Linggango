@@ -25,11 +25,11 @@
   "advancement.naturesaura.furnace_heater.desc": "Создайте внешний поджигатель, чтобы нагреть вашу печь",
   "advancement.naturesaura.get_book": "Страницы открытия",
   "advancement.naturesaura.get_book.desc": "Создайте книгу природной ауры",
-  "advancement.naturesaura.gold_leaf": "Время \u003d Блеск",
+  "advancement.naturesaura.gold_leaf": "Время = Блеск",
   "advancement.naturesaura.gold_leaf.desc": "Создайте и соберите блестящее дерево",
   "advancement.naturesaura.infused_materials": "Железный завод",
   "advancement.naturesaura.infused_materials.desc": "Используйте природный алтарь для создания инфузионного железа",
-  "advancement.naturesaura.infused_tools": "Готовьтесь усиливается",
+  "advancement.naturesaura.infused_tools": "Готовьтесь усиливаться",
   "advancement.naturesaura.infused_tools.desc": "Создайте инфузионную железную кирку и меч",
   "advancement.naturesaura.negative_imbalance": "Смертельный день",
   "advancement.naturesaura.negative_imbalance.desc": "Слейте достаточно ауры, чтобы вызвать негативные последствия дисбаланса",
@@ -247,5 +247,5 @@
   "itemGroup.naturesaura": "Nature's Aura",
   "item_group.naturesaura.tab": "Nature's Aura",
   "naturesaura:aura_mending.enchant.desc": "Исцеляет игрока, используя ауру",
-  "potion.naturesaura.breathless": "Дыхание"
+  "potion.naturesaura.breathless": "Бездыханность"
 }

@@ -12,12 +12,12 @@
   "item.darkdoppelganger.summons_necklace": "Ожерелье призывателя",
   "itemGroup.darkdoppelganger.doppelganger_tab": "Dark Doppelganger",
   "itemGroup.darkdoppelganger.example_tab": "Вкладка Dark Doppelganger",
-  "orb.tooltip1": "Let it fall...",
-  "orb.tooltip2": "In The End, it will not stay gone.",
+  "orb.tooltip1": "Пусть она упадет...",
+  "orb.tooltip2": "В конце концов, это не исчезнет навсегда.",
   "spell.darkdoppelganger.doppel_portal": "Прыжок через портал",
-  "spell.darkdoppelganger.summon_doppel_minion": "Summon Minion",
+  "spell.darkdoppelganger.summon_doppel_minion": "Призыв миньона",
   "spell.irons_spellbooks.doppel_portal": "Прыжок через портал",
   "spell.irons_spellbooks.doppel_portal.guide": "Войдите в портал, появившийся перед вами, чтобы выйти из другого портала на расстоянии нескольких блоков.",
-  "spell.irons_spellbooks.summon_doppel_minion": "Summon Minion",
-  "spell.irons_spellbooks.summon_doppel_minion.guide": "Able to summon 1 minion to fight at your side from the Dark Doppelgangers dimension."
+  "spell.irons_spellbooks.summon_doppel_minion": "Призыв миньона",
+  "spell.irons_spellbooks.summon_doppel_minion.guide": "Позволяет призвать 1 миньона из измерения Тёмных Двойников, который будет сражаться на вашей стороне."
 }

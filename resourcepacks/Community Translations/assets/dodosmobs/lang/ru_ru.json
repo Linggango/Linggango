@@ -1,6 +1,6 @@
 {
-  "death.attack.dodosmobs.wound": "Рана открылась.",
-  "death.attack.dodosmobs.wound.player": "Рана открылась",
+  "death.attack.dodosmobs.wound": "Рана открылась у %s",
+  "death.attack.dodosmobs.wound.player": "%s истёк кровью из-за открытой раны",
   "effect.dodosmobs.wound": "Ранение",
   "entity.dodosmobs.bone_chimera": "Костяная химера",
   "entity.dodosmobs.dead_horn": "Мёртвый рог",

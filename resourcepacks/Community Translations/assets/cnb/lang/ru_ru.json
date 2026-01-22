@@ -47,7 +47,7 @@
   "entity.yeti.hit": "Йети атакует",
   "entity.yeti.hurt": "Йети ранен",
   "entity.yeti.step": "Йети ходит",
-  "entity.yeti_adult.eat": "Ети ест",
+  "entity.yeti_adult.eat": "Йети ест",
   "entity.yeti_baby.eat": "Малыш йети чавкает",
   "item.cactem_spear.throw": "Копьё пролетает",
   "item.cnb.apple_slice": "Ломтики яблока",
@@ -88,12 +88,12 @@
   "item.cnb.sporeling_nether_egg": "Яйцо призыва незерского грибочка",
   "item.cnb.sporeling_overworld_egg": "Яйцо призыва грибочка Верхнего мира",
   "item.cnb.yellow_minipad_flower": "Жёлтый цветок кувшиночки",
-  "item.cnb.yellow_minipad_flower_glow": "Жёлтый светящийся цветок кувшиночкиr",
+  "item.cnb.yellow_minipad_flower_glow": "Жёлтый светящийся цветок кувшиночки",
   "item.cnb.yellow_waterlily": "Жёлтая водяная лилия",
   "item.cnb.yeti_antler": "Рог йети",
   "item.cnb.yeti_hide": "Шкура йети",
   "item.cnb.yeti_spawn_egg": "Яйцо призыва йети",
   "item.heal_spell_book.player_heal": "Произносится заклинание",
-  "itemGroup.cnb_tab": "Creatures And Beasts",
-  "itemGroup.creatures_and_beasts_tab": "Creatures and Beasts"
+  "itemGroup.cnb_tab": "Существа и звери",
+  "itemGroup.creatures_and_beasts_tab": "Существа и звери"
 }

@@ -74,6 +74,6 @@
   "item.comforts.hammock.placement.tooltip": "Требует %s для установки.",
   "item.comforts.rope_and_nail.placement.tooltip": "Используется для установки гамаков.",
   "item.comforts.sleeping_bag.auto_use.tooltip": "Автоматически пытается уснуть.\nДля установки используйте, приседая.",
-  "itemGroup.comforts": "Comforts",
-  "itemGroup.comforts.general": "Comforts"
+  "itemGroup.comforts": "Уют",
+  "itemGroup.comforts.general": "Уют"
 }

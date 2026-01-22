@@ -1,7 +1,7 @@
 {
-  "despawntweaks.configuration.Structures": "Structures",
-  "despawntweaks.configuration.StructuresMods": "StructuresMods",
-  "despawntweaks.configuration.allowEquipmentDrops": "allowEquipmentDrops",
-  "despawntweaks.configuration.allowMobsSpawnedBySpawnersToDespawn": "allowMobsSpawnedBySpawnersToDespawn",
-  "despawntweaks.configuration.enableLetMeDespawnOptimization": "enableLetMeDespawnOptimization"
+  "despawntweaks.configuration.Structures": "Структуры",
+  "despawntweaks.configuration.StructuresMods": "Моды на структуры",
+  "despawntweaks.configuration.allowEquipmentDrops": "Разрешить выпадение снаряжения",
+  "despawntweaks.configuration.allowMobsSpawnedBySpawnersToDespawn": "Разрешить мобам из спавнеров исчезать",
+  "despawntweaks.configuration.enableLetMeDespawnOptimization": "Включить оптимизацию «Let Me Despawn»"
 }
