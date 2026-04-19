@@ -1,0 +1,23 @@
+{
+  "name": "Créditos",
+  "icon": "terramity:gold_medal",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Soy Aurukel, el dueño de este mod y el autor de este libro. Puedes ver mi canal de YouTube, donde publico de todo un poco. Puedes ver mis otras redes sociales como Discord y Twitter si quieres contactarme.",
+      "url": "https://www.youtube.com/@aurukel",
+      "link_text": "YouTube de Aurukel"
+    },
+    {
+      "type": "patchouli:link",
+      "text": "A partir de la versión v0.9.4, MilkyFur me ha ayudado a remasterizar las texturas y spriters del mod, y será el encargado del arte del mod en un futuro cercano. Puedes ver su trabajo en su Twitter, ¡es una artista genial!",
+      "url": "https://x.com/Milk_Furr",
+      "link_text": "Twitter de MilkyFur"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por último, Oroshiagito se encarga de la traducción del mod a español, para aquellos minecrafteros que les encantó este mod para su mundo. No tiene un link de su trabajo, pero se está esforzando para mantener el mod y su contenido totalmente traducido al español."
+    }
+  ]
+}

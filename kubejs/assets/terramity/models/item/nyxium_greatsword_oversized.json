@@ -1,0 +1,71 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "terramity:item/oversized_sword",
+    "textures": {
+      "0": "terramity:item/nyxium_greatsword"
+    },
+	  "display": {
+		"thirdperson_righthand": {
+		  "rotation": [ 0, -90, 55 ],
+		  "translation": [ 0, 11.0, 0.5 ],
+		  "scale": [ 1.75, 1.75, 1.75 ]
+		},
+		"thirdperson_lefthand": {
+		  "rotation": [ 0, 90, -55 ],
+		  "translation": [ 0, 11.0, 0.5 ],
+		  "scale": [ 1.75, 1.75, 1.75 ]
+		},
+		"firstperson_righthand": {
+		  "rotation": [
+			0,
+			-90,
+			25
+		  ],
+		  "translation": [
+			2.6,
+			1.0,
+			1.2
+		  ],
+		  "scale": [
+			1.25,
+			1.25,
+			1.25
+		  ]
+		},
+		"firstperson_lefthand": {
+		  "rotation": [
+			0,
+			90,
+			-25
+		  ],
+		  "translation": [
+			2.6,
+			1.0,
+			1.2
+		  ],
+		  "scale": [
+			1.25,
+			1.25,
+			1.25
+		  ]
+		}
+	  }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "terramity:item/nyxium_greatsword_shrunk"
+      },
+      "gui_light": "front"
+    },
+	"ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "terramity:item/nyxium_greatsword_shrunk"
+      }
+    }
+  }
+}
