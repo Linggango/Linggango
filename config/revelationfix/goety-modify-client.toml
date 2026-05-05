@@ -1,0 +1,7 @@
+
+#You can control the modification of Goety in this config
+[Particles]
+	#If true, the wind particle will become brighter.
+	#启用后, wind粒子将会更亮.
+	wayfarerBeltCharmExtra = true
+

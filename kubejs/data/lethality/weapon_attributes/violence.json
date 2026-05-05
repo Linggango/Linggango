@@ -1,6 +1,7 @@
 {
   "parent": "bettercombat:spear",
   "attributes": {
+        "attack_range": 5.0,
     "pose": "malfu_combat_animation:leftside_polearm_pose",
     "attacks": [
       {

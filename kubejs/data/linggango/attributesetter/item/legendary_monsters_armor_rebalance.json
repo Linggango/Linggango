@@ -1,0 +1,8 @@
+ {"legendary_monsters:atmospheric_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "l2complements:burnt",
+  "chance": 3000,
+  "ingredient": {
+    "item": "minecraft:mutton"
+  },
+  "result": {
+    "item": "l2complements:life_essence"
+  }
+}

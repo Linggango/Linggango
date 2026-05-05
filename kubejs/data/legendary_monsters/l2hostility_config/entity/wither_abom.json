@@ -1,0 +1,40 @@
+{
+  "list": [
+    {
+      "attackScale": 1.2,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 50,
+        "min": 100,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "legendary_monsters:withered_abomination"
+      ],
+      "healthScale": 0.1,
+      "items": [],
+      "maxLevel": 0,
+      "maxTraitCount": 2,
+      "minSpawnLevel": 100,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:wither"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:cursed"
+        }
+      ]
+    }
+  ]
+}

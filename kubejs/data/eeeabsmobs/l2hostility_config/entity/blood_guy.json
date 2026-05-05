@@ -1,0 +1,52 @@
+{
+  "list": [
+    {
+      "attackScale": 0.8,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 80,
+        "min": 160,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "eeeabsmobs:corpse_warlock"
+      ],
+      "healthScale": 0.5,
+      "items": [],
+      "maxLevel": 160,
+      "maxTraitCount": 4,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:reflect"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:blindness"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:wither"
+        },
+         {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:arena"
+        }
+      ]
+    }
+  ]
+}

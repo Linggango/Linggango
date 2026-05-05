@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "composite_material:obsidian_steel_block"
+  },
+  "base": {
+    "item": "composite_material:amethyst_leggings"
+  },
+  "result": {
+    "item": "composite_material:obsidian_leggings"
+  },
+  "template": {
+    "item": "minecraft:netherite_leggings"
+  }
+}

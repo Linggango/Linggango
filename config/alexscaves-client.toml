@@ -9,7 +9,7 @@
 	#whether to make the screen flash white during nuclear explosions.
 	nuclear_bomb_flash = true
 	#true if some biomes, such as primordial caves, have ambient light that makes the biome easier to see in.
-	biome_ambient_light = true
+	biome_ambient_light = false
 	#true if some biomes, such as toxic caves, apply a color to ambient light. May conflict with shaders.
 	biome_ambient_light_coloring = true
 	#true if some biomes, such as primordial caves, have an always well-lit sky when in them. May conflict with shaders.

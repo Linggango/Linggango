@@ -1,0 +1,41 @@
+{
+  "parent": "bettercombat:spear",
+  "attributes": {
+    "pose": "malfu_combat_animation:leftside_polearm_pose",
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:spear_stab_lr",
+        "swing_sound": {
+          "id": "simplyswords:elemental_bow_ice_shoot_impact_02",
+          "pitch": 0.4
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:halberd_rl_stab",
+        "swing_sound": {
+          "id": "simplyswords:elemental_bow_ice_shoot_impact_03",
+          "pitch": 0.6
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:halberd_lr_stab",
+        "swing_sound": {
+          "id": "simplyswords:elemental_bow_ice_shoot_impact_01",
+          "pitch": 0.7
+        }
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 3,
+    "attack_range": 3.8,
     "two_handed": false,
         "pose": "weapon:pose_big_katana_animated",
     "attacks": [

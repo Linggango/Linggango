@@ -1,0 +1,46 @@
+{
+  "list": [
+    {
+      "attackScale": 1.0,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 25,
+        "min": 50,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "mowziesmobs:ferrous_wroughtnaut"
+      ],
+      "healthScale": 0.1,
+      "items": [],
+      "maxLevel": 50,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:protection"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:slowness"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:weakness"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+"armageddon_mod:true_helionite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_world_flare_axe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 13.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:helionite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:helionite_scythe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 9.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_duskfire_blade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:bloody_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:bloody_scythe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:voiderite_scythe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:voiderite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:elvenite_scythe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:cleaver_of_the_starved": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+"armageddon_mod:the_annihilation": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 7.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:spear_of_longinus": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "armageddon_mod:the_oathbreaker_of_chaos": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 7.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:dragons_fang": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 4.5,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:yugure": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 4.5,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:indomita_furia": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:eclipsium_reaper": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:eclipsium_edge": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:scalding_silence": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_sword_of_the_starved": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_chaosphere_blade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:thalassar": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:lance_of_the_veil": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_eye_of_the_sun": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_lost_voidblade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 4.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_titans_oath": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 4.0,
+      "operation": "ADDITION"
+   }
+  ],
+  "armageddon_mod:the_world_breaker_axe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

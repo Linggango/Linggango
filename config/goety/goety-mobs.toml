@@ -4,6 +4,8 @@
 	holidaySkins = true
 	#If Brood Mothers uses their old textures, Default: false
 	broodMotherOldTexture = false
+	#If armor worn by mobs that uses HierarchicalArmorLayer(ie, Illager Servants) shows Armor Trim, Default: true
+	hierarchicalArmorTrim = true
 
 	[Textures."Summoned Mobs"]
 
@@ -18,6 +20,8 @@
 			frozenZombieServantTexture = true
 			#If Jungle Zombie Servants have custom textures, Default: true
 			jungleZombieServantTexture = true
+			#If Frayed Servants have custom textures, Default: true
+			frayedServantTexture = true
 
 		[Textures."Summoned Mobs"."Skeleton Servants"]
 			#If Skeleton Servants have custom textures, Default: true
@@ -34,6 +38,8 @@
 			necromancerServantTexture = true
 			#If Vanguard Servants have custom textures, Default: true
 			vanguardServantTexture = true
+			#If Rattled Servants have custom textures, Default: true
+			rattledServantTexture = true
 
 		[Textures."Summoned Mobs"."Wraith Servants"]
 			#If Wraith Servants have custom textures, Default: true
@@ -80,6 +86,16 @@
 			iceologerServantTexture = true
 			#If Wind Caller Servants have custom textures, Default: true
 			windCallerServantTexture = true
+			#If Piker Servants have custom textures, Default: true
+			pikerServantTexture = true
+			#If Mountaineer Servants have custom textures, Default: true
+			mountaineerServantTexture = true
+			#If Crusher Servants have custom textures, Default: true
+			crusherServantTexture = true
+			#If Cryologer Servants have custom textures, Default: true
+			cryologerServantTexture = true
+			#If Storm Caster Servants have custom textures, Default: true
+			stormCasterServantTexture = true
 
 		[Textures."Summoned Mobs"."Spider Servants"]
 			#If Spiders Servants have custom textures, Default: true
@@ -137,6 +153,16 @@
 			#If Redstone Monstrosities have custom textures, Default: true
 			redstoneMonstrosityTexture = true
 
+		[Textures."Summoned Mobs"."Raider Servants"]
+			#If Ripper Servants have custom textures, Default: true
+			ripperServantTexture = true
+			#If Witch Servants have custom textures, Default: true
+			witchServantTexture = true
+			#If Warlock Servants have custom textures, Default: true
+			warlockServantTexture = true
+			#If Maverick Servants have custom textures, Default: true
+			maverickServantTexture = true
+
 [Servants]
 	#Whether wearing Necro Crown and/or Necro Cape gives massive debuffs to non-undead servant, Default: false
 	necroSetDebuff = false
@@ -180,6 +206,22 @@
 	#How many seconds a servant can't heal through Soul Energy after being injured, Default: 5
 	#Range: > 0
 	servantHealHalt = 5
+	#Whether Servants owned by other Servants benefits from Player Robes and Crown, Default: true
+	servantOwnedServantPlayerBenefit = true
+	#Whether servants can apply harmful status effects to their owner/allies, Default: false
+	servantsHarmEffectApply = false
+	#Servants, when on guarding mode, will load chunks around it, Default: true
+	guardingServantChunkLoad = true
+	#Servants, when on following mode, will load chunks around it, Default: true
+	followingServantChunkLoad = true
+	#Whether Servants be equipped with Carved Pumpkins, which would allow Servants to not be affected by sunlight, Default: false
+	servantsCanWearPumpkin = false
+	#Whether armored Ravagers owned by players will drop their armor, Default: true
+	playerRavagerArmorDrop = true
+	#Whether armor wearing Raider Servants can be equipped with Armor, Default: true
+	raiderServantWearArmor = true
+	#Whether Servants will always give their player Soul Energy upon killing, setting to false will cause them to only give if player wears Dark Robes, Necro Cape and Crown or full Black Iron or Dark Armor set, Default: true
+	servantsAlwaysGiveSE = true
 
 	[Servants."Undead Servants"]
 		#Whether Servants would naturally attack Undead mobs if owner wears a full Necro Set, Default: false
@@ -192,7 +234,7 @@
 		undeadServantSunlightHelmet = true
 		#Whether owned Necromancers fills Empty Soul Jars, Default: true
 		necromancerSoulJar = true
-		#Whether Necromancer's summons have limited lifespans, Default: true
+		#Whether Necromancer's summons have limited lifespans, can be affected by servantOwnedServantPlayerBenefit config, Default: true
 		necromancerSummonsLife = true
 		#How much Soul Energy it cost per second for an Undead Servant to heal, Default: 1
 		#Range: > 0
@@ -236,6 +278,16 @@
 		blackBeastDayStrength = true
 		#Whether owned Black Beasts drop Howling Soul, Default: true
 		blackBeastHowlingSoul = true
+		#Whether Black Beasts chunk load areas around themselves and their target when hunting down with Taglock Kit, Default: true
+		blackBeastChunkLoad = true
+		#Whether Trampler Servants when summoned as hostile will convert into their hostile counterpart, Default: true
+		tramplerHostileConvert = true
+		#Whether Ravager Servants when summoned as hostile will convert into their hostile counterpart, Default: true
+		ravagerHostileConvert = true
+		#Whether Redstone Golems when summoned as hostile will convert into their hostile counterpart, Default: true
+		redstoneGolemHostileConvert = true
+		#Whether Redstone Monstrosities when summoned as hostile will convert into their hostile counterpart, Default: true
+		redstoneMonstrosityHostileConvert = true
 
 	[Servants."Frost Servants"]
 		#Whether Frost Servants can heal if summoned while wearing Frost Robe, Default: true
@@ -309,8 +361,80 @@
 		illagerServantAllOpenDoors = true
 		#Whether Illagers shoot arrows that pass through allied mobs, Default: true
 		illagerServantGhostArrows = true
-		#Whether Neollagers gain armor after training if their owner wears Ring of the Forge, Default: true
+		#Whether Neollagers gain armor after training if their owner wears Ring of the Forge, if 'illagerServantWearArmor' is enabled, Default: true
 		illagerServantTrainArmor = true
+		#Whether Illagers chunk load areas around themselves and their target when hunting down with Taglock Kit, Default: true
+		illagerServantChunkLoadMark = true
+		#Whether Illagers chunk load areas around themselves and their raid position when raiding, Default: true
+		illagerServantChunkLoadRaid = true
+		#Whether Mountaineers can climb up blocks like Spiders, Default: true
+		mountaineerClimb = true
+
+	[Servants."Geo Servants"]
+		#Whether Geo Servants can heal if summoned while wearing Frost Robe, Default: true
+		geoMinionHeal = true
+		#How much Soul Energy it cost per second for a Geo Servant to heal, Default: 1
+		#Range: > 0
+		geoMinionHealCost = 1
+		#How frequent Geo Servants heal, count seconds, Default: 1
+		#Range: > 0
+		geoMinionHealTime = 1
+		#How much Health Geo Servants heal, numerically, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		geoMinionHealAmount = 1.0
+
+	[Servants."Wind Servants"]
+		#Whether Wind Servants can heal if summoned while wearing Frost Robe, Default: true
+		windMinionHeal = true
+		#How much Soul Energy it cost per second for a Wind Servant to heal, Default: 1
+		#Range: > 0
+		windMinionHealCost = 1
+		#How frequent Wind Servants heal, count seconds, Default: 1
+		#Range: > 0
+		windMinionHealTime = 1
+		#How much Health Wind Servants heal, numerically, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		windMinionHealAmount = 1.0
+
+	[Servants."Storm Servants"]
+		#Whether Storm Servants can heal if summoned while wearing Frost Robe, Default: true
+		stormMinionHeal = true
+		#How much Soul Energy it cost per second for a Storm Servant to heal, Default: 1
+		#Range: > 0
+		stormMinionHealCost = 1
+		#How frequent Storm Servants heal, count seconds, Default: 1
+		#Range: > 0
+		stormMinionHealTime = 1
+		#How much Health Storm Servants heal, numerically, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		stormMinionHealAmount = 1.0
+
+	[Servants.Prisoners]
+		#Whether Prisoners can mine ores when given a Pickaxe, Default: true
+		prisonerMining = true
+		#Whether Prisoners can only mine ores they have on line of sight, Default: true
+		prisonerMiningSeeBlocks = true
+		#Whether Prisoners break ore blocks when mining, Default: false
+		prisonerMiningBreakBlocks = false
+		#How many times a Prisoner has to swing their pickaxe before collecting drops when mining, Default: 5
+		#Range: > 0
+		prisonerMiningSwings = 5
+		#How far Prisoners can scan for ores and mine it, in blocks, Default: 4
+		#Range: 1 ~ 64
+		prisonerMiningRange = 4
+		#How much durability is used up on Prisoner's pickaxe after swinging, Default: 1
+		#Range: > 0
+		prisonerMiningDurability = 1
+		#What are the chances of Prisoners successfully mining a block, the lower the number, the more likely, setting to 0 will cause Prisoners to always get the drop, Default: 0
+		#Range: > 0
+		prisonerMiningChance = 0
+		#What are the chances of Prisoners successfully mining a rare ore (ie, Diamonds), the lower the number, the more likely, setting to 0 will cause Prisoners to always get the drop, Default: 10
+		#Range: > 0
+		prisonerMiningRareChance = 10
+		#Whether Prisoners unshackles after taking enough damage away from their owner and or captain, Default: true
+		prisonerUnshackleDamage = true
+		#Whether Prisoners can pick up Pickaxes that are dropped near them and mobGriefing is true, Default: true
+		prisonerPickUpPickaxe = true
 
 [Illagers]
 	#Whether Cryologers can summon Ice Chunks on Hard Difficulty, Default: false
@@ -351,6 +475,8 @@
 		specialIllagerRaid = false
 		#Whether Armored Ravagers spawn in Raids, Default: true
 		armoredRavagerRaid = true
+		#Whether Armored Tramplers spawn in Raids, Default: true
+		armoredTramplerRaid = true
 
 		[Illagers.Raid.Piker]
 			#Whether Pikers appear in Raids, Default: true
@@ -498,6 +624,10 @@
 	villagerConvertToHeretic = false
 	#Wandering Traders transforms into Mavericks when struck by lightning, Default: true
 	traderConvertMaverick = true
+	#Villagers have a chance of converting into Warlock Servants if they're underneath a Block of Crying Obsidian and near and a player wearing Unholy Set, Default: true
+	villagerConvertWarlockUnholy = true
+	#Villagers have a chance of converting into Heretic Servants if they're sleeping near an active Nether Portal and a player wearing Unholy Set, Default: true
+	villagerConvertToHereticUnholy = true
 
 [Spawning]
 
@@ -587,6 +717,8 @@
 		#Spawn maximum group count for Necromancer, must be equal or higher than min count, Default: 1
 		#Range: > 1
 		necromancerSpawnMaxCount = 1
+		#Whether Necromancers can be part of structure spawn pools. Default: false
+		necromancerSpawnStructure = false
 
 	[Spawning.Heretic]
 		#Spawn Weight for Heretic, Default: 5
@@ -610,6 +742,28 @@
 		#Range: > 1
 		maverickSpawnMaxCount = 1
 
+	[Spawning.Frayed]
+		#Spawn Weight for Frayeds, Default: 80
+		#Range: > 0
+		frayedSpawnWeight = 80
+		#Spawn minimum group count for Frayeds, Default: 4
+		#Range: > 1
+		frayedSpawnMinCount = 4
+		#Spawn maximum group count for Frayeds, must be equal or higher than min count, Default: 4
+		#Range: > 1
+		frayedSpawnMaxCount = 4
+
+	[Spawning.Rattled]
+		#Spawn Weight for Rattleds, Default: 80
+		#Range: > 0
+		rattledSpawnWeight = 80
+		#Spawn minimum group count for Rattleds, Default: 4
+		#Range: > 1
+		rattledSpawnMinCount = 4
+		#Spawn maximum group count for Rattleds, must be equal or higher than min count, Default: 4
+		#Range: > 1
+		rattledSpawnMaxCount = 4
+
 [Misc]
 	#Whether Mobs with Tall Heads(ie. Villagers, Illagers, etc.) will drop Tall Skulls, Default: true
 	tallSkullDrop = true
@@ -619,8 +773,17 @@
 	hellfireFireImmune = true
 	#Whether Hellfire damage is mitigated by Fire Protection enchantment, Default: true
 	hellfireFireProtection = true
-	#Whether undead mobs in the Crypts remain hostile even if players wear Necro Set, Default: true
+	#Whether undead mobs in the Crypts and certain tagged structures remain hostile even if players wear Necro Set, Default: true
 	hostileCryptUndead = true
+	#How long invulnerability, Default: 15
+	#Range: > 0
+	bossInvulnerabilityTime = 15
+	#Whether Zombies convert into Frayed when struck by lightning, Default: true
+	zombieConvertFrayed = true
+	#Whether Skeletons convert into Rattled when struck by lightning, Default: true
+	skeletonConvertRattled = true
+	#Whether ender mobs in the Final Terminal and certain tagged structures remain hostile even if players wear Void Set, Default: true
+	hostileTerminalEnder = true
 
 	[Misc.Apostle]
 		#Apostle spreads Nether biomes, and Nether Meteors deals environmental damage and spread Nether biomes as well. WARNING: Causes lots of lag. Default: false
@@ -633,6 +796,27 @@
 		apostleConvertsVillagers = true
 		#Gives Apostle an even more fancier death animation, Default: false
 		fancierApostleDeath = true
+		#Whether Apostles can summon Fire Tornadoes. Default: true
+		apostleTornado = true
+		#Whether Apostles can summon Hell Clouds. Default: true
+		apostleHellCloud = true
+		#Enable Apostle Nether/The Risen quicker regeneration. Disabling will cause them to regenerate 10x more slowly. Default: true
+		apostleQuickerRegen = true
+		#Enable Apostle The Glorious getting Resistance effect. Disabling will give them Iron Hide instead. Default: true
+		apostleResistance = true
+		#Whether Apostle shoot indicator is enabled. Default: true
+		apostleShootIndicator = true
+		#Whether Apostles gain magic resistance if difficulty is on Hard. Default: false
+		apostleHardMagicResistance = false
+		#Whether Apostle's armor and armor toughness values are halved when fought outside of the Nether. Default: true
+		apostleHalvedArmor = true
+		#Whether Apostles can shoot Critical Hits on their Arrows. Default: true
+		apostleCritArrows = true
+		#Whether Apostles' teleport has a delay. Disabling will cause them to teleport instantly. Default: true
+		apostleDelayedTeleport = true
+		#How much damage is reduced, by percentage, on the Apostle when in the Nether, setting to 100 will make them invulnerable, Default: 50
+		#Range: 0 ~ 100
+		apostleNetherDamageReduction = 50
 
 	[Misc.Vizier]
 		#Whether Viziers are persistent and do not naturally despawn. Default: false
@@ -645,4 +829,24 @@
 		obsidianMonolithSpread = true
 		#Whether unowned Obsidian Monoliths, empowered by Heretics, change Overworld biomes to Nether biomes, Default: true
 		obsidianMonolithBiome = true
+		#Whether unowned Obsidian Monoliths can spawn Mobs, Default: true
+		obsidianMonolithSpawner = true
+		#How many Minecraft days, since spawning in, until unowned Obsidian Monoliths start spreading, Default: 3
+		#Range: > 1
+		obsidianMonolithStartUpTime = 3
+		#Add mobs that ownerless Obsidian Monolith will not spawn. 
+		#To do so, enter the namespace ID of the mob, like "minecraft:zombie, minecraft:skeleton".
+		obsidianMonolithBlackList = ["minecraft:slime", "minecraft:ghast", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:hoglin"]
+
+	[Misc.Damned]
+		#Whether Damned shoot indicator is enabled. Default: true
+		damnedShootIndicator = true
+
+	[Misc."Ender Keeper"]
+		#Whether Ender Keeper has their after-image effect. Disable can prevent frame drop. Default: true
+		enderKeeperAfterImage = true
+
+	[Misc.Crone]
+		#Whether Crones inflict thorn damage at attackers, when attacked. Default: true
+		croneThornDefense = true
 

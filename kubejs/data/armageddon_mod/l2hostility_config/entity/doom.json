@@ -1,0 +1,331 @@
+{
+  "list": [
+    {
+      "attackScale": 0.33,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 120,
+        "min": 240,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:bringer_of_doom"
+      ],
+      "healthScale": 0.2,
+      "items": [
+          {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "lethality:sacrifice",
+                "nbt": "{Enchantments:[{id:\"l2complements:sharp_blade\",lvl:3s},{id:\"l2complements:soul_flame_blade\",lvl:3s},{id:\"tonsofenchants:frostbite\",lvl:1s},{id:\"tonsofenchants:webbing\",lvl:1s},{id:\"tonsofenchants:enhanced_sharpness\",lvl:5s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 100,
+          "slot": "equipment/mainhand"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+         {
+              "stack": {
+                "item": "minecraft:netherite_chestplate",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s},{id:\"tonsofenchants:enhanced_protection\",lvl:4s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "equipment/chest"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:sacred_speed_bracelets",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/hands"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:butter_gauntlets",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/hands/1"
+        },
+            {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:antimatter_pacemaker",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/1"
+        },
+            {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:eternal_shadowflame",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/2"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:ethereal_eclipse_emblem",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/3"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:pencil_sharpener",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/4"
+        },
+           {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:yata_no_kagami",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/5"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "artifacts:cross_necklace",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/necklace"
+        },
+           {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "meetyourfight:caged_heart",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/body"
+        },
+                {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:warpslice_scabbard",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/belt"
+        }
+      ],
+      "maxLevel": 0,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:repelling"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 4,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:slowness"
+        },
+        {
+          "cap": false,
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:erosion"
+        },
+        {
+          "cap": false,
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:corrosion"
+        },
+        {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:weakness"
+        },
+        {
+          "cap": false,
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:blindness"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:gravity"
+        },
+         {
+          "cap": false,
+          "free": 5,
+          "min": 0,
+          "trait": "l2hostility:speedy"
+        },
+         {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:soul_burner"
+        },
+        {
+         "cap": false,
+         "free": 2,
+         "min": 0,
+        "trait": "l2hostility:adaptive"
+        },
+         {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:withering"
+        },
+         {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:freezing"
+        },
+        {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:blindness"
+        },
+        {
+         "cap": false,
+         "free": 2,
+         "min": 0,
+        "trait": "l2hostility:reflect"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:killer_aura"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:tank"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:ragnarok"
+        }
+      ]
+    }
+  ]
+}

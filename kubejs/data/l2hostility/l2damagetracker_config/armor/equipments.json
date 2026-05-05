@@ -1,0 +1,18 @@
+{
+  "immune": {
+    "l2hostility:curse_of_wrath": [
+      "minecraft:blindness",
+      "minecraft:darkness",
+      "minecraft:nausea",
+      "minecraft:slowness",
+      "minecraft:mining_fatigue"
+    ],
+    "l2hostility:ring_of_life": [
+      "minecraft:blindness",
+      "minecraft:darkness",
+      "minecraft:nausea",
+      "minecraft:slowness",
+      "minecraft:mining_fatigue"
+    ]
+  }
+}

@@ -1,0 +1,1719 @@
+{
+	autofocus_id: "22A07E4CBB88E8AF"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "natures_aura_2"
+	group: "20D67F7F184680D5"
+	icon: "naturesaura:aura_bloom"
+	id: "05C59356BDABE92B"
+	images: [
+		{
+			height: 0.5d
+			image: "minecraft:block/oak_sapling"
+			rotation: 23.0d
+			width: 0.5d
+			x: 4.136653733257816d
+			y: -10.257980634498686d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:block/oak_sapling"
+			rotation: -33.0d
+			width: 0.5d
+			x: 2.833898710677474d
+			y: -10.222762301459817d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/usefulitems.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: -19.5d
+		}
+		{
+			height: 3.0d
+			image: "customtextures:textures/natures_aura.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Nature's Aura is a mod about collecting, using and replenishing the Aura naturally present in the world to create useful devices and unique mechanics."
+				""
+				"&nStart by obtaining brilliant fiber.&r"
+				""
+				"&8I don't like this mod, but i will admit. No nvm, i still don't like this mod."
+				""
+				"&eBook of Natural Aura:&r"
+				""
+				"If this questline feels vague, i suggest using the official guide book. It is well detailed and even has a visualizer for the multi-block structures."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturesaura:item/book"
+				}
+			}
+			id: "22A07E4CBB88E8AF"
+			min_width: 300
+			rewards: [{
+				id: "450F90ED7AD7D36C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "In-game Wiki"
+			tasks: [{
+				id: "5765362B31F49D2E"
+				title: "I love nature!"
+				type: "checkmark"
+			}]
+			title: "Nature's Aura"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FB72D4334A04ACC"]
+			id: "519EAA8C838DFA4F"
+			rewards: [{
+				count: 4
+				id: "6A40133CED83D269"
+				item: "naturesaura:gold_powder"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Obtain Gold Powder"
+			tasks: [{
+				id: "1F0E0B61E39ADD3D"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22A07E4CBB88E8AF"]
+			description: [
+				"Brilliant fiber turns leaves into golden leaves, allowing you to extract the leaves and then use it for other stuff."
+				""
+				"Use it on a tree with a lot of leaves!"
+			]
+			id: "09A4ABC066BF17B3"
+			rewards: [{
+				count: 2
+				id: "5BEDF44CE4A3E357"
+				item: "naturesaura:gold_fiber"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.1d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "4DBB7AA4896BDCEA"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			title: "Brilliant Fiber"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09A4ABC066BF17B3"]
+			id: "7FB72D4334A04ACC"
+			rewards: [{
+				id: "076D54CE8DFA2DB7"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Obtain Gold Leaf"
+			tasks: [{
+				id: "55F89B3E0C75D2C6"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["519EAA8C838DFA4F"]
+			description: [
+				"When starting out as a magical botanist, it proves &ebeneficial&r to use the powers of nature on a more direct level before delving directly into &dAura&r itself."
+				""
+				"Down below, there's a visual examples of the &aRitual Of Forest&r"
+				"{image:customtextures:textures/ritualfirstpic.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/ritualsecond.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/ritualthird.png width:250 height:100 align:center}"
+				""
+				"The ritual happens when the tree grows. Remember to recheck the recipe to see which tree is planted!"
+				""
+				"&cBe careful, some biomes may affect oak tree generation. This will affect the ritual."
+			]
+			id: "00180010AD5F63B3"
+			rewards: [
+				{
+					id: "6DC73290AFDE0935"
+					item: "naturesaura:gold_fiber"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "520BB02C20DC32EC"
+					item: "naturesaura:gold_powder"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.4d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				count: 8L
+				id: "5FD1CF17231E54C2"
+				item: { Count: 8, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			title: "Ritual Of The Forest"
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"00180010AD5F63B3"
+				"55C778B682FB69FD"
+			]
+			description: [
+				""
+				"{image:customtextures:textures/tokenofjoy.png width:115 height:150 align:center}"
+				""
+				"&a&lToken of Joy Ritual&r"
+				""
+				"&oRequirements:&r"
+				""
+				"- 1x Torch"
+				"- 1x Bottled Sunlight"
+				"- 1x Any flower"
+				"- 1x Apple"
+				"- 1x Gold Leaf"
+				"- 1x Iron Ingot"
+			]
+			id: "2846E100E0542798"
+			rewards: [{
+				id: "28CF41AE02AF063A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "6B08FA33F4AC27BD"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"00180010AD5F63B3"
+				"55C778B682FB69FD"
+			]
+			description: [
+				"{image:customtextures:textures/tokenofsorrow.png width:115 height:150 align:center}"
+				""
+				"&d&lToken of Sorrow Ritual&r"
+				""
+				"Requirements:"
+				""
+				"- 1x Glass"
+				"- 1x Bottled Sunlight"
+				"- 1x Raw Beef or Raw Porkchop or Raw Chicken"
+				"- 1x Any Fish"
+				"- 1x Gold Leaf"
+				"- 1x Ghast Tear"
+			]
+			id: "6213F6A3F4AD447B"
+			rewards: [{
+				id: "1A61B02B68496766"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "59680ED30A470C3C"
+				item: "naturesaura:token_sorrow"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"00180010AD5F63B3"
+				"524C2674C1FDE7C4"
+			]
+			description: [
+				"{image:customtextures:textures/tokenofanger.png width:115 height:150 align:center}"
+				""
+				"&l&cToken of Anger"
+				""
+				"Requirements"
+				""
+				"- 1x Bottled Ghosts"
+				"- 1x Gunpowder"
+				"- 1x Magma Block"
+				"- 1x Gold Leaf"
+				"- 1x Ender Pearl"
+				"- 1x Blaze Powder"
+			]
+			id: "1AEB35C32D9F4852"
+			rewards: [{
+				id: "646ED02BF186BDFE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "080ED70B4B90C914"
+				item: "naturesaura:token_anger"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"00180010AD5F63B3"
+				"524C2674C1FDE7C4"
+			]
+			description: [
+				"{image:customtextures:textures/tokenoffear.png width:115 height:150 align:center}"
+				""
+				"&l&bToken of Fear"
+				""
+				"Requirements"
+				""
+				"- 1x Bottled Ghosts"
+				"- 1x Feather"
+				"- 1x Soul Sand"
+				"- 1x Gold Leaf"
+				"- 1x Rotten Flesh"
+				"- 1x Bone"
+			]
+			id: "693160DE0A14E958"
+			rewards: [{
+				id: "3BE986EC06AFA2EF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "61EED4511CB32E55"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: ["When aura in the area usually runs out and won't replenish, Ancient Trees slowly replenish the aura in the area. This is why they're crucial!"]
+			id: "26C5C7F5B89FD52A"
+			rewards: [{
+				id: "154E64F221E2A3D6"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "0CEB25E8943383C3"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			description: [
+				"A natural occurence that helped the discovery of Aura are certain kinds of vegetation that appear almost everywhere in the world."
+				""
+				"Aura is the power source of this mod and we will need it in everything!"
+				""
+				"There's ton of ways to gather aura so let's start."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturesaura:block/aura_bloom"
+				}
+			}
+			id: "08C6EF79208C1399"
+			rewards: [{
+				id: "7C620E23AA463E32"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.4d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5089C2348F743843"
+				title: "Gathering Aura"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["693160DE0A14E958"]
+			id: "0F2C6B9AB8B25CD1"
+			rewards: [{
+				id: "4AFD83CEF2263ABC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1BD1A01E5DF8335B"
+				item: "naturesaura:break_prevention"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				"Alright, let's start with nature-ifying items."
+				""
+				"Natural Altar is our first way of harnessing aura that is rudimentary but still works."
+				""
+				"Let's build our ritual first!"
+				""
+				""
+				"{image:customtextures:textures/ritual_of_ritual.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/ritual_of_ritual_2.png width:250 height:100 align:center}"
+				"&8If you are having problems tryna understand, just use the guidebook. It has a visualization feature."
+			]
+			id: "78D25B9F1D1FB1F1"
+			rewards: [
+				{
+					id: "67039651EE6E03D5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3945569E66101F84"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5F1B910797527A2D"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			id: "4E1BBD2148B11269"
+			rewards: [{
+				id: "2F2979E6F91B0E8E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Use iron on the altar"
+			tasks: [{
+				id: "7F15B58D161D3841"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			id: "0F7DCA36EA26C996"
+			rewards: [{
+				id: "55C1424F5C8B5A7D"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "03B9679FB767A695"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			id: "2DE67BF518111B98"
+			rewards: [{
+				id: "5BED4C5D95DCC93E"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "07A12AF860C9C25F"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			id: "6A560CEA986B82C2"
+			subtitle: "Crushes items, pretty useful."
+			tasks: [{
+				id: "1FADF455758B6A84"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -18.5d
+		}
+		{
+			id: "71D66567778BB15C"
+			subtitle: "Speeds up the furnace."
+			tasks: [{
+				id: "05E302BD7F9B3B2E"
+				item: "naturesaura:furnace_heater"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -18.5d
+		}
+		{
+			id: "7A5796511F4A7DF4"
+			subtitle: "Makes hopper grab items from 7 blocks instead of 1."
+			tasks: [{
+				id: "3A9619E45F57C68D"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: [
+				"Herbivorous Absorber, absorbs mana from the flowers."
+				""
+				"Basically, you can feed it flowers and it will provide aura! "
+				""
+				"Don't use the same flower for too long though, it may have negative effects."
+			]
+			id: "6044D4BB85CBC5D4"
+			rewards: [{
+				id: "574D8494AFA8F7BC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "pentagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "7639DBEC5E1DD535"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: [
+				"Offshoot Observer.. is weird."
+				""
+				"When slimes split into smaller versions, they get consumed and converted into aura!"
+			]
+			id: "129274CBB727F9FF"
+			rewards: [{
+				id: "0D71A21059472194"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "pentagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5A91FC28D3CEDF19"
+				item: "naturesaura:slime_split_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			id: "45C00FCAE08676D2"
+			rewards: [{
+				id: "592040BB654D7D17"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "Shooting Mark generates aura when being shot with projectiles."
+			tasks: [{
+				id: "06BCF5482BFE37BB"
+				item: "naturesaura:projectile_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: ["Swamp Homi collect moss from blocks and restores them, in this process it even produces aura!"]
+			id: "62909A8DEC577BC7"
+			rewards: [{
+				id: "00689C32438E6CB9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "660A9AF6A26E2E1F"
+				item: "naturesaura:moss_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			id: "7D4AE2C8A8BED2F8"
+			subtitle: "Doubles the ore output in blast furnaces."
+			tasks: [{
+				id: "0A373FE30318333D"
+				item: "naturesaura:blast_furnace_booster"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -18.5d
+		}
+		{
+			id: "584211EDD43DE504"
+			subtitle: "Uses Aura to destroy surrounding blocks."
+			tasks: [{
+				id: "5D3C7591FDAC3EB3"
+				item: "naturesaura:field_creator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.5d
+		}
+		{
+			description: [
+				"Cloudshiter changes the wheather with the help of aura."
+				""
+				"Throwing some flowers can decide on the weather type:"
+				""
+				"&eSunflowers&r will make it sunny, "
+				"&9Dark Prismarine&r will make it rain,"
+				"&cFire Charges&r will invoke a thunderstorm."
+				""
+				"Throwing more items also increases the amount of time that the desired weather will most likely remain for, but also increases the Aura usage of the shift."
+			]
+			id: "791E21722A2C5799"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "53E00B46D716ECC7"
+				item: "naturesaura:weather_changer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			description: ["Place it next to a device that harnesses Aura."]
+			id: "452CA1CD5F76CBBC"
+			rewards: [{
+				id: "3F6BE18770109D86"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "heart"
+			subtitle: "Saves you from Aura imbalance."
+			tasks: [{
+				id: "431D5D632BE67D9B"
+				item: "naturesaura:lower_limiter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			id: "103F9FE0BD2EDC18"
+			subtitle: "Harness Aura from.. breeding."
+			tasks: [{
+				id: "0099D7C6C9C6011A"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -17.5d
+		}
+		{
+			description: [
+				""
+				"{image:customtextures:textures/redstone_thing.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/redstone_thing2.png width:250 height:100 align:center}"
+			]
+			id: "3C18195FD7018CC1"
+			subtitle: "Aura to Forge Energy"
+			tasks: [{
+				id: "773E006DA8A6D7EE"
+				item: "naturesaura:rf_converter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -17.5d
+		}
+		{
+			id: "1FF90EBF5B1287CE"
+			subtitle: "Huge water storage that works with Aura"
+			tasks: [{
+				id: "5F67CAAC5DB6F37E"
+				item: "naturesaura:spring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.5d
+		}
+		{
+			id: "69371797C3C5946B"
+			subtitle: "When powered on with a &credstone&r signal- stops mobs from appearing in a 48 block radius"
+			tasks: [{
+				id: "53364CAE0DECC571"
+				item: "naturesaura:spawn_lamp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -16.5d
+		}
+		{
+			id: "6E73B4A49BFBF06B"
+			subtitle: "Transmutes items into different forms, actually useful"
+			tasks: [{
+				id: "6009FF3C59A24D04"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -17.5d
+		}
+		{
+			id: "311EBD65D6B8C50E"
+			subtitle: "Makes snow fall in a area with the supply of aura and signal of redstone"
+			tasks: [{
+				id: "4D4F2AFDA89C1942"
+				item: "naturesaura:snow_creator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -16.5d
+		}
+		{
+			id: "7FD93640C0F33E66"
+			subtitle: "Keeps the chunks always active, may cause problems though. Be careful!"
+			tasks: [{
+				id: "536FC3BA50714893"
+				item: "naturesaura:chunk_loader"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -16.5d
+		}
+		{
+			id: "6D9B46B8F7CECE6D"
+			subtitle: "Increases Aura production"
+			tasks: [{
+				id: "58A3A0E580D38A62"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			id: "714B0B3E3C538996"
+			rewards: [{
+				id: "5D11860E144D1FF5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "Produces Aura by killing &epassive&r mobs near it"
+			tasks: [{
+				id: "54841F72925B859A"
+				item: "naturesaura:animal_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			id: "2D1D4C7C0020579C"
+			subtitle: "Harnesses Aura from chorus plants"
+			tasks: [{
+				id: "5E833458E5726231"
+				item: "naturesaura:chorus_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: [
+				"Aura imbalance can happen if you have either &aTOO much Aura&r or &cTOO low Aura&r"
+				""
+				"These two factors can cause positive \\& negative effects on you."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cofh_core:textures/gui/icons/icon_information.png"
+				}
+			}
+			id: "47559A5F494B4BD5"
+			shape: "gear"
+			size: 1.4d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "558438BC9DDE268E"
+				title: "Aura Imbalance"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "levelz:textures/gui/sprites/generic.oxygen_bonus.png"
+				}
+			}
+			id: "5659882ED67DD99E"
+			subtitle: "&cLow&r Aura on the area can cause mobs to suffocate, and die."
+			tasks: [{
+				id: "49CEAAD0E8A9F270"
+				title: "Breathlessness"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/shattered_skull"
+				}
+			}
+			id: "5423B6D079DEC33B"
+			subtitle: "&cLow&r Aura on the area can cause netherrack to decay."
+			tasks: [{
+				id: "5BF4FA79B4F0E76E"
+				title: "Crimson Decay"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "naturesaura:nether_grass"
+			id: "37F882E388EE9937"
+			subtitle: "Too &ahigh&r levels of Aura on the area can cause grass to grow on netherrack."
+			tasks: [{
+				id: "174712AD2410BEBE"
+				title: "Crimson Overgrowth"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			description: [
+				"Additionally eggs that are on the ground will hatch."
+				"{image:customtextures:textures/yowhat.png width:250 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/fertilizer"
+				}
+			}
+			id: "5E7F6BD28DBEA4E2"
+			subtitle: "Too &ahigh&r Aura levels in the area can cause animals to breed uncontrollably."
+			tasks: [{
+				id: "6606A06A00535BC3"
+				title: "Increase of Fertility"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:textures/particle/enraged/enraged_particle_2.png"
+				}
+			}
+			id: "7A08901288DBE940"
+			subtitle: "&cLow&r Aura levels on the area can cause neutral mobs to be hostile at all time. (like enderman)"
+			tasks: [{
+				id: "138CE402ADE90957"
+				title: "Inexplicable Anger"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "minecraft:diamond_ore"
+			id: "47F729A81D34BF43"
+			subtitle: "By the help of &aCreational Catalyst&r Aura levels can go beyond limits. Causing ores to appear in stones, netherracks."
+			tasks: [{
+				id: "064BFE067CE3D787"
+				title: "Mineral Richness"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "minecraft:dirt"
+			id: "1C4731124BC07EC3"
+			subtitle: "&cLow&r Aura levels will cause leaves to decay on their own."
+			tasks: [{
+				id: "067DA5E7C29541AB"
+				title: "Natural Decay"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1C4731124BC07EC3"]
+			icon: "minecraft:tnt"
+			id: "47E97B95A21BF98F"
+			subtitle: "If Aura levels are &4&lVERY LOW&r to the point where natural decay has already happened to it's utmost. Explosions will start to appear on your world."
+			tasks: [{
+				id: "236F579BD19CDA53"
+				title: "&cUnstable Outbreak"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "minecraft:grass"
+			id: "563F5A13592F775A"
+			subtitle: "&aVery High&r Aura levels will cause vegetation to grow on the area."
+			tasks: [{
+				id: "6D010251D225B90C"
+				title: "Vegetational Increase"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["22A07E4CBB88E8AF"]
+			description: ["Right click holding the bottle will collect aura from the environment"]
+			id: "09BBDBAF1071827D"
+			rewards: [{
+				id: "22AC7A92EF27694E"
+				item: "naturesaura:bottle_two_the_rebottling"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.1d
+			subtitle: "If I can store aura in a bottle..."
+			tasks: [{
+				id: "4B27B07D2902A5F9"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
+			title: "Bottle and cork"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09BBDBAF1071827D"]
+			description: ["Right click Bottle and cork in the Overworld"]
+			id: "55C778B682FB69FD"
+			rewards: [{
+				id: "3440060EB0BF0B96"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Sunshine and Rainbow"
+			tasks: [{
+				id: "548CC877F0A21C5D"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09BBDBAF1071827D"]
+			description: ["Right click Bottle and Cork in the Nether"]
+			id: "524C2674C1FDE7C4"
+			rewards: [{
+				id: "4DC6E6F6102D05C5"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Literally no ghosts were harmed"
+			tasks: [{
+				id: "4BA8F1F1CE493527"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09BBDBAF1071827D"]
+			description: ["Right click Bottle and cork in the End"]
+			id: "7D27C554C72DE107"
+			rewards: [{
+				id: "440AB745773C1A89"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Nyctophobic"
+			tasks: [{
+				id: "5067678C6F7B0496"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09BBDBAF1071827D"]
+			description: ["Right click Bottle and cork in aura-deprived areas"]
+			id: "73C5B22AE83C27AC"
+			rewards: [
+				{
+					id: "6E323EE6B7D0EE16"
+					item: "naturesaura:vacuum_bottle"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "6397DA1022F15C5B"
+					item: "naturesaura:ancient_sapling"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Non-environmentalist"
+			tasks: [{
+				id: "693B1165C7BC1D82"
+				item: "naturesaura:vacuum_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09BBDBAF1071827D"]
+			description: ["Bottled substance you see in recipes are any types of bottled aura (sunlight, ghost, etc.)"]
+			icon: {
+				Count: 1
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:other"
+				}
+			}
+			id: "04FDEB5D67BCF185"
+			shape: "hexagon"
+			tasks: [{
+				id: "2D290AD23D113D5A"
+				title: "Any bottled aura"
+				type: "checkmark"
+			}]
+			title: "Bottled Substance"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["09BBDBAF1071827D"]
+			description: ["Aura bottles can be automatically collected using a dispenser"]
+			id: "334A43E85AC4F243"
+			rewards: [{
+				id: "5A2B3445EA12D2C8"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "59970EEA90061E5C"
+				title: "okay thanks"
+				type: "checkmark"
+			}]
+			title: "Automation Info"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				"&n&lFor item placement&r&r, you can use hoppers to put items onto wooden stands."
+				"&l&nFor dust placement&r&r, outline the areas of the gold powder placement with a type of decorative block like stone bricks, hold the gold powder in your off-hand, place them with a construction wand. "
+			]
+			id: "199EEDAC4DE299BF"
+			rewards: [{
+				id: "45F34322D5475393"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Almost automated ritual"
+			tasks: [{
+				id: "25C449A4AAFDED86"
+				title: "Automation?"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			description: [
+				"The block below the altar is left empty in order for you to automatically pull results out with a hopper!"
+				"Another hopper can be used to put items inside the altar, very convenient!"
+			]
+			id: "31CD499FC753F93A"
+			rewards: [{
+				id: "696933076C065E50"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Hopping bonsai"
+			tasks: [{
+				id: "25841D88622584C5"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "Automation tip"
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			description: [
+				"Prepare a large enough field, decorate the offering table with beautiful flowers and the omniscient gods might answer your prayers..."
+				""
+				"Place materials onto the table (maximum 16, 1 if the item is non-stackable) and throw the catalyst nearby, and your prayers will rain from the sky!"
+				""
+				"Make sure the surrounding areas and the sky access is clear, for items might fall on top of the roof otherwise!"
+				""
+				"{image:customtextures:textures/offeringtable.png width:250 height:250 align:center}"
+				""
+				"&4DISCLAIMER:&r This image is only for visualization, you DO NOT need to do this on the nether roof."
+			]
+			icon: "naturesaura:offering_table"
+			id: "628456BCE1577408"
+			rewards: [{
+				id: "445DD55BC9B0F831"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.4d
+			subtitle: "Cloudy with a chance of... items?"
+			tasks: [
+				{
+					id: "6AD90AD39C21D2DA"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "590DCE087EC12B05"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					title: "Any #minecraft:flowers"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4BF14E5F5A48D60F"]
+			description: ["Convert tainted gold or infused iron ingot into Ingot of the Skies"]
+			id: "34FEF03A3BC4D949"
+			rewards: [{
+				id: "0BFFBC7CA6F99C15"
+				item: "naturesaura:infused_iron"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Raining metals"
+			tasks: [{
+				id: "3E977DABFD47F0ED"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["628456BCE1577408"]
+			description: [
+				"Use various methods to get items inside the Offering Table. Droppers can drop Catalysts onto the table and activate it! Be carefule because resulting items may fall onto your contraption!"
+				""
+				"If only there is a device to transfer redstone wirelessly..."
+			]
+			id: "2325F524DBEC8398"
+			rewards: [{
+				id: "36C5917988E2FEA8"
+				item: "minecraft:dropper"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Who are you gonna call"
+			tasks: [{
+				id: "73636DD5F546E2D6"
+				title: "Automatic hotlines"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["084AD7DD6DEDF6C8"]
+			description: [
+				"This section of the quest line is only visible when you or one of your teammates walk on the path of righteousness."
+				""
+				"This &lDOES NOT&r act as what you must complete, rather a checklist of what you can make following the quest line that somewhat reduces the burdens of players wearing The Ring of Seven Virtues."
+			]
+			hide_dependent_lines: true
+			id: "43377A769B4F4B60"
+			secret: true
+			subtitle: "Living with Standards"
+			tasks: [{
+				id: "7701F34C9227ADF6"
+				title: "Virtue Checklist"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			hide_dependency_lines: true
+			id: "3D75403A87911062"
+			tasks: [{
+				id: "543385E85C1E3376"
+				item: "covenant_of_the_seven:annointed_handward"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"2DE67BF518111B98"
+				"4E1BBD2148B11269"
+			]
+			description: [
+				"Store excess aura and use them on the go!"
+				""
+				"Hold it in your curio slot and travel around the world, it'll fill itself up in aura dense places!"
+				""
+				"You'll know it's charging when it bounces in your hand!"
+				""
+				"One quick and totally not recommended way of filling it is letting the natural altar charge it for you..."
+			]
+			id: "1DBD01BD6C6A2447"
+			rewards: [{
+				id: "4375879268BBF23E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "Natural energy"
+			tasks: [{
+				id: "4E8A8BEFC699332F"
+				item: "naturesaura:aura_cache"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"1DBD01BD6C6A2447"
+				"34FEF03A3BC4D949"
+			]
+			description: ["Store more aura than you will ever need!"]
+			id: "4AE7E915CA29C6AA"
+			rewards: [{
+				id: "290288E59916DE7D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "BIGGER"
+			tasks: [{
+				id: "78E1A8B0EBEFE9D3"
+				item: "naturesaura:aura_trove"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["628456BCE1577408"]
+			description: ["The most basic catalyst, throw it on the ground when you want to make offers to the gods"]
+			id: "4BF14E5F5A48D60F"
+			rewards: [{
+				id: "1BCD4622958781AC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Hello"
+			tasks: [{
+				id: "0E18E63F3F6AD3B2"
+				item: "naturesaura:calling_spirit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			description: ["With Nature's Mend enchantment, you can repair your tools and armor by having the aura cache/ trove in your inventory, hold the item in your hand, then crouch to repair it on the go!"]
+			id: "5ACFE1757DA14B93"
+			shape: "circle"
+			subtitle: "Free-ish mending"
+			tasks: [{
+				id: "7832031DCA7FCF4B"
+				title: "Nature Mending"
+				type: "checkmark"
+			}]
+			title: "Nature's Mend"
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["628456BCE1577408"]
+			description: ["Breed animals in aura dense places"]
+			id: "344E57D6FB58A209"
+			rewards: [{
+				id: "374CCE3500A8A1EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "Babies!"
+			tasks: [{
+				id: "1A4711F6D8FD7C84"
+				item: "naturesaura:birth_spirit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"4AE7E915CA29C6AA"
+				"344E57D6FB58A209"
+			]
+			description: ["Place the filled Aura Trove onto the Offering Table, and drop the spirit of birthing nearby, and you'll receive this"]
+			id: "5AB9431E8F14AEB4"
+			rewards: [{
+				id: "474AA8D13AFE8C96"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "The 13th titan.."
+			tasks: [{
+				id: "40D9DAC16CA84C2D"
+				item: "covenant_of_the_seven:infinity_spirit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "65501CF87770B452"
+			tasks: [{
+				id: "2707F3AFFF5F13B8"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "0E49E7B36904F5F9"
+			tasks: [{
+				id: "480D419F755A7A7B"
+				item: "covenant_of_the_seven:divine_scroll"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"65501CF87770B452"
+				"43377A769B4F4B60"
+				"03B3041ACA72AF77"
+			]
+			id: "359E53A094C8B244"
+			tasks: [{
+				id: "67EE0F49A585649C"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "596040AF14E23E2D"
+			tasks: [{
+				id: "7C4137D59EB63A54"
+				item: "covenant_of_the_seven:righteous_mirror"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "7101C91803575A44"
+			tasks: [{
+				id: "26909FF0840F8474"
+				item: "covenant_of_the_seven:benediction_charm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "03B3041ACA72AF77"
+			tasks: [{
+				id: "3C1B9C2C1F33B539"
+				item: "covenant_of_the_seven:potioneer_pearl"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "6E7D82192CAB9CE7"
+			tasks: [{
+				id: "4AE3BF74EBC1EBE7"
+				item: "covenant_of_the_seven:broken_mask"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "0699DA38B4C2DC62"
+			tasks: [{
+				id: "19CC78483AA417BC"
+				item: "covenant_of_the_seven:rebirth_egg"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "1ED9B7F1CDE90474"
+			tasks: [{
+				id: "49295E59A01B1249"
+				item: "covenant_of_the_seven:deliverance_albarest"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "224F8357CDC6A7C3"
+			tasks: [{
+				id: "0AC8716AF6270DBE"
+				item: "covenant_of_the_seven:all_seeing_eye"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "6D1F3AA63836CA82"
+			tasks: [{
+				id: "4B678F8F9816316F"
+				item: "covenant_of_the_seven:mnestia_raiment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "555E854AA917372B"
+			tasks: [{
+				id: "0995A79FAAA8A38D"
+				item: "covenant_of_the_seven:serendipity_feast"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "64CCD455F1B81B8E"
+			tasks: [{
+				id: "51818CA4F219696E"
+				item: "covenant_of_the_seven:melodious_harmony"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "1F332EE28E12D399"
+			tasks: [{
+				id: "599E26B4082A28C6"
+				item: "covenant_of_the_seven:hallowed_steps"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "02B3FED295BE7869"
+			tasks: [{
+				id: "0BB7A709DB2A92BE"
+				item: {
+					Count: 1
+					id: "covenant_of_the_seven:glacial_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "1C4D933C0F4AA12C"
+			tasks: [{
+				id: "6226F4CF42CB86DE"
+				item: "covenant_of_the_seven:the_just"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1C4D933C0F4AA12C"
+				"43377A769B4F4B60"
+			]
+			id: "1C88C8671A8892C0"
+			tasks: [{
+				id: "6BF43B4124AE7977"
+				item: "covenant_of_the_seven:the_aeternum"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "7DAAD232B459701B"
+			tasks: [{
+				id: "66EC6F6D1A9B2E61"
+				item: "covenant_of_the_seven:dormant_sacrament"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "405C3B98F45B1CCE"
+			tasks: [{
+				id: "795C462D6B0472B0"
+				item: "covenant_of_the_seven:exaltation_ring"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["43377A769B4F4B60"]
+			id: "34470D272B85B64D"
+			tasks: [{
+				id: "7BAC9EC5E253B223"
+				item: "covenant_of_the_seven:holy_stone"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: ["By stunting the growth of large trees and only allowing small trees to grow, the canopy diminisher releases a large amount of aura into the environment."]
+			id: "16BF083F0FD7B52A"
+			shape: "circle"
+			subtitle: "Kindergarden of trees"
+			tasks: [{
+				id: "2E6670BF99F05422"
+				item: "naturesaura:oak_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+	]
+	title: "Nature's Aura"
+}

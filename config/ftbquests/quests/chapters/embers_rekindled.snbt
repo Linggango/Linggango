@@ -1,9 +1,10 @@
 {
+	always_invisible: true
 	autofocus_id: "719A32328F46BD2B"
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
 	filename: "embers_rekindled"
-	group: "3C6437AAADAFC5CB"
+	group: "7C724FC6AC4AD027"
 	icon: "embers:ancient_codex"
 	id: "154D78C870ED668C"
 	images: [
@@ -13,21 +14,23 @@
 			rotation: 0.0d
 			width: 11.0d
 			x: -0.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: -3.0d
+			y: 3.0d
 		}
 	]
-	order_index: 9
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -99,7 +102,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "octagon"
 			subtitle: "One of The Starting Materials"
 			tasks: [{
 				id: "5CF6EF97284F59E4"
@@ -438,12 +441,6 @@
 				id: "0950AED41C908AB4"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: {
-							"embers:ember": 0.0d
-							"embers:ember_capacity": 24000.0d
-						}
-					}
 					id: "embers:copper_cell"
 					tag: {
 						ForgeCaps: {

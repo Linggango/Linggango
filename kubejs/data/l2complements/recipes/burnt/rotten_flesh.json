@@ -1,0 +1,10 @@
+{
+  "type": "l2complements:burnt",
+  "chance": 1500,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "item": "l2complements:cursed_droplet"
+  }
+}

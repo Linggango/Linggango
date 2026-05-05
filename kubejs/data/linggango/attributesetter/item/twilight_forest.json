@@ -1,0 +1,9 @@
+{
+"twilightforest:giant_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 8.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

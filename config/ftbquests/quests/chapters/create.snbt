@@ -6,16 +6,29 @@
 	group: "3C6437AAADAFC5CB"
 	icon: "create:wrench"
 	id: "27900E4479E6E12D"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -10.0d
-		y: -1.5d
-	}]
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			height: 2.6d
+			image: "customtextures:textures/create_logo.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: -10.5d
+		}
+	]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -64,6 +77,7 @@
 				xp: 100
 			}]
 			shape: "pentagon"
+			size: 1.2d
 			subtitle: "Moving Onto Advanced Create!"
 			tasks: [{
 				id: "5E78EF843E840FEB"
@@ -71,7 +85,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -218,7 +232,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["642172D58E8B11E1"]
@@ -319,7 +333,7 @@
 					type: "item"
 				}
 			]
-			shape: "goldtier"
+			shape: "gear"
 			subtitle: "It's really confusing but the strongest!"
 			tasks: [
 				{
@@ -334,8 +348,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -7.0d
+			x: -3.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["3D11842DDDE1D396"]
@@ -396,7 +410,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["798CADF6B8930572"]
@@ -477,8 +491,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 8.5d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["666E9828756ADB0C"]
@@ -494,7 +508,7 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -511,7 +525,7 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: 3.5d
 		}
 		{
@@ -528,8 +542,8 @@
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
@@ -690,7 +704,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["67B3D0A82F1BB3EA"]
@@ -722,7 +736,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -741,15 +755,14 @@
 					type: "random"
 				}
 			]
-			shape: "goldtier"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6846ED041DD31AF2"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -5.0d
+			x: -20.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
@@ -817,7 +830,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -842,7 +855,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -892,7 +905,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -977,7 +990,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
@@ -1003,8 +1016,8 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
@@ -1071,7 +1084,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: 0.5d
 		}
 		{
@@ -1094,7 +1107,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: 1.5d
 		}
 		{
@@ -1397,8 +1410,8 @@
 				item: "create:display_board"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -5.0d
+			x: -16.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -1424,7 +1437,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3DE38636656DD1F6"]
@@ -1474,8 +1487,8 @@
 				item: "create:nixie_tube"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -5.0d
+			x: -17.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
@@ -1613,8 +1626,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2C8EF8E65133D178"]
@@ -1764,7 +1777,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -1790,7 +1803,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["52C1D5727A82A72F"]
@@ -1815,8 +1828,8 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -3.0d
+			x: -21.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7452A3A5599B09AB"]
@@ -1841,8 +1854,8 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -4.0d
+			x: -21.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
@@ -1910,7 +1923,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1CE6DB5F873483AF"]
@@ -1934,8 +1947,8 @@
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -1.0d
+			x: -21.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -1960,7 +1973,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2A0F7A2AA1C0E9C1"]
@@ -1984,8 +1997,8 @@
 				item: "create:attribute_filter"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -2.0d
+			x: -21.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -2009,7 +2022,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -16.5d
 			y: -1.0d
 		}
 		{
@@ -2060,8 +2073,8 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 1.5d
+			x: -17.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -2509,7 +2522,7 @@
 				}
 			]
 			x: -6.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4F61B1F3D1E2C6E2"]
@@ -2565,15 +2578,7 @@
 				}
 				{
 					id: "4349B2F9FEB850B6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "create:fluid_pipe"
-					}
+					item: "create:fluid_pipe"
 					type: "item"
 				}
 			]
@@ -2733,7 +2738,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -2784,7 +2789,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -2885,7 +2890,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
@@ -2939,19 +2944,11 @@
 			subtitle: "For farms :)"
 			tasks: [{
 				id: "2194B6D3544D8B37"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "sliceanddice:sprinkler"
-				}
+				item: "sliceanddice:sprinkler"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["39E865F0D72CF9B8"]
@@ -2973,15 +2970,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "43BADF2E7DAFA96B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:double_cardan_shaft"
-				}
+				item: "petrolsparts:double_cardan_shaft"
 				type: "item"
 			}]
 			x: -13.5d
@@ -2998,15 +2987,7 @@
 			subtitle: "Planetary Gearset will output more RPM per spin "
 			tasks: [{
 				id: "7874CBDCB888D681"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:planetary_gearset"
-				}
+				item: "petrolsparts:planetary_gearset"
 				type: "item"
 			}]
 			x: -13.5d
@@ -3032,15 +3013,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "443223DCC6AAC0DE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:differential"
-				}
+				item: "petrolsparts:differential"
 				type: "item"
 			}]
 			x: -11.5d
@@ -3065,19 +3038,11 @@
 			shape: "netheritetier"
 			tasks: [{
 				id: "5E9CF6F0959DD0AC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:colossal_cogwheel"
-				}
+				item: "petrolsparts:colossal_cogwheel"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["67CE399D0A9C0F57"]
@@ -3100,19 +3065,11 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "55C58531BC1CCBE2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "petrolsparts:hydraulic_transmission"
-				}
+				item: "petrolsparts:hydraulic_transmission"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["410BEC9893112A43"]
@@ -3140,28 +3097,12 @@
 			tasks: [
 				{
 					id: "32C28755597B9324"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "petrolsparts:coaxial_gear"
-					}
+					item: "petrolsparts:coaxial_gear"
 					type: "item"
 				}
 				{
 					id: "476938F1F6611DEB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "petrolsparts:large_coaxial_gear"
-					}
+					item: "petrolsparts:large_coaxial_gear"
 					type: "item"
 				}
 			]
@@ -3189,19 +3130,11 @@
 			subtitle: "More grinding more more"
 			tasks: [{
 				id: "2E27927F95069053"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create:mechanical_roller"
-				}
+				item: "create:mechanical_roller"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.5d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -3223,15 +3156,7 @@
 			subtitle: "The starting point of your create questline."
 			tasks: [{
 				id: "7B70AB146C561F08"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create:andesite_alloy"
-				}
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			x: -5.097959183673474d
@@ -3291,8 +3216,8 @@
 				item: "create:item_hatch"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 1.5d
+			x: -18.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["44E0DDEE0578557F"]
@@ -3323,8 +3248,8 @@
 				item: "create:stock_link"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 3.0d
+			x: -17.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["44E0DDEE0578557F"]
@@ -3361,8 +3286,8 @@
 				item: "create:package_frogport"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 1.5d
+			x: -16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2EDAEA1566841D97"]
@@ -3391,8 +3316,8 @@
 				item: "create:redstone_requester"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 3.0d
+			x: -19.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2EDAEA1566841D97"]
@@ -3423,8 +3348,8 @@
 				item: "create:stock_ticker"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 3.0d
+			x: -16.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4206216A5F414642"]
@@ -3449,8 +3374,8 @@
 				item: "create:chain_conveyor"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -5.0d
+			x: -18.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["05BFBACBB2337231"]
@@ -3500,7 +3425,7 @@
 				item: "create:nozzle"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
@@ -3526,7 +3451,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -3677,8 +3602,8 @@
 				item: "create:fluid_valve"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4F61B1F3D1E2C6E2"]
@@ -3694,7 +3619,7 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: 7.0d
 		}
 		{
@@ -3804,7 +3729,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2246A107ECC3CBC5"]
@@ -3821,7 +3746,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
@@ -3840,13 +3765,15 @@
 				}
 			]
 			shape: "netheritetier"
+			size: 1.15d
+			subtitle: "Extracts fluids instead of ores"
 			tasks: [{
 				id: "4AEFF963BC254056"
 				item: "createoreexcavation:extractor"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 3.5d
+			x: 15.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2DFDE04D134E60D3"]
@@ -3866,6 +3793,7 @@
 				}
 			]
 			shape: "octagon"
+			size: 1.15d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0D1C64870C7CCF7C"
@@ -3873,7 +3801,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
@@ -3899,8 +3827,8 @@
 				item: "createoreexcavation:drill"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
+			x: 14.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2C5BDB5E9721E835"]
@@ -3978,7 +3906,7 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.5d
 			y: 5.0d
 		}
 		{
@@ -3997,7 +3925,7 @@
 				item: "createoreexcavation:raw_redstone"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
@@ -4018,14 +3946,15 @@
 				}
 			]
 			shape: "netheritetier"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "24C5634C1845EFA6"
 				item: "createoreexcavation:sample_drill"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.5d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12830AA7C494A4E2"]
@@ -4043,8 +3972,8 @@
 				item: "createoreexcavation:vein_atlas"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1AA9DCC32A116911"]
@@ -4063,7 +3992,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6EE392DF5912B88A"]
@@ -4082,33 +4011,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["3D11842DDDE1D396"]
-			description: ["Simply lead them to the horse crank"]
-			id: "322A8BE995DDCB08"
-			rewards: [
-				{
-					id: "3E05670672D999E0"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 2
-					id: "166BB28E195B4C43"
-					item: "minecraft:lead"
-					type: "item"
-				}
-			]
-			subtitle: "Use the animals to generate SU"
-			tasks: [{
-				id: "0823F336130B0761"
-				item: "createhorsepower:horse_crank"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7414C8BC7AB87449"]
@@ -4132,8 +4035,8 @@
 				item: "create_hypertube:hypertube_accelerator"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 1.5d
+			x: -22.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["03FAA1891E7D56FD"]
@@ -4157,8 +4060,8 @@
 				item: "create_hypertube:hypertube_entrance"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 0.0d
+			x: -22.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7E51CB87AB543A30"]
@@ -4182,8 +4085,8 @@
 				item: "create_hypertube:hypertube"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 1.5d
+			x: -22.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -4272,11 +4175,6 @@
 					type: "item"
 				}
 				{
-					id: "7D5ED0A344D9069C"
-					item: "pipeorgans:stop_master"
-					type: "item"
-				}
-				{
 					id: "52887562A097FC67"
 					item: "pipeorgans:windchest_master"
 					type: "item"
@@ -4313,7 +4211,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["408D9361AF8AA499"]
@@ -4369,8 +4267,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["672C61B048CB3B85"]
@@ -4380,7 +4278,7 @@
 				item: "create:metal_girder"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: -7.0d
 		}
 		{
@@ -4391,7 +4289,7 @@
 				item: "create_fantasizing:sturdy_girder"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -7.0d
 		}
 		{
@@ -4403,8 +4301,8 @@
 				item: "create_fantasizing:transporter"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -4.0d
+			x: -19.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
@@ -4451,134 +4349,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["19183F380B49F31C"]
-			id: "20244F005E4AAA22"
-			rewards: [{
-				id: "3A6ECE37E173B3E4"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Sucks things in, such as fish."
-			tasks: [{
-				id: "420F7616AE7B99EC"
-				item: "createfisheryindustry:trap_nozzle"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["20244F005E4AAA22"]
-			id: "00EDC645735F6468"
-			rewards: [{
-				id: "148D695C64E3364C"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "goldtier"
-			subtitle: "Smart nozzle with filter capability."
-			tasks: [{
-				id: "28B7CA74381D67AD"
-				item: "createfisheryindustry:smart_nozzle"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["4206216A5F414642"]
-			description: ["Automatically collects nearby items, if used on specific entity, it collects the loot and xp."]
-			id: "760132FA1094BFB8"
-			rewards: [{
-				id: "1DAA39206B05005D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "16B83914F0E17665"
-				item: "createfisheryindustry:mesh_trap"
-				type: "item"
-			}]
-			x: -15.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["760132FA1094BFB8"]
-			id: "454DCA434D36F2D3"
-			rewards: [{
-				id: "1D2F169DCA5B2583"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Automatically collects items and stores them."
-			tasks: [{
-				id: "3FCD2F14A832810D"
-				item: "createfisheryindustry:smart_mesh"
-				type: "item"
-			}]
-			x: -15.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4206216A5F414642"]
-			id: "1BCAC1CBBC057DC4"
-			rewards: [{
-				id: "5C5C7A8A260E6F8B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Catches fishes!"
-			tasks: [{
-				id: "5940331DD05A558B"
-				item: "createfisheryindustry:frame_trap"
-				type: "item"
-			}]
-			x: -17.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1742597D48E37800"]
-			id: "09FC5E23A957A704"
-			subtitle: "Swim faster"
-			tasks: [{
-				id: "6E864812905A8952"
-				item: {
-					Count: 1
-					id: "createfisheryindustry:copper_diving_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["09FC5E23A957A704"]
-			id: "37B164FC39D4CB61"
-			rewards: [{
-				id: "402751A02D9D4437"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "An upgraded version of the Copper Diving Leggings."
-			tasks: [{
-				id: "118395D03E6BE3C5"
-				item: {
-					Count: 1
-					id: "createfisheryindustry:netherite_diving_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["4206216A5F414642"]
 			id: "64806E7D293220A7"
 			subtitle: "Connects your AE2 system to create vaults!"
@@ -4587,8 +4357,8 @@
 				item: "createstockbridge:ae_bridge"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 0.0d
+			x: -20.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0C8D19B106618A91"]
@@ -4739,8 +4509,8 @@
 				type: "item"
 			}]
 			title: "Remote Train Summoning"
-			x: 16.566464280752285d
-			y: -11.485056982470248d
+			x: 16.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
@@ -5039,11 +4809,6 @@
 				id: "1768D8820878E2DC"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5248,11 +5013,6 @@
 				id: "458BE2F0AD745443"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5304,11 +5064,6 @@
 				id: "18A5734BB9D4B9BF"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5360,11 +5115,6 @@
 				id: "56D0A6C370D2993B"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -5422,15 +5172,7 @@
 			]
 			tasks: [{
 				id: "71CA3F2FC0B1C743"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:station_platform"
-				}
+				item: "bellsandwhistles:station_platform"
 				type: "item"
 			}]
 			x: 15.5d
@@ -5453,15 +5195,7 @@
 			]
 			tasks: [{
 				id: "7D08CF7457253655"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:headlight"
-				}
+				item: "bellsandwhistles:headlight"
 				type: "item"
 			}]
 			x: 22.0d
@@ -5478,15 +5212,7 @@
 			subtitle: "Metro system hell yeaahh"
 			tasks: [{
 				id: "3D6DC388920243DB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:metro_casing"
-				}
+				item: "bellsandwhistles:metro_casing"
 				type: "item"
 			}]
 			x: 17.5d
@@ -5502,15 +5228,7 @@
 			}]
 			tasks: [{
 				id: "206CB91F91D0F89C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "bellsandwhistles:corrugated_metro_casing"
-				}
+				item: "bellsandwhistles:corrugated_metro_casing"
 				type: "item"
 			}]
 			x: 19.0d
@@ -5536,67 +5254,27 @@
 			tasks: [
 				{
 					id: "13E43E8C572ABAAC"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:metro_panel"
-					}
+					item: "bellsandwhistles:metro_panel"
 					type: "item"
 				}
 				{
 					id: "4BB4E7710DDFE6E0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:corrugated_metro_panel"
-					}
+					item: "bellsandwhistles:corrugated_metro_panel"
 					type: "item"
 				}
 				{
 					id: "4FAFDD49499CFF35"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:metro_trapdoor"
-					}
+					item: "bellsandwhistles:metro_trapdoor"
 					type: "item"
 				}
 				{
 					id: "1D9CCFFBBA916AF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:metro_window"
-					}
+					item: "bellsandwhistles:metro_window"
 					type: "item"
 				}
 				{
 					id: "07DC954C388896CE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bellsandwhistles:ornate_iron_trapdoor"
-					}
+					item: "bellsandwhistles:ornate_iron_trapdoor"
 					type: "item"
 				}
 			]
@@ -5620,6 +5298,29 @@
 			}]
 			x: 20.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			id: "50871CA2253D9226"
+			subtitle: "Generates energy from solar rays (sun)"
+			tasks: [{
+				id: "43F0CAD62830FD48"
+				item: "createsolar:solar_panel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			id: "42E9B1C5761D86F0"
+			tasks: [{
+				id: "7AAAA45FF48FD651"
+				item: "createsolar:sculk_panel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 	]
 	title: "Create: Main"

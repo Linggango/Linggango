@@ -1,0 +1,23 @@
+
+#You can control the modification of Goety in this config
+[Items]
+	#If true, the traveler's belt can add 1 charm curio slot.
+	#启用后, 旅人腰带可以多加一个护符栏位.
+	wayfarerBeltCharmExtra = true
+	#If true, the persist ability will be disabled.
+	#开启后, 禁用goety的损坏能力.
+	noPersist = true
+
+[Spells]
+	#Define the maximum level that a summoning spell can affect on the summoned entity.(goety original limit is 10)
+	#定义召唤咒语能对召唤出的实体生效的最大等级.(goety原版为10)
+	#Range: > 0
+	summonSpellMaximumBuffLevel = 100000
+
+[Entities]
+
+	[Entities.Apostle]
+		#Enable the modification of the damage caused by the Apostle's hellfire.
+		#启用对使徒狱火伤害的修改.
+		apostleHellfireModification = true
+

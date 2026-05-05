@@ -15,12 +15,15 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		hover: [
+			"Questlines belong to me and are protected under All Rights Reserved."
+			"Do not attempt to use or steal them without my explicit permission."
+		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
 		x: 0.0d
-		y: 0.0d
+		y: -3.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -193,38 +196,6 @@
 			title: "Skull Pikes"
 			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["Don't forget to use a flint to rise."]
-			id: "7F8441B785DE57DB"
-			optional: true
-			rewards: [{
-				id: "26B2DCA08BF8F4D5"
-				item: {
-					Count: 1
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Conquering The Air!"
-			tasks: [
-				{
-					id: "3C817DC6B0BEB3EC"
-					item: "breezy:hot_air_balloon"
-					type: "item"
-				}
-				{
-					id: "458A0695066F0688"
-					item: "breezy:gust_gauge"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]

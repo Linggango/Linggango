@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "brutality:atomic_judgement"
+    },
+    "title": "KABOOM!",
+    "description": "Obtain Atomic Judgement.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brutality:atomic_judgement"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

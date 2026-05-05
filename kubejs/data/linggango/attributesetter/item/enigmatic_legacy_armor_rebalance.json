@@ -1,0 +1,172 @@
+  {
+  "enigmaticlegacy:etherium_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0001-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0001-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0001-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0001-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0001-4100-8000-000000000005"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0001-4100-8000-000000000006"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0001-4100-8000-000000000007"
+    }
+  ],
+  "enigmaticlegacy:etherium_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0002-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0002-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0002-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0002-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0002-4100-8000-000000000005"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0002-4100-8000-000000000006"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0002-4100-8000-000000000007"
+    }
+  ],
+  "enigmaticlegacy:etherium_leggings": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0003-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0003-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0003-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0003-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0003-4100-8000-000000000005"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0003-4100-8000-000000000006"
+    }
+  ],
+  "enigmaticlegacy:etherium_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0004-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0004-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0004-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0004-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0004-4100-8000-000000000005"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0004-4100-8000-000000000006"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0004-4100-8000-000000000007"
+    }
+  ]
+}

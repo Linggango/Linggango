@@ -4,35 +4,33 @@
 	default_quest_shape: "woodtier"
 	filename: "the_undergarden"
 	group: "52FA8429D8BF5933"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "undergarden:block/blood_mushroom"
-		}
-	}
+	icon: "undergarden:deepturf_block"
 	id: "4AF801B626E8118F"
 	images: [
 		{
+			color: 5273174
+			height: 3.0d
+			image: "customtextures:textures/the_undergarden.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			height: 1.7d
-			image: "customtextures:textures/undergardenlogo.png"
-			rotation: 0.0d
-			width: 7.0d
 			x: 0.0d
-			y: -7.0d
+			y: -10.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,7 +66,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:gronglegrowth"
@@ -77,7 +75,7 @@
 				type: "biome"
 			}]
 			title: "Gronglegrowth"
-			x: 3.6d
+			x: 3.5999999999999996d
 			y: -1.7999999999999998d
 		}
 		{
@@ -89,7 +87,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:ancient_sea"
@@ -110,7 +108,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:wigglewood_forest"
@@ -131,7 +129,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:forgotten_field"
@@ -152,7 +150,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:veil_mushroom_bog"
@@ -200,7 +198,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:barren_abyss"
@@ -221,7 +219,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:blood_mushroom_bog"
@@ -242,7 +240,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:dead_sea"
@@ -263,7 +261,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:dense_forest"
@@ -319,7 +317,7 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			icon: "ecologics:thin_ice"
+			icon: "minecraft:ice"
 			id: "073BA8470EA37A00"
 			rewards: [{
 				id: "603CBB78679E2DE9"
@@ -347,7 +345,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:indigo_mushroom_bog"
@@ -368,7 +366,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:ink_mushroom_bog"
@@ -389,7 +387,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:smog_spires"
@@ -410,7 +408,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
 				biome: "undergarden:smogstem_forest"

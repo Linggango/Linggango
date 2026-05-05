@@ -1,0 +1,562 @@
+{
+  "list": [
+    {
+      "asMaster": {
+        "maxTotalCount": 22,
+        "minions": [
+          {
+            "type": "armageddon_mod:the_iron_colossus",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 1.0,
+            "minLevel": 300,
+            "protectMaster": true,
+            "spawnRange": 30
+          },
+          {
+            "type": "armageddon_mod:the_gobelin_lord",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 60,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.95,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 30
+          },
+          {
+            "type": "armageddon_mod:little_mage_goblin",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 20,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.95,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 18
+          },
+           {
+            "type": "armageddon_mod:little_sword_goblin",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 28,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.95,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 15
+          },
+          {
+            "type": "armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.9,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 30
+          },
+           {
+            "type": "armageddon_mod:arion_tyrant_of_the_emerald_wrath_soldat",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.9,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 35
+          },
+          {
+            "type": "armageddon_mod:eldoraththe_ancient_builder",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.8,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 35
+          },
+           {
+            "type": "armageddon_mod:ancient_allay",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 5,
+            "maxHealthPercentage": 0.8,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 35
+          },
+           {
+            "type": "armageddon_mod:zoranththe_forgotten_one",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.7,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 35
+          },
+           {
+            "type": "armageddon_mod:elvenite_paladin",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.6,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 35
+          },
+           {
+            "type": "armageddon_mod:vaedricthe_fallen_wanderer",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 18,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.5,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 10
+          },
+           {
+            "type": "armageddon_mod:bringer_of_doom",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 40,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.4,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 35
+          },
+           {
+            "type": "armageddon_mod:the_famine",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 30,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.3,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 20
+          },
+            {
+            "type": "armageddon_mod:sanghor_lord_of_blood",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 20,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.2,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 15
+          },
+            {
+            "type": "armageddon_mod:zoranth_newborn_of_the_zenith",
+            "cooldown": 1000000,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 20,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.1,
+            "minLevel": 1,
+            "protectMaster": true,
+            "spawnRange": 15
+          }
+        ],
+        "spawnInterval": 40
+      },
+      "attackScale": 0.1,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 200,
+        "min": 400,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:nyxaris_the_veil_of_oblivion"
+      ],
+      "healthScale": 0.6,
+      "items": [
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "goety:unholy_hat",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/head"
+        },
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "armageddon_mod:the_duskfire_blade",
+                "nbt": "{Enchantments:[{id:\"l2complements:sharp_blade\",lvl:2s},{id:\"l2complements:soul_flame_blade\",lvl:3s},{id:\"tonsofenchants:frostbite\",lvl:1s},{id:\"tonsofenchants:enhanced_sharpness\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 100,
+          "slot": "equipment/mainhand"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+         {
+              "stack": {
+                "item": "legendary_monsters:annihilator_chestplate",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s},{id:\"minecraft:projectile_protection\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "equipment/chest"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+         {
+              "stack": {
+                "item": "companions:crystallized_blood_leggings",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s},{id:\"tonsofenchants:enhanced_protection\",lvl:4s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "equipment/legs"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:gamblers_ring",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/ring"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "l2hostility:ring_of_life",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/ring"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:exodium_shield_amulet",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/necklace"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "cataclysm:blazing_grips",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/hands"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:butter_gauntlets",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/hands/1"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        },
+            {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:plunder_chest_charm",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/1"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "minecraft:totem_of_undying",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/2"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:crest_of_the_void",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/3"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:lollipop_of_eternity",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/4"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:nullifying_dice",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/5"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "artifacts:cross_necklace",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/necklace"
+        },
+           {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "meetyourfight:caged_heart",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/body"
+        },
+                {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:warpslice_scabbard",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/belt"
+        },
+          {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "armageddon_mod:pendant_of_convergence",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/accessory"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "armageddon_mod:elvenite_burst_ball",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/accessory/2"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "armageddon_mod:burst_ball",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/accessory/3"
+        }
+  
+      ],
+      "maxLevel": 0,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 400,
+      "specialConditions": [],
+      "traits": [
+         {
+         "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:master"
+     },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        },
+        {
+          "cap": false,
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:killer_aura"
+        },
+        {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:ragnarok"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 3,
+          "trait": "l2hostility:dispell"
+        },
+         {
+          "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:dementor"
+        }
+        
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:fartinium_ingot"
+    },
+    "title": "Something.. smells...",
+    "description": "You have obtained Fartinium  ingot! make sure to hold your nose.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:fartinium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fart"
+    ]
+  ]
+}

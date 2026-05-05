@@ -1,0 +1,30 @@
+{
+	id: "154A58ECA42572F7"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 4, item: "terramity:ruby", random_bonus: 3 }
+		{ count: 4, item: "terramity:sapphire", random_bonus: 3 }
+		{ count: 4, item: "terramity:topaz", random_bonus: 3 }
+		{ count: 4, item: "terramity:onyx", random_bonus: 3 }
+		{ count: 2, item: "terramity:virentium_alloy_ingot", random_bonus: 1 }
+		{ count: 2, item: "terramity:dimlite_ingot", random_bonus: 1 }
+		{ item: "terramity:slot_machine" }
+		{
+			item: {
+				Count: 1
+				id: "terramity:plumbers_wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "terramity:stygian_bud", random_bonus: 5 }
+		{ item: "terramity:spiteful_soul" }
+		{ item: "terramity:iridium" }
+		{ item: "terramity:adrenaline_tablets" }
+		{ item: "terramity:music_sheet_of_power" }
+		{ count: 2, item: "terramity:daemonium_chunk", random_bonus: 2 }
+	]
+	title: "terramity mid"
+}

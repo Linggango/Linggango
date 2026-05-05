@@ -1,0 +1,627 @@
+{
+	autofocus_id: "545103DBF0B5A701"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "celestial_enchantments"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "celestial_enchantments:withering_blade"
+				lvl: 3s
+			}]
+		}
+	}
+	id: "2BAF14EB6BFE4832"
+	images: [
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/icons/leveling_point.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.750242512129162d
+			y: -1.6034954982113874d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond_sword"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.250242512129162d
+			y: -1.6034954982113874d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.750242512129162d
+			y: -1.6034954982113874d
+		}
+		{
+			height: 1.0d
+			image: "monsterexpansion:item/taunt_shield_2d"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.250242512129162d
+			y: -1.6034954982113874d
+		}
+		{
+			height: 2.0d
+			image: "customtextures:textures/celestial_enchantments_logo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.325121256064591d
+			y: -6.712805904545135d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Now this is a new enchanting system with extra stuff for armors, tools, and weapons!"
+				""
+				"Just like vanilla tables, put bookshelves around it so you can increase the level of the table, and use chiseled bookshelves to filter enchants you dont want, its that easy :)"
+				""
+				"Generic Enchants work with anything by the way, heads up :)"
+			]
+			id: "545103DBF0B5A701"
+			rewards: [{
+				id: "0DA70C06C2D4AA65"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "225EAFE6238CD15F"
+				item: "celestial_enchantments:celestial_enchanting_table"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["545103DBF0B5A701"]
+			description: [
+				"This is what you use instead of lapis to enchant items."
+				""
+				"This allows you to enchant basic to advanced level celestial enchants, try your luck, watch out for curses as well, just like regular enchanting :)"
+			]
+			id: "62EFA926F50A9456"
+			rewards: [{
+				id: "43BA22C83B069966"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "Overworld level of enchanting"
+			tasks: [{
+				id: "04B9ED6207A7D4D9"
+				item: "celestial_enchantments:basic_celestial_catalyst"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62EFA926F50A9456"]
+			description: [
+				"Entering Nether level already? "
+				""
+				"This would help getting access to advanced and legendary (if lucky, idk man luck might not be on your side) enchants."
+			]
+			id: "7D58E9069A981BC9"
+			rewards: [{
+				id: "4E6E1B64D116058D"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Nether level enchanting"
+			tasks: [{
+				id: "588D18D56024324E"
+				item: "celestial_enchantments:advanced_celestial_catalyst"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D58E9069A981BC9"]
+			description: [
+				"Surely you've conquered the end by now and you're entering late game."
+				""
+				"This unlocks the best of the best for enchants, more options out there, more utility for each piece."
+				""
+				"Explore and see what you get (goodluck with those curses once more :)"
+			]
+			id: "25731A62AB0EB990"
+			rewards: [{
+				id: "44A4EC91CFC3CB01"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "End-level enchants"
+			tasks: [{
+				id: "2AA7FA10932BA5EE"
+				item: "celestial_enchantments:legendary_celestial_catalyst"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["545103DBF0B5A701"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "53C5B020EDD07EC5"
+			rewards: [{
+				id: "5B5330F1975D73E9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "New enchantment types for armors!"
+			tasks: [{
+				id: "6A55E25C4E32EB90"
+				type: "checkmark"
+			}]
+			title: "Armors"
+			x: -11.750242512129162d
+			y: -2.6034954982113874d
+		}
+		{
+			dependencies: ["545103DBF0B5A701"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "1DC4498DEC9BA8C1"
+			rewards: [{
+				id: "6915A52B603A22ED"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "New enchantment types for weapons!"
+			tasks: [{
+				id: "40856C8E0C3A341F"
+				type: "checkmark"
+			}]
+			title: "Weapons"
+			x: -9.250242512129162d
+			y: -2.6034954982113874d
+		}
+		{
+			dependencies: ["545103DBF0B5A701"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "5B2360E603B29B31"
+			rewards: [{
+				id: "345876A1BDCA3281"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "New enchant for shields!"
+			tasks: [{
+				id: "6FC7A97C97E1CA7C"
+				type: "checkmark"
+			}]
+			title: "Shields"
+			x: -14.250242512129162d
+			y: -2.6034954982113874d
+		}
+		{
+			dependencies: ["545103DBF0B5A701"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "63747E0B53B550FB"
+			rewards: [{
+				id: "358085B2252815B3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "New enchants for bows!"
+			tasks: [{
+				id: "4E969345E2BE9B9B"
+				type: "checkmark"
+			}]
+			title: "Bows"
+			x: -6.750242512129162d
+			y: -2.6034954982113874d
+		}
+		{
+			dependencies: ["53C5B020EDD07EC5"]
+			description: [
+				"Gives you enough experience so that you can play the pack while not being brainless."
+				""
+				"Okay kidding aside, it enhances exp gain in general, I mean what else could experience mean?"
+				""
+				"And no, this doesn't mean you can put linggango in your resume experiences."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "7823BFF5CFC490FC"
+			rewards: [{
+				id: "0780BC1C7FBE5393"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1AC6C4F24D895888"
+				type: "checkmark"
+			}]
+			title: "Experience"
+			x: -12.250242512129162d
+			y: -5.103495498211387d
+		}
+		{
+			dependencies: ["53C5B020EDD07EC5"]
+			description: [
+				"This essentially applies an effect on you based on enchant conditions."
+				""
+				"I mean, this is why its called coating, right?"
+			]
+			icon: {
+				Count: 1
+				id: "companions:holy_robe_coat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E98FF539F4B6F45"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5A1F477D5C754CF3"
+				type: "checkmark"
+			}]
+			title: "Coating"
+			x: -11.250242512129162d
+			y: -5.103495498211387d
+		}
+		{
+			dependencies: ["53C5B020EDD07EC5"]
+			description: ["The enchant gives an effect/does a certain thing whenever a condition is met. "]
+			icon: "starcatcher:missingno"
+			id: "1EEAA365F3383FF6"
+			rewards: [{
+				id: "2CB1DD8A90B667F7"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3D375FFC534CF614"
+				title: "I see bro."
+				type: "checkmark"
+			}]
+			title: "Reactive"
+			x: -11.750242512129162d
+			y: -4.603495498211387d
+		}
+		{
+			dependencies: ["53C5B020EDD07EC5"]
+			description: [
+				"The enchant has a positive and a negative drawback, 1 for 1 right? "
+				""
+				"An eye for an eye?? Double-edged sword??"
+			]
+			icon: "born_in_chaos_v1:double_troubleicon"
+			id: "6E55253254F35193"
+			rewards: [{
+				id: "67740D9B57063D35"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "431AEDAC300533E6"
+				title: "haha"
+				type: "checkmark"
+			}]
+			title: "Double-Edge"
+			x: -11.250242512129162d
+			y: -4.103495498211387d
+		}
+		{
+			dependencies: ["53C5B020EDD07EC5"]
+			description: [
+				"Death enchants usually trigger something on death, figure it out!"
+				""
+				"Who knows, maybe dying 24/7 has its benefits at times..."
+			]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "6CEAD71AFB5AAD73"
+			rewards: [{
+				id: "174FB2C681949738"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "325F6B81D669E462"
+				type: "checkmark"
+			}]
+			title: "Death"
+			x: -12.250242512129162d
+			y: -4.103495498211387d
+		}
+		{
+			dependencies: ["1DC4498DEC9BA8C1"]
+			description: [
+				"The weapon is infused with a certain effect, or condition. For example, applying wither effect."
+				""
+				"I mean, it is infused afterall, dipping would be a far better word but bows enchants already has this sadly :("
+			]
+			icon: {
+				Count: 1
+				id: "animus:blood_infused_spellbook"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "071E2E85FE7AF550"
+			rewards: [{
+				id: "3EF4A74320599A9B"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "16FDC0759662B25B"
+				type: "checkmark"
+			}]
+			title: "Infused"
+			x: -9.750242512129162d
+			y: -5.103495498211387d
+		}
+		{
+			dependencies: ["1DC4498DEC9BA8C1"]
+			description: ["I mean the name says it all, its for blades, blade blade blade, sword, i swear if someone asks if this is for bows imma lose it bro"]
+			icon: {
+				Count: 1
+				id: "armageddon_mod:the_prismatic_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "084ACAE4FC1867EB"
+			rewards: [{
+				id: "70A7DC528C210F2B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "30620D8521B69456"
+				type: "checkmark"
+			}]
+			title: "Blade"
+			x: -8.750242512129162d
+			y: -5.103495498211387d
+		}
+		{
+			dependencies: ["1DC4498DEC9BA8C1"]
+			description: [
+				"Enchants like this usually aim to bypass armor, or penetrate defenses, read as you will on these descriptions. "
+				""
+				"I mean, what do you think a meat shredder would do to meat? Think about the rest."
+			]
+			icon: "cataclysm:meat_shredder"
+			id: "59A2A184BD3AF4C0"
+			rewards: [{
+				id: "792AE15CD90313A9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1FB83C1B007F5512"
+				type: "checkmark"
+			}]
+			title: "Shredding"
+			x: -9.250242512129162d
+			y: -4.603495498211387d
+		}
+		{
+			dependencies: ["1DC4498DEC9BA8C1"]
+			description: [
+				"Usually damages that scales based on a certain condition."
+				""
+				"Depends on which one, so choose as you wish."
+			]
+			icon: "ars_elemental:mark_of_mastery"
+			id: "6550F7C5E5251A21"
+			rewards: [{
+				id: "1C0C65C035573952"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "68E459668B62A4B9"
+				type: "checkmark"
+			}]
+			title: "Master"
+			x: -8.750242512129162d
+			y: -4.103495498211387d
+		}
+		{
+			dependencies: ["1DC4498DEC9BA8C1"]
+			description: ["Usually helps with normal playthrough outside of combat, feel free to browse through which one specifically would help you."]
+			icon: "supplementaries:faucet"
+			id: "0A6FD22ABD65A6D3"
+			rewards: [{
+				id: "230AAF25F0A60249"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "072353ABCA57D781"
+				type: "checkmark"
+			}]
+			title: "Utility"
+			x: -9.750242512129162d
+			y: -4.103495498211387d
+		}
+		{
+			dependencies: ["5B2360E603B29B31"]
+			description: ["Effects activate when meeting the condition of blocking attacks."]
+			icon: {
+				Count: 1
+				id: "cataclysm:azure_sea_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3AFBC615C3FBF428"
+			rewards: [{
+				id: "3383418AE28FFE04"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "2F7B7F23BA7F8D06"
+				type: "checkmark"
+			}]
+			title: "Shielding"
+			x: -14.250242512129162d
+			y: -4.103495498211387d
+		}
+		{
+			dependencies: [
+				"2ADC8BF43DF57C08"
+				"63747E0B53B550FB"
+			]
+			description: [
+				"Might add on something to bows, aint that powerful?"
+				""
+				"(Acting as if bows didnt get a lot of love already in this update)"
+			]
+			icon: {
+				Count: 1
+				id: "species:crankbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "106561376E7CC45B"
+			rewards: [{
+				id: "5E9299276D37AC59"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "Enhanced bow powers"
+			tasks: [{
+				id: "07F377F6ED204307"
+				type: "checkmark"
+			}]
+			title: "Archery"
+			x: -6.250242512129162d
+			y: -4.103495498211387d
+		}
+		{
+			dependencies: ["63747E0B53B550FB"]
+			description: [
+				"Infuses the arrow with a certain effect, similar to melee's \"infused\" same ideology."
+				""
+				"If only you can infuse swords with bows so they throw out daggers right?"
+				""
+				"Yeah no."
+			]
+			icon: "quark:torch_arrow"
+			id: "4A6089646DC5BBD9"
+			rewards: [{
+				id: "3409D6FC96602CB2"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "Dipped, mixed with what tho"
+			tasks: [{
+				id: "40139549C11720AA"
+				type: "checkmark"
+			}]
+			title: "Dipped"
+			x: -7.250242512129162d
+			y: -4.103495498211387d
+		}
+	]
+	title: "Celestial Enchants"
+}

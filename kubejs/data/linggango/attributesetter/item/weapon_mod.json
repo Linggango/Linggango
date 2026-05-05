@@ -1,0 +1,14 @@
+{
+"weapon:greatsword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   },
+   {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.2,
+      "operation": "ADDITION"
+   }
+  ]
+}

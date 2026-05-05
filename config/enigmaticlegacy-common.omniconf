@@ -365,13 +365,13 @@
     I:AvariceScrollEmeraldChance=15
 
     # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:BerserkEmblemAttackSpeedBoost=1.0
+    D:BerserkEmblemAttackSpeedBoost=3.0
 
     # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:BerserkEmblemDamageBoost=1.0
+    D:BerserkEmblemDamageBoost=2.0
 
     # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemResistanceBoost=0.5
+    D:BerserkEmblemResistanceBoost=1.0
 
     # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
     D:BerserkEmblemSpeedBoost=0.5
@@ -389,7 +389,7 @@
     B:CeaselessEnchantmentAllowNoArrow=true
 
     # Cooldown of death protection ability of The Architect's Favor. Measured in seconds. [range: 0 ~ 32768, default: 600, synchronized: yes]
-    I:CosmicScrollDeathProtectionCooldown=600
+    I:CosmicScrollDeathProtectionCooldown=1200
 
     # Alternative Etherium Shield health requirement for those who bear The Architect's Favor. Defined as percentage. [range: 0 ~ 100, default: 80, synchronized: yes]
     I:CosmicScrollEtheriumShieldThreshold=80
@@ -401,10 +401,10 @@
     I:CosmicScrollUnchosenKnockbackBonus=100
 
     # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollDamageBoost=4
+    I:CursedScrollDamageBoost=5
 
     # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
-    I:CursedScrollMiningBoost=7
+    I:CursedScrollMiningBoost=9
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollRegenBoost=4
@@ -416,7 +416,7 @@
     D:EldritchPanArmorValue=4.0
 
     # The base attack damage of The Voracious Pan. [range: 0.0 ~ 32768.0, default: 31.0, synchronized: yes]
-    D:EldritchPanAttackDamage=31.0
+    D:EldritchPanAttackDamage=35.0
 
     # The base attack speed of The Voracious Pan. [range: -32768.0 ~ 32768.0, default: -3.2, synchronized: yes]
     D:EldritchPanAttackSpeed=-3.2
@@ -425,7 +425,7 @@
     D:EldritchPanHungerSteal=2.0
 
     # Base Lifesteal fraction of The Voracious Pan. [range: 0.0 ~ 32768.0, default: 0.15, synchronized: yes]
-    D:EldritchPanLifeSteal=0.15
+    D:EldritchPanLifeSteal=0.1
 
     # Base armor gain from unique mob kills for The Voracious Pan. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
     D:EldritchPanUniqueArmorGain=0.5
@@ -517,10 +517,10 @@
     I:EyeOfNebulaCooldown=60
 
     # Probability for Eye of the Nebula to teleport it's bearer from any attack without receiving any damage. Defined as percentage. [range: 0 ~ 100, default: 15, synchronized: yes]
-    I:EyeOfNebulaDodgeChance=15
+    I:EyeOfNebulaDodgeChance=10
 
     # Range in which Eye of the Nebula searches for a position to teleport it's bearer to when dodging the attack. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
-    D:EyeOfNebulaDodgeRange=16.0
+    D:EyeOfNebulaDodgeRange=8.0
 
     # Magic Damage boost provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 32768, default: 40, synchronized: yes]
     I:EyeOfNebulaMagicBoost=40
@@ -703,7 +703,7 @@
     I:TheTwistKnockbackPowerBonus=300
 
     # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
-    D:VoidPearlBaseDarknessDamage=4.0
+    D:VoidPearlBaseDarknessDamage=2.0
 
     # Active ability cooldown for Pearl of the Void. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:VoidPearlCooldown=0
@@ -715,7 +715,7 @@
     D:VoidPearlShadowRange=16.0
 
     # Chance for Pearl of the Void to prevent it's bearer death from receiving lethal amout of damage. Defined as percentage. [range: 0 ~ 100, default: 35, synchronized: yes]
-    I:VoidPearlUndeadChance=35
+    I:VoidPearlUndeadChance=7
 
     # Level of Withering that bearer of the pearl will apply to entitities they attack. [range: 0 ~ 3, default: 2, synchronized: yes]
     I:VoidPearlWitheringLevel=2
@@ -770,7 +770,7 @@
 ##########################################################################################################
 
 "The Seven Curses" {
-    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 80, synchronized: yes]
+    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
     I:CursedRingArmorDebuff=60
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
@@ -779,8 +779,8 @@
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
     B:CursedRingEnableSpecialDrops=true
 
-    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 80, synchronized: yes]
-    I:CursedRingEnchantingBonus=80
+    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    I:CursedRingEnchantingBonus=24
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
     D:CursedRingEndermenRandomportFrequency=1.0
@@ -791,16 +791,16 @@
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
     I:CursedRingExperienceBonus=400
 
-    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 7, synchronized: yes]
+    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
     I:CursedRingFortuneBonus=7
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingKnockbackDebuff=200
 
-    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 7, synchronized: yes]
+    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
     I:CursedRingLootingBonus=7
 
-    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 0, synchronized: yes]
+    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
     I:CursedRingMonsterDamageDebuff=0
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
@@ -817,7 +817,7 @@
     I:CursedRingPainModifier=200
 
     # A fraction of time the player should bear the Seven Curses to use Abyssal Artifacts. [range: 0.0 ~ 32768.0, default: 0.995, synchronized: yes]
-    D:CursedRingSuperCursedTime=0.995
+    D:CursedRingSuperCursedTime=0.8
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
     B:CursedRingUltraHardcore=false

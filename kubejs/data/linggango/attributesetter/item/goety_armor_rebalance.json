@@ -1,0 +1,788 @@
+{
+  "goety_revelation:spider_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0014-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0014-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0015-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0015-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0016-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0016-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0017-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0017-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_darkmage_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0018-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0018-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_darkmage_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0019-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 3.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0019-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_darkmage_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0020-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0020-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spider_darkmage_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0021-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0021-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0022-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0022-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0023-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0023-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0024-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0024-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0025-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0025-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_darkmage_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0026-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0026-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_darkmage_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0027-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 3.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0027-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_darkmage_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0028-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0028-4100-8000-000000000002"
+    }
+  ],
+  "goety_revelation:spectre_darkmage_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0029-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0029-4100-8000-000000000002"
+    }
+  ],
+
+    "goety_revelation:apocalyptium_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0054-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 0.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0054-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.0666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0054-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 2.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0054-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000008"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000009"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000010"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000011"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000012"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000013"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000014"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000015"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000016"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000017"
+    },
+    {
+      "attribute": "goety_revelation:wind_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000018"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000019"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000020"
+    },
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 6.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0054-4100-8000-000000000021"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 66.6,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0054-4100-8000-000000000022"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0054-4100-8000-000000000023"
+    }
+  ],
+  "goety_revelation:apocalyptium_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0055-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 0.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0055-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.0666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0055-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 2.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0055-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000008"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000009"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000010"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000011"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000012"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000013"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000014"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000015"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000016"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000017"
+    },
+    {
+      "attribute": "goety_revelation:wind_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000018"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000019"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000020"
+    },
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 6.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0055-4100-8000-000000000021"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 66.6,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0055-4100-8000-000000000022"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0055-4100-8000-000000000023"
+    }
+  ],
+  "goety_revelation:apocalyptium_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 7.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0056-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 0.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0056-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.0666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0056-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 2.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0056-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000008"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000009"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000010"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000011"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000012"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000013"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000014"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000015"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000016"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000017"
+    },
+    {
+      "attribute": "goety_revelation:wind_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000018"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000019"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000020"
+    },
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 6.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0056-4100-8000-000000000021"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 66.6,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0056-4100-8000-000000000022"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0056-4100-8000-000000000023"
+    }
+  ],
+  "goety_revelation:apocalyptium_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 6.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0057-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 0.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0057-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.0666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0057-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.luck",
+      "value": 2.666,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0057-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000008"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000009"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000010"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000011"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000012"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000013"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000014"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000015"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000016"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000017"
+    },
+    {
+      "attribute": "goety_revelation:wind_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000018"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000019"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000020"
+    },
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 6.66,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0057-4100-8000-000000000021"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 66.6,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0057-4100-8000-000000000022"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.0666,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0057-4100-8000-000000000023"
+    }
+  ]
+  
+}

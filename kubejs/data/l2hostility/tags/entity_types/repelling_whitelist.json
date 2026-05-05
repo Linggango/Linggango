@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "minecraft:witch",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:wither",
+     "armageddon_mod:bringer_of_doom",
+     "armageddon_mod:bringer_of_doom_p_2"
+
+  ]
+}

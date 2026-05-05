@@ -1,94 +1,94 @@
 
 [Items]
 
-	[Items."Summoning Soul Necklace"]
-		#Set maximum amount of damage a player can take while holding this item
-		#Range: 1.0 ~ 3.4028234663852886E38
-		"Set maximum cumulative damage taken" = 50.0
-		#Set item cool down time after player on use (in seconds)
-		#Range: 0.0 ~ 60.0
-		"Set item cool down time" = 20.0
-
-	[Items.Howitzer]
-		#Set Grenade maximum explosion damage(damage to the center of the explosion)
-		#Range: 1.0 ~ 128.0
-		"Set explosion damage cap" = 10.0
-		#Set Grenade explosion radius(the bigger the blast radius, the higher the damage)
-		#Range: 1.0 ~ 10.0
-		"Set explosion radius" = 2.5
-		#Set item cool down time after player on use (in seconds)
-		#Range: 0.0 ~ 60.0
-		"Set item cool down time" = 2.0
-		#Set tool attack damage
-		#Range: 0.0 ~ 3.4028234663852886E38
-		"Attack damage" = 8.0
-		#Set tool attack speed
-		#Range: 0.0 ~ 3.4028234663852886E38
-		"Attack speed" = 1.6
-
-	[Items."Guardian Battleaxe"]
-		#The increase in damage should refer to the Sweeping Edge enchantment
-		#Range: 0 ~ 4
-		"Set sweep attack level" = 1
-		#Set item cool down time after player on use (in seconds)
-		#Range: 0.0 ~ 60.0
-		"Set item cool down time" = 5.0
-		#Set tool attack damage
-		#Range: 0.0 ~ 3.4028234663852886E38
-		"Attack damage" = 15.0
-		#Set tool attack speed
-		#Range: 0.0 ~ 3.4028234663852886E38
-		"Attack speed" = 0.9
-
-	[Items."Immortal Staff"]
-		#Set item cool down time after player on use (in seconds)
-		#Range: 0.0 ~ 60.0
-		"Set item cool down time" = 1.5
-
-	[Items."Ghost Warrior Series"]
-		#If set to 'True' armor or weapon will be depleted
-		"Enable armor or weapon can be depleted" = false
-		#Set tool attack damage
-		#Range: 0.0 ~ 3.4028234663852886E38
-		"Attack damage" = 14.0
-		#Set tool attack speed
-		#Range: 0.0 ~ 3.4028234663852886E38
-		"Attack speed" = 1.4
-
 	[Items."Eye Of Structure"]
 		#If set to 'True' eye of structure will be consume item on release
 		"Consume Item On Release" = false
 		#Set item cool down time after player on use (in seconds)
 		#Range: 0.0 ~ 60.0
-		"Set item cool down time" = 4.0
+		"Set Item Cool Down Time" = 4.0
+
+	[Items.Weapon]
+
+		[Items.Weapon."Doombolt Battleaxe"]
+			#Set item cool down time after player on use (in seconds)
+			#Range: 0.0 ~ 60.0
+			"Set Item Cool Down Time" = 3.0
+			#Set tool attack damage(Restart required)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Damage" = 15.0
+			#Set tool attack speed(Restart required)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Speed" = 0.9
+
+			[Items.Weapon."Doombolt Battleaxe".Surge]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 7.5
+
+		[Items.Weapon."Annihilator Sawblade"]
+			#Set tool attack damage(Restart required)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Damage" = 10.0
+			#Set tool attack speed(Restart required)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Speed" = 1.6
+			#Set the percentage of damage increase per stack
+			#Range: 1.0 ~ 10.0
+			"Set Damage Bonus Per Stack" = 5.0
+			#Set the maximum number of stacks for the damage buff
+			#Range: 0 ~ 10
+			"Set Max Buff Stacks" = 5
+
+		[Items.Weapon."Guardian Core"]
+			#Set the maximum shooting distance for players
+			#Range: 1.0 ~ 64.0
+			"Set Attack Radius" = 16.0
+			#If set to 'False' disable block destruction by players
+			"Enable Destroy Block" = false
+			#Set this entity attack damage
+			#Range: 1.0 ~ 3.4028234663852886E38
+			"Attack Damage" = 5.0
+
+		[Items.Weapon."Buster Gauntlet"]
+			#Range: 1.0 ~ 3.4028234663852886E38
+			"Set Projectile Damage" = 10.0
+			#Set Grenade explosion radius
+			#Range: 1.0 ~ 5.0
+			"Set Attack Radius" = 2.5
+			#Set item cool down time after player on use (in seconds)
+			#Range: 0.0 ~ 60.0
+			"Set Item Cool Down Time" = 4.0
+			#Set tool attack damage(Restart required)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Damage" = 8.0
+			#Set tool attack speed(Restart required)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Speed" = 1.6
+
+	[Items.Accessories]
+
+		[Items.Accessories."Summoning Soul Necklace"]
+			#Set maximum amount of damage a player can take while holding this item
+			#Range: 1.0 ~ 3.4028234663852886E38
+			"Set Maximum Cumulative Damage Taken" = 50.0
+			#Set item cool down time after player on use (in seconds)
+			#Range: 0.0 ~ 60.0
+			"Set Item Cool Down Time" = 20.0
 
 [Entities]
 
-	[Entities."Guardian Laser"]
-		#If set to 'False' disable scorch generate on the ground
-		"Enable scorch generate" = true
-		#Set the maximum shooting distance for players
-		#Range: 1.0 ~ 64.0
-		"Set attack radius" = 16.0
-		#If set to 'False' disable block destruction by players
-		"Enable destroy block" = true
-		#Set max block hardness for laser destruction
-		#Range: 1.0 ~ 3.4028234663852886E38
-		"Set laser max hardness" = 2.0
-
 	[Entities."Falling Block"]
 		#If set to 'False' disable falling block spawn
-		"Enable falling block spawn" = true
-		#If set to 'False' disable falling block rendering
-		"Enable falling block render" = true
+		"Enable Falling Block Spawn" = true
 		#Set the maximum range for downward block detection to determine the Y-axis position where the entity spawns
 		#Range: 1 ~ 10
-		"Set below check range" = 3
+		"Set Below Check Range" = 3
 
 	[Entities.Tester]
 		#Range: 1.0 ~ 1024.0
-		"Set max health" = 20.0
-		"Enable immune to environmental or status damage" = true
+		"Set Max Health" = 20.0
+		"Enable Immune To Environmental Or Status Damage" = true
 
 [Mobs]
 
@@ -96,186 +96,295 @@
 
 		[Mobs."Immortal Mobs"."Immortal Skeleton"]
 			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
 			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
-
-		[Mobs."Immortal Mobs"."Immortal Knight"]
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
 
 		[Mobs."Immortal Mobs"."Immortal Shaman"]
 			#Immortal Shaman heal values (based on max health percentage)
 			#Range: 0.0 ~ 1.0
-			"Heal percentage" = 0.5
+			"Heal Percentage" = 0.5
 			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
 			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+
+			[Mobs."Immortal Mobs"."Immortal Shaman"."Shaman Bomb"]
+				#BASE DAMAGE
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 8.0
 
 		[Mobs."Immortal Mobs"."Immortal Golem"]
 			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
 			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
 
 		[Mobs."Immortal Mobs"."Immortal Executioner"]
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
 			#Set the number of times to strengthen this mob
 			#Range: 0 ~ 1024
 			"Ignite Count" = 3
-
-		[Mobs."Immortal Mobs".Immortal]
-			"Frame Damage Protection" = true
-			#Set the effective distance at which projectiles can deal damage
-			#Range: 1.0 ~ 32.0
-			"Set projectile damage range" = 15.0
 			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 15.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
 			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 5.0
-			#Set this mob damageCap
-			#Range: 0.0 ~ 1024.0
-			DamageCap = 125.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
 
-			[Mobs."Immortal Mobs".Immortal."Damage Adapt"]
-				#Set max adaptable damage sources for this mob
-				#Range: 10 ~ 1024
-				"Max supported damage types amount" = 100
+		[Mobs."Immortal Mobs"."The Immortal"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+			#Set this mob damage cap
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Damage Cap" = 30.0
+			#Set this mob max effective damage distance
+			#Range: 0.0 ~ 64.0
+			"Effective Damage Distance" = 16.0
+			#Set this mob's damage reduction duration after being damaged (seconds)
+			#Range: 0.0 ~ 5.0
+			"Damage Reduction Duration" = 0.25
+
+			[Mobs."Immortal Mobs"."The Immortal"."Immortal Shuriken"]
+				#BASE DAMAGE
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 5.0
+
+			[Mobs."Immortal Mobs"."The Immortal"."Immortal Laser"]
+				#BASE DAMAGE
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 5.0
+
+			[Mobs."Immortal Mobs"."The Immortal"."Damage Adapt V1"]
+				#If set to 'False' disable Damage Adaptation
+				Enabled = true
+				#If set to 'False' disable print logs
+				"Enabled Debug Mode" = false
+				#Duration for adaptation to decay to zero when not fully adapted (in seconds)
+				#Range: 1 ~ 300
+				"Decay Duration" = 15
 				#Set the effective duration for a single adaptation damage source (in seconds)
-				#Range: 10 ~ 1024
-				"Adaptation duration" = 30
-				#Set the reduction factor for each instance of the same damage source
-				#Range: 0.0 ~ 1.0
-				"Single hurt post adaptation value" = 0.1
+				#Range: 1 ~ 300
+				"Adaptation Duration" = 60
+				#Adaptation increment per hit for mob-caused damage, scaled by damage/maxHealth. Higher = faster buildup
+				#Range: 1.0 ~ 10.0
+				"Mob Damage Adaptation Factor" = 1.5
+				#Adaptation increment per hit for player-caused damage, scaled by damage/maxHealth. Higher = faster buildup
+				#Range: 1.0 ~ 10.0
+				"Player-Caused Damage Adaptation Factor" = 2.0
 				#Set the maximum damage reduction factor
-				#Range: 0.0 ~ 1.0
-				"Same damage max adaptation factor" = 0.7
-				#If set to 'False' disable adaptation to out of world and generic kill damage source
-				"Adaptation bypasses damage source" = true
+				#Range: 0.1 ~ 1.0
+				"Same Damage Max Adaptation Factor" = 0.9
 
 	[Mobs."Corpse Mobs"]
 
 		[Mobs."Corpse Mobs"."Corpse & Corpse Villager"]
 			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
 			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
 			#If set to 'False', When zombies or villagers are killed by corpses, they will not converted into corpses themselves
-			"Converted to corpse" = true
+			"Converted To Corpse" = true
 
 		[Mobs."Corpse Mobs"."Corpse Warlock"]
-			#Set the effective distance at which projectiles can deal damage
-			#Range: 1.0 ~ 32.0
-			"Set projectile damage range" = 12.0
 			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 15.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
 			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 4.0
-			#Set this mob damageCap
-			#Range: 0.0 ~ 1024.0
-			DamageCap = 100.0
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
 
-	[Mobs."Guling Mobs"]
+			[Mobs."Corpse Mobs"."Corpse Warlock"."Crimson Ray"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 5.0
 
-		[Mobs."Guling Mobs"."Guling Sentinel"]
-			#If set to 'False' disable out-of-combat heal
-			"Enable out-of-combat healing" = true
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+			[Mobs."Corpse Mobs"."Corpse Warlock"."Crimson Crack"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 5.0
 
-		[Mobs."Guling Mobs"."Guling Sentinel-Heavy"]
-			#If set to 'False' disable out-of-combat heal
-			"Enable out-of-combat healing" = true
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
-
-		[Mobs."Guling Mobs"."Nameless Guardian"]
-			#Set suck blood multiplier
-			#Range: 0.0 ~ 1024.0
-			"Suck blood multiplier" = 1.1
-			#Set extra invulnerable tick(This setting does not take effect in Challenge Mode)
-			#Range: 0 ~ 1200
-			"Extra invulnerable tick" = 30
-			#If set to 'False' disable out-of-combat heal
-			"Enable out-of-combat healing" = true
-			#If set to 'False' disable forced suck blood on power status(This setting does not take effect in Challenge Mode)
-			"Enable forced suck blood" = true
-			#Be careful! It's going to get tricky!
-			"Challenge Mode" = false
-			#This setting does not take effect in Challenge Mode
-			"Frame Damage Protection" = true
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 5.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 5.0
-			#Set this mob damageCap
-			#Range: 0.0 ~ 1024.0
-			DamageCap = 100.0
+			[Mobs."Corpse Mobs"."Corpse Warlock"."Blood Ball"]
+				#BASE DAMAGE
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 5.0
 
 	[Mobs."Minion Mobs"]
 
 		[Mobs."Minion Mobs"."Corpse Minion"]
-			#Set this mob health multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 2.0
-			#Set this mob attack multiplier
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
 			#Set corpse minion to restore its owner's health
 			#Range: 0.0 ~ 1024.0
 			"Death Heal Amount" = 5.0
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+
+	[Mobs.Relicrons]
+		#If set to 'False' disable healing while not active
+		"Enable healing while not active" = true
+
+		[Mobs.Relicrons."Relic Observer"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+
+			[Mobs.Relicrons."Relic Observer"."Guardian Laser"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 6.0
+
+		[Mobs.Relicrons."Relic Ripper"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+
+		[Mobs.Relicrons."Relic Earthshaker"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+
+			[Mobs.Relicrons."Relic Earthshaker".Electromagnetic]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 8.0
+
+			[Mobs.Relicrons."Relic Earthshaker"."Pulsed Grenade"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 6.0
+
+		[Mobs.Relicrons."Relic Annihilator"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+			#Set this mob damage cap
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Damage Cap" = 20.0
+			#Set this mob max effective damage distance
+			#Range: 0.0 ~ 64.0
+			"Effective Damage Distance" = 14.0
+			#Set this mob's damage reduction duration after being damaged (seconds)
+			#Range: 0.0 ~ 5.0
+			"Damage Reduction Duration" = 0.75
+
+			[Mobs.Relicrons."Relic Annihilator"."Guardian Laser"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 8.0
+
+			[Mobs.Relicrons."Relic Annihilator"."Annihilator Missile"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 8.0
+
+			[Mobs.Relicrons."Relic Annihilator".Electromagnetic]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 10.0
+
+		[Mobs.Relicrons.Realmwarden]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+			#Set this mob damage cap
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Damage Cap" = 20.0
+			#Set this mob max effective damage distance
+			#Range: 0.0 ~ 64.0
+			"Effective Damage Distance" = 14.0
+			#Set this mob's damage reduction duration after being damaged (seconds)
+			#Range: 0.0 ~ 5.0
+			"Damage Reduction Duration" = 1.0
+
+			[Mobs.Relicrons.Realmwarden."Annihilator Missile"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 15.0
+
+			[Mobs.Relicrons.Realmwarden.Surge]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 10.0
+
+		[Mobs.Relicrons."Nameless Guardian"]
+			#Set suck blood multiplier
+			#Range: 0.0 ~ 1024.0
+			"Suck Blood Multiplier" = 1.0
+			#If set to 'False' disable forced suck blood on power status(This setting does not take effect in Challenge Mode)
+			"Enable Forced Suck Blood" = true
+			#Be careful! It's going to get tricky!
+			"Challenge Mode" = false
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Health Multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Attack Multiplier" = 1.0
+			#Set this mob damage cap
+			#Range: 0.0 ~ 3.4028234663852886E38
+			"Damage Cap" = 20.0
+			#Set this mob max effective damage distance
+			#Range: 0.0 ~ 64.0
+			"Effective Damage Distance" = 18.0
+			#Set this mob's damage reduction duration after being damaged (seconds)
+			#Range: 0.0 ~ 5.0
+			"Damage Reduction Duration" = 0.5
+
+			[Mobs.Relicrons."Nameless Guardian"."Guardian Laser"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 5.0
+
+			[Mobs.Relicrons."Nameless Guardian"."Guardian Blade"]
+				#Set this entity attack damage
+				#Range: 1.0 ~ 3.4028234663852886E38
+				"Attack Damage" = 15.0
 
 [Others]
-
-	[Others.Camera]
-		#If set to 'False' disable camera shake
-		"Enable camera shake" = true
+	#If set to 'False' disable mobs breaking blocks drop items
+	"Enable Mobs Breaking Blocks Drop Items" = false
+	#If set to 'False' disable showing cooldown time in tooltip
+	"Enable Show Item Cd" = false
+	#If set to 'False' disable all combat encounter prompts
+	"Enable Combat Prompt Trigger Detection" = true
 
 	[Others.Bosses]
-		#If set to 'False' disable bosses blood bars
-		"Enable bosses blood bars" = true
-		#If set to 'False' disable play boss music
-		"Enable play bosses musics" = true
-		#If set to 'False' disable bosses breaking blocks drop items
-		"Enable bosses breaking blocks drop items" = false
-
-	[Others.Misc]
-		#If set to 'False' able inflict damage between mobs of the same team
-		"Enable allied damage protection" = true
-		#If set to 'False' disable frenzy potion destroy block
-		"Enable frenzy potion destroy block" = false
-		#If set to 'False' disable showing cooldown time in tooltip
-		"Enable show item cd" = false
+		#If set to 'False' disable show boss bar
+		"Enable Show Boss Health Bars" = true
+		#Set maximum render distance for boss health bar
+		#Range: 32.0 ~ 128.0
+		"Set Render Distance For Boss Bars" = 48.0
 

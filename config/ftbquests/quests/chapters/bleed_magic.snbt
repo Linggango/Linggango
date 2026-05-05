@@ -27,22 +27,12 @@
 			y: -4.5d
 		}
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			height: 3.2d
+			image: "customtextures:textures/blood_magic_title.png"
 			rotation: 0.0d
-			width: 1.0d
+			width: 7.0d
 			x: 2.0d
 			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "customtextures:textures/bloodmagiclogo.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 2.0d
-			y: -6.0d
 		}
 		{
 			height: 1.5d
@@ -57,8 +47,21 @@
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -6.0d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
 		}
 	]
 	order_index: 2
@@ -78,17 +81,17 @@
 				""
 				"Questline &nInspired&r by Atm9."
 			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bloodmagic:item/sanguine_scientiem_guide_book"
+				}
+			}
 			id: "7E0093211509C03D"
 			rewards: [{
-				id: "75B6D0ABC421DFC7"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "In-game wiki"
-			tasks: [{
-				id: "33F1857CF7EC4D60"
+				id: "32A29AD8CFDE59A8"
 				item: {
 					Count: 1
 					id: "patchouli:guide_book"
@@ -98,6 +101,15 @@
 				}
 				type: "item"
 			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "In-game wiki"
+			tasks: [{
+				id: "6C12462EDF0C73ED"
+				title: "weird name"
+				type: "checkmark"
+			}]
+			title: "Sanguine Scientiem"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -163,7 +175,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			subtitle: "Holds 1K LP"
 			tasks: [{
 				id: "776EB52F2F5971D0"
@@ -291,7 +303,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Holds 25K LP"
 			tasks: [{
@@ -318,8 +330,8 @@
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			x: -2.4412306152044536d
-			y: -2.0836349004779535d
+			x: -2.4244176526336574d
+			y: -2.8241047694751202d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
@@ -499,8 +511,8 @@
 				type: "item"
 			}]
 			title: "&4Hellfire Forge&r"
-			x: 4.847874668200269d
-			y: -0.36926595207962265d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["506D48AD9FB2E89D"]
@@ -712,6 +724,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Holds 150K LP"
 			tasks: [{
@@ -1038,6 +1051,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
 			subtitle: "Holds 1M LP"
 			tasks: [{
@@ -1603,6 +1617,7 @@
 		}
 		{
 			dependencies: ["7E0093211509C03D"]
+			disable_toast: true
 			id: "705C9AF13AEEAD36"
 			shape: "diamond"
 			subtitle: "Blood Magic Add-On"
@@ -1630,8 +1645,8 @@
 				item: "animus:blood_sapling"
 				type: "item"
 			}]
-			x: -2.4412306152044536d
-			y: -3.0836349004779535d
+			x: -1.773107359413089d
+			y: -3.5938351160085134d
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
@@ -1670,8 +1685,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2CA28551F2A5B761"]
@@ -1872,6 +1887,59 @@
 			]
 			x: 5.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["The Sentient bow allows you to collect Demon Will by simply killing a hostile mob with the bow!"]
+			id: "4BA67954357E3504"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "2FE77E30F3ABCC84"
+				item: {
+					Count: 1
+					id: "animus:sentient_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BA67954357E3504"]
+			description: [
+				"The Hellforged bow consumes LP instead of arrows upon shooting, when fully charged it kills any target below 15%."
+				""
+				"The more u keep charging, the more it lp uses and the more damage it deals."
+			]
+			id: "720431B897006024"
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "73CCFF712E477198"
+				item: {
+					Count: 1
+					id: "animus:hellforged_bow"
+					tag: {
+						Damage: 0
+						binding: {
+							id: [I;
+								-2072936818
+								1317488859
+								-1333692775
+								-1302013172
+							]
+							name: "ShutTheirPrayer"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
 		}
 	]
 	title: "Blood Magic"

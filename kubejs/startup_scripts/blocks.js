@@ -8,4 +8,22 @@ StartupEvents.registry("block", e => {
     .requiresTool(true)
     .tagBlock("mineable/pickaxe")
     .tagBlock("minecraft:needs_iron_tool");
+
+    e.create("apocalyptium_block")
+     .displayName("Apocalyptium Block")
+     .soundType("netherite_block")
+     .hardness(250.0)
+     .resistance(1200.0)
+     .lightLevel(0.9)
+     .requiresTool(true)
+     .tagBlock("mineable/pickaxe")
+     .tagBlock("minecraft:needs_netherite_tool")
+     .tagBlock("goety:redstone_cube_detect")
+     .texture("up", "kubejs:block/apocalyptium_block_top")
+     .texture("down", "kubejs:block/apocalyptium_block_bottom")
+     .texture("north", "kubejs:block/apocalyptium_block_side")
+     .texture("south", "kubejs:block/apocalyptium_block_side")
+     .texture("east", "kubejs:block/apocalyptium_block_side")
+     .texture("west", "kubejs:block/apocalyptium_block_side")
+     .texture("particle", "kubejs:block/apocalyptium_block_side")
 });

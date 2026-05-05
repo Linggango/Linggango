@@ -1,7 +1,7 @@
 {
 	id: "062E0D5C04EF2B38"
 	loot_size: 1
-	order_index: 13
+	order_index: 14
 	rewards: [
 		{ count: 2, item: "ad_astra:steel_nugget" }
 		{ count: 2, item: "ad_astra:steel_rod" }

@@ -9,7 +9,28 @@
 ["Mind to Matter Settings"]
 	#e.g. 0.015 means gaining 3 bonus HP when max mana is 200
 	#Range: 0.0 ~ 1.0
-	mindToMatterHPMultiplier = 0.015
+	mindToMatterHPMultiplier = 0.01
+
+["Voidsnare Settings"]
+	#Range: 1.0 ~ 128.0
+	VoidsnareMinDropTeleportingRadius = 5.0
+	VoidsnareSpellDamageIsNecessary = true
+
+["Calamity Resonator Settings"]
+	#Range: 0.0 ~ 1.0
+	calamityResonatorSplashPercent = 0.25
+	#Range: 0.009999999776482582 ~ 32.0
+	calamityResonatorSplashRadius = 1.5
+	#Range: 1 ~ 1919810
+	calamityResonatorCooldownTicks = 40
+
+["Reckless Utterance Settings"]
+	#Range: > 1
+	recklessUtteranceMaxOverload = 200
+	#Range: > 1
+	recklessUtteranceSilentTicks = 1200
+	#Range: 1 ~ 3000
+	recklessUtteranceArcaneOverdriveDurationTicks = 200
 
 ["Venomous Assault Settings"]
 	#The maximum fraction of the target's max health that a single detonation may deal. For example, 0.5 means detonations against a 200-HP target can deal at most 100 damage.
@@ -44,7 +65,7 @@
 ["Giant Killer Settings"]
 	#e.g. 0.25 means dealing 1.5x damage to the enemy whose size is twice of you
 	#Range: 0.0 ~ 1.0
-	giantKillerDamageScaling = 0.25
+	giantKillerDamageScaling = 0.15
 	#Maximum final damage multiplier applied by Giant Killer (e.g., 3.0 = up to 3x damage).
 	#Range: 1.0 ~ 100.0
 	giantKillerMaxMultiplier = 2.0
@@ -52,23 +73,4 @@
 ["All By Movement Settings"]
 	#List of step-like spells affected by All By Movement (format: modid:spell_id)
 	"Step Spells" = ["irons_spellbooks:frost_step", "irons_spellbooks:blood_step", "irons_spellbooks:burning_dash"]
-
-["Reckless Utterance Settings"]
-	#Range: > 1
-	recklessUtteranceMaxOverload = 200
-	#Range: > 1
-	recklessUtteranceSilentTicks = 1200
-	#Range: 1 ~ 3000
-	recklessUtteranceArcaneOverdriveDurationTicks = 200
-
-["Voidsnare Settings"]
-	#Range: 1.0 ~ 128.0
-	VoidsnareMinDropTeleportingRadius = 5.0
-	VoidsnareSpellDamageIsNecessary = true
-
-["Calamity Resonator Settings"]
-	#Range: 0.0 ~ 1.0
-	calamityResonatorSplashPercent = 0.25
-	#Range: 1 ~ 1919810
-	calamityResonatorCooldownTicks = 40
 

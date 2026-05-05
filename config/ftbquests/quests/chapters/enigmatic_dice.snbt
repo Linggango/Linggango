@@ -14,23 +14,25 @@
 	id: "4A00ED87BED283AE"
 	images: [
 		{
-			height: 1.2d
+			height: 1.5d
 			image: "customtextures:textures/enigmaticdicelogo.png"
 			rotation: 0.0d
-			width: 6.0d
+			width: 8.0d
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -1.0d
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	order_index: 1
@@ -42,6 +44,8 @@
 				""
 				"This questline is here to basically motivate you into using dice more by showing the best rewards."
 			]
+			disable_toast: true
+			icon: "enigmaticdice:enigmatic_die"
 			id: "3C43240C545F692C"
 			rewards: [{
 				id: "6C77B5934617FBE0"
@@ -52,10 +56,11 @@
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "31584836F98014A4"
-				item: "enigmaticdice:enigmatic_die"
-				type: "item"
+				id: "032D3C688E7033B9"
+				title: "oki"
+				type: "checkmark"
 			}]
+			title: "Enigmatic Dice"
 			x: 0.0d
 			y: -1.0d
 		}

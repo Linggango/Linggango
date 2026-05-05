@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:and",
+        "values": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+          },
+          {
+            "type": "l2library:boolean_config",
+            "expected": true,
+            "line": [
+              "useArsNouveauForEnchantmentRecipe"
+            ],
+            "path": "l2_configs/l2complements-common.toml"
+          }
+        ]
+      }
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "goety_revelation:random_display"
+    },
+    "B": {
+      "item": "goety_revelation:revelation"
+    },
+    "C": {
+      "item": "goety_revelation:random_display"
+    },
+    "L": {
+      "item": "kubejs:lingangoonium_ingot"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "ABA",
+    "LAL"
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "l2complements:smelt",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

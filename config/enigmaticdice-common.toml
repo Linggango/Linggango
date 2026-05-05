@@ -136,7 +136,7 @@ ringOfAgilityChanceScale = 1.0
 ringOfAgilityMaxDodgeChance = 0.9
 #Cooldown duration of the Divine Shield in ticks. (1 second = 20 ticks)
 #Range: > 0
-divineShieldCooldownTicks = 240
+divineShieldCooldownTicks = 500
 #Whether to give the player the Divine Shield effect as an indicator that the item is not on cooldown.
 divineShieldGiveEffect = true
 #Permafrost Attack Damage.

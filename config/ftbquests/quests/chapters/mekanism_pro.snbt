@@ -8,10 +8,10 @@
 	id: "1608F5BC7B90120F"
 	images: [
 		{
-			height: 2.0d
-			image: "customtextures:textures/mekanismlogo.png"
+			height: 1.95d
+			image: "customtextures:textures/mekanism_logo.png"
 			rotation: 0.0d
-			width: 7.0d
+			width: 8.0d
 			x: -5.0d
 			y: 0.0d
 		}
@@ -28,16 +28,18 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 2.0d
+			x: -5.0d
+			y: -1.5d
 		}
 	]
-	order_index: 13
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = linggango_slideshow
+   width = 3440
+   height = 1440
+   x = 0
+   y = 0
+   duration = 10.0
+   fadespeed = 8.0
+   randomize = false
+}

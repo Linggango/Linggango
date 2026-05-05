@@ -1,0 +1,37 @@
+{
+	id: "7B2E159A3362C91D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 2, item: "storagedrawers:oak_full_drawers_1" }
+		{ count: 2, item: "storagedrawers:oak_full_drawers_2" }
+		{ count: 8, item: "storagedrawers:oak_full_drawers_4" }
+		{ item: "storagedrawers:oak_half_drawers_4" }
+		{ item: "storagedrawers:compacting_drawers_3" }
+		{ count: 2, item: "storagedrawers:oak_trim" }
+		{ item: "storagedrawers:controller" }
+		{ count: 2, item: "storagedrawers:controller_slave" }
+		{ item: "storagedrawers:framing_table" }
+		{ count: 2, item: "storagedrawers:upgrade_template" }
+		{ count: 2, item: "storagedrawers:obsidian_storage_upgrade", weight: 0.6f }
+		{ item: "storagedrawers:iron_storage_upgrade", weight: 0.5f }
+		{ item: "storagedrawers:gold_storage_upgrade", weight: 0.4f }
+		{ item: "storagedrawers:diamond_storage_upgrade", weight: 0.3f }
+		{ item: "storagedrawers:emerald_storage_upgrade", weight: 0.2f }
+		{ item: "storagedrawers:netherite_storage_upgrade", weight: 0.1f }
+		{ count: 4, item: "storagedrawers:one_stack_upgrade" }
+		{ item: "storagedrawers:drawer_key" }
+		{ item: "storagedrawers:quantify_key" }
+		{ item: "storagedrawers:shroud_key" }
+		{
+			item: {
+				Count: 1
+				id: "storagedrawers:drawer_puller"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Storage Drawers"
+}

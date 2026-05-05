@@ -14,22 +14,12 @@
 	id: "44F86CB070F12FF2"
 	images: [
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			height: 3.0d
+			image: "customtextures:textures/artifacts.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: -18.0d
-		}
-		{
-			height: 1.4d
-			image: "customtextures:textures/artifactslogo.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: 1.8051192694009615d
-			y: -19.484508071767902d
+			width: 12.0d
+			x: 1.7999999999999972d
+			y: -20.58334907108923d
 		}
 		{
 			height: 1.0d
@@ -119,8 +109,21 @@
 			x: -21.5d
 			y: 3.5d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.835714285714289d
+			y: -22.482142857142858d
+		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -944,7 +947,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "minecraft:textures/gui/info_icon.png"
+					Icon: "jei:textures/jei/atlas/gui/icons/info.png"
 				}
 			}
 			icon_scale: 1.4d
@@ -954,7 +957,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "square"
+			shape: "circle"
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -4445,7 +4448,7 @@
 		}
 		{
 			id: "1E0E4D6C260A516D"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "7FD59638D3244D76"
 				item: {
@@ -4462,7 +4465,7 @@
 		}
 		{
 			id: "73D71078F270C02F"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "248C85B070AEDA75"
 				item: {
@@ -4479,7 +4482,7 @@
 		}
 		{
 			id: "49C69AE279C2E49C"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "384BF11898317899"
 				item: {
@@ -4496,7 +4499,7 @@
 		}
 		{
 			id: "237C65A437EF5CE2"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "029788AB2721E8F1"
 				item: {
@@ -4513,7 +4516,7 @@
 		}
 		{
 			id: "22956F6809EE8ADB"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "52BA22881895E513"
 				item: {
@@ -4530,7 +4533,7 @@
 		}
 		{
 			id: "56ECD8EE11A79184"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "6BC1CC2B87A4AA96"
 				item: {
@@ -4547,7 +4550,7 @@
 		}
 		{
 			id: "27EBE58D827A8B4B"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "05CCD3819477E7F5"
 				item: {
@@ -4564,7 +4567,7 @@
 		}
 		{
 			id: "4466C7DBC39AD0D8"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "0B9422066F708F4B"
 				item: {
@@ -4581,7 +4584,7 @@
 		}
 		{
 			id: "521CDED7ED2E8CC5"
-			subtitle: "Charm"
+			subtitle: "Charm / Needs Calculator"
 			tasks: [{
 				id: "7C958D382F9CBFF9"
 				item: {
@@ -6824,7 +6827,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: -16.5d
 		}
 		{
@@ -7079,8 +7082,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.5d
-			y: -15.5d
+			x: -3.5d
+			y: -16.5d
 		}
 		{
 			id: "74734AD82ECFEF8B"
@@ -7317,16 +7320,7 @@
 			id: "758E37FC8E815A47"
 			tasks: [{
 				id: "796492BC3FB1C245"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 4
-						}
-					}
-					id: "immersiveengineering:powerpack"
-				}
+				item: "immersiveengineering:powerpack"
 				type: "item"
 			}]
 			x: -13.5d
@@ -7343,161 +7337,13 @@
 			y: 2.0d
 		}
 		{
-			id: "53E2716615E07A12"
-			subtitle: "Head"
-			tasks: [{
-				id: "6EFC614404FAB73E"
-				item: {
-					Count: 1
-					id: "caster_curios_bonus:reckless_utterance"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "caster_curios_bonus:arcane_overdrive"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: -16.5d
-		}
-		{
-			id: "6B1CF0B99D262E4C"
-			subtitle: "Head"
-			tasks: [{
-				id: "6B93320ADDD6CF47"
-				item: "caster_curios_bonus:mana_overflow"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -16.5d
-		}
-		{
-			id: "24F210CC7311CDEA"
-			subtitle: "Ring"
-			tasks: [{
-				id: "72E2950DF2A9CB76"
-				item: "caster_curios_bonus:venomous_assault"
-				type: "item"
-			}]
-			x: -22.5d
-			y: -15.5d
-		}
-		{
-			id: "73905462C919A984"
-			subtitle: "Necklace"
-			tasks: [{
-				id: "09DE6FBE2DD703C0"
-				item: "caster_curios_bonus:mind_to_matter"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -7.0d
-		}
-		{
-			id: "44E1A96C3C7743F7"
-			subtitle: "Hands"
-			tasks: [{
-				id: "1A9C9F5AAA8F828D"
-				item: "caster_curios_bonus:giant_killer"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -16.5d
-		}
-		{
-			id: "281A770DA545011F"
-			subtitle: "Ring"
-			tasks: [{
-				id: "70660562CEBF9925"
-				item: "caster_curios_bonus:night_hunter"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -16.5d
-		}
-		{
-			id: "16657559157A60CD"
-			subtitle: "Charm"
-			tasks: [{
-				id: "66B8E0A9C140ED60"
-				item: "caster_curios_bonus:eureka"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -8.0d
-		}
-		{
-			id: "3DA9886E5F10C678"
-			subtitle: "Back (Body)"
-			tasks: [{
-				id: "2630F5B337203F76"
-				item: "caster_curios_bonus:all_by_movement"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 2.0d
-		}
-		{
-			id: "644B1A8A3A211E6E"
-			subtitle: "Charm"
-			tasks: [{
-				id: "63AEB01AE056B096"
-				item: "caster_curios_bonus:crimson_pledge"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -8.0d
-		}
-		{
-			id: "1E2659843531EF7F"
-			subtitle: "Hands"
-			tasks: [{
-				id: "11B5FBF333F488DB"
-				item: "caster_curios_bonus:calamity_resonator"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -16.5d
-		}
-		{
-			id: "2DE4DA47A5376924"
-			subtitle: "Necklace"
-			tasks: [{
-				id: "64A7578BB55327D8"
-				item: "caster_curios_bonus:voidsnare"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -7.0d
-		}
-		{
-			id: "372666255890A8A2"
-			subtitle: "Back (Body)"
-			tasks: [{
-				id: "61433755EE1459DA"
-				item: "caster_curios_bonus:zephyr_boon"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 2.0d
-		}
-		{
 			id: "5DF8FCE8086A3836"
 			tasks: [{
 				id: "1204095F4CF851C1"
 				item: "uniqueaccessories:bloody_knife"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.5d
 			y: -8.0d
 		}
 		{
@@ -7507,7 +7353,7 @@
 				item: "uniqueaccessories:rose_of_temptation"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: -8.0d
 		}
 		{
@@ -7537,8 +7383,8 @@
 				item: "uniqueaccessories:power_crystal"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -7.0d
+			x: -2.5d
+			y: -8.0d
 		}
 		{
 			id: "02237C49254B086C"
@@ -7548,8 +7394,8 @@
 				item: "enigmaticaddons:lost_engine"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -7.0d
+			x: -1.5d
+			y: -8.0d
 		}
 	]
 	title: "Artifacts"

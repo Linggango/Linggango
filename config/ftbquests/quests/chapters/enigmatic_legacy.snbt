@@ -1,7 +1,8 @@
 {
 	autofocus_id: "1DF34C60DDABA0B6"
-	default_hide_dependency_lines: false
-	default_quest_shape: "diamond"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
 	filename: "enigmatic_legacy"
 	group: "20D67F7F184680D5"
 	icon: {
@@ -14,40 +15,30 @@
 	id: "31575DEBB2A21CCD"
 	images: [
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			height: 3.0d
+			image: "customtextures:textures/enigmatic_logo.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			height: 2.5d
-			image: "customtextures:textures/enigmaticlegacylogo.png"
-			rotation: 0.0d
-			width: 7.0d
+			width: 8.0d
 			x: -0.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			height: 1.0d
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
-			y: 0.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			click: "a"
 			height: 1.0d
 			hover: ["Books"]
-			image: "sgjourney:item/archeologist_notebook"
+			image: "irons_spellbooks:item/diamond_spell_book"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			click: "a"
@@ -76,7 +67,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -95,7 +86,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			click: "s"
@@ -129,7 +120,7 @@
 		}
 		{
 			height: 1.0d
-			image: "hexerei:textures/book/arrow_right.png"
+			image: "modernworldcreation:textures/arrow_right_hover.png"
 			rotation: -45.0d
 			width: 1.0d
 			x: -1.5d
@@ -137,7 +128,7 @@
 		}
 		{
 			height: 1.0d
-			image: "hexerei:textures/book/arrow_right.png"
+			image: "modernworldcreation:textures/arrow_right_hover.png"
 			rotation: -140.0d
 			width: 1.0d
 			x: 0.5d
@@ -157,7 +148,7 @@
 			click: "1"
 			height: 1.0d
 			hover: ["Discipline"]
-			image: "hexerei:textures/book/arrow_left.png"
+			image: "modernworldcreation:textures/arrow_left_hover.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.0d
@@ -167,11 +158,24 @@
 			click: "2"
 			height: 1.0d
 			hover: ["Suffering?"]
-			image: "hexerei:textures/book/arrow_right.png"
+			image: "modernworldcreation:textures/arrow_right_hover.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
 			y: 1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
 		}
 	]
 	order_index: 0
@@ -252,6 +256,7 @@
 				""
 				"&eEnder Dragons:&r 1 Heart of the Abyss. Drops only if player spent at least 99.5% of the time in world bearing the ring, and if they aquired less than 4 hearts yet. Unlike other drops, heart spawns at the place of dragon's final disappearance and remains floating in the air. It has proven hard to notice for some players."
 			]
+			hide_dependency_lines: false
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "7C1409F2EE726A20"
 			invisible_until_tasks: 1
@@ -275,6 +280,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Arcane scrolls can help make your build lot more stronger than before! Thus obtaining them is really.. hard."]
 			id: "6D90E585D2406F72"
 			subtitle: "Base material for few Arcane Scrolls."
@@ -283,12 +289,14 @@
 				item: "enigmaticlegacy:thicc_scroll"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.5d
+			x: -6.5d
+			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["You can also duplicate it!"]
 			id: "453718D66065CA4A"
+			shape: "hexagon"
 			subtitle: "Can be Found in Bastions"
 			tasks: [{
 				id: "1C00411329331083"
@@ -299,6 +307,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4EF80EAF25964BE6"
 			subtitle: "Read The Description"
 			tasks: [{
@@ -307,47 +316,53 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["4EF80EAF25964BE6"]
+			dependencies: [
+				"4EF80EAF25964BE6"
+				"1DF34C60DDABA0B6"
+			]
 			id: "071B31311EAC896B"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "7748817D95D587F7"
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 11.5d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "18362E8AD6EE9A8C"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "5E705F45FEECA425"
 				item: "enigmaticlegacy:escape_scroll"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.0d
+			x: -5.0d
+			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1CB5C629D6E2424A"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "71FC854EA40D4E32"
 				item: "enigmaticlegacy:xp_scroll"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7C1409F2EE726A20"]
+			hide_dependency_lines: false
 			id: "38D6971551A08950"
 			rewards: [{
 				id: "23C690A75C08DFFC"
@@ -365,21 +380,25 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			icon: "enigmaticlegacy:avarice_scroll"
 			id: "3CC6763FA003F3C9"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "30EA6E2D6D4430DF"
 				item: "enigmaticlegacy:avarice_scroll"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.5d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["38D6971551A08950"]
+			hide_dependency_lines: false
 			id: "79CAB265AED63D74"
 			rewards: [
 				{
@@ -393,7 +412,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "Decide."
 			tasks: [{
@@ -406,6 +425,8 @@
 		}
 		{
 			dependencies: ["696721016FE9651A"]
+			hide_dependency_lines: false
+			icon: "enigmaticaddons:bless_ring"
 			id: "759330FDA1A18091"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -417,15 +438,16 @@
 			size: 1.0d
 			subtitle: "You have changed"
 			tasks: [{
-				id: "3CDD9773776FA95F"
-				item: "enigmaticaddons:bless_ring"
-				type: "item"
+				id: "68B99B3C49AC067B"
+				title: "&dRing of Redemption"
+				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["38D6971551A08950"]
+			hide_dependency_lines: false
 			id: "696721016FE9651A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -433,7 +455,7 @@
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Decide."
 			tasks: [{
 				id: "1C3005811F7C185C"
@@ -444,22 +466,28 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "0AA1567557149D5C"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "73AF42474FA9063C"
 				item: "enigmaticaddons:night_scroll"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 12.0d
+			x: -3.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["74D03B0A580FBCEA"]
+			dependencies: [
+				"74D03B0A580FBCEA"
+				"1DF34C60DDABA0B6"
+			]
 			id: "684D08CDB9CD24B2"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "765EBB8F36745B1A"
@@ -470,51 +498,62 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "1D5A7FA7C73BA7AB"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "062DDD7A61E9D782"
 				item: "enigmaticaddons:thunder_scroll"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 11.5d
+			x: -4.5d
+			y: 12.0d
 		}
 		{
-			dependencies: ["1CB5C629D6E2424A"]
+			dependencies: [
+				"1CB5C629D6E2424A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "172C4ECEC40C15C7"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "464E4B54D0D2A67B"
 				item: "enigmaticaddons:cursed_xp_scroll"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: -5.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["453718D66065CA4A"]
+			dependencies: [
+				"453718D66065CA4A"
+				"1DF34C60DDABA0B6"
+			]
 			id: "74D03B0A580FBCEA"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "4DFC7C820D14CBD4"
 				item: "enigmaticlegacy:cursed_scroll"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 12.0d
+			x: -5.0d
+			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
 				"When eaten, you will never ever get hungry again, but your regeneration is altered by %80."
 				""
 				"If &cRing of The Seven Curses&r is present, you won't die from LP exhaustion."
 			]
+			hide_until_deps_complete: false
 			id: "240C6600ADD40176"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "42E0614D0A79C105"
@@ -525,6 +564,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "56E2116333D3CD6B"
 			subtitle: "Grants bearer %85 LP reduction while casting ender spells. Check Description for more"
@@ -537,6 +577,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "725627F80E885B74"
 			subtitle: "Grants bearer %85 LP reduction while casting holy spells. Check Description for more"
@@ -549,6 +590,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "5542D9D0E1E83302"
 			subtitle: "Grants bearer %85 LP reduction while casting evocation spells. Check Description for more"
@@ -561,6 +603,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "5E7DE2B95F3E7A27"
 			subtitle: "Grants bearer %85 LP reduction while casting lightning spells. Check Description for more"
@@ -573,6 +616,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "44CF4F7099E64CE6"
 			subtitle: "Grants bearer %85 LP reduction while casting blood spells. Check Description for more"
@@ -585,6 +629,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "34C57C3A353ABD03"
 			subtitle: "Grants bearer %85 LP reduction while casting nature spells. Check Description for more"
@@ -597,6 +642,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "374E257AC1D6E410"
 			subtitle: "Grants bearer %85 LP reduction while casting Ice spells. Check Description for more"
@@ -609,6 +655,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "7F28A25193747690"
 			subtitle: "Grants bearer %85 LP reduction while casting Fire spells. Check Description for more"
@@ -621,6 +668,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7A0EBC52E07C8D0F"
 			shape: "diamond"
 			subtitle: "Crafting Material"
@@ -634,7 +682,14 @@
 		}
 		{
 			dependencies: ["73B4B9E39A9A5152"]
+			hide_dependency_lines: false
 			id: "559B3D44287481DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0929CA9CAF36DC38"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "299660CA12F4CDF6"
@@ -645,17 +700,19 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "594DE634D568F698"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "524C8D72217C8856"
 				item: "covenant_of_the_seven:brightest_scroll"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: -4.0d
+			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "3B4E460F4C196406"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -667,6 +724,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "66918E2E73AD841F"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -678,19 +736,24 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["594DE634D568F698"]
+			dependencies: [
+				"594DE634D568F698"
+				"1DF34C60DDABA0B6"
+			]
 			id: "73B63202E26F1DD6"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "2B1F6FF80D80F990"
 				item: "covenant_of_the_seven:divine_scroll"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "581F2A1C0FD00B9F"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "651AA491DB41E82F"
 				item: "covenant_of_the_seven:benediction_charm"
@@ -700,7 +763,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0ED765E7AE95722C"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "39D9E01527C3ECF3"
 				item: "covenant_of_the_seven:potioneer_pearl"
@@ -710,8 +775,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "197E8EB199BDFA5A"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Read The Description"
 			tasks: [{
 				id: "5CFE1F728D87A974"
@@ -761,19 +827,23 @@
 				""
 				"- Redirect 60% of ANY spell damage received into the world."
 			]
+			hide_dependency_lines: false
 			id: "25B57A361188BAB3"
 			shape: "gear"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "7CC32EDF7960CF63"
-				item: "covenant_of_the_seven:virtue_ring"
-				type: "item"
+				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
+				criterion: ""
+				id: "36AA33D3E98FA95E"
+				type: "advancement"
 			}]
+			title: "Ring of The Seven Virtues"
 			x: -2.0d
 			y: 2.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0719EDFC724C0127"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -781,10 +851,11 @@
 				item: "covenant_of_the_seven:wind_sacrament"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 5.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "738870660D263223"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -792,10 +863,11 @@
 				item: "covenant_of_the_seven:geo_sacrament"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0B28BC1C6577C488"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -803,10 +875,11 @@
 				item: "covenant_of_the_seven:aqua_sacrament"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 5.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2F949E516B2AC544"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -814,10 +887,11 @@
 				item: "covenant_of_the_seven:eldritch_sacrament"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.5d
+			x: 3.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "69E8EE8A7882D3CA"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -825,10 +899,11 @@
 				item: "covenant_of_the_seven:ender_sacrament"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.5d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "773E1AB3E9B6F735"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -836,10 +911,11 @@
 				item: "covenant_of_the_seven:holy_sacrament"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "56C1527E1CB5EB67"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -847,10 +923,11 @@
 				item: "covenant_of_the_seven:evocation_sacrament"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "235D991688DFBE26"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -858,10 +935,11 @@
 				item: "covenant_of_the_seven:lightning_sacrament"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 11.5d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5BED52DA71A54D38"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -869,10 +947,11 @@
 				item: "covenant_of_the_seven:blood_sacrament"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 10.5d
+			x: 3.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "33B84060D76DAABA"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -880,10 +959,11 @@
 				item: "covenant_of_the_seven:nature_sacrament"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7FC6E9391B087ABF"
 			subtitle: "Read item description by holding \"Shift\" on it.Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -891,10 +971,11 @@
 				item: "covenant_of_the_seven:ice_sacrament"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 10.5d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2505A2A7619191CA"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -902,10 +983,11 @@
 				item: "covenant_of_the_seven:fire_sacrament"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 3.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "72680109513597DE"
 			subtitle: "Crafting material"
 			tasks: [{
@@ -914,9 +996,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "5316C5A4EB6080F4"
 			subtitle: "Grants bearer %85 LP reduction while casting wind spells. Check Description for more"
@@ -929,6 +1012,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "1805CB2999410A96"
 			subtitle: "Grants bearer %85 LP reduction while casting Geo spells. Check Description for more"
@@ -941,6 +1025,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "0C16E843CF8E8A2A"
 			subtitle: "Grants bearer %85 LP reduction while casting aqua spells. Check Description for more"
@@ -953,6 +1038,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Base +%4 Damage multiplier, traits are multiplied by the amount of curses you have."]
 			id: "2256EFAC2C0928F5"
 			subtitle: "Grants bearer %85 LP reduction while casting Eldritch spells. Check Description for more"
@@ -965,6 +1051,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "222DD8E1BA730F76"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -976,16 +1063,18 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6251E52D66AA014C"
 			tasks: [{
 				id: "1A6485080D4C46F1"
 				item: "covenant_of_the_seven:the_aeternum"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0148E8EE617361F9"
 			tasks: [{
 				id: "32E3F3758A3357B0"
@@ -993,9 +1082,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5EF3157D4471721F"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1008,8 +1098,14 @@
 		}
 		{
 			dependencies: ["5782089F4989B165"]
+			hide_dependency_lines: false
 			id: "73B4B9E39A9A5152"
-			shape: "rsquare"
+			rewards: [{
+				id: "2122AA31685FBB30"
+				item: "covenant_of_the_seven:pure_heart"
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "185EB6BA2E66C94F"
 				item: "covenant_of_the_seven:pure_heart"
@@ -1019,6 +1115,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2F35D1ABDCAD56AA"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1030,6 +1127,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Combine with any enchanted item in a crafting grid to transfer all curses from item to the tome, &cOnly cursed ring users can use."]
 			id: "4C956F782320F662"
 			subtitle: "&8[Click to read]"
@@ -1038,17 +1136,18 @@
 				item: "enigmaticlegacy:curse_transposer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
 				"Deal more damage to bosses and players, your attacks has extra knockback."
 				""
 				"Each successful hit gives 10 &cLP."
 			]
 			id: "4E2AD2381DF0812B"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "44FF04D36A278240"
@@ -1056,65 +1155,70 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4661EAA8FBF0B944"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Reading it will give &d+1 Arcane&r Slot."
 			tasks: [{
 				id: "5CE095BDD9BC4897"
 				item: "enigmaticaddons:void_tome"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Combine with any enchanted item in a crafting grid to transfer all &denchantments&r from item to a tome."]
 			id: "065873A02ECE96B9"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3F35AA702175572C"
 				item: "enigmaticlegacy:enchantment_transposer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6289EAE60A0F0184"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "While in your inventory you can't deal damage to animals."
 			tasks: [{
 				id: "00FE6B7B2581C22F"
 				item: "enigmaticaddons:ode_to_living"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
 				"While in your inventory, all damage your pets take within 24 blocks is redirected to you."
 				""
 				"If &eGuide to Animal Companionship&r is present, the damage redirected to you is reduced by %50."
 			]
 			id: "6BECDF798C694280"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5855592C7CA99842"
 				item: "enigmaticlegacy:hunter_guidebook"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4194A6281F3AF5FE"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Same effects with &eOde to Living beings&r has more things though, read description."
 			tasks: [{
 				id: "0015C35A8A5D41E2"
@@ -1122,26 +1226,28 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
 				"Deal more damage to a mob on fire and remove all positive effects from it."
 				""
 				"The holder is immune to fire and has longer i-frames."
 			]
 			id: "609597A5D62420E5"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7A570560DFCDC247"
 				item: "enigmaticaddons:the_bless"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "19315EDD1D4773D5"
 			subtitle: "Doubles enchantment levels when combined in crafting table. Can increase limits."
 			tasks: [{
@@ -1150,9 +1256,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
 				"If &eEmblem of Bloodstained Valor&r "
 				""
@@ -1170,9 +1277,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1A587DDB467E7AE0"
 			subtitle: "While in your inventory, damage you receive ignores defense and damage you inflict also ignores defense."
 			tasks: [{
@@ -1181,9 +1289,10 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "609C4C39B3D25D8C"
 			shape: "diamond"
 			subtitle: "+1 Armor"
@@ -1196,6 +1305,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "31D8D91AF9F289D0"
 			subtitle: "When equipped, Piglins are not hostile to you."
 			tasks: [{
@@ -1207,6 +1317,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5AA763A72417F48A"
 			subtitle: "Allows you to control a ender chest integrated in your inventory."
 			tasks: [{
@@ -1218,6 +1329,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1483A802D8EFAEF7"
 			subtitle: "Attracts items within 8 Blocks."
 			tasks: [{
@@ -1229,6 +1341,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "781B6272347D309E"
 			subtitle: "Instantly collects blocks dropped within 16 blocks. Can be disabled by holding Shift."
 			tasks: [{
@@ -1240,6 +1353,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "24D9E56712D86874"
 			subtitle: "Disables mob spawns near you"
 			tasks: [{
@@ -1251,6 +1365,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1E44EF435BBA4EE0"
 			subtitle: "+1 Fortune Level and some useless traits."
 			tasks: [{
@@ -1262,6 +1377,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: [
 				"&6+5.0 &dArmor"
 				"&6+2.0 &dArmor Toughness"
@@ -1279,8 +1395,9 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "627BD1C191884874"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "+1 Ring Slot"
 			tasks: [{
 				id: "22A3E55184C3283C"
@@ -1291,8 +1408,9 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "32FB6F35534360F8"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "idk sorry"
 			tasks: [{
 				id: "72F4743D6482A26A"
@@ -1318,7 +1436,7 @@
 			icon_scale: 1.3d
 			id: "1DF34C60DDABA0B6"
 			shape: "square"
-			size: 1.2d
+			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7AC435FF09A6E1C2"
@@ -1330,6 +1448,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["Combine with any enchanted item in a crafting grid to copy all enchantments from item to the tome."]
 			id: "5D5CB2E7BFF3D929"
 			subtitle: "&8[Click to read]"
@@ -1338,10 +1457,11 @@
 				item: "enigmaticdelicacy:enchantment_duplicator"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2855775BA72310E0"
 			subtitle: "Read The Description"
 			tasks: [{
@@ -1353,7 +1473,10 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "63886E154F541FF0"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "2248F978027998EE"
 				item: {
@@ -1369,7 +1492,10 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "6233FEDA1A71FCBF"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "16F2089824945230"
 				item: {
@@ -1385,7 +1511,10 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "43A7B26D6EB18BEF"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "52597BD5589F71B9"
 				item: {
@@ -1401,7 +1530,10 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "18FE872D6A440319"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "4970A8FED376B2CC"
 				item: {
@@ -1417,7 +1549,10 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "04D80E2755365778"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "1655707DD4DF50B1"
 				item: {
@@ -1433,7 +1568,10 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "05811956FD302521"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "63BC4D24D122E8B3"
 				item: {
@@ -1449,7 +1587,10 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			disable_toast: true
 			id: "63A69C14F6727467"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "65B40E10024023F5"
 				item: {
@@ -1465,35 +1606,33 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2DC1C0FAAB255199"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "1A72E8AE53590AC0"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:enigmatic_eye"
-					tag: { }
-				}
+				item: "enigmaticlegacy:enigmatic_eye"
 				type: "item"
 			}]
 			x: -6.5d
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0E690A6DB91DBCAE"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "241FD3CA5F660E75"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:mining_charm"
-					tag: { }
-				}
+				item: "enigmaticlegacy:mining_charm"
 				type: "item"
 			}]
 			x: -6.0d
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "28656E06CF9CD32D"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "0C91074AE05431E2"
 				item: "enigmaticlegacy:monster_charm"
@@ -1503,7 +1642,9 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "09B6409CDDE2D0A9"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "0AFC17EEA388115C"
 				item: "enigmaticaddons:forger_gem"
@@ -1513,7 +1654,9 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "55C3757651948AA9"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "6B859FE33372E1B2"
 				item: "enigmaticaddons:hell_blade_charm"
@@ -1523,7 +1666,9 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "20987CA8244275BB"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "7954E0CC03D03F35"
 				item: "enigmaticlegacy:mega_sponge"
@@ -1533,35 +1678,33 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5E6801D7411BBA66"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "1E3385FAFF0EA81D"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:insignia"
-					tag: { }
-				}
+				item: "enigmaticlegacy:insignia"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "549B3129B6BEB358"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "1C8ABE53113916BA"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:ascension_amulet"
-					tag: { }
-				}
+				item: "enigmaticlegacy:ascension_amulet"
 				type: "item"
 			}]
 			x: -6.5d
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5EDC5F0D31FEF4F7"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "76A5A4D0E671C5BB"
 				item: "enigmaticlegacy:berserk_charm"
@@ -1571,7 +1714,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "35B03131AB84BE21"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "086ADAA9104B4632"
 				item: "enigmaticlegacy:enchanter_pearl"
@@ -1581,7 +1726,9 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "3FC095DD75A58A36"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "3E711D7F0DF311D1"
 				item: "enigmaticaddons:scorched_charm"
@@ -1591,21 +1738,21 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "60AFE6322CC55E93"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "5C0DC10D856D7A5B"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:eldritch_amulet"
-					tag: { }
-				}
+				item: "enigmaticlegacy:eldritch_amulet"
 				type: "item"
 			}]
 			x: -4.5d
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "79114D02A5F4E201"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "13C4598557065C32"
 				item: "enigmaticdelicacy:weapon_charm"
@@ -1615,7 +1762,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "02475C1717B75E13"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "3E8CCD76801B754D"
 				item: "enigmaticdelicacy:hungry_charm"
@@ -1625,7 +1774,9 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "387478A42BF43567"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "4CDE5B168E3C2CCF"
 				item: "enigmaticdelicacy:gluttony_charm"
@@ -1635,7 +1786,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5118A09EF5074B8A"
+			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "3CA8B272CFB1018A"
 				item: "enigmaticdelicacy:curse_crystal_pendant"
@@ -1645,8 +1798,9 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0D24F4EE539256CC"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Infinite cake!"
 			tasks: [{
 				id: "6D42FB001C02011D"
@@ -1657,6 +1811,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "35408CBDA02F0A05"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1674,21 +1829,19 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "78F852F9952817A0"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "2826664017142E55"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:void_stone"
-					tag: { }
-				}
+				item: "enigmaticlegacy:void_stone"
 				type: "item"
 			}]
 			x: 4.0d
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "03424A7A15507EBD"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1700,21 +1853,19 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "203873B984D7F566"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "7644BE3D888A159B"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:extradimensional_eye"
-					tag: { }
-				}
+				item: "enigmaticlegacy:extradimensional_eye"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7D8EE79E04E932A3"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1726,6 +1877,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "42A761E574B74D3C"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1743,6 +1895,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "5B91776E989EBB4C"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1760,6 +1913,7 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "41818BD20DC4C176"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1777,6 +1931,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "53239CED2D9CC957"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1794,6 +1949,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "76F550C3F4DA2886"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1805,6 +1961,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1BD146576CE0FDEF"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1816,6 +1973,7 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6855E0D1D14F57B2"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1827,6 +1985,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7A77A75C1DE40FB4"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1844,6 +2003,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "544B33FE3196E35B"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1855,6 +2015,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "35BDB4F583629CCF"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1866,6 +2027,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "58D953EAFE77BB1A"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1877,6 +2039,7 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "65F5B2791E81AA6D"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1894,6 +2057,7 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "642C07B8AC31E455"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1911,6 +2075,7 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "642242E190E9BFA4"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1928,6 +2093,7 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4F2A8781B8A6E7BC"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1939,6 +2105,7 @@
 			y: 17.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "787E1FDD5E126ECE"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1956,6 +2123,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "393A1814F9362C83"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1967,6 +2135,7 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0179C55C8A291154"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1978,6 +2147,7 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4CDE25E68780985F"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -1995,6 +2165,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4E1098110E3352E3"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2012,8 +2183,9 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "20C95703B97AD05D"
-			subtitle: "Read item description by holding \"Shift\" on it."
+			subtitle: "Useless stone, why it is here?"
 			tasks: [{
 				id: "286BEBCBDEADF0E3"
 				item: "enigmaticaddons:primeval_cube"
@@ -2023,24 +2195,22 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "524E62112A7D0449"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "idk sorry"
 			tasks: [{
 				id: "4AA8A4FFBBAA349B"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:astral_potion"
-					tag: { }
-				}
+				item: "enigmaticaddons:astral_potion"
 				type: "item"
 			}]
 			x: -1.5d
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "64A33C445BE06292"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Teleports you to your death point, at the cost of leaving you with half heart."
 			tasks: [{
 				id: "5CC1CE773519F64E"
@@ -2051,8 +2221,9 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "28A668350AE84078"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "idk sorry"
 			tasks: [{
 				id: "6E42BB23F627B02E"
@@ -2063,6 +2234,7 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6B930A43A2D42DEF"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2074,6 +2246,7 @@
 			y: 18.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7710237C57E438B6"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2085,6 +2258,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "12839E03F37B480A"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2096,6 +2270,7 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "54453A8DEDCD886B"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2107,6 +2282,7 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4C11F417CF8B98B3"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2118,6 +2294,7 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6278C62EC4E816EE"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2129,6 +2306,7 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "26061FA07E309955"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2140,6 +2318,7 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "08B70E3FF0EDDA27"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2151,6 +2330,7 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "086DC18C20496440"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2162,6 +2342,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "243FCE35AD6A9C5F"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2173,6 +2354,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4D379BDFB36EE388"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2184,6 +2366,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "575F195A181DD2C0"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2195,15 +2378,12 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2E01BE1E79EACCCB"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "1B4CBA92284C5B03"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:etherium_core"
-					tag: { }
-				}
+				item: "enigmaticaddons:etherium_core"
 				type: "item"
 			}]
 			x: 1.0d
@@ -2216,6 +2396,7 @@
 				"08B70E3FF0EDDA27"
 				"26061FA07E309955"
 				"2934409F297FC35B"
+				"1DF34C60DDABA0B6"
 			]
 			id: "5870E7A9BE71686E"
 			tasks: [{
@@ -2233,6 +2414,7 @@
 				"54453A8DEDCD886B"
 				"2E01BE1E79EACCCB"
 				"4C11F417CF8B98B3"
+				"1DF34C60DDABA0B6"
 			]
 			id: "60B08362C4C3943C"
 			tasks: [{
@@ -2244,6 +2426,7 @@
 			y: 19.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "7C7ECBDF10FBAD90"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2255,21 +2438,19 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2934409F297FC35B"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
 				id: "2FD4BD19BC1E0570"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:etherium_core"
-					tag: { }
-				}
+				item: "enigmaticaddons:etherium_core"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 21.5d
 		}
 		{
+			dependencies: ["1DF34C60DDABA0B6"]
 			id: "2B49E79ABB521180"
 			subtitle: "Read item description by holding \"Shift\" on it."
 			tasks: [{
@@ -2287,6 +2468,7 @@
 				"086DC18C20496440"
 				"60B08362C4C3943C"
 				"5870E7A9BE71686E"
+				"1DF34C60DDABA0B6"
 			]
 			description: ["The strongest spellstone, genunienly overpowered! Read it's description by holding \"shift\" on the item."]
 			id: "450FAC40CF9056BE"
@@ -2303,7 +2485,13 @@
 		}
 		{
 			dependencies: ["25B57A361188BAB3"]
+			hide_dependency_lines: false
 			id: "12A55B549C0DA083"
+			rewards: [{
+				id: "06A0CB3C00C375B5"
+				item: "enigmaticlegacy:earth_heart"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1AEA6A2562B2AB5F"
@@ -2315,19 +2503,154 @@
 		}
 		{
 			dependencies: ["12A55B549C0DA083"]
+			hide_dependency_lines: false
 			id: "5782089F4989B165"
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39EEABC7AFDFC135"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "20DECD284A73182E"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:earth_heart"
-					tag: { }
-				}
+				item: "enigmaticlegacy:earth_heart"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "14CD90939DDC7470"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "7C3AB20CB821525E"
+				item: "covenant_of_the_seven:serendipity_feast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0323DE80B83B7249"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "402C11BF61293B90"
+				item: "covenant_of_the_seven:melodious_harmony"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0C9D3679760D48F9"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "0D807C21019439CC"
+				item: "covenant_of_the_seven:annointed_handward"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "424CD132B689387E"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "1617E519C6EA8762"
+				item: "covenant_of_the_seven:rebirth_egg"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "5FACF4DC370F191D"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "48E83B33624C6595"
+				item: "covenant_of_the_seven:mnestia_raiment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "52F9F43E737A777F"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "5B8B8A7E77AFA806"
+				item: "covenant_of_the_seven:hallowed_steps"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "5D728979987BBA27"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "25646CB0FC0D4203"
+				item: "covenant_of_the_seven:deliverance_albarest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0C34BF60C19E626C"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "6BEA7311C29D64FD"
+				item: "covenant_of_the_seven:all_seeing_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "0B14F71F5D42F3DA"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "78B2A822984AAC83"
+				item: "covenant_of_the_seven:broken_mask"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "4323D874A67BB566"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "2028B69A5CAE30D4"
+				item: "covenant_of_the_seven:inversion"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["1DF34C60DDABA0B6"]
+			id: "7327D16EC0A90842"
+			subtitle: "Read item description by holding \"Shift\" on it."
+			tasks: [{
+				id: "44F30F3A721A44BF"
+				item: "covenant_of_the_seven:consecration"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.0d
 		}
 	]
 	title: "Enigmatic Legacy"

@@ -1,0 +1,64 @@
+{
+  "list": [
+    {
+      "attackScale": 1.2,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 70,
+        "min": 140,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "minecraft:warden"
+      ],
+      "healthScale": 0.8,
+      "items": [],
+      "maxLevel": 0,
+      "maxTraitCount": 6,
+      "minSpawnLevel": 140,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:slowness"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:nausea"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:gravity"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:moonwalk"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:blindness"
+        }
+      ]
+    }
+  ]
+}

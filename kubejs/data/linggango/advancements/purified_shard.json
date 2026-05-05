@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:purified_shard_of_compressed_mana"
+    },
+    "title": "Archmage",
+    "description": "Your magic power have reached new heights!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:purified_shard_of_compressed_mana"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

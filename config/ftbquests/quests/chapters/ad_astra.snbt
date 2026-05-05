@@ -7,16 +7,29 @@
 	group: "3C6437AAADAFC5CB"
 	icon: "ad_astra:nasa_workbench"
 	id: "23C745DE2EC55937"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -10.5d
-		y: 1.0d
-	}]
+	images: [
+		{
+			height: 1.6d
+			image: "customtextures:textures/ad_astra_logo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -1.5d
+		}
+	]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
@@ -52,7 +65,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 1.4d
 			subtitle: "In-game Wiki"
 			tasks: [{
@@ -445,11 +458,7 @@
 			rewards: [
 				{
 					id: "51EBC235E5B26480"
-					item: {
-						Count: 1
-						id: "ad_astra:gas_tank"
-						tag: { }
-					}
+					item: "ad_astra:gas_tank"
 					random_bonus: 1
 					type: "item"
 				}
@@ -463,11 +472,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1455AD4023A00915"
-				item: {
-					Count: 1
-					id: "ad_astra:large_gas_tank"
-					tag: { }
-				}
+				item: "ad_astra:large_gas_tank"
 				type: "item"
 			}]
 			x: 5.5d
@@ -506,11 +511,7 @@
 			subtitle: "Stores energy"
 			tasks: [{
 				id: "1FB8A0387FD24ACD"
-				item: {
-					Count: 1
-					id: "ad_astra:energizer"
-					tag: { }
-				}
+				item: "ad_astra:energizer"
 				type: "item"
 			}]
 			x: -6.0d
@@ -629,11 +630,7 @@
 				""
 				"If you want to see how it will be crafted in the workbench, go on the &eNasa workbench&r in your &einventory,&r press &e\"U\"&r and you will see the item uses!"
 			]
-			icon: {
-				Count: 1
-				id: "ad_astra:tier_1_rocket"
-				tag: { }
-			}
+			icon: "ad_astra:tier_1_rocket"
 			id: "280D7D88095E1EA5"
 			rewards: [
 				{
@@ -727,7 +724,7 @@
 				table_id: 6055536159364489858L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.1d
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -767,11 +764,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4B7A2D46A0FBA69C"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_2_rocket"
-					tag: { }
-				}
+				item: "ad_astra:tier_2_rocket"
 				type: "item"
 			}]
 			x: -4.0d
@@ -803,7 +796,7 @@
 					type: "random"
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.1d
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -969,11 +962,7 @@
 			size: 1.1d
 			tasks: [{
 				id: "6732626504E6F9EA"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_3_rocket"
-					tag: { }
-				}
+				item: "ad_astra:tier_3_rocket"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1004,11 +993,7 @@
 			subtitle: "Maxed-out"
 			tasks: [{
 				id: "46E098CBD54C0535"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_4_rocket"
-					tag: { }
-				}
+				item: "ad_astra:tier_4_rocket"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1117,7 +1102,7 @@
 					type: "random"
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.1d
 			tasks: [{
 				dimension: "ad_astra:venus"
@@ -1159,7 +1144,7 @@
 					type: "random"
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.1d
 			tasks: [{
 				dimension: "ad_astra:venus"
@@ -1201,7 +1186,7 @@
 					type: "random"
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.1d
 			tasks: [{
 				dimension: "ad_astra:glacio"
@@ -1216,11 +1201,7 @@
 		{
 			dependencies: ["1DE4F6B61D6AB803"]
 			description: ["Oxygen cans can be equipped on curio slot, providing extra oxygen."]
-			icon: {
-				Count: 1
-				id: "ad_astra_giselle_addon:oxygen_can"
-				tag: { }
-			}
+			icon: "ad_astra_giselle_addon:oxygen_can"
 			id: "7F211705F099EE25"
 			rewards: [
 				{
@@ -1240,20 +1221,12 @@
 			tasks: [
 				{
 					id: "18AD41D4B22EC3C4"
-					item: {
-						Count: 1
-						id: "ad_astra_giselle_addon:oxygen_can"
-						tag: { }
-					}
+					item: "ad_astra_giselle_addon:oxygen_can"
 					type: "item"
 				}
 				{
 					id: "132F54CB0B47E3D3"
-					item: {
-						Count: 1
-						id: "ad_astra_giselle_addon:netherite_oxygen_can"
-						tag: { }
-					}
+					item: "ad_astra_giselle_addon:netherite_oxygen_can"
 					type: "item"
 				}
 			]

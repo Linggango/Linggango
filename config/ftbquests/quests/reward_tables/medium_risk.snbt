@@ -1,7 +1,7 @@
 {
 	id: "07446637D8F25464"
 	loot_size: 1
-	order_index: 8
+	order_index: 9
 	rewards: [
 		{ item: "companions:shadow_bell", title: "SECRET" }
 		{ item: "companions:big_bread", title: "SECRET" }
@@ -125,16 +125,6 @@
 		{
 			item: {
 				Count: 1
-				id: "foolish:stellar_hollow"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
 				id: "knightquest:creeper_helmet"
 				tag: {
 					Damage: 0
@@ -163,7 +153,6 @@
 			}
 			title: "SECRET"
 		}
-		{ item: "railways:locometal_smokebox", title: "SECRET" }
 		{ item: "born_in_chaos_v1:creepy_nutcracker", title: "SECRET" }
 		{
 			item: {

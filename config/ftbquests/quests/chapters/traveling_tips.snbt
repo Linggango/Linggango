@@ -1,0 +1,851 @@
+{
+	always_invisible: true
+	autofocus_id: "7652B74B3DA4A030"
+	default_hide_dependency_lines: true
+	default_quest_shape: "woodtier"
+	filename: "traveling_tips"
+	group: "3B5FC78CC89E4CD7"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/info"
+		}
+	}
+	id: "7BB38D3328D76357"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 6.0d
+		y: -2.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0C85043C6D752F59"
+				"7652B74B3DA4A030"
+			]
+			description: [
+				"Carry along your &eanimals&r, &eplayers&r and &eNPC&r companions with the two seats on this &aCart&r!"
+				""
+				"Press &6R&r for attach/detach &aCart&r."
+				""
+				"You can take a &aCart&r and hitch it even when you're on horseback."
+			]
+			id: "74A462B597A7261F"
+			rewards: [{
+				id: "2316608829812337"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Take Your Friend With You!"
+			tasks: [{
+				id: "672DA16D6EC8C9C3"
+				item: "astikorcarts:animal_cart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Glider is an early-game tool that will help you with high heights."]
+			id: "2F8EE86C1A58AA50"
+			rewards: [{
+				id: "6E52D70C347464EA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			subtitle: "Soaring through skies"
+			tasks: [{
+				id: "3A9B68746472A82F"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A glider!"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			icon_scale: 1.3d
+			id: "1DA96A02ED17609D"
+			rewards: [{
+				id: "7C656EEC065991EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			subtitle: "Classic, a Horse."
+			tasks: [{
+				id: "7968064846FC9DC0"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0C85043C6D752F59"
+				"7652B74B3DA4A030"
+			]
+			description: [
+				"Up to a double chests worth!"
+				"One seat on the back."
+				"&6Shift&r + &6Right-Click&r to access the inventory!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Press &6R&r for attach/detach &aCart&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"You can take a &aCart&r and hitch it even when you're on horseback."
+			]
+			id: "36C98DEFE8AE5788"
+			rewards: [{
+				id: "12541C1B52E0D044"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Bring Your Storage With You!"
+			tasks: [{
+				id: "175E46E0B647565A"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "0C85043C6D752F59"
+			rewards: [{
+				id: "45E7D237FBEE7506"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Main Component to build carts."
+			tasks: [{
+				id: "0E065C05722C5106"
+				item: "astikorcarts:wheel"
+				type: "item"
+			}]
+			title: "On the land!"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: [
+				"Works for all ship types!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Press R set sail and W to increase and S to decrease the Sail."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To dismount a entity from the ship, Right-Click&r the entity."
+				"To open the Inventory outside of the ship, use Shift&r + Right-Click&r on the ship."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"You can customize sails by coloring them with dye items."
+				"You can name your ship with a name-tag."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"You can repair your ship with &aIron Nuggets&r and Planks&r. Simply Right-Click&r the ship with the Iron Nuggets&r in your hand, you need to have a good supply of &aPlanks&r in your inventory."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Leashing allows players to tether ships. Leashed ships cannot be directly controlled, and only ships without a player on the controller seat can be leashed."
+			]
+			id: "1CCB8CBB4201853A"
+			rewards: [{
+				id: "09521A9C2C40604A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			subtitle: "Main Craft Component For Ships"
+			tasks: [{
+				id: "0CC1D0AD8B8232B0"
+				item: "smallships:sail"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1CCB8CBB4201853A"
+				"7652B74B3DA4A030"
+			]
+			icon: "smallships:oak_brigg"
+			id: "7AD02F2DB1BA49BF"
+			rewards: [{
+				id: "0E3D02A0E729C0D9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Large, strong and roomy. The best choice for transporting large quantities of goods."
+			tasks: [{
+				id: "261F189513329210"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "smallships:oak_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:spruce_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:acacia_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:cherry_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:dark_oak_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:mangrove_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:bamboo_brigg"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Brigg"
+				type: "item"
+			}]
+			title: "Brigg"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1CCB8CBB4201853A"
+				"7652B74B3DA4A030"
+			]
+			icon: "smallships:oak_galley"
+			id: "44E52343316A0E3E"
+			rewards: [{
+				id: "3E2E4E68C2A6BBF6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Incredibly fast boat, will take you to any end of the world in the blink of an eye."
+			tasks: [{
+				id: "54518E360DE44D01"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "smallships:oak_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:spruce_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:acacia_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:cherry_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:dark_oak_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:mangrove_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:bamboo_galley"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Galley"
+				type: "item"
+			}]
+			title: "Galley"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1CCB8CBB4201853A"
+				"7652B74B3DA4A030"
+			]
+			icon: "smallships:oak_cog"
+			id: "6CD570DC491EF0D9"
+			rewards: [{
+				id: "04000219EDA172BB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "An excellent maneuverable boat for travel."
+			tasks: [{
+				id: "056D34205B2584A3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "smallships:mangrove_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:bamboo_cog"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "smallships:oak_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:spruce_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:acacia_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:cherry_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:dark_oak_cog"
+							}
+						]
+					}
+				}
+				title: "Any Cog"
+				type: "item"
+			}]
+			title: "Cog"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1CCB8CBB4201853A"
+				"7652B74B3DA4A030"
+			]
+			description: [
+				"It is also capable of transporting a sufficient amount of cargo."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&aShields&r, also with banner patterns, can be attached to grant additional defense."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"With its icebreaker ability, it proves to be a promising vessel in cold and icy oceans."
+			]
+			icon: "smallships:oak_drakkar"
+			id: "0F656E8DCB02F45D"
+			rewards: [{
+				id: "50538BFBD3E4AA41"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The Drakkar is specifically designed for cold water environments, capable of breaking ice in its path."
+			tasks: [{
+				id: "15F4CA213391B1A0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "smallships:oak_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:spruce_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:acacia_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:cherry_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:dark_oak_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:mangrove_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:bamboo_drakkar"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Drakkar"
+				type: "item"
+			}]
+			title: "Drakkar"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "468A4886ADDB9FF4"
+			rewards: [{
+				id: "1A52538D64275B87"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "goldtier"
+			subtitle: "Extremely high max speed, but can't slope or turn."
+			tasks: [{
+				id: "3B8194F4E6DA2D0E"
+				item: "moreminecarts:lightspeed_rail"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["468A4886ADDB9FF4"]
+			description: [
+				"Wanna know about more rails? "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Check JEI!"
+				""
+				"@moreminecarts"
+			]
+			id: "50D0734E629B4975"
+			rewards: [{
+				id: "38CAC736B36DE668"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Fastest Rail."
+			tasks: [{
+				id: "7F99B23C7AC4F830"
+				item: {
+					Count: 1
+					id: "moreminecarts:lightspeed_powered_rail"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EB60B5785EC7770"]
+			id: "0ECA19F297BAB65C"
+			rewards: [{
+				id: "33AC0987A1740D2E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "goldtier"
+			subtitle: "Works just like a redstone rail"
+			tasks: [{
+				id: "0E50CD1432CAFB87"
+				item: "moreminecarts:maglev_powered_rail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "1EB60B5785EC7770"
+			rewards: [{
+				id: "29362C925642721C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "irontier"
+			subtitle: "Much higher maximum speed than normal rails."
+			tasks: [{
+				id: "2D4E901DFB3DACE1"
+				item: "moreminecarts:maglev_rail"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "2B23D4B43066027B"
+			rewards: [{
+				id: "627B20104F45C7D5"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "A normal rail with faster maximum speed"
+			tasks: [{
+				id: "2DF2511544E8CA47"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70E3889C56F1D9AC"]
+			id: "5A006D5137DC4865"
+			rewards: [{
+				id: "5B018A08AC2C9779"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "irontier"
+			subtitle: "Powered with redstone, faster than a normal rail but can't turn or slope"
+			tasks: [{
+				id: "3849B5A735B1B22C"
+				item: "minecraft:powered_rail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["232E1D4AC2E33AFF"]
+			id: "2A7B68B36F8AFE5C"
+			rewards: [{
+				id: "7A40313251550192"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "woodtier"
+			subtitle: "A holograph rail, other rail variants also have this."
+			tasks: [{
+				id: "52C5A1024EFAFAE0"
+				item: "moreminecarts:wooden_projector_rail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "232E1D4AC2E33AFF"
+			rewards: [{
+				id: "1B2F95CC6BC79131"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "A wooden rail with slower speed"
+			tasks: [{
+				id: "104F7951B0A66F74"
+				item: "moreminecarts:wooden_rail"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."]
+			id: "30253C6C7C9FF53E"
+			rewards: [{
+				id: "6BB4AD040E97D0E5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Calm and safe"
+			tasks: [{
+				id: "24F2E71AACF727C0"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["An advanced version of the airship, it can carry a large number of items."]
+			id: "657F49871298AA0A"
+			rewards: [{
+				id: "5391790F041F99AB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Safe and calm and BIG"
+			tasks: [{
+				id: "3E80FC0F39F9E6CE"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Sturdy, has 3 seats, and a bunch of weapon options"]
+			id: "5C30D56993DF42BA"
+			rewards: [{
+				id: "5303BEFB189077A9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Safe and Harmful"
+			tasks: [{
+				id: "1FF662A51341DC52"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."]
+			id: "6AFAA79EC9EBAC73"
+			rewards: [{
+				id: "7355057F400FF7C1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Building is way easier!"
+			tasks: [{
+				id: "2ECD075CC4E63B44"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"]
+			id: "6FF8482C4EEDF834"
+			rewards: [{
+				id: "424C70915B804EFE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Classic plane."
+			tasks: [{
+				id: "7DD78058E68FE667"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "Biplane"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "369841E7EC6F018F"
+			rewards: [{
+				id: "5B8F85AE4E5E9BF3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Enchaned biplane"
+			tasks: [{
+				id: "28571ACBA3CBE7A0"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "4FF0A747C3627A63"
+			rewards: [{
+				id: "6CE6F0DEAA3912A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Easy to make, not that good."
+			tasks: [{
+				id: "187143D53DF35249"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: [
+				"Elytra allows you to float in the sky!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"With fireworks and some artifacts you can also get a huge speed boost."
+			]
+			icon_scale: 1.3d
+			id: "2190D668076A5A28"
+			rewards: [{
+				id: "1F88CC1E4BB6D3B2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			subtitle: "Classic"
+			tasks: [{
+				id: "1FCA1CC6EECA92A2"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Elytra"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Human-powered primitive dual seater. Trusty and easy to maneuver, yet not the fastest. Needs a good initial push to get the rotor spinning."]
+			id: "2D2F4149FF9E0E6D"
+			rewards: [{
+				id: "002EF9D74436281E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "irontier"
+			subtitle: "Not the brightest.."
+			tasks: [{
+				id: "5EEED034081668D0"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			description: ["Travel methods for land and sea."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			icon_scale: 1.2d
+			id: "3C7B583541EF5DAF"
+			rewards: [{
+				id: "054E86FF2D4DB4DA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "irontier"
+			size: 1.4d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "03E68981918FFACB"
+				title: "Okay!"
+				type: "checkmark"
+			}]
+			title: "Traveling"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0C85043C6D752F59"
+				"7652B74B3DA4A030"
+			]
+			description: [
+				"Put a shovel or a hoe and witness the magic!"
+				""
+				"Press &6R&r for attach/detach &aCart&r."
+				""
+				"You can take a &aCart&r and hitch it even when you're on horseback."
+			]
+			id: "5BD8A9E3305A4D18"
+			rewards: [{
+				id: "7415C381793A2062"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "For other purposes"
+			tasks: [{
+				id: "32B563BCFB4B6F94"
+				item: "astikorcarts:plow"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+	]
+	title: "Traveling Tips"
+}

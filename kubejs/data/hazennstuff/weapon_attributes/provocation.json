@@ -1,0 +1,104 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 4.5,
+    "pose": "lethality:greatsword_pose",
+    "attacks": [
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_cross_slash",
+        "swing_sound": {
+          "id": "fdbosses:geburah_death",
+          "pitch": 0.8
+        },
+        "spell": "irons_spellbooks:divine_smite",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
+      },
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.2,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_double_stab",
+        "swing_sound": {
+          "id": "fdbosses:geburah_death",
+          "pitch": 0.9
+        },
+        "spell": "irons_spellbooks:divine_smite",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "fdbosses:geburah_death",
+          "pitch": 1.2
+        },
+        "spell": "irons_spellbooks:divine_smite",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_vert_lr",
+        "swing_sound": {
+          "id": "fdbosses:geburah_death",
+          "pitch": 0.7
+        },
+        "spell": "irons_spellbooks:divine_smite",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_rl",
+        "swing_sound": {
+          "id": "fdbosses:geburah_death",
+          "pitch": 0.8
+        },
+        "spell": "irons_spellbooks:divine_smite",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
+      },
+      {
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:er_sword_updown_lr",
+        "swing_sound": {
+          "id": "fdbosses:geburah_death",
+          "pitch": 0.8
+        },
+        "spell": "irons_spellbooks:divine_smite",
+        "level": 4,
+        "target": "TARGET",
+        "trigger": "on_attack"
+      }
+    ]
+  }
+}

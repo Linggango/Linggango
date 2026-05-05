@@ -26,17 +26,22 @@
 	#Whether to apply view bobbing in shoulder surfing perspective. Set to INHERIT to inherit vanilla setting.
 	#Allowed Values: INHERIT, ON, OFF
 	view_bobbing_mode = "INHERIT"
+	#Whether or not to follow the rotations of the player when camera is decoupled.
+	follow_player_rotations = true
+	#The delay in ticks after which the camera rotations will follow rotations of the player.
+	#Range: > 1
+	follow_player_rotations_delay = 40
 
 	[camera.offset]
 		#Third person camera x-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = -0.75
+		offset_x = -0.9000000000000001
 		#Third person camera y-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_y = 0.0
+		offset_y = -0.19999999999999998
 		#Third person camera z-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 4.0
+		offset_z = 2.1749999999999927
 
 		[camera.offset.presets]
 			#A list of x-offset presets that can be toggled via the 'Toggle X-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
@@ -262,6 +267,9 @@
 		#The time in ticks the player will remain turned after the interaction has ended. Set to 0 to disable. This config option only applies when camera is decoupled.
 		#Range: > 0
 		turning_lock_time = 4
+		#The speed multiplier at which the player rotation converges to the movement direction of the player.
+		#Range: 0.05000000074505806 ~ 1.0
+		turning_speed_multiplier = 0.25
 
 [object_picker]
 	#The raytrace distance used for the dynamic crosshair.

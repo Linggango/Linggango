@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "lethality:gaels_greatsword"
+    },
+    "title": "Dark Souls?",
+    "description": "Obtain Gael's Greatsword.. most overrated boss fight btw.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lethality:gaels_greatsword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

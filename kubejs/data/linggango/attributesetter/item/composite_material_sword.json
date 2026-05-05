@@ -1,0 +1,9 @@
+{
+"composite_material:etherite_sword_reinforced": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

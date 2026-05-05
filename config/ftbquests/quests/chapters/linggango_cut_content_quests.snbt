@@ -1,0 +1,67 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "linggango_cut_content_quests"
+	group: "7C724FC6AC4AD027"
+	id: "03621D0D5803ECFE"
+	images: [{
+		dependency: "16F570C334B2B782"
+		height: 1.0d
+		hover: ["Small Allay Shop!"]
+		image: "ftblibrary:icons/money_bag"
+		rotation: 0.0d
+		width: 1.0d
+		x: -2.3d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_monsters:textures/particle/warning.png"
+				}
+			}
+			id: "16F570C334B2B782"
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Just Check me!"
+			tasks: [{
+				id: "675D64CFA5A77B6A"
+				title: "Yesss i do!"
+				type: "checkmark"
+			}]
+			title: "Having trouble finding allays?"
+			x: -3.5d
+			y: 1.0999999999999996d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16F570C334B2B782"]
+			id: "148EA871C27C7C15"
+			rewards: [{
+				count: 5
+				id: "6B7C783F0D296A27"
+				item: "minecraft:allay_spawn_egg"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "Requires 5 Dungeon Steel Ingot"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "72D3F4A43F2FD42C"
+				item: { Count: 5, id: "composite_material:dungeon_steel_ingot" }
+				type: "item"
+			}]
+			title: "Buy Allay Spawn Egg"
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "Linggango cut-content: quests"
+}

@@ -1,0 +1,128 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "terramityreworked"
+	group: "37784D9C95A7F8C5"
+	id: "6FC3E7F3112D3633"
+	images: [{
+		height: 2.0d
+		image: "customtextures:textures/terramity.png"
+		rotation: 0.0d
+		width: 13.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Terramity is a Terraria-inspired Minecraft mod that adds bosses, weapons, armor, accessories, structures and guns! "
+				""
+				"All tied together with a clear and nice in-game guidebook."
+				""
+				"This questline will guide you through the mod, have fun!"
+			]
+			id: "553132D99A8D47FE"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "In-game Wiki"
+			tasks: [{
+				id: "186DA194849080BE"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "terramity:terramity_guidebook"
+					}
+				}
+				type: "item"
+			}]
+			title: "&aTerramity"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["553132D99A8D47FE"]
+			description: ["Topaz can be used to make armors \\& tools that have special traits."]
+			id: "0C3293498BC391F2"
+			shape: "octagon"
+			size: 1.15d
+			subtitle: "Topaz is found in hot \\& arid biomes"
+			tasks: [{
+				id: "7C97AF8C63F51A79"
+				item: "terramity:topaz"
+				type: "item"
+			}]
+			title: "&eTopaz"
+			x: -1.15d
+			y: 4.0249999999999995d
+		}
+		{
+			dependencies: ["553132D99A8D47FE"]
+			description: ["Ruby can be used to make armors \\& tools that have special traits."]
+			id: "3A06B25171543870"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Ruby can be found anywhere in nether"
+			tasks: [{
+				id: "76180F49AA3D1621"
+				item: "terramity:ruby"
+				type: "item"
+			}]
+			title: "&cRuby"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["553132D99A8D47FE"]
+			description: ["Sapphire can be used to make armors \\& tools that have special traits."]
+			id: "5F9C404C4892457F"
+			shape: "octagon"
+			size: 1.15d
+			subtitle: "Sapphire can be found in cold \\& snowy biomes"
+			tasks: [{
+				id: "2D90A02E0E271A5D"
+				item: "terramity:sapphire"
+				type: "item"
+			}]
+			title: "&bSapphire"
+			x: 1.15d
+			y: 4.0249999999999995d
+		}
+		{
+			dependencies: [
+				"0C3293498BC391F2"
+				"3A06B25171543870"
+				"5F9C404C4892457F"
+			]
+			description: [
+				"Now that you’ve got the starter materials, we can start diving into the mod. Here’s a graph that shows how the material progression works."
+				"{image:customtextures:textures/terramity_graph.png width:300 height:300 align:center}"
+				" For better understanding, the higher = better."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cofh_core:textures/gui/icons/icon_information.png"
+				}
+			}
+			id: "3D185E0ACE4EBC80"
+			shape: "square"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "62215E5E31610348"
+				title: "Oka"
+				type: "checkmark"
+			}]
+			title: "&aProgressing Further"
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+	title: "Terramity-Reworked"
+}

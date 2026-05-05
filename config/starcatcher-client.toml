@@ -1,12 +1,23 @@
-#ALL THESE SETTINGS CAN ALSO BE ACCESSED
-#THROUGH THE IN-GAME SETTING TAB INSIDE
-#THE STARCATCHER'S GUIDE
-#Range: 0 ~ 6
-minigame_gui_scale = 3
 #Range: -20.0 ~ 20.0
 hit_delay = 0.0
 #Allowed Values: METRIC, IMPERIAL, CHEESEBURGER, FOOTBALL, DEVELOPER_HEIGHT, BANANA, DUCK, SPACE_WHALE, SCIENTIFIC
 units = "IMPERIAL"
-#Allowed Values: ALPHABETICAL_UP, ALPHABETICAL_DOWN, MOD_UP, MOD_DOWN, RARITY_UP, RARITY_DOWN, CAUGHT_UP, CAUGHT_DOWN, FLUID_UP, FLUID_DOWN, SEASON_UP, SEASON_DOWN
+#Allowed Values: ALPHABETICAL_UP, ALPHABETICAL_DOWN, MOD_UP, MOD_DOWN, RARITY_UP, RARITY_DOWN, CAUGHT_UP, CAUGHT_DOWN
 sort = "ALPHABETICAL_DOWN"
+enable_villager_sound = true
+enable_hit_sound = true
+enable_miss_sound = true
+#Whether to use the vanilla partial ticks for minigame smoothing or a custom implementation
+#1.20 partial ticks look ugly so its force enabled, this option does nothing
+vanilla_partial_ticks = true
+#If enabled the new fish notifications will be removed when hovering on the index, instead of only when visiting the specific fish entry
+remove_notif_on_hover = true
+
+[minigame_window]
+	#Range: 0.1 ~ 6.0
+	minigame_scale = 1.5
+	#Range: -10000 ~ 10000
+	minigame_x_offset = 0
+	#Range: -10000 ~ 10000
+	minigame_y_offset = 0
 

@@ -1,0 +1,8 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

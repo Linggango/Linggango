@@ -1,0 +1,81 @@
+{
+"cataclysm:astrape": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:ceraunus": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:infernal_forge": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:void_forge": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:ancient_spear": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 13.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:tidal_claws": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 11.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:soul_render": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:the_annihilator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 12.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:the_incinerator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 21.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "cataclysm:the_immolator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 14.5,
+      "operation": "ADDITION"
+   }
+  ]
+}

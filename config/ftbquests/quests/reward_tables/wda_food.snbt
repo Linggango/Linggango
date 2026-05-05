@@ -1,7 +1,7 @@
 {
 	id: "22B8E2BBB1F60AF4"
 	loot_size: 1
-	order_index: 3
+	order_index: 4
 	rewards: [
 		{ count: 8, item: "minecraft:baked_potato" }
 		{ count: 8, item: "minecraft:carrot" }

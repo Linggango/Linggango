@@ -1,0 +1,185 @@
+{
+   "list":  [
+    {
+  "attackScale": 0.4,
+  "blacklist": [],
+  "difficulty": {
+    "apply_chance": 1.0,
+    "base": 60,
+    "min": 120,
+    "scale": 0.0,
+    "suppression": 0.0,
+    "trait_chance": 1.0,
+    "variation": 0.0
+  },
+  "entities": [
+    "armageddon_mod:eldoraththe_ancient_builder"
+  ],
+  "healthScale": 0.5,
+  "items": [
+     {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+         {
+              "stack": {
+                "item": "minecraft:diamond_chestplate",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s},{id:\"minecraft:projectile_protection\",lvl:3s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "equipment/chest"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:die_of_revival",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/1"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:projectile_defense_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/2"
+        }
+  ],
+  "maxLevel": 0,
+  "maxTraitCount": -1,
+  "minSpawnLevel": 120,
+  "specialConditions": [],
+  "traits": [
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:levitation"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:freezing"
+    },
+    {
+      "cap": false,
+      "free": 1,
+      "min": 1,
+      "trait": "l2hostility:grenade"
+    },
+    {
+      "cap": false,
+      "free": 1,
+      "min": 1,
+      "trait": "l2hostility:shulker"
+    },
+    {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:nausea"
+    },
+    {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:dementor"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:dispell"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:ragnarok"
+        },
+        {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:reprint"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:killer_aura"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 5,
+          "min": 0,
+          "trait": "l2hostility:tank"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:reflect"
+        }
+  ]
+}
+   ]
+  }

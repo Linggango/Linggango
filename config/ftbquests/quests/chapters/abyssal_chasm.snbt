@@ -7,16 +7,29 @@
 	hide_quest_until_deps_complete: true
 	icon: "alexscaves:submarine"
 	id: "4C3702E01D31CEEF"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: 2.0d
-		y: -1.5d
-	}]
+	images: [
+		{
+			height: 3.3d
+			image: "customtextures:textures/abyssal_chasm.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -6.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

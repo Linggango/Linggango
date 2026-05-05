@@ -1,5 +1,5 @@
 {
-	autofocus_id: "423ED5C6EB4FE582"
+	autofocus_id: "6A4E1EA8B46659A8"
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
 	filename: "tameable_beast"
@@ -8,95 +8,30 @@
 	id: "266A5686BA357872"
 	images: [
 		{
-			height: 4.0d
-			image: "customtextures:textures/domesticationlogo.png"
+			height: 3.0d
+			image: "customtextures:textures/domestication_innovation.png"
 			rotation: 0.0d
-			width: 12.0d
-			x: -19.85442009603998d
-			y: -7.753683413366645d
+			width: 10.0d
+			x: -20.0d
+			y: -8.5d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -21.0d
-			y: -6.0d
+			x: -20.0d
+			y: -10.5d
 		}
 	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"Domestication Innovation adds lot of QoL features to your pets!"
-				""
-				"&eSuch as:"
-				""
-				"&8-Stay, Wander, Protect. Commands for your pet."
-				""
-				"&8-No friendlyfire unless held shift!"
-				""
-				"&8Unlocks questlines&r"
-			]
-			icon: "minecraft:name_tag"
-			id: "423ED5C6EB4FE582"
-			rewards: [{
-				id: "4BCEDF9E3CDC349C"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "pentagon"
-			size: 1.3d
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "5957C96118710CDC"
-				title: "Who uses pets?"
-				type: "checkmark"
-			}]
-			title: "Overhauled Pet Taming System"
-			x: -20.0d
-			y: -6.0d
-		}
-		{
-			description: [
-				"By moving your pet onto one of these, it will automatically set a spawnpoint just like you have :D!"
-				""
-				"The pet will respawn there after the death."
-				""
-				"If your pet doesn't respawn, just wait till dawn."
-			]
-			id: "268D6D148D167476"
-			rewards: [{
-				id: "25340D2ECE579ED5"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "107F01D45D3A054C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "itemfilters:tag"
-					tag: {
-						value: "domesticationinnovation:pet_beds"
-					}
-				}
-				title: "Pet Bed"
-				type: "item"
-			}]
-			title: "Pet Bed"
-			x: -20.5d
-			y: -4.5d
-		}
 		{
 			description: [
 				"The Wayward Lantern is a decorative block that has some uses."
@@ -111,19 +46,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "225BCA46DCD0AA04"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:wayward_lantern"
-				}
+				item: "domesticationinnovation:wayward_lantern"
 				type: "item"
 			}]
 			x: -21.5d
@@ -137,17 +64,12 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3E29B8B27FD217C7"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "domesticationinnovation:feather_on_a_stick"
 					tag: {
 						Damage: 0
@@ -170,19 +92,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "537399E9AB1AC5FF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:rotten_apple"
-				}
+				item: "domesticationinnovation:rotten_apple"
 				type: "item"
 			}]
 			x: -19.5d
@@ -200,19 +114,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "59FE60A959059F65"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:sinister_carrot"
-				}
+				item: "domesticationinnovation:sinister_carrot"
 				type: "item"
 			}]
 			x: -19.5d
@@ -232,49 +138,15 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0F57CC7E7E1B6B14"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:deed_of_ownership"
-				}
+				item: "domesticationinnovation:deed_of_ownership"
 				type: "item"
 			}]
 			x: -20.5d
 			y: -3.5d
-		}
-		{
-			description: ["When interacted, commands in a area, changing all mobs behaviour."]
-			id: "731EC33CE669D87A"
-			rewards: [{
-				id: "50C8B6F64976E783"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "rsquare"
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "5D9E4A368545216A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:drum"
-				}
-				type: "item"
-			}]
-			x: -21.5d
-			y: -4.5d
 		}
 		{
 			description: ["Same as a name tag but with a catch, you can &denchant&r it!"]
@@ -284,19 +156,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5B46DC696AB19548"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "domesticationinnovation:collar_tag"
-				}
+				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
 			x: -18.5d
@@ -317,7 +181,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "hexagon"
+			shape: "pentagon"
 			size: 1.4d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -327,6 +191,142 @@
 			}]
 			x: -20.0d
 			y: -2.0d
+		}
+		{
+			description: [
+				"Domestication Innovation adds lot of QoL features to your pets!"
+				""
+				"&eSuch as:"
+				""
+				"&8-Stay, Wander, Protect. Commands for your pet."
+				""
+				"&8-No friendlyfire unless held shift!"
+				""
+				"&8Unlocks questlines&r"
+			]
+			icon: "minecraft:name_tag"
+			id: "6A4E1EA8B46659A8"
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "2C0B55EA6BBEE077"
+				title: "Who uses pets?"
+				type: "checkmark"
+			}]
+			title: "Overhauled Pet Taming"
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"When interacted, commands in a area, changing all mobs behaviour."
+				""
+				"&8Example:"
+				""
+				"&8You use the drum, all mobs "
+				""
+				"&8You use the drum again, all mobs follow you."
+				""
+				"&8You use the drum one more time, all mobs wander around."
+			]
+			id: "23738E8C6C959B8A"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "37501B26E358491D"
+				item: "domesticationinnovation:drum"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"By moving your pet onto one of these, it will automatically set a spawnpoint just like you have :D!"
+				""
+				"The pet will respawn there after the death."
+				""
+				"If your pet doesn't respawn, just wait till dawn."
+			]
+			id: "2A4DD955ED284680"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "382DCAE265062749"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_orange"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_magenta"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_light_blue"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_yellow"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_lime"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_pink"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_gray"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_light_gray"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_cyan"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_purple"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_blue"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_brown"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_green"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_red"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:pet_bed_black"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Pet Beds"
+			x: -20.5d
+			y: -4.5d
 		}
 	]
 	title: "Domestication Innovation"

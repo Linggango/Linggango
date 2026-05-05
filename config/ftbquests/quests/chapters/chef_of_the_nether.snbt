@@ -8,22 +8,25 @@
 	id: "667D519499FF4D8A"
 	images: [
 		{
+			height: 3.0d
+			image: "customtextures:textures/nethersdelightlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.2499999999999929d
-			y: -4.7959183673469425d
-		}
-		{
-			height: 2.2d
-			image: "customtextures:textures/nethersdelightlogo.png"
-			rotation: 0.0d
-			width: 6.0d
 			x: -1.0d
-			y: -7.0d
+			y: -10.0d
 		}
 	]
 	order_index: 3
@@ -52,7 +55,7 @@
 					xp: 100
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Hot foods!!"
 			tasks: [{

@@ -1,0 +1,13 @@
+{
+    "type":"mekanism:activating",
+    "input": {"amount":1,
+    "fluid":"evolvedmekanism:molten_nether_star"
+
+},
+
+    "output":
+    {"amount":1, 
+    "gas":"industrialforegoing:ether_gas"
+
+    }
+}

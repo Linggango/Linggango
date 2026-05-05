@@ -9,7 +9,10 @@
 	images: [{
 		dev: true
 		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+		hover: [
+			"Questlines belong to me and are protected under All Rights Reserved."
+			"Do not attempt to use or steal them without my explicit permission."
+		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -235,7 +238,7 @@
 				""
 				"Provide it with rotation and energy, attach an Electrical Connector to the Carbon Brushes set to Pull, and another connector on the side/top set to Push."
 			]
-			icon: "create_new_age:energiser_t1"
+			icon: "create_new_age:basic_energiser"
 			id: "472F303E962BE330"
 			rewards: [
 				{
@@ -253,17 +256,18 @@
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
-					id: "0582B934B8822414"
-					item: "create_new_age:energiser_t1"
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "629F464EFB34CC9D"
 					item: "create_new_age:electrical_connector"
 					type: "item"
 				}
+				{
+					id: "2FC43D92D3402D8F"
+					item: "create_new_age:basic_energiser"
+					type: "item"
+				}
 			]
+			title: "Basic Energizer"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -289,8 +293,8 @@
 			]
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "1B616EF7B1E56371"
-				item: "create_new_age:energiser_t2"
+				id: "1190FC973BFB2F3A"
+				item: "create_new_age:advanced_energiser"
 				type: "item"
 			}]
 			x: 2.0d
@@ -317,8 +321,8 @@
 			]
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "2B3AE69388180F95"
-				item: "create_new_age:energiser_t3"
+				id: "2E0F06A433813083"
+				item: "create_new_age:reinforced_energiser"
 				type: "item"
 			}]
 			x: 4.0d

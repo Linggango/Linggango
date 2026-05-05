@@ -1,0 +1,66 @@
+{
+
+  "knightquest:witch_helmet": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:witch_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:witch_leggings": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:witch_boots": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+
+    "knightquest:tengu_helmet": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -4,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bamboo_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bamboo_leggings": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bamboo_boots": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

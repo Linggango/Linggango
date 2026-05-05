@@ -7,16 +7,29 @@
 	hide_quest_until_deps_complete: true
 	icon: "alexscaves:pure_darkness"
 	id: "1B52AAD85ACDF9FF"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -1.5d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 1.4d
+			image: "customtextures:textures/forlorn_hollows_logo.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -65,8 +78,8 @@
 				item: "alexscaves:burrowing_arrow"
 				type: "item"
 			}]
-			x: 1.857142857142854d
-			y: 0.25d
+			x: 1.8571428571428612d
+			y: 0.7678571428571459d
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
@@ -82,8 +95,8 @@
 				title: "The Underzealots"
 				type: "advancement"
 			}]
-			x: -2.5d
-			y: 1.3928571428571388d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["08E8FE9E2FF73F0D"]
@@ -106,8 +119,8 @@
 				title: "The Black Parade"
 				type: "advancement"
 			}]
-			x: -4.357142857142854d
-			y: 1.107142857142854d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["46AA638EBE53C24D"]
@@ -124,6 +137,7 @@
 					xp: 20
 				}
 			]
+			shape: "gear"
 			tasks: [{
 				id: "6797BE5A16954BF7"
 				item: {
@@ -144,7 +158,7 @@
 			description: ["Craft a Hood and Cloak of Darkness&r that, when combined, will allow you to temporarily become Darkness Incarnate&r."]
 			icon: "alexscaves:dark_tatters"
 			id: "46AA638EBE53C24D"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "371C9C4F3D76C28E"
@@ -169,6 +183,7 @@
 					xp: 20
 				}
 			]
+			shape: "gear"
 			tasks: [{
 				id: "4A99814E3378B790"
 				item: {
@@ -213,8 +228,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.642857142857139d
-			y: 0.6071428571428612d
+			x: 3.642857142857146d
+			y: 1.125000000000007d
 		}
 		{
 			dependencies: ["1634637D8E24C861"]
@@ -234,8 +249,8 @@
 				type: "item"
 			}]
 			title: "&l&7Dreadbow"
-			x: 5.107142857142854d
-			y: -0.5d
+			x: 5.107142857142861d
+			y: 0.017857142857145902d
 		}
 	]
 	title: "Forlorn Hollows"

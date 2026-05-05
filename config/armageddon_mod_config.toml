@@ -11,7 +11,7 @@
 
 	[Progession.are_enchanted_tools_blocked]
 		#If true the enchanted tools will not be usable until Eldorath's death. Default = true
-		are_enchanted_tools_blocked = true
+		are_enchanted_tools_blocked = false
 
 ["Bosses Misc & co"]
 
@@ -35,11 +35,11 @@
 
 	[Hardmode.hardmode_health_modifier]
 		#This number increases the life of entities when entering hardmode troughout a multiplication. Default = 2.5 and don't forget the number and the dot
-		hardmode_health_modifier = 3.5
+		hardmode_health_modifier = 2.0
 
 	[Hardmode.hardmode_damage_modifier]
 		#This number increases the damages of entities when entering hardmode troughout a multiplication. Default = 2.0 and don't forget the number and the dot
-		hardmode_damage_modifier = 4.2
+		hardmode_damage_modifier = 2.0
 
 ["Gapple Sickness"]
 
@@ -61,23 +61,23 @@
 
 	["Bosses Health"."Iron Colossus Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		iron_colossus_health_bonus = 150.0
+		iron_colossus_health_bonus = 50.0
 
 	["Bosses Health"."Golbin Lord Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		goblin_lord_health_bonus = 150.0
+		goblin_lord_health_bonus = 50.0
 
 	["Bosses Health"."Arion Bonus Health (work for each phase)"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		arion_health_bonus = 150.0
+		arion_health_bonus = 50.0
 
 	["Bosses Health"."Eldorath Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		eldorath_health_bonus = 400.0
+		eldorath_health_bonus = 50.0
 
 	["Bosses Health"."Zoranth Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		zoranth_health_bonus = 600.0
+		zoranth_health_bonus = 200.0
 
 	["Bosses Health"."Elvenite Paladin Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
@@ -85,25 +85,25 @@
 
 	["Bosses Health"."Vaedric Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		vaedric_health_bonus = 2500.0
+		vaedric_health_bonus = 2000.0
 
 	["Bosses Health"."Bringer Of Doom Bonus Health (work for each phase)"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		bod_health_bonus = 5000.0
+		bod_health_bonus = 3000.0
 
 	["Bosses Health"."Calamities Bonus Health (for each)"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		calamities_health_bonus = 10000.0
+		calamities_health_bonus = 2050.0
 
 	["Bosses Health"."Sanghor Bonus Health (work for each phase)"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		sanghor_health_bonus = 12500.0
+		sanghor_health_bonus = 6050.0
 
 	["Bosses Health"."Zoranth Zenith Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		zoranthzenith_health_bonus = 18250.0
+		zoranthzenith_health_bonus = 10250.0
 
 	["Bosses Health"."Nyxaris Bonus Health"]
 		#This value affects the life of the chosen boss and is added to its base health. When playing in multiplayer, the boss gains extra health for each additional player (by default), and one half of this value is added to the final amount. Default = 0
-		nyxaris_health_bonus = 58125.0
+		nyxaris_health_bonus = 20000.0
 

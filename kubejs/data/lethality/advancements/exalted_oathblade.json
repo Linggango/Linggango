@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "lethality:exalted_oathblade"
+    },
+    "title": "I am Masochist.",
+    "description": "Obtain Exalted Oathblade",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lethality:exalted_oathblade"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

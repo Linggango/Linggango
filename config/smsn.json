@@ -1,6 +1,6 @@
 {
-  "aetherMoaSkinsFeature": false,
-  "immersiveEngineeringSpecialRevolvers": false,
+  "aetherMoaSkinsFeature": true,
+  "immersiveEngineeringSpecialRevolvers": true,
   "quarkContributorCheck": false,
   "ipnUpdateCheckAndUserTracking": false,
   "xaeroMapPatreonCheck": false,
@@ -22,8 +22,21 @@
   "ribbitsSupporterHat": false,
   "mruApi": false,
   "projecteUUIDCheck": false,
-  "baCheckUpdate": false,
+  "hexereiSupporter": false,
+  "voidscapeDonator": false,
+  "tenshilibPatreon": false,
+  "additionalStructuresSupporterCheck": false,
+  "createTramAdditionsTTS": true,
+  "arsnouveauRewards": false,
+  "immersiveportalsModInfoChecking": false,
+  "majruszModsVersionCheck": false,
+  "kiwiTier": false,
+  "createSnrDevCape": false,
+  "versionCheckWarn": true,
   "quarkCelebration": "HideLGBTQIA",
+  "vazkiiModsSpamLogs": false,
   "citadelAprilFoolsContent": false,
-  "immersiveCavesDiscordMessage": false
+  "immersiveCavesDiscordMessage": false,
+  "ribbitsNoMorePrideMonth": false,
+  "disabledMixins": []
 }

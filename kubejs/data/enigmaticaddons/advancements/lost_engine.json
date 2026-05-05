@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "enigmaticaddons:lost_engine"
+    },
+    "title": "May lightning avoid you.",
+    "description": "Obtain Lost Engine",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "equip_engine": {
+      "trigger": "curios:equip_curio",
+      "conditions": {
+        "item": {
+          "items": [
+            "enigmaticaddons:lost_engine"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "equip_engine"
+    ]
+  ]
+}

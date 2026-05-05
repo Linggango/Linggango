@@ -8,22 +8,25 @@
 	id: "31AD12C719C258BA"
 	images: [
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: -2.0d
-		}
-		{
 			height: 1.5d
 			image: "customtextures:textures/alexscaveslogo.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.07962851859922182d
 			y: -5.451438823232632d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.0d
 		}
 	]
 	order_index: 3
@@ -152,7 +155,7 @@
 			}
 			icon_scale: 1.4d
 			id: "77DB346AB1659089"
-			shape: "pentagon"
+			shape: "square"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7D99932B5E7CCE72"

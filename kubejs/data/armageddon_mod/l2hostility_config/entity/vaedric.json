@@ -1,0 +1,336 @@
+{
+  "list": [
+     {
+      "asMaster": {
+        "maxTotalCount": 7,
+        "minions": [
+            {
+            "type": "traveloptics:void_tome",
+            "cooldown": 200,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 19,
+            "maxCount": 4,
+            "maxHealthPercentage": 1.0,
+            "minLevel": 0,
+            "protectMaster": false,
+            "spawnRange": 10
+          },
+          {
+            "type": "irons_spellbooks:summoned_sword",
+            "cooldown": 400,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 19,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.5,
+            "minLevel": 0,
+            "protectMaster": false,
+            "spawnRange": 15
+          },
+          {
+            "type": "irons_spellbooks:summoned_claymore",
+            "cooldown": 400,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 19,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.25,
+            "minLevel": 0,
+            "protectMaster": false,
+            "spawnRange": 12
+          },
+          {
+            "type": "irons_spellbooks:summoned_rapier",
+            "cooldown": 400,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 19,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.1,
+            "minLevel": 0,
+            "protectMaster": false,
+            "spawnRange": 12
+          }
+        ],
+        "spawnInterval": 80
+      },
+      "attackScale": 0.3,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 110,
+        "min": 220,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:vaedricthe_fallen_wanderer"
+      ],
+      "healthScale": 0.13,
+      "items": [
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "lethality:forbidden_oathblade",
+                "nbt": "{Enchantments:[{id:\"l2complements:sharp_blade\",lvl:3s},{id:\"l2complements:soul_flame_blade\",lvl:3s},{id:\"tonsofenchants:enhanced_sharpness\",lvl:5s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 100,
+          "slot": "equipment/mainhand"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        },
+          {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "artifacts:chorus_totem",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/1"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:terawatt_bracers",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/hands"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:butter_gauntlets",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/hands/1"
+        },
+            {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:eternal_shadowflame",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/2"
+        },
+            {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:nullifying_dice",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/3"
+        },
+        {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:ethereal_eclipse_emblem",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/4"
+        },
+          {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:escape_key",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/5"
+        },
+         {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:knights_pendant",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/necklace"
+        },
+           {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "meetyourfight:caged_heart",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/body"
+        },
+                {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "brutality:warpslice_scabbard",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/belt"
+        }
+      ],
+      "maxLevel": 0,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 220,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:master"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:levitation"
+        },
+        {
+      "cap": false,
+      "free": 3,
+      "min": 0,
+      "trait": "l2hostility:grenade"
+        },
+         {
+      "cap": false,
+      "free": 2,
+      "min": 0,
+      "trait": "l2hostility:soul_burner"
+        },
+        {
+      "cap": false,
+      "free": 2,
+      "min": 0,
+      "trait": "l2hostility:poison"
+        },
+        {
+         "cap": false,
+         "free": 2,
+         "min": 0,
+        "trait": "l2hostility:reflect"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:teleport"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:pulling"
+        },
+         {
+          "cap": false,
+          "free": 2,
+          "min": 0,
+          "trait": "l2hostility:weakness"
+        },
+         {
+          "cap": false,
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:ragnarok"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:tank"
+        }
+
+      ]
+    }
+  ]
+}

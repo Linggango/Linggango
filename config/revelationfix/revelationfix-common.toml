@@ -1,13 +1,13 @@
 
 [Others]
 	#A list of mob effect that would never be cleared by curio abilities/bosses...
-	whitelistMobEffects = ["minecraft:night_vision", "cataclysm:ghost_sickness", "aquamirae:crystallization"]
+	whitelistMobEffects = ["minecraft:night_vision", "cataclysm:ghost_sickness"]
 
 ["The Apocalypse"]
 	#A list of items(curios!) won't be banned when The Nether Apollyon in the phase "The Apocalypse".
-	whitelistItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack"]
+	whitelistItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack", "enigmaticlegacy:cursed_ring"]
 	#A list of entity types(non LivingEntity) won't be removed when The Nether Apollyon in the phase "The Apocalypse".
-	whitelistEntities = ["revelationfix:fake_item_entity", "minecraft:item", "minecraft:experience_orb"]
+	whitelistEntities = ["revelationfix:fake_item_entity", "minecraft:item", "minecraft:experience_orb", "enigmaticlegacy:permanent_item_entity"]
 	#If configured as true, when a creature is killed by Apollon's barrier, Apollon will return to the state of "The Apocalypse".
 	barrierKillingMobsHealingMode = true
 	#The time required for the barrier to fully open, default 3 (seconds)
@@ -34,15 +34,15 @@
 [Apollyon]
 	#Define the cooldown of apollyon shooting skill(in ticks).default : 1600
 	#Range: 0 ~ 32767
-	shootingCooldown = 500
+	shootingCooldown = 1600
 	#Defined the permanent damage reduction value of the Apollyon.default : 25(percent)
 	#Range: 0.0 ~ 100.0
-	permanentDamageReduction = 10.0
+	permanentDamageReduction = 25.0
 	#If configured as true, will enable dynamic damage reduction ability for Apollyon.
 	dynamicDamageReduction = true
 	#Defined the custom invulnerable time of apollyon (in ticks).default : 30
 	#Range: 10 ~ 32767
-	invulnerableTime = 35
+	invulnerableTime = 30
 	#Defined the damage multiplier of the Apollyon in second phase.default : 2.0
 	#Range: 0.0 ~ 100.0
 	netherSecondPhaseDamageMultiplier = 2.0
@@ -51,7 +51,7 @@
 	netherPhaseGenesisDamageMultiplier = 4.0
 	#Defined the armor piercing attribute base value of apollyon.default : 30(percent)
 	#Range: 0 ~ 100
-	armorPiercingAttribute = 50
+	armorPiercingAttribute = 30
 	#Defined the enchantment piercing attribute base value of apollyon.default : 30(percent)
 	#Range: 0 ~ 100
 	enchantmentPiercingAttribute = 30

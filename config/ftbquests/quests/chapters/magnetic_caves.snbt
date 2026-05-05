@@ -7,16 +7,29 @@
 	hide_quest_until_deps_complete: true
 	icon: "alexscaves:scarlet_magnet"
 	id: "7C9AB5272A1E5BFB"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.9761904761904816d
-		y: 1.2857142857142847d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "customtextures:textures/magnetic_caves.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -63,8 +76,8 @@
 				item: "alexscaves:heavyweight"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["36E6B088A55ECF3B"]
@@ -96,8 +109,8 @@
 				}
 			]
 			title: "Push and Pull"
-			x: -0.5d
-			y: -1.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["29B1ABA4B6F07112"]
@@ -113,8 +126,8 @@
 				item: "alexscaves:heart_of_iron"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0E39210004AAEA0E"]
@@ -139,8 +152,8 @@
 				id: "3C293319B03A74E0"
 				type: "advancement"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6054B4364EF24126"]
@@ -176,8 +189,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["44839F9DDE72FB2A"]
@@ -200,8 +213,8 @@
 				item: "alexscaves:quarry_smasher"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["36E6B088A55ECF3B"]
@@ -219,8 +232,8 @@
 				title: "Mind Over Magnet"
 				type: "advancement"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: 1.0d
+			y: 6.5d
 		}
 	]
 	title: "Magnetic Caves"

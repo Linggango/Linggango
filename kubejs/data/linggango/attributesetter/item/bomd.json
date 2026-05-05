@@ -1,0 +1,9 @@
+{
+"bosses_of_mass_destruction:earthdive_spear": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 6.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

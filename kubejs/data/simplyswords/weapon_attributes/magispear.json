@@ -1,0 +1,23 @@
+{
+  "parent": "bettercombat:spear",
+  "attributes" : {
+    "attack_range": 3.2,
+    "pose": "",
+    "two_handed": false,
+    "category": "trident",
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_stab",
+        "swing_sound": {
+          "id": "simplyswords:elemental_sword_sci-fi_attack_02",
+          "volume": 0.3,
+          "pitch": 1.4
+        }
+      }
+    ]
+  }
+}

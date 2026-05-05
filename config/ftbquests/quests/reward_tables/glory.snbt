@@ -276,12 +276,6 @@
 		{ count: 64, item: "minecraft:amethyst_shard", title: "SECRET" }
 		{ count: 512, item: "minecraft:spruce_log", title: "SECRET" }
 		{
-			command: "/locate structure unearthed_journey:temple_to_methuselah"
-			elevate_perms: true
-			title: "SECRET"
-			type: "command"
-		}
-		{
 			command: "/tp @p 9359 100 939555"
 			elevate_perms: true
 			silent: true
@@ -476,14 +470,6 @@
 			}
 			title: "SECRET"
 		}
-		{
-			item: {
-				Count: 1
-				id: "hexerei:mahogany_broom"
-				tag: { }
-			}
-			title: "SECRET"
-		}
 		{ item: "terramity:neutron_star", title: "SECRET" }
 		{
 			item: {
@@ -544,6 +530,13 @@
 				}
 			}
 			title: "SECRET"
+		}
+		{
+			command: "/summon capybara:capybara"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
 		}
 	]
 	title: "Glory"

@@ -1,0 +1,9 @@
+{
+"brutality:frostmourne": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 16.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

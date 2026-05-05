@@ -1,0 +1,29 @@
+{
+	id: "42B5F811FBAD27D8"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 3, item: "goety:shadow_essence", weight: 0.75f }
+		{ count: 8, item: "goety:dark_ingot" }
+		{ count: 16, item: "goety:cursed_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "goety:totem_of_souls"
+				tag: {
+					"Max Souls": 10000
+					Souls: 10000
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 32, item: "goety:jade" }
+		{ item: "goety:soul_ruby", weight: 0.5f }
+		{ item: "goety_revelation:broken_halo", weight: 0.1f }
+		{ count: 4, item: "goety:forbidden_piece", weight: 1.1f }
+		{ item: "goety:forbidden_fragment", weight: 0.75f }
+		{ item: "goety:undeath_potion", weight: 0.2f }
+		{ item: "goety:treasure_pouch", weight: 0.5f }
+	]
+	title: "Goety"
+}

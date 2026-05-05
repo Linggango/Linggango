@@ -1,7 +1,7 @@
 {
 	id: "387532FA3DE3DFC0"
 	loot_size: 1
-	order_index: 4
+	order_index: 5
 	rewards: [
 		{ item: "irons_spellbooks:epic_ink" }
 		{ item: "irons_spellbooks:legendary_ink" }

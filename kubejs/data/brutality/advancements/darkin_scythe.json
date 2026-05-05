@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "brutality:darkin_scythe"
+    },
+    "title": "Darkin Scythe",
+    "description": "Obtain Darkin Scythe",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brutality:darkin_scythe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

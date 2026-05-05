@@ -14,26 +14,28 @@
 	id: "2106485D92FA6021"
 	images: [
 		{
-			height: 2.2d
+			height: 3.5d
 			image: "customtextures:textures/companionslogo.png"
 			rotation: 0.0d
-			width: 7.0d
+			width: 9.0d
 			x: 0.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
-			y: -4.5d
+			y: -6.0d
 		}
 	]
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,7 +53,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.4d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -137,7 +139,7 @@
 				}
 			]
 			title: "Tame Puppet"
-			x: 4.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -272,7 +274,7 @@
 				}
 			]
 			title: "Tame Golden Allay (Mage)"
-			x: 4.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -326,7 +328,7 @@
 				value: 1L
 			}]
 			title: "Tame minions"
-			x: -4.0d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -373,7 +375,7 @@
 				value: 1L
 			}]
 			title: "Tame Cornelius"
-			x: -4.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -457,7 +459,7 @@
 				}
 			]
 			title: "Tame Teddy"
-			x: 4.5d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -512,8 +514,8 @@
 				}
 			]
 			title: "Tame Croissant Dragon"
-			x: 0.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
@@ -604,7 +606,7 @@
 				}
 			]
 			title: "Tame Dinamo"
-			x: 3.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -665,7 +667,7 @@
 				}
 			]
 			title: "Tame Antlion"
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -711,8 +713,8 @@
 				item: "knightlib:empty_grail"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0B8FB2D99CA5FC9F"]
@@ -729,7 +731,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "netheritetier"
+			shape: "square"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -738,8 +740,8 @@
 				type: "item"
 			}]
 			title: "&eCrystallized Blood Tools N' Armor"
-			x: -0.5d
-			y: 1.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["446059DB353391B2"]
@@ -766,7 +768,7 @@
 				}
 			]
 			title: "Other Coins"
-			x: -2.5d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -803,7 +805,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -2.5d
 			y: -1.5d
 		}
 		{
@@ -873,8 +875,8 @@
 				}
 			]
 			title: "Call a Shade Sword"
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19C4D004E0DE9E41"]
@@ -910,7 +912,7 @@
 			]
 			title: "Call a Shade Maw"
 			x: -2.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
@@ -950,7 +952,7 @@
 				value: 1L
 			}]
 			title: "&cKill The Sacred Pontiff"
-			x: 2.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -1024,7 +1026,7 @@
 				}
 			]
 			title: "&6The Respawn Totem!"
-			x: 2.0d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -1051,7 +1053,7 @@
 				type: "checkmark"
 			}]
 			title: "&dCheck&r to unlock companions"
-			x: 2.0d
+			x: 3.5d
 			y: -1.5d
 		}
 	]

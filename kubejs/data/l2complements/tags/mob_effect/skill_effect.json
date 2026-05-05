@@ -1,0 +1,44 @@
+{
+  "values": [
+    "l2hostility:antibuild",
+    "armageddon_mod:amaterasu",
+    "armageddon_mod:hemorrhage",
+    "armageddon_mod:sunburn",
+     "armageddon_mod:stun",
+     "terramity:ability_cooldown",
+     "ars_nouveau:summoning_sickness",
+     "armageddon_mod:chaos_state",
+     "armageddon_mod:void_flame",
+     "cataclysm:blazing_brand",
+     "terramity:hexed",
+     "brutality:sprinkled",
+     "bruatlity:glazed",
+     "brutality:caramelized",
+     "brutality:candied",
+    "cataclysm:ghost_sickness",
+    "adamsarsplus:domain_burnout",
+    "adamsarsplus:mana_exhaust",
+    "minecraft:absorption",
+    "minecraft:regeneration",
+    "terramity:armor_set_ability_cooldown",
+    "brutality:dodge_cooldown",
+    "terramity:dash_cooldown",
+    "mahoutsukai:ba_cooldown",
+    "mahoutsukai:cm_cooldown",
+    "mahoutsukai:ripper_cooldown",
+    "mahoutsukai:ripper_invis_cooldown",
+    "mahoutsukai:rpsw_cooldown",
+    "mahoutsukai:selective_displacement_cooldown",
+    "mahoutsukai:zap_cooldown",
+    "monsterexpansion:cloaked_cooldown",
+    "soulsweapons:cooldown",
+    "minecraft:weakness",
+    "l2complements:flame"
+
+
+
+
+
+
+  ]
+}

@@ -1,4 +1,6 @@
 {
   "_comment_lessParticles": "Decreases the amount of particles that some attacks spawn",
-  "lessParticles": false
+  "lessParticles": false,
+  "_comment_phaseSphereVisualEffect": "Disable/Enable phase sphere visual effect",
+  "phaseSphereVisualEffect": true
 }

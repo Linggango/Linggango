@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 3.6,
+    "attack_range": 3.5,
   "pose": "lethality:greatsword_pose",
     "two_handed": true,
     "category": "scythe",

@@ -1,0 +1,27 @@
+{
+
+  "ars_nouveau:sorcerer_hood": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "ars_nouveau:sorcerer_robes": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "ars_nouveau:sorcerer_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ]
+
+}

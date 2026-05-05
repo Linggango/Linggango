@@ -99,7 +99,7 @@
 	#Additional items to consider as Golden Food and can be eaten after having consumed 7 Ambrosial Arbor
 	#Format: ["modid:itemid", "modid:itemid"]
 	ambrosialPenalty = []
-	#List of mobs unaffected by the curse of exaltation
+	#List of mobs unaffected by the blessing of exaltation
 	#Note: This exemption is intended for bosses and mini-bosses
 	#Format: ["modid:mob", "modid:mob"]
 	ignoredMobs = ["minecraft:elder_guardian", "minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "alexscaves:forsaken", "alexscaves:hullbreaker", "cataclysm:kobolediator", "alexscaves:luxtructosaurus", "alexscaves:nucleeper", "alexscaves:tremorzilla", "cataclysm:amethyst_crab", "cataclysm:aptrgangr", "cataclysm:clawdian", "cataclysm:coralssus", "cataclysm:ender_golem", "cataclysm:the_prowler", "cataclysm:wadjet", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:sculptor", "mowziesmobs:umvuthi"]
@@ -119,12 +119,55 @@
 	#Default: 0.25
 	#Range: 0.0 ~ 100.0
 	benedictionKnockbackResistance = 0.25
-	#Attack Damage increase provided by Scroll of a Thousand Virtues for each point of Armor.
+	#Attack increase provided by Scroll of a Thousand Virtues for each point of Armor.
 	#Default: 1.0
 	#Range: 0.0 ~ 100.0
 	divineScrollAttackFromArmor = 1.0
-	#Attack Damage increase provided by Scroll of a Thousand Virtues for each point of Armor Toughness.
+	#Attack increase provided by Scroll of a Thousand Virtues for each point of Armor Toughness.
 	#Default: 1.0
 	#Range: 0.0 ~ 100.0
 	divineScrollAttackFromArmorToughness = 1.0
+	#Attack provided by Scroll of a Thousand Curses for each curse
+	#Default: 6
+	#Range: 1 ~ 100
+	cursedScrollAttack = 6
+	#Whether to allow the Warden to drop the Commandment of Inversion or Grace of Consecration when certain requirements are met.
+	#Default: true
+	medallionObtainmentMethod = false
+	#Whether to lock the cube behind 99.5 percent time spent with either the Ring of the Seven Curses OR the Ring of the Seven Virtues
+	#Default: false
+	theCubeProgressionLock = true
+	#List of mobs that cannot be protected using the Glacial Shield
+	#Format: ["modid:mob", "modid:mob"]
+	glacialBlacklist = ["dummmmmmy:target_dummy"]
+	#Amount of additional curio slots the Cradle of Rebirth provides.
+	#Default: 7
+	#Range: 1 ~ 7
+	rebirthEggCurioSlots = 1
+	#Revival cooldown of the Cradle of Rebirth, in seconds.
+	#Default: 800
+	#Range: 0 ~ 10000
+	rebirthEggCooldown = 800
+	#Additional step height provided by the Hallowed Steps
+	#Default: 12
+	#Range: 0 ~ 100
+	hallowedStepsStepHeigh = 12
+	#AoE Fall Damage cooldown of the Hallowed Steps, in seconds
+	#Default: 2
+	#Range: 0 ~ 1000
+	hallowedStepsCooldown = 2
+	#Summon Damage multiplier provided by the Melodius Harmony, measured in percents.
+	#Default: 75
+	#Range: 0 ~ 10000
+	melodiousHarmonySummonDamage = 75
+	#Maximum amplifier of beneficial effects made infinite by the Potioneer's Pearl when wearing the Melodius Harmony
+	#Default: 2
+	#Range: 0 ~ 127
+	melodiousHarmonyPotioneerPearlInteraction = 2
+	#List of effects ignored by the Potioneer's Pearl and the Ring of the Seven Virtues for duration modification.
+	#Format: ["modid:effectid", "modid:effectid"]
+	potioneerExcludedEffects = ["minecraft:slow_falling", "terramity:divine_flight", "terramity:mortal_flight", "ars_nouveau:flight", "bloodmagic:flight", "irons_spellbooks:heartstop", "irons_spellbooks:abyssal_shroud", "relics:vanishing", "minecraft:health_boost", "irons_spellbooks:heartstop", "traveloptics:reversal", "enigmaticdice:divine_shield_invulnerability"]
+	#Whether the Essence of Raging Life is available for use by all instead of being locked behind the Ring of the Seven Virtues
+	#Default: false
+	globalInfinimeal = false
 

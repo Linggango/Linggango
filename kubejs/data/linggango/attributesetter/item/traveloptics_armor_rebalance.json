@@ -1,0 +1,492 @@
+{
+  "traveloptics:forlorn_harbinger_hood": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.10,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:forlorn_harbinger_robe": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.10,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:forlorn_harbinger_leggings": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.10,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:forlorn_harbinger_boots": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.10,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:primordial_crest_armor_helmet": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:primordial_crest_armor_chestplate": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:primordial_crest_armor_leggings": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:primordial_crest_armor_boots": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:tectonic_crest_armor_helmet": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:tectonic_crest_armor_chestplate": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:tectonic_crest_armor_leggings": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:tectonic_crest_armor_boots": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:abyssal_hide_armor_hat": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.15,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:abyssal_hide_armor_robe": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.15,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:abyssal_hide_armor_leggings": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.15,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:abyssal_hide_armor_boots": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.15,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:cursed_wraithguard_crown": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:cursed_wraithguard_chestplate": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:cursed_wraithguard_spectral_wrapping": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:cursed_wraithguard_boots": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:mechanized_exoskeleton_helmet": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:mechanized_exoskeleton_chestplate": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:mechanized_exoskeleton_leggings": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:mechanized_exoskeleton_boots": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:riptide_sovereign_hat": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.15,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:riptide_sovereign_fincloak": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.30,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.15,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7743fa8c-a8d3-11ef-8e38-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:riptide_sovereign_leggings": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.30,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.15,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7326ac88-a8d3-11ef-b1d4-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "traveloptics:riptide_sovereign_boots": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.30,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.15,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "674a93d4-a8d3-11ef-a83e-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "goety_revelation:apocalyptium_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "goety_revelation:apocalyptium_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "goety_revelation:apocalyptium_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "goety_revelation:apocalyptium_boots": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ]
+}

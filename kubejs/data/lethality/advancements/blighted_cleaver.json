@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "lethality:blighted_cleaver"
+    },
+    "title": "Now It's Peak.",
+    "description": "Obtain Blighted Cleaver",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lethality:blighted_cleaver"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "biomancy:bio_forging",
+  "bio_forge_tab": "biomancy:misc",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "enigmaticlegacy:cosmic_heart"
+    },
+    {
+      "item": "enigmaticlegacy:forbidden_fruit"
+    },
+    {
+      "item": "enigmaticlegacy:cosmic_heart"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    }
+  ],
+  "nutrientsCost": 998,
+  "result": {
+    "count": 1,
+    "item": "enigmaticdelicacy:astral_fruit_slice"
+  }
+}

@@ -1,0 +1,26 @@
+{
+	id: "1774763867964FB9"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 2, item: "terramity:cosmilite_ingot", random_bonus: 4 }
+		{ count: 2, item: "terramity:dimlite_ingot", random_bonus: 4 }
+		{ count: 2, item: "terramity:conductite", random_bonus: 1 }
+		{ count: 2, item: "terramity:iridium", random_bonus: 1 }
+		{ count: 2, item: "terramity:hellspec_alloy", random_bonus: 1 }
+		{ count: 2, item: "terramity:slot_machine" }
+		{ item: "terramity:hexing_circle", random_bonus: 1 }
+		{ item: "terramity:advanced_gun_parts", random_bonus: 1 }
+		{ count: 6, item: "terramity:untapped_dimlite", random_bonus: 12 }
+		{ item: "terramity:warden_soul", random_bonus: 1 }
+		{ item: "terramity:spiteful_soul", random_bonus: 2 }
+		{ item: "terramity:lost_soul", random_bonus: 2 }
+		{ item: "terramity:accursed_soul", random_bonus: 2 }
+		{ item: "terramity:spectral_soul", random_bonus: 1 }
+		{ count: 2, item: "terramity:void_alloy", random_bonus: 1 }
+		{ count: 2, item: "terramity:iridescent_shard_block" }
+		{ item: "terramity:piston_cuffs" }
+		{ item: "terramity:life_ring_plus" }
+	]
+	title: "terramity_end"
+}

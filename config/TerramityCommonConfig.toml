@@ -7,7 +7,7 @@
 	#Health for specified mob.
 	"Ultra Sniffer Health" = 545000.0
 	#Health for specified mob.
-	"Trial Guardian Health" = 11000.0
+	"Trial Guardian Health" = 2000.0
 	#Health for specified mob.
 	"Virtue Health" = 15000.0
 	#Health for specified mob.
@@ -15,7 +15,7 @@
 	#Health for specified mob.
 	"Sorceress Circe Health" = 12501.0
 	#Health for specified mob.
-	"Archmage Gundalf Health" = 35000.0
+	"Archmage Gundalf Health" = 5000.0
 	#Health for specified mob.
 	"Multiplayer Boss Health Scaling" = true
 

@@ -1,0 +1,132 @@
+{
+  "list": [
+     {
+      "asMaster": {
+        "maxTotalCount": 12,
+        "minions": [
+          {
+            "type": "goety:apostle",
+            "cooldown": 6666,
+            "copyLevel": true,
+            "copyTrait": true,
+            "discardOnUnlink": true,
+            "linkDistance": 15,
+            "maxCount": 1,
+            "maxHealthPercentage": 0.88,
+            "minLevel": 666,
+            "protectMaster": true,
+            "spawnRange": 8
+          }
+        ],
+        "spawnInterval": 40
+      },
+      "attackScale": 0.2,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 333,
+        "min": 666,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "goety:apostle"
+      ],
+      "healthScale": 1.5,
+      "items": [
+          {
+    "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm/2"
+        }
+      ],
+      "maxLevel": 666,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 666,
+      "presetTraitsOnly": false,
+      "specialConditions": [
+        {
+           "_class": "com.misanthropy.linggango.linggango_tweaks.integration.l2.ApostleCondition",
+          "id": "linggango_tweaks:apostle_context",
+          "titleNumber": [2],
+          "isApollyon": true,
+          "isSecondPhase": false,
+          "isInNether": false
+        }
+      ],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:corrosion"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:erosion"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:regenerate"
+        },
+         {
+          "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:dispell"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        },
+         {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:poison"
+        },
+        {
+          "cap": false,
+          "free": 3,
+          "min": 0,
+          "trait": "l2hostility:soul_burner"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 3,
+          "trait": "l2hostility:weakness"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:master"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:pulling"
+        } 
+      ]
+    }
+  ]
+}

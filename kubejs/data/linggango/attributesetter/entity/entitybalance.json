@@ -1,0 +1,819 @@
+{
+  "minecraft:warden": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "0e1c07ef-d456-4567-b748-96b6f84b409e",
+      "value": 700,
+      "operation": "BASE"
+    },
+    {
+        "attribute": "minecraft:generic.follow_range",
+        "uuid": "7c9d2f3a-3ea1-4b2b-8c8a-8f4f5e6d7c8b",
+        "value": 10,
+      "operation": "ADDITION"
+    },
+    {
+        "attribute": "minecraft:generic.attack_damage",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": 5,
+      "operation": "ADDITION"
+    },
+     {
+      "attribute":"minecraft:generic.armor",
+       "value": 20,
+      "operation": "BASE"
+    },
+      {
+      "attribute": "minecraft:generic.attack_knockback",
+      "value": 1.4,
+      "operation": "BASE"
+    },
+    {
+        "attribute": "minecraft:generic.movement_speed",
+        "uuid": "1c6b1472-3e4f-4d5a-9f7e-8f4f5e6d7c8b",
+        "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:the_gobelin_lord": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "value": 11,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 30,
+      "operation": "BASE"
+    },
+     {
+        "attribute": "minecraft:generic.movement_speed",
+        "uuid": "2606c968-cf26-4ab1-85ad-d13e938b36fa",
+        "value": 0.2,
+      "operation": "BASE"
+    }
+  ],
+
+  "minecraft:zombie": [ 
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "0e1c07ef-d456-4567-b748-96b6f84b409e",
+      "value": 25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "value": 5.0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "uuid": "1c6b1472-3e4f-4d5a-9f7e-8f4f5e6d7c8b",
+      "value": 0.25,
+      "operation": "BASE"
+    }
+  ],
+
+  "minecraft:skeleton": [ 
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "eee3b932-a341-442c-9545-65eb009232dc",
+      "value": 10,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:eldoraththe_ancient_builder": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "uuid": "efd3df06-9896-4de8-90c4-bea58993777e",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "uuid": "7c9d2f3a-3ea1-4b2b-8c8a-8f4f5e6d7c8b",
+      "value": 1.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "uuid": "86305b62-f8b1-408c-963e-1771e32fb317",
+      "value": 0.28,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.armor",
+      "value": 40,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 10,
+      "operation": "BASE"
+    }
+  ],
+  "armageddon_mod:ancient_allay": [ 
+   {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "cac9b04c-6a2d-493e-bb18-6dad83525927",
+      "value": -26,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "undergarden:forgotten_guardian": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "uuid": "1dedfd76-a687-416d-85b1-c16ecc5cb16d",
+      "value": 30,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "uuid": "7c9d2f3a-3ea1-4b2b-8c8a-8f4f5e6d7c8b",
+      "value": 1.2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "uuid": "86305b62-f8b1-408c-963e-1771e32fb317",
+      "value": 0.3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "0e1c07ef-d456-4567-b748-96b6f84b409e",
+      "value": 1500,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:zoranththe_forgotten_one": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 13,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "value": 0.15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "cac9b04c-6a2d-493e-bb18-6dad83525927",
+      "value": -300,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.24,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 20,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:elvenite_paladin": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 100,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+      "value": 150,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 40,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:vaedricthe_fallen_wanderer": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 32,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+      "value": 80,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 120,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 80,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "value": 1.0,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:bringer_of_doom": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 68,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 240,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 120,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:bringer_of_doom_p_2": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 280,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 140,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.projectile_damage",
+      "value": 400.0,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "4960fa56-e3e0-4e28-8cc4-74d8898af42b",
+      "value": -2300,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "armageddon_mod:the_famine": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 60,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 320,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 180,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "ddb7fcfe-3cd8-4b51-b290-495c2a71883b",
+      "value": -3200,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "armageddon_mod:the_chaos": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 330,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 190,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "f8c41dbe-bfdb-44a0-b196-131f17144651",
+      "value": -1700,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "armageddon_mod:the_discord": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 130,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 60,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+      "value": 600,
+      "operation": "BASE"
+    }
+  ],
+   "armageddon_mod:the_discord_illusion": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 15,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+      "value": 130,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:sanghor_lord_of_blood": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 53,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 340,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.45,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 200,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "af8b4341-d662-49de-a8a4-01d2d9cbae6a",
+      "value": -5500,
+      "operation": "ADDITION"
+    }
+  ],
+   "armageddon_mod:blood_orb": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 1,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 50,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 10,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+     "value": 20,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:sanghor_lord_of_bloodp_2": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 280,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 150,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "22ba1638-5ca1-4854-b2f4-896a9bfc8e5c",
+      "value": -6400,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "armageddon_mod:nyxaris_the_veil_of_oblivion": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 450,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 460,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "uuid": "3263d83b-8986-4b89-b4a1-c1dfb1ca98f1",
+      "value": -19900,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "mowziesmobs:ferrous_wroughtnaut": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 50,
+      "operation": "BASE"
+    }
+  ],
+
+  
+  "born_in_chaos_v1:lord_pumpkinhead": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 60,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 10,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 4000,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:trial_guardian": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 75,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:super_sniffer": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 60,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:gob": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 60,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:virtue": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 85,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:enchanter_merlin": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 90,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 25,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:sorceress_circe": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 90,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 25,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:gundalf": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 100,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 25,
+      "operation": "BASE"
+    }
+  ],
+
+  "terramity:ultra_sniffer": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 150,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 25,
+      "operation": "BASE"
+    }
+  ],
+
+  "armageddon_mod:iron_colossus": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.35,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 5,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.armor",
+      "value": 20,
+      "operation": "BASE"
+    }
+  ],
+   "armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "uuid": "c5d749e9-cda1-4235-8b8b-641fc40b8467",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+        "uuid": "80d3be8b-6070-4b6a-99bf-70f3dcfba6d5",
+      "value": 0.9,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+        "uuid": "f35fed99-4692-4b64-8425-d81e4488b9f4",
+      "value": 0.2,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.armor",
+      "value": 25,
+      "operation": "BASE"
+    }
+  ],
+     "armageddon_mod:arion_tyrant_of_the_emerald_wrath_soldat": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+        "uuid": "63d344e5-c997-47ba-b8b2-5b15d0408878",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+        "uuid": "582035ad-eeb7-4c7a-a440-edb248d9ecf5",
+      "value": 0.8,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+        "uuid": "07810fa1-2666-4682-8ac1-f7ed09bba47b",
+      "value": -180,
+      "operation": "ADDITION"
+    },
+     {
+      "attribute": "minecraft:generic.armor",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+        "uuid": "120428aa-9094-4911-baf7-24b0201510b1",
+      "value": 0.22,
+      "operation": "BASE"
+    }
+  ],
+
+
+  "armageddon_mod:zoranth_newborn_of_the_zenith": [ 
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 40,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 400,
+      "operation": "BASE"
+    },
+     {
+      "attribute": "minecraft:generic.max_health",
+        "uuid": "961ca767-569c-4972-858f-6939eb847f5e",
+      "value": -11425,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 400,
+      "operation": "BASE"
+    }
+  ],
+  "minecraft:ender_dragon": [
+    {
+    "attribute": "minecraft:generic.attack_damage",
+    "uuid" : "4bbd9037-0e22-481c-ba0b-1d0bc13d0b19",
+    "value": -60,
+    "operation": "ADDITION"
+    }
+  ],
+  "minecraft:enderman": [
+    {
+    "attribute": "minecraft:generic.attack_damage",
+    "uuid" : "9d84708c-1e3e-40fc-bdc2-4a9be48cffc1",
+    "value": -3,
+    "operation": "ADDITION"
+    }
+  ],
+    
+  "minecraft:wither": [
+    {
+      "attribute": "minecraft:generic.armor",
+       "value": 20,
+      "operation": "BASE"
+    },
+      {
+    "attribute": "minecraft:generic.attack_damage",
+    "value": 32,
+    "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 500,
+      "operation": "BASE"
+    }
+  ]
+
+
+}

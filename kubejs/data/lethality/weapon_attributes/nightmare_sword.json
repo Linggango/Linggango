@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 9.5,
+    "attack_range": 11.0,
     "category": "sword",
     "pose": "lethality:greatsword_pose",
     "two_handed": true,
@@ -36,7 +36,11 @@
         "swing_sound": {
           "id": "lethality:nightfall_shield_use",
           "pitch": 0.2
-        }
+        },
+        "spell": "irons_spellbooks:stomp",
+        "level": 5,
+        "target": "TARGET",
+        "trigger": "on_attack"
       }
     ]
   }

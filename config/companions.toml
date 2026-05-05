@@ -449,9 +449,9 @@
 	#Crystallized Blood armor stats: [helmet, chest, legs, boots, toughness, knockbackRes, durabilityMult]. Don't use negative values
 	#and stick to the format.
 	#
-	#Default: 3, 8, 6, 3, 2.5, 0.05, 35
+	#Default: 4, 9, 7, 3, 3.5, 0.15, 40
 	#Range: -Infinity ~ Infinity
-	CRYSTALLIZED_BLOOD_SET_STATS = "3, 8, 6, 3, 2.5, 0.05, 35"
+	CRYSTALLIZED_BLOOD_SET_STATS = "4, 9, 7, 3, 3.5, 0.15, 40"
 	#Mage armor stats: [helmet, chest, legs, boots, toughness, knockbackRes, durabilityMult]. Don't use negative values and stick to the
 	#format.
 	#
@@ -461,9 +461,9 @@
 	#Holy Robe armor stats: [helmet, chest, legs, boots, toughness, knockbackRes, durabilityMult]. Don't use negative values and stick
 	#to the format.
 	#
-	#Default: 3, 8, 6, 3, 2.5, 0.05, 35
+	#Default: 5, 9, 7, 4, 3.75, 0.2, 42
 	#Range: -Infinity ~ Infinity
-	HOLY_ROBE_SET_STATS = "3, 8, 6, 3, 2.5, 0.05, 35"
+	HOLY_ROBE_SET_STATS = "5, 9, 7, 4, 3.75, 0.2, 42"
 	#Netherite Dagger stats: [miningLvl, durability, miningSpeed, baseDmg, enchantability]. Don't use negative values and stick to the
 	#format.
 	#

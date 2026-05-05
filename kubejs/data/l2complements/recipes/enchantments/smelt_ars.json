@@ -1,0 +1,67 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "l2library:boolean_config",
+          "expected": true,
+          "line": [
+            "useArsNouveauForEnchantmentRecipe"
+          ],
+          "path": "l2_configs/l2complements-common.toml"
+        }
+      ]
+    }
+  ],
+  "enchantment": "l2complements:smelt",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "goety_revelation:random_display"
+      }
+    },
+    {
+      "item": {
+        "item": "goety_revelation:revelation"
+      }
+    },
+    {
+      "item": {
+        "item": "goety_revelation:random_display"
+      }
+    },
+    {
+      "item": {
+        "item": "kubejs:lingangoonium_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "goety_revelation:random_display"
+      }
+    },
+    {
+      "item": {
+        "item": "goety_revelation:puzzle_display"
+      }
+    },
+    {
+      "item": {
+        "item": "goety_revelation:puzzle_item"
+      }
+    },
+    {
+      "item": {
+        "item": "goety_revelation:the_tip_of_the_aeglos"
+      }
+    }
+  ],
+  "sourceCost": 2000
+}

@@ -74,6 +74,7 @@
 			}
 		}
 		{ item: "create:builders_tea" }
+		{ count: 16, item: "minecraft:andesite" }
 	]
 	title: "Create"
 }

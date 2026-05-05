@@ -2,5 +2,5 @@
 [covenant_of_the_seven]
 	#Disables Iron's Spells 'n Spellbooks' Mana Bar from rendering. Band-aid fix for mana unification mods that mess with it.
 	#Default: false
-	disableManaBar = true
+	disableManaBar = false
 

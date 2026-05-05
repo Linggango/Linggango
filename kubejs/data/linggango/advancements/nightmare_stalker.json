@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": "WHAT THE HELL!",
+    "description": "Fall victim to the Nightmare Stalker. Maybe try.. taming it with monster flesh?..",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "killed_by_stalker": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "born_in_chaos_v1:nightmare_stalker"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_by_stalker"
+    ]
+  ]
+}

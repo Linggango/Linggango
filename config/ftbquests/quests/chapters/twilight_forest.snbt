@@ -1,0 +1,712 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "52FA8429D8BF5933"
+	icon: "twilightforest:lich_trophy"
+	id: "7AE72D534B89EC69"
+	images: [
+		{
+			click: "a"
+			height: 4.0d
+			hover: ["This is how you enter the dimension."]
+			image: "customtextures:textures/twilight_ritual.png"
+			rotation: 0.0d
+			width: 6.3d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 3.5d
+			image: "customtextures:textures/twilight_forest.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Twilight Forest is a exploration-based dimension mod."
+				""
+				"I mean i probably don't even need to explain it since everyone knows it."
+				""
+				"Well, all i can say is the dimension itself is very beautiful and unique!"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "4FD3545798A18F23"
+			rewards: [{
+				id: "17883586C502366C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "26EBFE2AC14E9CCE"
+				title: "Visit Twilight Forest"
+				type: "dimension"
+			}]
+			title: "Enter &dTwilight Forest"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "374FD44D5E6DC9EA"
+			tasks: [{
+				biome: "twilightforest:clearing"
+				id: "3DE5FCF05E053CA1"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "3548E38F1ED54EEA"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				id: "68CC027BF0B59C91"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "1452B1289D84E7C3"
+			tasks: [{
+				biome: "twilightforest:dense_forest"
+				id: "795C0DB9E5D326E5"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "51C54F006CBF7BDC"
+			tasks: [{
+				biome: "twilightforest:dense_mushroom_forest"
+				id: "6FE83E21041E5646"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "536F50BD5FCB457F"
+			tasks: [{
+				biome: "twilightforest:enchanted_forest"
+				id: "549D6C9A38FD4D88"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "46D5716B1AC3BB55"
+			tasks: [{
+				biome: "twilightforest:final_plateau"
+				id: "71C56B15C378B9E4"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "13F27E27C26AC256"
+			tasks: [{
+				biome: "twilightforest:fire_swamp"
+				id: "28DB17D0F7B5C4EC"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "4A919ECFB485F292"
+			tasks: [{
+				biome: "twilightforest:firefly_forest"
+				id: "5813FC6C96FEC5A5"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "59B77AB5FBA97764"
+			tasks: [{
+				biome: "twilightforest:glacier"
+				id: "04874B6562AE42D5"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "34C0D0D7A0E395C7"
+			tasks: [{
+				biome: "twilightforest:forest"
+				id: "6A6115EFE897411B"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "0369A83F5DF20B71"
+			tasks: [{
+				biome: "twilightforest:highlands"
+				id: "0DCBD1075C5DDA6B"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "7C31258A5AA6B66A"
+			tasks: [{
+				biome: "twilightforest:lake"
+				id: "1108520BB1D29916"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "5E2D2BCF229CEB47"
+			tasks: [{
+				biome: "twilightforest:mushroom_forest"
+				id: "7832E76DE3645BB1"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			id: "16CB1C3DE099816C"
+			tasks: [{
+				biome: "twilightforest:oak_savannah"
+				id: "6AD368BC65115EBC"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "33F72CE6CF82102D"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				id: "601CA70421DF1172"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "12A06637404E0CEE"
+			tasks: [{
+				biome: "twilightforest:spooky_forest"
+				id: "1A5F8855E603C235"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "1C6862E97D8E3268"
+			tasks: [{
+				biome: "twilightforest:stream"
+				id: "594EE90173B4DE62"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "298D2394DBC4A9C3"
+			tasks: [{
+				biome: "twilightforest:swamp"
+				id: "7BDEEC16AC007378"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "601A39107A6139ED"
+			tasks: [{
+				biome: "twilightforest:thornlands"
+				id: "605256B6CE861613"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "19C46A5CE9AC11AA"
+			tasks: [{
+				biome: "twilightforest:underground"
+				id: "08BF8D029A122775"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FD3545798A18F23"]
+			description: [
+				"&aNaga&r is a overdevelopped snake grown in the twilight forest's weird nature."
+				""
+				"It will the first boss we will be fighting so get ready!"
+			]
+			icon_scale: 2.0d
+			id: "6833F5F78C12D923"
+			shape: "square"
+			subtitle: "Ugly snake"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "635B654B82C26B50"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &aNaga&r"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6833F5F78C12D923"]
+			id: "19D06A5823190329"
+			shape: "hexagon"
+			subtitle: "&eCrafted with Naga's scales"
+			tasks: [{
+				id: "59F25390F4EB0F44"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6833F5F78C12D923"]
+			id: "27B4088893B23599"
+			shape: "hexagon"
+			subtitle: "&eCrafted with Naga's scales"
+			tasks: [{
+				id: "6AF5C9971CF2B909"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6833F5F78C12D923"]
+			description: [
+				"&bLich&r was a person back in the time, though he experimented with undead so much that he died."
+				""
+				"aand became an undead. Now he controls them."
+			]
+			icon: "twilightforest:lich_trophy"
+			icon_scale: 2.0d
+			id: "662A66EF54D1F6C1"
+			shape: "square"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "360EF31E19A0DC2C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &bLich&r"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["662A66EF54D1F6C1"]
+			id: "64C681A63894D526"
+			shape: "hexagon"
+			tasks: [{
+				id: "24D2F3A5024790CF"
+				item: {
+					Count: 1
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["662A66EF54D1F6C1"]
+			id: "198426567B9515DB"
+			shape: "hexagon"
+			tasks: [{
+				id: "2A096C2C63520715"
+				item: {
+					Count: 1
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["662A66EF54D1F6C1"]
+			id: "6380D7AB85EDDB72"
+			shape: "hexagon"
+			tasks: [{
+				id: "2880141217CE86CD"
+				item: {
+					Count: 1
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["662A66EF54D1F6C1"]
+			id: "0A1380BABBA1EC62"
+			shape: "hexagon"
+			tasks: [{
+				id: "020A74FA27033472"
+				item: {
+					Count: 1
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["662A66EF54D1F6C1"]
+			description: ["&cMinoshroom&r is literally just a creep.."]
+			icon: "twilightforest:minoshroom_trophy"
+			icon_scale: 2.0d
+			id: "480299F78DFF776C"
+			size: 1.0d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "5430F0B388A0D7B1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &cMinoshroom"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["480299F78DFF776C"]
+			id: "328615E9BF98A3D3"
+			shape: "hexagon"
+			tasks: [{
+				id: "0574D1EC79EBF2D8"
+				item: {
+					Count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["480299F78DFF776C"]
+			description: ["&bHydra&r is a godzilla wannabe dragon that can unleash some spicy stuff."]
+			icon: "twilightforest:hydra_trophy"
+			icon_scale: 2.0d
+			id: "7DA9146079FC80D2"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "23CBF690BA759A18"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &bHydra&r"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7DA9146079FC80D2"]
+			id: "18521C0433494B08"
+			shape: "hexagon"
+			tasks: [{
+				id: "0BE970BF344EBC20"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18521C0433494B08"]
+			id: "38C3E2B6FA7045AF"
+			shape: "gear"
+			tasks: [{
+				id: "05DA848003BE910A"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DA9146079FC80D2"]
+			icon: "twilightforest:knight_phantom_trophy"
+			icon_scale: 2.0d
+			id: "7820FC6343D58FB5"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "63FC67418C71C2A9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Knight Phantom"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7820FC6343D58FB5"]
+			id: "27F8744B70C287D6"
+			shape: "hexagon"
+			tasks: [{
+				id: "1C6C1E017BE22F5B"
+				item: {
+					Count: 1
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7820FC6343D58FB5"]
+			id: "7C129E2A27126399"
+			shape: "hexagon"
+			tasks: [{
+				id: "738A1D9E577EEC48"
+				item: {
+					Count: 1
+					id: "twilightforest:phantom_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7820FC6343D58FB5"]
+			icon: "twilightforest:ur_ghast_trophy"
+			icon_scale: 2.0d
+			id: "5DBD809698D25596"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "5C267898B434C8B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &f&lUr-Ghast"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5DBD809698D25596"]
+			id: "495BE8446C8AF947"
+			shape: "hexagon"
+			tasks: [{
+				id: "3A598CDEFBDCA7E6"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["495BE8446C8AF947"]
+			id: "0E3F64D6013D0F58"
+			shape: "diamond"
+			tasks: [{
+				id: "0774C8F9E603E707"
+				item: "twilightforest:vanishing_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["495BE8446C8AF947"]
+			id: "233F2AA76357710D"
+			shape: "diamond"
+			tasks: [{
+				id: "33A0088B923983FE"
+				item: "twilightforest:reappearing_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5DBD809698D25596"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			icon_scale: 2.0d
+			id: "18CD7CAB04565B27"
+			size: 1.0d
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "26955876CB5F3856"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &bAlpha Yeti&r"
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["18CD7CAB04565B27"]
+			id: "7125F2FC7CE53F06"
+			shape: "hexagon"
+			tasks: [{
+				id: "4E9331B297F8E52C"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["18CD7CAB04565B27"]
+			id: "5C0F84DA68D55D0D"
+			shape: "hexagon"
+			tasks: [{
+				id: "60FBF882E76C8CAC"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["18CD7CAB04565B27"]
+			icon: "twilightforest:snow_queen_trophy"
+			icon_scale: 2.0d
+			id: "2F2315F695605861"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "238C7A52418A848B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &l&bIce Queen"
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2F2315F695605861"]
+			id: "24609E7C996F8709"
+			shape: "hexagon"
+			tasks: [{
+				id: "205E58C517AEF218"
+				item: {
+					Count: 1
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2F2315F695605861"]
+			id: "120AD1D55B49C1DF"
+			shape: "hexagon"
+			tasks: [{
+				id: "64821D1134B361A8"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+	]
+	title: "Twilight Forest"
+}

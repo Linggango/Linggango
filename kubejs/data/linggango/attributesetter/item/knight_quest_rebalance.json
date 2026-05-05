@@ -1,0 +1,118 @@
+{
+
+  "knightquest:witch_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:witch_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -7,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:witch_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:witch_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:tengu_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bamboo_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -6,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bamboo_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -4,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bamboo_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bat_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -4.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bat_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -6.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -4.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bat_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -4.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -4.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "knightquest:bat_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -4.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "armageddon_mod:elvenite_paladin",
+     "armageddon_mod:vaedricthe_fallen_wanderer",
+    "armageddon_mod:the_chaos",
+    "armageddon_mod:the_discord",
+    "armageddon_mod:the_famine",
+    "armageddon_mod:bringer_of_doom",
+    "armageddon_mod:bringer_of_doom_p_2",
+    "armageddon_mod:sanghor_lord_of_blood",
+    "armageddon_mod:sanghor_lord_of_bloodp_2",
+    "armageddon_mod:zoranth_newborn_of_the_zenith",
+    "armageddon_mod:nyxaris_the_veil_of_oblivion"
+  ],
+  "size": 2
+}

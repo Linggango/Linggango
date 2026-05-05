@@ -12,21 +12,32 @@
 			click: "a"
 			height: 1.0d
 			hover: ["For starters, continue with this path."]
-			image: "hexerei:textures/book/arrow_left.png"
+			image: "modernworldcreation:textures/arrow_left_hover.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
 			y: 3.0d
 		}
 		{
+			height: 3.0d
+			image: "customtextures:textures/modular_routers_logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: -1.5d
+			y: -5.0d
 		}
 	]
 	order_index: 1
@@ -52,7 +63,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.4d
 			subtitle: "In-Game Guide"
 			tasks: [{

@@ -8,135 +8,6 @@
 	id: "49B60BD59597EF1A"
 	images: [
 		{
-			height: 1.0d
-			image: "hexerei:textures/book/p_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			height: 1.0d
-			image: "hexerei:textures/book/o_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: -4.5d
-		}
-		{
-			height: 1.0d
-			image: "hexerei:textures/book/w_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			color: 0
-			height: 1.15d
-			image: "hexerei:textures/book/a_upper.png"
-			order: -2
-			rotation: 0.0d
-			width: 1.15d
-			x: 1.03d
-			y: -4.47d
-		}
-		{
-			color: 0
-			height: 1.15d
-			image: "hexerei:textures/book/h_upper.png"
-			order: -2
-			rotation: 0.0d
-			width: 1.15d
-			x: 2.03d
-			y: -4.47d
-		}
-		{
-			color: 131586
-			height: 1.15d
-			image: "hexerei:textures/book/p_upper.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.15d
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			color: 131073
-			height: 1.15d
-			image: "hexerei:textures/book/o_upper.png"
-			order: -2
-			rotation: 0.0d
-			width: 1.15d
-			x: -0.97d
-			y: -4.47d
-		}
-		{
-			color: 0
-			height: 1.15d
-			image: "hexerei:textures/book/w_upper.png"
-			order: -3
-			rotation: 0.0d
-			width: 1.15d
-			x: 0.03d
-			y: -4.47d
-		}
-		{
-			height: 1.0d
-			image: "hexerei:textures/book/a_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -4.5d
-		}
-		{
-			height: 1.0d
-			image: "hexerei:textures/book/h_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			height: 8.0d
-			image: "powah:textures/model/tile/beam.png"
-			order: -5
-			rotation: 90.0d
-			width: 8.0d
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			color: 0
-			height: 4.2d
-			image: "minecraft:block/black_concrete"
-			order: -6
-			rotation: 0.0d
-			width: 8.3d
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			color: 0
-			height: 1.0d
-			image: "dungeonnowloading:block/mending_aura"
-			order: -6
-			rotation: 0.0d
-			width: 8.0d
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			color: 0
-			height: 1.0d
-			image: "dungeonnowloading:block/mending_aura"
-			order: -6
-			rotation: 180.0d
-			width: 8.0d
-			x: 0.0d
-			y: -3.0d
-		}
-		{
 			height: 0.5d
 			image: "ftblibrary:icons/star"
 			rotation: 0.0d
@@ -215,15 +86,25 @@
 			y: 4.5d
 		}
 		{
+			height: 1.35d
+			image: "customtextures:textures/powah_logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	order_index: 6
@@ -237,7 +118,7 @@
 				""
 				"This questline will guide you through all you need to know about this mod, so make sure you check it regularly."
 				""
-				"&8This questline was made by &e@peakmancer&r &8in our discord server, thanks for his amazing work!"
+				"&8This questline was made by &e@cristoic&r &8in our discord server, thanks for his amazing work!"
 			]
 			icon: {
 				Count: 1
@@ -252,8 +133,8 @@
 				type: "xp"
 				xp: 2
 			}]
-			shape: "hexagon"
-			size: 1.4d
+			shape: "octagon"
+			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2316B1C5518B0F74"
@@ -262,7 +143,7 @@
 			}]
 			title: "&eWelcome to Powah"
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A2DDE5D50DD8C35"]
@@ -290,7 +171,7 @@
 			}]
 			title: "In-Game Guide"
 			x: -1.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A2DDE5D50DD8C35"]
@@ -657,8 +538,8 @@
 				item: "powah:furnator_nitro"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -6.0d
+			x: 11.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["40447F9B8604C275"]
@@ -814,8 +695,8 @@
 				item: "powah:magmator_nitro"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.0d
+			x: 11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["40447F9B8604C275"]
@@ -1006,8 +887,8 @@
 				item: "powah:thermo_generator_nitro"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.0d
+			x: 12.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["40447F9B8604C275"]
@@ -1211,8 +1092,8 @@
 				type: "item"
 			}]
 			title: "Solar Panel"
-			x: 13.5d
-			y: -6.0d
+			x: 12.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["40447F9B8604C275"]
@@ -1238,7 +1119,7 @@
 					xp_levels: 1
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				count: 36L
 				id: "730861DBFC566942"
@@ -1272,7 +1153,7 @@
 					xp_levels: 1
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				count: 36L
 				id: "678998E6A9A83E48"
@@ -1307,7 +1188,7 @@
 					xp_levels: 1
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				count: 36L
 				id: "0A298EB06C82E466"
@@ -1341,7 +1222,7 @@
 					xp_levels: 1
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				count: 36L
 				id: "7F4C9A7D95DF380B"
@@ -1375,7 +1256,7 @@
 					xp_levels: 1
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				count: 36L
 				id: "303CBB6FF6D59629"
@@ -1409,15 +1290,15 @@
 					xp_levels: 1
 				}
 			]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				count: 36L
 				id: "383697ED4F009660"
 				item: "powah:reactor_nitro"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -6.5d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["424912134C999086"]
@@ -1602,8 +1483,8 @@
 				item: "powah:energy_cell_nitro"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -7.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["424912134C999086"]
@@ -1829,8 +1710,8 @@
 				item: "powah:ender_cell_nitro"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4ECA971BF00DC34C"]
@@ -2048,8 +1929,8 @@
 				item: "powah:energy_cable_nitro"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.0d
+			x: 6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["424912134C999086"]
@@ -2211,7 +2092,6 @@
 		}
 		{
 			dependencies: ["3366BE04684F3413"]
-			hide_dependency_lines: true
 			id: "6529E1015949ADCF"
 			optional: true
 			rewards: [
@@ -2232,8 +2112,8 @@
 				item: "powah:ender_gate_nitro"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["40447F9B8604C275"]
@@ -2367,8 +2247,8 @@
 				type: "item"
 			}]
 			title: "Nitro Tier"
-			x: 10.0d
-			y: -5.5d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4161BC5BBC960899"]
@@ -2646,7 +2526,7 @@
 				item: "powah:energizing_rod_nitro"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -2871,8 +2751,8 @@
 				item: "powah:battery_nitro"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -7.0d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["424912134C999086"]
@@ -3114,8 +2994,8 @@
 				item: "powah:player_transmitter_nitro"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["505A752D6BA43CED"]
@@ -3498,8 +3378,8 @@
 				item: "powah:energy_hopper_nitro"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3366BE04684F3413"]
@@ -3524,8 +3404,8 @@
 				item: "powah:energy_discharger_nitro"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1F1D7F220D16B303"]

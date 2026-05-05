@@ -34,7 +34,7 @@
 	damage = 6.0
 	#Attack Knockback for Gargoyle
 	#Range: 0.5 ~ 2.0
-	attack_knockback = 2.0
+	attack_knockback = 1.2
 	#Knockback Resistance for Gargoyle
 	#Range: 0.3 ~ 1.0
 	knockback_resistance = 1.0
@@ -168,11 +168,11 @@
 [lampad]
 	#Health for Amarok
 	#Range: 50.0 ~ 1.7976931348623157E308
-	health = 50.0
+	health = 100.0
 	#Armor for Amarok
 	#Range: 2.0 ~ 6.0
-	armor = 2.0
+	armor = 4.0
 	#Damage for Amarok
 	#Range: 6.0 ~ 1.7976931348623157E308
-	damage = 6.0
+	damage = 8.0
 

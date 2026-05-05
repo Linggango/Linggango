@@ -1,27 +1,15 @@
 {
 	id: "387356ABA4766508"
 	loot_size: 1
-	order_index: 7
+	order_index: 8
 	rewards: [
 		{ count: 6, item: "minecraft:iron_block", title: "SECRET" }
 		{ count: 6, item: "minecraft:gold_block", title: "SECRET" }
 		{ count: 2, item: "minecraft:diamond_block", title: "SECRET" }
-		{
-			item: {
-				Count: 1
-				id: "arts_and_crafts:bleached_chalk_stick"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
 		{ count: 2, item: "enigmaticdice:enigmatic_die", title: "SECRET" }
 		{ item: "mynethersdelight:chilidog" }
-		{ item: "productivetrees:tangerine_stairs", title: "SECRET" }
 		{ item: "netherexp:shotgun_core", title: "SECRET" }
 		{ item: "create_connected:control_chip", title: "SECRET" }
-		{ item: "productivetrees:red_banana_sign", title: "SECRET" }
 		{ item: "goety:undeath_potion", title: "SECRET" }
 		{
 			command: "/summon minecraft:creeper"
@@ -31,7 +19,6 @@
 			type: "command"
 		}
 		{ count: 1500, item: "industrialforegoing:fertilizer", title: "SECRET" }
-		{ item: "productivetrees:mandarin_sapling", title: "SECRET" }
 		{
 			command: "/summon minecraft:tnt"
 			elevate_perms: true
@@ -70,7 +57,6 @@
 			}
 			title: "SECRET"
 		}
-		{ item: "aromatic:cinnamon_tea", title: "SECRET" }
 		{
 			item: {
 				Count: 1
@@ -85,16 +71,6 @@
 			item: {
 				Count: 1
 				id: "armageddon_mod:novice_builder_armor_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
-				id: "block_factorys_bosses:warrior_sword"
 				tag: {
 					Damage: 0
 				}
@@ -120,7 +96,6 @@
 			title: "SECRET"
 			type: "command"
 		}
-		{ item: "foolish:lightning_reed", title: "SECRET" }
 		{
 			item: {
 				Count: 1
@@ -132,7 +107,6 @@
 			title: "SECRET"
 		}
 		{ item: "undergarden:catalyst", title: "SECRET" }
-		{ item: "productivetrees:citron_sapling", title: "SECRET" }
 		{
 			item: {
 				Count: 1
@@ -143,6 +117,15 @@
 			}
 			title: "SECRET"
 		}
+		{
+			command: "/summon capybara:capybara"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+		}
+		{ count: 32, item: "minecraft:andesite", title: "SECRET" }
+		{ count: 2, item: "thermal:niter_block", title: "SECRET" }
 	]
 	title: "Low risk"
 }

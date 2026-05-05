@@ -23,7 +23,7 @@
 		manaBarDisplay = "Contextual"
 		#Used to adjust mana bar's position (11 is one full hunger bar up).
 		manaBarXOffset = 0
-		manaBarYOffset = 0
+		manaBarYOffset = 10
 		manaBarTextVisible = true
 		#Allowed Values: Hunger, XP, Center, TopLeft, TopRight, BottomLeft, BottomRight
 		manaBarAnchor = "Center"
@@ -46,6 +46,12 @@
 		recastXOffset = 20
 		recastYOffset = 0
 
+	[UI.SpellWheel]
+		#Whether to Spell Wheel size ignores the Gui scale option
+		ignoreGuiScale = false
+		#If ignoreGuiScale is enabled, apply this multiplier to its size
+		ignoreGuiScaleSizeMultiplier = 1.0
+
 [Animations]
 	#What to render in first person while casting.
 	showFirstPersonArms = true
@@ -58,4 +64,14 @@
 
 [Music]
 	enableBossMusic = true
+
+[Misc]
+	#Whether shield spells can collide with particles. Can affect performance. Default: true
+	shieldParticleCollisions = true
+
+[Summons]
+	#Whether owned summons appear glowing to yourself. Default: true
+	ownedSummonsGlow = true
+	#Hex Color Value of owned summons glow outline. Default: 0xAAFFAA
+	summonGlowColor = "0xAAFFAA"
 

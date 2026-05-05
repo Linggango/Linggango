@@ -1,0 +1,21 @@
+{
+    "parent": "bettercombat:sword",
+  "attributes": {
+    "pose": "bettercombat:one_handed_sword",
+    "attack_range": 2.1,
+   "attacks": [
+      {
+        "swing_sound" : { "id" : "bosses_of_mass_destruction:comet_shoot"},
+        "pitch": 1.2
+      },
+      {
+        "swing_sound" : { "id" : "bosses_of_mass_destruction:comet_shoot"},
+        "pitch": 1.2
+      },
+      {
+        "swing_sound" : { "id" : "bosses_of_mass_destruction:comet_shoot"},
+        "pitch": 1.2
+      }
+    ]
+  }
+}

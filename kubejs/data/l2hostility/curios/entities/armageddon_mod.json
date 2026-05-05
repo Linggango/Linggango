@@ -1,0 +1,36 @@
+{
+  "conditions": [],
+  "entities": [
+    "armageddon_mod:the_iron_colossus",
+    "armageddon_mod:the_gobelin_lord",
+   "armageddon_mod:arion_tyrant_of_the_emerald_wrath_soldat",
+    "armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager",
+    "armageddon_mod:eldoraththe_ancient_builder",
+    "armageddon_mod:zoranththe_forgotten_one",
+    "armageddon_mod:vaedricthe_fallen_wanderer",
+    "armageddon_mod:elvenite_paladin",
+    "armageddon_mod:the_chaos",
+    "armageddon_mod:the_discord",
+    "armageddon_mod:the_famine",
+    "armageddon_mod:bringer_of_doom",
+    "armageddon_mod:bringer_of_doom_p_2",
+    "armageddon_mod:sanghor_lord_of_blood",
+    "armageddon_mod:sanghor_lord_of_bloodp_2",
+    "armageddon_mod:zoranth_newborn_of_the_zenith",
+    "armageddon_mod:nyxaris_the_veil_of_oblivion",
+    "minecraft:wither",
+    "minecraft:warden",
+    "minecraft:ender_dragon"
+  ],
+  "slots": [
+    "charm",
+    "ring",
+    "belt",
+    "hands",
+    "necklace",
+    "body",
+    "head",
+    "accessory",
+    "spellstone"
+  ]
+}

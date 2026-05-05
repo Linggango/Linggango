@@ -1,0 +1,13 @@
+{
+  "conditions": [],
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "head",
+    "charm",
+    "ring",
+    "hands",
+    "hostility_curse"
+  ]
+}

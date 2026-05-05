@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "lethality:defiled_greatsword"
+    },
+    "title": "Big Sword For Big Problems.",
+    "description": "Obtain Defiled Greatsword",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lethality:defiled_greatsword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

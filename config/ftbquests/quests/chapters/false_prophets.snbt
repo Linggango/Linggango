@@ -1,0 +1,1165 @@
+{
+	always_invisible: true
+	autofocus_id: "155C2CD942825FCC"
+	default_hide_dependency_lines: false
+	default_quest_shape: "netheritetier"
+	filename: "false_prophets"
+	group: "37784D9C95A7F8C5"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "macabre:block/ferndul"
+		}
+	}
+	id: "00213926B201D368"
+	images: [
+		{
+			dependency: "4C22709BA6360D9B"
+			height: 1.0d
+			image: "macabre:block/meatflaps"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.7785714285714036d
+			y: 0.3095238095238173d
+		}
+		{
+			dependency: "4C22709BA6360D9B"
+			height: 1.0d
+			image: "macabre:block/meatflaps"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.1499999999999773d
+			y: 0.3380952380952422d
+		}
+		{
+			dependency: "4C22709BA6360D9B"
+			height: 1.0d
+			image: "macabre:block/meatflaps"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.7428571428570976d
+			y: 1.7357142857142804d
+		}
+		{
+			dependency: "4C22709BA6360D9B"
+			height: 1.0d
+			image: "macabre:block/meatflaps"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.114285714285664d
+			y: 1.7357142857142804d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: -45.0d
+			width: 1.0d
+			x: 0.24285714285709759d
+			y: -2.8857142857142932d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.9404761904761543d
+			y: -1.0738095238095369d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 75.0d
+			width: 1.0d
+			x: 1.9404761904761543d
+			y: -2.573809523809537d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.11428571428565d
+			y: -3.5714285714285765d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5428571428570805d
+			y: -3.5714285714285765d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.599999999999952d
+			y: -1.7714285714285651d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 180.0d
+			width: 1.0d
+			x: 4.028571428571368d
+			y: -1.7714285714285651d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.297619047618994d
+			y: -2.230952380952381d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.399999999999949d
+			y: -3.085714285714282d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.4571428571427987d
+			y: -2.4285714285714235d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:textures/particle/bloodparticle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.473809523809464d
+			y: -3.8571428571428683d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.685714285714248d
+			y: -1.9285714285714306d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.1857142857142335d
+			y: -1.7309523809523952d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.1857142857142335d
+			y: -1.2309523809523952d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.935714285714255d
+			y: -3.857142857142861d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.828571428571394d
+			y: -3.607142857142861d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6857142857142335d
+			y: -1.7309523809523952d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.1857142857142335d
+			y: -2.2309523809523952d
+		}
+		{
+			dependency: "7447249A0F85D8BA"
+			height: 1.0d
+			image: "macabre:block/sd1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6857142857142335d
+			y: -2.2309523809523952d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 2.0d
+			image: "macabre:textures/screens/oczy9.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.64999999999997d
+			y: -1.3214285714285694d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 2.0d
+			image: "macabre:textures/screens/oczy9.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 10.8285714285714d
+			y: -1.2857142857142847d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.364285714285685d
+			y: -2.250000000000007d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
+			rotation: 23.0d
+			width: 2.0d
+			x: 9.757142857142824d
+			y: -1.2857142857142918d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.4404761904761543d
+			y: -1.5738095238095369d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.4404761904761543d
+			y: -1.5738095238095369d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.4404761904761543d
+			y: -2.073809523809537d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.4404761904761543d
+			y: -2.573809523809537d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.9404761904761543d
+			y: -2.573809523809537d
+		}
+		{
+			dependency: "1C4A7CC605B59DF7"
+			height: 1.0d
+			image: "macabre:block/bababoy2"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.4404761904761543d
+			y: -2.073809523809537d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.797619047618994d
+			y: -3.230952380952381d
+		}
+		{
+			dependency: "5638CED77424242D"
+			height: 1.0d
+			image: "macabre:block/bababoy4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.4714285714285325d
+			y: -4.5d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0785714285714d
+			y: 0.8928571428571388d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.22142857142854d
+			y: -2.142857142857153d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.149999999999963d
+			y: -0.4642857142857224d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.435714285714248d
+			y: -0.5000000000000071d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.114285714285678d
+			y: 0.3571428571428541d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "aromatic:block/cinnamon_leaves_bottom_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.757142857142824d
+			y: -1.8214285714285765d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "aromatic:block/cinnamon_leaves_bottom_left"
+			rotation: 32.0d
+			width: 1.0d
+			x: 9.757142857142824d
+			y: -0.7857142857142918d
+		}
+		{
+			dependency: "1A3D29373F2D26AA"
+			height: 1.0d
+			image: "macabre:block/bigrosedown"
+			rotation: 180.0d
+			width: 1.0d
+			x: 9.3285714285714d
+			y: 0.3214285714285623d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.41768707482990663d
+			y: 0.6642857142856968d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7447249A0F85D8BA"]
+			description: ["&4From stillness comes devastation. Baal's portal births colossal arms of pure malice, each strike reshaping the very ground beneath your feet. Motionless yet omnipresent, he embodies the paradox of unstoppable force meeting immovable object. Even in death, his heart pounds with calamitous energy."]
+			icon_scale: 1.2d
+			id: "1A3D29373F2D26AA"
+			min_width: 500
+			rewards: [
+				{
+					id: "244DF2C411C318CC"
+					table_id: 8699295573854160387L
+					title: "&l&4Glorious"
+					type: "random"
+				}
+				{
+					id: "6F1D66372AE7BA12"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "netheritetier"
+			size: 1.5d
+			subtitle: "The Silent Cataclysm"
+			tasks: [{
+				entity: "macabre:baal"
+				icon: "macabre:baal_heart"
+				id: "49B03FBFDE364957"
+				title: "Slay &cBaal, the Motionless Calamity"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.4357142857142335d
+			y: -3.2309523809523952d
+		}
+		{
+			dependencies: ["5638CED77424242D"]
+			description: [
+				"&4Torso upon torso, mouth upon mouth—Gomoria speaks in languages that predate creation. His prayers are blasphemies that make reality recoil. Each whispered word carries the weight of cosmic heresy. Go, and silence his unholy liturgy. From his stilled heart, new power awaits."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:500 height:15 align:center}"
+				"&oGo shut his prayers :3"
+			]
+			icon_scale: 1.2d
+			id: "7447249A0F85D8BA"
+			min_width: 500
+			rewards: [
+				{
+					id: "4D958BB025478D09"
+					table_id: 8699295573854160387L
+					title: "&l&4Glorious"
+					type: "random"
+				}
+				{
+					id: "650D397AD80B2B59"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "netheritetier"
+			size: 1.5d
+			subtitle: "Whisperer of Bone and Flesh"
+			tasks: [{
+				entity: "macabre:gomoria"
+				icon: "macabre:gomoria_heart"
+				id: "67892F4DB26A93E5"
+				title: "Slay &cGomoria, the Fleshmonger Monk"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.297619047618994d
+			y: -2.730952380952381d
+		}
+		{
+			dependencies: ["1C4A7CC605B59DF7"]
+			description: ["&4A cathedral of scars made flesh, Valamon's body weeps eternal tears of crimson. Each joint tells a story of torment, every seam a testament to unholy resurrection. His form is assembled from countless souls—and he hungers for one more. When his stitched form finally falls, his butcher's heart will be yours to claim."]
+			icon_scale: 1.2d
+			id: "5638CED77424242D"
+			min_width: 500
+			rewards: [
+				{
+					id: "2786BE81911BAF4F"
+					table_id: 8699295573854160387L
+					title: "&l&4Glorious"
+					type: "random"
+				}
+				{
+					id: "7F1030F8D683CDF9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "netheritetier"
+			size: 1.5d
+			subtitle: "Harbinger of the Scars"
+			tasks: [{
+				entity: "macabre:valamon"
+				icon: "macabre:valamon_heart"
+				id: "44A7EBE249543A76"
+				title: "Slay &cValamon, The Corpse Butcher"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.9404761904761543d
+			y: -2.073809523809537d
+		}
+		{
+			dependencies: ["1A3D29373F2D26AA"]
+			description: [
+				"&4Gargamaw transcends mere monstrosity—he is appetite given form, gluttony carved from nightmares. His maw devours not just flesh but hope itself. This calamitous monument to consumption awaits those foolish enough to approach his throne of bones. His massive heart, when finally stilled, pulses with the power of endless hunger."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:500 height:15 align:center}"
+				"&oIt is a calamity given form, a gluttonous monument."
+			]
+			icon_scale: 1.3d
+			id: "2129027DAA1584A2"
+			min_width: 500
+			rewards: [
+				{
+					id: "62A485A88A545A92"
+					table_id: 8699295573854160387L
+					title: "&l&4Glorious"
+					type: "random"
+				}
+				{
+					id: "485C3DEB519E636E"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "netheritetier"
+			size: 1.5d
+			subtitle: "Devourer of Despair"
+			tasks: [{
+				entity: "macabre:gargamaw"
+				icon: "macabre:gargamaw_heart"
+				id: "1DD8960D5FE759B6"
+				title: "Slay &cGargamaw, the Grotesque Consumer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.72142857142854d
+			y: -1.3214285714285694d
+		}
+		{
+			dependencies: ["4C22709BA6360D9B"]
+			description: ["&4To face Morphegor is to confront your own fractured soul. This prophet of division splits reality itself, showing you truths you were never meant to see. In his presence, you become two—the observer and the observed, locked in eternal paradox. From his defeat, his heart will spill forth, still beating with divided purpose."]
+			icon_scale: 1.2d
+			id: "1C4A7CC605B59DF7"
+			min_width: 500
+			rewards: [
+				{
+					id: "12AF173309420000"
+					table_id: 8699295573854160387L
+					title: "&l&4Glorious"
+					type: "random"
+				}
+				{
+					id: "6D64D7C7149B98B3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "netheritetier"
+			size: 1.5d
+			subtitle: "The Prism of Shadows"
+			tasks: [{
+				entity: "macabre:morphegor_split"
+				icon: "macabre:morphegor_heart"
+				id: "344BD329A03188F8"
+				title: "Slay &cMorphegor, The Split Deceiver"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.9119047619047294d
+			y: 1.0047619047618923d
+		}
+		{
+			dependencies: ["218A1EC80DE60194"]
+			description: [
+				"&4Forged in whispers of damnation and quenched in the marrow of the forgotten, this dirk is no mere weapon—it is a key carved in blood. Its jagged edge thirsts for the living. Four cuts upon your flesh, four offerings to the void. With each slice, reality grows thinner, and the voices grow louder. On the final cut, your very essence crystallizes into a key that will rupture reality itself. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&4To carry it is to carry blasphemy itself. To use it… is to be damned forever."
+				""
+				"&8Credits: l1badu (improved the quest thanks to him :D)"
+			]
+			icon: "macabre:sacrificial_dirk"
+			id: "155C2CD942825FCC"
+			rewards: [{
+				id: "67D6745CDE00BF2F"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			subtitle: "Use the Sacrificial Dirk 4 times to obtain Crystallized Blood "
+			tasks: [{
+				id: "49EB506A5458292C"
+				item: "macabre:sacrificial_dirk"
+				type: "item"
+			}]
+			title: "&4The Sacrificial Blade"
+			x: -2.5d
+			y: 6.376190476190473d
+		}
+		{
+			dependencies: ["155C2CD942825FCC"]
+			description: [
+				"&4Born from your offering, every fragment carries the screams of those who abandoned God's light. To hold it is to hear echoes of the damned. Use it now—rupture reality itself and step into the realm where False Prophets writhe and rule. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:500 height:15 align:center}"
+				"&4&oTo hold it is to hear echoes of the damned. To use it is to rupture reality itself—splitting open the threshold and dragging you into &4The Pit,&r &4where the False Prophets writhe and rule."
+			]
+			id: "4807DF76B710A9A7"
+			min_width: 500
+			rewards: [{
+				id: "275E76DCAFFCBD02"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "netheritetier"
+			subtitle: "Use Crystallized Blood to enter The Pit"
+			tasks: [{
+				id: "5820C83835C62509"
+				item: {
+					Count: 1
+					id: "macabre:crystalized_blood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4Rupturing Reality"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42A33E7AC838E445"]
+			description: [
+				"&4Ancient spires pierce the flesh-sky, their heights crowned with unspeakable guardians. "
+				""
+				"&4At each tower's peak, emptiness takes form. "
+				""
+				"&4The Hollow Man—neither alive nor truly dead—stands sentinel over secrets best left buried. "
+				""
+				"&4Strike him down, and from his hollow corpse will spill the Root of Infestation, a key to awakening far greater horrors. "
+			]
+			hide_details_until_startable: false
+			id: "4C22709BA6360D9B"
+			min_width: 500
+			rewards: [{
+				id: "1C161C099DA29497"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "netheritetier"
+			size: 1.3d
+			subtitle: "Defeat the Hollow Man and obtain Root of Infestation"
+			tasks: [{
+				advancement: "macabre:ach_2"
+				criterion: ""
+				id: "6D271AF8F2FABA9B"
+				title: "Defeat The Hollow Man"
+				type: "advancement"
+			}]
+			title: "&cThe Hollow Man Cometh"
+			x: 1.0214285714285225d
+			y: 1.999999999999993d
+		}
+		{
+			dependencies: ["42A33E7AC838E445"]
+			id: "230359CD59EB9D67"
+			rewards: [
+				{
+					count: 3
+					id: "1D290D0243F9F1D7"
+					item: "macabre:plasma"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "75302A30BD4DBF54"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Can be crafted."
+			tasks: [{
+				id: "6A20A7097F87FE9F"
+				item: "macabre:plasma"
+				type: "item"
+			}]
+			x: -2.5833333333333712d
+			y: 2.0523809523809504d
+		}
+		{
+			dependencies: ["42A33E7AC838E445"]
+			id: "32B347647E668F12"
+			rewards: [
+				{
+					count: 3
+					id: "6EFF84566FA40247"
+					item: "macabre:blood_clot_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "27535D372DF1B041"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Can be crafted aswell."
+			tasks: [{
+				id: "3E735BAD23438049"
+				item: "macabre:blood_clot_ingot"
+				type: "item"
+			}]
+			x: 0.4142857142856968d
+			y: 4.670238095238098d
+		}
+		{
+			dependencies: ["4807DF76B710A9A7"]
+			description: [
+				"&4The Pit sprawls before you—a tapestry of flesh and nightmare. "
+				""
+				"&4The Gloom Forest whispers secrets in a language older than time. "
+				""
+				"&4The Valley of Eyes watches your every step with a thousand unblinking gazes. "
+				""
+				"&4The Mortem Swamp bubbles with the essence of decay itself. "
+				""
+				"&4Walk among these cursed lands and learn the geography of your damnation "
+			]
+			id: "42A33E7AC838E445"
+			min_width: 500
+			rewards: [{
+				id: "10C8B475856DDDE6"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.2d
+			subtitle: "Explore the common biomes in the pit"
+			tasks: [
+				{
+					biome: "macabre:gloom_forest"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "verdant:block/potted_mushgloom"
+						}
+					}
+					id: "598DC97979FEF20A"
+					type: "biome"
+				}
+				{
+					biome: "macabre:valley_of_eyes"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "macabre:block/pop"
+						}
+					}
+					id: "7A97EECB4314289E"
+					type: "biome"
+				}
+				{
+					biome: "macabre:mortem_swamp"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "macabre:block/mortembush1"
+						}
+					}
+					id: "6221DDB970B92489"
+					type: "biome"
+				}
+			]
+			title: "&4Survey of the Damned"
+			x: -1.0d
+			y: 3.2897959183672683d
+		}
+		{
+			dependencies: [
+				"7447249A0F85D8BA"
+				"2129027DAA1584A2"
+				"5638CED77424242D"
+				"1A3D29373F2D26AA"
+				"1C4A7CC605B59DF7"
+			]
+			description: [
+				"&cIn the beginning, there was &4&kASIFJASIUFHUIAS&r. &cThe False Prophets were but servants of a greater darkness, fragments of a deity whose name was &4You.&r "
+				""
+				"&cYou are not the hero of this tale—you are its origin, its end, its eternal return. The whispers you heard were your own voice, echoing backward through time."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dreamwoods:item/bloodwood_door_32"
+				}
+			}
+			icon_scale: 2.0d
+			id: "039676A9DB2CAE1C"
+			min_width: 500
+			rewards: [{
+				id: "73BE1DD37AD3DA0A"
+				item: {
+					Count: 1
+					id: "lethality:nightmare_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Defeat all five False Prophets"
+			tasks: [{
+				id: "0EF3DD8B61C882BF"
+				title: "Well Done"
+				type: "checkmark"
+			}]
+			title: "&4The Dead God's Name"
+			x: 6.078571428571401d
+			y: 0.3571428571428541d
+		}
+		{
+			dependencies: ["230359CD59EB9D67"]
+			id: "700294B3653A2FB8"
+			rewards: [{
+				id: "075C8486A60828C8"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "4809D5251BF11257"
+					item: {
+						Count: 1
+						id: "macabre:plasma_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64EC16D97F21CC73"
+					item: {
+						Count: 1
+						id: "macabre:plasma_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40A35DA3C39D7115"
+					item: {
+						Count: 1
+						id: "macabre:plasma_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12B2A6BD3CEBA85E"
+					item: {
+						Count: 1
+						id: "macabre:plasma_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27CF3CF82E2DB19C"
+					item: {
+						Count: 1
+						id: "macabre:plasma_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F965500C11D9ECA"
+					item: {
+						Count: 1
+						id: "macabre:plasma_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CCC6D91FCA211F9"
+					item: {
+						Count: 1
+						id: "macabre:plasma_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE8E4E8D01C01A6"
+					item: {
+						Count: 1
+						id: "macabre:plasma_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plasma Tools"
+			x: -4.6928571428571715d
+			y: 1.6345238095237988d
+		}
+		{
+			dependencies: ["32B347647E668F12"]
+			id: "5CBB67FB9A360098"
+			rewards: [{
+				id: "25EDE6E71C9FF99C"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "2F2FD9EE24C3659D"
+					item: {
+						Count: 1
+						id: "macabre:blood_cloth_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0A9820AF39E553"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514B35B4EF106894"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2868A9942DE06D80"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BACBD72D64A2EB0"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D9D6FFE61380985"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DC2C87EB98BC6D9"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51545FAF17BF4020"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Clot Tools"
+			x: 1.128571428571405d
+			y: 6.534523809523812d
+		}
+		{
+			dependencies: ["32B347647E668F12"]
+			id: "3E0DAD514C4001AE"
+			rewards: [{
+				id: "7544645F3F2F1FEA"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "3B77366EA9EAB0F9"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F35822E7CD2A5A6"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E9D0585B6B36B7D"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40A839DCC8839CB4"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Clot Armor Set"
+			x: 2.271428571428544d
+			y: 5.205952380952375d
+		}
+		{
+			dependencies: ["230359CD59EB9D67"]
+			id: "5AC2B2235A903D7E"
+			tasks: [
+				{
+					id: "3BEB6458537FFA9B"
+					item: {
+						Count: 1
+						id: "macabre:plasma_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678F14AAE225589E"
+					item: {
+						Count: 1
+						id: "macabre:plasma_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73531F0DB4CCBDAB"
+					item: {
+						Count: 1
+						id: "macabre:plasma_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "682AEF9687EFA0E9"
+					item: {
+						Count: 1
+						id: "macabre:plasma_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plasma Armor Set"
+			x: -3.371428571428595d
+			y: 0.24166666666666714d
+		}
+	]
+	title: "&4&k5454&r&4The Pit&k3463"
+}

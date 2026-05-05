@@ -1,0 +1,20 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety_revelation:ascension_halo"
+  },
+  "research": "lord",
+  "craftType": "master_forge",
+  "soulCost": 670,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:dark_metal_block"
+    } 
+  ],
+  "result": {
+    "item": "kubejs:apocalyptium_block",
+    "count": 1
+  }
+}

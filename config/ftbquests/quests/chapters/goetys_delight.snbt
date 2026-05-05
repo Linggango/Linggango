@@ -1,0 +1,2540 @@
+{
+	autofocus_id: "682B2839F2AE4B82"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "goetys_delight"
+	group: "509FB55A8427ED0C"
+	icon: "goetydelight:night_stove"
+	id: "4233E98720C3A224"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 3.7d
+			image: "customtextures:textures/goetys_delicacy.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Goety's Delight is a very powerful addon for Goety"
+				""
+				"It introduces extremely freaky meals, potion effects and overall good times"
+				""
+				"&8(Questline made by &eSoot (@Sootyboy)&r &8In the Linggango Discord Server."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:item/night_heart_pea_soup_block"
+				}
+			}
+			id: "682B2839F2AE4B82"
+			shape: "square"
+			size: 1.25d
+			subtitle: "Cooking with the Witches!!"
+			tasks: [{
+				id: "14262B8D65DB2B2A"
+				title: "Interesting"
+				type: "checkmark"
+			}]
+			title: "&bGoety Delight"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["682B2839F2AE4B82"]
+			description: [
+				"Goety's Delight introduces even more potion effects to the already astounding amount that Goety itself adds."
+				""
+				"All potion effects applied by foods are explained in the food item itself, if its not there then its in this section OR its a vanilla effect that i suppose you already know."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/gui/soul_slot.png"
+				}
+			}
+			id: "78F61F8779DD04D5"
+			shape: "octagon"
+			subtitle: "Like a kid in a chocolate factory"
+			tasks: [{
+				id: "2F24659EAD925033"
+				title: "Potion Effects"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["Prevents random Illager assaults that may occur when you have allot of Soul Energy on your person."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/hunting_denial.png"
+				}
+			}
+			id: "4563264B28CDB694"
+			shape: "square"
+			subtitle: "Popular Loner Status"
+			tasks: [{
+				id: "39651997589F6244"
+				title: "Hunting Denial"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["Restores health when submerged in water blocks, flowing water, or rain. Each level of the buff increases recovery rate by 1 point."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/hydration.png"
+				}
+			}
+			id: "281A411323048BE9"
+			shape: "square"
+			subtitle: "I am drinking tea right now -dtt234"
+			tasks: [{
+				id: "59916AE5206F3A06"
+				title: "Hydration"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["When taking damage, 50% chance to summon a zombie piglin brute minion that fights for you. (3 minute duration)"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/zombified_piglin_brute_servant_support.png"
+				}
+			}
+			id: "0624FB4D1592E4A1"
+			shape: "square"
+			subtitle: "TO ME! MY PIGS!"
+			tasks: [{
+				id: "5786E491B3ADDC1E"
+				title: "Piglin Support"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["During the buff duration, when you summon a servant, an additional servant will also be summoned."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/servant_reinforcement.png"
+				}
+			}
+			id: "1818993DCEF67042"
+			shape: "square"
+			subtitle: "1 dollar or 2 dollar"
+			tasks: [{
+				id: "1754B6EA5E7BB3A4"
+				title: "Servant Reinforcement"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["Honestly, I have no idea what this does. "]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/spell_duration.png"
+				}
+			}
+			id: "135B70A3C2BA57E1"
+			shape: "square"
+			subtitle: "Get ready to learn chinese buddy"
+			tasks: [{
+				id: "098A8601EB148BA2"
+				title: "Spell Duration"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["During the buff's duration, each level of the buff increases spell potency by 2 levels."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/spell_mastery.png"
+				}
+			}
+			id: "6D9E04177A6923CC"
+			shape: "square"
+			subtitle: "You're a wizard Harry!"
+			tasks: [{
+				id: "1D783A7274C7ABB4"
+				title: "Spell Mastery"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["When attacking, summons hellfire at the target's feet. Provides immunity to debuffs and halves incoming damage."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/the_pale_messenger.png"
+				}
+			}
+			id: "7F39314AD9DBB596"
+			shape: "square"
+			subtitle: "Hand it over. That thing. Your DARK SOUL"
+			tasks: [{
+				id: "12DFFA01E1BC15A9"
+				title: "The Pale Messenger"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: [
+				"During the effect duration: "
+				""
+				"-Effect holder will be aimlessly pushed around"
+				""
+				"-Deals 1 damage to the effect holder every 25 ticks, with damage interval halved per level"
+				""
+				"-Grants 10% attack damage bonus to the effect holder"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/tingling.png"
+				}
+			}
+			id: "211FCD688DB067DC"
+			shape: "square"
+			subtitle: "That's electric-tric-tric-tric"
+			tasks: [{
+				id: "0C417120881E264F"
+				title: "Tingling"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["Effect holder`s attacks deal additional void damage equal to the effect level."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/void_affix.png"
+				}
+			}
+			id: "364E439CF433EFD1"
+			shape: "square"
+			subtitle: "Finally, a weapon to surpass Metal Gear"
+			tasks: [{
+				id: "0D5B4D05198FD434"
+				title: "Void Affix"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["50% increased damage to creatures that have emitted sounds within the last 5 seconds"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/warden.png"
+				}
+			}
+			id: "7F0E7F696DA6EEE6"
+			shape: "square"
+			subtitle: "If you cant beat em, join em."
+			tasks: [{
+				id: "6C9070AE2CDD2BDC"
+				title: "Warden"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78F61F8779DD04D5"]
+			description: ["Prevents Wight spawns for the effect`s duration."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/wight_denial.png"
+				}
+			}
+			id: "0E9E17202F71BE7D"
+			shape: "square"
+			subtitle: "Say no to drugs kids"
+			tasks: [{
+				id: "13246F271A72133E"
+				title: "Wight Denial"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["682B2839F2AE4B82"]
+			description: [
+				"Cooks dishes 1.5x faster."
+				"Uses Soul Energy to cook, one dish can be cooked with every 50 points of Soul Energy."
+			]
+			id: "1A4FBA91C8976C78"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "Shady stoves do shady things..."
+			tasks: [{
+				id: "239AB4AC003277BB"
+				item: "goetydelight:shade_stove"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A4FBA91C8976C78"]
+			description: [
+				"Uses Soul Energy to cook, one dish can be cooked with every 50 points of Soul Energy."
+				"Undead creatures within a radius of 32 blocks are neutral to the player (non-boss only)."
+				"Players within the radius will constantly get Fire Resistance and Regeneration."
+				"Players within the radius will deal 25% increased damage and have 25% damage reduction."
+				"The Night Stove can serve as a Smoker for recipes."
+				"The Night Stove smokes food twice as fast as a regular Smoker."
+				"At night, the Night Stove smokes food four times as fast as a a regular Smoker and doesn't consume Soul Energy."
+				"The Night Stove accerelates the cooking effect of pots placed above it by 2x. "
+			]
+			id: "6C8B11CD8D27F956"
+			shape: "octagon"
+			subtitle: "A better stove that harnesses the power of the moon"
+			tasks: [{
+				id: "3CF5ECDC6A295B05"
+				item: "goetydelight:night_stove"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["682B2839F2AE4B82"]
+			description: [
+				"Cooks dishes 1.5x faster."
+				"Uses Soul Energy to cook, one dish can be cooked with every 50 points of Soul Energy."
+				"The cooked food is injected with the Soul Energy and replenishes the player's Soul Energy based on the food's saturation value."
+			]
+			hide_dependent_lines: true
+			id: "5F26D9E70BF588CE"
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "A very cursed pot that does cursed things..."
+			tasks: [{
+				id: "11A2D789C6C9C297"
+				item: "goetydelight:cursed_ingot_pot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: ["Place on the ground and right click with a bowl to get a \"Lich's Chaos Stew\", can be served 3 times and the Cursed Ingot Pot will be returned after a fourth right click."]
+			id: "26A7B793CCF580EB"
+			subtitle: "Become one with the undead."
+			tasks: [{
+				id: "4377EE637A76A8CC"
+				item: "goetydelight:lichs_chaos_stew_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26A7B793CCF580EB"]
+			description: [
+				"Only people who have refused their mortality can consume this food."
+				""
+				"After consumption: "
+				"-> Recover 16 points of Hunger"
+				"-> Recover 12 points of Saturation"
+				"-> Gain Fire Resistance Effect for an unlimited duration"
+				"-> Gain Eternity III Effect for an unlimited duration"
+				"-> Gain Wight Denial Effect for 30:00 minutes"
+				"-> The value of all servants are increased by 15% (up to 6 times)"
+				""
+				"Notes: "
+				"-> The Eternity Effect allows you to retain all current potion effects after your death at the cost of a level of the Eternity Effect itself."
+				"-> The Fire Resistance and Eternity Effects are persistant and have a detection interval of 5 seconds."
+			]
+			id: "1B54578B2C4D9A84"
+			subtitle: "\"Eternal fragments have penetrated my flesh and blood\""
+			tasks: [{
+				id: "10A5FCCB294ADAEF"
+				item: "goetydelight:lichs_chaos_stew"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: ["Place on the ground and right click with a bowl to get a \"Bone Lord's Ash Rice\", can be served 3 times and the Cursed Ingot Pot will be returned after a fourth right click."]
+			id: "1833A2089E3F02B5"
+			subtitle: "The owner of the tomb, it's time to go in the pot!"
+			tasks: [{
+				id: "1DEE963BDA4BE501"
+				item: "goetydelight:bone_lord_ash_rice_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: ["Place on the ground and right click with a glass bottle to get a bottled \"Night's Heart Pea Soup\", can be served 3 times and the Cursed Ingot Pot will be returned after a fourth right click."]
+			id: "0D9185FB4026172D"
+			subtitle: "Yofukashi no Uta"
+			tasks: [{
+				id: "3C71936D241206DC"
+				item: "goetydelight:night_heart_pea_soup_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D9185FB4026172D"]
+			description: [
+				"Can be drank regardless of hunger value."
+				""
+				"After Consumption: "
+				"-> Recover 16 points of hunger"
+				"-> Recover 48 points of Saturation"
+				"-> Gain Shadow Walk III Effect for 1:00 minute"
+				"-> Gain Strength III Effect for 5:00 minutes"
+				"-> Gain Resistance III Effect for 5:00 minutes"
+				"-> Gain Nourishing Effect for 10:00 minutes"
+				"-> Gain Comfort Effect for 10:00 minutes"
+				"-> Gain Servant Reinforcement Effect for 5:00 Minutes"
+				"-> Time becomes night"
+				"-> All servants permanently receive 5% attack bonus, a damage cap and an armor bonus (up to 12 times)"
+				"-> Doubles the cap of current summoned servants"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Comfort Effect provides a decent amount of health regeneration, even when the player's hunger meter isn't full."
+			]
+			id: "6C2CD0299449C08A"
+			subtitle: "Call of the Night"
+			tasks: [{
+				id: "1C32E9573E5CAE7F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goetydelight:night_heart_pea_soup"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1833A2089E3F02B5"]
+			description: [
+				"After consumption:"
+				"-> Recover 12 points of hunger"
+				"-> Recover 32 points of saturation"
+				"-> Gain Robust III Effect for 5:00 minutes"
+				"-> Gain Chill Hide II Effect for 5:00 minutes"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				"-> Gain Corpse Eater III Effect for 1:00 minute"
+				"-> Increases your armor points by 15 and armor toughness by 10 points, lasts 5 minutes"
+				""
+				"Notes:"
+				"-> The Robust Effect acts similarly as the Strength Effect but for your servants."
+				"-> The Chill Hide Effect gives 3 armor points per level. When receiving an attack, the attacker will be afflicted with the Frozen Effect for an unlimited duration."
+				"-> The Frozen Effects acts similarly as when you are stuck in powdered snow."
+				"-> The Corpse Eater Effect restores your starvation when a creature is killed."
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "2578B5394070ED6E"
+			subtitle: "\"Corpse Eater\""
+			tasks: [{
+				id: "64C021CE9AA25A0C"
+				item: "goetydelight:bone_lord_ash_rice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A4FBA91C8976C78"]
+			description: [
+				"The Culinary Ritual is the bread and butter of the Goety's Delight mod. It is required to make some of the mod's best food items."
+				""
+				"Here is a very simple example of a ritual setup that fulfills all requirements for a Culinary Ritual."
+				""
+				"{image:customtextures:textures/culinary_ritual.png width:100 height:100 align:center}"
+				""
+				"Requirements: "
+				"-> 2 Smokers"
+				"-> 1 Shade Stove"
+				"-> 1 Cursed Ingot Pot"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/gui/soul_slot.png"
+				}
+			}
+			id: "10D33FA71A7F11A6"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Create a kitchen that belongs to the Black Wizard &l&4Apollyon&r himself!"
+			tasks: [{
+				id: "1E04DCD0970B0F69"
+				title: "Culinary Ritual!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: ["Place on the ground and right click with a bowl to get a \"Ring Packed Void Gel Jelly\", can be served 3 times."]
+			id: "221480C697DBA113"
+			subtitle: "Solidified nothingness"
+			tasks: [{
+				id: "49D74E35F8925440"
+				item: "goetydelight:void_gel_jelly_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: ["Place on the ground and right click with a bowl to get a \"Stuffed Tall Skull Rice\", can be served 4 times."]
+			id: "644FACAEB96D6FEF"
+			subtitle: "A monolith of marrow"
+			tasks: [{
+				id: "54CFE9D3D0DC7E7D"
+				item: "goetydelight:stuffed_tall_skull_rice_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["221480C697DBA113"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Void Affix Effect for 1:00 minute"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				"-> Gain Hunger V Effect for 1:00 "
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				""
+				""
+				"{@pagebreak}"
+				"\"No tragedy as foresaw.\""
+				"\"The Void isn't entirely fear.\""
+				"\"That power is with me.\""
+				"\"The enemy should be fearing.\""
+				"You won your gamble."
+				"The power of the Void is in your hands."
+				"It's as if eternity has approved of you."
+				"Ordinary defenses."
+				"are meaningless."
+				"Of course…"
+				"The power of the Void itself."
+				"is still so unknown."
+				"Still astonishing."
+				"Truly a realm of immense potential."
+				"The dangers of the Void."
+				"temporarily forgotten."
+				"Dark Mage."
+				"You will take blasphemous steps."
+			]
+			id: "77406C7374362EF1"
+			subtitle: "Slurp the silence"
+			tasks: [{
+				id: "4EAE77494EFDCFCE"
+				item: "goetydelight:ring_packed_void_gel_jelly"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["644FACAEB96D6FEF"]
+			description: [
+				"After consumption: "
+				"-> Recover 8 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Bad Omen Effect for 10:00 minutes"
+				"-> Gain Nourishing Effect for 1:00 minute"
+				"-> Gain Photosynthesis II Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> The Bad Omen buff provided by this food can be increased in level and duration through repeated consumption. Specifically, each consumption increases the buff level by one level and the duration by five minutes; this buff has a maximum level of five and no upper limit on duration."
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Photosynthesis Effect allows entities to regain health in sunlight, the higher the level the faster the recovery."
+			]
+			id: "7B0324DC87EEC051"
+			subtitle: "The tower's harvest"
+			tasks: [{
+				id: "5DDB10A8C220D8AD"
+				item: "goetydelight:stuffed_tall_skull_rice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After drinking: "
+				"-> Recover 6 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Fiery Aura Effect for 5:00 minutes"
+				"-> Gain Comfort Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> The Fiery Aura Effet gives you a blazing aura that will ignite all creatures in the radius."
+				"-> The Comfort Effect provides a decent amount of health regeneration, even when the player's hunger meter isn't full."
+			]
+			id: "44B1F0DBBB145B48"
+			subtitle: "Drink the heat"
+			tasks: [{
+				id: "0CE0236A2428BFE1"
+				item: "goetydelight:boiling_blood_brew"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 10 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Fortunate Effect for 10:00 minutes"
+				"-> Gain Regeneration Effect for 2:00 minutes"
+				"-> Gain Chill Hide Effect for 2:00 minutes"
+				"-> Gain 300 points of Soul Energy"
+				""
+				"Notes:"
+				"-> The Fortunate Effect acts exactly like the Fortune enchantment but as a potion effect."
+				"-> The Chill Hide Effect gives 3 armor points per level. When receiving an attack, the attacker will be afflicted with the Frozen Effect for an unlimited duration."
+				"-> The Frozen Effects acts similarly as when you are stuck in powdered snow."
+			]
+			id: "3B19AB463C860887"
+			subtitle: "A chill from the grave"
+			tasks: [{
+				id: "4F1D99208562C195"
+				item: "goetydelight:blue_ectoplasmic_sundae"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nourishing Effect for 7:00 minutes"
+				"-> Gain Water Breathing Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> Feeding a Candy Fish to an Apostle will heal their health by 10%"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "1AD1649EA159AD0D"
+			subtitle: "Hooked on sugar"
+			tasks: [{
+				id: "76E6570B79B24032"
+				item: "goetydelight:candy_fish"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"Just beat the fish and sweet berries toegether into a paste, wrap them in the dumpling dough, cook them with milk, sprinkle with chopped green onion and dip them in the chocolate sauce..."
+				""
+				"After consumption:"
+				"-> Recover 20 points of hunger"
+				"-> Recover 20 points of saturation"
+				"-> Gain Blindness Effect for 1:00 minute"
+				"-> Gain Withering V Effect for 1:00 minute"
+				"-> Gain Nausea X Effect for 2:00 minutes"
+				""
+				"Notes:"
+				"-> If you don't want your stomach to run away from home, it's better you don't eat it."
+			]
+			id: "3B4B8ACB8623EE6C"
+			subtitle: "An aquired taste"
+			tasks: [{
+				id: "4E887F6B67594FFD"
+				item: "goetydelight:creamy_berry_fish_paste_dumpling_with_chocolate_sauce"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"It is consumed 1.5x faster than regular food and can be consumed regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 9 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Corpse Eater Effect for 30 seconds"
+				"-> Gain Eternity Effect for 30:00 minutes"
+				"-> Gain Nourishing III for 5:00 minutes"
+				"-> Gain Spell Mastery Effect for 2:00 minutes"
+				""
+				"Notes:"
+				"-> The Corpse Eater Effect from this food can be stacked, up to IV"
+				"-> The Corpse Eater Effect restores your starvation when a creature is killed."
+				"-> The Eternity Effect can be stacked with it's duration."
+				"-> The Eternity Effect allows you to retain all current potion effects after your death at the cost of a level of the Eternity Effect itself."
+			]
+			id: "2D398E2D1A65F852"
+			subtitle: "Discover the marble, dig out the marble, eat the marble, the marble is delicious"
+			tasks: [{
+				id: "63965E83101E8EE9"
+				item: "goetydelight:crisp_biscuit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 7 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				"-> Gain Hydration II Effect for 15:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				""
+				"{@pagebreak}"
+				"\"Is it crying?\""
+				"\"Perhaps it's just syrup leaking out.\""
+				"\"Sugar is a treasure for stopping tears.\""
+				"\"It exists in the songs of innocent children.\""
+				"\"That's the dream of many.\""
+				"\"And my past too.\""
+				"\"Has something sweet lost its sweetness?\""
+				"\"What a deceptive candy...\""
+				"\"Just cry... cry.\""
+				"\"After all, it was worth it.\""
+				"\"Tears are the past.\""
+				"\"But there's no need to be upset.\""
+				"\"I'm giving you this crying candy bag.\""
+				"\"I hope you won't cry anymore.\""
+				"\"Because of that past hope.\""
+				"\"Eat the candy bag.\""
+				"\"The taste in your mouth may not be as wonderful.\""
+				"\"But what truly satisfies is that touch of melancholy.\""
+				"\"It's the bittersweet feeling.\""
+			]
+			id: "7BB4D92F9E7DB186"
+			subtitle: "Sweet, salty tears"
+			tasks: [{
+				id: "2271DC6F3EA538A6"
+				item: "goetydelight:cry_sugar_pack"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"It is consumed 0.5x slower than regular food"
+				""
+				"After consumption:"
+				"-> Recover 4 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain 100 points of Soul Energy"
+			]
+			id: "08F35948FBEEF964"
+			subtitle: "Wobble from beyond"
+			tasks: [{
+				id: "5F64CEDB83FE578B"
+				item: "goetydelight:ectoplasm_jelly"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"It is consumed 2.5x slower than regular food."
+				"It is edible and throwable like a splash potion, inflicting nearby entities with debuffs."
+				"Can be used in a brewing stand to increase potion effects by 1 level (up to 6 levels)."
+				""
+				"After consumption: "
+				"-> Recover 10 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nausea Effect for 30 seconds"
+				"-> Gain Poison Effect (random level) for 30 seconds"
+				"-> Weakness II Effect for 30 seconds"
+				""
+				"Notes:"
+				"-> The Poison Effect's random levels range from 2 to 5"
+			]
+			id: "232C512B8D4B38A5"
+			subtitle: "Just say no"
+			tasks: [{
+				id: "46DF97084D22FEB3"
+				item: "goetydelight:eternal_refusal_of_black_meat_soup"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption: "
+				"-> Recover 8 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Wild Rampage Effect for 1:00 minute"
+				"-> Gain Nourishing Effect for 3:00 minutes"
+				""
+				"Notes:"
+				"-> The Wild Rampage Effect doesn't do anything to players, but will force creatures to attack entities indisccriminately"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs"
+			]
+			id: "6181914A831FAE9E"
+			subtitle: "Not your regular eggs"
+			tasks: [{
+				id: "23659E1D374C6F06"
+				item: "goetydelight:exotic_breakfast"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"Can be eaten regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Charged Effect for 2:30 minutes"
+				"-> Gain Speed Effect for 2:30 minutes"
+				"-> Gain Strength Effect for 2:30 minutes"
+				""
+				"Notes: "
+				"-> Buff durations can be accumulated."
+				"-> The Charged Effect is a tricky one;"
+				"->-> Level 1 Charged increases movement speed and melee damage by 15%"
+				"->-> Level 2 Charged removes level 1's effects, increases movement speed by 25% and reduces melee damage by 15%"
+				"->-> Level 3 Charged removes the effect itself and causes 4 points of harm to the creature (2 hearts)"
+			]
+			id: "60838A080F7FD097"
+			subtitle: "Chaos in your mouth"
+			tasks: [{
+				id: "637CBA1E73F678DF"
+				item: "goetydelight:frenzied_fungus_pop_rocks"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 9 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Chill Hide II Effect for 3:30 minutes"
+				"-> Gain Nourishing Effect for 10:00 minutes"
+				"-> Gain Frosty Aura Effect for 30 seconds"
+				""
+				"Notes: "
+				"-> Returns a glass bottle after consumption."
+				"-> The Chill Hide Effect gives 3 armor points per level. When receiving an attack, the attacker will be afflicted with the Frozen Effect for an unlimited duration."
+				"-> The Frozen Effects acts similarly as when you are stuck in powdered snow."
+				"-> The Frosty Aura Effet gives you an icy aura that will slow down all creatures in the radius."
+			]
+			id: "02DC5260D4498C91"
+			subtitle: "Brain freeze, purple style"
+			tasks: [{
+				id: "158F6418D4B430EB"
+				item: "goetydelight:grape_slush"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Regeneration II Effect for 20 seconds"
+				"-> Gain Frog Leg Effect for 1:00 minute"
+				""
+				"Notes: "
+				"-> The Frog Leg Effect gives you a double jump per level of the effect."
+			]
+			id: "14B2593AF784AC48"
+			subtitle: "Jump for it"
+			tasks: [{
+				id: "6311C2ECB62B5B4F"
+				item: "goetydelight:grill_frog_leg"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nourishing Effect for 1:00 minute"
+				"-> Gain Photosynthesis Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Photosynthesis Effect allows entities to regain health in sunlight, the higher the level the faster the recovery."
+			]
+			id: "60C59E3C5BCC010B"
+			subtitle: "Eat the greens before they eat you"
+			tasks: [{
+				id: "1E3B81E702C97307"
+				item: "goetydelight:jungle_salad"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Receive 5 points of void damage"
+				"-> Gain Void Touched III for 30 seconds"
+				""
+				"Notes:"
+				"->Having the Void Touched effect will make you receive more damage for one hit using this formula: Damage*(Effect level +2), the effect will be removed after a successful trigger."
+				"-> You can feed this to other entities."
+			]
+			id: "44EF22435EC1F34A"
+			subtitle: "Sip the silence"
+			tasks: [{
+				id: "2AD36A92797C72FB"
+				item: "goetydelight:liquid_void_tea_drink"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Resistance II for 30 seconds"
+				"-> A random level 2 and level 3 buff will also be applied for 30 seconds"
+				""
+				"Notes:"
+				"-> No, I do not know the list of the random buffs."
+			]
+			id: "7C85C388AEEAB723"
+			subtitle: "A real tooth breaker (pls laugh)"
+			tasks: [{
+				id: "202F9C1BBAECEC31"
+				item: "goetydelight:magic_quartz_cookie"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 11 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Fire Resistance Effect for 8:00 minutes"
+			]
+			id: "671305E2A56266E0"
+			subtitle: "Grilled in hell"
+			tasks: [{
+				id: "378028A92A98DF76"
+				item: "goetydelight:nether_style_fried_egg_sandwich"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 6 points of saturation"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				"-> Gain Fiery Aura Effect for 1:06 minutes"
+				"-> Gain The Pale Messenger Effect for 6 seconds"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Fiery Aura Effet gives you a blazing aura that will ignite all creatures in the radius."
+			]
+			id: "713D533300AE8EDE"
+			subtitle: "You need more than a steel stomach for this one"
+			tasks: [{
+				id: "246E45750D11C889"
+				item: "goetydelight:obsidian_thick_soup"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Bad Omen V for 5:00 minutes"
+				"-> Gain Chill hide for 1:00 minute"
+				""
+				"Notes:"
+				"-> The Chill Hide Effect gives 3 armor points per level. When receiving an attack, the attacker will be afflicted with the Frozen Effect for an unlimited duration."
+				"-> The Frozen Effects acts similarly as when you are stuck in powdered snow."
+			]
+			id: "1320F678EBB1EB06"
+			subtitle: "Melts like a curse"
+			tasks: [{
+				id: "6B5099E20C9DA7BC"
+				item: "goetydelight:ominous_ice_cream"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"The consumption time is 0.5x that of normal food and it can be eaten regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 7 points of hunger"
+				"-> Recover 4 points of saturation"
+				"-> Clears all debuffs from your person"
+			]
+			id: "3C0EDDAA6E518A3A"
+			subtitle: "Boiled in shadow"
+			tasks: [{
+				id: "341B6413D22AC062"
+				item: "goetydelight:poached_nether_wart_egg"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"The consumption time is 0.5x that of regular foods."
+				""
+				"After consumption:"
+				"-> Recover 5 points of hunger"
+				"-> Recover 4 points of saturation"
+				"-> Gain Climbing Effect for 10 seconds"
+				""
+				"Notes:"
+				"-> The Climbing Effect let's you climb walls like a spider"
+			]
+			id: "4F539685E09F48E9"
+			subtitle: "Eight times the protein"
+			tasks: [{
+				id: "38B8CB4B8FB951F6"
+				item: "goetydelight:poached_spider_egg"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Insight IV Effect for 2:30 minutes"
+				"-> Triggers \"Draw Card\" Event (Explanation on the next page)"
+				""
+				"Notes :"
+				"-> The Insight Effect gives the player more experience per experience drop using this formula: experience = original drop * (effect level +2) "
+				""
+				"{@pagebreak}"
+				""
+				"After triggering the event, one of the pools from this list will trigger:"
+				""
+				"Level 1 Card Pool: Will summon 8 low level servants for 2:00 minutes, 50% chance."
+				""
+				"Level 2 Card Pool: Will summon 4 medium level servants for 5:00 minutes, 35% chance."
+				""
+				"Level 3 Card Pool: Will summon 2 high level servants for 10:00 minutes, 12.5% chance."
+				""
+				"Level 4 Card Pool: Will summon 1 mini boss servant for 30:00 minutes, 2.25% chance."
+				""
+				"Level 5 Card Pool: Will summon 1 boss servant for 1:00:00 hour, 0.24% chance."
+				""
+				"Level 6 Card Pool: Will summon 1 Apostle Servant for 1:00:00 hour, 0.01% chance."
+			]
+			id: "04BEC15020F4D542"
+			subtitle: "Is it a sign? (Very fun item)"
+			tasks: [{
+				id: "4B467C04B4A8380B"
+				item: "goetydelight:possible_holy_representative"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"Can be drank regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 4 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Regeneration IV for 30 seconds"
+				"-> Gain Resistance IV for 1:00 minute"
+				"-> Gain The Pale Messenger for 15:00 minutes"
+				"-> Gain Piglin Support for 30:00 minutes"
+				""
+				"{@pagebreak}"
+				"\"Blood accumulates, mud stained, turning into foul earth.\""
+				"\"A soul-crushing, mournful wind rises from the black sand.\""
+				"\"The Messenger of eternal truth\""
+				"\"The Agent of the bottomless pit.\""
+				"\"I have arrived\""
+				"\"Your home ground.\""
+				"Crimson and ghostly blue shift."
+				"The screams and lamentations reappear."
+				"You are the traveler of darkness."
+				"You will reach the end of your journey."
+				"Even the mightly Apostles, are defeated by the sword in your hand."
+				"Gather that pure blood."
+				"It seems even the heavens change for you."
+				"\"Why did you ignite the holy fire?\""
+				"\"Why did you bring conflict?\""
+				"\"Why did you abandon yourselves\""
+				"\"To share that ugly face?\""
+				"\"I drink the blood of your hearts\""
+				"\"Why are you also lost and unable to see?\""
+			]
+			id: "4D08F2BFFA923137"
+			subtitle: "Drain the heart of an Apostle"
+			tasks: [{
+				id: "0A149630794BE309"
+				item: "goetydelight:pure_drink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Saturation Effect for 5 seconds"
+				"-> Gain Nourishing Effect for 10:00 minutes"
+				"-> Gain Comfort Effect for 10:00 minutes"
+				"-> Gain Photosynthesis Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Comfort Effect provides a decent amount of health regeneration, even when the player's hunger meter isn't full."
+				"-> The Photosynthesis Effect allows entities to regain health in sunlight, the higher the level the faster the recovery."
+			]
+			id: "6A0B0CCF425280D1"
+			subtitle: "Fast Food, literally"
+			tasks: [{
+				id: "00CA52EFA847AB3F"
+				item: "goetydelight:quick_growing_seed_popcorn"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"It is consumed 2.5x slower than regular food."
+				"It is edible and throwable like a splash potion, inflicting nearby entities with debuffs."
+				"Can be used in a brewing stand to increase potion effects by 1 level (up to 4 levels)."
+				""
+				"After consumption: "
+				"-> Recover 10 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nausea Effect for 30 seconds"
+				"-> Gain Poison Effect (random level) for 30 seconds"
+				"-> Weakness II Effect for 30 seconds"
+				""
+				"Notes:"
+				"-> The Poison Effect's random levels range from 2 to 5"
+			]
+			id: "7C1E32E64E376098"
+			tasks: [{
+				id: "78C361B578B5E9C1"
+				item: "goetydelight:rejected_dark_meat_soup"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"It is consumed 2x faster than regular food and can be eaten regardless of hunger value."
+				""
+				"After consumption: "
+				"-> Recover 10 points of hunger"
+				"-> Recover 16 points of saturation"
+				"-> Gain Spell Mastery III Effect for 10:00 minutes"
+				"-> Gain Spell Duration III Effect for 10:00 minutes"
+				"-> Gain Regeneration II Effect for 8:00 minutes"
+				"-> Gain Nourishing Effect for 15:00 minutes"
+				"-> Permanently increases the power level of spells by 1 (up to 3 times)"
+				"-> Obtain 50% Damage Reduction for 10:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "6BAD63927433D9CE"
+			subtitle: "Precious and sweet"
+			tasks: [{
+				id: "7D0107996BDEAEA4"
+				item: "goetydelight:ruby_hard_candy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 9 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Nourishing Effect for 8:00 minutes"
+				"-> Gain Fiery Aura Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> Feeding a Sauce Grilled Candy Fish to an Apostle will heal their health by 15%"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Fiery Aura Effet gives you a blazing aura that will ignite all creatures in the radius."
+			]
+			id: "6CF590FE8E6342C8"
+			subtitle: "Sweet meets heat"
+			tasks: [{
+				id: "288E11E3A8B02B01"
+				item: "goetydelight:sauce_grilled_candy_fish"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Corpse Eater Effect for 1:00 minute"
+				""
+				"Notes:"
+				"-> The Corpse Eater Effect restores your starvation when a creature is killed."
+			]
+			id: "0E5A593C6A605EAD"
+			subtitle: "Heads up"
+			tasks: [{
+				id: "0713995F11F4A14C"
+				item: "goetydelight:skull_shot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Climbing Effect for 7:00 minutes"
+				""
+				"Notes:"
+				"-> The Climbing Effect let's you climb walls like a spider"
+			]
+			id: "76F3DBDB259D02A0"
+			subtitle: "Watch the crunch"
+			tasks: [{
+				id: "180F18819B8F808B"
+				item: "goetydelight:spider_egg_bubble_tea"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nourishing Effect for 4:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				""
+				"{@pagebreak}"
+				"\"A warm candy bag.\""
+				"\"Speaking of beauty.\""
+				"\"A soft candy bag.\""
+				"\"Pouring out hope.\""
+				"\"A round candy bag.\""
+				"\"Calling out longing.\""
+				"\"Adorable candy bag.\""
+				"\"You are out of place.\""
+				"\"Because of what this gaze sees.\""
+				"\"All that is rotting and disemboweling.\""
+				"\"You say?\""
+				"\"I am covered in dust.\""
+				"\"A person stained by the mud on the road.\""
+				"\"How could such a creation exist?\""
+				"\"A soul riddled with holes.\""
+				"\"What has been shaped.\""
+				"\"Should be unbearable to look at.\""
+				"\"Should be screams and cries of agony.\""
+				"\"Isn't it?\""
+				"\"No.\""
+				"\"That rotten human heart.\""
+				"\"Forced to abandon the past.\""
+				"\"But it is forever.\""
+				"\"It must remain in the heart.\""
+				"\"Keep a place of fervent longing.\""
+				"\"Though I have always, from beginning to end.\""
+				"\"I will walk this path.\""
+			]
+			id: "2CFF42CFD79A1B14"
+			subtitle: "A simple rush"
+			tasks: [{
+				id: "491D2040C6AEF1CB"
+				item: "goetydelight:sugar_pack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 5 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Nourishing Effect for 10:00 minutes"
+				"-> Gain Regeneration II Effect for 1:00 minute"
+				"-> Immune for ONE attack (Cooldown for this effect is 20 seconds)"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "2645751E914BECDC"
+			subtitle: "Rule the candy kingdom"
+			tasks: [{
+				id: "7EEAA8431FA20CE7"
+				item: "goetydelight:sugar_scepter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"Only people who have refused their mortality can consume this food."
+				""
+				"After consumption:"
+				"-> Recover 10 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Midas Touch Effect for 30:00 minutes"
+				"-> Gain Eternity III Effect for an unlimited duration"
+				"-> Gain Soul Armor II Effect for an unlimited duration"
+				"-> Permanently Increases mining speed by 10% (Three times)"
+				"-> Permanently increases magic resistance by 50% (Once)"
+				""
+				"Notes: "
+				"-> The Midas Touch Effect makes entities drop gold nuggets on death, the amount increases with the level of the effect."
+				"-> The Eternity Effect allows you to retain all current potion effects after your death at the cost of a level of the Eternity Effect itself."
+				"-> The Soul Armor Effect grants 2 armor points per level of the effect."
+				""
+				"{@pagebreak}"
+				"“I embrace the purest darkness.”"
+				"“It bestows upon me infinite emptiness.”"
+				"“At the juncture of life and death.”"
+				"“I then understand the principle of eternity.”"
+				"“That which is imposed upon me by external things.”"
+				"“Ultimately, it does not belong to me.”"
+				"Your immortal essence."
+				"Flowing through your pale bones."
+				"The stone in your hand, burning with an eerie light."
+				"It seems to have grown even hotter."
+				"You will unravel its mysteries."
+				"You will let it accompany you forever."
+				"Let it offer its magic."
+				"Let it embed itself into your body and soul."
+				"“Food is the Way.”"
+				"The roadside scenery on the path of darkness."
+				"Its secrets are revealed."
+				"They are calling to you."
+				"Eat!"
+				"Eat the creation of witchcraft."
+				"Eat the treasures of darkness."
+				"Eat the essence of the soul."
+				"Eat the forbidden fruit of desire."
+				"What you consume will ultimately come with a price. And you bear that price."
+				"Thus, you are able to consume it."
+			]
+			id: "30A929F6CCD01168"
+			subtitle: "Transmute your hunger into POWER"
+			tasks: [{
+				id: "5B47F1D05D64BDCB"
+				item: "goetydelight:sundae_of_the_philosophers_potion"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 7 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				"-> Gain Photosynthesis II Effect for 1:00 minute"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Photosynthesis Effect allows entities to regain health in sunlight, the higher the level the faster the recovery."
+				""
+				"{@pagebreak}"
+				"\"This candy bag gleams with a shimmering light.\""
+				"\"The syrup is as glistening as dew.\""
+				"\"Exposed to the warm spring sun.\""
+				"\"Where do you come from?\""
+				"\"It has concealed the sorrow in my heart.\""
+				"\"Would you like to hear my story?\""
+				"\"The story is long.\""
+				"\"Why not?\""
+				"\"I see.\""
+				"\"Sorrow is the past that has passed.\""
+				"\"There's no need to remember meaningless melancholy.\""
+				"\"Forget those sorrows.\""
+				"\"Cast away those worries.\""
+				"\"For the sun rises on the road.\""
+				"\"It illuminates the traveler.\""
+				"\"The future is coming towards me.\""
+				"\"I will eventually leave the present.\""
+				"\"The present will become the past.\""
+				"\"Just remember the good.\""
+				"\"Remembering is hope.\""
+				"\"Eat this candy bag.\""
+				"\"Remember its advice.\""
+			]
+			id: "497B0AC02B0A59E7"
+			subtitle: "A bite of daylight"
+			tasks: [{
+				id: "093B8212F54CC2C6"
+				item: "goetydelight:sunshine_sugar_bun"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"After consumption:"
+				"-> Recover 7 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Regeneration II Effect for 5:00 minutes"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				"-> Gain 3 Attack Damage and a 5% Speed Bonus for 5:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "567C72DF30DBD038"
+			subtitle: "Simple, soft, red"
+			tasks: [{
+				id: "61D6023982CC889D"
+				item: "goetydelight:sweet_berry_pudding"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"Can be drank regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 4 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Regeneration II for 8 seconds"
+				"-> Gain Resistance II for 15 seconds"
+				"-> Gain The Pale Messenger for 3:00 minutes"
+				"-> Gain Piglin Support for 6:00 minutes"
+				""
+				"{@pagebreak}"
+				"\"Messenger of Purgatory.\""
+				"\"This is my home turf.\""
+				"\"Since you have come,\""
+				"\"you will suffer a bloody end.\""
+				"\"I will use this blood,\""
+				"\"to make the finest wine.\""
+				"You slew."
+				"that messenger from beyond the realm."
+				"Divine blood stained the dust."
+				"The sacred fire faded."
+				"Though not truly dead,"
+				"he was still a defeated foe."
+				"When the messenger of the gods fell,"
+				"you will profane the cult of the underworld."
+				"\"Unprecedented.\""
+				"\"A chilling and astonishing brew.\""
+				"\"Without any taboos.\""
+				"\"That tainted blood, like a nectar.\""
+				"\"Still as if in a trance.\""
+				"\"Still as if in a frenzy.\""
+			]
+			id: "5CE19DC8499FF3D6"
+			subtitle: "Nectar from the bottomless pit"
+			tasks: [{
+				id: "778B7784FC416C82"
+				item: "goetydelight:tainted_drink"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F26D9E70BF588CE"]
+			description: [
+				"It is consumed 3x slower than regular food."
+				""
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 8 points of saturation"
+				"-> Gain Nauseau Effect for 1:40 minutes"
+				"-> Gain Poison X Effect for 1:40 minutes"
+				"-> Gain Weakness V Effect for 1:40 minutes"
+				""
+				"Notes:"
+				"-> You gain immunity to Nausea after 5 consumptions, immunity to Poison after 10 consumptions and immune to Weakness after 15 consumptions."
+				"-> You can feed it to other entities"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"\"Is this stuff really edible?\""
+				"\"I fed it to a few villagers, and they didn't fare too well.\""
+				"\"But according to my research,\""
+				"\"with repeated consumption, they can adapt to these poisons.\""
+				"\"Perhaps I should let my friend try it first?\""
+				"You combine various poisons into a pot."
+				"Their appearances are still vaguely discernible."
+				"Although you really don't want to eat this filth,"
+				"but what can you do? You're a dark sorcerer!"
+				"You're fearless!"
+				"The more stimulating it is, the happier you are!"
+				"True gains often come after hardship."
+				"Once you overcome it, you'll no longer be afraid."
+				"Faced with this food that has no color, aroma, or taste,"
+				"you still open your mouth wide."
+				"\"What a satisfying meal!"
+				"I must feed this to my friend."
+				"Good things must be shared.\""
+			]
+			id: "1B8E75F47BC5BBE1"
+			tasks: [{
+				id: "1E586F8EB9DB8D40"
+				item: "goetydelight:toxic_meal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"After consumption:"
+				"-> Recover 16 points of hunger"
+				"-> Recover 20 points of saturation"
+				"-> Gain Hero of the Village Effect for 3:00 minutes"
+				"-> Gain Nourishing Effect for 10:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "7B6A23FB865C576A"
+			subtitle: "A humble harvest (may break teeth)"
+			tasks: [{
+				id: "18FD868716145FA5"
+				item: "goetydelight:villagers_feast"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"Place on the ground and right click with a knife to get a \"Royal Cake Slice\", can be served 8 times."
+				""
+				"This recipe can only be made after reading the Vizier's Cookbook."
+				""
+				"{@pagebreak}"
+				"“Those people really know how to enjoy themselves.”"
+				"“After all, they were pioneers in dark art.”"
+				"“They balanced the deliciousness of reality with the essence of the soul.”"
+				"“The essence of deliciousness? That reminds me of something.”"
+				"“But ultimately, it all comes down to skill.”"
+				"The great chef possesses ambition."
+				"He doesn't envy the creations of others."
+				"Because—"
+				"In the end, it's all mine."
+				"That's exactly what you think."
+				"So you draw your knife."
+				"You cut it into eight pieces."
+				"Greedily taking, tirelessly."
+				"Just like those who once enjoyed this cake alone."
+				"Those who plunder are plundered."
+				"But you haven't become like them."
+				"Because you will far surpass them!"
+				"You wipe the cream from your lips."
+				"You gaze into the distance."
+			]
+			id: "31E5C1E465BB6BB4"
+			subtitle: "Eat like a king"
+			tasks: [{
+				id: "3B514CBCF6DF7990"
+				item: "goetydelight:royal_cake_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31E5C1E465BB6BB4"]
+			description: [
+				"Can be consumed regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 6 points of saturation"
+				"-> Gain Nourishing Effect for 3:45 minutes"
+				"-> Gain Fortunate III Effect for 1:15 minutes"
+				"-> Gain Bottling III Effect for 1:15 minutes"
+				"-> Gain Resistance III Effect for 1:15 minutes"
+				"-> Kill all nearby ghosts, wraiths, and other creatures of the same type while restoring health equal to the sum of the maximum health of the killed entities."
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Fortunate Effect acts exactly like the Fortune enchantment but as a potion effect."
+				"-> The Bottling Effect increases the number of times a potion can be bottled per level."
+			]
+			id: "15B8A6DC5ED60CE9"
+			subtitle: "Feast for a king on-the-go"
+			tasks: [{
+				id: "4E4C88E1885A3663"
+				item: "goetydelight:royal_cake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"Can be eaten regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 20 points of hunger"
+				"-> Recover 60 points of saturation"
+				"-> Gain Soul Armor V Effect for 5:00 minutes"
+				"-> Gain Health Boost III Effect for 3:00 minutes"
+				"-> Gain Hunt Denial Effect for 10:00 minutes"
+				"-> Gain 30.000 points of Soul Energy"
+				""
+				"Notes:"
+				"-> The Soul Armor Effect grants 2 armor points per level of the effect."
+			]
+			id: "03292022EF9F9475"
+			subtitle: "Woven from spirits"
+			tasks: [{
+				id: "543413324D1CB8EE"
+				item: "goetydelight:soul_convergence_room"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"Guaranteed drop from Warden."
+				"Can be eaten regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 24 points of saturation"
+				"-> Gain Hunger Effect for 10 seconds"
+				"-> Gain Soul Armor II Effect for 1:00 minute"
+				"-> Gain 10.000 points of Soul Energy"
+				""
+				"Notes:"
+				"-> The Soul Armor Effect grants 2 armor points per level of the effect."
+			]
+			id: "40B1731CB541641C"
+			subtitle: "Harvest the unborn"
+			tasks: [{
+				id: "792053BC6833391C"
+				item: "goetydelight:gathering_soul_embryos"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"Place on the ground and right click with bread to get a \"Menemen With Bread\", can be served 5 times."
+				""
+				"This recipe can only be made after reading the Vizier's Cookbook."
+			]
+			id: "637AA96844BCC2DD"
+			subtitle: "The morning scramble"
+			tasks: [{
+				id: "31CF668BF7F2BD21"
+				item: "goetydelight:menemen_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["637AA96844BCC2DD"]
+			description: [
+				"After consumption:"
+				"-> Recover 10 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Nourishing Effect for 3:00 minutes"
+				"-> Gain Comfort Effect for 3:00 minutes"
+				"-> Gain Photosynthesis Effect for 30 seconds"
+				"-> Gain Wight Denial Effect for 30:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Comfort Effect provides a decent amount of health regeneration, even when the player's hunger meter isn't full."
+				"-> The Photosynthesis Effect allows entities to regain health in sunlight, the higher the level the faster the recovery."
+			]
+			id: "049D42FA22315748"
+			subtitle: "Morning scramble + bread"
+			tasks: [{
+				id: "3DE8B8E932B58823"
+				item: "goetydelight:menemen_with_bread"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"It is a cube, occupying a 3x3 area, and can be loaded into a dark oak boat after being placed."
+				""
+				"It can be loaded a total of seven times. The first loading yields the head of the Ship-Loaded Roasted Guardian, the second to fifth loadings yield the limbs, and the sixth and seventh loadings yield the body."
+			]
+			id: "27F0EA2E4924E618"
+			subtitle: "Deep Dark Delicacies (DDD)"
+			tasks: [{
+				id: "20DE71C2D7C23FD7"
+				item: "goetydelight:boat_stuffed_roasted_warden_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27F0EA2E4924E618"]
+			description: [
+				"Possesses a durability bar with 4 points of durability. Each point of durability allows the player to consume the item once."
+				""
+				"After each consumption:"
+				"-> Recover 25 points of hunger"
+				"-> Recover 40 points of saturation"
+				"-> Gain Soul Armor IV Effect for 5:00 minutes"
+				"-> Gain Hunting Denial Effect for 10:00 minutes"
+				"-> Gain Health Boost II Effect for 5:00 minutes"
+				"-> Gain Strenght II Effect for 5:00 minutes"
+				"-> Gain Warden Effect for 5:00 minutes"
+				"-> Gain 5000 points of Soul Energy"
+				""
+				"Notes:"
+				"-> This item is a two-handed item (if held in the main hand, the off-hand may not be able to hold the item, and the currently held item will become invalid)."
+				""
+				""
+				"{image:customtextures:textures/stuffedwardenhead.png width:100 height:100 align:center}"
+			]
+			id: "7BB54DC76EF7BDF1"
+			subtitle: "The ultimate tropy"
+			tasks: [{
+				id: "325DB2ADFAF16C23"
+				item: "goetydelight:boat_stuffed_roasted_warden_head"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27F0EA2E4924E618"]
+			description: [
+				"Possesses a durability bar with 4 points of durability. Each point of durability allows the player to consume the item once."
+				""
+				"After each consumption:"
+				"-> Recover 30 points of hunger"
+				"-> Recover 50 points of saturation"
+				"-> Gain Soul Armor IV Effect for 5:00 minutes"
+				"-> Gain Hunting Denial Effect for 10:00 minutes"
+				"-> Gain Health Boost II Effect for 5:00 minutes"
+				"-> Gain Strenght II Effect for 5:00 minutes"
+				"-> Gain Warden Effect for 5:00 minutes"
+				"-> Gain 5000 points of Soul Energy"
+				""
+				"Notes:"
+				"-> This item is a two-handed item (if held in the main hand, the off-hand may not be able to hold the item, and the currently held item will become invalid)."
+			]
+			id: "6F9FE8CC307855B8"
+			subtitle: "A platter of silence"
+			tasks: [{
+				id: "56077D8607472FCC"
+				item: "goetydelight:boat_stuffed_roasted_warden_meet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27F0EA2E4924E618"]
+			description: [
+				"Possesses a durability bar with 4 points of durability. Each point of durability allows the player to consume the item once."
+				""
+				"After each consumption:"
+				"-> Recover 40 points of hunger"
+				"-> Recover 60 points of saturation"
+				"-> Gain Soul Armor IV Effect for 7:30 minutes"
+				"-> Gain Hunting Denial Effect for 15:00 minutes"
+				"-> Gain Health Boost II Effect for 7:30 minutes"
+				"-> Gain Strenght II Effect for 7:30 minutes"
+				"-> Gain Warden Effect for 7:30 minutes"
+				"-> Gain 5000 points of Soul Energy"
+				""
+				"Notes:"
+				"-> This item is a two-handed item (if held in the main hand, the off-hand may not be able to hold the item, and the currently held item will become invalid)."
+			]
+			id: "14A27EEA95E55E5F"
+			subtitle: "Carved from the deep"
+			tasks: [{
+				id: "1D914AA511AA3902"
+				item: "goetydelight:boat_stuffed_roasted_warden_flank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"After consumption:"
+				"-> Recover 8 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Climbing Effect for 5:00 minutes"
+				"-> Gain Nourishing Effect for 5:00 minutes"
+				""
+				"Notes:"
+				"-> The Climbing Effect let's you climb walls like a spider"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "079AAE01BF765D00"
+			subtitle: "Eight-legged buffet"
+			tasks: [{
+				id: "10EF126EC68F6241"
+				item: "goetydelight:full_spider_feast"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"After consumption:"
+				"-> Recover 18 points of hunger"
+				"-> Recover 40 points of saturation"
+				"-> Gain Nourishing Effect for 30:00 minutes"
+				"-> Gain Saturation Effect for 10 seconds"
+				"-> Gain The Pale Messenge Effect for 5:00 minutes"
+				"-> Gain Fire Resistance Effect for 30:00 minutes"
+				"-> Gain Immunity to Powder Snow for 30:00 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "3121C08592C88967"
+			subtitle: "A wicked crunch"
+			tasks: [{
+				id: "7AEDFCA76B02475C"
+				item: "goetydelight:snap_unholy_tripe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"After consumption:"
+				"-> Recover 2 points of hunger"
+				"-> Recover 2 points of saturation"
+				"-> Gain Tingling Effect for 1:00 minute"
+			]
+			id: "0FE5FD50F4E645C9"
+			subtitle: "Pop the cursed marble"
+			tasks: [{
+				id: "37F597E4414CE2D0"
+				item: "goetydelight:ominous_ramune"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"Can be consumed regardless of hunger value."
+				""
+				"After consumption:"
+				"-> Recover 10 points of hunger"
+				"-> Recover 8 points of saturation"
+				""
+				"Notes:"
+				"-> Also inflicts some effects but i'll leave it as a surprise"
+			]
+			id: "21CB82F37CC5C1B7"
+			subtitle: "The developer's special"
+			tasks: [{
+				id: "598349CA3ABFACA7"
+				item: "goetydelight:polarice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"After consumption:"
+				"-> Recover 15 points of health"
+				"-> Recover 14 points of saturation"
+				"-> Gain Iron Hide V Effect for 1:00 minute"
+				"-> Gain Strength II Effect for 2:00 minutes"
+				""
+				"Notes:"
+				"-> The Iron Hide Effect grants you 4 points of armor per level"
+				"-> Eating this item will teach you the knowledge of the \"Terminus Scroll\""
+				"-> You can feed this item to servants that require the Terminus Scroll to summon a duplicate of the servant with a lifespan of 5:00 minutes"
+			]
+			id: "108ADE455D194B60"
+			subtitle: "Find the flip"
+			tasks: [{
+				id: "5B9501CB89F17FA9"
+				item: "goetydelight:hidden_pancake"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"You carefully sliced the chicken, lamb, and beef into thin slices, mixed them with tomato sauce and flame powder, and arranged the ingredients one by one on the altar base. Then you rolled out the dough and spread it on top of the dark altar."
+				""
+				"This recipe can only be made after reading the Vizier's Cookbook."
+				""
+				"After consumption:"
+				"-> Recover 16 points of hunger"
+				"-> Recover 13 points of saturation"
+				"-> Gain Nourishing Effect for 10:00 minutes"
+				"-> Gain Strength Effect for 2:00 minutes"
+				"-> Gain Comfort Effect for 2:30 minutes"
+				""
+				"Notes:"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Comfort Effect provides a decent amount of health regeneration, even when the player's hunger meter isn't full."
+			]
+			id: "30E71411EF998627"
+			subtitle: "The spinning feast wrapped "
+			tasks: [{
+				id: "4BD0FF24D8D51235"
+				item: "goetydelight:shawarma"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"This recipe can only be made after reading the Vizier's Cookbook."
+				""
+				"After consumption:"
+				"-> Recover 2 points of hunger"
+				"-> Recover 2 points of saturation"
+				"-> Gain Speed II Effect for 30 seconds"
+				"-> Gain Tingling Effect for 30 seconds"
+			]
+			id: "46AF1DF7F908A78A"
+			subtitle: "The lion's milk"
+			tasks: [{
+				id: "7F53A3957420ABC8"
+				item: "goetydelight:raki"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"It eats quickly when consumed; it's delicious, so eat as much as you can!"
+				""
+				"This recipe can only be made after reading the Vizier's Cookbook."
+				""
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 6 points of saturation"
+				"-> Gain Regeneration Effect for 10 seconds"
+				"-> Gain Nourishing Effect for 30 seconds"
+				"-> Gain Comfort Effect for 15 seconds"
+				""
+				"Notes:"
+				"-> This item can be fed to a Vizier, it will then ascend and leave you a Ruby of Souls!"
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+				"-> The Comfort Effect provides a decent amount of health regeneration, even when the player's hunger meter isn't full."
+			]
+			id: "65EFC7446964135C"
+			subtitle: "Layers of gold"
+			tasks: [{
+				id: "66DC0885335F605D"
+				item: "goetydelight:baklava"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1A4FBA91C8976C78"]
+			description: [
+				"Not every trophy can be eaten, and not every essence can be bottled. "
+				""
+				"These are the strange remnants left behind when the veil between worlds is torn. Curiosities of the cult, fragments of fallen messengers, and artifacts that pulse with an unsettling rhythm. Handle with care; some treasures still remember the souls they once belonged to."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/add.png"
+				}
+			}
+			id: "1BE9FFCE5E664BAF"
+			shape: "hexagon"
+			subtitle: "Spoils of the Beyond"
+			tasks: [{
+				id: "39D55361EC2FD958"
+				title: "Others / Drops"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10D33FA71A7F11A6"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 12 points of saturation"
+				"-> Gain Resistance Effect for 5:00 minutes"
+				"-> Gain Regeneration VI Effect for 30 seconds"
+				"-> Gain Absorption IV Effect for 2:00 minutes"
+				"-> Gain Fire Resistance Effect for 5:00 minutes"
+				"-> Gain 20% Damage Reduction for the next 60 attacks"
+			]
+			id: "4A69A8E2AC7ED149"
+			subtitle: "A bite of history"
+			tasks: [{
+				id: "773D0132B9E3EBE2"
+				item: "goetydelight:ancient_enchanted_golden_apple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"They can be found in Spirit Melon Fields or grown by yourself."
+				""
+				"Digging them up yields 4 Ice Spirit Melons, affected by the Fortune Enchantment."
+			]
+			id: "08D8901D9D6B6B5C"
+			subtitle: "Grown in a graveyard"
+			tasks: [{
+				id: "6766ECCAD9E40192"
+				item: "goetydelight:ectoplasmic_melon_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["08D8901D9D6B6B5C"]
+			description: [
+				"Found in chests at the Wraith Melon Farmer's hut or crafted."
+				""
+				"After consumption:"
+				"-> Recover 3 points of hunger"
+				"-> Recover 2 points of saturation"
+				"-> Gain Chill Hide Effect for 5 seconds"
+				"-> Gain 50 points of Soul Energy"
+			]
+			id: "29B6DE39C17E0F57"
+			subtitle: "A taste of the thin veil"
+			tasks: [{
+				id: "40B0B76B74C79387"
+				item: "goetydelight:ectoplasmic_melon"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"Found in treasure chests in The Tomb."
+				"Eating time is 2.5x slower than normal food."
+				""
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 6 points of saturation"
+				"-> Gain Cursed Effect for 20 seconds"
+				"-> Randomly draws an item from The Tomb's itempool."
+				""
+				"Notes:"
+				"-> The Cursed Effect removes natural life regeneration and prevents healing"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"\"It doesn't look like anything edible.\""
+				"\"Is it ashes of a dead person?\""
+				"\"Or an old lunchbox?\""
+				"\"Stir it carefully, and you can find some small trinkets.\""
+				"\"Many things have lost their original appearance.\""
+				"\"Only the aura of a curse flickers.\""
+				"You are in that dark tomb."
+				"You open the dusty box."
+				"From the crack comes"
+				"A mournful cry, unwilling to die."
+				"It doesn't last long."
+				"It vanishes with the wind in a few breaths."
+				"Only a box lies among the old things."
+				"Telling of the past."
+				"You eat what's in that box."
+				"The past reappears in your heart."
+				"Including the treasures of the deceased."
+				"Hear the mournful cry again."
+				"Not from the box."
+				"But from your heart."
+				"It lingers for a moment."
+				"Then it doesn't stay."
+			]
+			id: "6628011ECDDBCFDF"
+			subtitle: "Do not open until afterlife"
+			tasks: [{
+				id: "697BA103A817154E"
+				item: "goetydelight:the_box_of_the_dead"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"Found in Ancient Cities"
+				""
+				"After consumption:"
+				"-> Recover 13 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> 70% chance of getting the Darkness Effect and 30% Chance of getting the Blindness Effect"
+				"-> 90% chance of getting a Forbidden Piece and 10% chance of getting a Forbidden Fragment"
+			]
+			id: "695B8AC088503888"
+			subtitle: "A mouthful of secrets"
+			tasks: [{
+				id: "10396EE4E17D95F9"
+				item: "goetydelight:forbidden_soup_bun"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"Each kill of a bear (with the tag \"bear\") will drop 0-4 bear paws, with a drop rate of 10%, subject to looting."
+				""
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 10 points of saturation"
+				"-> Gain Rampage Effect for 2:00 minutes"
+				"-> Gain Nourishing Effect for 5 minutes"
+				""
+				"Notes:"
+				"-> The Rampage Effect will increase attack damage py 1 and increase digging and attack speed."
+				"-> The Nourishing Effect prevents players from getting hungry or losing saturation through exhausting actions, such as running, jumping and attacking mobs."
+			]
+			id: "76FBFA5703131419"
+			subtitle: "A heavy-handed snack"
+			tasks: [{
+				id: "6D942DF63427CC4B"
+				item: "goetydelight:bear_paw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 4 points of saturation"
+				"-> Clears all debuffs from your person"
+				""
+				"Notes:"
+				"-> Can be fed to other entities"
+			]
+			id: "49214FDF8040FC46"
+			subtitle: "Breakfast for the damned"
+			tasks: [{
+				id: "1B90B979418CA40C"
+				item: "goetydelight:nether_wart_omelette"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"After consumption:"
+				"-> Recover 6 points of hunger"
+				"-> Recover 4 points of saturation"
+				"-> Clears all debuffs from your person"
+				""
+				"Notes:"
+				"-> Can be fed to other entities"
+			]
+			id: "78EED223A93DEED5"
+			subtitle: "A teal-tinted morning"
+			tasks: [{
+				id: "0F6AB3203A9E44CF"
+				item: "goetydelight:warped_wart_omelette"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			description: ["Every feast of the abyss begins with a sacrifice. From soul-reaping blades to cauldrons that simmer with forbidden heat, these tools are designed to carve, cook, and conquer the supernatural. Whether you are skinning a Warden or bottling the blood of an apostle, ensure your steel is as sharp as your hunger."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/gui/soul_slot.png"
+				}
+			}
+			id: "6B6647B90C35B368"
+			shape: "hexagon"
+			subtitle: "Instruments of the profane"
+			tasks: [{
+				id: "11D5178F91AB3B15"
+				title: "Tools"
+				type: "checkmark"
+			}]
+			title: "Tools and Weapons"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6B6647B90C35B368"]
+			description: [
+				"Functions as a regular farmer's delight knife."
+				""
+				"Stats:"
+				"-> Attack Damage: 4"
+				"-> Attack Speed: 2"
+				"-> Entity Reach: 3"
+				"-> Durability: 256"
+			]
+			id: "3B9D27E8B4AFD542"
+			subtitle: "A jagged blade that bleeds the soul as easily as the flesh"
+			tasks: [{
+				id: "3EEBB41BC100B023"
+				item: {
+					Count: 1
+					id: "goetydelight:cursed_ingot_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3B9D27E8B4AFD542"]
+			description: [
+				"Functions as a regular farmer's delight knife."
+				"Has built-in Soul Mending."
+				"Attacks come with 5 seconds of Erosion"
+				"This weapon causes 1.5x the damage"
+				""
+				"Stats:"
+				"-> Attack Damage: 5"
+				"-> Attack Speed: 2"
+				"-> Entity Reach: 3"
+				"-> Durability: 512"
+			]
+			id: "162AAC83E0F045F4"
+			subtitle: "The silent harvest"
+			tasks: [{
+				id: "37A4B5F6A9DFCED8"
+				item: {
+					Count: 1
+					id: "goetydelight:dark_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["162AAC83E0F045F4"]
+			description: [
+				"Holding Shift while stealthing makes the user invisible and increases stealth movement speed. Backstabbing a target in this state will deal triple damage. After dealing damage to the target, the user will return to the stealth position. Only one backstab can trigger the triple damage effect per stealth session, and the triple damage from a backstab will not trigger the previous doubling effect."
+				"This weapons deals 1.5x the damage."
+				""
+				"Stats:"
+				"-> Attack Damage: 10"
+				"-> Attack Speed: 2"
+				"-> Entity Reach: 3"
+				"-> Durability: 2031"
+			]
+			id: "2920A95D413ECE43"
+			subtitle: "Lies of the lost mixed with truths of the damned"
+			tasks: [{
+				id: "18E10931656E773D"
+				item: {
+					Count: 1
+					id: "goetydelight:false_proverbs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6B6647B90C35B368"]
+			description: ["Functions as a regular Minecraft brush with 64 durability but swipes 1.2x faster."]
+			id: "0361E5B879A3D350"
+			subtitle: "Strip the sanctity from relics to reveal the rot beneath"
+			tasks: [{
+				id: "01F2307A3CD0A7A7"
+				item: {
+					Count: 1
+					id: "goetydelight:cursed_metal_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6B6647B90C35B368"]
+			description: ["Functions as a regular Minecraft brush with 64 durability but swipes 2x faster."]
+			id: "30CB5B8E82D815E4"
+			subtitle: "Brush away the shadows"
+			tasks: [{
+				id: "0ED4E8C02BE5DAC4"
+				item: {
+					Count: 1
+					id: "goetydelight:dark_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			id: "71DB90A7F33AA786"
+			subtitle: "The host of the deep now corrupted"
+			tasks: [{
+				id: "285CE2A69BCA5F86"
+				item: "goetydelight:parasitized_warden"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BE9FFCE5E664BAF"]
+			description: [
+				"20% chance of dropping from the Vizier Boss."
+				""
+				"After reading, the player will learn new exotic recipes."
+			]
+			id: "5071F5E2BB7AB73A"
+			shape: "octagon"
+			subtitle: "Recipes from the Prime Minister of Calamity"
+			tasks: [{
+				id: "7B6C309BD1E6520F"
+				item: "goetydelight:viziers_cookbook"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "Goety's Delight"
+}

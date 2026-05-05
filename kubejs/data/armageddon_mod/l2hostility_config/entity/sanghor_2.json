@@ -1,0 +1,52 @@
+{
+  "list": [
+    {
+      "attackScale": 1.4,
+      "blacklist": ["l2hostility:levitation"],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 150,
+        "min": 300,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "armageddon_mod:blood_orb"
+      ],
+      "healthScale": 0.25,
+      "items": [],
+      "maxLevel": 0,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 300,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 2,
+          "trait": "l2hostility:killer_aura"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:drain"
+        },
+         {
+         "cap": false,
+         "free": 2,
+         "min": 0,
+        "trait": "l2hostility:reflect"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 3,
+          "trait": "l2hostility:regenerate"
+        }
+      ]
+    }
+  ]
+}

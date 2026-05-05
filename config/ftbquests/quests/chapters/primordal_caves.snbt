@@ -7,17 +7,30 @@
 	hide_quest_until_deps_complete: true
 	icon: "alexscaves:flytrap"
 	id: "55F853E58E3A469C"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		order: 2
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.5d
-		y: -2.5d
-	}]
+	images: [
+		{
+			color: 16643754
+			height: 1.5d
+			image: "customtextures:textures/primordial_caves_logo.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -132,5 +145,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Primordal Caves"
+	title: "Primordial Caves"
 }

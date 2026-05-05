@@ -1,0 +1,193 @@
+{
+"terramity:dimlite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+   }
+  ],
+  
+  "terramity:virentium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:cosmilite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:iridium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:void_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:conductite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+  
+  "terramity:hellspec_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:nyxium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:exodium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:reverium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:duskrok_greatsword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:gobs_claymore": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:hellrok_gigaton_hammer": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:excalibur": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:simmeredge": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:icebrand": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:guiding_moonlight": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:crescent_moonblade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:hero_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.5,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:murasama": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:sword_of_the_imprisoned": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:axe_of_unholy_divinity": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:devastation": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "terramity:unholy_lance": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

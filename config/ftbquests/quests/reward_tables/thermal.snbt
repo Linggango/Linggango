@@ -1,7 +1,7 @@
 {
 	id: "58B1DD46141CDD51"
 	loot_size: 1
-	order_index: 11
+	order_index: 12
 	rewards: [
 		{ count: 4, item: "thermal:cinnabar" }
 		{ count: 6, item: "thermal:basalz_powder" }
@@ -49,13 +49,7 @@
 		{ count: 3, item: "thermal:bell_pepper" }
 		{ count: 3, item: "thermal:amaranth" }
 		{ item: "thermal:redstone_tnt" }
-		{
-			item: {
-				Count: 1
-				id: "thermal:fluid_reservoir"
-				tag: { }
-			}
-		}
+		{ item: "thermal:fluid_reservoir" }
 		{ item: "thermal:machine_catalyst_creative_augment" }
 		{ item: "thermal:machine_speed_augment" }
 		{ item: "thermal:press_coin_die" }

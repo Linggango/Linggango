@@ -1,0 +1,74 @@
+{
+"traveloptics:titanlord_scepter_tectonic": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "traveloptics:infernal_devastator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  
+  "traveloptics:mechanized_wraithblade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 7.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "traveloptics:harbingers_wrath": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 7.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "traveloptics:the_obliterator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 13.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "traveloptics:abyssal_tidecaller": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "traveloptics:stellothorn": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 9.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "traveloptics:wand_of_final_light": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "born_in_chaos_v1:soulbane": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

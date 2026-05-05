@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "lethality:nightmare_sword"
+    },
+    "title": "They Will Tremble Before Me",
+    "bold": true,
+    "color": "dark_red",
+    "description": "Obtain Nightmare Sword",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lethality:nightmare_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

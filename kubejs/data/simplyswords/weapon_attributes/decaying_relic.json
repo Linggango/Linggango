@@ -1,0 +1,13 @@
+{
+  "parent": "bettercombat:scythe",
+  "attributes" : {
+    "attack_range": 3.5,
+    "two_handed": true,
+    "category": "scythe"
+  }
+}
+
+
+
+
+

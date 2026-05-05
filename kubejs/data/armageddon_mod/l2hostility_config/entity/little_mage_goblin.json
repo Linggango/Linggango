@@ -1,0 +1,76 @@
+{
+  "list": [
+  {
+  "attackScale": 0.4,
+  "blacklist": [],
+  "difficulty": {
+    "apply_chance": 1.0,
+    "base": 35,
+    "min": 70,
+    "scale": 0.0,
+    "suppression": 0.0,
+    "trait_chance": 1.0,
+    "variation": 0.0
+  },
+  "entities": [
+    "armageddon_mod:little_mage_goblin"
+  ],
+  "healthScale": 0.8,
+  "items": [
+    {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "terramity:stygian_safety_talisman",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 25,
+          "slot": "curios/charm"
+        }
+  ],
+  "maxLevel": 0,
+  "maxTraitCount": -1,
+  "minSpawnLevel": 70,
+  "specialConditions": [],
+  "traits": [
+    {
+      "cap": false,
+      "free": 0,
+      "min": 2,
+      "trait": "l2hostility:poison"
+    },
+  {
+      "cap": false,
+      "free": 0,
+      "min": 1,
+      "trait": "l2hostility:blindness"
+    },
+      {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:ragnarok"
+        },
+         {
+          "cap": false,
+          "condition": {
+            "chance": 1.0,
+            "lv": 400
+          },
+          "free": 5,
+          "min": 0,
+          "trait": "l2hostility:tank"
+        }
+
+  ]
+}
+  ]
+}

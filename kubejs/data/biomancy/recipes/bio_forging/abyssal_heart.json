@@ -9,7 +9,7 @@
       "item": "armageddon_mod:the_heart"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "enigmaticlegacy:abyssal_heart"
     },
     {
       "item": "armageddon_mod:the_heart"
@@ -20,6 +20,7 @@
   ],
   "nutrientsCost": 998,
   "result": {
+    "count": 2,
     "item": "enigmaticlegacy:abyssal_heart"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "list": [
+    {
+      "attackScale": 1.0,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 55,
+        "min": 110,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "mowziesmobs:umvuthi"
+      ],
+      "healthScale": 0.1,
+      "items": [],
+      "maxLevel": 110,
+      "maxTraitCount": 3,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:blindness"
+        },
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:soul_burner"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:gravity"
+        }
+      ]
+    }
+  ]
+}

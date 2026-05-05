@@ -7,28 +7,42 @@
 	hide_quest_until_deps_complete: true
 	icon: "alexscaves:candy_cane"
 	id: "321AB4618F2DD69D"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: 4.5d
-		y: -0.5d
-	}]
+	images: [
+		{
+			height: 4.0d
+			image: "customtextures:textures/candy_cavity_logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.0d
+		}
+	]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5D378B6B789E0B2B"]
+			hide_until_deps_complete: false
 			id: "67670491A939A0B9"
 			rewards: [{
 				id: "2732D39C93D385BC"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Discover a Licowitch Tower"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/licowitch_tower"
@@ -40,7 +54,7 @@
 			}]
 			title: "The Dark (Chocolate) Tower"
 			x: 1.5d
-			y: 1.7027210884353678d
+			y: 2.5d
 		}
 		{
 			dependencies: ["67670491A939A0B9"]
@@ -58,8 +72,8 @@
 				type: "item"
 			}]
 			title: "The Secret Ingredient"
-			x: 2.749999999999993d
-			y: 0.36870748299320155d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3FBED5D7ADD885CF"]
@@ -93,8 +107,8 @@
 				type: "item"
 			}]
 			title: "Biome Reactors"
-			x: 3.700000000000003d
-			y: 2.354421768707489d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			description: ["Find the candy cavity caves!"]
@@ -105,6 +119,7 @@
 					Icon: "ftblibrary:icons/heart"
 				}
 			}
+			icon_scale: 1.4d
 			id: "5D378B6B789E0B2B"
 			size: 2.0d
 			subtitle: "Pure Imagination"
@@ -135,8 +150,8 @@
 				type: "item"
 			}]
 			title: "Spear Mint"
-			x: 2.714285714285708d
-			y: -1.2384353741496525d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5D378B6B789E0B2B"]
@@ -164,7 +179,7 @@
 				type: "advancement"
 			}]
 			title: "Sugar Rush Effect"
-			x: -1.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -186,8 +201,8 @@
 				type: "advancement"
 			}]
 			title: "Discover a Gingerbread Town&r."
-			x: -2.392857142857146d
-			y: -1.7741496598639372d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5D378B6B789E0B2B"]
@@ -209,8 +224,8 @@
 				type: "advancement"
 			}]
 			title: "Kill a Gingerbread.."
-			x: 1.107142857142847d
-			y: -1.809863945578229d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5D378B6B789E0B2B"]
@@ -221,7 +236,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Obtain the Ginger Armoury"
 			tasks: [{
 				id: "7649AA707D6CEFC1"
@@ -230,7 +245,7 @@
 			}]
 			title: "Doesn't really feel protective."
 			x: -0.5d
-			y: 1.7027210884353678d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2464B598797F7AE3"]
@@ -261,8 +276,8 @@
 				type: "item"
 			}]
 			title: "&l&dGingerbread Boots"
-			x: -0.8571428571428612d
-			y: 3.8687074829932016d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2464B598797F7AE3"]
@@ -293,8 +308,8 @@
 				type: "item"
 			}]
 			title: "&l&dGingerbread Leggings"
-			x: -1.3571428571428612d
-			y: 2.8687074829932016d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2464B598797F7AE3"]
@@ -325,8 +340,8 @@
 				type: "item"
 			}]
 			title: "&l&dGingerbread Chestplate"
-			x: -1.8571428571428612d
-			y: 1.8687074829932016d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2464B598797F7AE3"]
@@ -357,8 +372,8 @@
 				type: "item"
 			}]
 			title: "&l&dGingerbread Helmet"
-			x: -2.357142857142861d
-			y: 0.8687074829932016d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5D378B6B789E0B2B"]
@@ -369,7 +384,7 @@
 				type: "xp"
 				xp: 35
 			}]
-			shape: "circle"
+			shape: "square"
 			subtitle: "Power of Dessert"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/ride_gum_worm"
@@ -386,8 +401,8 @@
 				type: "advancement"
 			}]
 			title: "Control The Giant Worm!"
-			x: -0.6785714285714377d
-			y: -2.0955782312925066d
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	title: "Candy Cavity"

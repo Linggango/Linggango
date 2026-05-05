@@ -9,41 +9,44 @@
 	id: "33309D13991D7983"
 	images: [
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: -2.0d
-		}
-		{
 			click: "a"
 			dependency: "41BD8ED441485F66"
 			height: 1.0d
 			hover: ["Keep in mind, if it's functional, it should change texture!"]
-			image: "hexerei:textures/book/exclamation_point.png"
+			image: "legendary_monsters:textures/particle/warning2.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 11.887755102040806d
 			y: 4.431292517006803d
 		}
 		{
-			height: 4.5d
-			image: "customtextures:textures/ae2logo.png"
+			height: 3.0d
+			image: "customtextures:textures/applied_energestics_title.png"
 			rotation: 0.0d
-			width: 15.0d
-			x: -0.5d
-			y: -5.0d
+			width: 7.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -8.0d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.5d
 		}
 	]
 	order_index: 2
@@ -865,11 +868,7 @@
 			id: "66EF071A5EDBB6FC"
 			rewards: [{
 				id: "4480502A85229490"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
-				}
+				item: "ae2:item_storage_cell_1k"
 				random_bonus: 2
 				type: "item"
 			}]
@@ -1331,7 +1330,7 @@
 				type: "checkmark"
 			}]
 			title: "Check the online guide!"
-			x: 0.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{

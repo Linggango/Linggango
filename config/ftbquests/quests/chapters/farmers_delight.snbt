@@ -8,22 +8,25 @@
 	id: "77DAF5AD36B1B723"
 	images: [
 		{
+			height: 3.0d
+			image: "customtextures:textures/farmers_delight.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 2.0d
-		}
-		{
-			height: 1.45d
-			image: "customtextures:textures/farmersdelightlogo.png"
-			rotation: 0.0d
-			width: 5.0d
 			x: -2.5d
-			y: -2.5d
+			y: -5.5d
 		}
 	]
 	order_index: 1
@@ -40,11 +43,16 @@
 			}]
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				advancement: "farmersdelight:main/use_skillet"
-				criterion: ""
-				id: "244AF50526DA588F"
+				id: "585786AFCE4DBEDD"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
 				title: "Craft a &4Skillet"
-				type: "advancement"
+				type: "item"
 			}]
 			title: "Craft a skillet"
 			x: -4.0d
@@ -60,11 +68,10 @@
 			}]
 			subtitle: "Used to cook meals. Click the arrow to see all recipes!"
 			tasks: [{
-				advancement: "farmersdelight:main/place_cooking_pot"
-				criterion: ""
-				id: "4C20864B9BA1175D"
+				id: "1A05C4BDDA4D8C0D"
+				item: "farmersdelight:cooking_pot"
 				title: "Put down a &5Cooking Pot"
-				type: "advancement"
+				type: "item"
 			}]
 			title: "Use a cooking pot"
 			x: -5.5d
@@ -75,13 +82,7 @@
 			rewards: [
 				{
 					id: "0BFAD02FBA700BF3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "create_central_kitchen:cooking_guide"
-					}
+					item: "create_central_kitchen:cooking_guide"
 					type: "item"
 				}
 				{
@@ -90,7 +91,6 @@
 					xp: 100
 				}
 			]
-			shape: "square"
 			size: 1.5d
 			subtitle: "Can cook 6 items"
 			tasks: [{
@@ -105,39 +105,14 @@
 		}
 		{
 			dependencies: ["7ED274FAF6138F13"]
-			description: ["smaller than the conventional pot and is specialized for quick lunches."]
-			id: "1E365D6DF6B394F0"
-			rewards: [{
-				id: "2FADF626B2B110CC"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "626F548BD03ABC55"
-				item: "miners_delight:copper_pot"
-				type: "item"
-			}]
-			title: "Craft a copper pot"
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1E365D6DF6B394F0"]
 			id: "344D8DBF1BB57620"
 			tasks: [{
 				id: "2B56511E003B8F5E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "create_central_kitchen:cooking_guide"
-				}
+				item: "create_central_kitchen:cooking_guide"
 				type: "item"
 			}]
 			title: "Obtain a &6Cooking Guide"
-			x: -4.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -151,7 +126,7 @@
 				title: "Glorious Feast"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -159,13 +134,11 @@
 			id: "3B2766CE93DCB42E"
 			subtitle: "Sunlight, water and other aspects can affect the process"
 			tasks: [{
-				advancement: "farmersdelight:main/get_rich_soil"
-				criterion: ""
-				id: "0CD6FC12FD81914C"
-				title: "Obtain Rich Soil"
-				type: "advancement"
+				id: "084B17D4EF666339"
+				item: "farmersdelight:rich_soil"
+				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -173,14 +146,12 @@
 			id: "61157EAD05B7BEF7"
 			subtitle: "To obtain rich soil"
 			tasks: [{
-				advancement: "farmersdelight:main/place_organic_compost"
-				criterion: ""
-				id: "2798F4271E3AE2EF"
-				title: "Place down Organic Compost"
-				type: "advancement"
+				id: "42D7C1C4D10D88A3"
+				item: "farmersdelight:organic_compost"
+				type: "item"
 			}]
 			title: "Organic compost"
-			x: 0.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -194,7 +165,7 @@
 				title: "Cook a Plated Meal"
 				type: "advancement"
 			}]
-			x: 0.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -208,7 +179,7 @@
 				title: "Cook a Bowl Meal"
 				type: "advancement"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -216,13 +187,13 @@
 			id: "1E16EC7519387411"
 			subtitle: "Cut tall grass with a knife to obtain."
 			tasks: [{
-				advancement: "farmersdelight:main/harvest_straw"
-				criterion: ""
-				id: "541B44CC472C6CDC"
-				title: "Harvest Grass"
-				type: "advancement"
+				id: "3189A73AD06A74A2"
+				item: "farmersdelight:straw"
+				title: "Harvest &aGrass"
+				type: "item"
 			}]
-			x: -1.0d
+			title: "Harvest Grass"
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -235,14 +206,19 @@
 			}]
 			subtitle: "Used on cutting board, sometimes duplicates food"
 			tasks: [{
-				advancement: "farmersdelight:main/craft_knife"
-				criterion: ""
-				id: "354C935E7700A259"
+				id: "636E48D7DA757DAC"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
 				title: "Craft a &9Knife"
-				type: "advancement"
+				type: "item"
 			}]
 			title: "Craft a knife"
-			x: -2.5d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -255,7 +231,7 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -268,7 +244,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7ED274FAF6138F13"]
@@ -280,7 +256,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5DF5D88625C2AC31"]

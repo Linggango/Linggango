@@ -33,19 +33,21 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -12.5d
-			y: -7.5d
+			x: -13.5d
+			y: -11.5d
 		}
 	]
-	order_index: 13
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["01B7A8A9D9F737CE"]
 			description: [
 				"Spell was always a second thing in Linggango (for most of people) "
 				""
@@ -55,7 +57,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "levelz:textures/gui/sprites/magic.png"
+					Icon: "simplyswords:item/empowered_remnant"
 				}
 			}
 			icon_scale: 1.25d
@@ -73,10 +75,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"5FB33243961A651C"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["5FB33243961A651C"]
 			description: [
 				"Eating mana shards increase your irons and ars nouveau spell power significantly!"
 				""
@@ -94,10 +93,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"06D1FE2F4F129CBD"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["06D1FE2F4F129CBD"]
 			description: ["&eShard of pure mana gives 5x Spell Damage."]
 			id: "3C24B0C9C6C800B5"
 			shape: "square"
@@ -112,10 +108,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"3C24B0C9C6C800B5"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["3C24B0C9C6C800B5"]
 			id: "315B464B2A0A0649"
 			shape: "gear"
 			size: 1.0d
@@ -125,212 +118,11 @@
 				item: "kubejs:magic_vessel"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.0d
+			x: -15.5d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"0F4BF6C7D874A3E6"
-				"01B7A8A9D9F737CE"
-			]
-			id: "038E25443BB23307"
-			shape: "hexagon"
-			subtitle: "Recommended for users that main &6fire &rspells"
-			tasks: [
-				{
-					id: "0E7F0819545359F9"
-					item: {
-						Count: 1
-						id: "knightsnmages:elite_mage_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5188EC462D9F9FF1"
-					item: {
-						Count: 1
-						id: "knightsnmages:elite_mage_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "736B2A27FFE52149"
-					item: {
-						Count: 1
-						id: "knightsnmages:elite_mage_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1EC3FED1DD884052"
-					item: {
-						Count: 1
-						id: "knightsnmages:elite_mage_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Elite Battlemage Armor Set"
-			x: -5.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"01B7A8A9D9F737CE"
-				"49F5FCDCC7AD915C"
-			]
-			description: ["Each armor represents a magic school from iron's and spells books mod, choose wisely!"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "born_in_chaos_v1:textures/mob_effect/frost_defense.png"
-				}
-			}
-			id: "0F4BF6C7D874A3E6"
-			shape: "square"
-			size: 1.1d
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "6E2499F9546285A1"
-				title: "Strongest Armors"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"0F4BF6C7D874A3E6"
-				"01B7A8A9D9F737CE"
-			]
-			id: "28CEDA431511728C"
-			shape: "octagon"
-			subtitle: "Recommended for users that main &cblood &rspells"
-			tasks: [
-				{
-					id: "63D58CA38A9E1291"
-					item: {
-						Count: 1
-						id: "knightsnmages:dark_knight_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "451BEEAC7BF8BBF8"
-					item: {
-						Count: 1
-						id: "knightsnmages:dark_knight_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "76558A85CC58F546"
-					item: {
-						Count: 1
-						id: "knightsnmages:dark_knight_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7645D79F3E6CF635"
-					item: {
-						Count: 1
-						id: "knightsnmages:dark_knight_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Dark Knight Armor Set"
-			x: -5.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"0F4BF6C7D874A3E6"
-				"01B7A8A9D9F737CE"
-			]
-			id: "0941581AF7BAF005"
-			shape: "pentagon"
-			subtitle: "Recommended for users that main &eholy&r spells"
-			tasks: [
-				{
-					id: "62074D885766BED0"
-					item: {
-						Count: 1
-						id: "knightsnmages:blue_knight_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "77F941555B0BE881"
-					item: {
-						Count: 1
-						id: "knightsnmages:blue_knight_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2B220BF53C037273"
-					item: {
-						Count: 1
-						id: "knightsnmages:blue_knight_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A125AD422584F33"
-					item: {
-						Count: 1
-						id: "knightsnmages:blue_knight_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -5.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"01B7A8A9D9F737CE"
-				"49F5FCDCC7AD915C"
-			]
+			dependencies: ["49F5FCDCC7AD915C"]
 			description: ["Other creative items will be eventually added."]
 			icon: {
 				Count: 1
@@ -345,18 +137,15 @@
 			subtitle: "Now there's a way to obtain them without cheating!"
 			tasks: [{
 				id: "151354A739FC089D"
-				title: "Creative Items"
+				title: "Dam"
 				type: "checkmark"
 			}]
 			title: "Creative \\& Uncraftable Items"
-			x: -3.0d
-			y: 1.0d
+			x: -12.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "4BC57105E8D469E5"
 			shape: "diamond"
 			tasks: [{
@@ -364,29 +153,11 @@
 				item: "terramity:pocket_universe"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: -13.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
-			id: "7FF20EA035FE6CAD"
-			shape: "diamond"
-			tasks: [{
-				id: "0C126D19A38F7813"
-				item: "ae2:creative_item_cell"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "66E20D2D4E048A0C"
 			shape: "diamond"
 			tasks: [{
@@ -394,14 +165,11 @@
 				item: "ae2:creative_fluid_cell"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -14.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "153F6D05B19C33ED"
 			shape: "diamond"
 			tasks: [{
@@ -409,14 +177,11 @@
 				item: "appflux:fe_creative_cell"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -13.5d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "7F2357D0E8CD369D"
 			shape: "diamond"
 			tasks: [{
@@ -424,14 +189,11 @@
 				item: "appmek:creative_chemical_cell"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -12.5d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "64AE2207B417F3CA"
 			shape: "diamond"
 			tasks: [{
@@ -439,14 +201,11 @@
 				item: "ars_nouveau:creative_spell_book"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -13.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "61EFB96E2D893E14"
 			shape: "diamond"
 			tasks: [{
@@ -454,14 +213,11 @@
 				item: "ars_nouveau:creative_source_jar"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -12.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "3092788C4B2298B8"
 			shape: "diamond"
 			tasks: [{
@@ -469,29 +225,11 @@
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
-			id: "5DECA5B20BA538D0"
-			shape: "diamond"
-			tasks: [{
-				id: "226548734458C57E"
-				item: "hexerei:creative_waxing_kit"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "425F9D49C6B3EF2F"
 			shape: "diamond"
 			tasks: [{
@@ -499,14 +237,11 @@
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -11.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"30E2FD6B069866FB"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["30E2FD6B069866FB"]
 			id: "52982024244EAFF9"
 			shape: "diamond"
 			tasks: [{
@@ -514,22 +249,11 @@
 				item: "create:handheld_worldshaper"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -11.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"2AB93968D4F809C9"
-				"40A9AC3C939E4E58"
-				"39F48B044487D592"
-				"24C96EA047E80424"
-				"205ED76B12961E9A"
-				"174778EB4F6C81AB"
-				"6C6E51B909FAF8D0"
-				"283AB1CD955E5294"
-				"19D6163A92CF7D7E"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["5FB33243961A651C"]
 			description: ["uhh"]
 			id: "05BE3FC72F249223"
 			shape: "gear"
@@ -540,136 +264,29 @@
 				item: "kubejs:fartinium_ingot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: -11.700000000000001d
+			y: -3.9000000000000004d
 		}
 		{
 			dependencies: [
-				"16D036CAEFE301BD"
-				"39D06C6314930F2A"
-				"0DE5B7407077DAD9"
-				"2A17B0469D10D5CA"
 				"14859EC7598714A8"
-				"78240FA3446A3F40"
-				"245EF7A5D20B6B20"
-				"542DB18BA2A737B5"
-				"39ADC94E599B64ED"
-				"1A634100F4A27517"
-				"54BC3A4FBAA605EF"
-				"0676C89517091F36"
 				"05BE3FC72F249223"
-				"01B7A8A9D9F737CE"
 			]
-			description: [
-				"Light and sound gets absorbed by this ingot for sooomee reasonn.. clearly not because its very stronk."
-				""
-				"Have fun crafting it!"
-			]
+			description: ["Strongest ingot this modpack can offer! You can even craft some creative items with it."]
 			id: "49F5FCDCC7AD915C"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "End-Game Killer"
+			subtitle: "True End-Game"
 			tasks: [{
 				id: "457FED59EEB85A79"
 				item: "kubejs:linggangoonium_ingot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -12.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "0676C89517091F36"
-			tasks: [{
-				id: "56BBFAFF1833951A"
-				item: {
-					Count: 1
-					id: "lethality:nightmare_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "78240FA3446A3F40"
-			tasks: [{
-				id: "123C4309B4DC2A82"
-				item: {
-					Count: 1
-					id: "morerelics:made_in_heaven"
-					tag: {
-						abilities: {
-							as_one: {
-								points: 0
-								stats: {
-									multiplier: 0.15128d
-								}
-							}
-							judgement: {
-								points: 0
-								stats: {
-									cooldown: 25.88723d
-									max_health_damage: 5.2344d
-									min_damage: 5.21909d
-								}
-							}
-							safeguard: {
-								points: 0
-								stats: {
-									cooldown: 451.61011d
-								}
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "16D036CAEFE301BD"
-			tasks: [{
-				id: "35459336F5F1848D"
-				item: "goety_revelation:quietus_star"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "542DB18BA2A737B5"
-			tasks: [{
-				id: "1A4970A20E942D63"
-				item: "enigmaticlegacy:the_infinitum"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "39ADC94E599B64ED"
-			tasks: [{
-				id: "53E44AC53F7A504F"
-				item: "goety_revelation:apocalyptium_ingot"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"315B464B2A0A0649"
-				"01B7A8A9D9F737CE"
-			]
+			dependencies: ["315B464B2A0A0649"]
 			description: ["&ePurified Shard of Mana gives 8x spell damage."]
 			id: "14859EC7598714A8"
 			subtitle: "Spells are actually useful now?"
@@ -678,199 +295,8 @@
 				item: "kubejs:purified_shard_of_compressed_mana"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "245EF7A5D20B6B20"
-			tasks: [{
-				id: "664EEA049E55F182"
-				item: {
-					Count: 1
-					id: "goety_revelation:bow_of_revelation"
-					tag: {
-						Damage: 0
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "2A17B0469D10D5CA"
-			tasks: [{
-				id: "14FA63C97C904A9A"
-				item: "terramity:ultra_sniffer_fur"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "1A634100F4A27517"
-			tasks: [{
-				id: "7A97AD85E8551860"
-				item: "ancient_elements:sanctum_shard"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "54BC3A4FBAA605EF"
-			tasks: [{
-				id: "3D6E3E07EF7D46FB"
-				item: {
-					Count: 1
-					id: "celestisynth:keres"
-					tag: {
-						Damage: 0
-						csController: {
-							cs.keresStack: 0
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "39D06C6314930F2A"
-			tasks: [{
-				id: "010FC20F679B3C14"
-				item: "goety_revelation:broken_halo"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "0DE5B7407077DAD9"
-			tasks: [{
-				id: "13AEF637FAEB39E1"
-				item: {
-					Count: 1
-					id: "brutality:royal_guardian_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "205ED76B12961E9A"
-			tasks: [{
-				id: "7E27B216CE5FD692"
-				item: "armageddon_mod:poisonous_hand"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "6C6E51B909FAF8D0"
-			tasks: [{
-				id: "681D89A50ED1B4A4"
-				item: "armageddon_mod:arion_heart"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "283AB1CD955E5294"
-			tasks: [{
-				id: "4FEBB45622518F26"
-				item: "armageddon_mod:frog_leg"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "39F48B044487D592"
-			tasks: [{
-				id: "1B0C622BABCBF42C"
-				item: "armageddon_mod:glowbug_lantern"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "19D6163A92CF7D7E"
-			tasks: [{
-				count: 4L
-				id: "58034A54D7313C11"
-				item: { Count: 4, id: "ancient_elements:elementinium_ingot" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "24C96EA047E80424"
-			tasks: [{
-				count: 2L
-				id: "2E0AE8B62D2726E8"
-				item: { Count: 2, id: "ancient_elements:jungle_steel_ingot" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "174778EB4F6C81AB"
-			tasks: [{
-				id: "615F4ACC91A1C8E9"
-				item: "ancient_elements:smelly_repellent"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "40A9AC3C939E4E58"
-			tasks: [{
-				count: 2L
-				id: "456AFE632DBDFA2E"
-				item: { Count: 2, id: "experienceobelisk:experience_jelly" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			id: "2AB93968D4F809C9"
-			tasks: [{
-				count: 2L
-				id: "24D6AF7F3695BEE1"
-				item: { Count: 2, id: "minecraft:slime_block" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -5.5d
+			x: -14.5d
+			y: -1.5d
 		}
 	]
 	title: "Linggango"

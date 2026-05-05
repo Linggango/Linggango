@@ -8,23 +8,25 @@
 	id: "523AE8B23E6EE7E0"
 	images: [
 		{
-			height: 8.0d
-			image: "customtextures:textures/dungeonsdelightlogo.png"
+			height: 4.5d
+			image: "customtextures:textures/dungeons_delight.png"
 			rotation: 0.0d
-			width: 14.0d
-			x: 2.7095972673515263d
-			y: -1.835988239459077d
+			width: 8.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 1.0d
+			x: 2.5d
+			y: -4.5d
 		}
 	]
 	order_index: 2
@@ -122,15 +124,7 @@
 				}
 				{
 					id: "752604462CAD08F8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "dungeonsdelight:monster_pot"
-					}
+					item: "dungeonsdelight:monster_pot"
 					type: "item"
 				}
 			]
@@ -149,7 +143,7 @@
 				type: "xp"
 				xp: 75
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{

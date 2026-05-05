@@ -1,30 +1,12 @@
 ServerEvents.recipes(e => {
-  e.remove({ id: "brutality:royal_guardian_sword" });
-  e.remove({ id: "brutality:unbridled_rage" });
-  e.remove({ id: "brutality:target_cube" });
-  e.remove({ id: "brutality:double_down" });
-  e.remove({ id: "brutality:pain_catalyst" });
-  e.remove({ id: "brutality:rampage_clock" });
-  e.remove({ id: "brutality:blood_howl_pendant" });
-  e.remove({ id: "brutality:nanomachines" });
-  e.remove({ id: "brutality:spite_shard" });
-  e.remove({ id: "brutality:hate_sigil" });
-  e.remove({ id: "brutality:heart_of_wrath" });
-  e.remove({ id: "brutality:eye_for_violence" });
-  e.remove({ id: "brutality:battle_scars" });
-  e.remove({ id: "brutality:mechanical_aorta" });
-  e.remove({ id: "brutality:blood_pulse_gauntlets" });
-  e.remove({ id: "brutality:fury_band" });
-  e.remove({ id: "brutality:grudge_totem" });
-  e.remove({ id: "brutality:blood_stone" });
-  e.remove({ id: "brutality:wrath" });
-  e.remove({ id: "brutality:anger_management" });
-  e.remove({ id: "brutality:crown_of_tyranny" });
-  e.remove({ id: "brutality:blade_of_the_ruined_king" });
-  e.remove({ id: "brutality:gluttony" });
-  e.remove({ id: "brutality:heart_of_gold" });
-  e.remove({ id: "brutality:self_repair_nexus"})
-  e.remove({ id: "brutality:vampire_knives"});
+
+   e.remove({ id: "brutality:vampire_knives"});
+     e.remove({ id: "brutality:royal_guardian_sword" });
+       e.remove({ id: "brutality:nanomachines" });
+         e.remove({ id: "brutality:target_cube" });
+           e.remove({ id: "brutality:unbridled_rage" });
+             e.remove({ id: "brutality:self_repair_nexus"})
+               e.remove({ id: "brutality:sundered_clock"});
 
   e.shaped("brutality:royal_guardian_sword", ["ABC", "DEB", "FDA"], {
     A: "minecraft:gold_block",
@@ -64,8 +46,16 @@ ServerEvents.recipes(e => {
   e.shaped("brutality:vampire_knives", ["ABB", "ACB", "DAA"], {
     A: "terramity:chthonic_crystal",
     B: "brutality:diamond_knife",
-    C: "terramity:cthonic_nectar",
+    C: "terramity:chthonic_nectar",
     D: "bloodmagic:activationcrystalweak",
+  });
+
+  e.shaped("brutality:sundered_clock", ["ABA", "CDC", "CEC"], {
+    A: "terramity:hellspec_alloy",
+    B: "lethality:hellspec_bafs",
+    C: "minecraft:lapis_block",
+    D: "brutality:shattered_clock",
+    E: "terramity:icebrand",
   });
 
 });

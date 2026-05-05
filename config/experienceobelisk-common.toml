@@ -61,6 +61,9 @@
 		#The number of spawns until the bookshelf decays. Default = 50
 		#Range: 1 ~ 10000
 		Spawns = 50
+		#The chance for an Infected Bookshelf to infect a valid adjacent block every second.
+		#Range: 0.0 ~ 1.0
+		Infectivity = 0.02
 
 	["Bookshelf Settings"."Infected Enchanted Bookshelves"]
 		#The minimum spawn delay of Enchanted Bookshelves in ticks. Default = 100
@@ -75,6 +78,9 @@
 		#The number of spawns until the bookshelf decays. Default = 100
 		#Range: 1 ~ 10000
 		Spawns = 100
+		#The chance for an Enchanted Bookshelf to infect a valid adjacent block every second.
+		#Range: 0.0 ~ 1.0
+		Infectivity = 0.02
 
 	["Bookshelf Settings"."Infected Archiver's Bookshelves"]
 		#The minimum spawn delay of Archiver's Bookshelves in ticks. Default = 180
@@ -89,6 +95,9 @@
 		#The number of spawns until the bookshelf decays. Default = 50
 		#Range: 1 ~ 10000
 		Spawns = 100
+		#The chance for an Archiver's Bookshelf to infect a valid adjacent block every second.
+		#Range: 0.0 ~ 1.0
+		Infectivity = 0.02
 
 ["Agar Settings"]
 	#The bonus that Insightful & Extravagant Agar apply to bookshelves sharing a face. Default = 1.35
@@ -105,6 +114,15 @@
 	AgarEmitsLight = true
 	#Whether Agar blocks are permeable to Forgotten Dust item entities. Default = false
 	ShelvesPermeableToDust = false
+	#The chance for a Nutrient Agar block to infect a valid adjacent block every second.
+	#Range: 0.0 ~ 1.0
+	NutrientAgarInfectivity = 0.005
+	#The chance for an Insightful Agar block to infect a valid adjacent block every second.
+	#Range: 0.0 ~ 1.0
+	InsightfulAgarInfectivity = 0.01
+	#The chance for an Extravagant Agar block to infect a valid adjacent block every second.
+	#Range: 0.0 ~ 1.0
+	ExtravagantAgarInfectivity = 0.02
 
 ["Cognitive Bow"]
 	#Whether to show the projectile velocity & accuracy boost in the tooltip. Default = true

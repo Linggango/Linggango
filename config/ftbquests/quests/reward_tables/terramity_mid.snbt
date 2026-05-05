@@ -1,0 +1,14 @@
+{
+	id: "15F7FF7CA4B9B655"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 2, item: "terramity:ruby", random_bonus: 2 }
+		{ count: 2, item: "terramity:sapphire", random_bonus: 2 }
+		{ count: 2, item: "terramity:topaz", random_bonus: 2 }
+		{ count: 2, item: "terramity:onyx", random_bonus: 2 }
+		{ count: 32, item: "terramity:cardboard" }
+		{ count: 3, item: "terramity:fairy_dust" }
+	]
+	title: "terramity earlygame"
+}

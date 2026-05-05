@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "goety:unholy_blood"
+    },
+    "title": {
+      "text": "Purity of Sin",
+      "color": "dark_red",
+      "bold": true
+    },
+    "description": {
+      "text": "Obtain Pure Unholy Blood"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_pure_blood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goety:unholy_blood"
+            ],
+            "nbt": "{ Pure:1b }"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pure_blood"
+    ]
+  ]
+}

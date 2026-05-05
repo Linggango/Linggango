@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "brutality:paper_cut"
+    },
+    "title": "Ouch!",
+    "description": "Obtain Papercut",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brutality:paper_cut"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

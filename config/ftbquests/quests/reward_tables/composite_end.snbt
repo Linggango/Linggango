@@ -1,0 +1,30 @@
+{
+	id: "6F0AB19450DBCBA7"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 4, item: "composite_material:warden_hand", random_bonus: 4 }
+		{ count: 2, item: "minecraft:echo_shard", random_bonus: 2 }
+		{ count: 2, item: "composite_material:allay_steel_ingot", random_bonus: 1 }
+		{ item: "kubejs:corrupted_soul_fragment", random_bonus: 1 }
+		{ count: 2, item: "composite_material:disenchanted_book" }
+		{ count: 2, item: "composite_material:echoium_ingot", random_bonus: 2 }
+		{ count: 2, item: "armageddon_mod:echoing_scrap" }
+		{ item: "minecraft:echo_shard", random_bonus: 2 }
+		{ item: "minecraft:reinforced_deepslate", random_bonus: 1 }
+		{ count: 32, item: "minecraft:amethyst_shard", random_bonus: 1 }
+		{ count: 2, item: "minecraft:quartz", random_bonus: 4 }
+		{ count: 2, item: "composite_material:allay_steel_ingot", random_bonus: 1 }
+		{
+			item: {
+				Count: 1
+				id: "composite_material:disc_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "composite_end"
+}

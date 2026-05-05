@@ -8,29 +8,35 @@
 	id: "607FC85B97E241AE"
 	images: [
 		{
-			height: 3.0d
-			image: "customtextures:textures/evolvedmekanism.png"
+			height: 2.5d
+			image: "customtextures:textures/mekanism_evolved_logo.png"
 			rotation: 0.0d
-			width: 6.0d
+			width: 8.0d
 			x: -5.5d
 			y: -2.5d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -0.5d
+			x: -5.5d
+			y: -4.5d
 		}
 	]
-	order_index: 14
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["26D306418545A2D6"]
+			dependencies: [
+				"26D306418545A2D6"
+				"4CAB5A327810DF8A"
+			]
 			description: ["Mekanism evolved offers extreme machines compared to default mekanism, this questline will guide you through everything!"]
 			icon: {
 				Count: 1
@@ -228,7 +234,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Redstone but ingot"
 			tasks: [{
 				id: "4B338D4A91768075"
@@ -1708,7 +1714,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["670CB1B9FDC66BA7"]
 			description: [
 				"Evolved Mekanism is a Mekanism addon that adds machines and alloys!"
 				""
@@ -1745,8 +1750,8 @@
 				item: "evolvedmekanism:advanced_personal_barrel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["490C4C9FFBBBD972"]
@@ -1758,8 +1763,8 @@
 				item: "evolvedmekanism:elite_personal_barrel"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.5d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["57938B49A1A11504"]
@@ -1771,8 +1776,8 @@
 				item: "evolvedmekanism:ultimate_personal_barrel"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.5d
+			x: -9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CAB5A327810DF8A"]
@@ -1784,8 +1789,8 @@
 				item: "evolvedmekanism:advanced_personal_chest"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7B6D9DBF573A2130"]
@@ -1797,8 +1802,8 @@
 				item: "evolvedmekanism:elite_personal_chest"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["54F4D40A738B31AA"]
@@ -1810,8 +1815,8 @@
 				item: "evolvedmekanism:ultimate_personal_chest"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C1072A1EE8BF205"]
@@ -1867,8 +1872,8 @@
 				item: "evolvedmekanism:alloyer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CAB5A327810DF8A"]
@@ -1892,8 +1897,8 @@
 				item: "evolvedmekanism:thermalizer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4CAB5A327810DF8A"]
@@ -1905,7 +1910,7 @@
 				item: "evolvedmekanism:solidification_chamber"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -1932,7 +1937,7 @@
 				item: "evolvedmekanism:mold_storage_block"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
@@ -1946,7 +1951,7 @@
 				item: "evolvedmekanism:mold_ingot"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -0.5d
 		}
 		{
@@ -1960,7 +1965,7 @@
 				item: "evolvedmekanism:mold_gem"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: -1.0d
 		}
 		{
@@ -1974,7 +1979,7 @@
 				item: "evolvedmekanism:mold_nugget"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.0d
 			y: 1.0d
 		}
 		{
@@ -1988,7 +1993,7 @@
 				item: "evolvedmekanism:mold_dust"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 2.0d
 		}
 		{
@@ -2002,7 +2007,7 @@
 				item: "evolvedmekanism:mold_plate"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: -0.5d
 		}
 		{
@@ -2016,7 +2021,7 @@
 				item: "evolvedmekanism:mold_rod"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: 1.5d
 		}
 		{
@@ -2030,7 +2035,7 @@
 				item: "evolvedmekanism:mold_gear"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 0.5d
 		}
 		{
@@ -2044,7 +2049,7 @@
 				item: "evolvedmekanism:mold_wire"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.0d
 			y: 0.0d
 		}
 		{
@@ -2080,7 +2085,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "Gold, but better"
 			tasks: [{
 				id: "7782159629DD5BA3"
@@ -2243,7 +2248,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "The consequences of the Industrial Revolution"
 			tasks: [{
 				id: "7DEDD701A9F7C87E"

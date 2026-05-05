@@ -1,0 +1,44 @@
+{
+	id: "25F661F6BB5F711B"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 4, item: "minecraft:copper_ingot", random_bonus: 4, weight: 1.5f }
+		{ count: 2, item: "minecraft:flint", random_bonus: 2, weight: 1.5f }
+		{ count: 4, item: "minecraft:amethyst_shard", random_bonus: 2 }
+		{ item: "composite_material:guardian_elder_spike" }
+		{ item: "composite_material:abyss_fang" }
+		{ item: "composite_material:prismarine_alloy_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{ count: 2, item: "minecraft:diamond", weight: 0.2f }
+		{ count: 2, item: "minecraft:iron_ingot", random_bonus: 2, weight: 0.6f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "composite_material:rusted_copper_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "composite_early"
+}

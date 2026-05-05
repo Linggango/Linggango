@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "kubejs:purified_shard_of_compressed_mana"
+  },
+  "craftType": "expert_nether",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "minecraft:raiders",
+    "display_name": "entity.goety.apostle"
+  },
+  "soulCost": 666,
+  "duration": 120,
+  "ingredients": [
+    {
+      "item": "kubejs:fartinium_ingot"
+    },
+    {
+      "item": "goety_revelation:bow_of_revelation"
+    },
+    {
+      "item": "goety_revelation:broken_halo"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "goety_revelation:quietus_star"
+    },
+    {
+      "item": "covenant_of_the_seven:the_aeternum"
+    },
+    {
+      "item": "ancient_elements:sanctum_shard"
+    },
+    {
+      "item": "terramity:ultra_sniffer_fur"
+    },
+    {
+      "item": "morerelics:made_in_heaven"
+    },
+    {
+      "item": "brutality:royal_guardian_sword"
+    },
+    {
+      "item": "celestisynth:keres"
+    },
+    {
+      "item": "lethality:nightmare_sword"
+    }
+  ],
+  "result": {
+    "item": "kubejs:linggangoonium_ingot"
+  }
+}

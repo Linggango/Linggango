@@ -1,0 +1,17 @@
+{
+	id: "45AF32FB0439FF53"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 2, item: "composite_material:obsidian_steel_ingot", random_bonus: 1 }
+		{ item: "composite_material:dungeon_steel_ingot", random_bonus: 1 }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 1 }
+		{ count: 2, item: "ae2:certus_quartz_dust" }
+		{ count: 2, item: "ae2:certus_quartz_crystal" }
+		{ count: 2, item: "minecraft:quartz", random_bonus: 2 }
+		{ item: "composite_material:warden_hand", random_bonus: 1 }
+		{ count: 2, item: "deeperdarker:warden_carapace", random_bonus: 1 }
+		{ item: "dungeonsdelight:wardenzola_crumbles", weight: 0.5f }
+	]
+	title: "composite_mid"
+}

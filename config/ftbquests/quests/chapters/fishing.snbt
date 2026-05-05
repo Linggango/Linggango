@@ -14,23 +14,12 @@
 	id: "047B22E418784708"
 	images: [
 		{
-			height: 8.0d
-			image: "customtextures:textures/fishinglogo.png"
+			height: 1.8d
+			image: "customtextures:textures/starcatcher.png"
 			rotation: 0.0d
-			width: 15.0d
+			width: 10.0d
 			x: -0.5d
-			y: -7.0d
-		}
-		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			height: 1.35d
@@ -39,6 +28,30 @@
 			width: 7.0d
 			x: -0.5d
 			y: 3.0d
+		}
+		{
+			alpha: 155
+			click: "https://www.kinetichosting.com/modpacks/Lingango/order"
+			height: 1.0d
+			hover: ["Play with your friends!"]
+			image: "ftblibrary:icons/friends"
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.8214285714285765d
+			y: -5.303571428571431d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -10.0d
 		}
 	]
 	order_index: 0
@@ -135,7 +148,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -204,24 +217,6 @@
 		}
 		{
 			dependencies: ["0741A7B974CB2ED7"]
-			id: "53C74B39AACCCB1E"
-			rewards: [{
-				id: "5C00BA80C8C5492F"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "0E95AF7B5DC88EE9"
-				item: "starcatcher:crystal_hook"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0741A7B974CB2ED7"]
 			id: "7E72918CA1B1D629"
 			rewards: [{
 				id: "618F7053094212B1"
@@ -276,78 +271,6 @@
 		}
 		{
 			dependencies: ["60867E1B797B1E0F"]
-			id: "3FCCAB0D97E54632"
-			rewards: [{
-				id: "0400C82AA2D989C3"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "2F963136176D38BA"
-				item: "starcatcher:creeper_bobber"
-				type: "item"
-			}]
-			x: -3.414430249532977d
-			y: 0.5d
-		}
-		{
-			dependencies: ["60867E1B797B1E0F"]
-			id: "4F9EBAE207EF978D"
-			rewards: [{
-				id: "7DFDA5B0C27CADC8"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "24CE4426F220CAED"
-				item: "starcatcher:glitter_bobber"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["60867E1B797B1E0F"]
-			id: "622F0C51ADCED145"
-			rewards: [{
-				id: "0AB80F8DFE33C375"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "1D916020B7FEEB64"
-				item: "starcatcher:colorful_bobber"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["60867E1B797B1E0F"]
-			id: "6B02AE8995826AF9"
-			rewards: [{
-				id: "42F233BAE2BB7EBC"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "65E2DC94C29A864C"
-				item: "starcatcher:frugal_bobber"
-				type: "item"
-			}]
-			x: -3.414430249532977d
-			y: -1.5d
-		}
-		{
-			dependencies: ["60867E1B797B1E0F"]
 			id: "1DF4028EAA44A63F"
 			rewards: [{
 				id: "3C5EE13333FB6CD7"
@@ -361,44 +284,8 @@
 				item: "starcatcher:steady_bobber"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["60867E1B797B1E0F"]
-			id: "41AE12860C9E2BCB"
-			rewards: [{
-				id: "452FDFF38EE87F83"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "615060102ED07F12"
-				item: "starcatcher:impatient_bobber"
-				type: "item"
-			}]
-			x: -3.414430249532977d
-			y: -0.5d
-		}
-		{
-			dependencies: ["60867E1B797B1E0F"]
-			id: "53055F406D0B9501"
-			rewards: [{
-				id: "435AE98D460D5C1E"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			subtitle: "Hold Shift to see item description"
-			tasks: [{
-				id: "0CF4A555259E4A61"
-				item: "starcatcher:frog_bobber"
-				type: "item"
-			}]
 			x: -2.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["60867E1B797B1E0F"]
@@ -525,36 +412,6 @@
 			}]
 			x: 2.5d
 			y: -0.5d
-		}
-		{
-			id: "1BA8AD47D4315377"
-			rewards: [{
-				id: "2EC0EB1D2B6B2B26"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "59B9BD68406CD0DC"
-				item: "starcatcher:scalding_treasure"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 12.0d
-		}
-		{
-			id: "40569920823852B5"
-			rewards: [{
-				id: "29BCC0A5C5A6906D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6DE0D51A793FD51A"
-				item: "starcatcher:treasure"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 12.0d
 		}
 		{
 			id: "2F0D5EED2CB31577"
@@ -1933,8 +1790,8 @@
 				item: "starcatcher:conch"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 13.0d
+			x: 2.5d
+			y: 12.0d
 		}
 		{
 			id: "5DB14659C9A2A3F7"
@@ -2024,8 +1881,8 @@
 				item: "starcatcher:clam"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: 3.5d
+			y: 12.0d
 		}
 		{
 			id: "7D4344CBC0B66C95"
@@ -2042,6 +1899,82 @@
 			x: -0.5d
 			y: 4.0d
 		}
+		{
+			description: ["Want to do a fish catching tournament? here it is!"]
+			id: "48BE6F017C907A44"
+			rewards: [{
+				id: "02255DDDFD59E2F0"
+				item: "starcatcher:tournament_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "136B591589CA06FD"
+				title: "woa"
+				type: "checkmark"
+			}]
+			title: "Tournament!"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "518A33534D5AAFA1"
+			subtitle: "Hold Shift to see item description"
+			tasks: [{
+				id: "3E75F0FF68F1A16E"
+				item: "starcatcher:bobber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "319D430E8AE7F54C"
+			subtitle: "Hold Shift to see item description"
+			tasks: [{
+				id: "643974DCE7B17EE8"
+				item: "starcatcher:clear_bobber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "0F40E5C07CA2336D"
+			subtitle: "Hold Shift to see item description"
+			tasks: [{
+				id: "3DA69F91816DD96E"
+				item: "starcatcher:aqua_bobber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "3FB50F24BDBAE301"
+			subtitle: "Hold Shift to see item description"
+			tasks: [{
+				id: "2B06257D84088E52"
+				item: "starcatcher:vanilla_bobber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "632DB7A73AB5B8C3"
+			tasks: [{
+				id: "7229B44F9FE353D3"
+				item: "starcatcher:heavy_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
 	]
-	title: "Fishing"
+	title: "Starcatcher"
 }

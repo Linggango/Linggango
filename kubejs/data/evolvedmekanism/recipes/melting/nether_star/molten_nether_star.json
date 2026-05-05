@@ -1,0 +1,13 @@
+{
+    "type": "evolvedmekanism:melting",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "output": {
+        "fluid": "industrialforegoing:ether_gas",
+        "amount": 100
+    },
+    "conditions": []
+}

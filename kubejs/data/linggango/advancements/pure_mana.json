@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:shard_of_compressed_mana"
+    },
+    "title": "Mage",
+    "description": "Lowk top 10 magic user.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:shard_of_compressed_mana"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

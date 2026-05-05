@@ -1,0 +1,43 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1775262179016
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:68989309-233e-449d-bcd4-e3e3e8f6d22f-1775262172965] = [groups:][instances:]
+}
+
+customization {
+  action = setopenaudio
+  path = [source:local]/config/fancymenu/assets/general_click_sound.ogg
+}
+
+customization {
+  action = setcloseaudio
+  path = [source:local]/config/fancymenu/assets/general_click_sound.ogg
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+

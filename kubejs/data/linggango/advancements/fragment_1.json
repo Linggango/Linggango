@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:broken_cube_piece_1"
+    },
+    "title": "First fragment!",
+    "description": "You crafted a piece of a broken cube. Maybe you should try to crafting the other piece?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:broken_cube_piece_1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

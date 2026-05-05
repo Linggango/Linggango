@@ -2,32 +2,16 @@
 ["Blessing Scroll"]
 	#Damage increase provided by Scroll of a Blessing for each lucky point, as percentage.
 	#Range: 0.0 ~ 32768.0
-	DamageBoost = 0.4
+	DamageBoost = 4.0
 	#AttackSpeed increase provided by Scroll of a Blessing for each lucky point, as percentage.
 	#Range: 0.0 ~ 32768.0
-	AttackSpeedBoost = 0.01
+	AttackSpeedBoost = 6.0
 	#Dodge increase provided by Scroll of a Blessing for each lucky point, as percentage.
 	#Range: 0.0 ~ 100.0
-	DodgeBoost = 0.0
+	DodgeBoost = 2.0
 	#Max Dodge provided by Scroll of a Blessing, as percentage.
 	#Range: 0.0 ~ 100.0
-	MaxDodge = 20.0
-
-["THe Needle"]
-	#The armor penetration attribute value provided by The Needle, default:0.7
-	#Range: 0.0 ~ 1.0
-	needleArmorPenetration = 0.7
-	#The enchantment piercing attribute value provided by The Needle, default:0.5
-	#Range: 0.0 ~ 1.0
-	needleEnchantmentPiercing = 0.5
-	#The minimum attribute value that the player will increase after using The Needle, default:0.0666
-	#Range: 0.0 ~ 1.0
-	needleMinimumAttributeEnhancement = 0.0666
-	#The maximum attribute value that the player will increase after using The Needle, default:0.0666
-	#Range: 0.0 ~ 1.0
-	needleMaximumAttributeEnhancement = 0.176
-	#The preciousness weight of the permanently augmented attributes provided by The Needle(default AttackDamage:0.12, MaxHealth:0.12, AttackSpeed:0.4, Resistance:3.5
-	needleAttributeWeight = [0.12, 0.12, 0.4, 3.5]
+	MaxDodge = 85.0
 
 ["Dimensional Will"]
 	#The resistance of damage provided by Dimensional Will, as percentage.
@@ -51,7 +35,15 @@
 
 	["Apocalyptium Armor".Chestplate]
 		#display player's apostle title when equipped the apocalyptium chestplate
-		displayTitle = true
+		displayTitle = false
+
+	["Apocalyptium Armor"."Spectre Darkmage Armor"]
+		#The cooldown of Spectre Darkmage set after adding a layer of magic shield(in seconds.).
+		#Range: 1 ~ 32768
+		MagicShieldCooldown = 30
+		#The soul energy cost of Spectre Darkmage set after adding a layer of magic shield.
+		#Range: 0 ~ 32768
+		MagicShieldCost = 30
 
 ["Amulet of Slime"]
 	#The skill cooldown of the amulet of slime, default 2.5(in seconds).
@@ -73,4 +65,30 @@
 	#Defined the increase in probability of special death loot from some creatures for this charm, default 25(in percent).
 	#Range: 0.0 ~ 100.0
 	specialLootPercentIncrease = 25.0
+
+["Ender Keeper"]
+	#Drop chance of Broken Ender Keeper ppon conditions.
+	#Range: 0.0 ~ 1.0
+	BrokenDropChance = 0.35
+
+["The Needle"]
+	#The armor penetration attribute value provided by The Needle, default:0.7
+	#Range: 0.0 ~ 1.0
+	needleArmorPenetration = 0.7
+	#The enchantment piercing attribute value provided by The Needle, default:0.5
+	#Range: 0.0 ~ 1.0
+	needleEnchantmentPiercing = 0.5
+	#The minimum attribute value that the player will increase after using The Needle, default:0.0666
+	#Range: 0.0 ~ 1.0
+	needleMinimumAttributeEnhancement = 0.0666
+	#The maximum attribute value that the player will increase after using The Needle, default:0.0666
+	#Range: 0.0 ~ 1.0
+	needleMaximumAttributeEnhancement = 0.176
+	#The preciousness weight of the permanently augmented attributes provided by The Needle(default AttackDamage:0.12, MaxHealth:0.12, AttackSpeed:0.4, Resistance:3.5
+	needleAttributeWeight = [0.12, 0.12, 0.4, 3.5]
+
+["Eerie Axe"]
+	#Defined the maximum depth to which this tool can collect logs at once, default 32.
+	#Range: 0 ~ 128
+	maxDepth = 32
 

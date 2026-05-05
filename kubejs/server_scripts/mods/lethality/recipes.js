@@ -2,6 +2,7 @@ ServerEvents.recipes(e => {
   e.remove({ id: "lethality:nightmare_sword" });
   e.remove({ id: "lethality:gamblers_blade" });
   e.remove({ id: "lethality:midas_touch" });
+  e.remove({ id: "lethality:horseless_headless_horsemanns_headtaker" });
 
   e.shaped("lethality:midas_touch", ["AAB", "CDA", "ECA"], {
     A: "minecraft:gold_block",
@@ -20,5 +21,12 @@ ServerEvents.recipes(e => {
     F: "lethality:midas_touch",
     G: "terramity:weighted_die",
     H: "terramity:devils_dice",
+  });
+
+  e.shaped("lethality:horseless_headless_horsemanns_headtaker", ["AAB", "AC ", "D  "], {
+    A: "terramity:hellspec_alloy",
+    B: "terramity:iridium_block",
+    C: "terramity:iridium_axe",
+    D: "minecraft:stick",
   });
 });

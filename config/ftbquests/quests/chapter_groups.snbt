@@ -1,13 +1,13 @@
 {
 	chapter_groups: [
+		{ id: "37784D9C95A7F8C5", title: "&6&lWIP&r" }
+		{ id: "7C724FC6AC4AD027", title: "&lLinggango Cut Content" }
 		{ id: "3B5FC78CC89E4CD7", title: "&lInfo" }
-		{ id: "732C19DBA160D9E8", title: "&lTierlists" }
 		{ id: "3C6AB1DE39D4F441", title: "&lProgression" }
 		{ id: "52FA8429D8BF5933", title: "&lExploration" }
 		{ id: "509FB55A8427ED0C", title: "&lCookery \\& Chef" }
 		{ id: "20D67F7F184680D5", title: "&lMagic" }
 		{ id: "3C6437AAADAFC5CB", title: "&lTech" }
 		{ id: "24697C49C2A3ADAA", title: "&lOther" }
-		{ id: "62B6EA0538DBB088", title: "mayb" }
 	]
 }

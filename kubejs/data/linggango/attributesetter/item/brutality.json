@@ -1,0 +1,83 @@
+{
+"brutality:frostmourne": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 16.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+    "brutality:spatula": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:the_golden_spatula": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:meloncholy": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:apple_core": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:chopstick": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:bamboo_staff": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:frying_pan": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:potato_masher": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "brutality:whisk": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -15.0,
+      "operation": "ADDITION"
+   }
+  ]
+
+
+}

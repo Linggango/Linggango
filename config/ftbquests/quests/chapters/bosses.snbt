@@ -9,7 +9,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "block_factorys_bosses:item/large_sword"
+			Icon: "goetydelight:textures/mob_effect/the_pale_messenger.png"
 		}
 	}
 	id: "084C60296473EF4E"
@@ -21,223 +21,21 @@
 			order: -5
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: 5.5d
-		}
-		{
-			dependency: "7FA7E7C8E3928D9B"
-			height: 2.0d
-			image: "lethality:textures/entity/hf_meowrasama_slash_1_0.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			dependency: "7FA7E7C8E3928D9B"
-			height: 2.0d
-			image: "lethality:textures/entity/hf_meowrasama_slash_1_0.png"
-			order: -1
-			rotation: 90.0d
-			width: 2.0d
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			dependency: "7FA7E7C8E3928D9B"
-			height: 2.0d
-			image: "lethality:textures/entity/hf_meowrasama_slash_1_1.png"
-			order: -1
-			rotation: 90.0d
-			width: 2.0d
-			x: 3.5d
-			y: 5.5d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
 			y: -5.0d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/c_upper.png"
-			rotation: -15.0d
-			width: 1.0d
-			x: 0.2678269579398531d
-			y: 1.23790459309798d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/a_upper.png"
-			rotation: -15.0d
-			width: 1.0d
-			x: 1.0178269579398531d
-			y: 1.1664760216694177d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/n_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.9821126722255684d
-			y: 1.0950474502408412d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/y_upper.png"
-			rotation: 15.0d
-			width: 1.0d
-			x: 2.910684100796999d
-			y: 1.8093331645265565d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/o_upper.png"
-			rotation: 15.0d
-			width: 1.0d
-			x: 3.553541243654138d
-			y: 2.130761735955126d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/u_upper.png"
-			rotation: 15.0d
-			width: 1.0d
-			x: 4.303541243654138d
-			y: 2.4521903073837024d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/t_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.16068410079699902d
-			y: 3.380761735955126d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/a_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0535412436541378d
-			y: 3.3450474502408483d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/k_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.910684100796992d
-			y: 3.3450474502408483d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/e_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.8392555293684296d
-			y: 3.3093331645265636d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/d_upper.png"
-			rotation: 15.0d
-			width: 1.0d
-			x: -0.3036016134887092d
-			y: 4.416476021669411d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/o_upper.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.3035412436541449d
-			y: 4.666476021669411d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/w_upper.png"
-			rotation: 23.0d
-			width: 1.0d
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			dependency: "66B7488E1CB76BBE"
-			height: 1.0d
-			image: "hexerei:textures/book/n_upper.png"
-			rotation: 30.0d
-			width: 1.0d
-			x: 1.803541243654145d
-			y: 5.345047450240841d
-		}
-		{
-			color: 11141120
-			dependency: "66B7488E1CB76BBE"
-			height: 1.5d
-			image: "hexerei:textures/book/a_upper.png"
-			rotation: 23.0d
-			width: 1.5d
-			x: -1.6607444706315704d
-			y: 5.845047450240841d
-		}
-		{
-			color: 11141120
-			dependency: "66B7488E1CB76BBE"
-			height: 1.5d
-			image: "hexerei:textures/book/g_upper.png"
-			rotation: 23.0d
-			width: 1.5d
-			x: -0.08931589920298677d
-			y: 6.487904593097987d
-		}
-		{
-			color: 11141120
-			dependency: "66B7488E1CB76BBE"
-			height: 1.5d
-			image: "hexerei:textures/book/o_upper.png"
-			rotation: 23.0d
-			width: 1.5d
-			x: 0.9463983865112979d
-			y: 6.809333164526549d
-		}
-		{
-			color: 11141120
-			dependency: "66B7488E1CB76BBE"
-			height: 1.5d
-			image: "hexerei:textures/book/d_upper.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 2.1249698150827285d
-			y: 7.023618878812272d
-		}
-		{
-			color: 11141120
-			dependency: "66B7488E1CB76BBE"
-			height: 3.0d
-			image: "hexerei:textures/book/question_mark.png"
-			rotation: 34.0d
-			width: 3.0d
-			x: 3.446398386511298d
-			y: 7.095047450240841d
 		}
 		{
 			height: 2.0d
@@ -247,8 +45,177 @@
 			x: -1.0d
 			y: -1.0d
 		}
+		{
+			height: 5.0d
+			image: "terramity:block/hexing_circle"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: 45.0d
+			width: 2.5d
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: -135.0d
+			width: 2.5d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: -45.0d
+			width: 2.5d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: 135.0d
+			width: 2.5d
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: -90.0d
+			width: 1.5d
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: 180.0d
+			width: 1.5d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: 90.0d
+			width: 1.5d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			image: "goety:textures/entity/cultist/summon_apostle.png"
+			order: -2
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 7.0d
+			image: "goety:textures/entity/cultist/summon_apostle_ring.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: 90.0d
+			width: 2.5d
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: -180.0d
+			width: 2.5d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			height: 2.5d
+			image: "terramity:item/unholy_lance"
+			order: 1
+			rotation: -90.0d
+			width: 2.5d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: 45.0d
+			width: 1.5d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: 135.0d
+			width: 1.5d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: -45.0d
+			width: 1.5d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "netherexp:block/ancient_campfire_fire"
+			rotation: -135.0d
+			width: 1.5d
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			height: 1.5d
+			image: "goety_revelation:textures/entity/player/halo.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -2.0d
+		}
 	]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -273,30 +240,24 @@
 				entity: "legendary_monsters:dune_sentinel"
 				icon: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "legendary_monsters:sand_cannon"
 					tag: {
 						Damage: 0
 					}
 				}
 				id: "736AF38E16C96DDE"
+				title: "Defeat Dune Sentinel"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill &cThe Dune Sentinel"
-			x: -1.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["17A934CFAC3FA28E"]
 			description: [
-				"&cThe Ancient Guardian&r is a heavy-hitting giant monster, that protects these stupid silverfishes."
-				""
-				"Expect a bigger threat than ordinary silverfishes though!"
+				"&cThe Ancient Guardian&r is a heavy-hitting giant monster, that protects these annoying silverfishes."
 				""
 				"{image:customtextures:textures/ancientguardian.png width:250 height:110 align:center}"
 				"{image:customtextures:textures/ancientguardian1.png width:250 height:110 align:center}"
@@ -317,23 +278,18 @@
 				entity: "legendary_monsters:ancient_guardian"
 				icon: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "legendary_monsters:monstrous_anchor"
 					tag: {
 						Damage: 0
 					}
 				}
 				id: "64592C21ADB7DD37"
-				title: "Slaughter the ancient guardian"
+				title: "Defeat Ancient Guardian"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Ancient Guardian"
-			x: -4.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -355,17 +311,9 @@
 			subtitle: "Overworld / Jungle"
 			tasks: [{
 				entity: "legendary_monsters:overgrown_colossus"
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "legendary_monsters:totem_of_moss"
-				}
+				icon: "legendary_monsters:totem_of_moss"
 				id: "53BB716AE4EF572A"
-				title: "Slaughter Overgrown colossus"
+				title: "Defeat Overgrown Colossus"
 				type: "kill"
 				value: 1L
 			}]
@@ -397,24 +345,19 @@
 				entity: "legendary_monsters:frostbitten_golem"
 				icon: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "legendary_monsters:the_great_frost"
 					tag: {
 						Damage: 0
 					}
 				}
 				id: "65A1A2E6D04BC7A2"
-				title: "Slaughter frostbitten golem"
+				title: "Defeat Frostbitten Golem"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c Frostbitten Golem"
-			x: -1.0d
-			y: 3.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3AE5104012516346"]
@@ -435,27 +378,20 @@
 			subtitle: "Nether"
 			tasks: [{
 				entity: "legendary_monsters:withered_abomination"
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "legendary_monsters:withered_horn"
-				}
+				icon: "legendary_monsters:withered_horn"
 				id: "3CFF5080A4BA97D5"
+				title: "Defeat Withered Abomination"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Withered Abomination"
-			x: -5.5d
-			y: -4.0d
+			x: -5.3999999999999995d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["46A8E64D8B86BB7B"]
 			description: [
-				"&cLava Eater&r is a big lizard that is immune to fire. "
+				"&cLava Eater&r is a big lizard that is immune to fire. That's literally it."
 				""
 				"{image:customtextures:textures/lavaeater.png width:250 height:100 align:center}"
 			]
@@ -474,11 +410,11 @@
 				entity: "legendary_monsters:lava_eater"
 				icon: "minecraft:magma_block"
 				id: "23036430799E6877"
-				title: "Slaughter his bum"
+				title: "Defeat Lava Eater"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&4Defeat The Lava Eater"
+			title: "Kill &cLava Eater"
 			x: -1.0d
 			y: -4.0d
 		}
@@ -515,7 +451,7 @@
 			}]
 			title: "Kill&c The Frostmaw"
 			x: -4.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["10544AC33748DA46"]
@@ -524,6 +460,7 @@
 				""
 				"{image:customtextures:textures/umvuthi.png width:250 height:100 align:center}"
 			]
+			icon: "mowziesmobs:sol_visage"
 			id: "501B9A970BC3B704"
 			rewards: [{
 				count: 5
@@ -537,13 +474,13 @@
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:sol_visage"
 				id: "167E2116FCC451AE"
-				title: "Defeat the sunbird"
+				title: "Defeat Umvuthi, the Sunbird"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c Umvuthi The Sunbird"
 			x: -4.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1877819E0EA0C97B"]
@@ -573,7 +510,7 @@
 				value: 1L
 			}]
 			title: "Kill &cFerrous Wroughtnaut"
-			x: -2.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -585,10 +522,7 @@
 				"&c&lImportant!"
 				""
 				"&eIf you want to locate bosses, use the Explorer's Compass!"
-				""
-				"&eDo &e&nNOT&r &eThrow the music discs, as you will need them later in your progression."
 			]
-			icon: "meetyourfight:fossil_bait"
 			id: "1877819E0EA0C97B"
 			min_required_dependencies: 1
 			min_required_tasks: 1
@@ -602,22 +536,15 @@
 			subtitle: "Overworld / Swamps"
 			tasks: [
 				{
-					id: "4C4E617406BF481F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "meetyourfight:mossy_tooth"
-					}
-					type: "item"
-				}
-				{
 					id: "4243D20FE72E5BE2"
 					item: "meetyourfight:fossil_bait"
 					type: "item"
+				}
+				{
+					entity: "meetyourfight:swampjaw"
+					id: "16D2129DB7F080A7"
+					type: "kill"
+					value: 1L
 				}
 			]
 			title: "Kill &cThe Swampjaw"
@@ -628,7 +555,7 @@
 			dependencies: ["73709211BC66AA5B"]
 			dependency_requirement: "all_started"
 			description: [
-				"&cDame Fortuna&r is a huge gamble enjoyer.. just like you"
+				"&cDame Fortuna&r is a gambler that still lives in her mom's house."
 				""
 				"She can be called using a &dDevil's Ante&r."
 			]
@@ -645,15 +572,7 @@
 			tasks: [
 				{
 					id: "2DAEE490F1F92A96"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "meetyourfight:fortunes_favor"
-					}
+					item: "meetyourfight:fortunes_favor"
 					type: "item"
 				}
 				{
@@ -663,57 +582,8 @@
 				}
 			]
 			title: "Kill&c Dame Fortuna"
-			x: -4.0d
+			x: -1.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["501B9A970BC3B704"]
-			description: [
-				"&cThe sandworm&r patiently lurks underneath the blistering sand."
-				""
-				"Bosses get harder from here, be careful!"
-				""
-				""
-				"{ \"text\": \"Sandworm Locator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03A428597377BA31\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "block_factorys_bosses:sandworm_dart"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "31B7B9A079B5467E"
-			min_required_tasks: 1
-			min_width: 1
-			rewards: [
-				{
-					count: 4
-					id: "6AD784B2EB16F827"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "20C8BE822337C1B9"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-			]
-			shape: "irontier"
-			size: 1.2d
-			subtitle: "Overworld / Desert"
-			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				icon: "born_in_chaos_v1:lifestealer_skull"
-				id: "1E32004EEF57EFF8"
-				title: "Slay the sandworm"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill&c The Sandworm"
-			x: -4.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["212654DFE2633475"]
@@ -737,15 +607,7 @@
 			tasks: [
 				{
 					id: "3D40EC94EE2DB44F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "meetyourfight:phantoplasm"
-					}
+					item: "meetyourfight:phantoplasm"
 					type: "item"
 				}
 				{
@@ -755,7 +617,7 @@
 				}
 			]
 			title: "Kill &cThe Bellringer"
-			x: -2.5d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -772,49 +634,25 @@
 			id: "151982E611B8D136"
 			min_required_tasks: 1
 			optional: true
-			rewards: [
-				{
-					id: "6FC9817AA2CA6960"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 3
-					id: "10401B75817B02E2"
-					item: "enigmaticaddons:earth_heart_fragment"
-					type: "item"
-				}
-				{
-					id: "6ADB5CC82079DCEE"
-					item: "artifacts:bunny_hoppers"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "50E3D3E69D130A20"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "50E3D3E69D130A20"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			size: 1.2d
 			subtitle: "Overworld / Anywhere (ig)"
 			tasks: [{
-				id: "391E178ADF525E4A"
-				item: {
-					Count: 1
-					id: "mowziesmobs:earthrend_gauntlet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "449766E39A0BB6E1"
+				title: "I'm just here for the rewards"
+				type: "checkmark"
 			}]
 			title: "Kill&c Tongbi&r or &6Do his test"
-			x: -5.5d
-			y: -1.0d
+			x: -5.3999999999999995d
+			y: -0.5999999999999996d
 		}
 		{
-			dependencies: ["31B7B9A079B5467E"]
+			dependencies: ["11A438ECC04E7533"]
 			dependency_requirement: "one_completed"
 			description: [
 				"&cRosalyne, Blade of Dusk&r is an awful princess who perished in the endless depths of a sea of thorny bushes. "
@@ -844,7 +682,7 @@
 						}
 					}
 					id: "50FA434A75DEEFFD"
-					title: "Rosalyne, Blade Of Dusk"
+					title: "Defeat Rosalyne, Blade of Dusk"
 					type: "kill"
 					value: 1L
 				}
@@ -859,7 +697,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["31B7B9A079B5467E"]
+			dependencies: ["151982E611B8D136"]
 			description: [
 				"&cThe Skeletosaurus&r is a big.. skeleton but also a dinosaur "
 				""
@@ -878,21 +716,22 @@
 			size: 1.2d
 			subtitle: "Nether"
 			tasks: [{
-				id: "05D96ED789441DAC"
-				item: {
+				entity: "legendary_monsters:skeletosaurus"
+				icon: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "legendary_monsters:item/dinosaur_bone"
 					}
-					id: "legendary_monsters:dinosaur_bone"
 				}
-				type: "item"
+				id: "21A6673B9F67AE19"
+				title: "Defeat Skeletosaurus"
+				type: "kill"
+				value: 1L
 			}]
 			title: "Kill&c The Skeletosaurus"
-			x: -5.5d
-			y: -2.5d
+			x: -5.3999999999999995d
+			y: -2.0999999999999996d
 		}
 		{
 			dependencies: ["28A1B5EFA65E5F6E"]
@@ -940,9 +779,15 @@
 			subtitle: "Nether"
 			tasks: [{
 				entity: "eeeabsmobs:corpse_warlock"
-				icon: "block_factorys_bosses:corpse"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eeeabsmobs:item/bloody_altar_eye"
+					}
+				}
 				id: "76CF13F0A2D0E770"
-				title: "&cCorpse Warlock"
+				title: "Defeat Corpse Warlock"
 				type: "kill"
 				value: 1L
 			}]
@@ -992,7 +837,7 @@
 				entity: "irons_spellbooks:dead_king"
 				icon: "born_in_chaos_v1:shattered_skull"
 				id: "426F1B3970E4390E"
-				title: "&cThe Dead King"
+				title: "Defeat The Dead King"
 				type: "kill"
 				value: 1L
 			}]
@@ -1001,7 +846,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["237056413A870612"]
+			dependencies: ["3186C6AC85757E55"]
 			description: [
 				"&cThe Wither&r is a natural apex predator sealed away because of it's greediness."
 				""
@@ -1024,7 +869,7 @@
 				{
 					entity: "minecraft:wither"
 					id: "7EA2CAC4F9158938"
-					title: "&cThe Wither"
+					title: "Defeat The Wither"
 					type: "kill"
 					value: 1L
 				}
@@ -1053,16 +898,16 @@
 				{
 					count: 3L
 					id: "1904CF0002D345D4"
-					item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
 			]
 			title: "Kill&c The Wither"
-			x: 3.5d
-			y: -2.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["31B7B9A079B5467E"]
+			dependencies: ["501B9A970BC3B704"]
 			description: [
 				"&cThe Warden&r rests deep under the ground."
 				""
@@ -1094,13 +939,13 @@
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "61DC1376BD08C93E"
-				title: "&cKill&r &bWarden"
+				title: "Defeat The Warden"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Warden"
 			x: -4.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["218A1EC80DE60194"]
@@ -1111,7 +956,7 @@
 				""
 				"{image:customtextures:textures/guardian.png width:250 height:100 align:center}"
 			]
-			icon: "eeeabsmobs:guling_eye"
+			icon: "eeeabsmobs:coreforge_ruins_eye"
 			icon_scale: 1.2d
 			id: "698F9CC807ACCC14"
 			min_required_tasks: 1
@@ -1124,25 +969,32 @@
 			shape: "goldtier"
 			size: 1.2d
 			subtitle: "Overworld / Underground"
-			tasks: [{
-				entity: "eeeabsmobs:nameless_guardian"
-				icon: {
-					Count: 1
-					id: "eeeabsmobs:guardian_axe"
-					tag: {
-						CodeAddFlag: 1b
-						Damage: 0
-						Unbreakable: 1b
+			tasks: [
+				{
+					entity: "eeeabsmobs:nameless_guardian"
+					icon: {
+						Count: 1
+						id: "eeeabsmobs:guardian_axe"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
 					}
+					id: "2F013747EBF8730D"
+					title: "Defeat Nameless Guardian"
+					type: "kill"
+					value: 1L
 				}
-				id: "2F013747EBF8730D"
-				title: "&cNameless Guardian"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "605E2137BC8B7A49"
+					item: "eeeabsmobs:coreforge_ruins_eye"
+					type: "item"
+				}
+			]
 			title: "Kill&c The Nameless Guardian"
 			x: 3.5d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["698F9CC807ACCC14"]
@@ -1166,21 +1018,22 @@
 			size: 1.2d
 			subtitle: "Overworld / Any Biome"
 			tasks: [{
-				id: "27025AA8D1DA93D9"
-				item: {
+				entity: "legendary_monsters:posessed_paladin"
+				icon: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "legendary_monsters:item/eye_of_ghost"
 					}
-					id: "legendary_monsters:corrupted_soul"
 				}
-				type: "item"
+				id: "5B43D1C7AEC13B48"
+				title: "Defeat Possessed Paladin"
+				type: "kill"
+				value: 1L
 			}]
-			title: "Kill&c The Posessed Paladin"
-			x: 5.0d
-			y: -4.0d
+			title: "Kill&c The Possessed Paladin"
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["084E78C259CC208B"]
@@ -1213,7 +1066,7 @@
 					}
 				}
 				id: "021ED29B5FF888E7"
-				title: "&cCumulonimbus"
+				title: "Defeat Cumulonimbus"
 				type: "kill"
 				value: 1L
 			}]
@@ -1246,7 +1099,7 @@
 				entity: "cataclysm:scylla"
 				icon: "cataclysm:ceraunus"
 				id: "24CF20BEE7156CB3"
-				title: "&cScylla"
+				title: "Defeat Scylla"
 				type: "kill"
 				value: 1L
 			}]
@@ -1279,7 +1132,7 @@
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:netherite_effigy"
 				id: "0F64B8BF53DA0DFA"
-				title: "&cNetherite Monstrosity"
+				title: "Defeat Netherite Monstrosity"
 				type: "kill"
 				value: 1L
 			}]
@@ -1314,7 +1167,7 @@
 					entity: "born_in_chaos_v1:lord_pumpkinhead"
 					icon: "born_in_chaos_v1:infernal_evil_pumpkin"
 					id: "1CDC6735D97FB43C"
-					title: "&cLord Pumpkinhead"
+					title: "Defeat Lord Pumpkinhead"
 					type: "kill"
 					value: 1L
 				}
@@ -1329,7 +1182,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["53FCD20FDB42074E"]
+			dependencies: ["499BBB799EF97990"]
 			description: [
 				"A powerful beast that they call the &cForsaken&r."
 				""
@@ -1355,45 +1208,12 @@
 				entity: "alexscaves:forsaken"
 				icon: "alexscaves:forsaken_idol"
 				id: "4801B68A21D1BA53"
-				title: "&cForsaken"
+				title: "Defeat The Forsaken"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Forsaken"
 			x: 9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["199DC3A3AD90A47B"]
-			description: [
-				"&cThe &cInfernal Dragon&r, descendant of the immensely feared guardian of the End dimension."
-				""
-				""
-				"{ \"text\": \"Infernal Dragon Locator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B68F4E8EDCC51A4\" } }"
-				""
-				"{image:customtextures:textures/dragontower.png width:250 height:100 align:center}"
-			]
-			icon: "block_factorys_bosses:dragon_skull"
-			id: "53FCD20FDB42074E"
-			min_required_tasks: 1
-			rewards: [{
-				id: "2A286FDCFEE528EB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamondtier"
-			size: 1.2d
-			subtitle: "Overworld / Mountains"
-			tasks: [{
-				entity: "block_factorys_bosses:infernal_dragon"
-				icon: "block_factorys_bosses:dragon_skull"
-				id: "46BEFCA6C5D41DA6"
-				title: "&cInfernal Dragon"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill&c The Infernal Dragon"
-			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -1427,7 +1247,7 @@
 						}
 					}
 					id: "4DF05B262BDA64DD"
-					title: "&cLuxtructosaurus"
+					title: "Defeat Luxtructosaurus"
 					type: "kill"
 					value: 1L
 				}
@@ -1442,11 +1262,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["53FCD20FDB42074E"]
 			description: [
 				"&cThe Trial Guardian&r is the protector of the huge trial chamber in your world, take him down for the goodie goodies."
-				""
-				"Use locator quest to locate it"
 				""
 				"{image:customtextures:textures/trialspire.png width:250 height:100 align:center}"
 			]
@@ -1462,27 +1279,20 @@
 			shape: "diamondtier"
 			size: 1.2d
 			subtitle: "Overworld / Ocean"
-			tasks: [
-				{
-					entity: "terramity:trial_guardian"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "born_in_chaos_v1:item/lifestealer_skull_item"
-						}
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:item/trial_key_ominous"
 					}
-					id: "71C40CD44DE957A1"
-					title: "&cTrial Guardian"
-					type: "kill"
-					value: 1L
 				}
-				{
-					id: "42602FE8069BF0E3"
-					item: "terramity:spire_key"
-					type: "item"
-				}
-			]
+				id: "71C40CD44DE957A1"
+				title: "Defeat The Trial Guardian"
+				type: "kill"
+				value: 1L
+			}]
 			title: "Kill&c The Trial Guardian"
 			x: 8.0d
 			y: 0.5d
@@ -1512,7 +1322,7 @@
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "artifacts:obsidian_skull"
 				id: "718C96BE038A059C"
-				title: "&cObsidilith"
+				title: "Defeat Obsidilith"
 				type: "kill"
 				value: 1L
 			}]
@@ -1552,7 +1362,7 @@
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "goety:corpse_blossom"
 				id: "103B381AEDF47DF3"
-				title: "&cVoid Blossom"
+				title: "Defeat Void Blossom"
 				type: "kill"
 				value: 1L
 			}]
@@ -1582,9 +1392,15 @@
 			subtitle: "Overworld / Cold Biomes / Night"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
-				icon: "born_in_chaos_v1:lifestealer_skull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:item/soul_star"
+					}
+				}
 				id: "3F49F2AF09EC8988"
-				title: "&cNight Lich"
+				title: "Defeat Night Lich"
 				type: "kill"
 				value: 1L
 			}]
@@ -1606,18 +1422,25 @@
 			id: "7BE325F21B79E110"
 			min_required_tasks: 1
 			rewards: [{
-				id: "4F43FF644C0BAB88"
-				item: "jjbamusic:disc_to_be_continued"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7B985E588A96F36C"
+				table_id: 8699295573854160387L
+				type: "random"
 			}]
 			shape: "diamondtier"
 			size: 1.2d
 			subtitle: "Nether"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: "born_in_chaos_v1:lifestealer_skull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:item/blazing_eye"
+					}
+				}
 				id: "591A480C430955F7"
-				title: "&cNether Gauntlet"
+				title: "Defeat Nether Gauntlet"
 				type: "kill"
 				value: 1L
 			}]
@@ -1637,6 +1460,7 @@
 				"{image:customtextures:textures/underworldknight.png width:200 height:100 align:center}"
 				""
 				"{image:customtextures:textures/underworldout.png width:250 height:100 align:center}"
+				"&8is knight even aware of the greater things?"
 			]
 			icon: {
 				Count: 1
@@ -1649,15 +1473,10 @@
 			min_required_tasks: 1
 			rewards: [
 				{
-					exclude_from_claim_all: true
 					id: "72BA1FD22A50FBED"
 					table_id: 8699295573854160387L
+					title: "&4&lGlorious"
 					type: "random"
-				}
-				{
-					id: "754BA3A44FC8A127"
-					item: "fintastic:shunji_music_disc"
-					type: "item"
 				}
 				{
 					id: "4F69F2AEED67B3DA"
@@ -1704,8 +1523,19 @@
 					item: "lethality:annihilation_alloy"
 					type: "item"
 				}
+				{
+					id: "62930FF9BBC84182"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "goety:black_book"
+						}
+					}
+					type: "item"
+				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 2.0d
 			subtitle: "Nether"
 			tasks: [{
@@ -1722,9 +1552,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill&b The Underworld Knight"
-			x: 6.0d
-			y: 5.5d
+			title: "Fight &b&lUnderworld Knight"
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BE325F21B79E110"]
@@ -1736,19 +1566,12 @@
 			]
 			icon: "enigmaticlegacy:eye_of_nebula"
 			id: "124B15AB9053C786"
-			rewards: [
-				{
-					id: "4E0584848C0DCA67"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "440A0E769182C70D"
-					item: "jjbamusic:disc_bloody_stream"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
+			rewards: [{
+				id: "4E0584848C0DCA67"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
 			size: 1.2d
 			subtitle: "End / Some Are Overworld"
 			tasks: [
@@ -1762,7 +1585,7 @@
 						}
 					}
 					id: "31DEA4F32EBCA7B8"
-					title: "&cEndersent"
+					title: "Defeat Endersent"
 					type: "kill"
 					value: 1L
 				}
@@ -1776,7 +1599,7 @@
 						}
 					}
 					id: "5EBD550BD5799169"
-					title: "&cMutant Enderman"
+					title: "Defeat Mutant Enderman"
 					type: "kill"
 					value: 1L
 				}
@@ -1790,7 +1613,7 @@
 						}
 					}
 					id: "23E8C209CA1BE262"
-					title: "&cShulker Mimic"
+					title: "Defeat Shulker Mimic"
 					type: "kill"
 					value: 1L
 				}
@@ -1798,7 +1621,7 @@
 					entity: "legendary_monsters:chorusling"
 					icon: "born_in_chaos_v1:lifestealer_skull"
 					id: "558C01E7F9ED23A5"
-					title: "&cChorusling"
+					title: "Defeat Chorusling"
 					type: "kill"
 					value: 1L
 				}
@@ -1808,54 +1631,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["124B15AB9053C786"]
-			description: [
-				"&cShadow Wizards&r are planning something, go kill em real quick."
-				""
-				"Using an &6Occult Fabric&r on the &6Offering Pedestal&r to spawn them."
-				""
-				"{image:customtextures:textures/cathedral.png width:250 height:100 align:center}"
+			dependencies: [
+				"0D87F91C4EC2DA02"
+				"1C576310634FFB8C"
 			]
-			icon: {
-				Count: 1
-				id: "terramity:gundalfs_hat_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3C68F6A962653272"
-			min_required_tasks: 1
-			min_width: 1
-			rewards: [
-				{
-					id: "37415A67A40C5A51"
-					table_id: 8699295573854160387L
-					title: "&l&4Glorious"
-					type: "random"
-				}
-				{
-					id: "25F231A0A5FECC79"
-					item: "cataclysm:mech_eye"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.2d
-			subtitle: "Nether / On Bedrock"
-			tasks: [{
-				entity: "terramity:gundalf"
-				icon: "born_in_chaos_v1:lifestealer_skull"
-				id: "51DA11056AE04CFA"
-				title: "&cArchmage Gundalf"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill&c The Shadow Wizards"
-			x: 9.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3C68F6A962653272"]
 			description: [
 				"&cThe Harbinger&r is a human-made robot that was supposed to rival the wither."
 				""
@@ -1872,20 +1651,26 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "pentagon"
 			size: 1.2d
-			subtitle: "Overworld"
+			subtitle: "Overworld / Ancient Factory"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
-				icon: "born_in_chaos_v1:lifestealer_skull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:item/music_disc_the_harbinger"
+					}
+				}
 				id: "78EBA641631297E8"
-				title: "&cThe Harbinger"
+				title: "Defeat The Harbinger"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Harbinger"
-			x: 10.5d
-			y: 1.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2A35F4DAC7B6CF2A"]
@@ -1904,20 +1689,26 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "pentagon"
 			size: 1.2d
 			subtitle: "End"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
-				icon: "born_in_chaos_v1:lifestealer_skull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:item/void_core"
+					}
+				}
 				id: "28F3BF7D2F2AD29B"
-				title: "&cEnder Guardian"
+				title: "Defeat Ender Guardian"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Ender Guardian"
-			x: 11.5d
-			y: 1.0d
+			x: 12.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7958902B691540C4"]
@@ -1931,7 +1722,13 @@
 				"{image:customtextures:textures/pyramid.png width:250 height:100 align:center}"
 			]
 			hide_dependency_lines: false
-			icon: "cataclysm:desert_eye"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:item/necklace_of_the_desert"
+				}
+			}
 			id: "418B954780DD19CB"
 			min_required_tasks: 1
 			rewards: [{
@@ -1940,14 +1737,20 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "pentagon"
 			size: 1.2d
-			subtitle: "Overworld / Desert"
+			subtitle: "Overworld / Cursed Pyramid"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
-				icon: "born_in_chaos_v1:lifestealer_skull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:item/necklace_of_the_desert"
+					}
+				}
 				id: "6FBCC5A8527B6D1E"
-				title: "&cAncient Remnant"
+				title: "Defeat Ancient Remnant"
 				type: "kill"
 				value: 1L
 			}]
@@ -1956,7 +1759,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["418B954780DD19CB"]
+			dependencies: ["296D1FA3027A3819"]
 			description: [
 				"&cThe Leviathan&r, will remind you of subnautica."
 				""
@@ -1975,20 +1778,26 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "pentagon"
 			size: 1.2d
 			subtitle: "Overworld / Below Ocean"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
-				icon: "born_in_chaos_v1:lifestealer_skull"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:textures/entity/leviathan/abyss_orb.png"
+					}
+				}
 				id: "2A48D149BE480F50"
-				title: "&cThe Leviathan"
+				title: "Defeat The Leviathan"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&c The Leviathan"
-			x: 11.5d
-			y: 3.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4E79F98D4B6DF6DF"]
@@ -2008,7 +1817,7 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "gear"
+			shape: "octagon"
 			size: 1.2d
 			subtitle: "Nether / Burning Arena"
 			tasks: [{
@@ -2021,16 +1830,16 @@
 					}
 				}
 				id: "6E4D6BD4EDDD102F"
-				title: "&l&cIgnis"
+				title: "Challenge &6&lIgnis"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill&4&l Ignis"
-			x: 8.0d
-			y: 5.5d
+			title: "Challenge &6&lIgnis"
+			x: 10.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["7044D2F80D2E9ED5"]
+			dependencies: ["5C3E27D95D3656C6"]
 			description: [
 				"Banished in the depth of the &eFrosted Prison&r, &bMaledictus&r was sealed within a &6Cursed Tombstone&r by the god itself."
 				""
@@ -2050,9 +1859,9 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "Overworld / Cold Biomes"
+			subtitle: "Overworld / Frosted Prison"
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: {
@@ -2063,16 +1872,16 @@
 					}
 				}
 				id: "1CA5CF8C1B2D52AB"
-				title: "&l&cMaledictus"
+				title: "Defeat &b&lMaledictus"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill&b The Maledictus"
-			x: 11.5d
+			title: "Kill&b &bMaledictus"
+			x: 18.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A721B304A70A1B8"]
+			dependencies: ["50EDD2850C47C4DF"]
 			description: [
 				"&cThe Nightwarden&r once owned the literal ender dragon, now rests inside a citadel, trying to get rid of his sins."
 				""
@@ -2090,174 +1899,20 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "End / Void Cathedral"
 			tasks: [{
 				entity: "traveloptics:the_nightwarden"
 				icon: "born_in_chaos_v1:lifestealer_skull"
 				id: "7EA7F4487AA326CC"
-				title: "&cNightwarden"
+				title: "Defeat &d&lThe Nightarden"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill&d The Nightwarden"
-			x: 11.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["7FA7E7C8E3928D9B"]
-			description: ["Obtaining such weapon. Will it bring the attention of something..?"]
-			hide_until_deps_complete: true
-			icon: "born_in_chaos_v1:supreme_measure"
-			icon_scale: 1.2d
-			id: "66B7488E1CB76BBE"
-			min_width: 400
-			progression_mode: "linear"
-			rewards: [{
-				id: "7AC4CE9C7AE35750"
-				item: "born_in_chaos_v1:supreme_measure"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.2d
-			tasks: [
-				{
-					consume_items: true
-					id: "6F43CC6158DA9570"
-					item: {
-						Count: 1
-						id: "armageddon_mod:lance_of_the_veil"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "4FF7F666B7989814"
-					item: {
-						Count: 1
-						id: "armageddon_mod:the_duskfire_blade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "327D742E9647589A"
-					item: {
-						Count: 1
-						id: "lethality:nightmare_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "23B55D7532F2E025"
-					item: "kubejs:linggangoonium_ingot"
-					type: "item"
-				}
-			]
-			title: "&4&lSupreme Weapon"
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4158A5819FE865DF"]
-			description: [
-				"&cThe Black Charro&r is an extremely old macho man!"
-				""
-				"That's it."
-				""
-				"{ \"text\": \"Charro Locator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"09AAF962D291AAF8\" } }"
-				""
-				"{image:customtextures:textures/charro.png width:250 height:100 align:center}"
-			]
-			icon: "mythsandlegends:ethereal_flame"
-			icon_scale: 1.5d
-			id: "237056413A870612"
-			rewards: [{
-				id: "431DA3FAF0BE0B6A"
-				type: "xp"
-				xp: 5
-			}]
-			size: 1.2d
-			subtitle: "Overworld"
-			tasks: [{
-				entity: "mythsandlegends:black_charro"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:item/shattered_skull"
-					}
-				}
-				id: "1A3D5280D2B79872"
-				title: "Slay The Black Charro"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Slay &cThe Black Charro&r"
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4158A5819FE865DF"]
-			description: [
-				"&cThe Warborn Aegis&r a wither skeleton evolved into something smarter and bigger."
-				""
-				"Take it down before it evolves more and becomes a trouble!"
-				""
-				"{image:customtextures:textures/warborn.png width:250 height:100 align:center}"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "mythsandlegends:item/warborn_aegis"
-				}
-			}
-			icon_scale: 1.5d
-			id: "0A45BAD544F6FB4F"
-			optional: true
-			rewards: [
-				{
-					id: "16530A284EF88BFA"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-				{
-					id: "2738F60050B73029"
-					item: "minecraft:wither_rose"
-					type: "item"
-				}
-			]
-			size: 1.2d
-			subtitle: "Nether"
-			tasks: [{
-				entity: "mythsandlegends:warborn_aegis"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:item/shattered_skull"
-					}
-				}
-				id: "26B9EBC56375512D"
-				title: "Kill &cThe Warborn Aegis"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: -4.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["54B2129015E7BA44"]
@@ -2298,10 +1953,11 @@
 					}
 				}
 				id: "7805D03BBBF26A63"
-				title: "Slay &cThe Chesed&r"
+				title: "Defeat The Chesed"
 				type: "kill"
 				value: 1L
 			}]
+			title: "Kill &cThe Chesed"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -2339,7 +1995,7 @@
 				advancement: "fdbosses:qliphoth_awakening/malkuth"
 				criterion: ""
 				id: "14243F5A7C2BBD19"
-				title: "&cKill&r The Malkuth"
+				title: "Defeat Malkuth"
 				type: "advancement"
 			}]
 			title: "&cKill&r Malkuth"
@@ -2347,50 +2003,50 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["66B7488E1CB76BBE"]
-			description: ["&0&l&kblablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablabla&r"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
-				}
-			}
-			icon_scale: 1.4d
-			id: "3BBF3D5DF06CCC6D"
-			progression_mode: "linear"
-			rewards: [{
-				command: "/msg @p The world is watching you."
-				elevate_perms: true
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "customtextures:textures/anklets.png"
-					}
-				}
-				id: "4087F1B1DF05BEF5"
-				silent: true
-				title: "The world is watching you."
-				type: "command"
-			}]
-			shape: "none"
-			size: 1.2d
-			subtitle: "&4&l&kblablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablablablablablaablablabl"
-			tasks: [{
-				id: "226D999D056149A7"
-				title: "the hell u sayin twin??"
-				type: "checkmark"
-			}]
-			title: "?"
-			x: 3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["3BBF3D5DF06CCC6D"]
-			description: ["Summon &l&4Apollyon?"]
+			description: [
+				"&8The leader of the &6&lNether Cult&r&8, the king of the &0&lBottomless Pit...&4&l Apollyon.&r&8 It is your task to challenge him and hopefully overcome his wickedness and free this world of his influence."
+				"{image:customtextures:textures/apollyon.png width:250 height:110 align:center}"
+				"&8To summon &4&lApollyon&r&8 you must prepare a ritual. A ritual that will hold all of the sacred artifacts of the &0&ldark arts&r&8. Therefore, if you are not fully prepared, you should not rashly start this trial."
+				""
+				"&8This ritual is detailed in the book of the dark arts, &0&lThe Black Book&r&8, in the &6&lRevelation&r&8 section you will find how to summon this hellish god into your world."
+				""
+				"&8If you can defeat his incarnation in this trial, then you can obtain the real power of &6&lAscension&r&8 and be promoted to a true &cApostle&r&8."
+				""
+				"&eFor Rituals, please continue to the next page."
+				"{@pagebreak}"
+				""
+				"&8To summon an incarnation of &4&lApollyon&r&8 you need to perform a sabbath ritual just like the one you did for the &cApostles&r&8"
+				""
+				"&eThis ritual however, is a little harder:"
+				"{image:customtextures:textures/ritual_two.png width:150 height:200 align:center}"
+				""
+				"&eRequired Items:"
+				"&8- 1x Broken Halo"
+				"&8- 1x Nether Star"
+				"&8- 1x Pure Unholy Blood"
+				"&8- 1x Witch Hat"
+				"&8- 1x Crone Hat"
+				"&8- 1x Dragons Breath"
+				"&8- 1x Forbidden Scroll"
+				"&8- 1x Essence of Shadow"
+				"&8- 1x Warlock Sash"
+				"&8- 1x Unalloyed Golden Apple"
+				"&8- 1x Ruby of Souls"
+				"&8- 1x Heart of the Night"
+				"&8- 1x Infernal Tome"
+				""
+				"&0&lThe Black book&r&8 is all you need in order to find information on how to gather these items."
+				""
+				"&eAlternate ritual in the next page if you have already beaten Apollyon before ->"
+				"{@pagebreak}"
+				"&8This ritual requires a &4&lDoom Medal&r&8 that only &4&lApollyon&r&8 drops."
+				"{image:customtextures:textures/ritual_one.png width:150 height:200 align:center}"
+				"&eRequired Items:"
+				"&8- 1x Witch Hat"
+				"&8- 1x Crone Hat"
+				"&8- 1x Doom Medal"
+				"&8- 2x Warlock Sash"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
@@ -2406,38 +2062,88 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					auto: "enabled"
-					command: "/execute in minecraft:the_nether run teleport ~ ~ ~"
-					elevate_perms: true
-					icon: {
+					id: "37F45681D0FA82DD"
+					item: {
 						Count: 1
-						id: "ftbquests:custom_icon"
+						id: "goety_revelation:revelation"
 						tag: {
-							Icon: "vintagevibes:block/polished_garnet"
+							Damage: 0
 						}
 					}
-					id: "7D33F6B35D5C661C"
-					silent: true
-					title: "&l&0Summon"
-					type: "command"
+					type: "item"
 				}
 				{
-					id: "5A4090E2C830054E"
-					item: "terramity:warp_whistle"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "58C3AFF60B865CD1"
+					table_id: 4807020933408434136L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13EFF413AB03BA19"
+					table_id: 4807020933408434136L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7734C732EA10AD28"
+					table_id: 4807020933408434136L
+					type: "loot"
+				}
+				{
+					id: "0FB0E075D192DB4B"
+					table_id: 8699295573854160387L
+					title: "&4&lGlorious"
+					type: "random"
+				}
+				{
+					id: "56AC915B9C696BA1"
+					table_id: 8699295573854160387L
+					title: "&4&lGlorious"
+					type: "random"
 				}
 			]
 			shape: "none"
 			size: 1.5d
-			subtitle: "&l666 666 666"
-			tasks: [{
-				id: "06809427D1418402"
-				title: "The world is watching you."
-				type: "checkmark"
-			}]
+			subtitle: "&l&4The Lord Of Apocalypse"
+			tasks: [
+				{
+					advancement: "goety_revelation:summon_apollyon"
+					criterion: ""
+					icon: "goety_revelation:broken_halo"
+					id: "4F3C4EB57C55572A"
+					title: "&eSummon Apollyon"
+					type: "advancement"
+				}
+				{
+					advancement: "goety_revelation:kill_apollyon"
+					criterion: ""
+					icon: "goety_revelation:ascension_halo"
+					id: "3C8F47D1B7BF8520"
+					title: "&6&lDefeat Apollyon in the Overworld"
+					type: "advancement"
+				}
+				{
+					advancement: "goety_revelation:revelation"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "goety_revelation:halo_of_the_end"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:binding_curse"
+								lvl: 1s
+							}]
+						}
+					}
+					id: "730600A0F7183575"
+					title: "&4&n&lDefeat Apollyon in the Nether"
+					type: "advancement"
+				}
+			]
 			title: "&4&ktralala&r&4&lApollyon&k&4tralala&r"
-			x: 1.5088738732642923d
-			y: 2.237053711052738d
+			x: 2.0d
+			y: 5.98d
 		}
 		{
 			dependencies: ["1DEA9C4237E4E772"]
@@ -2483,11 +2189,18 @@
 			}]
 			shape: "irontier"
 			size: 1.2d
-			subtitle: "Overworld / Ocean..ish"
+			subtitle: "Overworld / Oceanish"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "aquamirae:item/three_bolt_helmet"
+					}
+				}
 				id: "3DC6E378E646E8DA"
-				title: "Kill The &5Ghost of Captain Cornelia"
+				title: "Defeat Ghost of Captain Cornelia"
 				type: "kill"
 				value: 1L
 			}]
@@ -2512,11 +2225,6 @@
 					id: "5902FF99CAA8510D"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
 						id: "aquamirae:three_bolt_helmet"
 						tag: {
 							Damage: 0
@@ -2528,11 +2236,6 @@
 					id: "333603A050697310"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
 						id: "aquamirae:three_bolt_suit"
 						tag: {
 							Damage: 0
@@ -2544,11 +2247,6 @@
 					id: "170E670C6858854B"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
 						id: "aquamirae:three_bolt_leggings"
 						tag: {
 							Damage: 0
@@ -2560,11 +2258,6 @@
 					id: "57D0700A47135864"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
 						id: "aquamirae:three_bolt_boots"
 						tag: {
 							Damage: 0
@@ -2574,49 +2267,8 @@
 				}
 			]
 			title: "The Three-Bolt &rArmor Set"
-			x: 3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["01B7A8A9D9F737CE"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "celestisynth:textures/particle/keres_omen.png"
-				}
-			}
-			id: "0DEAA75BB070ACDB"
-			progression_mode: "linear"
-			rewards: [{
-				auto: "enabled"
-				command: "/summon goety_revelation:summon_apollyon"
-				elevate_perms: true
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "terramity:item/hexing_circle_item"
-					}
-				}
-				id: "1ACE2A7BC2125EEC"
-				silent: true
-				title: "&l&4Apollyon"
-				type: "command"
-			}]
-			shape: "none"
-			size: 1.2d
-			tasks: [{
-				elapsedTime: 60L
-				id: "00775CF4DDD7276D"
-				title: "Apollyon is coming."
-				type: "questsadditions:time"
-			}]
-			title: "&4&k36&r&l&4he is here&4&k63"
-			x: 2.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7587CE5F525620F9"]
@@ -2645,23 +2297,17 @@
 					type: "random"
 				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "Throw the orb to the void."
+			subtitle: "End / Throw the orb to the void."
 			tasks: [
 				{
-					entity: "goety:doppelganger"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "darkdoppelganger:item/doppelganger_ring"
-						}
-					}
-					id: "301E39957ABB13B4"
-					title: "&cKill&r The Doppelganger"
-					type: "kill"
-					value: 1L
+					advancement: "darkdoppelganger:kill"
+					criterion: ""
+					icon: "darkdoppelganger:doppelganger_ring"
+					id: "176AF4E4DA16380C"
+					title: "Defeat &d&lDoppelgänger"
+					type: "advancement"
 				}
 				{
 					id: "353A50410A272C1C"
@@ -2670,8 +2316,8 @@
 				}
 			]
 			title: "Kill &cThe Doppelgänger"
-			x: 10.0d
-			y: 5.5d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6A721B304A70A1B8"]
@@ -2707,8 +2353,8 @@
 				}
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.2d
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "Summonable"
 			tasks: [{
 				id: "39C03FE8CEE41507"
@@ -2716,8 +2362,8 @@
 				type: "checkmark"
 			}]
 			title: "Kill &9The Immortal"
-			x: 13.5d
-			y: 4.0d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["043BBC5B6DC56FEE"]
@@ -2727,7 +2373,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "railways:block/palettes/netherite/boiler_gullet"
+					Icon: "bloodmagic:block/simpletranscircle"
 				}
 			}
 			icon_scale: 1.5d
@@ -2739,9 +2385,11 @@
 				elevate_perms: true
 				icon: {
 					Count: 1
-					id: "ftbquests:custom_icon"
+					id: "eeeabsmobs:ghost_warrior_helmet"
 					tag: {
-						Icon: "eeeabsmobs:textures/effects/immortal_magic_circle/speed.png"
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
 					}
 				}
 				id: "6F406159952BF52B"
@@ -2749,8 +2397,8 @@
 				title: "Summon Immortal"
 				type: "command"
 			}]
-			shape: "rsquare"
-			size: 1.2d
+			shape: "none"
+			size: 1.0d
 			subtitle: "Unsealing"
 			tasks: [{
 				elapsedTime: 25L
@@ -2759,8 +2407,8 @@
 				type: "questsadditions:time"
 			}]
 			title: "Ongoing Ritual"
-			x: 15.5d
-			y: 4.0d
+			x: 20.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5F3C7FCC546CA1E1"]
@@ -2794,12 +2442,13 @@
 					}
 				}
 				id: "6CAB98DAC4116B3F"
-				title: "Kill &cRedstone Monstrosity"
+				title: "Defeat Redstone Monstrosity"
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: 2.0d
+			title: "Kill &cRedstone Monstrosity"
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["10544AC33748DA46"]
@@ -2835,12 +2484,383 @@
 					}
 				}
 				id: "3E88087C70CFC628"
-				title: "Kill &cRedstone Golem"
+				title: "Defeat Redstone Golem"
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: 0.5d
+			title: "Kill &cRedstone Golem"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28A1B5EFA65E5F6E"]
+			description: [
+				"&cBone Chimera&r was a feared monster back then, owned by a strong warrior. That warrior passed away from aging but bone chimera was loyal and kept waiting for it's owner to come back."
+				""
+				"{image:customtextures:textures/dodo.png width:250 height:100 align:center}"
+			]
+			id: "6B722C26CE238A05"
+			size: 1.2d
+			subtitle: "Overworld / Underground"
+			tasks: [{
+				entity: "dodosmobs:bone_chimera"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "dodosmobs:item/chimera_claw"
+					}
+				}
+				id: "3F66AF3FF688FFE4"
+				title: "Defeat Bone Chimera"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill &cBone Chimera&r"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4158A5819FE865DF"]
+			description: [
+				"&8The closest followers of the first &cNether Cultist&r&8, &4&lApollyon&r&8, these &cterrific beings&r&8 spread the word of the &6&lG&er&6e&ea&6t &eF&6l&ea&6m&ee&r&8 alongside their&4&l master&r&8 when they walked the &3Overworld&r&8."
+				"&8Some &cApostles&r&8 used to be &6Kings&r&8, &5Lords&r&8 or &bNobles&r&8, while others range from normal &aVillagers&r&8 to the most ill-witted &2Nitwits&r&8. &cWhen the emissary appears&r&8, &l&9the water auround them boils&r&8, &0&land the sky darkens&r&8."
+				""
+				"{image:customtextures:textures/apostle_full.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"&8To bring an &cApostle&r&8 to your &3realm&r&8 you must perform a &5Sabbath&r&8 Ritual."
+				" "
+				"&eSabbath Ritual Structure Example:"
+				"&8(more information in The Black Book)"
+				"{image:goety:textures/gui/entries/sabbath_ritual.png width:100 height:100 align:center}"
+				""
+				"&8Using this structure you must sacrifice valuable items belonging to members of the &cApostle's&r&8 race."
+				"&eSummoning Apostle Ritual:"
+				"{image:customtextures:textures/apostle_one.png width:150 height:200 align:center}"
+				""
+				"&eRequired items:"
+				"&8- 8x Witch hat / Warlock Sash / Infernal tome."
+				"&8- 1x Netherite ingots."
+				""
+				"&eYour goal (Next Page) ->"
+				"{@pagebreak}"
+				"&5After the ultimate art of &2necromancy&r&5 was reconstructed&r&8, you finally understood the nature of that &cfluctuation&r&8, and unexpectedly discovered a &ehidden secret path to &l&6As&e&lce&r&6&lns&r&e&lio&r&e&ln&r&8. It is the art of ascending to &6&lgodhood&r&8 from the &3lower realm&r&8, embracing &4&ldestruction&r&8 and thus seizing the great power of the &cHell Realm&r&8."
+				""
+				"&8But after repeated experiments, you finally found a way to capture &6&ldivinity&r&8, although this method is not perfect. That &6&ldivinity&r&8 dissipated after the descrution of the &cApostles&r&8, but it is enough for you to achieve what you want in your mind."
+				""
+				"&eAchieve a false godhood by obtaining the Broken Halo:"
+				""
+				"{image:customtextures:textures/broken_halo_ritual.png width:150 height:200 align:center}"
+				""
+				"&eApostles also drop the Broken Halo with a &n10%&r &echance."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goetydelight:textures/mob_effect/the_pale_messenger.png"
+				}
+			}
+			icon_scale: 1.2d
+			id: "3186C6AC85757E55"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "01B49CADBFCDAEAB"
+					item: "goety:witch_hat"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5025DF24188F7ACF"
+					item: "goety:crone_hat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51F4C3CFE66B2B26"
+					table_id: 4807020933408434136L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.2d
+			subtitle: "&cThe Pale Faced Envoys of The Nether"
+			tasks: [
+				{
+					advancement: "goety:goety/kill_a_apostle"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "customtextures:textures/apostle.png"
+						}
+					}
+					id: "55EDD08324A7ACA8"
+					title: "&eDefeat an Apostle in The Overworld"
+					type: "advancement"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "customtextures:textures/apostle_second.png"
+						}
+					}
+					id: "4359C6B7D2D79012"
+					item: {
+						Count: 1
+						id: "goety:unholy_blood"
+						tag: {
+							Pure: 1b
+						}
+					}
+					title: "&l&cDefeat an Apostle in The Nether"
+					type: "item"
+				}
+			]
+			title: "&8Kill an &c&lApostle&r"
+			x: 2.0123945434806103d
+			y: -1.9895909297658605d
+		}
+		{
+			dependencies: ["124B15AB9053C786"]
+			description: [
+				"&cShadow Wizards&r experiments on people consistently, go bring democracy to the nether!"
+				""
+				"Using an &6Occult Fabric&r on the &6Offering Pedestal&r to spawn them."
+				""
+				"{image:customtextures:textures/cathedral.png width:250 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:gundalfs_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D87F91C4EC2DA02"
+			min_required_tasks: 1
+			min_width: 1
+			rewards: [
+				{
+					id: "611353E2218D489F"
+					table_id: 8699295573854160387L
+					title: "&l&4Glorious"
+					type: "random"
+				}
+				{
+					id: "393E8F49BD1E81C0"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Nether / Chthonic Cathedral"
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "terramity:item/gundalfs_pointed_hat"
+					}
+				}
+				id: "2BF8E5DC8D95638E"
+				title: "Defeat Archmage Gundalf"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill&c The Shadow Wizards"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7044D2F80D2E9ED5"]
+			description: [
+				"Born blessed with magic itself. &cTyros&r was a prodigy, though he is still a human. He died from old age."
+				""
+				"You can still call his soul with &6Cinderous Soulcaller&r and challange him."
+				""
+				"Use Ancient Furled Map to locate citadel.&r"
+				""
+				"{image:customtextures:textures/citadel_ling.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/citadel_in_ling.png width:250 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/cinderous_soulcaller"
+				}
+			}
+			id: "5C3E27D95D3656C6"
+			rewards: [{
+				id: "2F9B27A1B2B15ECE"
+				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Nether / Citadel"
+			tasks: [
+				{
+					entity: "irons_spellbooks:fire_boss"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "irons_spellbooks:item/cinder_essence"
+						}
+					}
+					id: "71D09AF7BF51E829"
+					title: "Defeat Tyros, First Flamebearer"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0FB5BF34F38E6BDA"
+					item: "irons_spellbooks:cinderous_soulcaller"
+					type: "item"
+				}
+			]
+			title: "Kill &cEcho of Tyros, First Flamebearer"
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C3E27D95D3656C6"]
+			description: [
+				"&aThe Obliterator&r has been built by an alien life-form. It has only one purpose and it is to destroy the &cnether.&r"
+				""
+				"Well, actually they're still working on it, so before it's actually done. Go destroy it!"
+				""
+				"{\"extra\":[{\"text\":\"Use \"},{\"color\":\"green\",\"text\":\"Eye of Annihilation\"},{\"text\":\" to locate it!\"}],\"text\":\"\"}"
+				""
+				"{image:customtextures:textures/space_station1.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station3.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station4.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station2.png width:250 height:100 align:center}"
+			]
+			icon: "legendary_monsters:eye_of_annihilation"
+			id: "50EDD2850C47C4DF"
+			rewards: [{
+				id: "36ACF4315BDFE75B"
+				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "End / Space Station"
+			tasks: [
+				{
+					advancement: "legendary_monsters:defeat_the_obliterator"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "legendary_monsters:item/annihilator_helmet"
+						}
+					}
+					id: "0926524B52D7DDB4"
+					title: "Defeat &a&lThe Obliterator"
+					type: "advancement"
+				}
+				{
+					id: "167E7B02BD3A1EC3"
+					item: "legendary_monsters:eye_of_annihilation"
+					type: "item"
+				}
+			]
+			title: "Kill &aThe Obliterator"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["418B954780DD19CB"]
+			description: [
+				"&6Geburah&r is a judging mechanism made by some pyschopath. &eIt weighs the sins of you, acts by it.&r Considering how much bad things you've probably done.. good luck with"
+				"this boss!"
+				""
+				"&aUsing ranged can give you advantage in this boss fight."
+				""
+				"{image:customtextures:textures/geburah_gaming3.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/geburah_gaming.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/geburah_gaming2.png width:250 height:100 align:center}"
+			]
+			id: "296D1FA3027A3819"
+			rewards: [{
+				id: "643581CA165C949A"
+				table_id: 8699295573854160387L
+				title: "&4&lGlorious"
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "End / Geburah Arena"
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "56071BF946033231"
+				title: "Defeat Geburah"
+				type: "advancement"
+			}]
+			title: "Kill &6Geburah"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["218A1EC80DE60194"]
+			icon: "covenant_of_the_seven:holy_essence"
+			id: "583494CB258F310A"
+			rewards: [{
+				id: "03A80099F3434980"
+				item: "covenant_of_the_seven:holy_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.6d
+			tasks: [{
+				consume_items: true
+				id: "725C302FD73289AA"
+				item: "armageddon_mod:wither_relic"
+				type: "item"
+			}]
+			title: "&eSanctified Essence Shop"
+			x: 1.716919912524581d
+			y: 0.880819364977377d
+		}
+		{
+			can_repeat: true
+			dependencies: ["218A1EC80DE60194"]
+			icon: "enigmaticlegacy:evil_essence"
+			id: "059C2B4565D5F9D1"
+			rewards: [{
+				id: "2BC62AF821F4D2B7"
+				item: "enigmaticlegacy:evil_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.6d
+			tasks: [{
+				consume_items: true
+				id: "11BBA8FD0EC21DF7"
+				item: "armageddon_mod:wither_relic"
+				type: "item"
+			}]
+			title: "&dNefarious Essence Shop"
+			x: 2.316919912524581d
+			y: 0.880819364977377d
 		}
 	]
 	title: "Bosses"

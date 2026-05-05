@@ -3,8 +3,8 @@ StartupEvents.registry("item", e => {
     .displayName("Fading Shard Of Pure Mana")
     .unstackable()
     .texture("kubejs:item/lilshard")
-    .tooltip("When eaten, slightly increases spell power.")
-    .tooltip("§8Eating continuously wont stack the effects.")
+    .tooltip("When eaten, slightly increases magical power.")
+    .tooltip("Eating continuously wont stack the effects.")
     .rarity("rare")
     .food(f => {
       f.hunger(2)
@@ -18,9 +18,8 @@ StartupEvents.registry("item", e => {
     .displayName("Shard Of Pure Mana")
     .unstackable()
     .texture("kubejs:item/pureshard")
-    .tooltip("When eaten, enhances your spell power further.")
-    .tooltip("§cBe careful while eating.")
-    .tooltip("§8Eating continuously wont stack the effects.")
+    .tooltip("When eaten, enhances your magical power further.")
+    .tooltip("Eating continuously wont stack the effects.")
     .rarity("epic")
     .food(f => {
       f.hunger(5)
@@ -32,39 +31,34 @@ StartupEvents.registry("item", e => {
     });
 
   e.create("purified_shard_of_compressed_mana")
-    .displayName("§d§lPurified Mana Shard")
+    .displayName("§dPurified Mana Shard")
     .unstackable()
     .texture("kubejs:item/purified")
     .tooltip(
-      "Consuming such dense mana will either kill you... or turn you into something else."
+      "Consuming such a dense amount of mana will either kill you, or empower you further."
     )
-    .tooltip("§cBe careful while eating.")
-    .tooltip("§8Eating continuously wont stack the effects.")
+    .tooltip("Eating continuously wont stack the effects.")
     .rarity("epic")
     .food(f => {
       f.hunger(355)
-        .saturation(635)
+        .saturation(35)
         .effect("minecraft:blindness", 200, 0, 1)
         .effect("minecraft:levitation", 200, 5, 1)
-        .effect("minecraft:instant_damage", 1, 5, 1)
-        .effect("ancient_elements:crystal_infestion", 500, 5, 1)
-        .effect("ancient_elements:stunned", 500, 5, 1)
-        .effect("ancient_elements:paralyzed", 200, 5, 1)
-        .effect("ancient_elements:hellfire", 200, 5, 1)
-        .effect("ancient_elements:electrofield", 100, 5, 1)
-        .effect("ancient_elements:elemental_blight", 100, 5, 1)
+        .effect("minecraft:instant_damage", 1, 10, 1)
         .alwaysEdible();
     });
 
   e.create("broken_cube_piece_1")
     .displayName("§dLeft Cube Fragment")
     .unstackable()
+    .tooltip("One of the re-crafted pieces of the Non-Euclidean Cube.")
     .texture("kubejs:item/cubepart1")
     .rarity("epic");
 
   e.create("broken_cube_piece_2")
     .displayName("§dRight Cube Fragment")
     .unstackable()
+    .tooltip("One of the re-crafted pieces of the Non-Euclidean Cube.")
     .texture("kubejs:item/cubepart2")
     .rarity("epic");
 
@@ -90,4 +84,51 @@ StartupEvents.registry("item", e => {
   e.create("dark_metal_sheet")
     .displayName("Dark Metal Sheet")
     .texture("kubejs:item/dark_metal_sheet");
+
+  e.create("corrupted_soul_fragment")  
+    .displayName("§bCorrupted Soul Fragment")
+    .texture("kubejs:item/corrupted_soul_fragment")
+    .tooltip(
+      "Fragments of a once great soul."
+    )
+    .rarity("rare");
+
+  e.create("twilight_alloy_ingot")
+    .displayName("Twilight Alloy")
+    .texture("kubejs:item/twilight_alloy_ingot")
+    .rarity("rare");
+
+  e.create("mana_crystal")
+    .displayName("Mana Crystal")
+    .tooltip("Increases Spell Power (Iron's)")
+    .rarity("rare")
+    .food(f => {
+      f.hunger(1)
+        .saturation(1)
+        .alwaysEdible()
+        .effect("minecraft:blindness", 50, 0, 1);
+    });
+
+  e.create("mana_capacity_crystal")
+    .displayName("Mana Capacity Crystal")
+    .tooltip("Increases Mana Amount")
+    .rarity("rare")
+    .food(f => {
+      f.hunger(1)
+        .saturation(1)
+        .alwaysEdible()
+        .effect("minecraft:blindness", 50, 0, 1);
+    });
+
+  e.create("mana_regeneration_crystal")
+    .displayName("Mana Regeneration Crystal")
+    .tooltip("Increases Mana Regeneration Rate")
+    .rarity("rare")
+    .food(f => {
+      f.hunger(1)
+        .saturation(1)
+        .alwaysEdible()
+        .effect("minecraft:blindness", 50, 0, 1);
+      
+    });
 });

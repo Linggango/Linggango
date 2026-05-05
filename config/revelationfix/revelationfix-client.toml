@@ -11,7 +11,7 @@
 	#Enable Nether ScarletRain (when "Apollyon" in dimension Nether)
 	enableScarletRain = true
 	#Make Nether ScarletRain more beautiful (when "Apollyon" in dimension Nether)
-	enableDynamicScarletRain = true
+	enableDynamicScarletRain = false
 	#Enable TrailRenderers (For example, the trails of the death arrow shot by "Apollyon" in dimension Nether) )
 	enableTrailRenderer = true
 	#Display the bossbar of ApostleServant )

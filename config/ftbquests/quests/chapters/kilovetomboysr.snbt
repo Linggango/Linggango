@@ -19,16 +19,18 @@
 	images: [
 		{
 			height: 5.0d
-			image: "customtextures:textures/lethalitylogo.png"
+			image: "customtextures:textures/lethality_and_brutality.png"
 			rotation: 0.0d
 			width: 12.0d
 			x: -5.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -8
 			rotation: 0.0d
 			width: 6.0d
 			x: -7.0d
@@ -36,8 +38,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -7
 			rotation: 45.0d
 			width: 6.0d
 			x: -7.0d
@@ -45,8 +49,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -6
 			rotation: 90.0d
 			width: 6.0d
 			x: -7.0d
@@ -54,8 +60,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -5
 			rotation: 135.0d
 			width: 6.0d
 			x: -7.0d
@@ -63,8 +71,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -4
 			rotation: 175.0d
 			width: 6.0d
 			x: -7.0d
@@ -72,8 +82,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -3
 			rotation: -90.0d
 			width: 6.0d
 			x: -7.0d
@@ -81,8 +93,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -2
 			rotation: -45.0d
 			width: 6.0d
 			x: -7.0d
@@ -90,8 +104,10 @@
 		}
 		{
 			color: 5592405
+			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -1
 			rotation: -135.0d
 			width: 6.0d
 			x: -7.0d
@@ -99,6 +115,7 @@
 		}
 		{
 			color: 16777045
+			dependency: "2B69C369F7D0B25C"
 			height: 5.0d
 			image: "bloodmagic:models/alchemyarrays/sunarray"
 			rotation: 0.0d
@@ -109,16 +126,18 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.785714285714285d
-			y: -9.07142857142857d
+			x: -5.0d
+			y: -15.0d
 		}
 	]
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -406,7 +425,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 0.75d
 		}
 		{
@@ -433,7 +452,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 0.75d
 		}
 		{
@@ -460,7 +479,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.75d
+			x: -15.0d
 			y: 0.75d
 		}
 		{
@@ -487,7 +506,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.75d
+			x: 5.25d
 			y: 0.75d
 		}
 		{
@@ -514,7 +533,7 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
+			x: -17.25d
 			y: 0.75d
 		}
 		{
@@ -541,7 +560,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 0.75d
 		}
 		{
@@ -568,7 +587,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -12.75d
 			y: 0.75d
 		}
 		{
@@ -648,12 +667,13 @@
 				}
 				type: "item"
 			}]
-			x: -20.25d
+			x: -19.5d
 			y: 0.75d
 		}
 		{
 			dependencies: ["2B69C369F7D0B25C"]
 			description: ["Only craftable through a hephaestus forge."]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -732,7 +752,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.25d
+			x: 9.75d
 			y: 0.75d
 		}
 		{
@@ -764,7 +784,7 @@
 		}
 		{
 			dependencies: ["2B69C369F7D0B25C"]
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -916,7 +936,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.25d
+			x: -3.75d
 			y: 0.75d
 		}
 		{
@@ -975,7 +995,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -8.25d
 			y: 0.75d
 		}
 		{
@@ -1026,33 +1046,6 @@
 		}
 		{
 			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "brutality:item/sword/blade_of_the_ruined_king/blade_of_the_ruined_king_handheld"
-				}
-			}
-			icon_scale: 2.0d
-			id: "4BE8D285F75AFBD4"
-			size: 1.5d
-			subtitle: "Emotionally broken, abandoned by it's master. A ruined sword."
-			tasks: [{
-				id: "43F7EF335BFBDD5E"
-				item: {
-					Count: 1
-					id: "brutality:blade_of_the_ruined_king"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
 			id: "0E6A8B65275BD791"
 			size: 1.5d
 			tasks: [{
@@ -1066,7 +1059,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.25d
+			x: 0.75d
 			y: 0.75d
 		}
 		{
@@ -1094,7 +1087,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.25d
+			x: -10.5d
 			y: 0.75d
 		}
 		{
@@ -1132,7 +1125,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.75d
 		}
 		{

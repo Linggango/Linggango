@@ -1,7 +1,7 @@
 {
 	id: "5409960DA7742282"
 	loot_size: 1
-	order_index: 12
+	order_index: 13
 	rewards: [
 		{ count: 2, item: "ad_astra:iron_plate" }
 		{ count: 2, item: "ad_astra:iron_rod" }

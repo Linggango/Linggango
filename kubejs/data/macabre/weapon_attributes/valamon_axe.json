@@ -1,0 +1,32 @@
+{
+  "attributes": {
+    "attack_range": 4.5,
+    "two_handed": true,
+    "category": "greathammer",
+    "pose": "weapon:pose_great_sword_animated",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greathammer_slamslash_rl",
+        "swing_sound": {
+          "id": "saintsdragons:volitans_horn_gore",
+          "pitch": 0.9
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "malfu_combat_animation:greathammer_slamslash_lr",
+        "swing_sound": {
+          "id": "saintsdragons:volitans_horn_gore",
+          "pitch": 0.9
+        }
+      }
+    ]
+  }
+}

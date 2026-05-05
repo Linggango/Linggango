@@ -1,0 +1,90 @@
+{
+"hazennstuff:fireblossom_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:draconic_splitter": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  
+  "hazennstuff:ravens_bane": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 9.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:ice_pike": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:o_fortuna": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:ionic_splitter": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:devastator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:umbranova": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:provocation": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 13.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:the_devourer": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+   }
+  ],
+
+  "hazennstuff:legionnaire_warlock_axe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

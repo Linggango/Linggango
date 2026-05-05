@@ -1,0 +1,9 @@
+{
+"irons_spellbooks:decrepit_scythe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 14.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

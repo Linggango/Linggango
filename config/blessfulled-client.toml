@@ -8,29 +8,29 @@
 	"Show Damage Counter" = true
 	#Size multiplier for the hit particle popups.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Size Multiplier" = 0.3
+	"Size Multiplier" = 0.6
 	#The decimal format for the popup damage text.
 	#e.g.: [0.000] will result in numbers like 7.325 while just [0] keeps it as whole numbers.
-	"Damage Decimal Format" = "0.00"
+	"Damage Decimal Format" = "0.00!"
 	#RGB Color values for critical hit popups.
-	"Critical Hit Popup Colors" = [255, 196, 0]
+	"Critical Hit Popup Colors" = [206, 1, 1]
 	#RGB Color values for heal popups.
 	"Heal Popup Colors" = [0, 255, 38]
 	#RGB Color values for magic attack popups.
-	"Melee Hit Popup Colors" = [162, 0, 250]
+	"Melee Hit Popup Colors" = [255, 132, 132]
 	#RGB Color values for other damage type popups (becomes redder the higher the damage).
-	"Generic Popup Colors" = [255, 75, 75]
+	"Generic Popup Colors" = [255, 253, 159]
 	#A list of onomatopoeia expressions for melee hit popups.
-	"Melee Expressions" = ["CLANK!", "POW!", "BRUH!", "OUCH!", "WHAM!", "THWACK!", "BONK!", "SMACK!", "WHACK!", "BAM!"]
+	"Melee Expressions" = ["Nice!", "Pow!", "Good Job!", "Ouchies!", "Wham!", "Thwack!", "Bonkk!", "Smack!", "Boom!", "Bam!", "Boop!", "Sliced that bum!", "Bloody!"]
 	#A list of onomatopoeia expressions for critical melee hit popups.
-	"Critical Melee Expressions" = ["STRIKE!", "CRIT!", "CRUNCH!", "KABOOM!", "SMASH!", "OBLITERATE!", "DEVASTATE!", "ANNIHILATE!", "DECIMATE!", "SHATTER!"]
+	"Critical Melee Expressions" = ["GRAAH!", "LETHAL!", "KABOOM!", "SMACKED!", "SMASH!", "ERASED!", "DEVASTATED!", "ANNIHILATE!", "DECIMATE!", "DESTROYED!", "OOF!", "GOODBYE!", "SQUISH!", "VITAL!", "EXACT!", "TRASH!", "SKILL ISSUE!", "GET REKT!", "PATHETIC!", "JESUS!", "CLEAN CUT!", "FOLDED!", "SIT DOWN DOG!", "WASTED!", "DIE!", "ERASED FROM THE VERY EXISTENCE ITSELF!", "BUILT-DIFFERENT!"]
 	#A list of onomatopoeia expressions for critical arrow effect popups.
-	"Critical Arrow Expressions" = ["STRIKE!", "BULLSEYE!", "HEADSHOT?...!", "PIERCE!", "SNIPE!"]
+	"Critical Arrow Expressions" = ["HOLY SHIT!", "SPLIT-OPEN-HEAD!", "H-H-HEADSHOT!", "SNIPED EZ!", "AIMBOT?", "BRAIN SURGERY!", "LOBOTOMIZED!", "MIND BLOWN!", "SOCIAL DISTANCING!", "WHERE U AT?", "DODGE THIS!", "SLEEP TIGHT!", "MIND-BLOWING!", "HOW'D U DO THAT?!", "U COOKING!", "WOAH!", "BEST SHOT EVER? no.", "NATURAL TALENT!"]
 
 ["Hurt Overlay Configuration"]
 	#Configure the conditions to enable the entity white hurt overlay.
 	#Allowed Values: DEFAULT, ONLY_BY_PLAYER, DISABLED
-	"Hurt Overlay Condition" = "DEFAULT"
+	"Hurt Overlay Condition" = "DISABLED"
 
 ["Special Sounds Configuration"]
 	#Should play sounds on weapon swing?

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "brutality:crease_of_creation"
+    },
+    "title": "Crease of Creation",
+    "description": "Obtain Crease of Creation.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brutality:crease_of_creation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

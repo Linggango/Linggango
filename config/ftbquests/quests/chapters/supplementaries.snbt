@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0A6178D82A037278"
+	autofocus_id: "281F285D738A0F88"
 	default_hide_dependency_lines: true
 	default_quest_shape: "pentagon"
 	filename: "supplementaries"
@@ -19,7 +19,7 @@
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
+			x: 1.0d
 			y: -16.0d
 		}
 		{
@@ -30,7 +30,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -11.0d
-			y: -15.5d
+			y: -16.0d
 		}
 		{
 			height: 1.0d
@@ -38,35 +38,29 @@
 			image: "legendary_monsters:item/long_stick_half"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -5.0d
 			y: -16.0d
 		}
 		{
-			height: 15.0d
+			height: 1.5d
 			image: "customtextures:textures/additionslogo.png"
 			rotation: 0.0d
-			width: 30.0d
-			x: -0.5d
-			y: -9.0d
-		}
-		{
-			height: 1.0d
-			hover: ["Items"]
-			image: "legendary_monsters:item/long_stick_half"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: -16.0d
+			width: 15.0d
+			x: -5.0d
+			y: -18.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -16.0d
+			x: -5.0d
+			y: -19.5d
 		}
 	]
 	order_index: 6
@@ -106,7 +100,7 @@
 				type: "item"
 			}]
 			title: "Slingshot"
-			x: -7.0d
+			x: -4.0d
 			y: -12.5d
 		}
 		{
@@ -144,8 +138,8 @@
 				}
 			]
 			title: "Bomb"
-			x: -7.0d
-			y: -11.5d
+			x: -3.0d
+			y: -13.5d
 		}
 		{
 			description: ["Shot &aRope Arrows&r will retain all the &aRopes&r they didn't place so remember to pick them back up"]
@@ -181,8 +175,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -12.5d
+			x: -3.0d
+			y: -14.5d
 		}
 		{
 			description: [
@@ -208,21 +202,11 @@
 			subtitle: "Stores multiple arrows and allows you to quickly change them."
 			tasks: [{
 				id: "7CD8B6F514A219D3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							SelectedSlot: 0
-							Size: 6
-						}
-					}
-					id: "supplementaries:quiver"
-				}
+				item: "supplementaries:quiver"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -12.5d
+			x: -5.0d
+			y: -13.5d
 		}
 		{
 			description: [
@@ -257,8 +241,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -12.5d
+			x: -6.0d
+			y: -14.5d
 		}
 		{
 			description: [
@@ -299,8 +283,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -12.5d
+			x: -4.0d
+			y: -13.5d
 		}
 		{
 			description: [
@@ -327,8 +311,8 @@
 				item: "supplementaries:antique_ink"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -12.5d
+			x: -6.0d
+			y: -13.5d
 		}
 		{
 			id: "4B36949CD065FCBB"
@@ -357,8 +341,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -14.5d
+			x: -6.0d
+			y: -12.5d
 		}
 		{
 			description: [
@@ -389,7 +373,7 @@
 				item: "supplementaries:soap"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -14.5d
 		}
 		{
@@ -422,11 +406,17 @@
 			subtitle: "Yummy."
 			tasks: [{
 				id: "318687E5EB4083C3"
-				item: "supplementaries:pancake"
+				item: {
+					Count: 1
+					id: "supplementaries:pancake"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "Pancake"
-			x: -3.0d
+			x: -4.0d
 			y: -14.5d
 		}
 		{
@@ -461,8 +451,8 @@
 				type: "item"
 			}]
 			title: "Key"
-			x: 1.5d
-			y: -14.5d
+			x: -5.0d
+			y: -11.5d
 		}
 		{
 			description: ["By default the &aNetherite Door&r is accessible to anyone until first locked."]
@@ -487,8 +477,8 @@
 				type: "checkmark"
 			}]
 			title: "Netherite Door"
-			x: 0.5d
-			y: -13.5d
+			x: -6.0d
+			y: -10.5d
 		}
 		{
 			description: ["Acts as a sort of upgraded &aShulker Box&r that is fire resistant."]
@@ -513,8 +503,8 @@
 				type: "checkmark"
 			}]
 			title: "Safe"
-			x: -0.5d
-			y: -13.5d
+			x: -7.0d
+			y: -10.5d
 		}
 		{
 			description: ["By default the &aNetherite Trapdoor&r is accessible to anyone until first locked."]
@@ -539,8 +529,8 @@
 				type: "checkmark"
 			}]
 			title: "Netherite Trapdoor"
-			x: 1.5d
-			y: -13.5d
+			x: -5.0d
+			y: -10.5d
 		}
 		{
 			description: ["Once it interacts with a player that holds the correct &aKey&r it will emit a redstone pulse."]
@@ -565,7 +555,7 @@
 				type: "checkmark"
 			}]
 			title: "Lock Block"
-			x: -6.0d
+			x: -7.0d
 			y: -13.5d
 		}
 		{
@@ -594,8 +584,8 @@
 				type: "item"
 			}]
 			title: "Cog Block"
-			x: 3.5d
-			y: -13.5d
+			x: -3.0d
+			y: -10.5d
 		}
 		{
 			description: [
@@ -623,7 +613,7 @@
 				type: "item"
 			}]
 			title: "Wind Vane"
-			x: 8.5d
+			x: 1.0d
 			y: -14.5d
 		}
 		{
@@ -656,7 +646,7 @@
 				item: "supplementaries:clock_block"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 1.0d
 			y: -12.5d
 		}
 		{
@@ -692,7 +682,7 @@
 				type: "item"
 			}]
 			title: "Bellows"
-			x: 10.5d
+			x: 3.0d
 			y: -13.5d
 		}
 		{
@@ -722,7 +712,7 @@
 				type: "item"
 			}]
 			title: "Spring Launcher"
-			x: 9.5d
+			x: 2.0d
 			y: -14.5d
 		}
 		{
@@ -751,8 +741,8 @@
 				type: "item"
 			}]
 			title: "Relayer"
-			x: 4.5d
-			y: -13.5d
+			x: -3.5d
+			y: -9.5d
 		}
 		{
 			id: "0A6178D82A037278"
@@ -775,8 +765,8 @@
 				type: "item"
 			}]
 			title: "Crystal Display"
-			x: 0.0d
-			y: -12.5d
+			x: -6.5d
+			y: -9.5d
 		}
 		{
 			description: [
@@ -803,7 +793,7 @@
 				type: "item"
 			}]
 			title: "Speaker Block"
-			x: 10.5d
+			x: 3.0d
 			y: -14.5d
 		}
 		{
@@ -829,7 +819,7 @@
 				type: "item"
 			}]
 			title: "Redstone Illuminator"
-			x: 9.5d
+			x: 2.0d
 			y: -12.5d
 		}
 		{
@@ -865,7 +855,7 @@
 				type: "item"
 			}]
 			title: "Faucet"
-			x: 10.5d
+			x: 3.0d
 			y: -12.5d
 		}
 		{
@@ -900,7 +890,7 @@
 				type: "item"
 			}]
 			title: "Turn Table"
-			x: 6.5d
+			x: -1.0d
 			y: -13.5d
 		}
 		{
@@ -933,8 +923,8 @@
 				}
 			]
 			title: "Crank"
-			x: 1.0d
-			y: -12.5d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
 			description: ["If unlit it will have its properties reversed."]
@@ -958,8 +948,8 @@
 				type: "item"
 			}]
 			title: "Sconce"
-			x: 2.0d
-			y: -12.5d
+			x: -4.0d
+			y: -10.5d
 		}
 		{
 			dependency_requirement: "all_started"
@@ -998,7 +988,7 @@
 				type: "item"
 			}]
 			title: "Pulley Block"
-			x: 7.5d
+			x: 0.0d
 			y: -13.5d
 		}
 		{
@@ -1029,8 +1019,8 @@
 				type: "item"
 			}]
 			title: "Hourglass"
-			x: 11.5d
-			y: -12.5d
+			x: 1.0d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -1058,7 +1048,7 @@
 				item: "supplementaries:jar"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -13.0d
 			y: -13.5d
 		}
 		{
@@ -1083,8 +1073,8 @@
 				type: "item"
 			}]
 			title: "Soap Block"
-			x: -10.5d
-			y: -8.5d
+			x: -10.0d
+			y: -9.5d
 		}
 		{
 			description: ["This means that a powered door cannot be opened or closed regardless of its state."]
@@ -1117,7 +1107,7 @@
 				}
 			]
 			title: "Golden Doors and Trapdoors"
-			x: -10.5d
+			x: -11.0d
 			y: -11.5d
 		}
 		{
@@ -1146,7 +1136,7 @@
 				type: "item"
 			}]
 			title: "Fodder"
-			x: -11.5d
+			x: -12.0d
 			y: -11.5d
 		}
 		{
@@ -1175,8 +1165,8 @@
 				item: "supplementaries:flint_block"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -12.5d
+			x: -9.0d
+			y: -13.5d
 		}
 		{
 			description: [
@@ -1203,8 +1193,8 @@
 				type: "item"
 			}]
 			title: "Pedestal"
-			x: -12.5d
-			y: -13.5d
+			x: -13.0d
+			y: -14.5d
 		}
 		{
 			description: [
@@ -1291,7 +1281,7 @@
 				}
 			]
 			title: "Framed blocks"
-			x: -10.5d
+			x: -10.0d
 			y: -12.5d
 		}
 		{
@@ -1327,7 +1317,7 @@
 				type: "item"
 			}]
 			title: "Rope"
-			x: -11.5d
+			x: -11.0d
 			y: -12.5d
 		}
 		{
@@ -1355,7 +1345,7 @@
 				type: "item"
 			}]
 			title: "Sack"
-			x: -12.5d
+			x: -12.0d
 			y: -12.5d
 		}
 		{
@@ -1387,7 +1377,7 @@
 				type: "item"
 			}]
 			title: "Blackboard"
-			x: -10.5d
+			x: -12.0d
 			y: -13.5d
 		}
 		{
@@ -1463,7 +1453,7 @@
 				type: "item"
 			}]
 			title: "Present"
-			x: -9.5d
+			x: -11.0d
 			y: -13.5d
 		}
 		{
@@ -1487,8 +1477,8 @@
 				item: "supplementaries:statue"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -8.5d
+			x: -9.0d
+			y: -10.5d
 		}
 		{
 			description: [
@@ -1515,8 +1505,8 @@
 				item: "supplementaries:doormat"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -13.0d
+			x: -13.0d
+			y: -12.5d
 		}
 		{
 			description: [
@@ -1546,8 +1536,8 @@
 				item: "supplementaries:bamboo_spikes"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -8.5d
+			x: -10.0d
+			y: -10.5d
 		}
 		{
 			description: [
@@ -1606,7 +1596,7 @@
 				type: "item"
 			}]
 			title: "Chute"
-			x: 8.5d
+			x: 1.0d
 			y: -13.5d
 		}
 		{
@@ -1656,7 +1646,7 @@
 				}
 			]
 			title: "Copper Pipes"
-			x: 7.0d
+			x: -1.0d
 			y: -11.5d
 		}
 		{
@@ -1694,7 +1684,7 @@
 				type: "item"
 			}]
 			title: "Magnets"
-			x: 7.5d
+			x: 0.0d
 			y: -12.5d
 		}
 		{
@@ -1719,7 +1709,7 @@
 				type: "item"
 			}]
 			title: "Ender Watcher"
-			x: 7.5d
+			x: 0.0d
 			y: -14.5d
 		}
 		{
@@ -1749,7 +1739,7 @@
 				type: "item"
 			}]
 			title: "Gravisand"
-			x: 6.5d
+			x: -1.0d
 			y: -14.5d
 		}
 		{
@@ -1779,7 +1769,7 @@
 				type: "item"
 			}]
 			title: "Iron Rod"
-			x: 6.5d
+			x: -1.0d
 			y: -12.5d
 		}
 		{
@@ -1816,7 +1806,7 @@
 				}
 			]
 			title: "Metal Buttons"
-			x: 8.0d
+			x: 0.0d
 			y: -11.5d
 		}
 		{
@@ -1840,7 +1830,7 @@
 				type: "item"
 			}]
 			title: "Redstone Randomizer"
-			x: 9.5d
+			x: 2.0d
 			y: -13.5d
 		}
 		{
@@ -1866,7 +1856,7 @@
 				type: "item"
 			}]
 			title: "Crafter"
-			x: 10.0d
+			x: 2.0d
 			y: -11.5d
 		}
 		{
@@ -1891,8 +1881,8 @@
 				type: "item"
 			}]
 			title: "Obsidian Pressure Plate"
-			x: 4.5d
-			y: -14.5d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			description: [
@@ -1921,8 +1911,8 @@
 				type: "item"
 			}]
 			title: "Abacus"
-			x: 3.5d
-			y: -14.5d
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -1951,8 +1941,8 @@
 				type: "item"
 			}]
 			title: "Bottled Cloud"
-			x: 2.5d
-			y: -14.5d
+			x: -4.0d
+			y: -11.5d
 		}
 		{
 			id: "1171584A851FF7A1"
@@ -1981,8 +1971,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -13.5d
+			x: -5.0d
+			y: -12.5d
 		}
 		{
 			id: "7EF69B47BB2DC106"
@@ -2005,8 +1995,8 @@
 				type: "item"
 			}]
 			title: "Trowel"
-			x: -0.5d
-			y: -14.5d
+			x: -7.0d
+			y: -11.5d
 		}
 		{
 			description: ["Combining an Ancient Tome in an Anvil with an item containing that enchantment will increase its level by one, up to one over the cap."]
@@ -2039,8 +2029,8 @@
 				type: "checkmark"
 			}]
 			title: "Ancient Tomes"
-			x: 0.5d
-			y: -14.5d
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -2112,8 +2102,8 @@
 				}
 			]
 			title: "Beacon Redirection"
-			x: -12.5d
-			y: -10.5d
+			x: -13.0d
+			y: -11.5d
 		}
 		{
 			description: ["You can also climb the inside of a vertical Hollow Log like a ladder."]
@@ -2137,8 +2127,8 @@
 				type: "checkmark"
 			}]
 			title: "Hollow Logs"
-			x: -12.5d
-			y: -8.5d
+			x: -11.0d
+			y: -9.5d
 		}
 		{
 			description: [
@@ -2181,7 +2171,7 @@
 				}
 			]
 			title: "Ashen Wood"
-			x: -11.5d
+			x: -13.0d
 			y: -10.5d
 		}
 		{
@@ -2206,7 +2196,7 @@
 				type: "item"
 			}]
 			title: "Stools"
-			x: -12.5d
+			x: -12.0d
 			y: -9.5d
 		}
 		{
@@ -2238,7 +2228,7 @@
 				type: "item"
 			}]
 			title: "Myalite Viaducts"
-			x: -10.5d
+			x: -12.0d
 			y: -10.5d
 		}
 		{
@@ -2262,8 +2252,8 @@
 				type: "item"
 			}]
 			title: "Sturdy Stone"
-			x: -9.5d
-			y: -9.5d
+			x: -9.0d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -2304,7 +2294,7 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -11.0d
 			y: -10.5d
 		}
 		{
@@ -2329,8 +2319,8 @@
 				type: "item"
 			}]
 			title: "Wooden Posts"
-			x: -8.5d
-			y: -11.0d
+			x: -10.0d
+			y: -13.5d
 		}
 		{
 			description: [
@@ -2361,7 +2351,7 @@
 				type: "item"
 			}]
 			title: "Iron Grate"
-			x: -9.5d
+			x: -10.0d
 			y: -11.5d
 		}
 		{
@@ -2390,114 +2380,8 @@
 				type: "item"
 			}]
 			title: "Storage Crate"
-			x: -8.5d
-			y: -9.0d
-		}
-		{
-			id: "447E43546836726D"
-			rewards: [
-				{
-					id: "41C6C27D616A29DC"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "19FC802F0048C9A0"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Enhances an item by applying the Soulbound effect to it."
-			tasks: [{
-				id: "39520FFCA6741F6C"
-				item: "galosphere:preserved_template"
-				type: "item"
-			}]
-			title: "Preserved effect"
-			x: -5.0d
-			y: -14.5d
-		}
-		{
-			id: "72D23F8F9F0F5E1E"
-			rewards: [
-				{
-					id: "1D956C1BF3170A81"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "64D0B78A4DC18494"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Throws a Spectre, allowing you to see through the Spectre's eyes at the landing location."
-			tasks: [{
-				id: "040956B730D79BA9"
-				item: "galosphere:spectre_flare"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -13.5d
-		}
-		{
-			description: [
-				"If you look down - creates columns around you."
-				"If you look to the side - creates a long strip of columns in the direction of your gaze."
-			]
-			id: "53B561A1AFD1FE0E"
-			rewards: [
-				{
-					id: "68B8B1FE3FFF6803"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "1FEBF67100D666BF"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "Creates columns that deal damage to enemies."
-			tasks: [{
-				id: "5D1BB10B174734CD"
-				item: {
-					Count: 1
-					id: "galosphere:saltbound_tablet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -13.5d
-		}
-		{
-			description: ["On land it emits a faint light, but glows very brightly underwater."]
-			id: "28EA701DD35B1776"
-			rewards: [
-				{
-					id: "6C586000C4E8BAB3"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "73BD2A9A54CE3434"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "Covers everything with glowing moss."
-			tasks: [{
-				id: "71225441DE735E29"
-				item: "galosphere:glow_flare"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -14.5d
+			x: -9.0d
+			y: -12.5d
 		}
 		{
 			description: ["Allows you to move freely through blocks."]
@@ -2526,403 +2410,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -14.5d
-		}
-		{
-			description: [
-				"The &aSilver Bomb&r can be upgraded at the &aCombution Table&r."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&aGunpowder&r - Increases explosion radius and damage."
-				"&aSlime&r - The bomb additionally bounces off surfaces."
-				"&aString&r - Adds a delay before explosion."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Each modifier can be upgraded up to 3 times."
-			]
-			icon: "galosphere:silver_bomb"
-			id: "0A0C812AA3874EC1"
-			rewards: [
-				{
-					id: "12670E4CBBBA563F"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "3E5BE3819E7CD5DD"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "irontier"
-			subtitle: "A throwable bomb that explodes, damaging enemies and breaking blocks."
-			tasks: [
-				{
-					id: "0FA7BD4ACFCF6463"
-					item: "galosphere:silver_bomb"
-					type: "item"
-				}
-				{
-					id: "4857F7ABB8020B99"
-					item: "galosphere:combustion_table"
-					type: "item"
-				}
-				{
-					id: "0CECFE713735FEB5"
-					item: "minecraft:slime_ball"
-					type: "item"
-				}
-				{
-					id: "6462D7C4643BB77B"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-				{
-					id: "5CBCFDE3F4C0853E"
-					item: "minecraft:string"
-					type: "item"
-				}
-			]
-			title: "Silver Bomb"
-			x: -2.0d
-			y: -13.5d
-		}
-		{
-			description: [
-				"Can be grown like bamboo."
-				"&aLichen Cordyceps&r replenishes air if eaten underwater."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&aGolden Lichen Cordyceps&r restores a lot of air and allows you to get an additional 4 air bubbles on top of the maximum."
-			]
-			icon: "galosphere:lichen_cordyceps"
-			id: "6D15A1BAD30B6BB2"
-			rewards: [
-				{
-					id: "6A989BB4DEA8BFEE"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "0CB4EDBF41C39CE6"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "The plant looks like bamboo, but grows underground."
-			tasks: [
-				{
-					id: "539BACB5D6086E98"
-					item: "galosphere:lichen_cordyceps"
-					type: "item"
-				}
-				{
-					id: "7A3441811B63DEF5"
-					item: "galosphere:golden_lichen_cordyceps"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: -13.5d
-		}
-		{
-			description: [
-				"Can move any entities (objects, monsters, players, etc.)"
-				"Additionally, entities lose their attraction power while interacting with &aStranded Membrane Block&r."
-			]
-			id: "55C80A1A9A0C7EF2"
-			rewards: [
-				{
-					id: "1FB72ED1EDB94BCF"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "6DD0E6EAD72A7FA0"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Moves objects that come into contact with it."
-			tasks: [{
-				id: "38DE65462DA0557E"
-				item: "galosphere:stranded_membrane_block"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -9.5d
-		}
-		{
-			description: ["If you add 1 &eLumiere Shard&r to the compost, you will get &aGlowstone Dust&r instead of &aBone Meal&r."]
-			icon: "galosphere:lumiere_shard"
-			id: "77D18C87D1C6ABCF"
-			rewards: [
-				{
-					id: "68AB14BE8AFD3C9A"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "7A07D6DFBCF0CF5D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "Lumiere allows composting of Glowstone Dust."
-			tasks: [
-				{
-					id: "46625D7831DEDADD"
-					item: "minecraft:glowstone_dust"
-					type: "item"
-				}
-				{
-					id: "6520A1E810977D15"
-					item: "galosphere:lumiere_shard"
-					type: "item"
-				}
-			]
-			title: "Glowdust production"
-			x: -12.5d
-			y: -11.5d
-		}
-		{
-			description: [
-				"If you place another block above a charged Lumiere block, the charge will be transferred to the block above and change it."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Currently working with &aCobblestone&r, &aRed Sand&r and &aGranite&r."
-			]
-			icon: "galosphere:charged_lumiere_block"
-			id: "44520E291F8088B3"
-			rewards: [
-				{
-					id: "6A9EA5E075512DBD"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "6208A624D29CDAE4"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "The Lumiere block that is struck by lightning is charged."
-			tasks: [
-				{
-					id: "31D1BA5DE64B4489"
-					item: "galosphere:charged_lumiere_block"
-					type: "item"
-				}
-				{
-					id: "43386944E9B1F1CC"
-					item: "galosphere:lumiere_block"
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: -9.5d
-		}
-		{
-			description: ["If there is an &aAmethyst&r, &aAllurite&r, or &aLumiere&r Cluster near a &eSparkle&r, the &eSparkle&r will bite it, forming a &aGlinted&r version."]
-			icon: "galosphere:glinted_amethyst_cluster"
-			id: "470EBDD4D98FCA2D"
-			rewards: [
-				{
-					id: "7FB5DF3B96572327"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "3DA424F550640C85"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "diamondtier"
-			subtitle: "They appear as a result of Sparkles eating regular crystals."
-			tasks: [
-				{
-					id: "16B2432C672A4F91"
-					item: "galosphere:glinted_amethyst_cluster"
-					type: "item"
-				}
-				{
-					id: "01D178AEDDE66487"
-					item: "galosphere:glinted_allurite_cluster"
-					type: "item"
-				}
-				{
-					id: "4059964B78DDD00D"
-					item: "galosphere:glinted_lumiere_cluster"
-					type: "item"
-				}
-			]
-			title: "Glinted Clusters"
-			x: -11.0d
-			y: -7.5d
-		}
-		{
-			description: [
-				"Charges with Alurit Blocks."
-				"Maximum 4 charges."
-				"Teleportation consumes a charge."
-				"Works within a radius of 16 blocks."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Also prevents damage taken from teleportation with pearls."
-				"Also work with Chorus Fruit."
-			]
-			icon: "galosphere:warped_anchor"
-			id: "35A479D48C1A1B49"
-			rewards: [
-				{
-					id: "4E1D4341C696DE2F"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "51675C6EF02414BB"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Teleports you to itself if your ender pearl falls nearby."
-			tasks: [
-				{
-					id: "60D0BA54E2AC8BE2"
-					item: "galosphere:warped_anchor"
-					type: "item"
-				}
-				{
-					id: "616A008C7992F979"
-					item: "galosphere:allurite_block"
-					type: "item"
-				}
-			]
-			title: "Warped Anchor"
-			x: -8.5d
-			y: -10.0d
-		}
-		{
-			description: [
-				"If placed on top of a filled composter downwards, it will randomly turn the compost into coarse dirt."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"If placed on top of a copper block, it has a higher chance of aging it."
-			]
-			id: "05B90AF132F8C45A"
-			rewards: [
-				{
-					id: "34F1938C139DCB75"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "1FAF29D90B7164BC"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "Affects blocks below it."
-			tasks: [{
-				id: "4F9B32276C7A2A3A"
-				item: "galosphere:pink_salt_straw"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -7.5d
-		}
-		{
-			description: [
-				"Charged with an Lumiere Block."
-				"Works for 20 seconds."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Highlights blocks that have enough light in yellow, and blocks that don't have enough light in blue (blocks that monsters can spawn on)."
-				"Highlights all monsters within range."
-				"Emits a redstone signal equal to the number of monsters."
-				"Can be activated by redstone."
-			]
-			icon: "galosphere:monstrometer"
-			id: "15A8F10FA0B26E39"
-			rewards: [
-				{
-					id: "47A305F2D5E4F05E"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "076959A3DDCD7F3F"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Creates an Aluritic aura around Monstromer."
-			tasks: [
-				{
-					id: "0EEDC613905213A8"
-					item: "galosphere:monstrometer"
-					type: "item"
-				}
-				{
-					id: "1352BDD4C756AE36"
-					item: "galosphere:lumiere_block"
-					type: "item"
-				}
-			]
-			title: "Monstrometer"
-			x: -8.5d
-			y: -12.0d
-		}
-		{
-			description: [
-				"If activated with redstone, it becomes solid and does not allow entities to pass through it."
-				"Also, monsters can't pass through it."
-			]
-			id: "73A8E1D13946F79D"
-			rewards: [
-				{
-					id: "54D9490EA3D06F20"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "534606DBEAF73857"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Takes the shape of another block and does not interfere with movement."
-			tasks: [{
-				id: "0D41F65FDDE2C76D"
-				item: "galosphere:shadow_frame"
-				type: "item"
-			}]
-			title: "Shadow Frame"
-			x: 3.0d
-			y: -12.5d
-		}
-		{
-			description: ["Emits a redstone signal depending on the weight of the block."]
-			id: "41DA0E6E81B76A2A"
-			rewards: [
-				{
-					id: "23DAC00C06C7F229"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "02AF9D93BBF30E6D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Weighs the block above it."
-			tasks: [{
-				id: "4127D63E53B0454C"
-				item: "galosphere:silver_balance"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -13.5d
 		}
 		{
 			description: [
@@ -2952,7 +2441,7 @@
 				item: "rubinated_nether:ruby_laser"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.0d
 			y: -11.5d
 		}
 	]

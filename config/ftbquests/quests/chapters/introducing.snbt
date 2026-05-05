@@ -2,6 +2,7 @@
 	autofocus_id: "19237C5BA8DDB6AF"
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
+	disable_toast: true
 	filename: "introducing"
 	group: "3B5FC78CC89E4CD7"
 	icon: {
@@ -14,46 +15,15 @@
 	id: "21D04D37429B5EA5"
 	images: [
 		{
-			alpha: 155
-			click: "https://www.kinetichosting.com/modpacks/Lingango/order"
-			height: 1.0d
-			hover: ["Why not catch memories with your friends? "]
-			image: "ftblibrary:icons/friends"
-			rotation: 45.0d
-			width: 1.0d
-			x: 2.8214285714285765d
-			y: -7.785714285714285d
-		}
-		{
-			height: 3.0d
-			image: "customtextures:textures/linggangologo.png"
+			height: 2.1d
+			image: "customtextures:textures/introduction.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.5d
-			y: -10.5d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["If you found this dm me in discord dms and you will get a free honorable role in the server "]
-			image: "jellyfishing:painting/patrick"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: 88.5d
-			y: 94.5d
-		}
-		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
 			y: -10.0d
 		}
 		{
+			click: "https://www.patreon.com/MisanthropyDev"
 			height: 1.0d
 			hover: ["Like the project? Consider supporting!"]
 			image: "customtextures:textures/patreon.png"
@@ -72,13 +42,28 @@
 			x: 1.0d
 			y: -8.5d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @shuttheirprayer]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -12.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Linggango is a terraria-inspired, content filled modpack. Your journal is here to guide you through all these stuff!"
+				"Linggango is a terraria-inspired, content filled modpack. This quest book is here to guide you through all these stuff!"
 				""
 				"This pack includes a unique progression system, thus i suggest checking--"
 				" "
@@ -86,6 +71,7 @@
 				""
 				"Be aware of &cRing of The Seven Curses&r though, it changes the whole gameplay to become extremely challenging!"
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -108,7 +94,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "circle"
 			size: 1.65d
 			subtitle: "&8[Click to read]"
 			tasks: [
@@ -145,6 +131,7 @@
 				""
 				"{ \"text\": \"Ring Of The Seven Curses\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1409F2EE726A20\" } }"
 			]
+			disable_toast: true
 			icon_scale: 1.2d
 			id: "47E7012A860C9908"
 			rewards: [
@@ -210,7 +197,7 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
+			shape: "gear"
 			size: 1.35d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -219,7 +206,7 @@
 				id: "66881B564D381E06"
 				type: "advancement"
 			}]
-			title: "Ring Of The Seven Curses"
+			title: "Ring of The Seven Curses"
 			x: -1.0d
 			y: -7.0d
 		}
@@ -268,7 +255,7 @@
 			}]
 			title: "Keybinds"
 			x: 2.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -308,7 +295,7 @@
 			}]
 			title: "Multiplayer: &aParties"
 			x: 1.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -342,77 +329,7 @@
 			}]
 			title: "Combat: &aDodging Attacks"
 			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["19237C5BA8DDB6AF"]
-			description: [
-				"Exposure mods allows you to take pictures and more related features!"
-				""
-				"You can take pictures and develop them using the Lightroom."
-			]
-			icon: "exposure:camera"
-			id: "49A726922A581B85"
-			rewards: [
-				{
-					count: 3
-					id: "2C4118DA8916765D"
-					item: "exposure:black_and_white_film"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "61E43E91B417A2A5"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:water"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "44ADC2FB5BA2D712"
-					item: "minecraft:black_dye"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "69CEA57A3B8CF4D8"
-					item: "exposure:photograph_frame"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "67AF4F8B6AEC898F"
-					item: "minecraft:yellow_dye"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.35d
-			subtitle: "Say, Cheeese!"
-			tasks: [
-				{
-					id: "3EC9CB6DE1AE7ECC"
-					item: "exposure:lightroom"
-					type: "item"
-				}
-				{
-					id: "614C9D4964B25E87"
-					item: "exposure:camera"
-					type: "item"
-				}
-			]
-			title: "Capturing Moments"
-			x: 2.0d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -506,7 +423,7 @@
 			}]
 			title: "&bFTB&r Essentials"
 			x: -1.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -521,7 +438,6 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "pentagon"
 			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -687,34 +603,6 @@
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			description: ["Enchanting tables are not that boring now, you can roll the enchantment if u don't like it with lapis!"]
-			id: "211AA14A943E87B2"
-			rewards: [
-				{
-					id: "54BA79ED87431E0A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 6
-					id: "09285C4E65E0B767"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-			]
-			shape: "diamondtier"
-			subtitle: "Classic.. not really!"
-			tasks: [{
-				id: "7B395457BE627315"
-				item: "minecraft:enchanting_table"
-				type: "item"
-			}]
-			title: "&dEnchanting Table"
-			x: -7.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["211AA14A943E87B2"]
 			description: ["With enchantment infuser, you can choose the specific enchantment you want on your tool."]
 			hide_dependency_lines: false
 			id: "7ACC9BE21118707E"
@@ -740,7 +628,7 @@
 			}]
 			title: "&dEnchanting Infuser"
 			x: -7.5d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7ACC9BE21118707E"]
@@ -768,7 +656,7 @@
 			}]
 			title: "&dAdvanced Enchanting Infuser"
 			x: -7.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -785,15 +673,7 @@
 			subtitle: "Kelps as bonemeals"
 			tasks: [{
 				id: "4D6C70E4C66DF43A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "minecraft:kelp"
-				}
+				item: "minecraft:kelp"
 				type: "item"
 			}]
 			title: "&aKelp"
@@ -930,24 +810,6 @@
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
-			id: "6C0DBEBFF21FC785"
-			subtitle: "Can be used as shears."
-			tasks: [{
-				id: "103E5960F0778725"
-				item: {
-					Count: 1
-					id: "ecologics:crab_claw"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2F61EF4131AB4E54"]
 			description: [
 				"Breaking grass or crops with a &aHoe&r will now break them in a 3x3 area."
 				"A &aDiamond Hoe&r will break a 5x5 area instead."
@@ -1029,30 +891,6 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: [
-				"Carry along your &eanimals&r, &eplayers&r and &eNPC&r companions with the two seats on this &aCart&r!"
-				""
-				"Press &6R&r for attach/detach &aCart&r."
-				""
-				"You can take a &aCart&r and hitch it even when you're on horseback."
-			]
-			id: "74A462B597A7261F"
-			rewards: [{
-				id: "2316608829812337"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Take Your Friend With You!"
-			tasks: [{
-				id: "672DA16D6EC8C9C3"
-				item: "astikorcarts:animal_cart"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7652B74B3DA4A030"]
 			icon_scale: 1.3d
 			id: "6638F870238681DA"
 			rewards: [{
@@ -1067,297 +905,8 @@
 				item: "minecraft:saddle"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7652B74B3DA4A030"]
-			description: [
-				"Up to a double chests worth!"
-				"One seat on the back."
-				"&6Shift&r + &6Right-Click&r to access the inventory!"
-				""
-				"Press &6R&r for attach/detach &aCart&r."
-				""
-				"You can take a &aCart&r and hitch it even when you're on horseback."
-			]
-			id: "36C98DEFE8AE5788"
-			rewards: [{
-				id: "12541C1B52E0D044"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Bring Your Storage With You!"
-			tasks: [{
-				id: "175E46E0B647565A"
-				item: "astikorcarts:supply_cart"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7652B74B3DA4A030"]
-			icon: "smallships:oak_brigg"
-			id: "7AD02F2DB1BA49BF"
-			rewards: [{
-				id: "0E3D02A0E729C0D9"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Large, strong and roomy. The best choice for transporting large quantities of goods."
-			tasks: [{
-				id: "261F189513329210"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "smallships:oak_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:spruce_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:birch_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:jungle_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:acacia_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:cherry_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:dark_oak_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:mangrove_brigg"
-							}
-							{
-								Count: 1b
-								id: "smallships:bamboo_brigg"
-								tag: { }
-							}
-						]
-					}
-				}
-				title: "Any Brigg"
-				type: "item"
-			}]
-			title: "Brigg"
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7652B74B3DA4A030"]
-			icon: "smallships:oak_galley"
-			id: "44E52343316A0E3E"
-			rewards: [{
-				id: "3E2E4E68C2A6BBF6"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Incredibly fast boat, will take you to any end of the world in the blink of an eye."
-			tasks: [{
-				id: "54518E360DE44D01"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "smallships:oak_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:spruce_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:birch_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:jungle_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:acacia_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:cherry_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:dark_oak_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:mangrove_galley"
-							}
-							{
-								Count: 1b
-								id: "smallships:bamboo_galley"
-								tag: { }
-							}
-						]
-					}
-				}
-				title: "Any Galley"
-				type: "item"
-			}]
-			title: "Galley"
 			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7652B74B3DA4A030"]
-			icon: "smallships:oak_cog"
-			id: "6CD570DC491EF0D9"
-			rewards: [{
-				id: "04000219EDA172BB"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "An excellent maneuverable boat for travel."
-			tasks: [{
-				id: "056D34205B2584A3"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "smallships:mangrove_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:bamboo_cog"
-								tag: { }
-							}
-							{
-								Count: 1b
-								id: "smallships:oak_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:spruce_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:birch_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:jungle_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:acacia_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:cherry_cog"
-							}
-							{
-								Count: 1b
-								id: "smallships:dark_oak_cog"
-							}
-						]
-					}
-				}
-				title: "Any Cog"
-				type: "item"
-			}]
-			title: "Cog"
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7652B74B3DA4A030"]
-			description: [
-				"It is also capable of transporting a sufficient amount of cargo."
-				""
-				"&aShields&r, also with banner patterns, can be attached to grant additional defense."
-				""
-				"With its icebreaker ability, it proves to be a promising vessel in cold and icy oceans."
-			]
-			icon: "smallships:oak_drakkar"
-			id: "0F656E8DCB02F45D"
-			rewards: [{
-				id: "50538BFBD3E4AA41"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "The Drakkar is specifically designed for cold water environments, capable of breaking ice in its path."
-			tasks: [{
-				id: "15F4CA213391B1A0"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "smallships:oak_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:spruce_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:birch_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:jungle_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:acacia_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:cherry_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:dark_oak_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:mangrove_drakkar"
-							}
-							{
-								Count: 1b
-								id: "smallships:bamboo_drakkar"
-								tag: { }
-							}
-						]
-					}
-				}
-				title: "Any Drakkar"
-				type: "item"
-			}]
-			title: "Drakkar"
-			x: 2.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1373,8 +922,8 @@
 				item: "minecraft:rail"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["70E3889C56F1D9AC"]
@@ -1391,8 +940,8 @@
 				item: "minecraft:powered_rail"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
@@ -1605,30 +1154,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7652B74B3DA4A030"]
-			description: [
-				"Put a shovel or a hoe and witness the magic!"
-				""
-				"Press &6R&r for attach/detach &aCart&r."
-				""
-				"You can take a &aCart&r and hitch it even when you're on horseback."
-			]
-			id: "5BD8A9E3305A4D18"
-			rewards: [{
-				id: "7415C381793A2062"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "For other purposes"
-			tasks: [{
-				id: "32B563BCFB4B6F94"
-				item: "astikorcarts:plow"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["7A545E5DF48EDB9B"]
 			description: [
 				"Terramity's &cBlood Contracts&r disables friendly fire between you and your friend so you don't hit eachother."
@@ -1645,16 +1170,7 @@
 			id: "3010F2D785FB8887"
 			rewards: [{
 				id: "0905095E97ADA5F0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 0
-						}
-					}
-					id: "terramity:blood_contract"
-				}
+				item: "terramity:blood_contract"
 				type: "item"
 			}]
 			shape: "heart"
@@ -1667,7 +1183,7 @@
 			}]
 			title: "Multiplayer: &cBlood Contracts"
 			x: 1.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["380F36A98AAC4C2C"]
@@ -1690,14 +1206,14 @@
 				"&6- Any of the materials listed below, associated with each tier."
 				""
 				"&nMaterial list:"
-				"&aTier 1 / Common - Limestone"
+				"&aTier 1 / Common - Limestone Chunk"
 				"&eTier 2 / Uncommon - Pyrite"
 				"&bTier 3 / Rare - Galena"
-				"&6Tier 4 / Epic - Eclipsium Alloy"
-				"&dTier 5 / Legendary - Hemalith Catalyst"
-				"&cTier 6 / Mythic - Cosmos Shard"
+				"&dTier 4 / Epic - Charoite"
+				"&6Tier 5 / Legendary - Crown Topaz"
+				"&cTier 6 / Mythic - Painite"
 				""
-				"&n4- &b\"Perfect\"&r&nitem possibility"
+				"&n4-&r &b&n\"Perfect\"&r &nitem possibility"
 				""
 				"Perfect reforging removes every downside and adds a badass item border."
 				""
@@ -1732,39 +1248,7 @@
 			}]
 			title: "Combat: &dTier System"
 			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["19237C5BA8DDB6AF"]
-		 description: [
-  				"They're &coutdated&r as of now."
-  				""
-  				"To view which items are locked by a boss you should use EMI's tag search."
-  				""
-  				"Open inventory and type"
-  				""
-  				"    #forge:&9<tier>&r"
-  				""
-  				"where &9tier&r is one of: &firon&r, &egolden&r, &aemerald&r, &bdiamond&r, &0netherite&r, &6elvenite&r, &dvoiderite&r, &4bloody&r, &ehelionite"
-  			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "legendary_monsters:textures/particle/warning2.png"
-				}
-			}
-			id: "02AE79E1837C7B79"
-			shape: "diamond"
-			size: 1.25d
-			subtitle: "Check to access tierlists."
-			tasks: [{
-				id: "2E0B9419F8D6AB20"
-				title: "Official Tierlist"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -1792,10 +1276,10 @@
 		}
 		{
 			dependencies: ["1E486494B5164856"]
-			id: "19F6242D1825B1B9"
+			id: "170397AACB20D4FC"
 			optional: true
 			rewards: [{
-				id: "1040EE13A90136DE"
+				id: "1DC7154DEB30940A"
 				item: {
 					Count: 1
 					id: "arts_and_crafts:bleached_chalk_stick"
@@ -1808,32 +1292,32 @@
 			subtitle: "Decorate your base!"
 			tasks: [
 				{
-					id: "2D7E162E00FB4060"
+					id: "4F7A9103EF28825F"
 					item: "chimes:bamboo_chimes"
 					type: "item"
 				}
 				{
-					id: "5451EA8FE20AAE18"
+					id: "41E9A5E4B755F125"
 					item: "chimes:iron_chimes"
 					type: "item"
 				}
 				{
-					id: "7FC692F9CFE0E8F1"
+					id: "5D53D3CE80C6AE3F"
 					item: "chimes:carved_bamboo_chimes"
 					type: "item"
 				}
 				{
-					id: "2D029EF994780C8C"
+					id: "1D27FC51E36E2C28"
 					item: "chimes:copper_chimes"
 					type: "item"
 				}
 				{
-					id: "41025D8186589148"
+					id: "4CA8D81CE0D46BE4"
 					item: "chimes:amethyst_chimes"
 					type: "item"
 				}
 				{
-					id: "69A9AD9C0CECCD08"
+					id: "5DFDFDE3A0C9E780"
 					item: "chimes:glass_bells"
 					type: "item"
 				}
@@ -1841,47 +1325,6 @@
 			title: "Beautiful Wind Chimes"
 			x: 10.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["1E486494B5164856"]
-			description: ["Pigsteel can be found in nether!"]
-			id: "168D30D8F6F2BA88"
-			rewards: [{
-				id: "0F5594EDB026B38B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Decorative Enhancements"
-			tasks: [
-				{
-					id: "5F334AC23E98FBA4"
-					item: "pigsteel:pigsteel_lantern"
-					type: "item"
-				}
-				{
-					id: "01B42AA2F77F9BA7"
-					item: "pigsteel:refined_pigsteel"
-					type: "item"
-				}
-				{
-					id: "118D8854BD17B730"
-					item: "pigsteel:cut_pigsteel"
-					type: "item"
-				}
-				{
-					id: "0AD6DE96227FDB9F"
-					item: "pigsteel:cut_pigsteel_stairs"
-					type: "item"
-				}
-				{
-					id: "628F8253025732B9"
-					item: "pigsteel:cut_pigsteel_slab"
-					type: "item"
-				}
-			]
-			title: "Pigsteel Blocks"
-			x: 7.5d
-			y: -3.0d
 		}
 		{
 			description: [
@@ -1915,9 +1358,9 @@
 				}
 			}
 			icon_scale: 1.4d
-			id: "1E486494B5164856"
+			id: "5D1C5022E9C5A746"
 			rewards: [{
-				id: "55370C5500D8F4D6"
+				id: "326777EE4489EA3F"
 				type: "xp"
 				xp: 5
 			}]
@@ -1925,7 +1368,7 @@
 			size: 1.35d
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "244498A643A3C0FE"
+				id: "3AEDBAFA2E2F4A2F"
 				title: "Alright!"
 				type: "checkmark"
 			}]
@@ -1936,30 +1379,30 @@
 		{
 			dependencies: ["1E486494B5164856"]
 			icon_scale: 1.2d
-			id: "1EFBECD22303FE11"
+			id: "49DA079E26B933C8"
 			tasks: [{
-				id: "5E9893195F701063"
+				id: "385FF1D3EF088248"
 				item: "hole_filler_mod:throwable_hole_filler"
 				type: "item"
 			}]
 			x: 10.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
 			description: ["Right-clicking with the shrinking device while looking at a compact block will put you in them, allowing you to build somewhere isolated!"]
 			icon: "compactmachines:personal_shrinking_device"
 			icon_scale: 1.2d
-			id: "6AD26D058EC06187"
+			id: "18FF0716A49FF759"
 			rewards: [
 				{
-					id: "3E1394C3064625EB"
+					id: "141086597A425766"
 					item: "compactmachines:machine_small"
 					random_bonus: 1
 					type: "item"
 				}
 				{
-					id: "708B91D9FC9D7278"
+					id: "4E896EA55BDB0B85"
 					type: "xp"
 					xp: 5
 				}
@@ -1968,17 +1411,17 @@
 			subtitle: "Allows you to enter compact machines"
 			tasks: [
 				{
-					id: "3E37F0CDF8DAE64B"
+					id: "3443C6206B271D78"
 					item: "compactmachines:personal_shrinking_device"
 					type: "item"
 				}
 				{
-					id: "65E34BE5361BE4C4"
+					id: "10EB44DE0905E345"
 					item: "compactmachines:machine_tiny"
 					type: "item"
 				}
 				{
-					id: "38BBE1560ADF5245"
+					id: "3E7309B48C2CE15C"
 					item: {
 						Count: 1
 						id: "compactmachines:tunnel"
@@ -1991,7 +1434,7 @@
 					type: "item"
 				}
 				{
-					id: "7A2965EC797A39A3"
+					id: "273B06EA88A94CA0"
 					item: {
 						Count: 1
 						id: "compactmachines:tunnel"
@@ -2004,7 +1447,7 @@
 					type: "item"
 				}
 				{
-					id: "30DE58F93DA3A636"
+					id: "4717AAF90BEEBEC0"
 					item: {
 						Count: 1
 						id: "compactmachines:tunnel"
@@ -2017,44 +1460,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1E486494B5164856"]
-			description: [
-				"With global marketplace (free btw) you can find nearly any idea without adding new mods! "
-				""
-				"You can also design your very own furniture if u are not satisfied with public marketplace!"
-				""
-				"In order to craft those furnitures you will need \"crafting material\" to build them."
-			]
-			hide_text_until_complete: false
-			id: "4F548353D70DCCC2"
-			rewards: [
-				{
-					id: "7C0C661FFB63EC68"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 5
-					id: "651BE39B39006EFE"
-					item: "immersive_furniture:crafting_material"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			size: 1.3d
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "3A4AC011F563FDB7"
-				item: "immersive_furniture:artisans_workstation"
-				type: "item"
-			}]
-			title: "The Greatest Furniture Mod!"
 			x: 8.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -2074,7 +1481,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["09064FBADD382415"]
@@ -2136,42 +1543,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["2B2818B92F01C51F"]
-			id: "6F0F41043EF524B9"
-			subtitle: "Disables all monster spawns in a 64 block area."
-			tasks: [{
-				id: "4EB6B52B8B6CEB28"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1E486494B5164856"]
-			id: "2B2818B92F01C51F"
-			subtitle: "Disables all non-hostile mob spawns in a 64 block area."
-			tasks: [{
-				id: "687C439FFF1A23C2"
-				item: "magnumtorch:amethyst_magnum_torch"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6F0F41043EF524B9"]
-			id: "2BB0B2C04615B432"
-			subtitle: "Disables all creature spawns in a 128 block area."
-			tasks: [{
-				id: "7B8E7F5575A9373F"
-				item: "magnumtorch:emerald_magnum_torch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
 				"Nature's compass is not a ordinary compass. "
@@ -2187,15 +1558,11 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "150A313D2D0FB590"
-				item: {
-					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
+				item: "naturescompass:naturescompass"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -2206,16 +1573,105 @@
 				""
 				"{ \"text\": \"Ring Of The Seven Virtues\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25B57A361188BAB3\" } }"
 			]
+			disable_toast: true
 			id: "084AD7DD6DEDF6C8"
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "1FD4A95504980C85"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39C254DB0D1E4B1D"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04C6FE20961E3B2E"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "345DBB3ACB28EA4E"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5B701E00719C766C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "3A705C3272DFFDFA"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59B0554BE4E47C4B"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "5A6CF1883589311A"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6518DA2ECFC9A9F4"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.35d
 			subtitle: "&8[Click to read]"
 			tasks: [{
-				id: "7D5B811C6BB6C6EB"
-				item: "covenant_of_the_seven:virtue_ring"
-				type: "item"
+				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
+				criterion: ""
+				id: "25199E86A2B59B13"
+				type: "advancement"
 			}]
-			x: -1.0d
-			y: -6.0d
+			title: "Ring of The Seven Virtues"
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -2225,6 +1681,7 @@
 				"They're given to you at the start of the world making them nice for early-game."
 			]
 			id: "55A0C32438274E54"
+			shape: "pentagon"
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "333118994581CFBE"
@@ -2289,9 +1746,129 @@
 				type: "item"
 			}]
 			title: "Amulets"
-			x: -1.0d
-			y: -5.0d
+			x: 0.5062375684915565d
+			y: -5.858618915026902d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [
+				"Essences has a lot of uses in this pack, but this one is the cutest one :D!"
+				""
+				"If you use the \"Great Essence\" on a &eCat&r or &eWolf&r they will transform into a more.. useful creature."
+				""
+				"Here's the pictures:"
+				""
+				"{image:customtextures:textures/catnoob.png width:250 height:100 align:center}"
+				"After using the great essence on them-"
+				"{image:customtextures:textures/catpro.png width:250 height:100 align:center}"
+				"After dropping some items to them-"
+				"{image:customtextures:textures/cathacker.png width:250 height:100 align:center}"
+				"They're gaming now."
+			]
+			id: "5731B4B2FDB8390F"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "72E9888B7EBA591C"
+				item: "knightlib:great_essence"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "7815ABBBFED86482"
+			rewards: [{
+				auto: "enabled"
+				command: "/clear @p"
+				elevate_perms: true
+				id: "25FE02976C74384C"
+				ignore_reward_blocking: true
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			subtitle: "background stuff"
+			tasks: [{
+				elapsedTime: 5L
+				gameTime: "game"
+				id: "1C500F8A4BA14B7E"
+				title: "INVCLEANER"
+				type: "questsadditions:time"
+			}]
+			title: "inventory cleaner"
+			x: 0.0d
+			y: 202.0d
+		}
+		{
+			disable_toast: true
+			id: "65447435305B2B2B"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "40373C8D5DE5D36E"
+					ignore_reward_blocking: true
+					item: "ftbquests:book"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "28BB93D2F3F6D09E"
+					ignore_reward_blocking: true
+					item: "enigmaticlegacy:cursed_ring"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "40A05B8E06B94F3E"
+					ignore_reward_blocking: true
+					item: "covenant_of_the_seven:virtue_ring"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6C95ABE504F26F79"
+					ignore_reward_blocking: true
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					only_one: true
+					type: "item"
+				}
+			]
+			subtitle: "background stuff"
+			tasks: [{
+				elapsedTime: 9L
+				gameTime: "game"
+				id: "63D26F1794A569FE"
+				type: "questsadditions:time"
+			}]
+			title: "item giver"
+			x: 1.0d
+			y: 202.0d
+		}
+		{
+			disable_toast: true
+			id: "53261C74380B5971"
+			rewards: [{
+				command: "/effect clear @p"
+				elevate_perms: true
+				id: "7106E03928E61AC0"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 120L
+				gameTime: "game"
+				id: "221FA1B02084AB57"
+				title: "effectreset"
+				type: "questsadditions:time"
+			}]
+			x: 2.0d
+			y: 202.0d
 		}
 	]
-	title: "Getting Started"
+	title: "Introduction"
 }

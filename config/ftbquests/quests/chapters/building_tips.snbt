@@ -1,0 +1,591 @@
+{
+	always_invisible: true
+	autofocus_id: "1E486494B5164856"
+	default_hide_dependency_lines: true
+	default_quest_shape: "woodtier"
+	filename: "building_tips"
+	group: "3B5FC78CC89E4CD7"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/info"
+		}
+	}
+	id: "1A802262536F672D"
+	images: [
+		{
+			height: 1.0d
+			image: "aquamirae:textures/particle/shine_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "2E3726B41C375177"
+			rewards: [
+				{
+					count: 4
+					id: "1929AF85AB4D5BBC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1BEB6C131A0D6E9C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Copies Then Pastes Blocks instantaneously"
+			tasks: [{
+				id: "6DFF7E732966E2F9"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			description: [
+				"&fBuilding Gadgets can place multiple blocks instantaneously!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&fSimply, Press &e''G''&r &fto open it's menu to configure it!"
+			]
+			id: "70969A1B3A3073DB"
+			rewards: [
+				{
+					count: 2
+					id: "6A6648454DD25999"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "567705722C92CDC4"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Easier Building"
+			tasks: [{
+				id: "72A8F3155FADE0F1"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			title: "Building Gadgets"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "1074449C1C624F48"
+			rewards: [{
+				count: 2
+				id: "6C1B6E780D3D42A9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Cuts and Pastes blocks instantaneously"
+			tasks: [{
+				id: "28399D70CEF53D47"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "6E715B0FB73FF8EC"
+			rewards: [
+				{
+					id: "5BD4C85C5649F6A7"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40FEEC86E91EFED2"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Destroys multiple blocks instantaneously"
+			tasks: [{
+				id: "33ED29372FCB459B"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "7E5BFD2FEBF462C7"
+			rewards: [{
+				id: "7F2389EA10A5CC62"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Replaces multiple blocks instantaneously"
+			tasks: [{
+				id: "0697B6A6F21F5CA5"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "4E063A2031AD1A43"
+			rewards: [
+				{
+					count: 24
+					id: "43167C282F490B37"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "4CB7DDCF0AAFDAA8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Used to &echarge&r Building Gadgets"
+			tasks: [{
+				id: "4A5B0FF369A5C859"
+				item: {
+					Count: 1
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "53BF00796A318538"
+			rewards: [
+				{
+					count: 2
+					id: "5DFABBE7ADC21961"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D3E6594DF146E4D"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			shape: "irontier"
+			size: 1.0d
+			subtitle: "Saves your template"
+			tasks: [{
+				id: "51E2E9B453835992"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			description: [
+				"&eIf u wanna see more furnitures, open your inventory and type these in the search bar."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"@furnitury"
+				"@beautify"
+				"@bbb"
+				"@justoutdoorstuff"
+				"@arts_and_crafts"
+			]
+			id: "6347C794BA25E032"
+			rewards: [{
+				id: "660372C8A0E0EDDB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Looks soothing!"
+			tasks: [{
+				id: "6A2614D40CAFAC6F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "beautify:spruce_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:birch_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:oak_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:dark_oak_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:mangrove_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:jungle_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:warped_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:iron_blinds"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "beautify:acacia_blinds"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Blinds"
+				type: "item"
+			}]
+			title: "Blinds"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			id: "19F6242D1825B1B9"
+			optional: true
+			rewards: [{
+				id: "1040EE13A90136DE"
+				item: {
+					Count: 1
+					id: "arts_and_crafts:bleached_chalk_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Decorate your base!"
+			tasks: [
+				{
+					id: "2D7E162E00FB4060"
+					item: "chimes:bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "5451EA8FE20AAE18"
+					item: "chimes:iron_chimes"
+					type: "item"
+				}
+				{
+					id: "7FC692F9CFE0E8F1"
+					item: "chimes:carved_bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "2D029EF994780C8C"
+					item: "chimes:copper_chimes"
+					type: "item"
+				}
+				{
+					id: "41025D8186589148"
+					item: "chimes:amethyst_chimes"
+					type: "item"
+				}
+				{
+					id: "69A9AD9C0CECCD08"
+					item: "chimes:glass_bells"
+					type: "item"
+				}
+			]
+			title: "Beautiful Wind Chimes"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			description: ["Pigsteel can be found in nether!"]
+			id: "168D30D8F6F2BA88"
+			rewards: [{
+				id: "0F5594EDB026B38B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Decorative Enhancements"
+			tasks: [
+				{
+					id: "5F334AC23E98FBA4"
+					item: "pigsteel:pigsteel_lantern"
+					type: "item"
+				}
+				{
+					id: "01B42AA2F77F9BA7"
+					item: "pigsteel:refined_pigsteel"
+					type: "item"
+				}
+				{
+					id: "118D8854BD17B730"
+					item: "pigsteel:cut_pigsteel"
+					type: "item"
+				}
+				{
+					id: "0AD6DE96227FDB9F"
+					item: "pigsteel:cut_pigsteel_stairs"
+					type: "item"
+				}
+				{
+					id: "628F8253025732B9"
+					item: "pigsteel:cut_pigsteel_slab"
+					type: "item"
+				}
+			]
+			title: "Pigsteel Blocks"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Making building easier with tools and tricks!"
+				""
+				"For more building blocks use JEI search."
+				""
+				"&6@maacaw&r"
+				""
+				"&6@arts_and_crafts&r (more blocks)"
+				""
+				"&6@beautify&r (decoration)"
+				""
+				"&6@redeco&r (furnitures)"
+				""
+				"&6@hearth_and_home&r (blocks and more)"
+				""
+				"&6@infinitybuttons&r (blocks just for your secret bunker or etc)"
+				""
+				"&6@justoutdoorstuffs&r (outdoor blocks)"
+				""
+				"&6@bbb&r (even more blocks)"
+				""
+				"&6@somemoreblocks&r "
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			icon_scale: 1.2d
+			id: "1E486494B5164856"
+			rewards: [{
+				id: "55370C5500D8F4D6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "irontier"
+			size: 1.4d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "244498A643A3C0FE"
+				title: "Alright!"
+				type: "checkmark"
+			}]
+			title: "Building"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			icon_scale: 1.2d
+			id: "1EFBECD22303FE11"
+			tasks: [{
+				id: "5E9893195F701063"
+				item: "hole_filler_mod:throwable_hole_filler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			description: ["Right-clicking with the shrinking device while looking at a compact block will put you in them, allowing you to build somewhere isolated!"]
+			icon: "compactmachines:personal_shrinking_device"
+			icon_scale: 1.2d
+			id: "6AD26D058EC06187"
+			rewards: [
+				{
+					id: "3E1394C3064625EB"
+					item: "compactmachines:machine_small"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "708B91D9FC9D7278"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "irontier"
+			subtitle: "Allows you to enter compact machines"
+			tasks: [
+				{
+					id: "3E37F0CDF8DAE64B"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					id: "65E34BE5361BE4C4"
+					item: "compactmachines:machine_tiny"
+					type: "item"
+				}
+				{
+					id: "38BBE1560ADF5245"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A2965EC797A39A3"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:fluid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DE58F93DA3A636"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:energy"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E486494B5164856"]
+			description: [
+				"With global marketplace (free btw) you can find nearly any idea without adding new mods! "
+				""
+				"You can also design your very own furniture if u are not satisfied with public marketplace!"
+				""
+				"In order to craft those furnitures you will need \"crafting material\" to build them."
+			]
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			id: "4F548353D70DCCC2"
+			rewards: [
+				{
+					id: "7C0C661FFB63EC68"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "651BE39B39006EFE"
+					item: "immersive_furniture:crafting_material"
+					type: "item"
+				}
+			]
+			shape: "goldtier"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3A4AC011F563FDB7"
+				item: "immersive_furniture:artisans_workstation"
+				type: "item"
+			}]
+			title: "The Greatest Furniture Mod!"
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Building Tips"
+}

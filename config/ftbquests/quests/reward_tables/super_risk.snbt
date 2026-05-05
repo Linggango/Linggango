@@ -1,7 +1,7 @@
 {
 	id: "7476165799B9EA28"
 	loot_size: 1
-	order_index: 10
+	order_index: 11
 	rewards: [
 		{ item: "skyarena:netherite_trophy", title: "SECRET", weight: 0.4f }
 		{
@@ -44,18 +44,7 @@
 			}
 			title: "SECRET"
 		}
-		{ item: "productivetrees:red_banana_pressure_plate", title: "SECRET" }
 		{ item: "hearth_and_home:black_shingle_slab", title: "SECRET" }
-		{
-			item: {
-				Count: 1
-				id: "caverns_and_chasms:tether_potion"
-				tag: {
-					Potion: "deeperdarker:sculk_affinity"
-				}
-			}
-			title: "SECRET"
-		}
 		{
 			item: {
 				Count: 1
@@ -88,7 +77,6 @@
 			title: "SECRET"
 			weight: 0.1f
 		}
-		{ item: "foolish:cascade_log", title: "SECRET" }
 		{ item: "netherexp:treacherous_flame", title: "SECRET" }
 		{
 			item: {
@@ -115,7 +103,6 @@
 			type: "command"
 		}
 		{ item: "create:creative_motor", title: "SECRET" }
-		{ item: "productivetrees:european_larch_stripped_log", title: "SECRET" }
 		{
 			item: {
 				Count: 1
@@ -126,7 +113,6 @@
 			}
 			title: "SECRET"
 		}
-		{ item: "productivetrees:red_banana_button", title: "SECRET" }
 		{ item: "interiors:white_chair", title: "SECRET" }
 		{
 			item: {
@@ -150,7 +136,6 @@
 		}
 		{ item: "mowziesmobs:wrought_helmet", title: "SECRET" }
 		{ item: "goety:warlock_sash", title: "SECRET" }
-		{ item: "productivetrees:rainbow_gum_door", title: "SECRET" }
 		{ item: "mynethersdelight:crimson_fungus_colony", title: "SECRET" }
 		{
 			title: "SECRET"
@@ -253,7 +238,6 @@
 			title: "SECRET"
 		}
 		{ count: 32, item: "farmersdelight:organic_compost", title: "SECRET" }
-		{ item: "productivetrees:european_larch_planks", title: "SECRET" }
 		{ count: 512, item: "enigmaticdice:enigmatic_die", title: "SECRET", weight: 0.001f }
 		{
 			item: {
@@ -266,19 +250,7 @@
 			title: "SECRET"
 		}
 		{ item: "terramity:golden_gnome_statue", title: "SECRET" }
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						Items: [ ]
-						Size: 23
-					}
-				}
-				id: "immersiveengineering:toolbox"
-			}
-			title: "SECRET"
-		}
+		{ item: "immersiveengineering:toolbox", title: "SECRET" }
 		{ count: 1500, item: "createdeco:brass_door", title: "SECRET" }
 		{
 			command: "/tp @p ~ ~ 52643"
@@ -315,52 +287,6 @@
 			title: "SECRET"
 			weight: 0.01f
 		}
-		{
-			item: {
-				Count: 1
-				id: "ancient_elements:aeonite_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-			weight: 0.1f
-		}
-		{
-			item: {
-				Count: 1
-				id: "ancient_elements:aeonite_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-			weight: 0.1f
-		}
-		{
-			item: {
-				Count: 1
-				id: "ancient_elements:aeonite_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
-				id: "ancient_elements:aeonite_leggings"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-			weight: 0.1f
-		}
-		{ item: "foolish:chartreuse_glowbell", title: "SECRET", weight: 3.0f }
-		{ item: "productivetrees:persimmon_sign", title: "SECRET", weight: 3.0f }
-		{ item: "productivetrees:persimmon_button", weight: 3.0f }
 		{ item: "irons_spellbooks:greater_healing_potion", title: "SECRET", weight: 2.0f }
 		{
 			command: "/bloodmoon start"
@@ -369,7 +295,6 @@
 			title: "SECRET"
 			type: "command"
 		}
-		{ item: "tameablebeasts:flying_helmet", title: "SECRET" }
 		{
 			item: {
 				Count: 1
@@ -380,7 +305,6 @@
 			}
 			title: "SECRET"
 		}
-		{ item: "productivetrees:slimy_delight_sign", title: "SECRET" }
 	]
 	title: "SUPER RISK"
 }

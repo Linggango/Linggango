@@ -1,9 +1,10 @@
 {
+	always_invisible: true
 	autofocus_id: "5C1E3ACFD2F9C650"
 	default_hide_dependency_lines: false
 	default_quest_shape: "pentagon"
 	filename: "immersive_engineering"
-	group: "3C6437AAADAFC5CB"
+	group: "7C724FC6AC4AD027"
 	icon: "immersiveengineering:manual"
 	id: "3DAD57E3F71B4E27"
 	images: [
@@ -18,25 +19,28 @@
 			y: 2.0d
 		}
 		{
+			height: 2.25d
+			image: "customtextures:textures/immersive_engineering_title.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -10.5d
+			y: -2.5d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 2.5d
-		}
-		{
-			height: 5.0d
-			image: "customtextures:textures/immersiveloog.png"
-			rotation: 0.0d
-			width: 5.0d
 			x: -10.5d
-			y: -3.0d
+			y: -5.0d
 		}
 	]
-	order_index: 10
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -199,7 +203,10 @@
 			tasks: [{
 				count: 2L
 				id: "71413AACDF9C838F"
-				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+				item: {
+					Count: 2
+					id: "immersiveengineering:blastfurnace_preheater"
+				}
 				type: "item"
 			}]
 			title: "Powered Blasting"
@@ -278,7 +285,7 @@
 				}
 			]
 			title: "Laying Schematics"
-			x: -3.5d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -347,7 +354,10 @@
 			tasks: [{
 				count: 8L
 				id: "6D1FB1ADEE757FD8"
-				item: { Count: 8, id: "immersiveengineering:windmill_sail" }
+				item: {
+					Count: 8
+					id: "immersiveengineering:windmill_sail"
+				}
 				type: "item"
 			}]
 			title: "Windmill Sail"
@@ -777,84 +787,6 @@
 			}]
 			x: 0.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["A large, slow, and powerful machine that can dig through the earth with ease. Shift and space to go up and down."]
-			id: "2A67ACEC999C6F85"
-			rewards: [{
-				id: "1D3A4DABBCACADF7"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "5927B4A0B6C8EE43"
-				item: "immersive_machinery:tunnel_digger"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["A small and primitive redstone contraption for automating farms. It detects grass and plants in its proximity and harvests them. When idle or out of fuel, it returns to its home position."]
-			id: "4DC4C229343C2BF5"
-			rewards: [{
-				id: "04CD0C3463433EAC"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "56AEA341D150E59A"
-				item: "immersive_machinery:redstone_sheep"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["A primitive submarine — small, agile, and ideal for underwater exploration. Powered by a conduit, it has unlimited air and can be upgraded with various modules. Press H (default) to highlight entities with its built-in sonar."]
-			id: "3EDC5A141CFDE4FB"
-			rewards: [{
-				id: "49AE3237F9F94141"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "1762CA84CA7370FF"
-				item: "immersive_machinery:copperfin"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["A drone built from a modified quadcopter can carry items automatically. Mark one or more blocks as input and output, then let it go. You can also set an item filter to prevent unwanted items from spreading through your factory."]
-			id: "73F1C83EEBA49219"
-			rewards: [{
-				id: "5FCDD6624D2F3776"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "&8[Click to read]"
-			tasks: [{
-				id: "68BD405FB7017FFA"
-				item: {
-					Count: 1
-					id: "immersive_machinery:bamboo_bee"
-					tag: {
-						ContainerPositions: [ ]
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["5C1E3ACFD2F9C650"]

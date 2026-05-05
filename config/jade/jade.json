@@ -1,7 +1,7 @@
 {
   "general": {
     "debug": false,
-    "itemModNameTooltip": false,
+    "itemModNameTooltip": true,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "ttsMode": "PRESS",
@@ -20,9 +20,9 @@
     "previewOverlay": true
   },
   "overlay": {
-    "alpha": 0.66,
+    "alpha": 0.54,
     "iconMode": "TOP",
-    "animation": true,
+    "animation": false,
     "disappearingDelay": 0.0,
     "overlaySquare": true,
     "flipMainHand": false,
@@ -31,7 +31,7 @@
     "overlayScale": 1.11,
     "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,
-    "activeTheme": "jade:create",
+    "activeTheme": "jade:dark",
     "themesHash": -328442023,
     "overlayPosX": 0.0
   },

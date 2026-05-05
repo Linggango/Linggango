@@ -21,29 +21,31 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -11.0d
-			y: 11.5d
+			y: 7.0d
 		}
 		{
 			height: 3.2d
 			image: "customtextures:textures/simplyswordslogo.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -11.0d
-			y: 9.0d
+			x: -7.5d
+			y: 7.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.649999999999999d
-			y: 10.492857142857133d
+			x: -7.0d
+			y: 5.5d
 		}
 	]
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -85,7 +87,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.7d
+			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6461B5E43F7DF63E"
@@ -93,8 +95,8 @@
 				type: "checkmark"
 			}]
 			title: "Simply Swords"
-			x: -7.6499999999999995d
-			y: 9.35d
+			x: -7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
@@ -122,15 +124,16 @@
 					type: "item"
 				}
 			]
-			size: 1.2d
+			shape: "heart"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5DF612576542C997"
 				item: "simplyswords:empowered_remnant"
 				type: "item"
 			}]
-			x: -5.8412166538157635d
-			y: 11.789294213427127d
+			x: -5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
@@ -158,15 +161,16 @@
 					xp_levels: 5
 				}
 			]
-			size: 1.2d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "Crafted with empowered remmnant"
 			tasks: [{
 				id: "5C78E6FA3E4F93CB"
 				item: "simplyswords:runefused_gem"
 				type: "item"
 			}]
-			x: -4.063006501341981d
-			y: 12.48082038383361d
+			x: -4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
@@ -194,15 +198,16 @@
 					xp_levels: 5
 				}
 			]
-			size: 1.2d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "Crafted with empowered remmnant"
 			tasks: [{
 				id: "1F673D38D2BBDA24"
 				item: "simplyswords:netherfused_gem"
 				type: "item"
 			}]
-			x: -6.236374465476601d
-			y: 13.765083271731342d
+			x: -6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["0BA64BACC8B8EE1C"]
@@ -217,7 +222,8 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.2d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0D8720163BD20211"
@@ -232,12 +238,12 @@
 				type: "item"
 			}]
 			title: "&eUnique&r Weapons"
-			x: -4.249936217556069d
-			y: 10.898108305215452d
+			x: -5.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F426527B63F854D"]
-			description: ["Runic tablet can re-roll runic weapon attributes, it can also repair unique weapons! (In anvil)"]
+			description: ["Runic tablet can re-roll runic weapon attributes, it can also repair unique weapons when used in anvil!"]
 			id: "0BA64BACC8B8EE1C"
 			rewards: [
 				{
@@ -252,15 +258,16 @@
 					xp: 25
 				}
 			]
-			size: 1.2d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "462968BD9065488E"
 				item: "simplyswords:runic_tablet"
 				type: "item"
 			}]
-			x: -5.1d
-			y: 9.35d
+			x: -5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
@@ -271,15 +278,16 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.2d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "Crafted with empowered remmnant"
 			tasks: [{
 				id: "50032784379C214C"
 				item: "simplymore:runefused_carver"
 				type: "item"
 			}]
-			x: -8.212163523780816d
-			y: 11.739899486969534d
+			x: -7.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
@@ -290,15 +298,16 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.2d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "Crafted with empowered remmnant"
 			tasks: [{
 				id: "6082C3145BE5CB38"
 				item: "simplymore:netherfused_carver"
 				type: "item"
 			}]
-			x: -4.458164313002818d
-			y: 13.765083271731342d
+			x: -5.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
@@ -313,7 +322,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.2d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "552AAAEA53A3C4B5"
@@ -328,12 +338,13 @@
 				type: "item"
 			}]
 			title: "&cMore&r &eUnique&r Weapons"
-			x: -2.756873467204173d
-			y: 10.2309951614412d
+			x: -4.0d
+			y: 11.0d
 		}
 		{
 			id: "39F33AB6913DD21B"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Free Totem of Undying every 60s; absurd attack speed."
 			tasks: [{
 				id: "759DB8B8B521529F"
@@ -347,11 +358,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 13.2d
+			y: 8.5d
 		}
 		{
 			id: "613A0C0356DA3597"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Same as Wickpiercer but 2-handed; stronger DPS."
 			tasks: [{
 				id: "1E26150B4C673712"
@@ -365,11 +377,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 14.2d
+			y: 9.5d
 		}
 		{
 			id: "4116AE1BE6901413"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Tanky sword with a dash ability for quick repositioning."
 			tasks: [{
 				id: "456411B9308D32CD"
@@ -383,11 +396,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 15.2d
+			y: 10.5d
 		}
 		{
 			id: "7D24A866E490A373"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Attack speed ramp-up and Strength buff = huge DPS."
 			tasks: [{
 				id: "3EE306896F82E5CA"
@@ -401,11 +415,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 16.2d
+			y: 11.5d
 		}
 		{
 			id: "021D5AB2AC84DAC1"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Strong sustain with high speed builds."
 			tasks: [{
 				id: "1B8891641C57F740"
@@ -419,11 +434,12 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 17.2d
+			y: 12.5d
 		}
 		{
 			id: "135815C7AD5D4B5E"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Strong sustain with high speed builds."
 			tasks: [{
 				id: "61DDBDB8D3FE7310"
@@ -437,11 +453,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 17.2d
+			y: 12.5d
 		}
 		{
 			id: "1F28358B6C6B1ECF"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Strong sustain with high speed builds."
 			tasks: [{
 				id: "07F850FEEC3500BA"
@@ -455,11 +472,12 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 17.2d
+			y: 12.5d
 		}
 		{
 			id: "433DF7CFC6C10162"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Crazy wave clear, though limited ability uptime."
 			tasks: [{
 				id: "10347505ED8EC2C8"
@@ -473,11 +491,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 18.2d
+			y: 13.5d
 		}
 		{
 			id: "5E557CD102681BA7"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Lifesteal and short immunity window; strong defensive weapon."
 			tasks: [{
 				id: "5A18C62FBEB022C1"
@@ -491,11 +510,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 19.2d
+			y: 14.5d
 		}
 		{
 			id: "574863AB9B9138BE"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Good crowd control + immunity buff; solid hybrid weapon."
 			tasks: [{
 				id: "470C5D652E28D439"
@@ -509,11 +529,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 20.2d
+			y: 15.5d
 		}
 		{
 			id: "6EA73AB5F57D347F"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Halberd-style powerhouse with big AoE control."
 			tasks: [{
 				id: "1305C3BABE1BCBDB"
@@ -527,11 +548,12 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 21.2d
+			y: 16.5d
 		}
 		{
 			id: "46371BAF27AD1763"
-			size: 1.2d
+			shape: "square"
+			size: 1.0d
 			subtitle: "Great DPS and permanent debuff, situational for ranged fights."
 			tasks: [{
 				id: "6EE8FBAF07A1D341"
@@ -545,34 +567,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 22.2d
-		}
-		{
-			dependencies: ["0F426527B63F854D"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "simplyswords:item/diamond_longsword"
-				}
-			}
-			icon_scale: 1.5d
-			id: "3C025F0DCFCD4B7B"
-			rewards: [{
-				id: "37503B37FAA66F15"
-				type: "xp"
-				xp: 1
-			}]
-			size: 1.0d
-			subtitle: "Unlocks Simply Swords Progression"
-			tasks: [{
-				id: "6E4A3E5F4F6BCA79"
-				title: "Yes"
-				type: "checkmark"
-			}]
-			title: "Unlock Progression?"
-			x: -7.6499999999999995d
-			y: 7.6499999999999995d
+			y: 17.5d
 		}
 	]
 	title: "Simply Swords"

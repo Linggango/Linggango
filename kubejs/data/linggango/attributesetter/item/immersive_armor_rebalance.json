@@ -1,0 +1,70 @@
+{
+
+  "immersive_armors:heavy_helmet": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:heavy_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+
+  "immersive_armors:heavy_leggings": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:heavy_boots": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:warrior_helmet": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+   "immersive_armors:warrior_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+   "immersive_armors:warrior_leggings": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+   "immersive_armors:warrior_boots": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ]
+
+
+
+}

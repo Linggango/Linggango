@@ -39,7 +39,11 @@
           "id": "brutality:terratomere_swing",
           "volume": 1.5,
           "pitch": 0.5
-        }
+        },
+        "spell": "irons_spellbooks:stomp",
+        "level": 5,
+        "target": "TARGET",
+        "trigger": "on_attack"
       },
       {
         "hitbox": "VERTICAL_PLANE",
@@ -51,7 +55,11 @@
           "id": "brutality:terratomere_swing",
           "volume": 1.5,
           "pitch": 0.8
-        }
+        },
+        "spell": "irons_spellbooks:stomp",
+        "level": 5,
+        "target": "TARGET",
+        "trigger": "on_attack"
       }
     ]
   }

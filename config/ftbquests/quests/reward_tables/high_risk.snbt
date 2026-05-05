@@ -1,7 +1,7 @@
 {
 	id: "30682648CB2F5B2A"
 	loot_size: 1
-	order_index: 9
+	order_index: 10
 	rewards: [
 		{
 			command: "/execute as @e[limit=5] run summon minecraft:warden"
@@ -27,20 +27,7 @@
 			type: "command"
 			weight: 5.0f
 		}
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						Items: [ ]
-						Size: 1
-						slot: 0
-					}
-				}
-				id: "goety:void_staff"
-			}
-			title: "SECRET"
-		}
+		{ item: "goety:void_staff", title: "SECRET" }
 		{
 			item: {
 				Count: 1
@@ -457,16 +444,6 @@
 		{ item: "armageddon_mod:eldorath_lore_scroll", title: "SECRET", weight: 3.0f }
 		{ item: "armageddon_mod:elvenite_paladin_lore_scroll", title: "SECRET", weight: 3.0f }
 		{ item: "armageddon_mod:zoranth_lore_scroll", title: "SECRET", weight: 3.0f }
-		{
-			item: {
-				Count: 1
-				id: "ancient_elements:celestium_shovel"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
 	]
 	title: "High Risk"
 }

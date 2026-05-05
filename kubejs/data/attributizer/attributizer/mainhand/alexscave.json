@@ -1,0 +1,9 @@
+{
+"alexscaves:extinction_spear": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 11.0,
+      "operation": "ADDITION"
+   }
+  ]
+}

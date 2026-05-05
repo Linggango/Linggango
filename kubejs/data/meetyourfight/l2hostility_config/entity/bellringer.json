@@ -1,0 +1,40 @@
+{
+  "list": [
+    {
+      "attackScale": 0.5,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 40,
+        "min": 80,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "meetyourfight:bellringer"
+      ],
+      "healthScale": 0.1,
+      "items": [],
+      "maxLevel": 0,
+      "maxTraitCount": 2,
+      "minSpawnLevel": 80,
+      "specialConditions": [],
+      "traits": [
+        {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:nausea"
+        },
+         {
+          "cap": false,
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:speedy"
+        }
+      ]
+    }
+  ]
+}

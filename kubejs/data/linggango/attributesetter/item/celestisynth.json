@@ -1,0 +1,118 @@
+{
+  "celestisynth:solaris": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -2.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.4,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "celestisynth:crescentia": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 6.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    }
+  ],
+  "celestisynth:breezebreaker": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 19.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "celestisynth:poltergeist": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 11.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "celestisynth:aquaflora": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 13.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.4,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.7,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "celestisynth:rainfall_serenity": [
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.325,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "celestisynth:frostbound": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 8.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.3,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "celestisynth:keres": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 4.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.6,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

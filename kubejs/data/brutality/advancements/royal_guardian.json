@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "brutality:royal_guardian_sword"
+    },
+    "title": "Not heavy at all.",
+    "bold": true,
+    "description": "Obtain Royal Guardian Sword, the biggest sword in the game.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brutality:royal_guardian_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot"
+    ]
+  ]
+}

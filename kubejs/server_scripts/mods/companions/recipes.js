@@ -11,7 +11,7 @@ ServerEvents.recipes(e => {
   });
 
   e.shaped("companions:shadow_bell", [" AB", " CA", "D  "], {
-    A: "ancient_elements:nether_steel_ingot",
+    A: "minecraft:stick",
     B: "minecraft:bell",
     C: "companions:crystallized_blood",
     D: "born_in_chaos_v1:dark_rod",
@@ -20,7 +20,7 @@ ServerEvents.recipes(e => {
   e.shaped("companions:shade_sword_altar", ["AB ", " C ", "DED"], {
     A: "minecraft:black_banner",
     B: "born_in_chaos_v1:dark_rod",
-    C: "ancient_elements:nether_steel_ingot",
+    C: "minecraft:stick",
     D: "companions:crystallized_blood",
     E: "minecraft:wither_skeleton_skull",
   });

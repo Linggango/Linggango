@@ -18,7 +18,7 @@
 	starterBook = false
 	#Gives Players the Witch's Brew when first entering World and Patchouli is loaded, Default: false
 	starterWitchBook = false
-	#Entities part of a Player's Book of Goodwill will not take most damage from said Player rather than just spells, Default: false
+	#Entities part of a Player's Grimoire of Goodwill will not take most damage from said Player rather than just spells, Default: false
 	goodwillNoDamage = false
 	#Show the Soul Energy Bar if Player has Totem of Souls/Arca, Default: true
 	soulGuiShow = true
@@ -32,10 +32,10 @@
 	showNumber = false
 	#Horizontal Position of where the Soul Energy Bar is located, Default: 100
 	#Range: > -2147483647
-	soulGuiHorizontal = 100
+	soulGuiHorizontal = -65
 	#Vertical Position of where the Soul Energy Bar is located, Default: -5
 	#Range: > -2147483647
-	soulGuiVertical = -5
+	soulGuiVertical = -2
 	#Move where the equipped Focus is located horizontally from its original position (- = Left, + = Right), Default: 0
 	#Range: > -2147483647
 	focusGuiHorizontal = 0
@@ -48,6 +48,12 @@
 	bossMusic = true
 	#Players camera can shake. Default: true
 	cameraShake = true
+	#Arca will save the Player if past Totem Maximum Soul Count but only if they're a Lich, Default: true
+	arcaLichUndying = true
+	#Entities part of a Player's Grimoire of Goodwill will be protected by the Player's servants, Default: true
+	goodwillServantGuard = true
+	#Entities part of a Player's Grimoire of Goodwill will be considered as the Player's ally codewise, Default: false
+	goodwillFullAlly = false
 
 ["Mod Compatibility"]
 	#If enabled, Ender Dragon's Fireballs will leave clouds that damages even undead and will not hit itself. Default: false
@@ -56,8 +62,8 @@
 	robesIronResist = true
 	#If Iron's Spells and Spellbooks is installed, certain curios provides Spell buffs. Default: true
 	ironBuff = true
-	#If L_Ender Cataclysm is installed, certain loots are modified and change between this and the latter mod. Default: true
-	cataclysmLootCompat = true
+	#If L_Ender's Cataclysm is installed, pouring Lava onto Void Fluid source blocks will turn it into Void Stones. Default: true
+	cataclysmVoidStone = true
 
 [Blocks]
 	#Add mobs that Hook Bells don't work on. 
@@ -114,6 +120,25 @@
 	pithosRespawn = true
 	#Allow used Crystal Balls to spawn Crones again when right-clicked with respawn_boss tagged item, Default: true
 	crystalBallRespawn = true
+	#Add mobs that Forbidden Grass will not spawn. 
+	#To do so, enter the namespace ID of the mob, like "minecraft:zombie, minecraft:skeleton".
+	forbiddenGrassBlackList = []
+	#How many blocks each Tall Skull increases the Shrieking Obelisk's area of effect, Default: 4
+	#Range: > 1
+	shriekObeliskIncrease = 4
+	#Whether Ominous Idols can revive Illager Servants, Default: true
+	ominousIdolRevive = true
+	#The amount of Soul Energy required to revive an Illager Servant, Default: 500
+	#Range: > 0
+	ominousIdolReviveCost = 500
+	#The amount of Illager Servants an Ominous Idol can register to revive, Default: 16
+	#Range: > 0
+	ominousIdolLimit = 16
+	#How many ticks until Void Frames returns back to Locked State after being used, Default: 24000
+	#Range: > 0
+	voidFrameCoolTime = 24000
+	#Whether Shrieking Obelisk can prevent Pillager Patrols, Default: true
+	ShriekObeliskPatrol = true
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2

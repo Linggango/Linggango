@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 4.0,
+    "attack_range": 3.0,
     "category": "sword",
     "two_handed": false,
     "attacks": [

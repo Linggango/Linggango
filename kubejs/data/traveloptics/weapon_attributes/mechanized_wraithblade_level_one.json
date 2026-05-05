@@ -1,6 +1,6 @@
 {
   "attributes" : {
-    "attack_range": 2.5,
+    "attack_range": 3.0,
     "category": "sword",
     "attacks": [
       {
@@ -10,7 +10,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_slash_horizontal_right",
         "swing_sound": {
-          "id": "bettercombat:sword_slash"
+          "id": "goety:shock_cast"
         }
       },
       {
@@ -20,7 +20,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_slash_horizontal_left",
         "swing_sound": {
-          "id": "bettercombat:sword_slash"
+          "id": "goety:shock_cast"
         }
       },
       {
@@ -30,7 +30,7 @@
         "upswing": 0.5,
         "animation": "bettercombat:two_handed_spin",
         "swing_sound": {
-          "id": "bettercombat:staff_spin"
+          "id": "goety:shock_cast"
         }
       }
     ]

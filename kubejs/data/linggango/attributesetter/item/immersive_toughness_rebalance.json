@@ -1,0 +1,115 @@
+{
+
+  "immersive_armors:steampunk_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:steampunk_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -4,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:steampunk_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:steampunk_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:heavy_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:heavy_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+
+  "immersive_armors:heavy_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:heavy_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:bone_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:bone_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:warrior_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:warrior_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -5,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:warrior_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -6,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "immersive_armors:warrior_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ]
+}

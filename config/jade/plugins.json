@@ -1,7 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -54,9 +51,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "l2hostility": {
+    "mob": true
+  },
   "compactmachines": {
     "machine": true,
     "tunnel": true
+  },
+  "saintsdragons": {
+    "egg_timer": true,
+    "dragon_info": true
   },
   "jadeaddons.create": {
     "filter": true,
@@ -71,9 +75,6 @@
   "mekanismcovers": {
     "cover_component": true
   },
-  "immersiveengineering": {
-    "multiblock_icon": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -85,11 +86,6 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
-  },
-  "infinitybuttons": {
-    "hide_secret_buttons": true,
-    "hide_lantern_buttons": true,
-    "hide_torch_buttons": true
   },
   "balm": {
     "jade": true
@@ -115,10 +111,6 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jadeaddons.lootr": {
     "info": true
   },
@@ -137,6 +129,9 @@
     "converter": true,
     "breeder": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -154,11 +149,19 @@
     "block_owner": true,
     "soul_energy": true,
     "raider_leader": true,
+    "hostile": true,
     "servant_mode": true,
+    "capture_mode": true,
     "zombie_villager": true,
     "villager_profession": true,
     "train_to": true,
     "summon_lifespan": true,
     "trainable": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
   }
 }

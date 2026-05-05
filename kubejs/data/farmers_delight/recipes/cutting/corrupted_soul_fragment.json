@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "legendary_monsters:corrupted_soul"
+    }
+  ],
+  "result": [
+    {
+      "count": 9,
+      "item": "kubejs:corrupted_soul_fragment"
+    }
+ ],
+  "tool": {
+    "item": "enigmaticdelicacy:etherium_machete"
+  }
+}

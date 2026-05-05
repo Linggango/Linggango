@@ -4,7 +4,7 @@
 	apollyonModpackMode = false
 	#The natural healing rate of Apollon (for its max health)
 	#Range: 0.0 ~ 1.0
-	apollyonSelfHealing = 0.5
+	apollyonSelfHealing = 0.002
 	#The arrow-hit healing rate of Apollon (for its max health)
 	#Range: 0.0 ~ 1.0
 	apollyonArrowHealing = 0.005

@@ -18,12 +18,15 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 3.0d
+			y: 3.5d
 		}
 	]
 	order_index: 7
@@ -35,22 +38,14 @@
 				""
 				"&8Questline was made by &eSoot (@sootyboy)&r &8in Linggango discord server."
 			]
-			icon: {
-				Count: 1
-				id: "thermal:wrench"
-				tag: { }
-			}
+			icon: "thermal:wrench"
 			id: "3E9BA9A88D5876D6"
 			shape: "gear"
 			size: 1.5d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "31CA1A2AF03E5741"
-				item: {
-					Count: 1
-					id: "thermal:wrench"
-					tag: { }
-				}
+				item: "thermal:wrench"
 				type: "item"
 			}]
 			title: "Welcome to Thermal Series!"
@@ -569,11 +564,7 @@
 				}
 				{
 					id: "0416B2703FDCB3FA"
-					item: {
-						Count: 1
-						id: "thermal:flux_capacitor"
-						tag: { }
-					}
+					item: "thermal:flux_capacitor"
 					type: "item"
 				}
 				{
@@ -634,11 +625,7 @@
 				{
 					count: 4L
 					id: "4574F66F44D1680E"
-					item: {
-						Count: 1
-						id: "thermal:fluid_duct"
-						tag: { }
-					}
+					item: "thermal:fluid_duct"
 					type: "item"
 				}
 			]

@@ -16,7 +16,7 @@ ServerEvents.recipes(e => {
     B: "minecraft:glow_ink_sac",
   });
 
-  e.shaped("irons_spellbooks:epic_ink", ["   ", "A  ", "AA "], {
+  e.shaped("irons_spellbooks:epic_ink", ["AA ", "AA ", "   "], {
     A: "irons_spellbooks:rare_ink",
   });
 

@@ -1,0 +1,178 @@
+{
+  "hazennstuff:hazel_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:hazel_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:hazel_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:hazel_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:flesh_mass_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:flesh_mass_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:flesh_mass_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:flesh_mass_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:mithril_battlemage_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:mithril_battlemage_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:mithril_battlemage_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:mithril_battlemage_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:thunder_prowler_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:thunder_prowler_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:thunder_prowler_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:thunder_prowler_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_ruler_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_ruler_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_ruler_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_ruler_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_commander_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_commander_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_commander_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:legionnaire_commander_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "hazennstuff:fireblossom_battlemage_crown": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ]
+
+}

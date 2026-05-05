@@ -1,0 +1,2694 @@
+{
+	autofocus_id: "14C3ED2C7911FF14"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2_h"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "l2hostility:item/book"
+		}
+	}
+	id: "08A86A13DD4C0BB2"
+	images: [
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/poison"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/fiery"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/tank"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/slowness"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/blindness"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/cursed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/freezing"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/nausea"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/weakness"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/wither"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/invisible"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/regenerate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/speedy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/protection"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/levitation"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/reflect"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/gravity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/shulker"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/counter_strike"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/growth"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/moonwalk"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/split"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/soul_burner"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/grenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/corrosion"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/erosion"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/drain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/arena"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/teleport"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/repelling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/pulling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/reprint"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/killer_aura"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/ragnarok"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/master"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/dispell"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/dementor"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "l2hostility:item/trait/adaptive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/regular_traits.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/advanced_traits.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/legendary_traits.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/potion_traits.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			dependency: "7380E4BCAD9E622E"
+			height: 1.0d
+			image: "born_in_chaos_v1:item/shattered_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			dependency: "7380E4BCAD9E622E"
+			height: 1.0d
+			image: "brutality:textures/mob_effect/happy.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			height: 3.5d
+			image: "customtextures:textures/l2_hostility.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.4107142857142776d
+			y: -14.732142857142854d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14C3ED2C7911FF14"]
+			description: [
+				"&lCrafting this helps you get started on l2"
+				""
+				"It gives access to drops from certain mobs early, like &ddragon breath&r and &eblaze rods,&r which you need for the next looting charm!"
+				""
+				"Not sure which traits drop what?"
+				""
+				"&8- Open JEI and check the trait drops for more information."
+			]
+			hide_dependency_lines: false
+			id: "306F89B40E7B275F"
+			rewards: [{
+				id: "1CAB6296696397CB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Starting Point"
+			tasks: [{
+				id: "72247AD0D2588A57"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["306F89B40E7B275F"]
+			description: [
+				"Gives you access to more drops on higher level trait mobs, more to explore and check out! "
+				""
+				"Will be the most important charm to get yourself across the biggest obstacle of this mod, the chaos ingot."
+			]
+			id: "7380E4BCAD9E622E"
+			rewards: [
+				{
+					id: "7B8033EC08CEC0A6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "43B23F3B30EBDB73"
+					item: "l2complements:shulkerate_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "0FBE0518542C5879"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Obtainable from either killing ghasts with soul flame effect (from enchant mostly) or suffer and find &l&bsoul burner&r&r mobs and kill them for a chance to drop it. "
+				""
+				"Your call :)"
+			]
+			id: "16B2F4168A7F3861"
+			rewards: [{
+				count: 2
+				id: "7D67F81CEC2AE87C"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "5F7C77CFC9ABF131"
+				item: "l2complements:soul_flame"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["You can obtain this by withstanding an explosion damage, or kill a mob with &l&freflect&r&r or &l&9counter strike&r&r traits."]
+			id: "72BDCF1B81780C33"
+			rewards: [{
+				id: "092CC5E6D4901AD6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			subtitle: "Imagine surviving an explosion this early on? "
+			tasks: [{
+				id: "53C6961DE1497E4B"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Either obtained from killing drowned with powdered snow, or killing mobs with &l&bFreezing&r&r."]
+			id: "42AC1136A1AC7C9B"
+			rewards: [{
+				id: "4603882F506EDA28"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "68709D3C3E4DF93C"
+				item: "l2complements:hard_ice"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Obtained from being semi-fast like the flash. "
+				""
+				"PLEASE MAKE WIND CAPTURING BOTTLES FIRST TO ACTUALLY OBTAIN THIS."
+				""
+				"200 blocks per second, your creativity starts now."
+				""
+				"Tip: Legends say the childhood tnt cannons were used back in the day for this."
+			]
+			id: "7204FEE113D9F120"
+			rewards: [{
+				id: "5E5013DADB03C119"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "497EF13B1003C207"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"42AC1136A1AC7C9B"
+				"16B2F4168A7F3861"
+				"0DD3210094E75454"
+				"7204FEE113D9F120"
+				"72BDCF1B81780C33"
+			]
+			description: [
+				"Finally obtaining one of the core items of L2, happy to see you understanding the mod."
+				""
+				"Most of these charms give you a benefit, in exchange for higher difficulty, are you brave enough to go for these?"
+			]
+			id: "2A799FBA7CE6F650"
+			rewards: [{
+				id: "211CEB74F06527CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1DB81F94885CCEEA"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Drops from &l&1undying&r&r and &l&2regenerating&r&r mobs. "
+				""
+				"Check JEI for more info, if needed."
+				""
+				"OR "
+				""
+				"Suffer and throw most of the raw/cooked meat/cod, or even totem (which has a higher chance of 1/64) in lava, to obtain one of these. "
+				""
+				"Pick your poison :)"
+			]
+			id: "37CEE2269EA5B7B0"
+			rewards: [{
+				count: 64
+				id: "391E2781BF3415C0"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Gamble or suffer, once more."
+			tasks: [{
+				id: "1DA559397887C60F"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Drops from mobs with the &l&dDrain&r&r trait."]
+			id: "0DD3210094E75454"
+			rewards: [{
+				id: "5396AEA8DE04E0CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			subtitle: "Where the hell do i get these?"
+			tasks: [{
+				id: "061A1C06D11F67B7"
+				item: "l2hostility:witch_droplet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A799FBA7CE6F650"]
+			description: [
+				"This item gives you access to the trait items, which are required for most of the charms."
+				""
+				"Seek for the right ones, and you shall be able to craft charms that may help you :)"
+				""
+				"Also remember that wearing these charms, might give you more difficulty levels in return :)"
+			]
+			id: "780A3D90DE4CB7D1"
+			rewards: [{
+				id: "7ECA7264205A1B15"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "522CF4E62B12DA7B"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["More loot from mobs with traits, maybe you'll get what you need right??"]
+			id: "7F3D40CBD65A180D"
+			rewards: [{
+				id: "3E60CDED97EE3A43"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			subtitle: "2x loot, but more difficulty :)"
+			tasks: [{
+				id: "0F0825999EEB9A4A"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A799FBA7CE6F650"]
+			description: ["+2 head slots, i mean, do i gotta gaslight you?"]
+			id: "68A84D1C7AB7EB00"
+			shape: "diamond"
+			subtitle: "Maybe your eyes are odd but did that just say 2 head slots?"
+			tasks: [{
+				id: "50F3346F0B10806C"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14C3ED2C7911FF14"]
+			id: "62B414D407812248"
+			rewards: [{
+				id: "2197C1B211F9634C"
+				item: "l2hostility:bottle_of_sanity"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			subtitle: "Makes you see invisible mobs, even when you're affected by blindness."
+			tasks: [{
+				id: "126DDAF3F3004FB1"
+				item: "l2hostility:detector_glasses"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["14C3ED2C7911FF14"]
+			id: "1D0B5409117D48E8"
+			rewards: [{
+				id: "53547321D5594E77"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			subtitle: "Outputs the area's difficulty amount."
+			tasks: [{
+				id: "25BE2E6E897047A6"
+				item: "l2hostility:hostility_detector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: [
+				"Drops a lot of bottles from mobs killed. "
+				""
+				""
+				"Will be useful for gambling, trust me, you need this."
+			]
+			id: "274955B599CD2DFB"
+			incompatible: ["7F3D40CBD65A180D"]
+			rewards: [{
+				count: 32
+				id: "3362E65E5F1E7744"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Ever need a lot of bottles?"
+			tasks: [{
+				id: "334136299B768684"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["780A3D90DE4CB7D1"]
+			id: "436E2DAADAE85080"
+			rewards: [{
+				id: "5C65E9E3BC545D06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Obtain any Trait Items"
+			tasks: [{
+				id: "7BA9FB423D50D300"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "l2hostility:trait_item"
+					}
+				}
+				title: "Any #l2hostility:trait_item"
+				type: "item"
+			}]
+			title: "Any Trait Items"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["Cooking trait items in a furnace/blast turns it into a powder, one of the key things that you need for miraculous ingot."]
+			id: "2612E8893184140A"
+			rewards: [{
+				id: "42E8C7875CA62F9F"
+				item: "l2hostility:miracle_powder"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "How the hell do you get these"
+			tasks: [{
+				id: "3100DA528D6B7EEB"
+				item: "l2hostility:miracle_powder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["&4&lIncreases&r&r your player difficulty by 50."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "l2hostility:bottle_of_curse"
+			id: "2DAF7E4A19F7F6D6"
+			rewards: [{
+				count: 3
+				id: "6B3D3E782546EC0B"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.25d
+			subtitle: "Increases the difficulty"
+			tasks: [{
+				id: "523D0C9F504168BB"
+				title: "MORE"
+				type: "checkmark"
+			}]
+			title: "&bBottle Of Curse"
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["&a&lClears&r&r your player difficulty, back to 0, giving you peace and tranquility for the first time in your whole entire life."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "l2hostility:bottle_of_sanity"
+			id: "55B41BA269706364"
+			rewards: [{
+				id: "1B76B84653A75299"
+				item: "l2hostility:bottle_of_sanity"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.25d
+			subtitle: "Reduces the difficulty"
+			tasks: [{
+				id: "4824E32B5EEA9383"
+				title: "yay"
+				type: "checkmark"
+			}]
+			title: "&bBottle Of Sanity"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["274955B599CD2DFB"]
+			description: ["This will be needed for the gambling in the next part."]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "54449039A7AC1C34"
+			rewards: [{
+				count: 64
+				id: "47D1B3F417F6B967"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "You will need this."
+			tasks: [{
+				id: "0C5CCB6670A1DC4A"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54449039A7AC1C34"]
+			description: ["Throwing cursed bottles in lava will have a small chance to drop these, so go on, goodluck :)"]
+			id: "0D05401BC2D98886"
+			rewards: [{
+				id: "458E36ED494F5D8E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			subtitle: "Welcome to gacha addiction."
+			tasks: [{
+				id: "2A0E697DB1C4B355"
+				item: "l2hostility:hostility_essence"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2612E8893184140A"
+				"0D05401BC2D98886"
+				"62B6DF4AE4776530"
+			]
+			description: ["One of the keypoints to late game, by this point you're probably a strong fella, goodluck with grinding the rest :)"]
+			id: "3F81AD86BE390658"
+			rewards: [{
+				id: "5F0B280A8EC57E7D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "LATE GAME?"
+			tasks: [{
+				id: "281FC2F212823950"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["Drops every equipment from mobs you kill, assuming their equipment doesnt have curse of vanishing of course."]
+			id: "44B7720AE2997AC8"
+			rewards: [{
+				id: "0A400B032121468D"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			subtitle: "Maybe with this one you can make a museum of armors."
+			tasks: [{
+				id: "0566F78EDB4A1FBE"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A799FBA7CE6F650"]
+			description: [
+				"Killing mobs will not increase your difficulty, but you dont get loot though :("
+				""
+				"Works for those chill peepos."
+			]
+			id: "150E22620F8E3E3D"
+			rewards: [{
+				id: "5E6E0D7EF6F2F0B2"
+				item: "l2complements:blackstone_core"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Make peace not war ahh"
+			tasks: [{
+				id: "2E56333C2ED7DC5C"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A799FBA7CE6F650"]
+			description: ["Access to more great drops from higher trait mobs, are you ready for the higher difficulty traits?"]
+			hide_until_deps_complete: false
+			id: "66987F4D01E6920F"
+			rewards: [{
+				id: "6B3BC56414CDFA8D"
+				item: "l2hostility:witch_droplet"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Chaos charm, yes more!!"
+			tasks: [{
+				id: "5B3CB0282823F6E7"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: [
+				"The quest to obtain the best item, you're almost there! "
+				""
+				"Gives you access to a lot of chaos ingots at this point, and eternium nuggets, which lets you craft eternium stuff."
+				""
+				"And even imagine breaker, which can bypass magical protections for melee."
+			]
+			id: "75A5A7D57C28BB0A"
+			rewards: [{
+				id: "1C1AEE4834836E84"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "The final looting charm."
+			tasks: [{
+				id: "3A5820121425BC70"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: ["Increases hp/dmg based on difficulty, but then you get spammed with traits, becareful, ragnarok is waiting :)"]
+			hide_until_deps_complete: false
+			id: "7C2B84A275AD4DCD"
+			rewards: [{
+				id: "1191D0B803A82F5E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "You wanna exchange power for death? Go ahead."
+			tasks: [{
+				id: "6351A445C424A91B"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75A5A7D57C28BB0A"]
+			description: [
+				"You either make sure a chicken survives a sonic boom, or you kill dispell mobs. "
+				""
+				"Pick your poison to be honest."
+			]
+			id: "64AE2FA2E0DDF880"
+			rewards: [{
+				id: "51E5F52120F41820"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "32B4EF015274BD29"
+				item: "l2complements:resonant_feather"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64AE2FA2E0DDF880"]
+			id: "3286779906157DB8"
+			rewards: [{
+				id: "06A877A871375394"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			subtitle: "+3 back slots."
+			tasks: [{
+				id: "4023BBD1E996DD2E"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75A5A7D57C28BB0A"]
+			id: "523C73EEB4300FBA"
+			rewards: [{
+				id: "3CF2348CE7C580C9"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			subtitle: "Ignores protections from dispel/dementor, but wont drop hostility loot."
+			tasks: [{
+				id: "23375B8628785DD1"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75A5A7D57C28BB0A"]
+			description: ["Finally made this far to suffer, proud of you for it :)"]
+			id: "0FF01D4C76F300B1"
+			rewards: [{
+				id: "44E3F3185BC1ECAA"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.4d
+			subtitle: "Late-Game"
+			tasks: [{
+				id: "3020F377B92FE20A"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FF01D4C76F300B1"]
+			description: [
+				"This stacks with curse of greed, will drop more and more loot, especially for higher level mobs."
+				""
+				"You're so greedy istg."
+			]
+			id: "6F9FE378B487A89F"
+			rewards: [{
+				id: "7C2C3A0C32FAFB9F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "20D6A67AD53E064C"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FF01D4C76F300B1"]
+			id: "602C583FA29A0354"
+			rewards: [{
+				id: "6A702DF897FE6F11"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Unbreakable, and tuff as hell."
+			tasks: [
+				{
+					id: "2F1F7BBE28862CE3"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74B6329904F275B4"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21C5BD004D4006B3"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39DFE02BD61E2150"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FF01D4C76F300B1"]
+			description: [
+				"Makes every single trait spawn on the mob depending on its lvl. "
+				""
+				"If you have curse of envy, the mob will drop all of the traits that it had."
+			]
+			id: "69F3068051F4D4E9"
+			rewards: [{
+				id: "1D5C7BEE55B58E72"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			subtitle: "I heard you were strong."
+			tasks: [{
+				id: "36F996C5A028C0FD"
+				item: "l2hostility:abyssal_thorn"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FF01D4C76F300B1"]
+			description: ["Makes you untouchable from l2 traits, not even ragnarok man. Ring of reflections big brother."]
+			id: "4276DB7656BC16E1"
+			rewards: [{
+				id: "0FB5377AEAD47E3B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			subtitle: "Braindead."
+			tasks: [{
+				id: "791D9E424AA17576"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: [
+				"Grants damage based on the difference on difficulty of the mobs, so if mobs spawn with higher level than your adaptive difficulty = more dmg for you. "
+				""
+				"Grants you immunity to some debuffs, pretty neat ngl."
+			]
+			id: "4D061C40088A78CE"
+			rewards: [{
+				id: "09CBED5332450B01"
+				item: "l2hostility:miracle_powder"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Are you tuff?"
+			tasks: [{
+				id: "05EF0A1D8F7B1BCB"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: ["Ignores iframes like they never existed."]
+			id: "6B668363438F4C00"
+			rewards: [{
+				id: "4C10810EB851C54B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "Some reference, yk where its from :)"
+			tasks: [{
+				id: "29C4F1A5ACE60A27"
+				item: "l2hostility:platinum_star"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: ["This synergizes with divinity ring, while providing magic immunity, this makes sure that lvl 1 beneficial buffs stays, so maybe some room for buffs while being negative status effect immune."]
+			id: "0FB0C448CB5AECB7"
+			rewards: [{
+				id: "11A8E94D3CCAD3ED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "But i wanna use divinity ring.."
+			tasks: [{
+				id: "3BF10711F8F18EBD"
+				item: "l2hostility:divinity_cross"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: [
+				"Your adaptive difficulty doesn't increase, but you still get loot."
+				""
+				"Are you that scared??"
+			]
+			id: "014B5BBD60D5EF09"
+			rewards: [{
+				id: "4BF511886E4F0825"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "Curse of sloth's big bro"
+			tasks: [{
+				id: "29ACFBA3DE110E8F"
+				item: "l2hostility:divinity_light"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["+5 ring and +1 charm.. MODS BAN THIS!"]
+			id: "6F5FE8A1EED63E78"
+			rewards: [{
+				id: "1F0D8B97551979AD"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			subtitle: "Are you gonna snap with these or what"
+			tasks: [{
+				id: "355889E370336445"
+				item: "l2hostility:infinity_glove"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F81AD86BE390658"]
+			description: [
+				"Unseals items for a few seconds if it does get sealed, 2 items can be unsealed per charm of restoration at a time. "
+				""
+				"Stackable, so if you go vs a ragnarok mob, bring a lot of these please.."
+			]
+			id: "200CA689E285FF5C"
+			rewards: [{
+				id: "3828ED25E56B095E"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			subtitle: "RESTORE DEEZ.."
+			tasks: [{
+				id: "5266CAC0A2C10E8A"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FF01D4C76F300B1"]
+			id: "787936098E6CE255"
+			rewards: [{
+				id: "3F10285E832DB873"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Does not consume XP, unbreakable as well."
+			tasks: [{
+				id: "3FA522EBB1361EC2"
+				item: "l2complements:eternal_anvil"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["Magic immunity, but you cant obtain any effects, so maybe a better pearl of the void."]
+			id: "77B7B70098D656B8"
+			rewards: [{
+				count: 2
+				id: "38980A4EA6D5B56D"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Typa thing soot would wanna wear in every playthrough."
+			tasks: [{
+				id: "3EF5730F2CE38F57"
+				item: "l2hostility:ring_of_divinity"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: [
+				"Reflects effects/traits back at mobs that apply some."
+				""
+				"Literally an uno reverse bro."
+			]
+			id: "35711B0148806946"
+			rewards: [{
+				id: "713891AD02E70C3D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "NO YOU"
+			tasks: [{
+				id: "7FA721DA1823F601"
+				item: "l2hostility:ring_of_reflection"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["Heals you per sec, i mean what else?"]
+			id: "378CC1C0CC0FE6B5"
+			rewards: [{
+				id: "501E0AA56A82C46D"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "A ring that heals."
+			tasks: [{
+				id: "43CD44DBDDE615EA"
+				item: "l2hostility:ring_of_healing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: [
+				"Damages your equipments if you take dmg, otherwise if you deal some, you damage theirs."
+				""
+				"Best used when you get unbreakable armor for the sweet benefit. "
+				""
+				"I mean, i dont see this being used for bosses but good for mob clearing :0"
+			]
+			id: "7E43D345900F87E3"
+			rewards: [{
+				id: "45AC66A55B995EBB"
+				item: "l2complements:blackstone_core"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Gambling?"
+			tasks: [{
+				id: "41999AA3EF437CB0"
+				item: "l2hostility:ring_of_corrosion"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["Avoids getting one shot, leaving you at 1 hp till you get hit again, maybe atp just hit /back man if you had that situation."]
+			id: "72F409A31AE56979"
+			rewards: [{
+				id: "6BE38121126B0633"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "No more one shot shenanigans."
+			tasks: [{
+				id: "703B0F66AD0D6E03"
+				item: "l2hostility:ring_of_life"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: [
+				"You will be inflicted with wet status 24/7, as if you were in water everytime."
+				" "
+				""
+				"Maybe some poseidite + drowned belt action?"
+			]
+			id: "7327DEB02B743682"
+			rewards: [{
+				count: 5
+				id: "467E32D79BA07D7F"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "I mean, its from the ocean...."
+			tasks: [{
+				id: "2DD5D215AC2CC9F9"
+				item: "l2hostility:ring_of_ocean"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&fThe more mobs and bosses you defeat, the tougher the game becomes."
+				""
+				"&fAs your difficulty level rises, mobs can spawn with extra traits, making each fight more challenging."
+				""
+				"&fYou can check your current difficulty by clicking the zombie head icon at the top of your inventory screen."
+				""
+				"&fYour adaptive level grows as you keep grinding and slaying mobs."
+				""
+				"&fBut don’t worry, if you &cdie&r, &fthe difficulty drops."
+				""
+				"&fAnd if things get too intense, you can always sip a &bBottle of Sanity&r &fto calm things down."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "l2hostility:hostility_guide"
+				}
+			}
+			id: "14C3ED2C7911FF14"
+			rewards: [
+				{
+					id: "3A6842FDA5439018"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "l2hostility:hostility_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F84BDF8B9CBE0CF"
+					item: "l2hostility:hostility_orb"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "7EA0B7220904C47C"
+				title: "Alright"
+				type: "checkmark"
+			}]
+			title: "Mob difficulty scaling"
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Has a chance to drop from &4&lcursed&r&r trait mobs, and later on will drop from higher trait mobs, check jei for more item drops info."
+				""
+				"OR"
+				""
+				"If you wanna suffer, consider throwing rotten flesh, soul sand, soul soil, ghast tear, or even a nether star in the lava for a chance to get one of these."
+			]
+			id: "3C42AD8EFC1413FD"
+			rewards: [{
+				count: 64
+				id: "360CF724EA876025"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Gamble, or suffer?"
+			tasks: [{
+				id: "4B9BFD75E8A7CA07"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["436E2DAADAE85080"]
+			description: ["More DOT for those who enjoy applying every single sickness to mobs/bosses in the world, inflicting soul flame effect."]
+			id: "257AD659298AC65D"
+			rewards: [{
+				id: "4DE0E3D58F074333"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:soul_flame_blade"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "DOT BUILDS REJOICE"
+			tasks: [{
+				id: "7E6B840A0A229001"
+				item: "l2hostility:flaming_thorn"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["I mean, it applies poison... and yes, would you rather make it apply a concussion in real life instead?"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:poison"
+				}
+			}
+			id: "370ECA6F8CF3421A"
+			shape: "square"
+			subtitle: "Its okay it'll hurt for a bit but it cant kill you trust.."
+			tasks: [{
+				id: "016688091F2350F5"
+				type: "checkmark"
+			}]
+			title: "Poisonous"
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Maybe this is when you actually get to use your water buckets, because i know you aint hitting that water bucket clutch at all :("]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:fire_essence"
+			id: "33505B9538CD23D5"
+			shape: "square"
+			subtitle: "Makes the mob immune to fire, and ignite the target on hit."
+			tasks: [{
+				id: "5523412B111F2FDF"
+				type: "checkmark"
+			}]
+			title: "Fiery"
+			x: 24.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"I mean, the mob is thicc. Literally gigabuffed, increased hp and armor. "
+				""
+				"Dont tell me you were expecting them to actually turn into an actual tank..."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "composite_material:etherite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2EB960ADEC1938F7"
+			shape: "square"
+			subtitle: "I mean.. the trait says it all..?"
+			tasks: [{
+				id: "34323D35F1699729"
+				type: "checkmark"
+			}]
+			title: "Tank"
+			x: 23.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Imagine already being slow in real life, then getting hit by this? "
+				""
+				"I cant imagine what happens next..."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "plushie_buddies:plushie_stray"
+			id: "442958852411C045"
+			shape: "square"
+			subtitle: "Applies slowness when hit by the mob."
+			tasks: [{
+				id: "4AC28AD8C7107DD3"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"I mean, this is probably the debuff 80% of players already have both in game and irl."
+				""
+				"Perhaps a milk bucket will help if brought everytime?"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "uniqueaccessories:devils_eyeball"
+			id: "2BF28C51597CBE25"
+			shape: "square"
+			subtitle: "Applies blindness on hit"
+			tasks: [{
+				id: "109E9A7A013F3A12"
+				type: "checkmark"
+			}]
+			title: "Blinder"
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Applies anti heal on you, allowing you to literally not be able to regen in any sources for a certain amount of time. "]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "eeeabsmobs:bloody_altar_eye"
+			id: "43600EDED77E4988"
+			shape: "square"
+			subtitle: "I wonder what it does..?"
+			tasks: [{
+				id: "02452B58CDD1BEA1"
+				type: "checkmark"
+			}]
+			title: "Cursed"
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Literally applies frost to players hit, the higher trait rank the longer it stays, goodluck moving :)"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "thermal:ice_charge"
+			id: "169305654247D2C3"
+			shape: "square"
+			subtitle: "Hmmm... what does freezing do?"
+			tasks: [{
+				id: "2638A5F95B5D06A5"
+				type: "checkmark"
+			}]
+			title: "Freezing"
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Applies nausea to players hit."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "alexscaves:jelly_bean"
+				tag: {
+					Potion: "opposing_force:slug_infestation"
+				}
+			}
+			id: "02B7CEF8FA2883D2"
+			shape: "square"
+			subtitle: "This is literally gonna be you after a taco bell special."
+			tasks: [{
+				id: "0664A99A7ADA9614"
+				type: "checkmark"
+			}]
+			title: "Distorter"
+			x: 25.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Mobs apply the weakness debuff to players hit."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "armageddon_mod:broken_sword_of_the_element_schulk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75EEFADA8EA11F82"
+			shape: "square"
+			subtitle: "This is literally you while fighting apollyon."
+			tasks: [{
+				id: "02E1A930468537E8"
+				type: "checkmark"
+			}]
+			title: "Weakener"
+			x: 26.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Applies the withering effect to players hit."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "ars_nouveau:glyph_wither"
+			id: "4574566A888262E3"
+			shape: "square"
+			subtitle: "Well, what else is something related to the wither gonna do?"
+			tasks: [{
+				id: "3D2EE561B293A56D"
+				type: "checkmark"
+			}]
+			title: "Withering"
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Mobs are not able to be seen, unless if you're using a detector glasses. "
+				""
+				"Its kind of like your lovelife and employment, nowhere to be found :("
+			]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "19E09169CFE81B1F"
+			shape: "square"
+			subtitle: "Tell me you get it please..."
+			tasks: [{
+				id: "08EAF5AEAEDDD331"
+				type: "checkmark"
+			}]
+			title: "Invisibility"
+			x: 25.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Mob heals overtime. What else counters healing? You either deal big pp dmg or you just straight up suck man, come on. Or you can stop it from healing."
+				""
+				"WOW! it took us 2026 years to find that out, right?"
+			]
+			hide_dependency_lines: true
+			icon: "artifacts:crystal_heart"
+			id: "578E030E2D89FC0E"
+			shape: "square"
+			subtitle: "I mean... its regen so..."
+			tasks: [{
+				id: "1B06FF0F80D060E0"
+				type: "checkmark"
+			}]
+			title: "Regenerating"
+			x: 21.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Mob has a higher speed, basically.."]
+			hide_dependency_lines: true
+			icon: "artifacts:running_shoes"
+			id: "3AEB6236A7838B3A"
+			shape: "square"
+			subtitle: "They say they like Usain Bolt.."
+			tasks: [{
+				id: "7E4A2F03D73FFF2C"
+				type: "checkmark"
+			}]
+			title: "Speedy"
+			x: 26.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Mobs have the resistance effect, higher levels if the trait rank is higher."]
+			hide_dependency_lines: true
+			icon: "armageddon_mod:colossal_shield"
+			id: "584162A4630F9A52"
+			shape: "square"
+			subtitle: "Mobs having actual protection??"
+			tasks: [{
+				id: "1051C39514C350A7"
+				type: "checkmark"
+			}]
+			title: "Protected"
+			x: 22.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Applies levitation on players hit, see you in the sky :)"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "brutality:the_cloud"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "36EC6B65D3EF9173"
+			shape: "square"
+			subtitle: "HMM, i wonder what levitator what mobs do?"
+			tasks: [{
+				id: "2E2404EBA478AA5D"
+				type: "checkmark"
+			}]
+			title: "Levitator"
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Reflects physical damage taken as magic dmg in return (10-50% dmg scales with trait rank)"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "relics:reflection_necklace"
+				tag: {
+					abilities: {
+						explode: {
+							points: 0
+							stats: {
+								capacity: 23.80664d
+								damage: 0.41921d
+								stun: 0.19084d
+							}
+						}
+					}
+				}
+			}
+			id: "593EF6C87E187167"
+			shape: "square"
+			subtitle: "Reflects what?"
+			tasks: [{
+				id: "49F3BBFDDD18034B"
+				type: "checkmark"
+			}]
+			title: "Reflecting"
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Increases gravity to players around it"
+				""
+				"Knocks attackers downward when damaged."
+			]
+			hide_dependency_lines: true
+			icon: "terramity:anvil_talisman"
+			id: "19A544E8EE8D1287"
+			shape: "square"
+			subtitle: "Get slammed down tbh"
+			tasks: [{
+				id: "71C4C35F5FCB8B89"
+				type: "checkmark"
+			}]
+			title: "Gravity"
+			x: 27.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Shoots bullets every 2 seconds, every after one. Avoid them if ur actually skilled, stop relying on the dodge chance smh."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "minecraft:shulker_box"
+			id: "40391CB94A600749"
+			shape: "square"
+			subtitle: "What do shulkers do?"
+			tasks: [{
+				id: "5B203B7147FC69F5"
+				type: "checkmark"
+			}]
+			title: "Shulker"
+			x: 20.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Kidding aside, mobs will try to teleport and attack you after you hit it."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "naturesaura:depth_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35D3D7D02124179D"
+			shape: "square"
+			subtitle: "So drop the cs rating"
+			tasks: [{
+				id: "71CB35E0C1FC949A"
+				type: "checkmark"
+			}]
+			title: "Counter-Strike"
+			x: 18.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Decreases gravity for the players around it."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "relics:ice_skates"
+				tag: {
+					abilities: {
+						ram: {
+							points: 0
+							stats: {
+								damage: 0.16599d
+							}
+						}
+						skating: {
+							points: 0
+							stats: {
+								duration: 34.79236d
+								speed: 0.02082d
+							}
+						}
+					}
+				}
+			}
+			id: "5A67871109F0B0C5"
+			shape: "square"
+			subtitle: "If you're curious to know what Neil Armstrong experienced.."
+			tasks: [{
+				id: "1A662F19D1EFD28C"
+				type: "checkmark"
+			}]
+			title: "Moonwalk"
+			x: 19.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Inflicts soul burning effect on players hit, which hurts more than both fire and soulfire damage."]
+			hide_dependency_lines: true
+			icon: "quark:soul_bead"
+			id: "225CB94C02C40352"
+			shape: "square"
+			subtitle: "Burns your soul tbh"
+			tasks: [{
+				id: "3A37D20B515CB15C"
+				type: "checkmark"
+			}]
+			title: "Soul Burner"
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Mob splits into 2 everytime it dies, not endlessly ofc (hope not)"]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:glyph_split"
+			id: "494C6E3F10486627"
+			shape: "square"
+			subtitle: "x squared?"
+			tasks: [{
+				id: "5F81675A111737F3"
+				type: "checkmark"
+			}]
+			title: "Split"
+			x: 25.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Slime will grow larger while at full health, will gain regeneration."
+				"(So dont worry, only applies to slimes... Hopefully..)"
+			]
+			hide_dependency_lines: true
+			icon: "quark:slime_in_a_bucket"
+			id: "75E76654AA67730A"
+			shape: "square"
+			subtitle: "I mean, might as well wait for it to reach infinite hp"
+			tasks: [{
+				id: "377165D015EDF02A"
+				type: "checkmark"
+			}]
+			title: "Growth"
+			x: 24.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Shoots out AOE grenade projectiles (not literal grenades ofc) every 3 seconds after each one comes in contact with anything. "
+				""
+				"Hurts more than shulker, so dont mess around with it."
+			]
+			hide_dependency_lines: true
+			icon: "brutality:holy_hand_grenade"
+			id: "358368DEF9FF8C6D"
+			shape: "square"
+			subtitle: "GRENADE! GET OUTTA THERE!"
+			tasks: [{
+				id: "4366A9849E79F006"
+				type: "checkmark"
+			}]
+			title: "Grenade"
+			x: 23.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Targets 1-3 armor equipments, and increases their durability loss rate by 10-30% chance (scarier at high trait rank)"
+				""
+				"Will also deal increased dmg to players each per armor piece missing."
+				""
+				"So make sure you're wearing armor around these peepos :)"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "supplementaries:bamboo_spikes_tipped"
+				tag: {
+					Damage: 0
+					Potion: "l2complements:armor_reduce"
+				}
+			}
+			id: "42AD82E24A296C96"
+			shape: "square"
+			subtitle: "OH MY ARMORRR"
+			tasks: [{
+				id: "022AA1F4E8E1D230"
+				type: "checkmark"
+			}]
+			title: "Corrosion"
+			x: 27.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Selects 1-3 equipments to lose durability, actual durability, not just the speed of it taking dmg. "
+				""
+				"Increases dmg dealt by 25-75% per each piece of armor missing. "
+				""
+				"Imagine apollyon with this trait on phase 3? :)"
+			]
+			hide_dependency_lines: true
+			icon: "mekanism:dirty_netherite_scrap"
+			id: "6B33C8DD9F9515C7"
+			shape: "square"
+			subtitle: "MY ARMORRR PART 2"
+			tasks: [{
+				id: "184299DF2C9E9EF1"
+				type: "checkmark"
+			}]
+			title: "Erosion"
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"The mob gains random effects. "
+				""
+				"When players get hit by the mob, one or more of their positive effects will be taken, and will be applied applied a negative effect instead. "
+				""
+				"The damage taken by players increases based on each negative effect applied on them."
+			]
+			hide_dependency_lines: true
+			icon: "create:item_drain"
+			id: "1ADCE06B26264492"
+			shape: "square"
+			subtitle: "Let that sink in.."
+			tasks: [{
+				id: "4427F7287210D657"
+				type: "checkmark"
+			}]
+			title: "Drain"
+			x: 26.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["You have no rights, players will not be able to break and build blocks near mobs with this trait."]
+			hide_dependency_lines: true
+			icon: "supplementaries:iron_gate"
+			id: "1353636CB6EE2E50"
+			shape: "square"
+			subtitle: "ITS YOU AND ME!"
+			tasks: [{
+				id: "3DCBD85473F7C1B8"
+				type: "checkmark"
+			}]
+			title: "Arena"
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Mobs will teleport often, avoiding physical attacks on contact."
+				""
+				"This doesn't mean its unable to be hit by a physical attack, it just tries to teleport away most of the time, just like your dream girl. Goodluck :)"
+			]
+			hide_dependency_lines: true
+			icon: "enigmaticlegacy:astral_potato"
+			id: "56DD1F1AF789D452"
+			shape: "square"
+			subtitle: "Insert random anime teleport noise here"
+			tasks: [{
+				id: "1A0DEBB36B10F123"
+				type: "checkmark"
+			}]
+			title: "Teleport"
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["Immune to projectiles, maybe an enchant helps with our W key only melee players?"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "celestisynth:textures/entity/visuals/solaris_air.png"
+				}
+			}
+			id: "71F1105C305854E9"
+			shape: "square"
+			subtitle: "Actively repells entities away from it up to 10 blocks. "
+			tasks: [{
+				id: "66385442B01A5D6D"
+				type: "checkmark"
+			}]
+			title: "Repelling"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"I mean, if this is named pulling, does it push you closer to it, or does it pull you closer to it? "
+				""
+				"some eureka shit right there!"
+				""
+				"Maybe an enchant helps with this effect to help our tryhard mage and forgotten projectile players :("
+			]
+			hide_dependency_lines: true
+			icon: "alex_caves_dimensions:magnetic_caves_key"
+			id: "1B47C278BAA1C349"
+			shape: "square"
+			subtitle: "Repelling trait's bipolar twin."
+			tasks: [{
+				id: "48BC4C75BC0AA5F0"
+				type: "checkmark"
+			}]
+			title: "Pulling"
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Basically slaps you back with your own enchants, higher dmg dealt if you got a lot of em, going as far as dealing true damage that ignores your armor if you have any enchant that passes lvl 10+"
+				""
+				"Have fun, and no dont try doing damage reduction builds, it will not help, i did this and failed, dont follow me."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "brutality:bloodstained_mirror"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2987E1FACFD0D091"
+			shape: "square"
+			subtitle: "Too much enchants?"
+			tasks: [{
+				id: "3A014DF962A84B31"
+				type: "checkmark"
+			}]
+			title: "Reprint"
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"The mob with this trait will constantly damage players near it, dealing magic dmg per second."
+				""
+				"It hurts, so dont stay, same way why you're heartbroken right now not gonna lie."
+			]
+			hide_dependency_lines: true
+			icon: "dungeonnowloading:mending_aura_pane"
+			id: "049C41AC8436D1FF"
+			shape: "square"
+			subtitle: "You ever heard of those killer aura hacks back in the day?"
+			tasks: [{
+				id: "02F4DA206D30CAE1"
+				type: "checkmark"
+			}]
+			title: "Killer Aura"
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Seals curios, weapons, armors. "
+				""
+				"Dont try it."
+				""
+				"Only charm of restoration and abrahadabra can help."
+			]
+			hide_dependency_lines: true
+			icon: "companions:netherite_chains"
+			id: "40BA6E2105F95486"
+			shape: "square"
+			subtitle: "Post-Apollyon ahh ability"
+			tasks: [{
+				id: "636FF90B9CF94564"
+				type: "checkmark"
+			}]
+			title: "Ragnarok"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: ["The mob will summon minions/spawns around it, some may protect the mob, some may just straight up aggro towards you. "]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:glyph_summon_undead"
+			id: "0CC7085EF289A8C7"
+			shape: "square"
+			subtitle: "Perhaps its their leader.."
+			tasks: [{
+				id: "45A6DC550F54B832"
+				type: "checkmark"
+			}]
+			title: "Master"
+			x: 25.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Has damage resistance against magic type damage. So for diehard magic peepos its gonna be rough, but hes not immune so theres still hope!"
+				""
+				"The mob's damage also bypasses players magical protection."
+				""
+				"Will also seal enchants in armors/weapons for a few seconds."
+			]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:glyph_dispel"
+			id: "574026F0A3212366"
+			shape: "square"
+			subtitle: "De-Spell?"
+			tasks: [{
+				id: "77E0AACDD12AFB5E"
+				type: "checkmark"
+			}]
+			title: "Dispel"
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Has damage resistance to physical attacks. "
+				""
+				"Sorry in advance for those hold W key melee players. I mean it still works, its just gonna take a bit of time."
+				""
+				"Damage dealt to players will bypass armor."
+			]
+			hide_dependency_lines: true
+			icon: "goety_revelation:dementor_focus"
+			id: "2C1D216F5A970C9D"
+			shape: "square"
+			subtitle: "SOO uh, harry potter?"
+			tasks: [{
+				id: "7AC746E5C4741D0D"
+				type: "checkmark"
+			}]
+			title: "Dementor"
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Mob will reduce damage taken from players based on a damage type that it stores (damage stored is based out of mobs trait rank)"
+				""
+				"So if its an adaptive 1, it will store a single damage type and reduce the damage based on it. "
+				"Same goes for adaptive 5 storing 5 DAMAGE TYPES."
+				""
+				"Easily countered by DOT builds since they apply so much damages like burn, poison, flame, ice, soul flame, etc, or you can also switch it up with projectiles, spells, physical attack, along side DOT."
+			]
+			hide_dependency_lines: true
+			icon: "terramity:archangel_halo"
+			id: "7ABCA8B55C8737F2"
+			shape: "square"
+			subtitle: "No more one tricks!"
+			tasks: [{
+				id: "77430D7024F9323E"
+				type: "checkmark"
+			}]
+			title: "Adaptive"
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: [
+				"Best durable option if you want a giga buffed diamond armor with a big ahh durability."
+				""
+				"Rumor has it this armors durability is higher than your skull in real life."
+			]
+			id: "488A238E72B7910A"
+			rewards: [{
+				count: 5
+				id: "03C942F0E260B3B3"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Tuff as hell, hard as a rock."
+			tasks: [
+				{
+					id: "27DD1F1EB6115243"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC1FE1F51C84F08"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00DC1D194DBA47F3"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "302EA83895B40A37"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shulkerate Set"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7380E4BCAD9E622E"]
+			description: ["Rumor has it this armor set works well with some &o&1ring&r&r and some lost &o&3belt&r&r which makes it better than netherite if paired with these said curios."]
+			id: "229F06C89E4E2879"
+			rewards: [{
+				count: 2
+				id: "01FBC8D481A300A7"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Maybe its poseidons lost armor?"
+			tasks: [
+				{
+					id: "6B652557469347ED"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EF7BF1D01A8C3B1"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "711D366AF2C551A8"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50F011588BDE7A22"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Poseidite Set"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"Heals player when damaged, basically if your durability keeps going down, it heals you."
+				""
+				"Works well when paired with Ring of Corrosion + Ring of Life + Safeguard, enjoy :)"
+			]
+			id: "10EB74551B204942"
+			rewards: [{
+				id: "58732634647C1083"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "octagon"
+			subtitle: "For those who are masochistic irl"
+			tasks: [
+				{
+					id: "271A09EB2F0CB028"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C9FAEF1D224D2BF"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AD1FF5189389809"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31CBA5752260366D"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Totemic Gold Set"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66987F4D01E6920F"]
+			description: [
+				"You ever feel like just walking through ancient cities without making a noise? "
+				""
+				"Well heres the armor for you! "
+				""
+				"Now you dont gotta put your friends in trouble, alongside being immune to most debuffs."
+			]
+			id: "1642D88CF842DFFD"
+			rewards: [{
+				id: "337F70CF8E14CF34"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "octagon"
+			subtitle: "Armor for those who like running around ancient cities"
+			tasks: [
+				{
+					id: "567C94B18B2CBE17"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E28CC679D973E4C"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "753ED485154362D7"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25A4A57399ED0549"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sculkium Set"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"More gambling! "
+				""
+				"Burn emerald into lava for a low chance to get these, emerald blocks have higher chances ofc! "
+				""
+				"Have fun :)"
+			]
+			icon: "l2complements:heirophant_green"
+			id: "62B6DF4AE4776530"
+			rewards: [{
+				id: "7D5C0310AF7A7BB2"
+				item: "l2complements:heirophant_green"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "You thought hostility essence was enough?"
+			tasks: [{
+				id: "17FA1F5933CAAC3A"
+				item: "l2complements:heirophant_green"
+				type: "item"
+			}]
+			title: "Heirophant Green"
+			x: 9.5d
+			y: -2.0d
+		}
+	]
+	title: "L2 Hostility"
+}

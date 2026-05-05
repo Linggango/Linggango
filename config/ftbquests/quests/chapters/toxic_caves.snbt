@@ -10,22 +10,32 @@
 	images: [
 		{
 			dependency: "7C2C7D8176150769"
-			height: 1.0d
+			height: 1.25d
 			image: "alexscaves:textures/mob_effect/irradiated.png"
 			rotation: 0.0d
-			width: 1.0d
+			width: 1.25d
 			x: -1.0d
-			y: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "customtextures:textures/toxic_caves_logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: 4.5d
 			y: -4.0d
 		}
 	]
@@ -47,7 +57,7 @@
 			}]
 			title: "So &aToxic!"
 			x: 0.0d
-			y: -1.0d
+			y: -0.9920586545975283d
 		}
 		{
 			dependencies: ["7C2C7D8176150769"]
@@ -70,6 +80,7 @@
 					xp: 5
 				}
 			]
+			shape: "gear"
 			subtitle: "Found in Geothermal Vents"
 			tasks: [{
 				id: "35E3E531243EC4FE"
@@ -77,12 +88,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7C2C7D8176150769"]
 			icon: "alexscaves:spelunkie"
 			id: "2F622667D3C17E14"
+			shape: "heart"
 			subtitle: "Feed a Spelunkie to a Gammaroach"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/feed_gammaroach"
@@ -94,11 +106,12 @@
 			}]
 			title: "Radioactive Friend"
 			x: 2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7C2C7D8176150769"]
 			id: "4E6FE5D0BB8C97F8"
+			shape: "gear"
 			subtitle: "Obtain Toxic Paste"
 			tasks: [{
 				id: "41465724A56AE9CC"
@@ -106,8 +119,8 @@
 				type: "item"
 			}]
 			title: "Toxic goo"
-			x: 2.0d
-			y: -2.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7C2C7D8176150769"]
@@ -117,6 +130,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
 			subtitle: "Can be obtained from sulfur clusts."
 			tasks: [{
 				id: "752FBF63FF7DCDC9"
@@ -124,8 +138,8 @@
 				type: "item"
 			}]
 			title: "Sulfur Dust"
-			x: -2.0d
-			y: -2.5d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7C2C7D8176150769"]
@@ -148,18 +162,18 @@
 					xp: 10
 				}
 			]
+			shape: "gear"
 			subtitle: "Enter Acid While Wearing Armour"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/enter_acid_with_armor"
 				criterion: ""
 				icon: "alexscaves:acid_bucket"
 				id: "43FBF4EAD55D7F06"
-				title: "Bath Bomb"
 				type: "advancement"
 			}]
 			title: "Tank a acid bath"
 			x: -2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7C2C7D8176150769"]
@@ -167,10 +181,16 @@
 			id: "1598BB0C59976629"
 			rewards: [{
 				id: "72DD28B52C24F45B"
-				item: "alexscaves:music_disc_fusion"
+				item: {
+					Count: 1
+					id: "alexscaves:music_disc_fusion"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			shape: "goldtier"
+			shape: "octagon"
 			subtitle: "Craft a Nuclear Bomb"
 			tasks: [{
 				id: "3C15ABF877527C57"
@@ -189,7 +209,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "circle"
+			shape: "gear"
 			subtitle: "Crafting Material"
 			tasks: [{
 				id: "33DB5006C0568589"

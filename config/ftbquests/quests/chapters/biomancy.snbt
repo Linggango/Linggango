@@ -14,33 +14,36 @@
 	id: "5E55600F304A764F"
 	images: [
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			height: 4.0d
-			image: "customtextures:textures/biomancylogo.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: -0.07142857142856229d
-			y: -2.0357142857142847d
-		}
-		{
 			height: 1.0d
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "customtextures:textures/biomancy_title.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -1.5d
 		}
 	]
-	order_index: 11
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -135,8 +138,8 @@
 				item: "biomancy:mob_fang"
 				type: "item"
 			}]
-			x: 3.773259667995994d
-			y: -1.269847003652501d
+			x: 4.3392857142857295d
+			y: -1.125000000000007d
 		}
 		{
 			dependencies: ["47FCFF662453A5FE"]
@@ -170,8 +173,8 @@
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 3.84582235391899d
-			y: -3.192758180611982d
+			x: 4.4549653927173765d
+			y: -3.242906623979728d
 		}
 		{
 			dependencies: ["13FF211A43B0A862"]
@@ -203,8 +206,8 @@
 				type: "checkmark"
 			}]
 			title: "Taking Care of The Blobs"
-			x: 3.7006969820729907d
-			y: -4.789137270917966d
+			x: 4.309840020871377d
+			y: -4.839285714285712d
 		}
 		{
 			dependencies: ["13FF211A43B0A862"]
@@ -226,8 +229,8 @@
 				item: "biomancy:living_flesh"
 				type: "item"
 			}]
-			x: 2.2131619206515083d
-			y: -4.426323841302974d
+			x: 2.8223049594498946d
+			y: -4.47647228467072d
 		}
 		{
 			dependencies: ["13FF211A43B0A862"]
@@ -251,8 +254,8 @@
 				item: "biomancy:malignant_flesh_veins"
 				type: "item"
 			}]
-			x: 5.079388014609982d
-			y: -4.426323841302974d
+			x: 5.688531053408369d
+			y: -4.47647228467072d
 		}
 		{
 			dependencies: ["7F30882A1FAC6E53"]
@@ -269,8 +272,8 @@
 				item: "biomancy:primal_permeable_membrane"
 				type: "item"
 			}]
-			x: 6.929736505646467d
-			y: -3.5918529531884786d
+			x: 7.538879544444853d
+			y: -3.642001396556225d
 		}
 		{
 			dependencies: ["318DE22ED16F859E"]
@@ -292,8 +295,8 @@
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 0.10884402888452627d
-			y: -4.64401189907197d
+			x: 0.7179870676829125d
+			y: -4.694160342439716d
 		}
 		{
 			dependencies: ["2ECE65F4EECE9300"]
@@ -315,8 +318,8 @@
 				item: "biomancy:bio_forge"
 				type: "item"
 			}]
-			x: -2.3220059495359564d
-			y: -4.462605184264472d
+			x: -1.7128629107375701d
+			y: -4.512753627632218d
 		}
 		{
 			dependencies: ["6822C517E79BE9B6"]
@@ -355,8 +358,8 @@
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			x: -3.5555716102269486d
-			y: -3.0113514658044878d
+			x: -3.5d
+			y: -3.5d
 		}
 	]
 	title: "Biomancy"

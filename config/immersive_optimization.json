@@ -26,16 +26,7 @@
     "valkyrienskies": false,
     "minecraft:arrow": false,
     "create": false,
-    "minecraft:ender_dragon": false,
-    "fdbosses:malkuth": false,
-    "minecraft:phantom": false,
-    "mowziesmobs:sculptor": false,
-    "mowziesmobs:boulder_platform": false,
-    "entity.mowziesmobs.boulder_platform": false,
-    "thrown_biomechanical_reactor": true,
-    "hexerei": true,
-    "hexerei:owl": false,
-    "ars_nouveau": false
+    "minecraft:ender_dragon": false
   },
   "version": 2,
   "name": "immersive_optimization"

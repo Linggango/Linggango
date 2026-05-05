@@ -1,7 +1,7 @@
 {
 	id: "177134B6A5C67181"
 	loot_size: 1
-	order_index: 14
+	order_index: 15
 	rewards: [
 		{ count: 3, item: "ad_astra:desh_plate" }
 		{ count: 2, item: "ad_astra:engine_frame" }
@@ -39,13 +39,7 @@
 		}
 		{ count: 2, item: "ad_astra:nasa_workbench" }
 		{ count: 2, item: "ad_astra:oxygen_distributor" }
-		{
-			item: {
-				Count: 1
-				id: "ad_astra:energizer"
-				tag: { }
-			}
-		}
+		{ item: "ad_astra:energizer" }
 		{ count: 2, item: "ad_astra:etrionic_blast_furnace", weight: 0.1f }
 		{
 			item: {
@@ -59,14 +53,7 @@
 		}
 		{ count: 3, item: "ad_astra:cryo_freezer", weight: 0.1f }
 		{ count: 3, item: "ad_astra:desh_nugget" }
-		{
-			item: {
-				Count: 1
-				id: "ad_astra:tier_1_rocket"
-				tag: { }
-			}
-			weight: 0.1f
-		}
+		{ item: "ad_astra:tier_1_rocket", weight: 0.1f }
 		{ count: 3, item: "ad_astra:iron_sliding_door" }
 		{ count: 4, item: "ad_astra:desh_tank" }
 	]

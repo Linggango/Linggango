@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "netheritetier"
 	filename: "challenges"
-	group: "3B5FC78CC89E4CD7"
+	group: "24697C49C2A3ADAA"
 	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
@@ -22,16 +22,6 @@
 			y: -1.5d
 		}
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -13.5d
-			y: -1.5d
-		}
-		{
 			click: "a"
 			height: 1.0d
 			hover: ["Extremely WIP.. lmk if u got challenge ideas in my discord.."]
@@ -41,8 +31,21 @@
 			x: -9.5d
 			y: -5.5d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -7.0d
+		}
 	]
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -55,7 +58,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "ancient_elements:item/ancient_helmet"
+					Icon: "born_in_chaos_v1:item/magicarrowskull"
 				}
 			}
 			icon_scale: 1.4d
@@ -265,6 +268,39 @@
 			title: "&l&cPainful&r &lExperience"
 			x: -7.123469387755065d
 			y: -2.605102040816355d
+		}
+		{
+			dependencies: ["75143005BED675A7"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticaddons:item/lost_engine"
+				}
+			}
+			id: "7729B85B4F8D1D2B"
+			rewards: [{
+				id: "1C24BF66A3D6DE0B"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:lost_engine"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:binding_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Finish the pack with &clost engine."
+			tasks: [{
+				id: "42FC441F6EE00CF3"
+				type: "checkmark"
+			}]
+			title: "&b&lZap Zap&r"
+			x: -12.0d
+			y: -1.5d
 		}
 	]
 	title: "Challenges"

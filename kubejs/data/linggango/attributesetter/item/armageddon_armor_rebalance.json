@@ -1,0 +1,226 @@
+{
+  "armageddon_mod:helionite_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0050-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -6.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0050-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0050-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0050-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0050-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0050-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0050-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 130.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0050-4100-8000-000000000008"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0050-4100-8000-000000000009"
+    }
+  ],
+  "armageddon_mod:helionite_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0051-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -6.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0051-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0051-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0051-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0051-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0051-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0051-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 130.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0051-4100-8000-000000000008"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0051-4100-8000-000000000009"
+    }
+  ],
+  "armageddon_mod:helionite_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0052-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -6.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0052-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0052-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0052-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0052-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0052-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0052-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 130.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0052-4100-8000-000000000008"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0052-4100-8000-000000000009"
+    }
+  ],
+  "armageddon_mod:helionite_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0053-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": -6.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0053-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0053-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0053-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0053-4100-8000-000000000005"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0053-4100-8000-000000000006"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0053-4100-8000-000000000007"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 130.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0053-4100-8000-000000000008"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0053-4100-8000-000000000009"
+    }
+  ]
+}

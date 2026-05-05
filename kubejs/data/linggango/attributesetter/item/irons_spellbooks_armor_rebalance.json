@@ -1,0 +1,55 @@
+{
+  "irons_spellbooks:tarnished_helmet": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "value": 0.30,
+      "uuid": "7b936974-a8d3-11ef-9507-325096b39f47",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "irons_spellbooks:wandering_magician_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "irons_spellbooks:wandering_magician_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -2,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "irons_spellbooks:wandering_magician_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -4,
+      "operation": "ADDITION"
+    }
+  ],
+
+  "irons_spellbooks:wandering_magician_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1,
+      "operation": "ADDITION"
+    }
+  ]
+
+}

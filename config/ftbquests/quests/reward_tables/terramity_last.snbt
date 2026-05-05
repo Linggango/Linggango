@@ -1,0 +1,41 @@
+{
+	id: "4105E7D42A476E57"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "terramity:reverium", random_bonus: 1 }
+		{ item: "terramity:exodium_superalloy", random_bonus: 1 }
+		{ item: "terramity:conductite", random_bonus: 1 }
+		{ item: "terramity:antiprism" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+				id: "terramity:blood_contract"
+			}
+			random_bonus: 2
+		}
+		{ item: "terramity:opaline_moonstone", random_bonus: 2 }
+		{ item: "terramity:hellspec_alloy", random_bonus: 2 }
+		{ item: "terramity:nyxium", random_bonus: 1 }
+		{ item: "terramity:profanum", random_bonus: 2 }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 4
+					}
+				}
+				id: "terramity:ocarina_of_power"
+			}
+		}
+	]
+	title: "terramity last"
+}

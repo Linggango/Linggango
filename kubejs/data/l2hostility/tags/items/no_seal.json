@@ -1,0 +1,42 @@
+{
+  "values": [
+    "l2hostility:curse_of_envy",
+    "l2hostility:curse_of_gluttony",
+    "l2hostility:curse_of_sloth",
+    "l2hostility:abrahadabra",
+    "l2hostility:pocket_of_restoration",
+    "l2hostility:sealed_item",
+    {
+      "id": "enigmaticlegacy:cursed_ring",
+      "required": false
+    },
+      {
+      "id": "covenant_of_the_seven:virtue_ring",
+      "required": false
+    },
+      {
+      "id": "brutality:phantom_finger",
+      "required": false
+    },
+      {
+      "id": "brutality:anklent",
+      "required": false
+    },
+      {
+      "id": "enigmaticaddons:forger_gem",
+      "required": false
+    },
+      {
+      "id": "enigmaticaddons:adventure_charm",
+      "required": false
+    },
+      {
+      "id": "covenant_of_the_seven:rebirth_egg",
+      "required": false
+    },
+      {
+      "id": "enigmaticlegacy:insignia",
+      "required": false
+    }
+  ]
+}

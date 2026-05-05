@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 4.5,
+    "attack_range": 5.0,
     "two_handed": true,
     "category": "greathammer",
     "pose": "weapon:pose_great_sword_animated",

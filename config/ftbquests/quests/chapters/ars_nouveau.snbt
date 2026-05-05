@@ -14,30 +14,25 @@
 	id: "6AEDA2F9BEB57759"
 	images: [
 		{
+			height: 1.8d
+			image: "customtextures:textures/ars_nouveau.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "ars_nouveau:block/fire_0"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: -1.0d
-		}
-		{
-			height: 1.7d
-			image: "customtextures:textures/arsnoveaulogo.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: -9.0d
-			y: -2.0d
+			x: -9.5d
+			y: -4.0d
 		}
 	]
 	order_index: 4
@@ -58,7 +53,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			size: 1.3d
+			size: 1.5d
 			subtitle: "Welcome To Ars Nouveau!"
 			tasks: [{
 				icon: "ars_nouveau:creative_spell_book"
@@ -67,7 +62,7 @@
 				type: "checkmark"
 			}]
 			title: "&eArs Nouveau"
-			x: -9.0d
+			x: -9.5d
 			y: 0.0d
 		}
 		{
@@ -85,8 +80,8 @@
 				item: "ars_nouveau:starbuncle_charm"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -10.5d
+			x: 4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -104,8 +99,8 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -10.5d
+			x: 4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
@@ -123,7 +118,7 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
@@ -138,8 +133,8 @@
 				}
 			]
 			title: "Enchanting Apparatus"
-			x: -4.5d
-			y: -6.0d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
@@ -156,7 +151,7 @@
 				type: "item"
 			}]
 			shape: "woodtier"
-			size: 1.1d
+			size: 1.0d
 			subtitle: "Magical Bar Chairs"
 			tasks: [{
 				count: 8L
@@ -165,8 +160,8 @@
 				type: "item"
 			}]
 			title: "Arcane Pedastals"
-			x: -2.0d
-			y: -6.0d
+			x: -1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
@@ -199,8 +194,8 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.504761904761871d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -218,8 +213,8 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.0d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6E0E13806F388D7E"]
@@ -255,7 +250,7 @@
 				type: "item"
 			}]
 			title: "Novice Spell Book"
-			x: -5.5d
+			x: -6.5d
 			y: 0.0d
 		}
 		{
@@ -282,7 +277,7 @@
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
@@ -313,7 +308,7 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -332,15 +327,15 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			size: 1.1d
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1E0B9FBF5319CEF6"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -363,7 +358,7 @@
 				item: "ars_nouveau:potion_jar"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -379,14 +374,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.1d
+			size: 1.0d
 			subtitle: "Crafting Source Gems"
 			tasks: [{
 				id: "78B5B8F9CE9EC702"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -434,8 +429,8 @@
 				}
 			]
 			title: "Archwood Logs"
-			x: -2.0d
-			y: -0.004761904761870994d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
@@ -458,7 +453,7 @@
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -476,8 +471,8 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -9.5d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -495,8 +490,8 @@
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.5d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -519,7 +514,7 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -544,7 +539,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -4.5d
 		}
 		{
@@ -600,8 +595,8 @@
 				type: "checkmark"
 			}]
 			title: "Crafting Spells"
-			x: -4.5d
-			y: 1.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
@@ -637,8 +632,8 @@
 				type: "checkmark"
 			}]
 			title: "Mana System"
-			x: -6.5d
-			y: 1.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5766C8B9E850C186"]
@@ -651,7 +646,7 @@
 				type: "item"
 			}]
 			shape: "goldtier"
-			size: 1.1d
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
@@ -660,7 +655,7 @@
 				type: "item"
 			}]
 			title: "A Source Gem"
-			x: 0.5d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -696,7 +691,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -715,7 +710,7 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -739,7 +734,7 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -763,7 +758,7 @@
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -787,7 +782,7 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -806,7 +801,7 @@
 					xp: 200
 				}
 			]
-			size: 1.1d
+			size: 1.0d
 			subtitle: "Machines?!"
 			tasks: [{
 				count: 8L
@@ -816,8 +811,8 @@
 				type: "item"
 			}]
 			title: "Sourcestones"
-			x: 0.5d
-			y: -6.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
@@ -835,7 +830,7 @@
 				item: "ars_nouveau:spell_parchment"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -848,7 +843,7 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			size: 1.1d
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "259C1D84AD3996AF"
@@ -856,8 +851,8 @@
 				type: "item"
 			}]
 			title: "Summoning Help!"
-			x: -4.5d
-			y: -8.0d
+			x: 3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -880,8 +875,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -905,8 +900,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.5d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -925,8 +920,8 @@
 				item: "ars_nouveau:spell_bow"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.5d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -943,8 +938,8 @@
 				item: "ars_nouveau:wand"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
@@ -957,8 +952,8 @@
 				item: "tomeofblood:novice_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5F1DD2ADD3D5D266"]
@@ -968,8 +963,8 @@
 				item: "tomeofblood:apprentice_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5773EE2F91F579CC"]
@@ -979,8 +974,8 @@
 				item: "tomeofblood:archmage_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -6.5d
+			y: 4.5d
 		}
 	]
 	title: "Ars Nouveau"

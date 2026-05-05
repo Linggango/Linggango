@@ -24,17 +24,6 @@
 			y: 1.5d
 		}
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 25
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: -7.0d
-		}
-		{
 			height: 0.8d
 			image: "terramity:textures/particle/ultra_glint_5.png"
 			rotation: 0.0d
@@ -81,12 +70,12 @@
 			y: 2.6785714285714235d
 		}
 		{
-			height: 3.0d
+			height: 4.0d
 			image: "customtextures:textures/celestisynthlogo.png"
 			rotation: 0.0d
-			width: 6.0d
+			width: 8.0d
 			x: -2.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			height: 1.0d
@@ -170,8 +159,21 @@
 			x: -2.0d
 			y: 7.0d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
 	]
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -197,15 +199,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "740FC3B872ABA194"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:starlit_factory"
-				}
+				item: "celestisynth:starlit_factory"
 				type: "item"
 			}]
 			title: "Starlit Factory"
@@ -234,7 +228,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			size: 1.3d
+			size: 1.8d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "11F849758B2291D8"
@@ -260,15 +254,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "562BE0AC1951A6F3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:celestial_core"
-				}
+				item: "celestisynth:celestial_core"
 				type: "item"
 			}]
 			x: -2.0d
@@ -289,15 +275,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "38F6563ADB5F4A48"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:celestial_core_heated"
-				}
+				item: "celestisynth:celestial_core_heated"
 				type: "item"
 			}]
 			x: -2.0d
@@ -319,11 +297,6 @@
 				id: "5CB38A8AFDB9C299"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:solaris"
 					tag: {
 						Damage: 0
@@ -351,11 +324,6 @@
 				id: "59974C498051DA1F"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:breezebreaker"
 					tag: {
 						Damage: 0
@@ -384,11 +352,6 @@
 				id: "2D51EF0C61905619"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:crescentia"
 					tag: {
 						Damage: 0
@@ -431,11 +394,6 @@
 				id: "453029AB3DCE695D"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:keres"
 					tag: {
 						Autoreforge: 1b
@@ -474,11 +432,6 @@
 				id: "7CDC00175A699D7D"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:poltergeist"
 					tag: {
 						Autoreforge: 1b
@@ -516,11 +469,6 @@
 				id: "1902A7A5FBC71C7F"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:aquaflora"
 					tag: {
 						Damage: 0
@@ -548,11 +496,6 @@
 				id: "7753558EAFCEE36A"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:rainfall_serenity"
 					tag: {
 						Damage: 0
@@ -583,15 +526,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3589DD4E1E029494"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:supernal_netherite_ingot"
-				}
+				item: "celestisynth:supernal_netherite_ingot"
 				type: "item"
 			}]
 			x: -4.0d
@@ -613,15 +548,7 @@
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "771188E5F094F4F1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:celestial_netherite_ingot"
-				}
+				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
 			x: -4.0d
@@ -643,11 +570,6 @@
 				id: "2F66572FD3884892"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "celestisynth:frostbound"
 					tag: {
 						Damage: 0

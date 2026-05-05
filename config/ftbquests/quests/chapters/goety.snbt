@@ -15,16 +15,6 @@
 	id: "4E8B5FE547EA181F"
 	images: [
 		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -1.5d
-		}
-		{
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
@@ -1721,10 +1711,10 @@
 			y: 3.5238095238095184d
 		}
 		{
-			height: 2.0d
-			image: "customtextures:textures/goetylogo1.png"
+			height: 1.2d
+			image: "customtextures:textures/goety.png"
 			rotation: 0.0d
-			width: 5.0d
+			width: 8.0d
 			x: -2.5d
 			y: 0.0d
 		}
@@ -1736,8 +1726,21 @@
 			x: -4.0d
 			y: 1.5d
 		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
 	]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1819,7 +1822,7 @@
 				item: "goety:empty_focus"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "&8[Click to read]"
 			tasks: [{
@@ -2000,7 +2003,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.2d
 			subtitle: "Can be placed on spawners, insert an emerald to imbue it with soul energy."
 			tasks: [

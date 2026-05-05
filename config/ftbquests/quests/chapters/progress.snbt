@@ -21,8 +21,8 @@
 			image: "ars_nouveau:textures/gui/discord_tab.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.0d
-			y: -15.5d
+			x: -11.5d
+			y: -16.196428571428562d
 		}
 		{
 			dependency: "647CCE4CA1600E21"
@@ -31,125 +31,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: -13.0d
-			y: -9.5d
-		}
-		{
-			click: "A"
-			dependency: "79097B7E3E4E2782"
-			height: 1.0d
-			hover: ["Unlocks Iron"]
-			image: "minecraft:item/iron_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.0d
-			y: -14.5d
-		}
-		{
-			click: "a"
-			dependency: "5D3E8E9BCD0A9935"
-			height: 1.0d
-			hover: ["Unlocks Gold"]
-			image: "minecraft:item/gold_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -15.5d
-		}
-		{
-			click: "a"
-			dependency: "7D0C439E5D207DDE"
-			height: 1.0d
-			hover: ["Unlocks Emerald"]
-			image: "minecraft:item/emerald"
-			rotation: 90.0d
-			width: 1.0d
-			x: -5.0d
-			y: -13.0d
-		}
-		{
-			click: "a"
-			dependency: "4F34F740CD095315"
-			height: 1.0d
-			hover: ["Unlocks Diamond"]
-			image: "minecraft:item/diamond"
-			rotation: 180.0d
-			width: 1.0d
-			x: -6.0d
-			y: -9.5d
-		}
-		{
-			click: "a"
-			dependency: "2EAC826E47A3A682"
-			height: 1.0d
-			hover: ["Unlocks Netherite"]
-			image: "minecraft:item/netherite_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: -11.5d
-		}
-		{
-			click: "a"
-			dependency: "2B69C369F7D0B25C"
-			height: 1.0d
-			hover: ["Unlocks The Elvenite"]
-			image: "armageddon_mod:item/elvenite_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -8.5d
-		}
-		{
-			click: "a"
-			dependency: "231B06216159E95A"
-			height: 1.0d
-			hover: ["Unlocks Voiderite"]
-			image: "armageddon_mod:item/voiderite_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -8.5d
-		}
-		{
-			click: "a"
-			dependency: "4BFFC4F93792C4F7"
-			height: 1.0d
-			hover: ["Unlocks Bloody Ingot"]
-			image: "armageddon_mod:item/bloody_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: -5.5d
-		}
-		{
-			dev: true
-			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.0d
-			y: -13.0d
-		}
-		{
-			dependency: "19F19149E61D93AD"
-			height: 1.0d
-			image: "hexerei:textures/book/arrow_right_hover.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -13.5d
-		}
-		{
-			click: "a"
-			dependency: "297F31BB6030C00F"
-			height: 1.0d
-			hover: ["INFO: The game will become incredibly harder after defeating the ender dragon!"]
-			image: "jei:textures/jei/atlas/gui/icons/info.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			click: "a"
@@ -159,7 +41,7 @@
 			image: "ftblibrary:icons/money_bag"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
+			x: 5.0d
 			y: -13.5d
 		}
 		{
@@ -168,27 +50,29 @@
 			image: "minecraft:item/ender_eye"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
+			x: 5.0d
 			y: -10.5d
 		}
 		{
-			height: 2.6d
-			image: "customtextures:textures/mainprog.png"
+			height: 2.5d
+			image: "customtextures:textures/main_progression.png"
 			rotation: 0.0d
-			width: 12.0d
-			x: -10.0d
-			y: -18.0d
+			width: 10.0d
+			x: -10.5d
+			y: -18.5d
 		}
 		{
-			click: "a"
-			dependency: "25326B961DE6B5EA"
+			dev: true
 			height: 1.0d
-			hover: ["Unlocks Helionite"]
-			image: "armageddon_mod:item/blessed_ingot_of_the_sun"
+			hover: [
+				"Questlines belong to me and are protected under All Rights Reserved."
+				"Do not attempt to use or steal them without my explicit permission."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -14.5d
-			y: -5.5d
+			x: -10.5d
+			y: -20.5d
 		}
 	]
 	order_index: 0
@@ -197,11 +81,11 @@
 		{
 			dependencies: ["79097B7E3E4E2782"]
 			description: [
-				"If you've encountered difficulty mining Iron or using Iron tools, you've discovered the progression change."
+				"If you've encountered any issues using Iron tools, you've discovered the progression change. Good job!"
 				""
-				"{image:customtextures:textures/ironoreerror.png width:200 height:30 align:center}"
+				"Summon the Iron Colossus, and &4defeat&r him to gain access to Iron tools!"
 				""
-				"Minecraft's main ores are now guarded by powerful bosses. To proceed, you must challenge the &cIron Colossus!&r Craft the Iron Remote, and summon him!"
+				"He is the leader of the Iron Golems, he has the power to slow you down when he's near and when you get hit, so time your attacks right and dodge his attacks on time!"
 			]
 			id: "5D3E8E9BCD0A9935"
 			rewards: [
@@ -244,8 +128,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "39392EAA73398E23"
@@ -259,8 +143,8 @@
 				type: "item"
 			}]
 			title: "Why cant i break iron?"
-			x: -8.0d
-			y: -15.5d
+			x: -10.62d
+			y: -13.5d
 		}
 		{
 			dependency_requirement: "one_started"
@@ -269,8 +153,13 @@
 				""
 				"The Armageddon mod completely overhauls Minecraft's standard progression with something far more exciting! It also introduces new mechanics and additional ores."
 				""
+				"Bosses also have their own new gimmicks, and will require preperation before taking them down, so be prepared and dont rush through them!"
+				""
+				"Respect bosses &7armor stat&r, and &2HP&r.&4 Lethality&r, and &carmor corrosion&r will be important!"
+				""
 				"{image:customtextures:textures/armageddonlogo.png width:200 height:50 align:center}"
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -305,38 +194,26 @@
 				}
 			]
 			shape: "square"
-			size: 1.35d
+			size: 1.0d
 			subtitle: "&8[Click to read]"
-			tasks: [
-				{
-					dimension: "minecraft:overworld"
-					disable_toast: true
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "armageddon_mod:item/bruh_sword"
-						}
-					}
-					id: "63EA418D3EEA25E9"
-					title: "Armageddon Mod!"
-					type: "dimension"
-				}
-				{
-					disable_toast: true
-					elapsedTime: 20L
-					id: "503794A1364FA734"
-					title: "Wait!"
-					type: "questsadditions:time"
-				}
-			]
+			tasks: [{
+				id: "517762E1AADD3638"
+				title: "cool"
+				type: "checkmark"
+			}]
 			title: "New Progression Mechanics"
-			x: -10.0d
-			y: -15.5d
+			x: -10.625d
+			y: -16.25d
 		}
 		{
 			dependencies: ["5D3E8E9BCD0A9935"]
-			description: ["Same with iron, in order to get to gold ingot, we need to kill &cThe Goblin Lord&r"]
+			description: [
+				"Same with iron, in order to get to gold ingot, we need to kill &cThe Goblin Lord&r"
+				""
+				"This time, the boss itself inflicts a lot of debuffs when you get hit, so becareful and dodge those attacks! "
+				""
+				"His summons are also scarier, more stronger than the boss itself, but really weak in vitality, take advantage of this and choose your priority!"
+			]
 			icon_scale: 1.2d
 			id: "7D0C439E5D207DDE"
 			rewards: [
@@ -351,8 +228,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2AEC50CF84DFB0EE"
@@ -365,18 +242,18 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Gold!"
-			x: -6.0d
-			y: -15.5d
+			title: "The Journey to Gold "
+			x: -8.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7D0C439E5D207DDE"]
 			description: [
 				"&cArion&r is an &8Elite Pillager&r, and he has some magical knowledge too, so be aware!"
 				""
-				"Defeating this formidable foe will unlock a vast new tier of weapons and armor, including access to &2Emerald&r crafting materials."
+				"Becareful of his 2nd phase, as he counter attacks when attacked. He has a power up phase where he glows, which makes him deal damage when it happens, take caution."
 				""
-				"&eNote: Emerald Totem is crafted through Create Compacting."
+				"Defeating this formidable foe will unlock a vast new tier of weapons and armor, including access to &2Emerald&r crafting materials."
 			]
 			id: "4F34F740CD095315"
 			rewards: [
@@ -397,8 +274,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "694DA8D87F0DA4F3"
@@ -411,18 +288,24 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Emerald!"
-			x: -6.0d
-			y: -13.0d
+			title: "Accessing Emerald Items!"
+			x: -5.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["4F34F740CD095315"]
 			description: [
 				"&cEldorath&r is an ancient warrior whose prime was long ago, but do not underestimate him, he remains still strong."
 				""
+				"He'll make you levitate, and have projectiles that you'd have to dodge, otherwise it'll hurt! "
+				""
+				"Same goes for allays, so prioritize them!"
+				""
+				"They can also be destroyed by attacking the bullets, just make sure you do this so neither the allays, or the boss can hit you and get you killed."
+				""
 				"Defeating this boss will unlock a powerful new arsenal of weapons, access to core enchanting mechanics, and the key to &bDiamond&r crafting."
 				""
-				"&cImportant:&r Be sure to bring bucket of water to mitigate fall damage."
+				"&cImportant:&r Be sure to bring bucket of water to mitigate fall damage, or bunny hoppers, or even any curios that have fall damage negation."
 			]
 			id: "2EAC826E47A3A682"
 			rewards: [
@@ -436,9 +319,15 @@
 					item: "minecraft:water_bucket"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "2EE1ED5195C28368"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3FD1CCE976B9831B"
@@ -451,9 +340,9 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Diamond"
-			x: -6.0d
-			y: -10.5d
+			title: "DIAMONDS!"
+			x: -3.75d
+			y: -10.0d
 		}
 		{
 			dependencies: ["177DFA9CBE995173"]
@@ -462,7 +351,12 @@
 				""
 				"Defeating this powerful boss will unlock a wealth of new weapons and armor, granting you access to the &eNetherite."
 				""
-				"Warning: Zoranth can only be spawned within the Nether Dimension."
+				"&eNote:&r Zoranth can only be spawned within the Nether Dimension."
+				""
+				"&cNote 2:&r Cleanse potions in this fight will help purify n&4egative effects&r (especially &5cursed&r, it applies anti heal) but you also wont be able to obtain positive effects. "
+				"Use cleanse spells as an alternative, or even milk buckets if you dont want that."
+				""
+				"&dNote 3:&r He cant be hit unless you kill his summons, and he heals infinitely unless you apply anti heal (cursed effect) either via potion, or via cursed blade enchant."
 			]
 			id: "297F31BB6030C00F"
 			rewards: [
@@ -477,8 +371,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "pentagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7C71359E6E149A5C"
@@ -491,18 +385,22 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Netherite"
-			x: -2.0d
-			y: -10.5d
+			title: "The forgotten one."
+			x: 0.625d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2B69C369F7D0B25C"]
 			description: [
-				"Elvenite is a new ore introduced by the Armageddon mod."
+				"&eElvenite&r is a new ore introduced by the Armageddon mod."
 				""
-				"This material allows you to craft numerous powerful swords and a complete armor set. Of course, access to this valuable resource is gated by another boss challenge."
+				"&4Defeat&r the boss, and you'll be able to access tools within &eElvenite Level&r."
 				""
-				"&eNote: Titan's insignia is crafted through Create Heated Compacting."
+				"The boss itself has a mechanic where it increases durability damage to your items, and gains &4increased damage&r for every item that has lost durability. "
+				""
+				"Becareful with your damage, &4reflect&r might also kill you."
+				""
+				"I suggest you make your item &2unbreakable&r, or enchant it with &6hardened&r."
 			]
 			id: "231B06216159E95A"
 			rewards: [
@@ -517,8 +415,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "pentagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0E74AD81045EEB1A"
@@ -531,18 +429,24 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Elvenite"
-			x: -4.0d
-			y: -7.5d
+			title: "The paladin himself, Elvenite."
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["231B06216159E95A"]
 			description: [
 				"Vaedric was once a solitary wanderer of the End Dimension. You can say it was a journey that, unfortunately, did not end well for him."
 				""
-				"Defeating this entity will unlock Voiderite!"
+				"He now harbors ender power, allowing him to have &5summons&r."
 				""
-				"&7&lNote: You must summon him on the Outer End Islands."
+				"Becareful, for he can &2pull&r you close to him, and his summons as well can pull you."
+				""
+				"&4Do not use DOT's against this boss&r, for he will be able to escape most of the attacks. "
+				""
+				"Defeating this entity will unlock Voiderite level items!"
+				""
+				"&eNote:&r You must summon him on the Outer End Islands."
 			]
 			id: "4E97AB0CAB1A3763"
 			rewards: [
@@ -557,8 +461,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7F803DA0A30DEC5E"
@@ -571,15 +475,18 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.5d
+			title: "The fallen wanderer."
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4E97AB0CAB1A3763"]
 			description: [
 				"Defeating this entity is crucial, as it drops a key item required for all incoming boss encounters."
 				""
-				"Be warned: this foe is immortal for a short duration during its second phase!"
+				"Be warned: this foe is immortal for a short duration during its second phase, so wait for it to drop before attacking!"
+				""
+				"Soul Flame Blade/Ice Blade/Sharp Blade does go through this immortality phase."
 				""
 				"&8Go create your own build from now on."
 			]
@@ -602,8 +509,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7BD2921B77B302C6"
@@ -616,12 +523,17 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -7.5d
+			title: "The doombringer."
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["338DD0DDABBF130D"]
-			description: ["The Four Calamity are responsible for the current state of the Overworld, acting as one of the main reasons that it is now corrupted with undead monsters."]
+			description: [
+				"The Four Calamity are responsible for the current state of the Overworld, acting as one of the main reasons that it is now corrupted with undead monsters."
+				""
+				"Each of them bear their strengths, becareful."
+			]
 			id: "4BFFC4F93792C4F7"
 			rewards: [
 				{
@@ -642,8 +554,8 @@
 					type: "random"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7371A1AA3D9C1A4A"
@@ -656,8 +568,9 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -7.5d
+			title: "The Calamities."
+			x: -9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
@@ -720,7 +633,7 @@
 				}
 			]
 			title: "Craft an Ankh Tablet"
-			x: -10.0d
+			x: -9.5d
 			y: -9.0d
 		}
 		{
@@ -728,7 +641,11 @@
 			description: [
 				"Lord of the Blood Ore... yes, more like Mohg, Lord of Blood from elden ring.."
 				""
-				"&eCocoon of Blood is crafted through Create Heated Mixing."
+				"The boss is capable of &4regenerating&r his life when his blood orbs remain. "
+				""
+				"Destroy this, but keep caution of the &4blood aura&r surrounding him, for it deals damage every few seconds. "
+				""
+				"Same goes for his blood orbs, they all damage the area near them, it has an indicator as well."
 			]
 			id: "25326B961DE6B5EA"
 			rewards: [
@@ -751,8 +668,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.25d
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4359AEA5A7EC91E3"
@@ -765,16 +682,18 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Blood!"
-			x: -10.0d
-			y: -5.5d
+			title: "The lord of blood himself"
+			x: -9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
 			description: [
-				"Umvuthi's older brother....... they look kinda different though."
+				"The newborn of the zenith, Zoranth, is last boss before the challenging one."
 				""
-				"&eThe sun Emblem is Crafted through create compacting"
+				"Using everything you've learned so far, theres something new to learn on top of that."
+				""
+				"If you think sealing your enchants was tough, Zoranth can seal your items one at a time when hit."
 			]
 			id: "647CCE4CA1600E21"
 			rewards: [{
@@ -789,8 +708,8 @@
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "square"
-			size: 1.45d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2A6C4BFBB6B26F6D"
@@ -803,23 +722,22 @@
 				}
 				type: "item"
 			}]
-			title: "Accessing The Helionate!"
+			title: "Zoranth, the original one."
 			x: -13.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["647CCE4CA1600E21"]
 			description: [
 				"Nyxaris is a vile, disgusting, and ruthless creature of pure malice!"
 				""
+				"Are you ready for what he &4brings&r?"
+				""
+				"&4Perhaps everything that you've learned through this journey still remains on your mind.&r"
+				""
 				"You will need to bring the Absorbing Stone into the fight in order to ease the difficulty of this encounter."
-				""
-				"It is time to check the prerequisites for this battle:"
-				""
-				"{ \"text\": \"Bosses Questline\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1877819E0EA0C97B\" } }"
-				""
-				"&eThe Corrupted Tear is Crafted through Create Super-Heated Mixing."
 			]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "armageddon_mod:the_corrupted_tear"
@@ -841,7 +759,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
@@ -869,16 +787,18 @@
 			]
 			title: "The Main Reason Of Corruption"
 			x: -13.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
 			description: [
 				"&cThe Ender Dragon&r is among the most ancient creatures in existence. She guards the gates to the End Cities until her final breath."
 				""
+				"The dragon itself launches a lot of &4projectiles&r that has to be dodged, get hit and you'll take MASSIVE damage."
+				""
 				"There is a profound reason she has survived for so long. Upon her death, she will drop the unique material known as &eKhyros's Tears.&r"
 				""
-				"&4&lWARNING!&r This encounter represents a major difficulty jump from previous challenges."
+				"&4&lWARNING!&r This encounter will result in a major difficulty jump from previous challenges."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:ender_eye"
@@ -897,8 +817,8 @@
 				title: "&l&4Glorious"
 				type: "random"
 			}]
-			shape: "square"
-			size: 1.25d
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "End / Main island"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -909,11 +829,12 @@
 				value: 1L
 			}]
 			title: "Kill&c The Ender Dragon"
-			x: -2.0d
-			y: -7.5d
+			x: 0.62d
+			y: -7.0d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
+			description: ["Endermans have a &e0.5%&r to drop some of these eyes btw!"]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -929,8 +850,8 @@
 				type: "xp"
 				xp: 1
 			}]
-			shape: "square"
-			size: 1.25d
+			shape: "heart"
+			size: 1.0d
 			subtitle: "Opens the eye shop"
 			tasks: [{
 				id: "2B699C669419D85D"
@@ -938,8 +859,8 @@
 				type: "checkmark"
 			}]
 			title: "Missing Any Eyes?"
-			x: -0.5d
-			y: -10.5d
+			x: 3.0d
+			y: -10.0d
 		}
 		{
 			can_repeat: true
@@ -974,7 +895,7 @@
 				type: "item"
 			}]
 			title: "Lost Eye"
-			x: 2.0d
+			x: 5.0d
 			y: -11.5d
 		}
 		{
@@ -1010,7 +931,7 @@
 				type: "item"
 			}]
 			title: "Corrupted Eye"
-			x: 2.0d
+			x: 5.0d
 			y: -12.5d
 		}
 		{
@@ -1046,7 +967,7 @@
 				type: "item"
 			}]
 			title: "&bCold Eye"
-			x: 3.0d
+			x: 6.0d
 			y: -10.5d
 		}
 		{
@@ -1082,7 +1003,7 @@
 				type: "item"
 			}]
 			title: "Black Eye"
-			x: 1.5d
+			x: 4.5d
 			y: -12.0d
 		}
 		{
@@ -1118,7 +1039,7 @@
 				type: "item"
 			}]
 			title: "&bEvil Eye"
-			x: 2.5d
+			x: 5.5d
 			y: -12.0d
 		}
 		{
@@ -1154,7 +1075,7 @@
 				type: "item"
 			}]
 			title: "Rogue Eye"
-			x: 1.5d
+			x: 4.5d
 			y: -11.0d
 		}
 		{
@@ -1190,7 +1111,7 @@
 				type: "item"
 			}]
 			title: "Old Eye"
-			x: 2.5d
+			x: 5.5d
 			y: -10.0d
 		}
 		{
@@ -1226,7 +1147,7 @@
 				type: "item"
 			}]
 			title: "&bNether Eye"
-			x: 2.0d
+			x: 5.0d
 			y: -9.5d
 		}
 		{
@@ -1262,7 +1183,7 @@
 				type: "item"
 			}]
 			title: "&dUndead Eye"
-			x: 1.5d
+			x: 4.5d
 			y: -9.0d
 		}
 		{
@@ -1298,7 +1219,7 @@
 				type: "item"
 			}]
 			title: "Witch Eye"
-			x: 1.5d
+			x: 4.5d
 			y: -10.0d
 		}
 		{
@@ -1334,7 +1255,7 @@
 				type: "item"
 			}]
 			title: "&bGuardian Eye"
-			x: 2.5d
+			x: 5.5d
 			y: -11.0d
 		}
 		{
@@ -1370,7 +1291,7 @@
 				type: "item"
 			}]
 			title: "&dWither Eye"
-			x: 1.0d
+			x: 4.0d
 			y: -10.5d
 		}
 		{
@@ -1382,6 +1303,8 @@
 				""
 				"&8If you are experienced with lucky blocks, you know this is something you should not underestimate!&r"
 			]
+			disable_toast: true
+			icon: "enigmaticdice:enigmatic_die"
 			id: "4F9FDBC9169FEBBF"
 			rewards: [{
 				id: "122BEBEE21620E47"
@@ -1390,15 +1313,16 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Lucky &mBlocks&r Dices!"
 			tasks: [{
+				disable_toast: true
 				id: "6ACEE3AA66C01647"
 				item: "enigmaticdice:enigmatic_die"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -14.0d
+			x: -7.8d
+			y: -16.2d
 		}
 		{
 			dependencies: ["4E97AB0CAB1A3763"]
@@ -1431,7 +1355,7 @@
 				xp: 1
 			}]
 			shape: "square"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Didn't had enough?"
 			tasks: [{
 				id: "2854EB5AD76019A3"
@@ -1439,8 +1363,8 @@
 				type: "checkmark"
 			}]
 			title: "&dGambling&r &aActivator"
-			x: -6.0d
-			y: -5.5d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -1465,7 +1389,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1475,8 +1399,8 @@
 				type: "item"
 			}]
 			title: "-&aLow risk-"
-			x: -6.5d
-			y: -3.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1500,7 +1424,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1510,8 +1434,8 @@
 				type: "item"
 			}]
 			title: "-&eMedium Risk-"
-			x: -5.5d
-			y: -3.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1535,7 +1459,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1545,8 +1469,8 @@
 				type: "item"
 			}]
 			title: "-&6High Risk&r-"
-			x: -6.5d
-			y: -4.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1570,7 +1494,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Submit the dices to proceed."
 			tasks: [{
 				consume_items: true
@@ -1580,147 +1504,22 @@
 				type: "item"
 			}]
 			title: "-&cSUPER RISK&r-"
-			x: -5.5d
-			y: -4.0d
-		}
-		{
-			disable_toast: true
-			id: "7815ABBBFED86482"
-			rewards: [{
-				auto: "enabled"
-				command: "/clear @p"
-				elevate_perms: true
-				id: "25FE02976C74384C"
-				silent: true
-				type: "command"
-			}]
-			size: 1.0d
-			subtitle: "background stuff"
-			tasks: [{
-				elapsedTime: 3L
-				id: "1C500F8A4BA14B7E"
-				title: "INVCLEANER"
-				type: "questsadditions:time"
-			}]
-			title: "inventory cleaner"
-			x: 1.0d
-			y: 37.0d
-		}
-		{
-			dependencies: ["2EAC826E47A3A682"]
-			id: "0DFE0B1CB1D8C4C1"
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "1E3AA2801A3D9DBF"
-				item: "weapon:vajraironingot"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["0DFE0B1CB1D8C4C1"]
-			id: "325F688783045519"
-			shape: "square"
-			size: 1.0d
-			subtitle: "Fancy"
-			tasks: [
-				{
-					id: "084CE9B12BC1C569"
-					item: {
-						Count: 1
-						id: "weapon:swordcaneb"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F8939FBDE7E0563"
-					item: "weapon:swordcanes"
-					type: "item"
-				}
-			]
-			title: "Sword Cane"
-			x: -8.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["25326B961DE6B5EA"]
-			id: "08513E13E71CD88C"
-			shape: "netheritetier"
-			size: 1.0d
-			subtitle: "Might disappoint"
-			tasks: [{
-				id: "780ED37AFDF3D989"
-				item: {
-					Count: 1
-					id: "weapon:magicgun"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["25326B961DE6B5EA"]
-			id: "3922CCF2B3C24565"
-			shape: "netheritetier"
-			size: 1.0d
-			subtitle: "Shoulder bash so hard"
-			tasks: [{
-				id: "5DA9A7479666B765"
-				item: {
-					Count: 1
-					id: "weapon:magicsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["338DD0DDABBF130D"]
-			id: "6AEBC2C694F127F5"
-			shape: "netheritetier"
-			size: 1.0d
-			subtitle: "Parrying?!?!"
-			tasks: [
-				{
-					id: "294DC93BAFE11360"
-					item: {
-						Count: 1
-						id: "weapon:iaikatanak"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7D0EFE5A54A8A74E"
-					item: "weapon:iaikatanas"
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: -9.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19F19149E61D93AD"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "endrem:item/magical_eye"
+				}
+			}
 			id: "35DDA00473CAD95A"
-			shape: "diamond"
-			size: 1.0d
-			tasks: [{
-				id: "7FA30093088548D6"
+			optional: true
+			rewards: [{
+				id: "796DDDA6765EDF19"
 				item: {
 					Count: 1
 					id: "endrem:magical_eye"
@@ -1730,16 +1529,32 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7F85428D7D743119"
+				item: { Count: 2, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "&bMagical Eye"
+			x: 5.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["19F19149E61D93AD"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "endrem:item/cryptic_eye"
+				}
+			}
 			id: "28BC42C468822F49"
-			shape: "diamond"
-			size: 1.0d
-			tasks: [{
-				id: "693E6A8F2827609D"
+			optional: true
+			rewards: [{
+				id: "48D8AF92BF6616AD"
 				item: {
 					Count: 1
 					id: "endrem:cryptic_eye"
@@ -1749,7 +1564,17 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "691A6B7F609852F3"
+				item: { Count: 2, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "&dCryptic Eye"
+			x: 5.5d
 			y: -9.0d
 		}
 		{
@@ -1777,8 +1602,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.25d
+			shape: "none"
+			size: 1.0d
 			subtitle: "&8[Click to read]"
 			tasks: [
 				{
@@ -1794,51 +1619,1235 @@
 				}
 			]
 			title: "Undergarden!"
-			x: -4.0d
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5D3E8E9BCD0A9935"]
+			id: "4EF54E009E9B845A"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &firon&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "59F5309E52BB1952"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:iron_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -10.8d
+			y: -12.4d
+		}
+		{
+			dependencies: ["7D0C439E5D207DDE"]
+			id: "4ACDD865686A7489"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &egolden&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "7F1DED289482915F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:golden_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -8.8d
+			y: -12.8d
+		}
+		{
+			dependencies: ["4F34F740CD095315"]
+			id: "0C299EC24B475F74"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &aemerald&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "2F69731528083E3F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:emerald_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -5.6d
+			y: -12.4d
+		}
+		{
+			dependencies: ["2EAC826E47A3A682"]
+			id: "5A6FA10321E5F644"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &bdiamond&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "5F0FC3382B35F424"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:diamond_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -5.5d
 			y: -10.5d
 		}
 		{
-			id: "65447435305B2B2B"
-			ignore_reward_blocking: true
+			dependencies: ["297F31BB6030C00F"]
+			id: "4193DE39BA903063"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &8netherite&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "5DA075C25E4A93A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:netherite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["231B06216159E95A"]
+			id: "5AAB57B3BC5BCB6F"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &6elvenite&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "0918F1CE29BDA955"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:elvenite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E97AB0CAB1A3763"]
+			id: "0AC862963205C762"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &dvoiderite&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "7ADB5B200AAB9388"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:voiderite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -4.8d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			id: "361AC6FC1B84C08C"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &cbloody&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "6F0E49E370FE6A45"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bloody_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["647CCE4CA1600E21"]
+			id: "1A27B4B467036C7C"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &e&l&ohe&r&6&l&oli&r&e&l&oon&r&6&l&oite&r tools. To see all of them, click on the item icon."
+			tasks: [{
+				id: "45F1E54849ACD54E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:helionite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons Unlocked"
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D3E8E9BCD0A9935"]
+			id: "0EA8DDB858E0594D"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &firon&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "003B055015D846FB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:iron_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -11.6d
+			y: -12.8d
+		}
+		{
+			dependencies: ["7D0C439E5D207DDE"]
+			id: "7649983C6DC1149B"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &egolden&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "3BD44D6D390DCF4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:golden_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -8.0d
+			y: -12.4d
+		}
+		{
+			dependencies: ["4F34F740CD095315"]
+			id: "0157136D6ADE6B49"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &aemerald&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "4699687C8BCE29E5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:emerald_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -6.4d
+			y: -12.8d
+		}
+		{
+			dependencies: ["2EAC826E47A3A682"]
+			id: "4F4AB2978390ED1A"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &bdiamond&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "27A08B5F5918484A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:diamond_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["297F31BB6030C00F"]
+			id: "345C9D25CEDF92E3"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &8netherite&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "25C2E78F025A431C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:netherite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["231B06216159E95A"]
+			id: "14F57F76AFFA764C"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &6elvenite&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "3DB6F2F58686870E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:elvenite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E97AB0CAB1A3763"]
+			id: "0D67C763540ADF60"
+			optional: true
+			size: 0.8d
+			subtitle: "You have unlocked &dvoiderite&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "233E5F573ED06B36"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:voiderite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			id: "679AAAB24CD1920D"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &cbloody&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "277522098B7222A0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bloody_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["647CCE4CA1600E21"]
+			id: "3B166461C373C0AF"
+			optional: true
+			size: 1.0d
+			subtitle: "You have unlocked &e&l&ohe&r&6&l&oli&r&e&l&oon&r&6&l&oite&r armors. To see all of them, click on the item icon."
+			tasks: [{
+				id: "5A1312AC275743C5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:helionite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "Armors Unlocked"
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"The bosses that lie ahead are tougher than what they were before, you must act with wisdom and prudence with how you would take these fights, for they require patience and careful judgement for strategies."
+				""
+				"Progress through the bosses, and  read through the guidance that lies ahead."
+			]
+			hide_until_deps_complete: true
+			icon: "covenant_of_the_seven:virtue_ring"
+			id: "757965585FCEB233"
+			invisible: true
+			min_required_dependencies: 2
+			rewards: [{
+				count: 5
+				id: "4A51F8A13F25747C"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			subtitle: "Will your fortitude be enough?"
+			tasks: [{
+				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
+				criterion: ""
+				id: "79EE1D2CDE800435"
+				type: "advancement"
+			}]
+			title: "Virtues Ring Users"
+			x: -11.7d
+			y: -15.299999999999999d
+		}
+		{
+			description: [
+				"Bosses will not be tougher and cannot just be speedrun without proper armor, relics, and gear, are you up for the challenge? "
+				""
+				"Progress through the bosses and read every single mechanics that lies ahead."
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "69CDDA76E83AA65F"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "4ACFA1934DD355BA"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			subtitle: "So you have chosen to suffer."
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "07E6022F6591E66C"
+				type: "advancement"
+			}]
+			title: "Cursed Ring Users"
+			x: -9.45d
+			y: -15.299999999999999d
+		}
+		{
+			dependencies: [
+				"757965585FCEB233"
+				"5D3E8E9BCD0A9935"
+			]
+			description: [
+				"The first obstacle requires courage and strategic methods."
+				""
+				"Since you are &4forbidden&r to use the melee weaponry that the cursed ones possess, rely on thy world's &2companions&r, &1&dsorcery&r&r, and the path of the hunt, perhaps archery could be your best friend."
+			]
+			icon: "natures_spirit:aspen_sign"
+			id: "09D823B344678751"
+			rewards: [{
+				id: "689BEDB88C7E4CEC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "The first obstacle, lies ahead."
+			tasks: [{
+				id: "75E350E30FDE0B74"
+				type: "checkmark"
+			}]
+			title: "Genesis"
+			x: -11.549999999999999d
+			y: -14.35d
+		}
+		{
+			dependencies: [
+				"69CDDA76E83AA65F"
+				"5D3E8E9BCD0A9935"
+			]
+			description: [
+				"This tests your strength and thinking on how you'd tackle this boss. "
+				""
+				"Find relics of the past that helps you survive the pain inflicted by everything near you. "
+				""
+				"Especially those that &amitigate&r the pain, will definitely help."
+				""
+				"&dMagical books&r with powers that enhance your tools, and gear will also help you tackle on challenges further."
+			]
+			icon: "goety:haunted_sign"
+			id: "09120F171B0626F2"
+			rewards: [{
+				id: "32276284F991969D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "The first challenge, lies ahead."
+			tasks: [{
+				id: "2CCAAEB9D3A0725E"
+				type: "checkmark"
+			}]
+			title: "The impending doom starts."
+			x: -9.799999999999999d
+			y: -14.35d
+		}
+		{
+			dependencies: [
+				"09120F171B0626F2"
+				"7D0C439E5D207DDE"
+			]
+			description: [
+				"The challenge itself will require a choice of priorities."
+				""
+				"Will you attack the opponent until his servants appear, or will you keep attacking him without &cfear&r?"
+				""
+				"Remember, &4these servants of his are more of a threat than the boss itself&r, choose your focus wisey."
+				""
+				"Your choice, the consequences lies ahead for every wrong decision."
+			]
+			icon: "supplementaries:goety/sign_post_haunted"
+			id: "23B4C927EB742384"
+			rewards: [{
+				id: "579CF6D6AD7EBCE3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "The agony, resumes for a second time."
+			tasks: [{
+				id: "4F3154A23AF571C5"
+				type: "checkmark"
+			}]
+			title: "The suffering goes on."
+			x: -7.7d
+			y: -14.35d
+		}
+		{
+			dependencies: [
+				"09D823B344678751"
+				"7D0C439E5D207DDE"
+			]
+			description: [
+				"This time, the obstacle you'll face is a tougher opponent, capable of inflicting distracting  effects that will make this journey difficult, avoid those,  and you will easily triumph through."
+				""
+				"Perhaps the &2bow of the ancient sage&r may help you the most with this task, although you can resort to using your &4pure brute strength&r, or &eother methods &rthat the virtues path provides."
+				""
+				"This obstacle will test your wisdom of knowing which one to prioritize, the bigger one? or its summon instead?"
+			]
+			hide_dependency_lines: true
+			icon: "supplementaries:natures_spirit/sign_post_aspen"
+			id: "1C546D49239E73BA"
+			rewards: [{
+				id: "75913BAFB6B65694"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "The expedition, continues"
+			tasks: [{
+				id: "42424762C5F59992"
+				type: "checkmark"
+			}]
+			title: "Courage, should be shown."
+			x: -8.4d
+			y: -14.35d
+		}
+		{
+			dependencies: [
+				"1C546D49239E73BA"
+				"4F34F740CD095315"
+			]
+			description: [
+				"For those who pursue the path of virtues, the relic of the&e annointed handward&r will now be accessible for players to get, improving strength further, and at the same time promoting the use of tougher protecton for thyself to gain power."
+				""
+				"But the choice is still up to the user, whether to stick with &ecompanions&r, &1sorcery&r, &6pure strength&r, &barchery&r, or any methods."
+			]
+			hide_dependency_lines: true
+			icon: "covenant_of_the_seven:holy_essence"
+			id: "69A33780D2B0CA64"
+			rewards: [{
+				id: "2A17FA5C32E3F10B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "The journey moves on!"
+			tasks: [{
+				id: "129A40092179BD9D"
+				type: "checkmark"
+			}]
+			title: "Patience, is a virtue."
+			x: -4.8999999999999995d
+			y: -14.35d
+		}
+		{
+			dependencies: [
+				"23B4C927EB742384"
+				"4F34F740CD095315"
+			]
+			description: [
+				"The opponent before you has strong &4malicious&r intent."
+				""
+				"You shall proceed to be &4cautious&r, and prepare yourself for the worst."
+				" "
+				"Use your &aexperience&r to your advantage to obtain the most unrivaled &dmagic augmentations&r to your equipments."
+				""
+				"Obtain the best &eartifacts&r that you could find to help you survive."
+				""
+				"Beware of the dangers that the &esecond coming&r of the obstacle has, observe with your keen eyes and you shall see the dangers."
+			]
+			icon: "enigmaticlegacy:evil_essence"
+			id: "4D17B764CDE93844"
+			rewards: [{
+				id: "1154E47AD4C75AD4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "Malice, strikes in the third challenge."
+			tasks: [{
+				id: "21AFA0867AE5BB05"
+				type: "checkmark"
+			}]
+			title: "Malice strikes."
+			x: -4.2d
+			y: -14.35d
+		}
+		{
+			dependencies: [
+				"69A33780D2B0CA64"
+				"2EAC826E47A3A682"
+			]
+			description: [
+				"Fighting against one of the overworld's greatest, the ancient one."
+				""
+				"With enough strength, and keen judgement of which to prioritize, and evade, you will be able to easily triumph through."
+				""
+				"Use what you've learned in your previous experiences, and it shall end up in the same result."
+			]
+			icon: "covenant_of_the_seven:sacred_ingot"
+			id: "1BE503F8BE00138A"
+			rewards: [{
+				count: 2
+				id: "20315679516EB0E1"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "All of thy preparation, has come to this moment."
+			tasks: [{
+				id: "183E0A2570B5E730"
+				type: "checkmark"
+			}]
+			title: "The test of thy strength"
+			x: -3.5d
+			y: -11.2d
+		}
+		{
+			dependencies: [
+				"4D17B764CDE93844"
+				"2EAC826E47A3A682"
+			]
+			description: [
+				"Now that you've fought some of the tough challenges, are you ready to fight someone from the ancient times?"
+				""
+				"Has your observation and thought process improved?"
+				""
+				"Fighting one of the ancients will test out what you've learned so far."
+				""
+				"&4Avoid the trouble that comes from him and his harbingers&r, and you'll see yourself succeeding through."
+				""
+				"Lets put that to the test, shall we?"
+			]
+			icon: "enigmaticlegacy:evil_ingot"
+			id: "1D3C73CC5BDBC847"
+			rewards: [{
+				count: 2
+				id: "3579ACC4706993B2"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "A price to pay."
+			tasks: [{
+				id: "4D91E74D5DF179C1"
+				type: "checkmark"
+			}]
+			title: "Toll of the cursed."
+			x: -2.8d
+			y: -11.2d
+		}
+		{
+			dependencies: [
+				"1BE503F8BE00138A"
+				"177DFA9CBE995173"
+			]
+			description: [
+				"By unlocking the realm of hell, this gives a lot of opportunities for the followers of virtues to gain &2strength&r."
+				""
+				"&dNew&r artifacts can be discovered, and utilized to their fullest extent. "
+				""
+				"New powerful artifacts from virtue users are unlocked, &ethe eye that can see everything&r from within, and &emnestia's raiment&r are now possible to be obtained."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:poppy"
+			id: "77CD0120B138D317"
+			rewards: [{
+				count: 5
+				id: "57E416A55BCCA29F"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "Thy strength is growing, bit by bit."
+			tasks: [
+				{
+					id: "430D6656E55531BA"
+					type: "checkmark"
+				}
+				{
+					advancement: "armageddon_mod:overworld_conqueror"
+					criterion: ""
+					id: "35D46730BD3AA97A"
+					type: "advancement"
+				}
+			]
+			title: "The slow resonance to the light."
+			x: 0.35d
+			y: -11.2d
+		}
+		{
+			dependencies: [
+				"1D3C73CC5BDBC847"
+				"177DFA9CBE995173"
+			]
+			description: [
+				"The realm of &4hell&r, a place that shouldn't suprise you at all."
+				""
+				"This welcomes you to &anew artifacts&r that you can fully use to prevent the agony from slowly devouring you. "
+				""
+				"This should also serve as a time for you to fully strengthen up to the true test."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:wither_rose"
+			id: "3CBFE187EE7EB1A9"
+			rewards: [{
+				count: 5
+				id: "28999E3C11A8426D"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "You have sunken deeper in the abyss."
+			tasks: [
+				{
+					id: "626D1BFC2F577215"
+					type: "checkmark"
+				}
+				{
+					advancement: "armageddon_mod:overworld_conqueror"
+					criterion: ""
+					id: "0016BDA8FD3492C3"
+					type: "advancement"
+				}
+			]
+			title: "To the depths of hell we go."
+			x: 1.05d
+			y: -11.2d
+		}
+		{
+			dependencies: [
+				"2B69C369F7D0B25C"
+				"77CD0120B138D317"
+			]
+			description: [
+				"You have finally &2ascended&r and obtained what you should have from the beginning. "
+				""
+				"You displayed each traits and values that represents virtues."
+				""
+				"From now on you should walk your own path and take control of your actions without guidance, you are now in control."
+				""
+				"Should you ever be misguided, or unable to find the path ahead, remember these &eimportant&r artifacts:"
+				""
+				"&6- The scroll that contains a thousand virtues.&r"
+				""
+				"&e- The insignia of lightforged benediction.&r"
+				""
+				"&e- The pearl of potioneers.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "covenant_of_the_seven:the_aeternum"
+			id: "5DFA8A8CFACBFE3D"
+			rewards: [{
+				id: "561CA9C0288DA6C8"
+				item: "covenant_of_the_seven:holy_essence"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "Is this heaven?"
+			tasks: [{
+				id: "69F6046BE7854DF8"
+				type: "checkmark"
+			}]
+			title: "The ascension."
+			x: -1.75d
+			y: -7.7d
+		}
+		{
+			dependencies: [
+				"3CBFE187EE7EB1A9"
+				"2B69C369F7D0B25C"
+			]
+			description: [
+				"The deepest of the abyss is unreachable, you are now traversing through these challenges alone."
+				""
+				"&2Trust your abilities, and use what you've learned&r, and you'll thread your path forward."
+				""
+				"&eTake note of these certain powerful artifacts as they will be useful in your future journey if you find yourself lost.&r"
+				""
+				"&b- The core that seeps etherium from within&r"
+				""
+				"&f- The heart of the fossil taken down, caged heart.&r"
+				"&1"
+				"- The pact, with the eternal dark night.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "enigmaticlegacy:the_infinitum"
+			id: "6C86FCEA2AA02167"
+			rewards: [{
+				id: "13C6F24FDBF3893A"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "You have finally descended in the deepest pits."
+			tasks: [{
+				id: "4820E7E151B546EC"
+				type: "checkmark"
+			}]
+			title: "The Abyss."
+			x: -1.05d
+			y: -7.7d
+		}
+		{
+			dependencies: [
+				"231B06216159E95A"
+				"4E97AB0CAB1A3763"
+			]
+			description: [
+				"DO NOT OVER ENCHANT YOUR GEAR."
+				""
+				"He has &dReprint&r, check out L2 Hostility Questline Legendary traits for more information."
+				""
+				"If you use the enchant &2insulator&r, maybe you wont get pulled afterall."
+				""
+				"BUUUTTT If you wanna freestyle it, then go for it! Use the &apulling&r trait to your advantage."
+				""
+				"Incarceration effect can also be your bestfriend, keeping him in place, perhaps theres a &4ring&r, or &4potion effect&r that applies this."
+			]
+			icon: "createstockbridge:request_pattern"
+			id: "41964C08E1EA199E"
+			rewards: [{
+				id: "2A534E9176799A38"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "Maybe that red sign got your attention."
+			tasks: [{
+				id: "35328A6B768C7B6F"
+				type: "checkmark"
+			}]
+			title: "Do's and Dont's"
+			x: -3.5d
+			y: -5.95d
+		}
+		{
+			dependencies: ["338DD0DDABBF130D"]
+			description: [
+				"&4DO NOT&r spawn this boss near your base, spawn it farther."
+				""
+				"&eI warned you.&r"
+				""
+				"&nBring an elytra with you&r, especially for 2nd phase. "
+				""
+				"You've seen this before, its nothing new."
+				""
+				"Read through the traits, my friend."
+			]
+			icon: "createstockbridge:request_pattern"
+			id: "2222AD8D5BEBDC96"
+			rewards: [{
+				id: "03D3C23120240E85"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.7d
+			subtitle: "2nd times the charm, read this!"
+			tasks: [{
+				id: "4743BC92D23FDE01"
+				type: "checkmark"
+			}]
+			title: "READ MEEE"
+			x: -7.0d
+			y: -5.95d
+		}
+		{
+			dependencies: ["4BFFC4F93792C4F7"]
+			description: ["This monster will make sure you are &cconstantly eating&r and refilling your hunger bar, being able to &4inflict&r back damage to you and hitting you back with every hit, becareful."]
+			icon: "thermal:potion_cake"
+			id: "2FC648D9011BC621"
+			rewards: [{
+				id: "6A04451404A7A9FF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 0.8d
+			subtitle: "The hunger."
+			tasks: [{
+				id: "14D49FBEA6F01CC8"
+				type: "checkmark"
+			}]
+			title: "Famine"
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BFFC4F93792C4F7"]
+			description: [
+				"Do not summon near spawn."
+				""
+				"Will be unseen to the common folks eye, perhaps it might need a &8L2 detector&r of some kind. "
+				"Getting hit by this boss meant &dyour enchants are able to get sealed.&r "
+				""
+				"&4&lPerhaps you should check the questline out.&r&4&r"
+			]
+			icon: "soulsweapons:chaos_orb"
+			id: "3F362F1039C60545"
+			rewards: [{
+				id: "0891E59F3A2B62E8"
+				type: "xp"
+				xp: 100
+			}]
+			size: 0.8d
+			subtitle: "Destruction."
+			tasks: [{
+				id: "3622D87298016559"
+				type: "checkmark"
+			}]
+			title: "Chaos."
+			x: -10.4d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BFFC4F93792C4F7"]
+			description: [
+				"The boss is capable of duplicating itself, alongside its summons. "
+				""
+				"Be weary as it also has &ddispell&r, which means if you do get cornered, your enchants will easily get sealed one by one."
+				""
+				"Perhaps a certain &aenchant&r can help supress this boss from &asplitting&r?"
+			]
+			icon: {
+				Count: 1
+				id: "goety_revelation:disc_arch_illager_remix"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "638BAC3C7A19961B"
+			rewards: [{
+				id: "0FA611FF65A7796D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 0.8d
+			subtitle: "No bro, not the app."
+			tasks: [{
+				id: "3220853A26CEE64F"
+				type: "checkmark"
+			}]
+			title: "Discord"
+			x: -10.8d
+			y: -7.2d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			description: [
+				"The 2nd phase is &6tougher&r than it seems. "
+				""
+				"Be careful of his blood aura, since every hit you take may &5disable &rany of your enchants, bypassing your protection enchants."
+				""
+				"Take on this battle carefully, and &4time&r your hits."
+			]
+			icon: "immersive_weathering:animus/blood_leaf_pile"
+			id: "0D90EED080E71C74"
+			rewards: [{
+				id: "6B81EDDE72F22C26"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 0.8d
+			subtitle: "Blood, huh?"
+			tasks: [{
+				id: "2F00DDB8E198E72D"
+				type: "checkmark"
+			}]
+			title: "Blood Aura"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["231B06216159E95A"]
+			description: [
+				"Crafted with one of the most toughest materials, elvenite, this is capable of tanking a hit for you, making sure you dont get one shotted by opponents anytime."
+				""
+				"(Only applies if you're above 80% hp)"
+			]
+			id: "41BD6AB08A6B8086"
+			rewards: [{
+				id: "3A2E5B05AA581580"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "The ring for vitality"
+			tasks: [{
+				id: "6ABC1C7F5B376DE3"
+				item: "l2hostility:ring_of_life"
+				type: "item"
+			}]
+			x: -2.8d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4E97AB0CAB1A3763"]
+			description: [
+				"Gives you 2 head slots, helps with sustain and more build choices. "
+				""
+				"Definitely cool looking, really expensive though."
+			]
+			id: "053C19D5C5DDF641"
+			shape: "gear"
+			size: 0.8d
+			subtitle: "Voiderite and Etherium made."
+			tasks: [{
+				id: "3FCEE07FE745D8AC"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			description: [
+				"A charm that restores sealed items (stackable), now where would you need this for?"
+				""
+				"I wonder where."
+			]
+			id: "2A6C2BA17A6A7D7E"
+			rewards: [{
+				id: "18BF437D29270391"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "Perhaps this will help."
+			tasks: [{
+				id: "4C68BEC77E00C5BA"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.4d
+			y: -6.0d
+		}
+		{
+			dependencies: ["647CCE4CA1600E21"]
+			description: [
+				"Pierces through any armor, works for both magic and physical."
+				""
+				"Will be useful in any scenario."
+				""
+				"It wont drop hostility loot though."
+				""
+				"Do i gotta say much?"
+			]
+			id: "2BD02C0C0DD76A55"
+			rewards: [{
+				id: "2D3DC44C503D20AD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "The power of zoranth himself."
+			tasks: [{
+				id: "64EE1CFDA25F75B0"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			description: [
+				"A cape that increases back slots. "
+				""
+				"Perhaps wonder of you, shieldweave, and majestic elytra can all come together now. "
+				""
+				"Maybe useful for the future fights."
+			]
+			id: "6E7951BFBA34A81C"
+			rewards: [{
+				id: "588570E52DB7DBD4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "Good looking cape ngl"
+			tasks: [{
+				id: "30EA9A8902822F37"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["177DFA9CBE995173"]
+			description: [
+				"&4Negates healing&r when obtained, could be converted into splash potions, or arrows."
+				""
+				"Melee weapons have an enchant that applies cursed as well called &6Cursed Blade&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "l2complements:curse"
+				}
+			}
+			id: "1ABCE51A1920577C"
 			rewards: [
 				{
-					auto: "enabled"
-					id: "40373C8D5DE5D36E"
-					item: "ftbquests:book"
-					only_one: true
-					type: "item"
+					id: "1E2E7567C1F7130B"
+					type: "xp"
+					xp: 100
 				}
 				{
-					auto: "enabled"
-					id: "28BB93D2F3F6D09E"
-					item: "enigmaticlegacy:cursed_ring"
-					only_one: true
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "40A05B8E06B94F3E"
-					item: "covenant_of_the_seven:virtue_ring"
-					only_one: true
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "6C95ABE504F26F79"
-					item: "enigmaticlegacy:unwitnessed_amulet"
-					only_one: true
+					id: "591E817B540B1B8F"
+					item: "l2complements:cursed_droplet"
 					type: "item"
 				}
 			]
-			subtitle: "background stuff"
+			size: 0.7d
+			subtitle: "Corrupt."
 			tasks: [{
-				elapsedTime: 8L
-				id: "63D26F1794A569FE"
-				type: "questsadditions:time"
+				id: "53E05D62CE197120"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "l2complements:curse"
+					}
+				}
+				type: "item"
 			}]
-			title: "item giver"
-			x: 2.0d
-			y: 37.0d
+			title: "Cursed"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["177DFA9CBE995173"]
+			description: [
+				"This makes you &eimmune&r to some negative effects, but not effects caused by &4bosses&r, or other &4special debuff&r. "
+				""
+				"You're also &4immune to positive effects&r, with &eabsorption&r and &4regeneration&r being an exception."
+				""
+				"Use it whenever you find yourself trapped in potion effects."
+			]
+			id: "0F69D3A906404B30"
+			rewards: [
+				{
+					id: "1C41051EA211683C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "59006CBA3E39480A"
+					item: "l2complements:life_essence"
+					type: "item"
+				}
+			]
+			size: 0.7d
+			subtitle: "Purity."
+			tasks: [{
+				id: "0C7ED12EA8ECA5EB"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "l2complements:cleanse"
+					}
+				}
+				type: "item"
+			}]
+			title: "Cleanse"
+			x: -1.5d
+			y: -11.0d
 		}
 	]
 	title: "Main Progression"

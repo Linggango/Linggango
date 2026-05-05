@@ -1,0 +1,112 @@
+{
+  "biomeMap": {},
+  "levelDefaultTraits": {
+    "minecraft:the_nether": [
+      {
+        "attackScale": 1.0,
+        "blacklist": [],
+        "difficulty": {
+          "apply_chance": 1.0,
+          "base": 10,
+          "min": 0,
+          "scale": 0.0,
+          "suppression": 0.0,
+          "trait_chance": 1.0,
+          "variation": 0.0
+        },
+        "entities": [
+          "minecraft:zombie"
+        ],
+        "healthScale": 1.0,
+        "items": [],
+        "maxLevel": 0,
+        "maxTraitCount": -1,
+        "minSpawnLevel": 0,
+        "specialConditions": [],
+        "traits": [
+          {
+            "cap": false,
+            "free": 1,
+            "min": 1,
+            "trait": "l2hostility:tank"
+          }
+        ]
+      },
+      {
+        "attackScale": 1.0,
+        "blacklist": [],
+        "difficulty": {
+          "apply_chance": 1.0,
+          "base": 10,
+          "min": 0,
+          "scale": 0.0,
+          "suppression": 0.0,
+          "trait_chance": 1.0,
+          "variation": 0.0
+        },
+        "entities": [
+          "minecraft:skeleton"
+        ],
+        "healthScale": 1.0,
+        "items": [],
+        "maxLevel": 0,
+        "maxTraitCount": -1,
+        "minSpawnLevel": 0,
+        "specialConditions": [],
+        "traits": [
+          {
+            "cap": false,
+            "free": 1,
+            "min": 1,
+            "trait": "l2hostility:speedy"
+          }
+        ]
+      }
+    ]
+  },
+  "levelMap": {
+    "minecraft:the_nether": {
+      "apply_chance": 1.0,
+      "base": 20,
+      "min": 0,
+      "scale": 1.2,
+      "suppression": 0.0,
+      "trait_chance": 1.0,
+      "variation": 9.0
+    }
+  },
+  "structureDefaultTraits": {
+    "minecraft:bastion_remnant": [
+      {
+        "attackScale": 1.0,
+        "blacklist": [],
+        "difficulty": {
+          "apply_chance": 1.0,
+          "base": 20,
+          "min": 0,
+          "scale": 0.0,
+          "suppression": 0.0,
+          "trait_chance": 1.0,
+          "variation": 0.0
+        },
+        "entities": [
+          "minecraft:piglin"
+        ],
+        "healthScale": 1.0,
+        "items": [],
+        "maxLevel": 0,
+        "maxTraitCount": -1,
+        "minSpawnLevel": 0,
+        "specialConditions": [],
+        "traits": [
+          {
+            "cap": false,
+            "free": 1,
+            "min": 1,
+            "trait": "l2hostility:protection"
+          }
+        ]
+      }
+    ]
+  }
+}

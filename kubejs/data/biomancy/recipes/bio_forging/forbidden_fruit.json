@@ -1,0 +1,26 @@
+{
+  "type": "biomancy:bio_forging",
+  "bio_forge_tab": "biomancy:misc",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    {
+      "item": "armageddon_mod:shadow_fragment"
+    },
+    {
+      "item": "alexscaves:darkened_apple"
+    },
+    {
+      "item": "armageddon_mod:shadow_fragment"
+    },
+    {
+      "item": "forbidden_arcanus:dark_matter"
+    }
+  ],
+  "nutrientsCost": 998,
+  "result": {
+    "count": 2,
+    "item": "enigmaticlegacy:forbidden_fruit"
+  }
+}

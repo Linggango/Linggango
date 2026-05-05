@@ -1,0 +1,254 @@
+
+{
+  "l2complements:shulkerate_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0042-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0042-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.20,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0042-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0042-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.50,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0042-4100-8000-000000000005"
+    }
+  ],
+  "l2complements:shulkerate_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0043-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0043-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.20,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0043-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0043-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.50,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0043-4100-8000-000000000005"
+    }
+  ],
+  "l2complements:shulkerate_legings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0044-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0044-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.20,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0044-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0044-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.50,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0044-4100-8000-000000000005"
+    }
+  ],
+  "l2complements:shulkerate_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0045-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0045-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.20,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0045-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -4.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0045-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 0.50,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0045-4100-8000-000000000005"
+    }
+  ],
+  "l2complements:sculkium_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0032-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": -0.80,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0032-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0032-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.06,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0032-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0032-4100-8000-000000000005"
+    }
+  ],
+  "l2complements:sculkium_chestplate": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": -0.80,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0033-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.03,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0033-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0033-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.06,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0033-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0033-4100-8000-000000000005"
+    }
+  ],
+  "l2complements:sculkium_leggings": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": -0.80,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0034-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0034-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.06,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0034-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.06,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0034-4100-8000-000000000004"
+    }
+  ],
+  "l2complements:sculkium_boots": [
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": -0.80,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0035-4100-8000-000000000001"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": -1.0,
+      "operation": "ADDITION",
+      "uuid": "1e791b92-0035-4100-8000-000000000002"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0035-4100-8000-000000000003"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.06,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0035-4100-8000-000000000004"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.06,
+      "operation": "MULTIPLY_BASE",
+      "uuid": "1e791b92-0035-4100-8000-000000000005"
+    }
+  ]
+
+}
